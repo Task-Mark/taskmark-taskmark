@@ -20,10 +20,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, tasks, stories]
 created: 2026-07-21
-updated: 2026-07-21T23:26:35Z
+updated: 2026-07-21T23:50:12Z
 started_at: 2026-07-21T18:00:53Z
 completed_at: 2026-07-21T18:02:46Z
 ---
+
 # S-006: Task list for selected story
 
 ## User story

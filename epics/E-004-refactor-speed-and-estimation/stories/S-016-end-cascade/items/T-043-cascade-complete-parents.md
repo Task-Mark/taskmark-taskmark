@@ -20,11 +20,10 @@ blocked: false
 cancelled: false
 tags: [complete-work, cascade, status]
 created: 2026-07-21
-updated: 2026-07-21T23:26:35Z
+updated: 2026-07-21T23:50:12Z
 started_at: 2026-07-21T22:19:27Z
 completed_at: 2026-07-21T23:07:27Z
 ---
-
 # T-043: Cascade complete parents when last child ends
 
 ## Description

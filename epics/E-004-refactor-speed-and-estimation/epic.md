@@ -20,10 +20,11 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation, effort, plugin, conventions]
 created: 2026-07-21
-updated: 2026-07-21T23:27:54Z
+updated: 2026-07-21T23:50:12Z
 started_at: 2026-07-21T23:05:18Z
 completed_at: 2026-07-21T23:07:27Z
 ---
+
 # E-004: Refactor speed and estimation
 
 ## Goal

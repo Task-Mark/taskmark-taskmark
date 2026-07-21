@@ -20,11 +20,10 @@ blocked: false
 cancelled: false
 tags: [mvp, app-bar, setup]
 created: 2026-07-21
-updated: 2026-07-21T23:26:35Z
+updated: 2026-07-21T23:50:12Z
 started_at: 2026-07-21T17:05:52Z
 completed_at: 2026-07-21T17:05:52Z
 ---
-
 # S-004: Add project accumulates workspaces
 
 ## User story

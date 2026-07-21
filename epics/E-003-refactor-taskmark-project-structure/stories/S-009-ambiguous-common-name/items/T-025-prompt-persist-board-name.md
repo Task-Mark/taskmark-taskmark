@@ -20,11 +20,10 @@ blocked: false
 cancelled: false
 tags: [multi-repo, naming, ux]
 created: 2026-07-21
-updated: 2026-07-21T23:26:35Z
+updated: 2026-07-21T23:50:12Z
 started_at: 2026-07-21T22:04:51Z
 completed_at: 2026-07-21T22:36:51Z
 ---
-
 # T-025: Prompt user and persist board project name
 
 ## Description

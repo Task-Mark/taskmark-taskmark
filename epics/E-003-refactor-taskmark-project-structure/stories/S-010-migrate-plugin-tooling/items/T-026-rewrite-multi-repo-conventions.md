@@ -20,11 +20,10 @@ blocked: false
 cancelled: false
 tags: [plugin, conventions, docs]
 created: 2026-07-21
-updated: 2026-07-21T23:26:35Z
+updated: 2026-07-21T23:50:12Z
 started_at: 2026-07-21T21:48:51Z
 completed_at: 2026-07-21T22:36:51Z
 ---
-
 # T-026: Rewrite multi-repo conventions and rule
 
 ## Description
