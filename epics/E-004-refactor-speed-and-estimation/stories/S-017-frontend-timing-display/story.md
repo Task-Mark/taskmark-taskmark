@@ -5,13 +5,13 @@ title: Frontend timing display for estimate and actual
 status: done
 priority: high
 size: M
-size_source: suggested
-size_basis: [T-045, T-046, T-047]
+size_source: rolled_up
+size_basis: [sum:tasks]
 points: 5
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 256
 actual_minutes: 0
-estimate_basis: [T-045, T-046, T-047]
+estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-004
 epic: E-004
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [frontend, estimation, actual, effort]
 created: 2026-07-21
-updated: 2026-07-21T23:02:48Z
+updated: 2026-07-21T23:18:07Z
 started_at: 2026-07-21T23:00:19Z
 completed_at: 2026-07-21T23:01:18Z
 ---

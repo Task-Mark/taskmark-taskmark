@@ -2,7 +2,7 @@
 id: T-036
 type: task
 title: Optionally refresh open estimates when velocity updates
-status: backlog
+status: done
 priority: high
 size: M
 size_source: suggested
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [estimation, create, velocity]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
-completed_at: null
+completed_at: 2026-07-21T23:07:27Z
 ---
 # T-036: Optionally refresh open estimates when velocity updates
 
@@ -32,8 +32,8 @@ On sync/calibrate, update suggested (non-manual) open-item estimates from latest
 
 ## Acceptance criteria
 
-- [ ] Manual estimate_source not overwritten.
-- [ ] Suggested estimates can refresh on sync.
+- [x] Manual estimate_source not overwritten.
+- [x] Suggested estimates can refresh on sync.
 
 ## Notes
 
@@ -42,6 +42,7 @@ On sync/calibrate, update suggested (non-manual) open-item estimates from latest
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 

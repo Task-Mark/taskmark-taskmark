@@ -2,16 +2,16 @@
 id: S-014
 type: story
 title: Actual time from start to complete
-status: backlog
+status: done
 priority: high
 size: L
-size_source: suggested
-size_basis: [T-037, T-038, T-039]
+size_source: rolled_up
+size_basis: [sum:tasks]
 points: 8
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 1080
 actual_minutes: 0
-estimate_basis: [T-037, T-038, T-039]
+estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-004
 epic: E-004
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [actual, started_at, completed_at]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
-completed_at: null
+completed_at: 2026-07-21T23:07:27Z
 ---
 # S-014: Actual time from start to complete
 
@@ -32,9 +32,9 @@ As a reviewer of delivery, I want actual_minutes to reflect time from when work 
 
 ## Acceptance criteria
 
-- [ ] For done items with started_at and completed_at, actual_minutes = elapsed between those timestamps (documented caps if applied).
-- [ ] recompute-actuals writes this actual and rolls up parents per new rules.
-- [ ] Completing without started_at or without a usable start date follows an explicit policy (prompt user, derive from first work-log session, or leave null — documented and implemented).
+- [x] For done items with started_at and completed_at, actual_minutes = elapsed between those timestamps (documented caps if applied).
+- [x] recompute-actuals writes this actual and rolls up parents per new rules.
+- [x] Completing without started_at or without a usable start date follows an explicit policy (prompt user, derive from first work-log session, or leave null — documented and implemented).
 
 ## Tasks
 
@@ -47,6 +47,7 @@ As a reviewer of delivery, I want actual_minutes to reflect time from when work 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 

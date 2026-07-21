@@ -2,7 +2,7 @@
 id: T-030
 type: task
 title: Document effort vs actual dual model
-status: backlog
+status: done
 priority: high
 size: XS
 size_source: suggested
@@ -10,7 +10,7 @@ size_basis: []
 points: 1
 points_source: suggested
 estimate_minutes: 16
-actual_minutes: 0
+actual_minutes: 2
 estimate_basis: []
 session_cap_minutes: 480
 parent: S-011
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [effort, work-log, conventions]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
-started_at: null
-completed_at: null
+updated: 2026-07-21T23:18:07Z
+started_at: 2026-07-21T23:05:18Z
+completed_at: 2026-07-21T23:07:27Z
 ---
 # T-030: Document effort vs actual dual model
 
@@ -32,8 +32,8 @@ Write conventions for session effort vs wall-clock actual.
 
 ## Acceptance criteria
 
-- [ ] Dual model documented in effort-time / velocity refs.
-- [ ] Always-apply rule mentions both concepts.
+- [x] Dual model documented in effort-time / velocity refs.
+- [x] Always-apply rule mentions both concepts.
 
 ## Notes
 
@@ -41,7 +41,9 @@ Write conventions for session effort vs wall-clock actual.
 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
+| 1 | 2026-07-21T23:05:18Z | prompt | develop the epic E-004 |
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 
@@ -52,4 +54,5 @@ Write conventions for session effort vs wall-clock actual.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T23:05:18Z | 2026-07-21T23:07:27Z | In progress: E-004 dual model + velocity refactor |
 

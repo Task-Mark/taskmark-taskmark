@@ -5,13 +5,13 @@ title: Project setup wizard
 status: done
 priority: high
 size: XL
-size_source: suggested
-size_basis: [T-001, T-002, T-003, T-004, T-008]
+size_source: rolled_up
+size_basis: [sum:tasks]
 points: 13
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 1335
 actual_minutes: 18
-estimate_basis: [T-001, T-002, T-003, T-004, T-008]
+estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-001
 epic: E-001
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [mvp, wizard, setup]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
 ---

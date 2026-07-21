@@ -5,13 +5,13 @@ title: Task list for selected story
 status: done
 priority: high
 size: L
-size_source: suggested
-size_basis: [T-014, T-015, T-016]
+size_source: rolled_up
+size_basis: [sum:tasks]
 points: 8
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 1220
 actual_minutes: 783
-estimate_basis: [T-014, T-015, T-016]
+estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-002
 epic: E-002
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, tasks, stories]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: 2026-07-21T18:00:53Z
 completed_at: 2026-07-21T18:02:46Z
 ---

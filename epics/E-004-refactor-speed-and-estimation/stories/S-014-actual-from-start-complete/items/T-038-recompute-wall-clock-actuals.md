@@ -2,7 +2,7 @@
 id: T-038
 type: task
 title: Update recompute for start→complete actuals
-status: backlog
+status: done
 priority: high
 size: M
 size_source: suggested
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [actual, started_at, completed_at]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
-completed_at: null
+completed_at: 2026-07-21T23:07:27Z
 ---
 # T-038: Update recompute for start→complete actuals
 
@@ -32,8 +32,8 @@ Change recompute-actuals.py to set leaf actual from started_at/completed_at and 
 
 ## Acceptance criteria
 
-- [ ] Script implements new actual.
-- [ ] INDEX/VELOCITY use new values.
+- [x] Script implements new actual.
+- [x] INDEX/VELOCITY use new values.
 
 ## Notes
 
@@ -42,6 +42,7 @@ Change recompute-actuals.py to set leaf actual from started_at/completed_at and 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 

@@ -5,13 +5,13 @@ title: Multi-project dedicated board repo
 status: done
 priority: high
 size: L
-size_source: suggested
-size_basis: [T-020, T-021, T-022, T-023]
+size_source: rolled_up
+size_basis: [sum:tasks]
 points: 10
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 854
 actual_minutes: 0
-estimate_basis: [T-020, T-021, T-022, T-023]
+estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-003
 epic: E-003
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, board-layout, git]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 ---

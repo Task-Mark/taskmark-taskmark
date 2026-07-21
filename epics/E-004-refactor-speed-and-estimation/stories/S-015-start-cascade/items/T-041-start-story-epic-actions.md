@@ -2,7 +2,7 @@
 id: T-041
 type: task
 title: Start actions for story and epic
-status: backlog
+status: done
 priority: high
 size: S
 size_source: suggested
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [start-work, cascade, status]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
-completed_at: null
+completed_at: 2026-07-21T23:07:27Z
 ---
 # T-041: Start actions for story and epic
 
@@ -32,8 +32,8 @@ Allow starting a story or epic directly with the same timestamp rules.
 
 ## Acceptance criteria
 
-- [ ] Story/epic can be started without a leaf.
-- [ ] Commands/skills documented.
+- [x] Story/epic can be started without a leaf.
+- [x] Commands/skills documented.
 
 ## Notes
 
@@ -42,6 +42,7 @@ Allow starting a story or epic directly with the same timestamp rules.
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 

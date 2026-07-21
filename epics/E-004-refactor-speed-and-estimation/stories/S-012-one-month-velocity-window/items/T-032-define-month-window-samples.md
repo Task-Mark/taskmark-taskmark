@@ -2,7 +2,7 @@
 id: T-032
 type: task
 title: Define 1-month done-item sample set
-status: backlog
+status: done
 priority: high
 size: S
 size_source: suggested
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
-completed_at: null
+completed_at: 2026-07-21T23:07:27Z
 ---
 # T-032: Define 1-month done-item sample set
 
@@ -32,8 +32,8 @@ Specify which item types, statuses, and timestamp fields enter the 30-day window
 
 ## Acceptance criteria
 
-- [ ] Sample rules documented.
-- [ ] Edge cases (no samples, ≤2 min) defined.
+- [x] Sample rules documented.
+- [x] Edge cases (no samples, ≤2 min) defined.
 
 ## Notes
 
@@ -42,6 +42,7 @@ Specify which item types, statuses, and timestamp fields enter the 30-day window
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 

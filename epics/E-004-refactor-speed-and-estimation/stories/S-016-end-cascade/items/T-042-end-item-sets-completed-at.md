@@ -2,7 +2,7 @@
 id: T-042
 type: task
 title: End/complete sets completed_at and closes sessions
-status: backlog
+status: done
 priority: high
 size: M
 size_source: suggested
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [complete-work, cascade, status]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
-completed_at: null
+completed_at: 2026-07-21T23:07:27Z
 ---
 # T-042: End/complete sets completed_at and closes sessions
 
@@ -32,8 +32,8 @@ complete-work closes sessions and sets completed_at for the target item.
 
 ## Acceptance criteria
 
-- [ ] completed_at set on end.
-- [ ] Open sessions closed with real Ended time.
+- [x] completed_at set on end.
+- [x] Open sessions closed with real Ended time.
 
 ## Notes
 
@@ -42,6 +42,7 @@ complete-work closes sessions and sets completed_at for the target item.
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 

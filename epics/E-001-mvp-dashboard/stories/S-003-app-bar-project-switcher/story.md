@@ -5,13 +5,13 @@ title: App bar project switcher
 status: done
 priority: high
 size: S
-size_source: suggested
-size_basis: [T-009, T-010]
+size_source: rolled_up
+size_basis: [sum:tasks]
 points: 2
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 30
 actual_minutes: 28
-estimate_basis: [T-009, T-010]
+estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-001
 epic: E-001
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [mvp, app-bar, navigation]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: 2026-07-21T16:59:31Z
 completed_at: 2026-07-21T17:02:25Z
 ---

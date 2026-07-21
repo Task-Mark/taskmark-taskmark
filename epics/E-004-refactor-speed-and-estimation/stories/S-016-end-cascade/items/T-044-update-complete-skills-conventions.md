@@ -2,7 +2,7 @@
 id: T-044
 type: task
 title: Update complete-work skills and conventions
-status: backlog
+status: done
 priority: high
 size: M
 size_source: suggested
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [complete-work, cascade, status]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
-completed_at: null
+completed_at: 2026-07-21T23:07:27Z
 ---
 # T-044: Update complete-work skills and conventions
 
@@ -32,8 +32,8 @@ Align complete-work, sync-status, and status-derivation docs with cascade end be
 
 ## Acceptance criteria
 
-- [ ] Skills describe cascade.
-- [ ] status-derivation matches implementation.
+- [x] Skills describe cascade.
+- [x] status-derivation matches implementation.
 
 ## Notes
 
@@ -42,6 +42,7 @@ Align complete-work, sync-status, and status-derivation docs with cascade end be
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 

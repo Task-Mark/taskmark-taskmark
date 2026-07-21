@@ -2,7 +2,7 @@
 id: T-043
 type: task
 title: Cascade complete parents when last child ends
-status: backlog
+status: done
 priority: high
 size: M
 size_source: suggested
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [complete-work, cascade, status]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
-completed_at: null
+completed_at: 2026-07-21T23:07:27Z
 ---
 # T-043: Cascade complete parents when last child ends
 
@@ -32,8 +32,8 @@ After leaf complete, auto-complete story/epic when children satisfy done rules.
 
 ## Acceptance criteria
 
-- [ ] Last task complete closes story.
-- [ ] Last story complete closes epic.
+- [x] Last task complete closes story.
+- [x] Last story complete closes epic.
 
 ## Notes
 
@@ -42,6 +42,7 @@ After leaf complete, auto-complete story/epic when children satisfy done rules.
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 

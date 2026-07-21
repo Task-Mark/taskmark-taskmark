@@ -4,14 +4,14 @@ type: epic
 title: Refactor Taskmark project structure
 status: done
 priority: high
-size: XL
-size_source: suggested
-size_basis: [S-007, S-008, S-009, S-010]
+size: null
+size_source: rolled_up
+size_basis: [sum:stories]
 points: 31
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 3268
 actual_minutes: 12
-estimate_basis: [S-007, S-008, S-009, S-010]
+estimate_basis: [sum:stories]
 session_cap_minutes: 480
 parent: null
 epic: null
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, plugin, board-layout]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 ---

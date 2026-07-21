@@ -2,16 +2,16 @@
 id: S-013
 type: story
 title: Estimate from rolling speed
-status: backlog
+status: done
 priority: high
 size: M
-size_source: suggested
-size_basis: [T-035, T-036]
+size_source: rolled_up
+size_basis: [sum:tasks]
 points: 6
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 960
 actual_minutes: 0
-estimate_basis: [T-035, T-036]
+estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-004
 epic: E-004
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [estimation, create, velocity]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
-completed_at: null
+completed_at: 2026-07-21T23:07:27Z
 ---
 # S-013: Estimate from rolling speed
 
@@ -32,9 +32,9 @@ As someone creating a task, I want estimate_minutes suggested from recent speed 
 
 ## Acceptance criteria
 
-- [ ] create-task/story/epic suggest estimate_minutes = points × 1-month min/point when sample size is sufficient.
-- [ ] Falls back to SIZING seed table when window is insufficient.
-- [ ] estimate_basis records the velocity source (window median vs seed).
+- [x] create-task/story/epic suggest estimate_minutes = points × 1-month min/point when sample size is sufficient.
+- [x] Falls back to SIZING seed table when window is insufficient.
+- [x] estimate_basis records the velocity source (window median vs seed).
 
 ## Tasks
 
@@ -46,6 +46,7 @@ As someone creating a task, I want estimate_minutes suggested from recent speed 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 

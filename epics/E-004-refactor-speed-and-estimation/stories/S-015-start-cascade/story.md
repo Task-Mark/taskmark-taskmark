@@ -2,16 +2,16 @@
 id: S-015
 type: story
 title: Start cascade for task, story, epic
-status: backlog
+status: done
 priority: high
 size: M
-size_source: suggested
-size_basis: [T-040, T-041]
+size_source: rolled_up
+size_basis: [sum:tasks]
 points: 5
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 600
 actual_minutes: 0
-estimate_basis: [T-040, T-041]
+estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-004
 epic: E-004
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [start-work, cascade, status]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
-completed_at: null
+completed_at: 2026-07-21T23:07:27Z
 ---
 # S-015: Start cascade for task, story, epic
 
@@ -32,10 +32,10 @@ As a user or agent, I want a start action on tasks, stories, and epics so starte
 
 ## Acceptance criteria
 
-- [ ] Start action exists for task, story, and epic (skill/command).
-- [ ] Starting a task sets task.started_at and, if null, story.started_at and epic.started_at.
-- [ ] Starting a story sets story.started_at and epic.started_at if null.
-- [ ] Opens work-log session where appropriate (task/bug); does not invent closed micro-sessions.
+- [x] Start action exists for task, story, and epic (skill/command).
+- [x] Starting a task sets task.started_at and, if null, story.started_at and epic.started_at.
+- [x] Starting a story sets story.started_at and epic.started_at if null.
+- [x] Opens work-log session where appropriate (task/bug); does not invent closed micro-sessions.
 
 ## Tasks
 
@@ -47,6 +47,7 @@ As a user or agent, I want a start action on tasks, stories, and epics so starte
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 

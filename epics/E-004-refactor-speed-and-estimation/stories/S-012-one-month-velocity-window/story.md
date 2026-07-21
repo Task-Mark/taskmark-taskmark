@@ -2,16 +2,16 @@
 id: S-012
 type: story
 title: One-month velocity window
-status: backlog
+status: done
 priority: high
 size: L
-size_source: suggested
-size_basis: [T-032, T-033, T-034]
+size_source: rolled_up
+size_basis: [sum:tasks]
 points: 7
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 720
 actual_minutes: 0
-estimate_basis: [T-032, T-033, T-034]
+estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-004
 epic: E-004
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
-completed_at: null
+completed_at: 2026-07-21T23:07:27Z
 ---
 # S-012: One-month velocity window
 
@@ -32,9 +32,9 @@ As a planner, I want minutes-per-point computed from done work in the last month
 
 ## Acceptance criteria
 
-- [ ] Velocity samples done tasks/bugs (and documented story/epic rollups if used) with completed_at in the last 30 days.
-- [ ] Primary speed metric is median (or documented aggregate) actual-or-effort minutes per point for that window.
-- [ ] VELOCITY.md reports the 1-month window and sample counts; insufficient data falls back clearly.
+- [x] Velocity samples done tasks/bugs (and documented story/epic rollups if used) with completed_at in the last 30 days.
+- [x] Primary speed metric is median (or documented aggregate) actual-or-effort minutes per point for that window.
+- [x] VELOCITY.md reports the 1-month window and sample counts; insufficient data falls back clearly.
 
 ## Tasks
 
@@ -47,6 +47,7 @@ As a planner, I want minutes-per-point computed from done work in the last month
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 

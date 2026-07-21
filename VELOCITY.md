@@ -1,28 +1,29 @@
 # Team velocity
 
-Last synced: 2026-07-21T23:01:27Z
-Window: last 20 done tasks/bugs (or all if fewer)
+Last synced: 2026-07-21T23:18:07Z
+Window: rolling 30 days (done tasks/bugs by completed_at)
 
 ## Throughput
 
 | Metric | Value |
 |--------|-------|
-| Done items in window | 20 |
-| Sum points | 44 |
-| Median points | 3 |
-| Median actual_minutes | 261 |
-| Median minutes per point | 87 |
-| Points per week (approx) | insufficient data |
+| Done items in window | 50 |
+| Sum points | 108 |
+| Median points | 1 |
+| Median actual_minutes | 16 |
+| Median minutes per point | 16 |
+| Points per week (approx) | 25.2 |
 
 ## Remaining backlog
 
 | Metric | Value |
 |--------|-------|
-| Open items (excl. cancelled) | 15 |
-| Sum points remaining | 38 |
-| Sum estimate_minutes remaining | 4936 |
-| ETA (from median min/point) | ~3306 min billable |
+| Open items (excl. cancelled) | 0 |
+| Sum points remaining | 0 |
+| Sum estimate_minutes remaining | 0 |
+| ETA (from median min/point) | insufficient data |
 
 ## Notes
 
+- Speed uses **effort_minutes** (session billable) over the last 30 days; `actual_minutes` is wall-clock lead time.
 - Actuals use billable work-log minutes only (idle auto-cap + session cap).

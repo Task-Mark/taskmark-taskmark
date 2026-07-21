@@ -2,7 +2,7 @@
 id: T-033
 type: task
 title: Compute minutes per point for window
-status: backlog
+status: done
 priority: high
 size: M
 size_source: suggested
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
-completed_at: null
+completed_at: 2026-07-21T23:07:27Z
 ---
 # T-033: Compute minutes per point for window
 
@@ -32,8 +32,8 @@ Implement median min/point from window samples in recompute/velocity script.
 
 ## Acceptance criteria
 
-- [ ] Script outputs monthly median min/point.
-- [ ] Uses trustworthy samples only (documented thresholds).
+- [x] Script outputs monthly median min/point.
+- [x] Uses trustworthy samples only (documented thresholds).
 
 ## Notes
 
@@ -42,6 +42,7 @@ Implement median min/point from window samples in recompute/velocity script.
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 

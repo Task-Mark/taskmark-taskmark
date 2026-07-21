@@ -5,13 +5,13 @@ title: Story list for selected epic
 status: done
 priority: high
 size: S
-size_source: suggested
-size_basis: [T-011, T-012, T-013]
+size_source: rolled_up
+size_basis: [sum:tasks]
 points: 3
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 45
 actual_minutes: 48
-estimate_basis: [T-011, T-012, T-013]
+estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-002
 epic: E-002
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, stories, epics]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: 2026-07-21T17:45:49Z
 completed_at: 2026-07-21T17:48:46Z
 ---

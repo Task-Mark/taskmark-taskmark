@@ -5,13 +5,13 @@ title: Epic list for selected project
 status: done
 priority: high
 size: L
-size_source: suggested
-size_basis: [T-005, T-006, T-007]
+size_source: rolled_up
+size_basis: [sum:tasks]
 points: 8
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 765
 actual_minutes: 48
-estimate_basis: [T-005, T-006, T-007]
+estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-001
 epic: E-001
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [mvp, epics, dashboard]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: 2026-07-21T16:49:52Z
 completed_at: 2026-07-21T16:51:19Z
 ---

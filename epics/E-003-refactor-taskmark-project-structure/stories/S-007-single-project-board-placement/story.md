@@ -5,13 +5,13 @@ title: Single-project board placement
 status: done
 priority: high
 size: M
-size_source: suggested
-size_basis: [T-017, T-018, T-019]
+size_source: rolled_up
+size_basis: [sum:tasks]
 points: 5
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 254
 actual_minutes: 2
-estimate_basis: [T-017, T-018, T-019]
+estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-003
 epic: E-003
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [architecture, single-repo, board-layout]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 ---

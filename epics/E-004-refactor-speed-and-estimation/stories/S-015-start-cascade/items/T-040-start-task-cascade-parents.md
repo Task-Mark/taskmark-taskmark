@@ -2,7 +2,7 @@
 id: T-040
 type: task
 title: Start task cascades to story and epic
-status: backlog
+status: done
 priority: high
 size: M
 size_source: suggested
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [start-work, cascade, status]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
-completed_at: null
+completed_at: 2026-07-21T23:07:27Z
 ---
 # T-040: Start task cascades to story and epic
 
@@ -32,8 +32,8 @@ Extend start-work so starting a leaf sets parent started_at timestamps.
 
 ## Acceptance criteria
 
-- [ ] Task start sets parents' started_at when null.
-- [ ] Status becomes in_progress appropriately.
+- [x] Task start sets parents' started_at when null.
+- [x] Status becomes in_progress appropriately.
 
 ## Notes
 
@@ -42,6 +42,7 @@ Extend start-work so starting a leaf sets parent started_at timestamps.
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 

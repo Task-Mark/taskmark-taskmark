@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, canonical]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
 completed_at: 2026-07-21T22:36:51Z
 ---

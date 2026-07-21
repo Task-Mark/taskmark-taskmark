@@ -2,16 +2,16 @@
 id: S-016
 type: story
 title: End cascade for task, story, epic
-status: backlog
+status: done
 priority: high
 size: L
-size_source: suggested
-size_basis: [T-042, T-043, T-044]
+size_source: rolled_up
+size_basis: [sum:tasks]
 points: 9
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 1440
 actual_minutes: 0
-estimate_basis: [T-042, T-043, T-044]
+estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-004
 epic: E-004
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [complete-work, cascade, status]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
-completed_at: null
+completed_at: 2026-07-21T23:07:27Z
 ---
 # S-016: End cascade for task, story, epic
 
@@ -32,10 +32,10 @@ As a user or agent, I want an end/complete action so items get completed_at, and
 
 ## Acceptance criteria
 
-- [ ] End/complete action sets completed_at and closes open work sessions.
-- [ ] When all child tasks of a story are done/cancelled (and at least one done), story completes.
-- [ ] When all child stories of an epic are done/cancelled (and at least one done), epic completes.
-- [ ] Skills/conventions updated; sync-status derives the same cascade.
+- [x] End/complete action sets completed_at and closes open work sessions.
+- [x] When all child tasks of a story are done/cancelled (and at least one done), story completes.
+- [x] When all child stories of an epic are done/cancelled (and at least one done), epic completes.
+- [x] Skills/conventions updated; sync-status derives the same cascade.
 
 ## Tasks
 
@@ -48,6 +48,7 @@ As a user or agent, I want an end/complete action so items get completed_at, and
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 

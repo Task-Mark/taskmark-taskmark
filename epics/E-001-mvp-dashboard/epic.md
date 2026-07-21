@@ -4,14 +4,14 @@ type: epic
 title: MVP Taskmark dashboard
 status: done
 priority: high
-size: XL
-size_source: suggested
-size_basis: [S-001, S-002, S-003, S-004]
+size: null
+size_source: rolled_up
+size_basis: [sum:stories]
 points: 26
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 2610
 actual_minutes: 94
-estimate_basis: [S-001, S-002, S-003, S-004]
+estimate_basis: [sum:stories]
 session_cap_minutes: 480
 parent: null
 epic: null
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [mvp, dashboard, frontend]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T17:02:25Z
 ---

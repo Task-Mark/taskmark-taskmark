@@ -5,13 +5,13 @@ title: Migrate plugin tooling to new layout
 status: done
 priority: high
 size: XL
-size_source: suggested
-size_basis: [T-026, T-027, T-028, T-029]
+size_source: rolled_up
+size_basis: [sum:tasks]
 points: 12
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 1920
 actual_minutes: 2
-estimate_basis: [T-026, T-027, T-028, T-029]
+estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-003
 epic: E-003
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [plugin, conventions, migration, multi-repo]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 ---

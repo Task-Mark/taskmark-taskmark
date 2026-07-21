@@ -2,7 +2,7 @@
 id: T-034
 type: task
 title: Refresh VELOCITY.md for monthly window
-status: backlog
+status: done
 priority: high
 size: S
 size_source: suggested
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
-completed_at: null
+completed_at: 2026-07-21T23:07:27Z
 ---
 # T-034: Refresh VELOCITY.md for monthly window
 
@@ -32,8 +32,8 @@ Update VELOCITY.md template/content for 1-month window metrics and remaining ETA
 
 ## Acceptance criteria
 
-- [ ] VELOCITY.md shows window = last 30 days.
-- [ ] ETA uses monthly speed when available.
+- [x] VELOCITY.md shows window = last 30 days.
+- [x] ETA uses monthly speed when available.
 
 ## Notes
 
@@ -42,6 +42,7 @@ Update VELOCITY.md template/content for 1-month window metrics and remaining ETA
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 

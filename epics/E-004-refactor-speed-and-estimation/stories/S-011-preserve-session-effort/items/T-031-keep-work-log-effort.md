@@ -2,7 +2,7 @@
 id: T-031
 type: task
 title: Keep work-log session effort computation
-status: backlog
+status: done
 priority: high
 size: S
 size_source: suggested
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [effort, work-log, conventions]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
-completed_at: null
+completed_at: 2026-07-21T23:07:27Z
 ---
 # T-031: Keep work-log session effort computation
 
@@ -32,8 +32,8 @@ Ensure recompute still derives session effort from Work log (idle/session caps) 
 
 ## Acceptance criteria
 
-- [ ] Work-log billable minutes still computed on sync/complete.
-- [ ] Existing session rows remain valid.
+- [x] Work-log billable minutes still computed on sync/complete.
+- [x] Existing session rows remain valid.
 
 ## Notes
 
@@ -42,6 +42,7 @@ Ensure recompute still derives session effort from Work log (idle/session caps) 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 

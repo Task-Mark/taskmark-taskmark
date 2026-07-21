@@ -2,7 +2,7 @@
 id: T-035
 type: task
 title: Suggest estimates from monthly velocity on create
-status: backlog
+status: done
 priority: high
 size: M
 size_source: suggested
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [estimation, create, velocity]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: null
-completed_at: null
+completed_at: 2026-07-21T23:07:27Z
 ---
 # T-035: Suggest estimates from monthly velocity on create
 
@@ -32,8 +32,8 @@ Update create-* skills/scripts to prefer monthly velocity × points.
 
 ## Acceptance criteria
 
-- [ ] Create skills use monthly speed when available.
-- [ ] estimate_basis documents source.
+- [x] Create skills use monthly speed when available.
+- [x] estimate_basis documents source.
 
 ## Notes
 
@@ -42,6 +42,7 @@ Update create-* skills/scripts to prefer monthly velocity × points.
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 

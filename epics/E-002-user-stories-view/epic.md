@@ -4,14 +4,14 @@ type: epic
 title: User stories view
 status: done
 priority: high
-size: M
-size_source: suggested
-size_basis: [S-005, S-006]
+size: null
+size_source: rolled_up
+size_basis: [sum:stories]
 points: 11
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 1265
 actual_minutes: 831
-estimate_basis: [S-005, S-006]
+estimate_basis: [sum:stories]
 session_cap_minutes: 480
 parent: null
 epic: null
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, stories, frontend]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:18:07Z
 started_at: 2026-07-21T17:45:49Z
 completed_at: 2026-07-21T18:02:46Z
 ---

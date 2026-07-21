@@ -2,16 +2,16 @@
 id: E-004
 type: epic
 title: Refactor speed and estimation
-status: backlog
+status: done
 priority: high
-size: XL
-size_source: suggested
-size_basis: [S-011, S-012, S-013, S-014, S-015, S-016, S-017]
+size: null
+size_source: rolled_up
+size_basis: [sum:stories]
 points: 43
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 5192
-actual_minutes: 0
-estimate_basis: [S-011, S-012, S-013, S-014, S-015, S-016, S-017]
+actual_minutes: 2
+estimate_basis: [sum:stories]
 session_cap_minutes: 480
 parent: null
 epic: null
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation, effort, plugin, conventions]
 created: 2026-07-21
-updated: 2026-07-21T23:02:48Z
-started_at: null
-completed_at: null
+updated: 2026-07-21T23:18:07Z
+started_at: 2026-07-21T23:05:18Z
+completed_at: 2026-07-21T23:07:27Z
 ---
 # E-004: Refactor speed and estimation
 

@@ -2,16 +2,16 @@
 id: S-011
 type: story
 title: Preserve session effort tracking
-status: backlog
+status: done
 priority: high
 size: S
-size_source: suggested
-size_basis: [T-030, T-031]
+size_source: rolled_up
+size_basis: [sum:tasks]
 points: 3
-points_source: suggested
+points_source: rolled_up
 estimate_minutes: 136
-actual_minutes: 0
-estimate_basis: [T-030, T-031]
+actual_minutes: 2
+estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-004
 epic: E-004
@@ -20,9 +20,9 @@ blocked: false
 cancelled: false
 tags: [effort, work-log, conventions]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
-started_at: null
-completed_at: null
+updated: 2026-07-21T23:18:07Z
+started_at: 2026-07-21T23:05:18Z
+completed_at: 2026-07-21T23:07:27Z
 ---
 # S-011: Preserve session effort tracking
 
@@ -32,9 +32,9 @@ As a team using Taskmark, I want AI/human session elapsed time still stored so w
 
 ## Acceptance criteria
 
-- [ ] Work log sessions continue to record Started/Ended and billable elapsed minutes.
-- [ ] Session effort is retained as a first-class signal (documented field name, e.g. effort_minutes or work-log-derived).
-- [ ] Conventions clarify effort (sessions) vs actual (start→complete).
+- [x] Work log sessions continue to record Started/Ended and billable elapsed minutes.
+- [x] Session effort is retained as a first-class signal (documented field name, e.g. effort_minutes or work-log-derived).
+- [x] Conventions clarify effort (sessions) vs actual (start→complete).
 
 ## Tasks
 
@@ -45,7 +45,9 @@ As a team using Taskmark, I want AI/human session elapsed time still stored so w
 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
+| 1 | 2026-07-21T23:05:18Z | prompt | develop the epic E-004 |
 | 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
 
 ## Commits
 
