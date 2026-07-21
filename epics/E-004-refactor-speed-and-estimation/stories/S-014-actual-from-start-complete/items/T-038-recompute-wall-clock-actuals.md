@@ -1,0 +1,56 @@
+---
+id: T-038
+type: task
+title: Update recompute for start→complete actuals
+status: backlog
+priority: high
+size: M
+size_source: suggested
+size_basis: []
+points: 3
+points_source: suggested
+estimate_minutes: 480
+actual_minutes: 0
+estimate_basis: []
+session_cap_minutes: 480
+parent: S-014
+epic: E-004
+owner: ""
+blocked: false
+cancelled: false
+tags: [actual, started_at, completed_at]
+created: 2026-07-21
+updated: 2026-07-21T22:56:48Z
+started_at: null
+completed_at: null
+---
+
+# T-038: Update recompute for start→complete actuals
+
+## Description
+
+Change recompute-actuals.py to set leaf actual from started_at/completed_at and roll up parents.
+
+## Acceptance criteria
+
+- [ ] Script implements new actual.
+- [ ] INDEX/VELOCITY use new values.
+
+## Notes
+
+## Prompt & feedback log
+
+| # | When (UTC) | Kind | Summary |
+|---|------------|------|---------|
+| 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+
+## Commits
+
+| SHA | Repo | Date (UTC) | Message |
+|-----|------|------------|---------|
+
+## Work log
+
+| Session | Actor | Started (UTC) | Ended (UTC) | Summary |
+|---------|-------|---------------|-------------|---------|
+
