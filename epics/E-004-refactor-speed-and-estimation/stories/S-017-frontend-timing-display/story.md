@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [frontend, estimation, actual, effort]
 created: 2026-07-21
-updated: 2026-07-21T23:01:27Z
+updated: 2026-07-21T23:02:48Z
 started_at: 2026-07-21T23:00:19Z
 completed_at: 2026-07-21T23:01:18Z
 ---
@@ -54,6 +54,8 @@ As a dashboard user, I want estimate and actual minutes to keep showing correctl
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 9e136f1 | taskmark-frontend | 2026-07-21T23:02:38Z | harden est actual timing display for flat boards |
+| 0806511 | taskmark-taskmark | 2026-07-21T23:02:38Z | add S-017 frontend timing display and sync board |
 
 ## Work log
 
