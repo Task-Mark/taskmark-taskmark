@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [effort, work-log, conventions]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:20:59Z
 started_at: 2026-07-21T23:05:18Z
 completed_at: 2026-07-21T23:07:27Z
 ---
@@ -53,6 +53,9 @@ As a team using Taskmark, I want AI/human session elapsed time still stored so w
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 6aca5e6 | taskmark-cursor | 2026-07-21T23:20:34Z | update speed estimation and epic points rollup |
+| 123ecb7 | taskmark-frontend | 2026-07-21T23:20:34Z | show est actual only and drop epic size |
+| 9883b62 | taskmark-taskmark | 2026-07-21T23:20:34Z | sync e-004 timing and points rollup on board |
 
 ## Work log
 

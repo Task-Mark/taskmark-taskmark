@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation, effort, plugin, conventions]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:20:59Z
 started_at: 2026-07-21T23:05:18Z
 completed_at: 2026-07-21T23:07:27Z
 ---
@@ -67,6 +67,9 @@ Refactor how Taskmark measures speed and estimates work: keep AI/human **session
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 6aca5e6 | taskmark-cursor | 2026-07-21T23:20:34Z | update speed estimation and epic points rollup |
+| 123ecb7 | taskmark-frontend | 2026-07-21T23:20:34Z | show est actual only and drop epic size |
+| 9883b62 | taskmark-taskmark | 2026-07-21T23:20:34Z | sync e-004 timing and points rollup on board |
 | 9e136f1 | taskmark-frontend | 2026-07-21T23:02:38Z | harden est actual timing display for flat boards |
 | 0806511 | taskmark-taskmark | 2026-07-21T23:02:38Z | add S-017 frontend timing display and sync board |
 | 758cd8c | taskmark-taskmark | 2026-07-21T22:58:00Z | add e-004 speed and estimation epic |
