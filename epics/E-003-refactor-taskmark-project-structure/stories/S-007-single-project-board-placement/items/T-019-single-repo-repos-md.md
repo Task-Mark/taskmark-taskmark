@@ -1,0 +1,56 @@
+---
+id: T-019
+type: task
+title: Configure single-repo REPOS.md
+status: done
+priority: medium
+size: XS
+size_source: suggested
+size_basis: [T-002, T-009]
+points: 1
+points_source: suggested
+estimate_minutes: 14
+actual_minutes: 0
+estimate_basis: [T-002, T-009]
+session_cap_minutes: 480
+parent: S-007
+epic: E-003
+owner: ""
+blocked: false
+cancelled: false
+tags: [architecture, single-repo, repos]
+created: 2026-07-21
+updated: 2026-07-21T22:40:35Z
+started_at: null
+completed_at: 2026-07-21T22:36:51Z
+---
+
+# T-019: Configure single-repo REPOS.md
+
+## Description
+
+Define `REPOS.md` shape for single-project mode: one row, Canonical = that project, no expectation of board copies elsewhere.
+
+## Acceptance criteria
+
+- [x] Single-project `REPOS.md` template/docs show one linked git root.
+- [x] Sync tooling does not attempt multi-repo board copies in this mode.
+
+## Notes
+
+## Prompt & feedback log
+
+| # | When (UTC) | Kind | Summary |
+|---|------------|------|---------|
+| 1 | 2026-07-21T22:26:00Z | prompt | Create epic + stories/tasks for Taskmark project structure refactor |
+| 2 | 2026-07-21T22:36:37Z | feedback | E-003 delivered: hyphen -taskmark sibling board model |
+
+## Commits
+
+| SHA | Repo | Date (UTC) | Message |
+|-----|------|------------|---------|
+
+## Work log
+
+| Session | Actor | Started (UTC) | Ended (UTC) | Summary |
+|---------|-------|---------------|-------------|---------|
