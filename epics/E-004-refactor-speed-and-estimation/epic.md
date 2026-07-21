@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation, effort, plugin, conventions]
 created: 2026-07-21
-updated: 2026-07-21T22:56:48Z
+updated: 2026-07-21T22:58:00Z
 started_at: null
 completed_at: null
 ---
@@ -67,6 +67,7 @@ Refactor how Taskmark measures speed and estimates work: keep AI/human **session
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 758cd8c | taskmark-taskmark | 2026-07-21T22:58:00Z | add e-004 speed and estimation epic |
 
 ## Work log
 
