@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, layout]
 created: 2026-07-21
-updated: 2026-07-21T22:40:35Z
+updated: 2026-07-21T22:42:00Z
 started_at: 2026-07-21T22:40:35Z
 completed_at: 2026-07-21T22:40:35Z
 ---
@@ -55,6 +55,9 @@ In multi-project mode, `<common>-taskmark` nested the board under `taskmark/` (`
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 9510b02 | taskmark-taskmark | 2026-07-21T22:42:00Z | add flat taskmark board |
+| f742175 | taskmark-cursor | 2026-07-21T22:42:00Z | flatten multi-repo board layout |
+| 4605512 | taskmark-frontend | 2026-07-21T22:42:00Z | remove nested taskmark board copy |
 
 ## Work log
 

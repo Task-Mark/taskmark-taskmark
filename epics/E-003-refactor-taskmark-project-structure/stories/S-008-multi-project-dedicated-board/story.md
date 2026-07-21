@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, board-layout, git]
 created: 2026-07-21
-updated: 2026-07-21T22:41:00Z
+updated: 2026-07-21T22:42:00Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 ---
@@ -59,6 +59,9 @@ As a developer working across multiple git projects in one workspace, I want a d
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 9510b02 | taskmark-taskmark | 2026-07-21T22:42:00Z | add flat taskmark board |
+| f742175 | taskmark-cursor | 2026-07-21T22:42:00Z | flatten multi-repo board layout |
+| 4605512 | taskmark-frontend | 2026-07-21T22:42:00Z | remove nested taskmark board copy |
 
 ## Work log
 
