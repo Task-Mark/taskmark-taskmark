@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [setup, discovery, multi-repo, frontend]
 created: 2026-07-21
-updated: 2026-07-21T22:44:56Z
+updated: 2026-07-21T22:46:18Z
 started_at: 2026-07-21T22:44:32Z
 completed_at: 2026-07-21T22:44:56Z
 ---
@@ -57,6 +57,8 @@ After E-003, multi-git boards live at `<common>-taskmark/` root (no nested `task
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 292c94b | taskmark-frontend | 2026-07-21T22:46:18Z | fix discovery for flat taskmark boards |
+| 95a7951 | taskmark-taskmark | 2026-07-21T22:46:18Z | add b-003 flat board discovery bug |
 
 ## Work log
 
