@@ -10,7 +10,7 @@ size_basis: [T-019, T-002]
 points: 1
 points_source: suggested
 estimate_minutes: 14
-actual_minutes: 0
+actual_minutes: 16
 estimate_basis: [T-019]
 session_cap_minutes: 480
 parent: S-008
@@ -20,8 +20,8 @@ blocked: false
 cancelled: false
 tags: [git, multi-repo, init]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
-started_at: null
+updated: 2026-07-21T23:26:35Z
+started_at: 2026-07-21T22:20:51Z
 completed_at: 2026-07-21T22:36:51Z
 ---
 # T-022: Initialize git for dedicated Taskmark project
@@ -56,3 +56,4 @@ Remote/push setup is out of scope for this task.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T22:20:51Z | 2026-07-21T22:36:51Z | auto-backfilled: velocity × points (missing work log) |

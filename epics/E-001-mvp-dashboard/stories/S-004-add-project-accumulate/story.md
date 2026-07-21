@@ -10,7 +10,7 @@ size_basis: []
 points: 3
 points_source: suggested
 estimate_minutes: 480
-actual_minutes: 0
+actual_minutes: 48
 estimate_basis: []
 session_cap_minutes: 480
 parent: E-001
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [mvp, app-bar, setup]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T17:05:52Z
 completed_at: 2026-07-21T17:05:52Z
 ---
@@ -57,4 +57,4 @@ As a user, I want **Add project** (not replace master folder) so previously conf
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T17:05:52Z | 2026-07-21T17:05:52Z | Multi-master cookies, Add project flow, board-path dedupe |
+| 1 | agent | 2026-07-21T16:17:52Z | 2026-07-21T17:05:52Z | auto-backfilled: velocity × points (missing work log) |

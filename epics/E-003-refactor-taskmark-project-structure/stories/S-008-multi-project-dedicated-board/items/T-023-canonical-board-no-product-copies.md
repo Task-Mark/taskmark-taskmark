@@ -9,9 +9,9 @@ size_source: suggested
 size_basis: [T-007, T-005]
 points: 3
 points_source: suggested
-estimate_minutes: 480
-actual_minutes: 0
-estimate_basis: []
+estimate_minutes: 50
+actual_minutes: 48
+estimate_basis: [calibrated:T-023]
 session_cap_minutes: 480
 parent: S-008
 epic: E-003
@@ -20,10 +20,11 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, canonical]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
-started_at: null
+updated: 2026-07-21T23:26:35Z
+started_at: 2026-07-21T21:48:51Z
 completed_at: 2026-07-21T22:36:51Z
 ---
+
 # T-023: Canonical board without product-repo copies
 
 ## Description
@@ -57,3 +58,4 @@ Replaces the current “copy board into every git root” model.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T21:48:51Z | 2026-07-21T22:36:51Z | auto-backfilled: velocity × points (missing work log) |

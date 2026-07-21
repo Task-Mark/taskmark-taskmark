@@ -9,8 +9,8 @@ size_source: rolled_up
 size_basis: [sum:tasks]
 points: 8
 points_source: rolled_up
-estimate_minutes: 1080
-actual_minutes: 0
+estimate_minutes: 130
+actual_minutes: 128
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-004
@@ -20,8 +20,8 @@ blocked: false
 cancelled: false
 tags: [actual, started_at, completed_at]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
-started_at: null
+updated: 2026-07-21T23:26:35Z
+started_at: 2026-07-21T20:59:27Z
 completed_at: 2026-07-21T23:07:27Z
 ---
 # S-014: Actual time from start to complete
@@ -58,4 +58,5 @@ As a reviewer of delivery, I want actual_minutes to reflect time from when work 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T20:59:27Z | 2026-07-21T23:07:27Z | auto-backfilled: velocity × points (missing work log) |
 

@@ -9,9 +9,9 @@ size_source: suggested
 size_basis: [T-020, T-008]
 points: 2
 points_source: suggested
-estimate_minutes: 120
-actual_minutes: 0
-estimate_basis: []
+estimate_minutes: 30
+actual_minutes: 32
+estimate_basis: [calibrated:T-024]
 session_cap_minutes: 480
 parent: S-009
 epic: E-003
@@ -20,10 +20,11 @@ blocked: false
 cancelled: false
 tags: [multi-repo, naming, detection]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
-started_at: null
+updated: 2026-07-21T23:26:35Z
+started_at: 2026-07-21T22:04:51Z
 completed_at: 2026-07-21T22:36:51Z
 ---
+
 # T-024: Detect ambiguous common-name cases
 
 ## Description
@@ -54,3 +55,4 @@ Define when automatic common-name derivation is not confident enough (unrelated 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T22:04:51Z | 2026-07-21T22:36:51Z | auto-backfilled: velocity × points (missing work log) |

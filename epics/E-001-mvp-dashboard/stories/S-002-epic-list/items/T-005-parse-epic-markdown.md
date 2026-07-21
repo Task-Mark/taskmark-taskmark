@@ -9,9 +9,9 @@ size_source: suggested
 size_basis: []
 points: 3
 points_source: suggested
-estimate_minutes: 480
-actual_minutes: 1
-estimate_basis: []
+estimate_minutes: 50
+actual_minutes: 48
+estimate_basis: [calibrated:T-005]
 session_cap_minutes: 480
 parent: S-002
 epic: E-001
@@ -20,11 +20,10 @@ blocked: false
 cancelled: false
 tags: [mvp, parser, epics]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T16:49:52Z
 completed_at: 2026-07-21T16:51:19Z
 ---
-
 # T-005: Parse epic markdown from local taskmark folder
 
 ## Description
@@ -59,4 +58,4 @@ Foundation for later story/task dashboard parsing; keep the API extensible. Pair
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T16:49:52Z | 2026-07-21T16:51:19Z | Parsed epic.md frontmatter per project board |
+| 1 | agent | 2026-07-21T16:03:19Z | 2026-07-21T16:51:19Z | auto-backfilled: velocity × points (missing work log) |

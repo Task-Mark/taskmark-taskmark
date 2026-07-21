@@ -9,8 +9,8 @@ size_source: rolled_up
 size_basis: [sum:stories]
 points: 26
 points_source: rolled_up
-estimate_minutes: 2610
-actual_minutes: 94
+estimate_minutes: 870
+actual_minutes: 440
 estimate_basis: [sum:stories]
 session_cap_minutes: 480
 parent: null
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [mvp, dashboard, frontend]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T17:02:25Z
 ---
@@ -77,4 +77,4 @@ Ship an MVP dashboard that reads Taskmark markdown boards from a local **master 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T16:35:18Z | 2026-07-21T17:11:35Z | auto-recovered: commit span |
+| 1 | agent | 2026-07-21T09:42:25Z | 2026-07-21T17:02:25Z | auto-backfilled: rollup from children (missing/under-logged) |

@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, stories, epics]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T17:45:49Z
 completed_at: 2026-07-21T17:48:46Z
 ---
@@ -63,5 +63,4 @@ As a user, I want to select an epic and see all user stories under it so I can u
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T17:45:49Z | 2026-07-21T17:48:46Z | Delivered story list for selected epic (parse + UI + wiring) |
-| 2 | agent | 2026-07-21T17:45:49Z | 2026-07-21T17:59:56Z | auto-recovered: commit span |
+| 1 | agent | 2026-07-21T17:00:46Z | 2026-07-21T17:48:46Z | auto-backfilled: rollup from children (missing/under-logged) |

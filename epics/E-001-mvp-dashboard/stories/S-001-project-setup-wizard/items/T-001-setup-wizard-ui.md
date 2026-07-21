@@ -9,9 +9,9 @@ size_source: suggested
 size_basis: []
 points: 3
 points_source: suggested
-estimate_minutes: 480
-actual_minutes: 1
-estimate_basis: []
+estimate_minutes: 50
+actual_minutes: 48
+estimate_basis: [calibrated:T-001]
 session_cap_minutes: 480
 parent: S-001
 epic: E-001
@@ -20,11 +20,10 @@ blocked: false
 cancelled: false
 tags: [mvp, wizard, ui]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
 ---
-
 # T-001: Build setup wizard UI shell
 
 ## Description
@@ -58,4 +57,4 @@ Part of MVP scope for E-001; full dashboard beyond wizard + epic list is out of 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T16:35:18Z | 2026-07-21T16:36:18Z | Implemented as part of S-001 setup wizard |
+| 1 | agent | 2026-07-21T15:49:18Z | 2026-07-21T16:37:18Z | auto-backfilled: velocity × points (missing work log) |

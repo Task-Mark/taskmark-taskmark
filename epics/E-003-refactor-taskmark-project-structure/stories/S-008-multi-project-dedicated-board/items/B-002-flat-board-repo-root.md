@@ -9,9 +9,9 @@ size_source: suggested
 size_basis: [T-021, T-023]
 points: 2
 points_source: suggested
-estimate_minutes: 120
-actual_minutes: 0
-estimate_basis: []
+estimate_minutes: 30
+actual_minutes: 32
+estimate_basis: [calibrated:B-002]
 session_cap_minutes: 480
 parent: S-008
 epic: E-003
@@ -20,11 +20,10 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, layout]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T22:40:35Z
 completed_at: 2026-07-21T22:40:35Z
 ---
-
 # B-002: Dedicated board repo must be flat (no nested taskmark/)
 
 ## Description
@@ -64,4 +63,4 @@ In multi-project mode, `<common>-taskmark` nested the board under `taskmark/` (`
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T22:40:35Z | 2026-07-21T22:40:35Z | Flattened dedicated board repo layout and updated plugin |
+| 1 | agent | 2026-07-21T22:08:35Z | 2026-07-21T22:40:35Z | auto-backfilled: velocity × points (missing work log) |

@@ -9,9 +9,9 @@ size_source: suggested
 size_basis: [T-024, T-004]
 points: 2
 points_source: suggested
-estimate_minutes: 120
-actual_minutes: 0
-estimate_basis: []
+estimate_minutes: 30
+actual_minutes: 32
+estimate_basis: [calibrated:T-025]
 session_cap_minutes: 480
 parent: S-009
 epic: E-003
@@ -20,10 +20,11 @@ blocked: false
 cancelled: false
 tags: [multi-repo, naming, ux]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
-started_at: null
+updated: 2026-07-21T23:26:35Z
+started_at: 2026-07-21T22:04:51Z
 completed_at: 2026-07-21T22:36:51Z
 ---
+
 # T-025: Prompt user and persist board project name
 
 ## Description
@@ -54,3 +55,4 @@ When the common name is ambiguous, ask the user for the intended `<common_projec
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T22:04:51Z | 2026-07-21T22:36:51Z | auto-backfilled: velocity × points (missing work log) |

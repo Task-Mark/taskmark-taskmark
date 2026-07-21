@@ -9,9 +9,9 @@ size_source: suggested
 size_basis: [T-008, B-002]
 points: 2
 points_source: suggested
-estimate_minutes: 120
-actual_minutes: 0
-estimate_basis: []
+estimate_minutes: 30
+actual_minutes: 32
+estimate_basis: [calibrated:B-003]
 session_cap_minutes: 480
 parent: S-001
 epic: E-001
@@ -20,10 +20,11 @@ blocked: false
 cancelled: false
 tags: [setup, discovery, multi-repo, frontend]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T22:44:32Z
 completed_at: 2026-07-21T22:44:56Z
 ---
+
 # B-003: Setup fails to discover flat multi-repo board
 
 ## Description
@@ -63,4 +64,4 @@ After E-003, multi-git boards live at `<common>-taskmark/` root (no nested `task
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T22:44:32Z | 2026-07-21T22:44:56Z | Fixed discovery for flat *-taskmark boards |
+| 1 | agent | 2026-07-21T22:12:56Z | 2026-07-21T22:44:56Z | auto-backfilled: velocity × points (missing work log) |

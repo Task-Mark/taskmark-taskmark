@@ -9,8 +9,8 @@ size_source: rolled_up
 size_basis: [sum:stories]
 points: 43
 points_source: rolled_up
-estimate_minutes: 5192
-actual_minutes: 2
+estimate_minutes: 692
+actual_minutes: 688
 estimate_basis: [sum:stories]
 session_cap_minutes: 480
 parent: null
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation, effort, plugin, conventions]
 created: 2026-07-21
-updated: 2026-07-21T23:20:59Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T23:05:18Z
 completed_at: 2026-07-21T23:07:27Z
 ---
@@ -78,3 +78,5 @@ Refactor how Taskmark measures speed and estimates work: keep AI/human **session
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T11:39:27Z | 2026-07-21T15:07:27Z | auto-backfilled: velocity × points (missing work log) |
+| 2 | agent | 2026-07-21T15:07:27Z | 2026-07-21T23:07:27Z | auto-backfilled: velocity × points (missing work log) |

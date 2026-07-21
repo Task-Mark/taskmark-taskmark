@@ -9,8 +9,8 @@ size_source: rolled_up
 size_basis: [sum:tasks]
 points: 8
 points_source: rolled_up
-estimate_minutes: 765
-actual_minutes: 48
+estimate_minutes: 155
+actual_minutes: 158
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-001
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [mvp, epics, dashboard]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T16:49:52Z
 completed_at: 2026-07-21T16:51:19Z
 ---
@@ -68,5 +68,4 @@ As a user, I want to see every epic for **each** Taskmark project discovered und
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T16:49:52Z | 2026-07-21T16:51:19Z | Implemented epic parser and per-project epic list on /board |
-| 2 | agent | 2026-07-21T16:49:52Z | 2026-07-21T17:35:33Z | auto-recovered: commit span |
+| 1 | agent | 2026-07-21T14:13:19Z | 2026-07-21T16:51:19Z | auto-backfilled: rollup from children (missing/under-logged) |

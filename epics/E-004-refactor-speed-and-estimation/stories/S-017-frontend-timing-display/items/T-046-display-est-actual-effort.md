@@ -9,9 +9,9 @@ size_source: suggested
 size_basis: []
 points: 2
 points_source: suggested
-estimate_minutes: 120
-actual_minutes: 0
-estimate_basis: []
+estimate_minutes: 30
+actual_minutes: 32
+estimate_basis: [calibrated:T-046]
 session_cap_minutes: 480
 parent: S-017
 epic: E-004
@@ -20,10 +20,11 @@ blocked: false
 cancelled: false
 tags: [frontend, estimation, actual]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T23:00:19Z
 completed_at: 2026-07-21T23:01:18Z
 ---
+
 # T-046: Display Est Actual and optional Effort in lists
 
 ## Description
@@ -55,4 +56,4 @@ Epic/story/task tables keep Est and Actual; show Effort when any row has effort_
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T23:00:19Z | 2026-07-21T23:01:18Z | Frontend timing display hardened for flat boards |
+| 1 | agent | 2026-07-21T22:29:18Z | 2026-07-21T23:01:18Z | auto-backfilled: velocity × points (missing work log) |

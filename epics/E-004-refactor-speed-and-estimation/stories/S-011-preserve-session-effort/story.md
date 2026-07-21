@@ -9,8 +9,8 @@ size_source: rolled_up
 size_basis: [sum:tasks]
 points: 3
 points_source: rolled_up
-estimate_minutes: 136
-actual_minutes: 2
+estimate_minutes: 46
+actual_minutes: 48
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-004
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [effort, work-log, conventions]
 created: 2026-07-21
-updated: 2026-07-21T23:20:59Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T23:05:18Z
 completed_at: 2026-07-21T23:07:27Z
 ---
@@ -61,4 +61,5 @@ As a team using Taskmark, I want AI/human session elapsed time still stored so w
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T22:19:27Z | 2026-07-21T23:07:27Z | auto-backfilled: velocity × points (missing work log) |
 

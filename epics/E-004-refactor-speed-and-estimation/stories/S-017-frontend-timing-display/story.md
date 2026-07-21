@@ -9,8 +9,8 @@ size_source: rolled_up
 size_basis: [sum:tasks]
 points: 5
 points_source: rolled_up
-estimate_minutes: 256
-actual_minutes: 0
+estimate_minutes: 76
+actual_minutes: 80
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-004
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [frontend, estimation, actual, effort]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T23:00:19Z
 completed_at: 2026-07-21T23:01:18Z
 ---
@@ -61,4 +61,4 @@ As a dashboard user, I want estimate and actual minutes to keep showing correctl
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T23:00:19Z | 2026-07-21T23:01:18Z | Frontend timing display hardened for flat boards |
+| 1 | agent | 2026-07-21T21:41:18Z | 2026-07-21T23:01:18Z | auto-backfilled: velocity × points (missing work log) |

@@ -9,9 +9,9 @@ size_source: suggested
 size_basis: []
 points: 3
 points_source: suggested
-estimate_minutes: 480
-actual_minutes: 0
-estimate_basis: []
+estimate_minutes: 50
+actual_minutes: 48
+estimate_basis: [calibrated:T-038]
 session_cap_minutes: 480
 parent: S-014
 epic: E-004
@@ -20,10 +20,11 @@ blocked: false
 cancelled: false
 tags: [actual, started_at, completed_at]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
-started_at: null
+updated: 2026-07-21T23:26:35Z
+started_at: 2026-07-21T22:19:27Z
 completed_at: 2026-07-21T23:07:27Z
 ---
+
 # T-038: Update recompute for start→complete actuals
 
 ## Description
@@ -53,4 +54,5 @@ Change recompute-actuals.py to set leaf actual from started_at/completed_at and 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T22:19:27Z | 2026-07-21T23:07:27Z | auto-backfilled: velocity × points (missing work log) |
 

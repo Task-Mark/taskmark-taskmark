@@ -9,8 +9,8 @@ size_source: rolled_up
 size_basis: [sum:tasks]
 points: 5
 points_source: rolled_up
-estimate_minutes: 254
-actual_minutes: 2
+estimate_minutes: 74
+actual_minutes: 80
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-003
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [architecture, single-repo, board-layout]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 ---
@@ -62,4 +62,4 @@ As a developer with a single-folder / single-git workspace, I want the Taskmark 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T22:34:16Z | 2026-07-21T22:36:37Z | Delivered E-003: single vs <name>-taskmark layout, sync script, skills/rules, migrated this workspace |
+| 1 | agent | 2026-07-21T21:16:51Z | 2026-07-21T22:36:51Z | auto-backfilled: velocity × points (missing work log) |

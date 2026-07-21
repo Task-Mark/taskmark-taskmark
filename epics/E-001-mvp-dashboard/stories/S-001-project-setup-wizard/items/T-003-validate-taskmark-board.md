@@ -9,9 +9,9 @@ size_source: suggested
 size_basis: []
 points: 2
 points_source: suggested
-estimate_minutes: 120
-actual_minutes: 1
-estimate_basis: []
+estimate_minutes: 30
+actual_minutes: 32
+estimate_basis: [calibrated:T-003]
 session_cap_minutes: 480
 parent: S-001
 epic: E-001
@@ -20,11 +20,10 @@ blocked: false
 cancelled: false
 tags: [mvp, wizard, validation]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
 ---
-
 # T-003: Validate taskmark board in selected folder
 
 ## Description
@@ -60,4 +59,4 @@ Keep checks lightweight for MVP; deep schema validation can come later. Relies o
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T16:35:18Z | 2026-07-21T16:36:18Z | Implemented as part of S-001 setup wizard |
+| 1 | agent | 2026-07-21T16:05:18Z | 2026-07-21T16:37:18Z | auto-backfilled: velocity × points (missing work log) |

@@ -9,9 +9,9 @@ size_source: suggested
 size_basis: []
 points: 2
 points_source: suggested
-estimate_minutes: 120
-actual_minutes: 0
-estimate_basis: []
+estimate_minutes: 30
+actual_minutes: 32
+estimate_basis: [calibrated:B-001]
 session_cap_minutes: 480
 parent: S-002
 epic: E-001
@@ -20,11 +20,10 @@ blocked: false
 cancelled: false
 tags: [mvp, parser, bug]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T16:56:26Z
 completed_at: 2026-07-21T16:56:26Z
 ---
-
 # B-001: Epic list fails after board frontmatter fence corruption
 
 ## Description
@@ -64,4 +63,4 @@ Root cause: board status updates concatenated `---` onto the last frontmatter li
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T16:56:26Z | 2026-07-21T16:56:26Z | Repaired glued frontmatter fences; hardened epic parser |
+| 1 | agent | 2026-07-21T16:24:26Z | 2026-07-21T16:56:26Z | auto-backfilled: velocity × points (missing work log) |

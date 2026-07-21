@@ -9,9 +9,9 @@ size_source: suggested
 size_basis: []
 points: 2
 points_source: suggested
-estimate_minutes: 120
-actual_minutes: 0
-estimate_basis: []
+estimate_minutes: 30
+actual_minutes: 32
+estimate_basis: [calibrated:T-032]
 session_cap_minutes: 480
 parent: S-012
 epic: E-004
@@ -20,10 +20,11 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
-started_at: null
+updated: 2026-07-21T23:26:35Z
+started_at: 2026-07-21T22:35:27Z
 completed_at: 2026-07-21T23:07:27Z
 ---
+
 # T-032: Define 1-month done-item sample set
 
 ## Description
@@ -53,4 +54,5 @@ Specify which item types, statuses, and timestamp fields enter the 30-day window
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T22:35:27Z | 2026-07-21T23:07:27Z | auto-backfilled: velocity × points (missing work log) |
 

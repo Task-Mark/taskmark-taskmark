@@ -9,8 +9,8 @@ size_source: rolled_up
 size_basis: [sum:stories]
 points: 31
 points_source: rolled_up
-estimate_minutes: 3268
-actual_minutes: 12
+estimate_minutes: 488
+actual_minutes: 496
 estimate_basis: [sum:stories]
 session_cap_minutes: 480
 parent: null
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, plugin, board-layout]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 ---
@@ -72,5 +72,5 @@ Stop copying `taskmark/` into every product repo. Place the board where git owne
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T22:34:16Z | 2026-07-21T22:36:37Z | Delivered E-003: single vs <name>-taskmark layout, sync script, skills/rules, migrated this workspace |
-| 2 | agent | 2026-07-21T22:31:15Z | 2026-07-21T22:42:00Z | auto-recovered: commit span |
+| 1 | agent | 2026-07-21T14:20:51Z | 2026-07-21T14:36:51Z | auto-backfilled: rollup from children (missing/under-logged) |
+| 2 | agent | 2026-07-21T14:36:51Z | 2026-07-21T22:36:51Z | auto-backfilled: rollup from children (missing/under-logged) |

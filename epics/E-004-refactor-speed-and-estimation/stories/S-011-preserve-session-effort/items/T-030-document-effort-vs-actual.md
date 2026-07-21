@@ -10,7 +10,7 @@ size_basis: []
 points: 1
 points_source: suggested
 estimate_minutes: 16
-actual_minutes: 2
+actual_minutes: 16
 estimate_basis: []
 session_cap_minutes: 480
 parent: S-011
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [effort, work-log, conventions]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T23:05:18Z
 completed_at: 2026-07-21T23:07:27Z
 ---
@@ -54,5 +54,5 @@ Write conventions for session effort vs wall-clock actual.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T23:05:18Z | 2026-07-21T23:07:27Z | In progress: E-004 dual model + velocity refactor |
+| 1 | agent | 2026-07-21T22:51:27Z | 2026-07-21T23:07:27Z | auto-backfilled: velocity × points (missing work log) |
 

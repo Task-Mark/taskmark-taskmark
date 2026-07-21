@@ -9,8 +9,8 @@ size_source: rolled_up
 size_basis: [sum:tasks]
 points: 10
 points_source: rolled_up
-estimate_minutes: 854
-actual_minutes: 0
+estimate_minutes: 154
+actual_minutes: 160
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-003
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, board-layout, git]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 ---
@@ -66,3 +66,4 @@ As a developer working across multiple git projects in one workspace, I want a d
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T19:56:51Z | 2026-07-21T22:36:51Z | auto-backfilled: velocity × points (missing work log) |

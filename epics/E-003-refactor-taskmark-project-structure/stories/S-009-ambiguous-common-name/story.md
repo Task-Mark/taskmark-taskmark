@@ -9,8 +9,8 @@ size_source: rolled_up
 size_basis: [sum:tasks]
 points: 4
 points_source: rolled_up
-estimate_minutes: 240
-actual_minutes: 2
+estimate_minutes: 60
+actual_minutes: 64
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-003
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, ux]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 ---
@@ -60,4 +60,4 @@ As a developer in a multi-project workspace, when the shared project name is amb
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T22:34:16Z | 2026-07-21T22:36:37Z | Delivered E-003: single vs <name>-taskmark layout, sync script, skills/rules, migrated this workspace |
+| 1 | agent | 2026-07-21T21:32:51Z | 2026-07-21T22:36:51Z | auto-backfilled: velocity × points (missing work log) |

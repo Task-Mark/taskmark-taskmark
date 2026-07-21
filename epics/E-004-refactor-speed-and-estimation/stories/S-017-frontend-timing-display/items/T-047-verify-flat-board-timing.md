@@ -10,7 +10,7 @@ size_basis: []
 points: 1
 points_source: suggested
 estimate_minutes: 16
-actual_minutes: 0
+actual_minutes: 16
 estimate_basis: []
 session_cap_minutes: 480
 parent: S-017
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [frontend, estimation, actual]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T23:00:19Z
 completed_at: 2026-07-21T23:01:18Z
 ---
@@ -55,4 +55,4 @@ Smoke-check discovery + parse of estimate/actual from taskmark-taskmark flat boa
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T23:00:19Z | 2026-07-21T23:01:18Z | Frontend timing display hardened for flat boards |
+| 1 | agent | 2026-07-21T22:45:18Z | 2026-07-21T23:01:18Z | auto-backfilled: velocity × points (missing work log) |

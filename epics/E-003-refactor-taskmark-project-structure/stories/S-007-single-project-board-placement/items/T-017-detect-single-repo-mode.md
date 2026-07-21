@@ -9,9 +9,9 @@ size_source: suggested
 size_basis: [T-008, T-003]
 points: 2
 points_source: suggested
-estimate_minutes: 120
-actual_minutes: 0
-estimate_basis: []
+estimate_minutes: 30
+actual_minutes: 32
+estimate_basis: [calibrated:T-017]
 session_cap_minutes: 480
 parent: S-007
 epic: E-003
@@ -20,10 +20,11 @@ blocked: false
 cancelled: false
 tags: [architecture, single-repo, detection]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
-started_at: null
+updated: 2026-07-21T23:26:35Z
+started_at: 2026-07-21T22:04:51Z
 completed_at: 2026-07-21T22:36:51Z
 ---
+
 # T-017: Detect single-repo workspace mode
 
 ## Description
@@ -56,3 +57,4 @@ Feeds S-007 placement and S-008 branching.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T22:04:51Z | 2026-07-21T22:36:51Z | auto-backfilled: velocity × points (missing work log) |

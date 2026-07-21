@@ -9,9 +9,9 @@ size_source: suggested
 size_basis: []
 points: 2
 points_source: suggested
-estimate_minutes: 120
-actual_minutes: 1
-estimate_basis: []
+estimate_minutes: 30
+actual_minutes: 32
+estimate_basis: [calibrated:T-007]
 session_cap_minutes: 480
 parent: S-002
 epic: E-001
@@ -20,11 +20,10 @@ blocked: false
 cancelled: false
 tags: [mvp, epics, integration]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T16:49:52Z
 completed_at: 2026-07-21T16:51:19Z
 ---
-
 # T-007: Wire selected project to epic list
 
 ## Description
@@ -57,4 +56,4 @@ Connect the persisted **master folder** cookie from the setup wizard to discover
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T16:49:52Z | 2026-07-21T16:51:19Z | Wired master cookie discovery to epic list on /board |
+| 1 | agent | 2026-07-21T16:19:19Z | 2026-07-21T16:51:19Z | auto-backfilled: velocity × points (missing work log) |

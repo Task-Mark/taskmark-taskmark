@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, tasks, stories]
 created: 2026-07-21
-updated: 2026-07-21T23:18:07Z
+updated: 2026-07-21T23:26:35Z
 started_at: 2026-07-21T18:00:53Z
 completed_at: 2026-07-21T18:02:46Z
 ---
@@ -63,5 +63,5 @@ As a user, I want to select a user story and see the tasks (and bugs) connected 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T18:00:53Z | 2026-07-21T18:02:46Z | Delivered task list for selected story (parse + UI + wiring) |
-| 2 | agent | 2026-07-21T18:00:53Z | 2026-07-21T22:21:39Z | auto-recovered: commit span |
+| 1 | agent | 2026-07-21T04:59:46Z | 2026-07-21T10:02:46Z | auto-backfilled: rollup from children (missing/under-logged) |
+| 2 | agent | 2026-07-21T10:02:46Z | 2026-07-21T18:02:46Z | auto-backfilled: rollup from children (missing/under-logged) |
