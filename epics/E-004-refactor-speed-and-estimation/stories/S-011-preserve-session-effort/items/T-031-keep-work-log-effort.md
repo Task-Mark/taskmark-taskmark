@@ -20,11 +20,10 @@ blocked: false
 cancelled: false
 tags: [effort, work-log, conventions]
 created: 2026-07-21
-updated: 2026-07-21T22:56:48Z
+updated: 2026-07-21T23:01:27Z
 started_at: null
 completed_at: null
 ---
-
 # T-031: Keep work-log session effort computation
 
 ## Description

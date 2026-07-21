@@ -1,28 +1,28 @@
 # Board index
 
-Last synced: 2026-07-21T22:57:05Z
+Last synced: 2026-07-21T23:01:27Z
 
 ## Epics
 
 | ID | Title | Status | Size | Points | Est (min) | Actual (min) | Path |
 |----|-------|--------|------|--------|-----------|--------------|------|
-| E-001 | MVP Taskmark dashboard | done | XL | 24 | 2490 | 94 | [epic.md](epics/E-001-mvp-dashboard/epic.md) |
+| E-001 | MVP Taskmark dashboard | done | XL | 26 | 2610 | 94 | [epic.md](epics/E-001-mvp-dashboard/epic.md) |
 | E-002 | User stories view | done | M | 11 | 1265 | 831 | [epic.md](epics/E-002-user-stories-view/epic.md) |
-| E-004 | Refactor speed and estimation | backlog | XL | 38 | 4936 | 0 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
-| E-003 | Refactor Taskmark project structure | done | XL | 21 | 2414 | 6 | [epic.md](epics/E-003-refactor-taskmark-project-structure/epic.md) |
+| E-004 | Refactor speed and estimation | backlog | XL | 43 | 5192 | 0 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
+| E-003 | Refactor Taskmark project structure | done | XL | 31 | 3268 | 12 | [epic.md](epics/E-003-refactor-taskmark-project-structure/epic.md) |
 
 ## Stories
 
 | ID | Title | Epic | Status | Size | Points | Est (min) | Actual (min) | Path |
 |----|-------|------|--------|------|--------|-----------|--------------|------|
-| S-001 | Project setup wizard | E-001 | done | XL | 11 | 1215 | 18 | [story.md](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/story.md) |
+| S-001 | Project setup wizard | E-001 | done | XL | 13 | 1335 | 18 | [story.md](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/story.md) |
 | S-002 | Epic list for selected project | E-001 | done | L | 8 | 765 | 48 | [story.md](epics/E-001-mvp-dashboard/stories/S-002-epic-list/story.md) |
 | S-003 | App bar project switcher | E-001 | done | S | 2 | 30 | 28 | [story.md](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/story.md) |
 | S-004 | Add project accumulates workspaces | E-001 | done | M | 3 | 480 | 0 | [story.md](epics/E-001-mvp-dashboard/stories/S-004-add-project-accumulate/story.md) |
 | S-005 | Story list for selected epic | E-002 | done | S | 3 | 45 | 48 | [story.md](epics/E-002-user-stories-view/stories/S-005-story-list-for-epic/story.md) |
 | S-006 | Task list for selected story | E-002 | done | L | 8 | 1220 | 783 | [story.md](epics/E-002-user-stories-view/stories/S-006-task-list-for-story/story.md) |
 | S-007 | Single-project board placement | E-003 | done | M | 5 | 254 | 2 | [story.md](epics/E-003-refactor-taskmark-project-structure/stories/S-007-single-project-board-placement/story.md) |
-| S-008 | Multi-project dedicated board repo | E-003 | done | L | 8 | 734 | 2 | [story.md](epics/E-003-refactor-taskmark-project-structure/stories/S-008-multi-project-dedicated-board/story.md) |
+| S-008 | Multi-project dedicated board repo | E-003 | done | L | 10 | 854 | 0 | [story.md](epics/E-003-refactor-taskmark-project-structure/stories/S-008-multi-project-dedicated-board/story.md) |
 | S-009 | Ambiguous common-name resolution | E-003 | done | M | 4 | 240 | 2 | [story.md](epics/E-003-refactor-taskmark-project-structure/stories/S-009-ambiguous-common-name/story.md) |
 | S-010 | Migrate plugin tooling to new layout | E-003 | done | XL | 12 | 1920 | 2 | [story.md](epics/E-003-refactor-taskmark-project-structure/stories/S-010-migrate-plugin-tooling/story.md) |
 | S-011 | Preserve session effort tracking | E-004 | backlog | S | 3 | 136 | 0 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-011-preserve-session-effort/story.md) |
@@ -31,6 +31,7 @@ Last synced: 2026-07-21T22:57:05Z
 | S-014 | Actual time from start to complete | E-004 | backlog | L | 8 | 1080 | 0 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-014-actual-from-start-complete/story.md) |
 | S-015 | Start cascade for task, story, epic | E-004 | backlog | M | 5 | 600 | 0 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-015-start-cascade/story.md) |
 | S-016 | End cascade for task, story, epic | E-004 | backlog | L | 9 | 1440 | 0 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-016-end-cascade/story.md) |
+| S-017 | Frontend timing display for estimate and actual | E-004 | done | M | 5 | 256 | 0 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-017-frontend-timing-display/story.md) |
 
 ## Open work sessions
 
@@ -86,6 +87,9 @@ Last synced: 2026-07-21T22:57:05Z
 | T-042 | End/complete sets completed_at and closes sessions | S-016 | backlog | M | 3 | 480 | 0 | [T-042](epics/E-004-refactor-speed-and-estimation/stories/S-016-end-cascade/items/T-042-end-item-sets-completed-at.md) |
 | T-043 | Cascade complete parents when last child ends | S-016 | backlog | M | 3 | 480 | 0 | [T-043](epics/E-004-refactor-speed-and-estimation/stories/S-016-end-cascade/items/T-043-cascade-complete-parents.md) |
 | T-044 | Update complete-work skills and conventions | S-016 | backlog | M | 3 | 480 | 0 | [T-044](epics/E-004-refactor-speed-and-estimation/stories/S-016-end-cascade/items/T-044-update-complete-skills-conventions.md) |
+| T-045 | Shared frontmatter timing field helpers | S-017 | done | S | 2 | 120 | 0 | [T-045](epics/E-004-refactor-speed-and-estimation/stories/S-017-frontend-timing-display/items/T-045-shared-timing-helpers.md) |
+| T-046 | Display Est Actual and optional Effort in lists | S-017 | done | S | 2 | 120 | 0 | [T-046](epics/E-004-refactor-speed-and-estimation/stories/S-017-frontend-timing-display/items/T-046-display-est-actual-effort.md) |
+| T-047 | Verify timing parse against flat board | S-017 | done | XS | 1 | 16 | 0 | [T-047](epics/E-004-refactor-speed-and-estimation/stories/S-017-frontend-timing-display/items/T-047-verify-flat-board-timing.md) |
 | B-003 | Setup fails to discover flat multi-repo board | S-001 | done | S | 2 | 120 | 0 | [B-003](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/B-003-discover-flat-taskmark-board.md) |
 | B-002 | Dedicated board repo must be flat (no nested taskmark/) | S-008 | done | S | 2 | 120 | 0 | [B-002](epics/E-003-refactor-taskmark-project-structure/stories/S-008-multi-project-dedicated-board/items/B-002-flat-board-repo-root.md) |
 | B-001 | Epic list fails after board frontmatter fence corruption | S-002 | done | S | 2 | 120 | 0 | [B-001](epics/E-001-mvp-dashboard/stories/S-002-epic-list/items/B-001-epic-frontmatter-parse.md) |

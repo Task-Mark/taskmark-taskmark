@@ -20,10 +20,11 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, layout]
 created: 2026-07-21
-updated: 2026-07-21T22:42:00Z
+updated: 2026-07-21T23:01:27Z
 started_at: 2026-07-21T22:40:35Z
 completed_at: 2026-07-21T22:40:35Z
 ---
+
 # B-002: Dedicated board repo must be flat (no nested taskmark/)
 
 ## Description

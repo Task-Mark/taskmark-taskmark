@@ -7,9 +7,9 @@ priority: high
 size: XL
 size_source: suggested
 size_basis: [T-001, T-002, T-003, T-004, T-008]
-points: 11
+points: 13
 points_source: suggested
-estimate_minutes: 1215
+estimate_minutes: 1335
 actual_minutes: 18
 estimate_basis: [T-001, T-002, T-003, T-004, T-008]
 session_cap_minutes: 480
@@ -20,10 +20,11 @@ blocked: false
 cancelled: false
 tags: [mvp, wizard, setup]
 created: 2026-07-21
-updated: 2026-07-21T22:44:32Z
+updated: 2026-07-21T23:01:27Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
 ---
+
 # S-001: Project setup wizard
 
 ## User story

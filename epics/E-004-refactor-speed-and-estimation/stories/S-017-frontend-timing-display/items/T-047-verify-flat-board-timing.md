@@ -1,0 +1,56 @@
+---
+id: T-047
+type: task
+title: Verify timing parse against flat board
+status: done
+priority: high
+size: XS
+size_source: suggested
+size_basis: []
+points: 1
+points_source: suggested
+estimate_minutes: 16
+actual_minutes: 0
+estimate_basis: []
+session_cap_minutes: 480
+parent: S-017
+epic: E-004
+owner: ""
+blocked: false
+cancelled: false
+tags: [frontend, estimation, actual]
+created: 2026-07-21
+updated: 2026-07-21T23:01:27Z
+started_at: 2026-07-21T23:00:19Z
+completed_at: 2026-07-21T23:01:18Z
+---
+# T-047: Verify timing parse against flat board
+
+## Description
+
+Smoke-check discovery + parse of estimate/actual from taskmark-taskmark flat board.
+
+## Acceptance criteria
+
+- [x] Flat board discovery succeeds.
+- [x] E-004 estimate/actual parse non-null where frontmatter has values.
+
+## Notes
+
+## Prompt & feedback log
+
+| # | When (UTC) | Kind | Summary |
+|---|------------|------|---------|
+| 1 | 2026-07-21T23:00:19Z | prompt | Ensure frontend keeps showing estimate and actual after latest Taskmark changes |
+| 2 | 2026-07-21T23:01:18Z | feedback | timing display delivered |
+
+## Commits
+
+| SHA | Repo | Date (UTC) | Message |
+|-----|------|------------|---------|
+
+## Work log
+
+| Session | Actor | Started (UTC) | Ended (UTC) | Summary |
+|---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T23:00:19Z | 2026-07-21T23:01:18Z | Frontend timing display hardened for flat boards |

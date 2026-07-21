@@ -20,11 +20,10 @@ blocked: false
 cancelled: false
 tags: [architecture, single-repo, detection]
 created: 2026-07-21
-updated: 2026-07-21T22:40:35Z
+updated: 2026-07-21T23:01:27Z
 started_at: null
 completed_at: 2026-07-21T22:36:51Z
 ---
-
 # T-017: Detect single-repo workspace mode
 
 ## Description

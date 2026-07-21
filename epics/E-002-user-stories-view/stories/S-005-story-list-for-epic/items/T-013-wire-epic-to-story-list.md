@@ -20,10 +20,11 @@ blocked: false
 cancelled: false
 tags: [wiring, stories, epics]
 created: 2026-07-21
-updated: 2026-07-21T22:40:35Z
+updated: 2026-07-21T23:01:27Z
 started_at: 2026-07-21T17:45:49Z
 completed_at: 2026-07-21T17:48:46Z
 ---
+
 # T-013: Wire epic selection to story list
 
 ## Description

@@ -20,11 +20,10 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation]
 created: 2026-07-21
-updated: 2026-07-21T22:56:48Z
+updated: 2026-07-21T23:01:27Z
 started_at: null
 completed_at: null
 ---
-
 # T-034: Refresh VELOCITY.md for monthly window
 
 ## Description

@@ -6,12 +6,12 @@ status: backlog
 priority: high
 size: XL
 size_source: suggested
-size_basis: [S-011, S-012, S-013, S-014, S-015, S-016]
-points: 38
+size_basis: [S-011, S-012, S-013, S-014, S-015, S-016, S-017]
+points: 43
 points_source: suggested
-estimate_minutes: 4936
+estimate_minutes: 5192
 actual_minutes: 0
-estimate_basis: [S-011, S-012, S-013, S-014, S-015, S-016]
+estimate_basis: [S-011, S-012, S-013, S-014, S-015, S-016, S-017]
 session_cap_minutes: 480
 parent: null
 epic: null
@@ -20,11 +20,10 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation, effort, plugin, conventions]
 created: 2026-07-21
-updated: 2026-07-21T22:58:00Z
+updated: 2026-07-21T23:01:27Z
 started_at: null
 completed_at: null
 ---
-
 # E-004: Refactor speed and estimation
 
 ## Goal
@@ -62,6 +61,7 @@ Refactor how Taskmark measures speed and estimates work: keep AI/human **session
 - [S-014: Actual time from start to complete](stories/S-014-actual-from-start-complete/story.md)
 - [S-015: Start cascade for task, story, epic](stories/S-015-start-cascade/story.md)
 - [S-016: End cascade for task, story, epic](stories/S-016-end-cascade/story.md)
+- [S-017: Frontend timing display for estimate and actual](stories/S-017-frontend-timing-display/story.md)
 
 ## Commits
 

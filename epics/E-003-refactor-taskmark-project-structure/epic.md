@@ -7,10 +7,10 @@ priority: high
 size: XL
 size_source: suggested
 size_basis: [S-007, S-008, S-009, S-010]
-points: 21
+points: 31
 points_source: suggested
-estimate_minutes: 2414
-actual_minutes: 6
+estimate_minutes: 3268
+actual_minutes: 12
 estimate_basis: [S-007, S-008, S-009, S-010]
 session_cap_minutes: 480
 parent: null
@@ -20,11 +20,10 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, plugin, board-layout]
 created: 2026-07-21
-updated: 2026-07-21T22:42:00Z
+updated: 2026-07-21T23:01:27Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 ---
-
 # E-003: Refactor Taskmark project structure
 
 ## Goal
@@ -74,3 +73,4 @@ Stop copying `taskmark/` into every product repo. Place the board where git owne
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | agent | 2026-07-21T22:34:16Z | 2026-07-21T22:36:37Z | Delivered E-003: single vs <name>-taskmark layout, sync script, skills/rules, migrated this workspace |
+| 2 | agent | 2026-07-21T22:31:15Z | 2026-07-21T22:42:00Z | auto-recovered: commit span |
