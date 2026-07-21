@@ -1,0 +1,65 @@
+---
+id: B-003
+type: bug
+title: Setup fails to discover flat multi-repo board
+status: done
+priority: high
+size: S
+size_source: suggested
+size_basis: [T-008, B-002]
+points: 2
+points_source: suggested
+estimate_minutes: 120
+actual_minutes: 0
+estimate_basis: []
+session_cap_minutes: 480
+parent: S-001
+epic: E-001
+owner: ""
+blocked: false
+cancelled: false
+tags: [setup, discovery, multi-repo, frontend]
+created: 2026-07-21
+updated: 2026-07-21T22:44:56Z
+started_at: 2026-07-21T22:44:32Z
+completed_at: 2026-07-21T22:44:56Z
+---
+
+# B-003: Setup fails to discover flat multi-repo board
+
+## Description
+
+After E-003, multi-git boards live at `<common>-taskmark/` root (no nested `taskmark/`). Setup still only looks for `*/taskmark/` boards, so a master folder with only a flat `*-taskmark` project shows "No Taskmark projects found…".
+
+## Repro steps
+
+1. Master folder contains `taskmark-frontend`, `taskmark-cursor`, and flat `taskmark-taskmark/` (INDEX.md at root).
+2. Open setup and select that master folder.
+3. See error: No Taskmark projects found in subfolders…
+
+## Fix criteria
+
+- [x] Discovery recognizes dedicated `*-taskmark` folders with `INDEX.md` or `epics/` at the repo root.
+- [x] Nested `<project>/taskmark/` boards still discover correctly (single-project).
+- [x] Setup error copy mentions both layouts.
+- [x] Selecting the master folder succeeds when a flat board is present.
+
+## Notes
+
+## Prompt & feedback log
+
+| # | When (UTC) | Kind | Summary |
+|---|------------|------|---------|
+| 1 | 2026-07-21T22:44:32Z | prompt | Multi-folder setup shows no projects; flat *-taskmark board not discovered |
+| 2 | 2026-07-21T22:44:56Z | feedback | discovery fix delivered |
+
+## Commits
+
+| SHA | Repo | Date (UTC) | Message |
+|-----|------|------------|---------|
+
+## Work log
+
+| Session | Actor | Started (UTC) | Ended (UTC) | Summary |
+|---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T22:44:32Z | 2026-07-21T22:44:56Z | Fixed discovery for flat *-taskmark boards |

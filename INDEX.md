@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-21T22:40:35Z
+Last synced: 2026-07-21T22:44:56Z
 
 ## Epics
 
@@ -64,5 +64,6 @@ Last synced: 2026-07-21T22:40:35Z
 | T-027 | Update sync-taskmark-repos skill and script | S-010 | done | M | 3 | 480 | 0 | [T-027](epics/E-003-refactor-taskmark-project-structure/stories/S-010-migrate-plugin-tooling/items/T-027-update-sync-taskmark-repos.md) |
 | T-028 | Update init and related skills | S-010 | done | M | 3 | 480 | 0 | [T-028](epics/E-003-refactor-taskmark-project-structure/stories/S-010-migrate-plugin-tooling/items/T-028-update-init-and-skills.md) |
 | T-029 | Migrate existing multi-copy boards | S-010 | done | M | 3 | 480 | 0 | [T-029](epics/E-003-refactor-taskmark-project-structure/stories/S-010-migrate-plugin-tooling/items/T-029-migrate-existing-multi-copy-boards.md) |
+| B-003 | Setup fails to discover flat multi-repo board | S-001 | done | S | 2 | 120 | 0 | [B-003](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/B-003-discover-flat-taskmark-board.md) |
 | B-002 | Dedicated board repo must be flat (no nested taskmark/) | S-008 | done | S | 2 | 120 | 0 | [B-002](epics/E-003-refactor-taskmark-project-structure/stories/S-008-multi-project-dedicated-board/items/B-002-flat-board-repo-root.md) |
 | B-001 | Epic list fails after board frontmatter fence corruption | S-002 | done | S | 2 | 120 | 0 | [B-001](epics/E-001-mvp-dashboard/stories/S-002-epic-list/items/B-001-epic-frontmatter-parse.md) |

@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [mvp, wizard, setup]
 created: 2026-07-21
-updated: 2026-07-21T22:40:35Z
+updated: 2026-07-21T22:44:32Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
 ---
@@ -47,6 +47,7 @@ As a user, I want a setup wizard that lets me select a local **master folder** s
 - [T-003: Validate taskmark board in selected folder](items/T-003-validate-taskmark-board.md)
 - [T-004: Persist selected project and enter app](items/T-004-persist-project-selection.md)
 - [T-008: Discover Taskmark projects under master folder](items/T-008-discover-projects-under-master.md)
+- [B-003: Setup fails to discover flat multi-repo board](items/B-003-discover-flat-taskmark-board.md)
 
 ## Prompt & feedback log
 
@@ -56,6 +57,8 @@ As a user, I want a setup wizard that lets me select a local **master folder** s
 | 2 | 2026-07-21T16:29:20Z | feedback | Persist project in cookies; skip setup when already configured; allow switching projects via setup |
 | 3 | 2026-07-21T16:31:04Z | feedback | Master folder may contain multiple Taskmark projects in subfolders; discover by venturing into children |
 | 4 | 2026-07-21T16:35:18Z | prompt | Start implementing S-001 project setup wizard |
+
+| 5 | 2026-07-21T22:44:32Z | prompt | Setup fails: flat *-taskmark board not discovered |
 
 ## Commits
 
