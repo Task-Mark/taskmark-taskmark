@@ -9,7 +9,7 @@ size_source: suggested
 size_basis: []
 points: 3
 points_source: suggested
-estimate_minutes: 50
+estimate_minutes: 5
 actual_minutes: 3
 estimate_basis: [calibrated:T-001]
 session_cap_minutes: 480
@@ -20,12 +20,11 @@ blocked: false
 cancelled: false
 tags: [mvp, wizard, ui]
 created: 2026-07-21
-updated: 2026-07-22T00:16:21.562Z
+updated: 2026-07-22T00:30:21.269Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
 actual_ms: 180000
 ---
-
 # T-001: Build setup wizard UI shell
 
 ## Description

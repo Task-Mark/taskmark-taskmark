@@ -1,22 +1,23 @@
 # Board index
 
-Last synced: 2026-07-22T00:16:21.587Z
+Last synced: 2026-07-22T00:30:21.326Z
 
 ## Epics
 
 | ID | Title | Status | Size | Points | Est (min) | Actual (min) | Path |
 |----|-------|--------|------|--------|-----------|--------------|------|
-| E-001 | MVP Taskmark dashboard | done | — | 26 | 870 | 440 | [epic.md](epics/E-001-mvp-dashboard/epic.md) |
+| E-001 | MVP Taskmark dashboard | done | — | 26 | 780 | 440 | [epic.md](epics/E-001-mvp-dashboard/epic.md) |
 | E-002 | User stories view | done | — | 11 | 1265 | 831 | [epic.md](epics/E-002-user-stories-view/epic.md) |
-| E-003 | Refactor Taskmark project structure | done | — | 31 | 488 | 496 | [epic.md](epics/E-003-refactor-taskmark-project-structure/epic.md) |
-| E-004 | Refactor speed and estimation | done | — | 50 | 802 | 688 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
+| E-003 | Refactor Taskmark project structure | done | — | 31 | 443 | 496 | [epic.md](epics/E-003-refactor-taskmark-project-structure/epic.md) |
+| E-004 | Refactor speed and estimation | done | — | 52 | 682 | 688 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
 | E-005 | View work item | done | — | 32 | 510 | 3 | [epic.md](epics/E-005-view-work-item/epic.md) |
+| E-006 | New work item list views | backlog | — | 30 | 450 | 0 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
 
 ## Stories
 
 | ID | Title | Epic | Status | Size | Points | Est (min) | Actual (min) | Path |
 |----|-------|------|--------|------|--------|-----------|--------------|------|
-| S-001 | Project setup wizard | E-001 | done | XL | 13 | 205 | 206 | [story.md](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/story.md) |
+| S-001 | Project setup wizard | E-001 | done | XL | 13 | 115 | 206 | [story.md](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/story.md) |
 | S-002 | Epic list for selected project | E-001 | done | L | 8 | 155 | 159 | [story.md](epics/E-001-mvp-dashboard/stories/S-002-epic-list/story.md) |
 | S-003 | App bar project switcher | E-001 | done | S | 2 | 30 | 25 | [story.md](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/story.md) |
 | S-004 | Add project accumulates workspaces | E-001 | done | M | 3 | 480 | 48 | [story.md](epics/E-001-mvp-dashboard/stories/S-004-add-project-accumulate/story.md) |
@@ -25,20 +26,25 @@ Last synced: 2026-07-22T00:16:21.587Z
 | S-007 | Single-project board placement | E-003 | done | M | 5 | 74 | 80 | [story.md](epics/E-003-refactor-taskmark-project-structure/stories/S-007-single-project-board-placement/story.md) |
 | S-008 | Multi-project dedicated board repo | E-003 | done | L | 10 | 154 | 160 | [story.md](epics/E-003-refactor-taskmark-project-structure/stories/S-008-multi-project-dedicated-board/story.md) |
 | S-009 | Ambiguous common-name resolution | E-003 | done | M | 4 | 60 | 64 | [story.md](epics/E-003-refactor-taskmark-project-structure/stories/S-009-ambiguous-common-name/story.md) |
-| S-010 | Migrate plugin tooling to new layout | E-003 | done | XL | 12 | 200 | 192 | [story.md](epics/E-003-refactor-taskmark-project-structure/stories/S-010-migrate-plugin-tooling/story.md) |
-| S-011 | Preserve session effort tracking | E-004 | done | S | 3 | 46 | 20 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-011-preserve-session-effort/story.md) |
-| S-012 | One-month velocity window | E-004 | done | L | 7 | 110 | 112 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-012-one-month-velocity-window/story.md) |
+| S-010 | Migrate plugin tooling to new layout | E-003 | done | XL | 12 | 155 | 192 | [story.md](epics/E-003-refactor-taskmark-project-structure/stories/S-010-migrate-plugin-tooling/story.md) |
+| S-011 | Preserve session effort tracking | E-004 | done | M | 4 | 21 | 20 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-011-preserve-session-effort/story.md) |
+| S-012 | One-month velocity window | E-004 | done | L | 8 | 85 | 112 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-012-one-month-velocity-window/story.md) |
 | S-013 | Estimate from rolling speed | E-004 | done | M | 6 | 100 | 96 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-013-estimate-from-rolling-speed/story.md) |
 | S-014 | Actual time from start to complete | E-004 | done | L | 8 | 130 | 128 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-014-actual-from-start-complete/story.md) |
 | S-015 | Start cascade for task, story, epic | E-004 | done | M | 5 | 80 | 80 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-015-start-cascade/story.md) |
 | S-016 | End cascade for task, story, epic | E-004 | done | L | 9 | 150 | 144 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-016-end-cascade/story.md) |
 | S-017 | Frontend timing display for estimate and actual | E-004 | done | L | 7 | 106 | 80 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-017-frontend-timing-display/story.md) |
-| S-023 | Shared batch actual time split | E-004 | done | S | 5 | 80 | 1 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-023-shared-batch-actual-split/story.md) |
+| S-023 | Shared batch actual time split | E-004 | done | S | 5 | 10 | 11 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-023-shared-batch-actual-split/story.md) |
 | S-018 | Work item detail sheet | E-005 | done | L | 7 | 110 | 0 | [story.md](epics/E-005-view-work-item/stories/S-018-work-item-detail-sheet/story.md) |
 | S-019 | Load full work item content | E-005 | done | L | 10 | 160 | 1 | [story.md](epics/E-005-view-work-item/stories/S-019-load-full-work-item-content/story.md) |
 | S-020 | Epic detail view | E-005 | done | M | 5 | 80 | 0 | [story.md](epics/E-005-view-work-item/stories/S-020-epic-detail-view/story.md) |
 | S-021 | Story detail view | E-005 | done | M | 5 | 80 | 0 | [story.md](epics/E-005-view-work-item/stories/S-021-story-detail-view/story.md) |
 | S-022 | Task and bug detail view | E-005 | done | M | 5 | 80 | 0 | [story.md](epics/E-005-view-work-item/stories/S-022-task-detail-view/story.md) |
+| S-024 | Board list view switcher | E-006 | backlog | M | 6 | 90 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-024-board-list-view-switcher/story.md) |
+| S-025 | Overall list view (current drill-down) | E-006 | backlog | S | 3 | 45 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-025-overall-list-view/story.md) |
+| S-026 | All work items table view | E-006 | backlog | L | 8 | 120 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/story.md) |
+| S-027 | Stories list view with epic tag | E-006 | backlog | M | 6 | 90 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-027-stories-list-view-with-epic-tag/story.md) |
+| S-028 | Tasks list view with epic and story tags | E-006 | backlog | L | 7 | 105 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/story.md) |
 
 ## Open work sessions
 
@@ -50,14 +56,14 @@ Last synced: 2026-07-22T00:16:21.587Z
 
 | ID | Title | Story | Status | Size | Points | Est (min) | Actual (min) | Path |
 |----|-------|-------|--------|------|--------|-----------|--------------|------|
-| T-001 | Build setup wizard UI shell | S-001 | done | M | 3 | 50 | 3 | [T-001](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-001-setup-wizard-ui.md) |
+| T-001 | Build setup wizard UI shell | S-001 | done | M | 3 | 5 | 3 | [T-001](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-001-setup-wizard-ui.md) |
 | T-002 | Implement project folder selection | S-001 | done | XS | 1 | 15 | 14 | [T-002](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-002-folder-selection.md) |
 | T-003 | Validate taskmark board in selected folder | S-001 | done | S | 2 | 30 | 2 | [T-003](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-003-validate-taskmark-board.md) |
 | T-004 | Persist selected project and enter app | S-001 | done | S | 2 | 30 | 2 | [T-004](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-004-persist-project-selection.md) |
 | T-005 | Parse epic markdown from local taskmark folder | S-002 | done | M | 3 | 50 | 48 | [T-005](epics/E-001-mvp-dashboard/stories/S-002-epic-list/items/T-005-parse-epic-markdown.md) |
 | T-006 | Build epic list UI | S-002 | done | XS | 1 | 45 | 47 | [T-006](epics/E-001-mvp-dashboard/stories/S-002-epic-list/items/T-006-epic-list-ui.md) |
 | T-007 | Wire selected project to epic list | S-002 | done | S | 2 | 30 | 32 | [T-007](epics/E-001-mvp-dashboard/stories/S-002-epic-list/items/T-007-wire-project-to-epic-list.md) |
-| T-008 | Discover Taskmark projects under master folder | S-001 | done | M | 3 | 50 | 3 | [T-008](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-008-discover-projects-under-master.md) |
+| T-008 | Discover Taskmark projects under master folder | S-001 | done | M | 3 | 5 | 3 | [T-008](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-008-discover-projects-under-master.md) |
 | T-009 | Build post-setup app bar UI | S-003 | done | XS | 1 | 15 | 13 | [T-009](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/items/T-009-app-bar-ui.md) |
 | T-010 | Persist active project and filter epic list | S-003 | done | XS | 1 | 15 | 12 | [T-010](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/items/T-010-active-project-cookie.md) |
 | T-011 | Parse story markdown under selected epic | S-005 | done | XS | 1 | 15 | 15 | [T-011](epics/E-002-user-stories-view/stories/S-005-story-list-for-epic/items/T-011-parse-story-markdown.md) |
@@ -77,11 +83,11 @@ Last synced: 2026-07-22T00:16:21.587Z
 | T-025 | Prompt user and persist board project name | S-009 | done | S | 2 | 30 | 0 | [T-025](epics/E-003-refactor-taskmark-project-structure/stories/S-009-ambiguous-common-name/items/T-025-prompt-persist-board-name.md) |
 | T-026 | Rewrite multi-repo conventions and rule | S-010 | done | M | 3 | 50 | 1 | [T-026](epics/E-003-refactor-taskmark-project-structure/stories/S-010-migrate-plugin-tooling/items/T-026-rewrite-multi-repo-conventions.md) |
 | T-027 | Update sync-taskmark-repos skill and script | S-010 | done | M | 3 | 50 | 1 | [T-027](epics/E-003-refactor-taskmark-project-structure/stories/S-010-migrate-plugin-tooling/items/T-027-update-sync-taskmark-repos.md) |
-| T-028 | Update init and related skills | S-010 | done | M | 3 | 50 | 5 | [T-028](epics/E-003-refactor-taskmark-project-structure/stories/S-010-migrate-plugin-tooling/items/T-028-update-init-and-skills.md) |
+| T-028 | Update init and related skills | S-010 | done | M | 3 | 5 | 5 | [T-028](epics/E-003-refactor-taskmark-project-structure/stories/S-010-migrate-plugin-tooling/items/T-028-update-init-and-skills.md) |
 | T-029 | Migrate existing multi-copy boards | S-010 | done | M | 3 | 50 | 0 | [T-029](epics/E-003-refactor-taskmark-project-structure/stories/S-010-migrate-plugin-tooling/items/T-029-migrate-existing-multi-copy-boards.md) |
 | T-030 | Document effort vs actual dual model | S-011 | done | XS | 1 | 16 | 16 | [T-030](epics/E-004-refactor-speed-and-estimation/stories/S-011-preserve-session-effort/items/T-030-document-effort-vs-actual.md) |
-| T-031 | Keep work-log session effort computation | S-011 | done | S | 2 | 30 | 4 | [T-031](epics/E-004-refactor-speed-and-estimation/stories/S-011-preserve-session-effort/items/T-031-keep-work-log-effort.md) |
-| T-032 | Define 1-month done-item sample set | S-012 | done | S | 2 | 30 | 3 | [T-032](epics/E-004-refactor-speed-and-estimation/stories/S-012-one-month-velocity-window/items/T-032-define-month-window-samples.md) |
+| T-031 | Keep work-log session effort computation | S-011 | done | M | 3 | 5 | 4 | [T-031](epics/E-004-refactor-speed-and-estimation/stories/S-011-preserve-session-effort/items/T-031-keep-work-log-effort.md) |
+| T-032 | Define 1-month done-item sample set | S-012 | done | M | 3 | 5 | 3 | [T-032](epics/E-004-refactor-speed-and-estimation/stories/S-012-one-month-velocity-window/items/T-032-define-month-window-samples.md) |
 | T-033 | Compute minutes per point for window | S-012 | done | M | 3 | 50 | 1 | [T-033](epics/E-004-refactor-speed-and-estimation/stories/S-012-one-month-velocity-window/items/T-033-compute-minutes-per-point.md) |
 | T-034 | Refresh VELOCITY.md for monthly window | S-012 | done | S | 2 | 30 | 1 | [T-034](epics/E-004-refactor-speed-and-estimation/stories/S-012-one-month-velocity-window/items/T-034-refresh-velocity-md-month.md) |
 | T-035 | Suggest estimates from monthly velocity on create | S-013 | done | M | 3 | 50 | 0 | [T-035](epics/E-004-refactor-speed-and-estimation/stories/S-013-estimate-from-rolling-speed/items/T-035-suggest-estimate-from-velocity.md) |
@@ -98,6 +104,20 @@ Last synced: 2026-07-22T00:16:21.587Z
 | T-046 | Display Est Actual and optional Effort in lists | S-017 | done | S | 2 | 30 | 2 | [T-046](epics/E-004-refactor-speed-and-estimation/stories/S-017-frontend-timing-display/items/T-046-display-est-actual-effort.md) |
 | T-047 | Verify timing parse against flat board | S-017 | done | XS | 1 | 16 | 16 | [T-047](epics/E-004-refactor-speed-and-estimation/stories/S-017-frontend-timing-display/items/T-047-verify-flat-board-timing.md) |
 | T-061 | Show precise Actual with seconds or milliseconds | S-017 | done | S | 2 | 30 | 2 | [T-061](epics/E-004-refactor-speed-and-estimation/stories/S-017-frontend-timing-display/items/T-061-precise-actual-display.md) |
+| T-062 | Define list view mode types and state | S-024 | backlog | S | 2 | 30 | 0 | [T-062](epics/E-006-new-work-item-list-views/stories/S-024-board-list-view-switcher/items/T-062-define-list-view-mode-state.md) |
+| T-063 | Build view switcher button group UI | S-024 | backlog | S | 2 | 30 | 0 | [T-063](epics/E-006-new-work-item-list-views/stories/S-024-board-list-view-switcher/items/T-063-build-view-switcher-button-group.md) |
+| T-064 | Wire switcher into board shell | S-024 | backlog | S | 2 | 30 | 0 | [T-064](epics/E-006-new-work-item-list-views/stories/S-024-board-list-view-switcher/items/T-064-wire-switcher-into-board-shell.md) |
+| T-065 | Register Overall as default view mode | S-025 | backlog | XS | 1 | 15 | 0 | [T-065](epics/E-006-new-work-item-list-views/stories/S-025-overall-list-view/items/T-065-register-overall-as-default-view.md) |
+| T-066 | Preserve drill-down under Overall view | S-025 | backlog | S | 2 | 30 | 0 | [T-066](epics/E-006-new-work-item-list-views/stories/S-025-overall-list-view/items/T-066-preserve-drill-down-under-overall.md) |
+| T-067 | Aggregate all work items into flat rows | S-026 | backlog | M | 3 | 45 | 0 | [T-067](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-067-aggregate-all-work-item-rows.md) |
+| T-068 | Build All view unified table UI | S-026 | backlog | M | 3 | 45 | 0 | [T-068](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-068-build-all-items-table-ui.md) |
+| T-069 | Wire All view into switcher and detail sheet | S-026 | backlog | S | 2 | 30 | 0 | [T-069](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-069-wire-all-view-to-switcher.md) |
+| T-070 | Collect stories with epic metadata | S-027 | backlog | S | 2 | 30 | 0 | [T-070](epics/E-006-new-work-item-list-views/stories/S-027-stories-list-view-with-epic-tag/items/T-070-collect-stories-with-epic-metadata.md) |
+| T-071 | Build Stories view table with epic tag | S-027 | backlog | S | 2 | 30 | 0 | [T-071](epics/E-006-new-work-item-list-views/stories/S-027-stories-list-view-with-epic-tag/items/T-071-build-stories-view-with-epic-tag.md) |
+| T-072 | Wire Stories view into switcher and detail sheet | S-027 | backlog | S | 2 | 30 | 0 | [T-072](epics/E-006-new-work-item-list-views/stories/S-027-stories-list-view-with-epic-tag/items/T-072-wire-stories-view-to-switcher.md) |
+| T-073 | Collect tasks with epic and story metadata | S-028 | backlog | S | 2 | 30 | 0 | [T-073](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/items/T-073-collect-tasks-with-parent-metadata.md) |
+| T-074 | Build Tasks view table with epic and story tags | S-028 | backlog | M | 3 | 45 | 0 | [T-074](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/items/T-074-build-tasks-view-with-parent-tags.md) |
+| T-075 | Wire Tasks view into switcher and detail sheet | S-028 | backlog | S | 2 | 30 | 0 | [T-075](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/items/T-075-wire-tasks-view-to-switcher.md) |
 | T-048 | Build shared work item sheet shell | S-018 | done | M | 3 | 50 | 0 | [T-048](epics/E-005-view-work-item/stories/S-018-work-item-detail-sheet/items/T-048-shared-work-item-sheet-shell.md) |
 | T-049 | Open sheet from epic story and task list rows | S-018 | done | S | 2 | 30 | 0 | [T-049](epics/E-005-view-work-item/stories/S-018-work-item-detail-sheet/items/T-049-open-sheet-from-list-rows.md) |
 | T-050 | Sheet loading empty and error states | S-018 | done | S | 2 | 30 | 0 | [T-050](epics/E-005-view-work-item/stories/S-018-work-item-detail-sheet/items/T-050-sheet-loading-empty-error-states.md) |
@@ -112,6 +132,6 @@ Last synced: 2026-07-22T00:16:21.587Z
 | T-059 | Build task and bug detail content layout | S-022 | done | M | 3 | 50 | 0 | [T-059](epics/E-005-view-work-item/stories/S-022-task-detail-view/items/T-059-task-bug-detail-content-layout.md) |
 | T-060 | Wire task list open to item detail sheet | S-022 | done | S | 2 | 30 | 0 | [T-060](epics/E-005-view-work-item/stories/S-022-task-detail-view/items/T-060-wire-task-list-to-detail-sheet.md) |
 | B-003 | Setup fails to discover flat multi-repo board | S-001 | done | S | 2 | 30 | 32 | [B-003](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/B-003-discover-flat-taskmark-board.md) |
-| B-004 | Parallel full-session work logs inflate epic Actual | S-023 | done | M | 5 | 80 | 1 | [B-004](epics/E-004-refactor-speed-and-estimation/stories/S-023-shared-batch-actual-split/items/B-004-parallel-session-inflates-actual.md) |
+| B-004 | Parallel full-session work logs inflate epic Actual | S-023 | done | M | 5 | 10 | 11 | [B-004](epics/E-004-refactor-speed-and-estimation/stories/S-023-shared-batch-actual-split/items/B-004-parallel-session-inflates-actual.md) |
 | B-002 | Dedicated board repo must be flat (no nested taskmark/) | S-008 | done | S | 2 | 30 | 32 | [B-002](epics/E-003-refactor-taskmark-project-structure/stories/S-008-multi-project-dedicated-board/items/B-002-flat-board-repo-root.md) |
 | B-001 | Epic list fails after board frontmatter fence corruption | S-002 | done | S | 2 | 30 | 32 | [B-001](epics/E-001-mvp-dashboard/stories/S-002-epic-list/items/B-001-epic-frontmatter-parse.md) |

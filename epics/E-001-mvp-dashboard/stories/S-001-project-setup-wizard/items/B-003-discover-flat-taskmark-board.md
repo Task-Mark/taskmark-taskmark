@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [setup, discovery, multi-repo, frontend]
 created: 2026-07-21
-updated: 2026-07-22T00:16:21.562Z
+updated: 2026-07-22T00:30:21.269Z
 started_at: 2026-07-21T22:44:32Z
 completed_at: 2026-07-21T22:44:56Z
 actual_ms: 1920000

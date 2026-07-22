@@ -4,12 +4,12 @@ type: story
 title: Preserve session effort tracking
 status: done
 priority: high
-size: S
+size: M
 size_source: rolled_up
 size_basis: [sum:tasks]
-points: 3
+points: 4
 points_source: rolled_up
-estimate_minutes: 46
+estimate_minutes: 21
 actual_minutes: 20
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [effort, work-log, conventions]
 created: 2026-07-21
-updated: 2026-07-22T00:16:21.562Z
+updated: 2026-07-22T00:30:21.269Z
 started_at: 2026-07-21T23:05:18Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 1200000

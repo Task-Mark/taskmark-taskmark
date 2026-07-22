@@ -9,10 +9,10 @@ size_source: suggested
 size_basis: [T-038, T-031]
 points: 5
 points_source: suggested
-estimate_minutes: 80
-actual_minutes: 1
+estimate_minutes: 10
+actual_minutes: 11
 estimate_source: suggested
-estimate_basis: [velocity:30d:16min/pt]
+estimate_basis: [calibrated:B-004]
 session_cap_minutes: 480
 parent: S-023
 epic: E-004
@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [actual, work-log, batch, bug]
 created: 2026-07-22
-updated: 2026-07-22T00:18:29.117Z
+updated: 2026-07-22T00:30:21.269Z
 started_at: 2026-07-22T00:07:36Z
 completed_at: 2026-07-22T00:09:05Z
-actual_ms: 89000
+actual_ms: 710000
 ---
-
 # B-004: Parallel full-session work logs inflate epic Actual
 
 ## Description
@@ -70,3 +69,4 @@ Weight = story points (fallback estimate_minutes). Use largest-remainder so allo
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | agent | 2026-07-22T00:07:36Z | 2026-07-22T00:09:05Z | Fixed shared-batch Actual split (recompute + conventions) |
+| 2 | agent | 2026-07-22T00:07:36Z | 2026-07-22T00:17:57Z | auto-recovered: commit span |

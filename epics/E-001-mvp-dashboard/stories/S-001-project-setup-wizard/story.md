@@ -9,7 +9,7 @@ size_source: rolled_up
 size_basis: [sum:tasks]
 points: 13
 points_source: rolled_up
-estimate_minutes: 205
+estimate_minutes: 115
 actual_minutes: 206
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [mvp, wizard, setup]
 created: 2026-07-21
-updated: 2026-07-22T00:16:21.562Z
+updated: 2026-07-22T00:30:21.269Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
 actual_ms: 12360000

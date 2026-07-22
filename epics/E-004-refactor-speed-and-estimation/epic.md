@@ -7,9 +7,9 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:stories]
-points: 50
+points: 52
 points_source: rolled_up
-estimate_minutes: 802
+estimate_minutes: 682
 actual_minutes: 688
 estimate_basis: [sum:stories]
 session_cap_minutes: 480
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation, effort, plugin, conventions]
 created: 2026-07-21
-updated: 2026-07-22T00:18:29.117Z
+updated: 2026-07-22T00:30:21.269Z
 started_at: 2026-07-21T23:05:18Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 41280000

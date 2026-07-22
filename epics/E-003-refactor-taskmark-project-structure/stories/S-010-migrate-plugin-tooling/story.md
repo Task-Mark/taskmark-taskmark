@@ -9,7 +9,7 @@ size_source: rolled_up
 size_basis: [sum:tasks]
 points: 12
 points_source: rolled_up
-estimate_minutes: 200
+estimate_minutes: 155
 actual_minutes: 192
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [plugin, conventions, migration, multi-repo]
 created: 2026-07-21
-updated: 2026-07-22T00:16:21.562Z
+updated: 2026-07-22T00:30:21.269Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 actual_ms: 11520000

@@ -9,8 +9,8 @@ size_source: rolled_up
 size_basis: [sum:tasks]
 points: 5
 points_source: rolled_up
-estimate_minutes: 80
-actual_minutes: 1
+estimate_minutes: 10
+actual_minutes: 11
 estimate_source: rolled_up
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -21,10 +21,10 @@ blocked: false
 cancelled: false
 tags: [actual, work-log, batch, velocity]
 created: 2026-07-22
-updated: 2026-07-22T00:18:29.117Z
+updated: 2026-07-22T00:30:21.269Z
 started_at: 2026-07-22T00:07:36Z
 completed_at: 2026-07-22T00:09:05Z
-actual_ms: 89000
+actual_ms: 710000
 ---
 
 # S-023: Shared batch actual time split
@@ -63,3 +63,4 @@ As a user who asks the AI to implement a whole epic in one session, I want Actua
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | agent | 2026-07-22T00:07:36Z | 2026-07-22T00:07:36Z | shared-batch: 0min rollup (children hold allocation) |
+| 2 | agent | 2026-07-22T00:07:36Z | 2026-07-22T00:17:57Z | auto-recovered: commit span |

@@ -7,9 +7,9 @@ priority: high
 size: L
 size_source: rolled_up
 size_basis: [sum:tasks]
-points: 7
+points: 8
 points_source: rolled_up
-estimate_minutes: 110
+estimate_minutes: 85
 actual_minutes: 112
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation]
 created: 2026-07-21
-updated: 2026-07-22T00:16:21.562Z
+updated: 2026-07-22T00:30:21.269Z
 started_at: 2026-07-21T21:15:27Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 6720000

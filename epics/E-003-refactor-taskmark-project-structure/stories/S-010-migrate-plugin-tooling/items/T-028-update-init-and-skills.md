@@ -9,7 +9,7 @@ size_source: suggested
 size_basis: [T-027, T-026]
 points: 3
 points_source: suggested
-estimate_minutes: 50
+estimate_minutes: 5
 actual_minutes: 5
 estimate_basis: [calibrated:T-028]
 session_cap_minutes: 480
@@ -20,11 +20,12 @@ blocked: false
 cancelled: false
 tags: [plugin, init, skills]
 created: 2026-07-21
-updated: 2026-07-22T00:16:21.562Z
+updated: 2026-07-22T00:30:21.269Z
 started_at: 2026-07-21T21:48:51Z
 completed_at: 2026-07-21T22:36:51Z
 actual_ms: 300000
 ---
+
 # T-028: Update init and related skills
 
 ## Description

@@ -9,7 +9,7 @@ size_source: rolled_up
 size_basis: [sum:stories]
 points: 31
 points_source: rolled_up
-estimate_minutes: 488
+estimate_minutes: 443
 actual_minutes: 496
 estimate_basis: [sum:stories]
 session_cap_minutes: 480
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, plugin, board-layout]
 created: 2026-07-21
-updated: 2026-07-22T00:16:21.562Z
+updated: 2026-07-22T00:30:21.269Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 actual_ms: 29760000
