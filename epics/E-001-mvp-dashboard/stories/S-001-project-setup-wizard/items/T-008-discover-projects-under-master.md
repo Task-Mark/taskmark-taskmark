@@ -10,7 +10,7 @@ size_basis: []
 points: 3
 points_source: suggested
 estimate_minutes: 50
-actual_minutes: 48
+actual_minutes: 3
 estimate_basis: [calibrated:T-008]
 session_cap_minutes: 480
 parent: S-001
@@ -20,9 +20,10 @@ blocked: false
 cancelled: false
 tags: [mvp, discovery, filesystem]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
+actual_ms: 180000
 ---
 
 # T-008: Discover Taskmark projects under master folder
@@ -59,4 +60,4 @@ Example: master `/Users/.../taskmark` → discover `/Users/.../taskmark/taskmark
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T15:49:18Z | 2026-07-21T16:37:18Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | agent | 2026-07-21T15:49:18Z | 2026-07-21T15:52:18Z | auto-backfilled: velocity × points (missing work log); shared-batch: 3 of 6min by points |

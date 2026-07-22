@@ -10,7 +10,7 @@ size_basis: [calibrated:T-060]
 points: 2
 points_source: suggested
 estimate_minutes: 30
-actual_minutes: 3
+actual_minutes: 0
 estimate_source: manual
 estimate_basis: [manual:preserve-plan;burst-delivery]
 session_cap_minutes: 480
@@ -21,9 +21,10 @@ blocked: false
 cancelled: false
 tags: [ui, tasks, frontend, sheet]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
+actual_ms: 12187
 ---
 # T-060: Wire task list open to item detail sheet
 
@@ -57,4 +58,4 @@ Depends on T-048–T-051, T-054, and T-059.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:57:12Z | Delivered T-060 as part of E-005 |
+| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:54:09.187Z | Delivered as part of E-005; shared-batch: 12187 of 195000ms by points |

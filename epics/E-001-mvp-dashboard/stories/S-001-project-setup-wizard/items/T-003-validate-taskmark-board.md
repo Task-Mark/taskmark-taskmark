@@ -10,7 +10,7 @@ size_basis: []
 points: 2
 points_source: suggested
 estimate_minutes: 30
-actual_minutes: 32
+actual_minutes: 2
 estimate_basis: [calibrated:T-003]
 session_cap_minutes: 480
 parent: S-001
@@ -20,9 +20,10 @@ blocked: false
 cancelled: false
 tags: [mvp, wizard, validation]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
+actual_ms: 120000
 ---
 
 # T-003: Validate taskmark board in selected folder
@@ -60,4 +61,4 @@ Keep checks lightweight for MVP; deep schema validation can come later. Relies o
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T16:05:18Z | 2026-07-21T16:37:18Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | agent | 2026-07-21T16:05:18Z | 2026-07-21T16:07:18Z | auto-backfilled: velocity × points (missing work log); shared-batch: 2 of 4min by points |

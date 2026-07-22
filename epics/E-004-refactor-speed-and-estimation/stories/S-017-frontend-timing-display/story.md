@@ -4,12 +4,12 @@ type: story
 title: Frontend timing display for estimate and actual
 status: done
 priority: high
-size: M
+size: L
 size_source: rolled_up
 size_basis: [sum:tasks]
-points: 5
+points: 7
 points_source: rolled_up
-estimate_minutes: 76
+estimate_minutes: 106
 actual_minutes: 80
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -20,9 +20,10 @@ blocked: false
 cancelled: false
 tags: [frontend, estimation, actual, effort]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T23:00:19Z
 completed_at: 2026-07-21T23:01:18Z
+actual_ms: 4800000
 ---
 # S-017: Frontend timing display for estimate and actual
 
@@ -42,6 +43,7 @@ As a dashboard user, I want estimate and actual minutes to keep showing correctl
 - [T-045: Shared frontmatter timing field helpers](items/T-045-shared-timing-helpers.md)
 - [T-046: Display Est Actual and optional Effort in lists](items/T-046-display-est-actual-effort.md)
 - [T-047: Verify timing parse against flat board](items/T-047-verify-flat-board-timing.md)
+- [T-061: Show precise Actual with seconds or milliseconds](items/T-061-precise-actual-display.md)
 
 ## Prompt & feedback log
 

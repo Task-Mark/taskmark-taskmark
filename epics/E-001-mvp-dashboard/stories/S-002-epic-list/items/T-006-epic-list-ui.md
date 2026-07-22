@@ -10,7 +10,7 @@ size_basis: [calibrated:T-006]
 points: 1
 points_source: suggested
 estimate_minutes: 45
-actual_minutes: 46
+actual_minutes: 47
 estimate_basis: [calibrated:T-006]
 session_cap_minutes: 480
 parent: S-002
@@ -20,9 +20,10 @@ blocked: false
 cancelled: false
 tags: [mvp, epics, ui]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T16:49:52Z
 completed_at: 2026-07-21T16:51:19Z
+actual_ms: 2828000
 ---
 # T-006: Build epic list UI
 

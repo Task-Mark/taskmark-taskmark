@@ -10,7 +10,7 @@ size_basis: [T-027, T-026]
 points: 3
 points_source: suggested
 estimate_minutes: 50
-actual_minutes: 48
+actual_minutes: 5
 estimate_basis: [calibrated:T-028]
 session_cap_minutes: 480
 parent: S-010
@@ -20,9 +20,10 @@ blocked: false
 cancelled: false
 tags: [plugin, init, skills]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T21:48:51Z
 completed_at: 2026-07-21T22:36:51Z
+actual_ms: 300000
 ---
 # T-028: Update init and related skills
 
@@ -54,4 +55,4 @@ Update `taskmark-init`, create/start/complete/log-commits/commit-all, and any sk
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T21:48:51Z | 2026-07-21T22:36:51Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | agent | 2026-07-21T21:48:51Z | 2026-07-21T21:53:51Z | auto-backfilled: velocity × points (missing work log); shared-batch: 5 of 9min by points |

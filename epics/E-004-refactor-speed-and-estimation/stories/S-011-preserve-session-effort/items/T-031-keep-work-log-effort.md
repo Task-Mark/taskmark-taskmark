@@ -10,7 +10,7 @@ size_basis: []
 points: 2
 points_source: suggested
 estimate_minutes: 30
-actual_minutes: 32
+actual_minutes: 4
 estimate_basis: [calibrated:T-031]
 session_cap_minutes: 480
 parent: S-011
@@ -20,9 +20,10 @@ blocked: false
 cancelled: false
 tags: [effort, work-log, conventions]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T22:35:27Z
 completed_at: 2026-07-21T23:07:27Z
+actual_ms: 240000
 ---
 # T-031: Keep work-log session effort computation
 
@@ -53,5 +54,5 @@ Ensure recompute still derives session effort from Work log (idle/session caps) 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T22:35:27Z | 2026-07-21T23:07:27Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | agent | 2026-07-21T22:35:27Z | 2026-07-21T22:39:27Z | auto-backfilled: velocity × points (missing work log); shared-batch: 4 of 7min by points |
 

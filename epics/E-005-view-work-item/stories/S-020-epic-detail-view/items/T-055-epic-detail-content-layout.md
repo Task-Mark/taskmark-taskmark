@@ -10,7 +10,7 @@ size_basis: [calibrated:T-055]
 points: 3
 points_source: suggested
 estimate_minutes: 50
-actual_minutes: 3
+actual_minutes: 0
 estimate_source: manual
 estimate_basis: [manual:preserve-plan;burst-delivery]
 session_cap_minutes: 480
@@ -21,9 +21,10 @@ blocked: false
 cancelled: false
 tags: [ui, epic, frontend, detail]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
+actual_ms: 18281
 ---
 # T-055: Build epic detail content layout
 
@@ -56,4 +57,4 @@ Build the epic-specific detail body that presents meta and sections (goal, scope
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:57:12Z | Delivered T-055 as part of E-005 |
+| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:54:15.281Z | Delivered as part of E-005; shared-batch: 18281 of 195000ms by points |

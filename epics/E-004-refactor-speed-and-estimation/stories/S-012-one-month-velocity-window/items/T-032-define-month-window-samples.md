@@ -10,7 +10,7 @@ size_basis: []
 points: 2
 points_source: suggested
 estimate_minutes: 30
-actual_minutes: 32
+actual_minutes: 3
 estimate_basis: [calibrated:T-032]
 session_cap_minutes: 480
 parent: S-012
@@ -20,9 +20,10 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T22:35:27Z
 completed_at: 2026-07-21T23:07:27Z
+actual_ms: 180000
 ---
 # T-032: Define 1-month done-item sample set
 
@@ -53,5 +54,5 @@ Specify which item types, statuses, and timestamp fields enter the 30-day window
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T22:35:27Z | 2026-07-21T23:07:27Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | agent | 2026-07-21T22:35:27Z | 2026-07-21T22:38:27Z | auto-backfilled: velocity × points (missing work log); shared-batch: 3 of 7min by points |
 

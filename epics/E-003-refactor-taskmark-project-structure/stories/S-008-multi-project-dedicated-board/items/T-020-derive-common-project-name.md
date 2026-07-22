@@ -10,7 +10,7 @@ size_basis: [T-008, T-017]
 points: 2
 points_source: suggested
 estimate_minutes: 30
-actual_minutes: 32
+actual_minutes: 1
 estimate_basis: [calibrated:T-020]
 session_cap_minutes: 480
 parent: S-008
@@ -20,10 +20,12 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, naming]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T22:04:51Z
 completed_at: 2026-07-21T22:36:51Z
+actual_ms: 60000
 ---
+
 # T-020: Derive common project name
 
 ## Description
@@ -56,4 +58,4 @@ Example for this workspace: parent `taskmark` → `taskmark-taskmark` may be wro
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T22:04:51Z | 2026-07-21T22:36:51Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | agent | 2026-07-21T22:04:51Z | 2026-07-21T22:05:51Z | auto-backfilled: velocity × points (missing work log); shared-batch: 1 of 2min by points |

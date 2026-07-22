@@ -20,10 +20,12 @@ blocked: false
 cancelled: false
 tags: [parser, tasks]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T18:00:53Z
 completed_at: 2026-07-21T18:02:46Z
+actual_ms: 15706000
 ---
+
 # T-014: Parse task and bug markdown under selected story
 
 ## Description
@@ -59,5 +61,5 @@ Reuse shared frontmatter parsing helpers from the epic/story readers.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T18:00:53Z | 2026-07-21T18:02:46Z | Parsed task/bug markdown under selected story |
-| 2 | agent | 2026-07-21T18:00:53Z | 2026-07-21T22:21:39Z | auto-recovered: commit span |
+| 1 | agent | 2026-07-21T18:00:53Z | 2026-07-21T18:01:53Z | Parsed task/bug markdown under selected story; shared-batch: 1 of 1min by points |
+| 2 | agent | 2026-07-21T18:00:53Z | 2026-07-21T22:21:39Z | auto-recovered: commit span; shared-batch: 98 of 260min by points |

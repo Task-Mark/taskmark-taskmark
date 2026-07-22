@@ -10,7 +10,7 @@ size_basis: [sum:tasks]
 points: 8
 points_source: rolled_up
 estimate_minutes: 155
-actual_minutes: 158
+actual_minutes: 159
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-001
@@ -20,9 +20,10 @@ blocked: false
 cancelled: false
 tags: [mvp, epics, dashboard]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T16:49:52Z
 completed_at: 2026-07-21T16:51:19Z
+actual_ms: 9548000
 ---
 
 # S-002: Epic list for selected project

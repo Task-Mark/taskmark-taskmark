@@ -10,7 +10,7 @@ size_basis: [calibrated:T-011]
 points: 1
 points_source: suggested
 estimate_minutes: 15
-actual_minutes: 16
+actual_minutes: 15
 estimate_basis: [calibrated:T-011]
 session_cap_minutes: 480
 parent: S-005
@@ -20,9 +20,10 @@ blocked: false
 cancelled: false
 tags: [parser, stories]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T17:45:49Z
 completed_at: 2026-07-21T17:48:46Z
+actual_ms: 907000
 ---
 
 # T-011: Parse story markdown under selected epic
@@ -59,5 +60,5 @@ Mirror the epic parser pattern from T-005; keep the API consistent for later tas
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T17:45:49Z | 2026-07-21T17:48:46Z | Parsed story.md under selected epic; shared frontmatter helpers |
-| 2 | agent | 2026-07-21T17:45:49Z | 2026-07-21T17:59:56Z | auto-recovered: commit span |
+| 1 | agent | 2026-07-21T17:45:49Z | 2026-07-21T17:46:49Z | Parsed story.md under selected epic; shared frontmatter helpers; shared-batch: 1 of 1min by points |
+| 2 | agent | 2026-07-21T17:45:49Z | 2026-07-21T17:59:56Z | auto-recovered: commit span; shared-batch: 5 of 14min by points |

@@ -20,9 +20,10 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T21:15:27Z
 completed_at: 2026-07-21T23:07:27Z
+actual_ms: 6720000
 ---
 # S-012: One-month velocity window
 

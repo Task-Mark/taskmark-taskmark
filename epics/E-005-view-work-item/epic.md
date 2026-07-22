@@ -10,7 +10,7 @@ size_basis: [sum:stories]
 points: 32
 points_source: rolled_up
 estimate_minutes: 510
-actual_minutes: 39
+actual_minutes: 3
 estimate_source: rolled_up
 estimate_basis: [sum:stories]
 session_cap_minutes: 480
@@ -21,9 +21,10 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, detail, sheet]
 created: 2026-07-21
-updated: 2026-07-22T00:00:43Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
+actual_ms: 195000
 ---
 
 # E-005: View work item
@@ -73,5 +74,5 @@ Let users open any work item (epic, user story, or task) in a dedicated view mod
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:57:12Z | Implemented E-005 work item detail sheets |
+| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:53:57Z | Delivered as part of E-005; shared-batch: 0ms rollup (children hold allocation) |
 | 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:56:38Z | Implemented work item detail sheets (S-018–S-022) |

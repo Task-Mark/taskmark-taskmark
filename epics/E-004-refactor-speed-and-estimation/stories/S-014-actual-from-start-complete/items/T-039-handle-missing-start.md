@@ -10,7 +10,7 @@ size_basis: []
 points: 3
 points_source: suggested
 estimate_minutes: 50
-actual_minutes: 48
+actual_minutes: 0
 estimate_basis: [calibrated:T-039]
 session_cap_minutes: 480
 parent: S-014
@@ -20,10 +20,12 @@ blocked: false
 cancelled: false
 tags: [actual, started_at, completed_at]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T22:19:27Z
 completed_at: 2026-07-21T23:07:27Z
+actual_ms: 0
 ---
+
 # T-039: Handle complete without start or missing dates
 
 ## Description
@@ -53,5 +55,5 @@ Implement policy when completed_at exists but started_at/date missing.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T22:19:27Z | 2026-07-21T23:07:27Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | agent | 2026-07-21T22:19:27Z | 2026-07-21T22:19:27Z | auto-backfilled: velocity × points (missing work log); shared-batch: 0 of 1min by points |
 

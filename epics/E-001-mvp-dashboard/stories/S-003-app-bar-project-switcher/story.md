@@ -10,7 +10,7 @@ size_basis: [sum:tasks]
 points: 2
 points_source: rolled_up
 estimate_minutes: 30
-actual_minutes: 28
+actual_minutes: 25
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-001
@@ -20,9 +20,10 @@ blocked: false
 cancelled: false
 tags: [mvp, app-bar, navigation]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T16:59:31Z
 completed_at: 2026-07-21T17:02:25Z
+actual_ms: 1508000
 ---
 
 # S-003: App bar project switcher
@@ -62,5 +63,5 @@ As a user, after I set up a master folder, I want an app bar that lets me switch
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T16:59:31Z | 2026-07-21T17:02:25Z | App bar project switcher shipped |
-| 2 | agent | 2026-07-21T16:59:31Z | 2026-07-21T17:11:35Z | auto-recovered: commit span |
+| 1 | agent | 2026-07-21T16:59:31Z | 2026-07-21T16:59:31Z | App bar project switcher shipped; shared-batch: 0min rollup (children hold allocation) |
+| 2 | agent | 2026-07-21T16:59:31Z | 2026-07-21T17:11:35Z | auto-recovered: commit span; shared-batch: 0min rollup (children hold allocation) |

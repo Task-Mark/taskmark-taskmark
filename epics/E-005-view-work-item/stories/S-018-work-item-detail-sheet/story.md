@@ -10,7 +10,7 @@ size_basis: [sum:tasks]
 points: 7
 points_source: rolled_up
 estimate_minutes: 110
-actual_minutes: 9
+actual_minutes: 0
 estimate_source: rolled_up
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -21,9 +21,10 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, sheet, detail]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
+actual_ms: 42657
 ---
 
 # S-018: Work item detail sheet
@@ -62,4 +63,4 @@ As a user, I want every work item view to open in a sheet so I can inspect detai
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:57:12Z | Delivered S-018 as part of E-005 |
+| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:53:57Z | Delivered as part of E-005; shared-batch: 0ms rollup (children hold allocation) |

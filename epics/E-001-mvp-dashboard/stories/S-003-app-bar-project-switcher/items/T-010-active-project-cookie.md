@@ -10,7 +10,7 @@ size_basis: [calibrated:T-010]
 points: 1
 points_source: suggested
 estimate_minutes: 15
-actual_minutes: 14
+actual_minutes: 12
 estimate_basis: [calibrated:T-010]
 session_cap_minutes: 480
 parent: S-003
@@ -20,9 +20,10 @@ blocked: false
 cancelled: false
 tags: [mvp, cookie, navigation]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T16:59:31Z
 completed_at: 2026-07-21T17:02:25Z
+actual_ms: 724000
 ---
 
 # T-010: Persist active project and filter epic list
@@ -59,5 +60,5 @@ Cookie name: `taskmark_active_project` (project id / folder name under discovery
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T16:59:31Z | 2026-07-21T17:02:25Z | Active project cookie + filtered epic list |
-| 2 | agent | 2026-07-21T16:59:31Z | 2026-07-21T17:11:35Z | auto-recovered: commit span |
+| 1 | agent | 2026-07-21T16:59:31Z | 2026-07-21T16:59:31Z | Active project cookie + filtered epic list; shared-batch: 0 of 1min by points |
+| 2 | agent | 2026-07-21T16:59:31Z | 2026-07-21T17:11:35Z | auto-recovered: commit span; shared-batch: 3 of 6min by points |

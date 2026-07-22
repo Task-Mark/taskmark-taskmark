@@ -20,9 +20,10 @@ blocked: false
 cancelled: false
 tags: [mvp, epics, integration]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T16:49:52Z
 completed_at: 2026-07-21T16:51:19Z
+actual_ms: 1920000
 ---
 
 # T-007: Wire selected project to epic list

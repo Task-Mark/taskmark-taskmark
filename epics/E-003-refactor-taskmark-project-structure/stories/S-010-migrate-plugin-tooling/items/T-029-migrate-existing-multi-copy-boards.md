@@ -10,7 +10,7 @@ size_basis: [T-023, T-027]
 points: 3
 points_source: suggested
 estimate_minutes: 50
-actual_minutes: 48
+actual_minutes: 0
 estimate_basis: [calibrated:T-029]
 session_cap_minutes: 480
 parent: S-010
@@ -20,9 +20,10 @@ blocked: false
 cancelled: false
 tags: [migration, multi-repo, plugin]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T21:48:51Z
 completed_at: 2026-07-21T22:36:51Z
+actual_ms: 0
 ---
 # T-029: Migrate existing multi-copy boards
 
@@ -57,4 +58,4 @@ This workspace (taskmark-frontend + taskmark-cursor) is a target example.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T21:48:51Z | 2026-07-21T22:36:51Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | agent | 2026-07-21T21:48:51Z | 2026-07-21T21:48:51Z | auto-backfilled: velocity × points (missing work log); shared-batch: 0 of 2min by points |

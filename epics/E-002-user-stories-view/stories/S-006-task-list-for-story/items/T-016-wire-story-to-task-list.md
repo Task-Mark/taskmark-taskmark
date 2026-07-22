@@ -10,7 +10,7 @@ size_basis: [T-007, T-013]
 points: 2
 points_source: suggested
 estimate_minutes: 260
-actual_minutes: 261
+actual_minutes: 260
 estimate_basis: [calibrated:T-016]
 session_cap_minutes: 480
 parent: S-006
@@ -20,11 +20,11 @@ blocked: false
 cancelled: false
 tags: [wiring, tasks, stories]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T18:00:53Z
 completed_at: 2026-07-21T18:02:46Z
+actual_ms: 15646000
 ---
-
 # T-016: Wire story selection to task list
 
 ## Description
@@ -59,5 +59,5 @@ Completes the epic → story → task drill-down for E-002.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T18:00:53Z | 2026-07-21T18:02:46Z | Wired story selection via ?story= to task list |
-| 2 | agent | 2026-07-21T18:00:53Z | 2026-07-21T22:21:39Z | auto-recovered: commit span |
+| 1 | agent | 2026-07-21T18:00:53Z | 2026-07-21T18:00:53Z | Wired story selection via ?story= to task list; shared-batch: 0 of 1min by points |
+| 2 | agent | 2026-07-21T18:00:53Z | 2026-07-21T22:21:39Z | auto-recovered: commit span; shared-batch: 65 of 260min by points |

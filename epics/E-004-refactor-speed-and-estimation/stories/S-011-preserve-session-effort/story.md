@@ -10,7 +10,7 @@ size_basis: [sum:tasks]
 points: 3
 points_source: rolled_up
 estimate_minutes: 46
-actual_minutes: 48
+actual_minutes: 20
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-004
@@ -20,10 +20,12 @@ blocked: false
 cancelled: false
 tags: [effort, work-log, conventions]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T23:05:18Z
 completed_at: 2026-07-21T23:07:27Z
+actual_ms: 1200000
 ---
+
 # S-011: Preserve session effort tracking
 
 ## User story
@@ -61,5 +63,6 @@ As a team using Taskmark, I want AI/human session elapsed time still stored so w
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T22:19:27Z | 2026-07-21T23:07:27Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | agent | 2026-07-21T22:19:27Z | 2026-07-21T22:19:27Z | auto-backfilled: velocity × points (missing work log); shared-batch: 0min rollup (children hold allocation) |
+| 2 | agent | 2026-07-21T23:05:18Z | 2026-07-21T23:20:34Z | auto-recovered: commit span |
 

@@ -10,7 +10,7 @@ size_basis: []
 points: 2
 points_source: suggested
 estimate_minutes: 30
-actual_minutes: 32
+actual_minutes: 2
 estimate_basis: [calibrated:T-004]
 session_cap_minutes: 480
 parent: S-001
@@ -20,9 +20,10 @@ blocked: false
 cancelled: false
 tags: [mvp, wizard, persistence]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
+actual_ms: 120000
 ---
 
 # T-004: Persist selected project and enter app
@@ -62,4 +63,4 @@ Cookie name `taskmark_master_folder`, httpOnly, maxAge 1 year, stores master fol
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T16:05:18Z | 2026-07-21T16:37:18Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | agent | 2026-07-21T16:05:18Z | 2026-07-21T16:07:18Z | auto-backfilled: velocity × points (missing work log); shared-batch: 2 of 4min by points |

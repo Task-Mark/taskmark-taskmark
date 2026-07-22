@@ -7,9 +7,9 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:stories]
-points: 43
+points: 50
 points_source: rolled_up
-estimate_minutes: 692
+estimate_minutes: 802
 actual_minutes: 688
 estimate_basis: [sum:stories]
 session_cap_minutes: 480
@@ -20,9 +20,10 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation, effort, plugin, conventions]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T23:05:18Z
 completed_at: 2026-07-21T23:07:27Z
+actual_ms: 41280000
 ---
 # E-004: Refactor speed and estimation
 
@@ -54,6 +55,8 @@ Refactor how Taskmark measures speed and estimates work: keep AI/human **session
 - Session work-log effort remains available (not discarded).
 
 ## Stories
+
+- [S-023: Shared batch actual time split](stories/S-023-shared-batch-actual-split/story.md)
 
 - [S-011: Preserve session effort tracking](stories/S-011-preserve-session-effort/story.md)
 - [S-012: One-month velocity window](stories/S-012-one-month-velocity-window/story.md)

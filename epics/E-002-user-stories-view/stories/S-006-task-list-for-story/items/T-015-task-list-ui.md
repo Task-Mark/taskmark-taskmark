@@ -10,7 +10,7 @@ size_basis: [T-006, T-012]
 points: 3
 points_source: suggested
 estimate_minutes: 480
-actual_minutes: 261
+actual_minutes: 260
 estimate_basis: [T-006]
 session_cap_minutes: 480
 parent: S-006
@@ -20,10 +20,12 @@ blocked: false
 cancelled: false
 tags: [ui, tasks, dashboard]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:16:21.562Z
 started_at: 2026-07-21T18:00:53Z
 completed_at: 2026-07-21T18:02:46Z
+actual_ms: 15646000
 ---
+
 # T-015: Build task list UI
 
 ## Description
@@ -59,5 +61,5 @@ Reuse shared list/row patterns from T-006 / T-012.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T18:00:53Z | 2026-07-21T18:02:46Z | Built task list UI with type badges |
-| 2 | agent | 2026-07-21T18:00:53Z | 2026-07-21T22:21:39Z | auto-recovered: commit span |
+| 1 | agent | 2026-07-21T18:00:53Z | 2026-07-21T18:00:53Z | Built task list UI with type badges; shared-batch: 0 of 1min by points |
+| 2 | agent | 2026-07-21T18:00:53Z | 2026-07-21T22:21:39Z | auto-recovered: commit span; shared-batch: 97 of 260min by points |
