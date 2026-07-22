@@ -2,17 +2,17 @@
 id: T-051
 type: task
 title: Define detail types and shared section parsers
-status: backlog
+status: done
 priority: high
 size: M
 size_source: suggested
-size_basis: [T-014, T-005]
+size_basis: [calibrated:T-051]
 points: 3
 points_source: suggested
 estimate_minutes: 50
-actual_minutes: 0
-estimate_source: suggested
-estimate_basis: [velocity:30d:16min/pt]
+actual_minutes: 3
+estimate_source: manual
+estimate_basis: [manual:preserve-plan;burst-delivery]
 session_cap_minutes: 480
 parent: S-019
 epic: E-005
@@ -21,11 +21,10 @@ blocked: false
 cancelled: false
 tags: [parse, frontend, detail]
 created: 2026-07-21
-updated: 2026-07-21T23:50:12Z
-started_at: null
-completed_at: null
+updated: 2026-07-21T23:57:22Z
+started_at: 2026-07-21T23:53:57Z
+completed_at: 2026-07-21T23:57:12Z
 ---
-
 # T-051: Define detail types and shared section parsers
 
 ## Description
@@ -34,10 +33,10 @@ Add typed models for full work item details and shared helpers to parse markdown
 
 ## Acceptance criteria
 
-- [ ] Detail types exist for epic, story, and task/bug beyond list summary fields.
-- [ ] Shared helpers can extract named `##` sections and markdown tables into structured data.
-- [ ] Acceptance-criteria style checklists can be parsed into items with checked state when present.
-- [ ] Helpers fail gracefully with useful errors on malformed input.
+- [x] Detail types exist for epic, story, and task/bug beyond list summary fields.
+- [x] Shared helpers can extract named `##` sections and markdown tables into structured data.
+- [x] Acceptance-criteria style checklists can be parsed into items with checked state when present.
+- [x] Helpers fail gracefully with useful errors on malformed input.
 
 ## Notes
 
@@ -48,6 +47,7 @@ Extend existing frontmatter/timing parsers; avoid duplicating list-summary parsi
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T23:48:59Z | prompt | Create all user stories and tasks for E-005 view work item |
+| 2 | 2026-07-21T23:56:38Z | feedback | Implement E-005 detail sheets delivered |
 
 ## Commits
 
@@ -58,3 +58,4 @@ Extend existing frontmatter/timing parsers; avoid duplicating list-summary parsi
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:57:12Z | Delivered T-051 as part of E-005 |

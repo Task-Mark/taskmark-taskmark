@@ -2,7 +2,7 @@
 id: S-018
 type: story
 title: Work item detail sheet
-status: backlog
+status: done
 priority: high
 size: L
 size_source: rolled_up
@@ -10,7 +10,7 @@ size_basis: [sum:tasks]
 points: 7
 points_source: rolled_up
 estimate_minutes: 110
-actual_minutes: 0
+actual_minutes: 9
 estimate_source: rolled_up
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -21,10 +21,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, sheet, detail]
 created: 2026-07-21
-updated: 2026-07-21T23:50:12Z
-started_at: null
-completed_at: null
+updated: 2026-07-21T23:57:22Z
+started_at: 2026-07-21T23:53:57Z
+completed_at: 2026-07-21T23:57:12Z
 ---
+
 # S-018: Work item detail sheet
 
 ## User story
@@ -33,10 +34,10 @@ As a user, I want every work item view to open in a sheet so I can inspect detai
 
 ## Acceptance criteria
 
-- [ ] A shared sheet shell hosts work item detail content (title/header, scrollable body, close control).
-- [ ] Users can open the sheet from epic, story, and task list rows without breaking existing selection/drill-down.
-- [ ] Closing the sheet returns to the same list context (selection preserved).
-- [ ] Loading, empty, and error states are handled inside the sheet.
+- [x] A shared sheet shell hosts work item detail content (title/header, scrollable body, close control).
+- [x] Users can open the sheet from epic, story, and task list rows without breaking existing selection/drill-down.
+- [x] Closing the sheet returns to the same list context (selection preserved).
+- [x] Loading, empty, and error states are handled inside the sheet.
 
 ## Tasks
 
@@ -49,6 +50,8 @@ As a user, I want every work item view to open in a sheet so I can inspect detai
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T23:48:59Z | prompt | Create all user stories and tasks for E-005 view work item |
+| 2 | 2026-07-21T23:53:57Z | prompt | Develop epic E-005 — implement work item detail views in sheets |
+| 3 | 2026-07-21T23:56:38Z | feedback | Implement E-005 detail sheets delivered |
 
 ## Commits
 
@@ -59,3 +62,4 @@ As a user, I want every work item view to open in a sheet so I can inspect detai
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:57:12Z | Delivered S-018 as part of E-005 |

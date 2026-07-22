@@ -2,7 +2,7 @@
 id: S-019
 type: story
 title: Load full work item content
-status: backlog
+status: done
 priority: high
 size: L
 size_source: rolled_up
@@ -10,7 +10,7 @@ size_basis: [sum:tasks]
 points: 10
 points_source: rolled_up
 estimate_minutes: 160
-actual_minutes: 0
+actual_minutes: 12
 estimate_source: rolled_up
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -21,10 +21,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, parse, detail]
 created: 2026-07-21
-updated: 2026-07-21T23:50:12Z
-started_at: null
-completed_at: null
+updated: 2026-07-21T23:57:22Z
+started_at: 2026-07-21T23:53:57Z
+completed_at: 2026-07-21T23:57:12Z
 ---
+
 # S-019: Load full work item content
 
 ## User story
@@ -33,10 +34,10 @@ As a user, I want the app to load every detail from a work item’s markdown so 
 
 ## Acceptance criteria
 
-- [ ] Detail types cover frontmatter fields plus body sections for epics, stories, and tasks/bugs.
-- [ ] Epic, story, and task/bug markdown can be loaded by file path into typed detail models.
-- [ ] Shared section/table parsing covers goal/user story/description, AC, children lists, prompt & feedback, commits, and work log where present.
-- [ ] Parse failures for one file return a clear error without crashing the board.
+- [x] Detail types cover frontmatter fields plus body sections for epics, stories, and tasks/bugs.
+- [x] Epic, story, and task/bug markdown can be loaded by file path into typed detail models.
+- [x] Shared section/table parsing covers goal/user story/description, AC, children lists, prompt & feedback, commits, and work log where present.
+- [x] Parse failures for one file return a clear error without crashing the board.
 
 ## Tasks
 
@@ -50,6 +51,8 @@ As a user, I want the app to load every detail from a work item’s markdown so 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T23:48:59Z | prompt | Create all user stories and tasks for E-005 view work item |
+| 2 | 2026-07-21T23:53:57Z | prompt | Develop epic E-005 — implement work item detail views in sheets |
+| 3 | 2026-07-21T23:56:38Z | feedback | Implement E-005 detail sheets delivered |
 
 ## Commits
 
@@ -60,3 +63,4 @@ As a user, I want the app to load every detail from a work item’s markdown so 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:57:12Z | Delivered S-019 as part of E-005 |

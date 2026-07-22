@@ -2,7 +2,7 @@
 id: S-021
 type: story
 title: Story detail view
-status: backlog
+status: done
 priority: high
 size: M
 size_source: rolled_up
@@ -10,7 +10,7 @@ size_basis: [sum:tasks]
 points: 5
 points_source: rolled_up
 estimate_minutes: 80
-actual_minutes: 0
+actual_minutes: 6
 estimate_source: rolled_up
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -21,10 +21,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, stories, detail]
 created: 2026-07-21
-updated: 2026-07-21T23:50:12Z
-started_at: null
-completed_at: null
+updated: 2026-07-21T23:57:22Z
+started_at: 2026-07-21T23:53:57Z
+completed_at: 2026-07-21T23:57:12Z
 ---
+
 # S-021: Story detail view
 
 ## User story
@@ -33,9 +34,9 @@ As a user, I want to open a user story in the sheet and see its details presente
 
 ## Acceptance criteria
 
-- [ ] Story sheet shows identity/meta and body sections (user story, acceptance criteria, tasks, prompt & feedback, commits, work log).
-- [ ] Layout prioritizes readability for story-shaped content.
-- [ ] Opening a story from the story list loads and shows that story’s detail in the sheet.
+- [x] Story sheet shows identity/meta and body sections (user story, acceptance criteria, tasks, prompt & feedback, commits, work log).
+- [x] Layout prioritizes readability for story-shaped content.
+- [x] Opening a story from the story list loads and shows that story’s detail in the sheet.
 
 ## Tasks
 
@@ -47,6 +48,8 @@ As a user, I want to open a user story in the sheet and see its details presente
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T23:48:59Z | prompt | Create all user stories and tasks for E-005 view work item |
+| 2 | 2026-07-21T23:53:57Z | prompt | Develop epic E-005 — implement work item detail views in sheets |
+| 3 | 2026-07-21T23:56:38Z | feedback | Implement E-005 detail sheets delivered |
 
 ## Commits
 
@@ -57,3 +60,4 @@ As a user, I want to open a user story in the sheet and see its details presente
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:57:12Z | Delivered S-021 as part of E-005 |

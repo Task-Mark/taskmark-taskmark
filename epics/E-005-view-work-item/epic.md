@@ -2,7 +2,7 @@
 id: E-005
 type: epic
 title: View work item
-status: backlog
+status: done
 priority: high
 size: null
 size_source: rolled_up
@@ -10,7 +10,7 @@ size_basis: [sum:stories]
 points: 32
 points_source: rolled_up
 estimate_minutes: 510
-actual_minutes: 0
+actual_minutes: 39
 estimate_source: rolled_up
 estimate_basis: [sum:stories]
 session_cap_minutes: 480
@@ -21,10 +21,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, detail, sheet]
 created: 2026-07-21
-updated: 2026-07-21T23:52:01Z
-started_at: null
-completed_at: null
+updated: 2026-07-21T23:57:22Z
+started_at: 2026-07-21T23:53:57Z
+completed_at: 2026-07-21T23:57:12Z
 ---
+
 # E-005: View work item
 
 ## Goal
@@ -70,3 +71,5 @@ Let users open any work item (epic, user story, or task) in a dedicated view mod
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:57:12Z | Implemented E-005 work item detail sheets |
+| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:56:38Z | Implemented work item detail sheets (S-018–S-022) |

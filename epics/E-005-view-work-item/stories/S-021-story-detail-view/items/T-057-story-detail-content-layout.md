@@ -2,17 +2,17 @@
 id: T-057
 type: task
 title: Build story detail content layout
-status: backlog
+status: done
 priority: high
 size: M
 size_source: suggested
-size_basis: [T-015, T-012]
+size_basis: [calibrated:T-057]
 points: 3
 points_source: suggested
 estimate_minutes: 50
-actual_minutes: 0
-estimate_source: suggested
-estimate_basis: [velocity:30d:16min/pt]
+actual_minutes: 3
+estimate_source: manual
+estimate_basis: [manual:preserve-plan;burst-delivery]
 session_cap_minutes: 480
 parent: S-021
 epic: E-005
@@ -21,11 +21,10 @@ blocked: false
 cancelled: false
 tags: [ui, stories, frontend, detail]
 created: 2026-07-21
-updated: 2026-07-21T23:50:12Z
-started_at: null
-completed_at: null
+updated: 2026-07-21T23:57:22Z
+started_at: 2026-07-21T23:53:57Z
+completed_at: 2026-07-21T23:57:12Z
 ---
-
 # T-057: Build story detail content layout
 
 ## Description
@@ -34,10 +33,10 @@ Build the story-specific detail body that presents meta, user story narrative, a
 
 ## Acceptance criteria
 
-- [ ] Story meta and timing fields are easy to scan.
-- [ ] User story and acceptance criteria are prominent and readable.
-- [ ] Tasks, prompt & feedback, commits, and work log render as structured content when present.
-- [ ] Empty sections are omitted or show a light empty hint without clutter.
+- [x] Story meta and timing fields are easy to scan.
+- [x] User story and acceptance criteria are prominent and readable.
+- [x] Tasks, prompt & feedback, commits, and work log render as structured content when present.
+- [x] Empty sections are omitted or show a light empty hint without clutter.
 
 ## Notes
 
@@ -46,6 +45,7 @@ Build the story-specific detail body that presents meta, user story narrative, a
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-21T23:48:59Z | prompt | Create all user stories and tasks for E-005 view work item |
+| 2 | 2026-07-21T23:56:38Z | feedback | Implement E-005 detail sheets delivered |
 
 ## Commits
 
@@ -56,3 +56,4 @@ Build the story-specific detail body that presents meta, user story narrative, a
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:57:12Z | Delivered T-057 as part of E-005 |

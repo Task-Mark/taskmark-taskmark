@@ -16,6 +16,19 @@ Seed estimates are calibrated from **AI-assisted billable work-log minutes** (an
 
 | Date | Item | Sized | Points | Est | Actual | Note |
 |------|------|-------|--------|-----|--------|------|
+| 2026-07-21 | T-048 | M | 3 | 50 | 3 | estimate 50->5; size M->XS |
+| 2026-07-21 | T-049 | S | 2 | 30 | 3 | estimate 30->5; size S->XS |
+| 2026-07-21 | T-050 | S | 2 | 30 | 3 | estimate 30->5; size S->XS |
+| 2026-07-21 | T-051 | M | 3 | 50 | 3 | estimate 50->5; size M->XS |
+| 2026-07-21 | T-052 | S | 2 | 30 | 3 | estimate 30->5; size S->XS |
+| 2026-07-21 | T-053 | S | 2 | 30 | 3 | estimate 30->5; size S->XS |
+| 2026-07-21 | T-054 | M | 3 | 50 | 3 | estimate 50->5; size M->XS |
+| 2026-07-21 | T-055 | M | 3 | 50 | 3 | estimate 50->5; size M->XS |
+| 2026-07-21 | T-056 | S | 2 | 30 | 3 | estimate 30->5; size S->XS |
+| 2026-07-21 | T-057 | M | 3 | 50 | 3 | estimate 50->5; size M->XS |
+| 2026-07-21 | T-058 | S | 2 | 30 | 3 | estimate 30->5; size S->XS |
+| 2026-07-21 | T-059 | M | 3 | 50 | 3 | estimate 50->5; size M->XS |
+| 2026-07-21 | T-060 | S | 2 | 30 | 3 | estimate 30->5; size S->XS |
 | 2026-07-21 | B-003 | S | 2 | 120 | 32 | estimate 120->30 |
 | 2026-07-21 | T-001 | M | 3 | 480 | 48 | estimate 480->50 |
 | 2026-07-21 | T-003 | S | 2 | 120 | 32 | estimate 120->30 |

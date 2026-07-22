@@ -20,11 +20,10 @@ blocked: false
 cancelled: false
 tags: [effort, work-log, conventions]
 created: 2026-07-21
-updated: 2026-07-21T23:50:12Z
+updated: 2026-07-21T23:57:22Z
 started_at: 2026-07-21T23:05:18Z
 completed_at: 2026-07-21T23:07:27Z
 ---
-
 # S-011: Preserve session effort tracking
 
 ## User story
