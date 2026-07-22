@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, switcher]
 created: 2026-07-22
-updated: 2026-07-22T00:30:21.269Z
+updated: 2026-07-22T00:35:34.300Z
 started_at: null
 completed_at: null
 actual_ms: 0
@@ -56,6 +56,8 @@ As a user, I want a control to switch board list views so I can pick Overall, Al
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| c809639 | taskmark-frontend | 2026-07-22T00:35:27Z | add tabs and update button styles |
+| 603c59c | taskmark-taskmark | 2026-07-22T00:35:27Z | add e-006 list views board |
 
 ## Work log
 
