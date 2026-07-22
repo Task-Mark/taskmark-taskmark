@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, detail, sheet]
 created: 2026-07-21
-updated: 2026-07-21T23:57:22Z
+updated: 2026-07-22T00:00:43Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
 ---
@@ -66,6 +66,8 @@ Let users open any work item (epic, user story, or task) in a dedicated view mod
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
 | e890d82 | taskmark-taskmark | 2026-07-21T23:52:01Z | add e-005 view work item board |
+| 5756d6a | taskmark-frontend | 2026-07-22T00:00:33Z | add work item detail sheet |
+| cedb561 | taskmark-taskmark | 2026-07-22T00:00:33Z | sync taskmark board |
 
 ## Work log
 
