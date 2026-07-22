@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [frontend, actual, timing]
 created: 2026-07-22
-updated: 2026-07-22T00:16:21.562Z
+updated: 2026-07-22T00:18:29.117Z
 started_at: 2026-07-22T00:13:39Z
 completed_at: 2026-07-22T00:16:21Z
 actual_ms: 162000
@@ -55,6 +55,8 @@ Est stays minute-oriented.
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| ff5d088 | taskmark-frontend | 2026-07-22T00:17:56Z | show precise actual duration |
+| 0b6df50 | taskmark-taskmark | 2026-07-22T00:17:57Z | sync taskmark board |
 
 ## Work log
 

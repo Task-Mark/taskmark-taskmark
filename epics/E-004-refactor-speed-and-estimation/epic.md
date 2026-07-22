@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation, effort, plugin, conventions]
 created: 2026-07-21
-updated: 2026-07-22T00:16:21.562Z
+updated: 2026-07-22T00:18:29.117Z
 started_at: 2026-07-21T23:05:18Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 41280000
@@ -70,6 +70,9 @@ Refactor how Taskmark measures speed and estimates work: keep AI/human **session
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 79848e9 | taskmark-cursor | 2026-07-22T00:17:56Z | fix shared batch actual split |
+| ff5d088 | taskmark-frontend | 2026-07-22T00:17:56Z | show precise actual duration |
+| 0b6df50 | taskmark-taskmark | 2026-07-22T00:17:57Z | sync taskmark board |
 | 82bf126 | taskmark-cursor | 2026-07-21T23:27:54Z | require work logs on complete for accurate actuals |
 | 6204471 | taskmark-taskmark | 2026-07-21T23:27:54Z | backfill work logs on done items from velocity |
 | 6aca5e6 | taskmark-cursor | 2026-07-21T23:20:34Z | update speed estimation and epic points rollup |

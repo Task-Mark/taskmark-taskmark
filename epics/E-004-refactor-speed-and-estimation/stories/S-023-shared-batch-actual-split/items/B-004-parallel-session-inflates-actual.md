@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [actual, work-log, batch, bug]
 created: 2026-07-22
-updated: 2026-07-22T00:16:21.562Z
+updated: 2026-07-22T00:18:29.117Z
 started_at: 2026-07-22T00:07:36Z
 completed_at: 2026-07-22T00:09:05Z
 actual_ms: 89000
@@ -62,6 +62,8 @@ Weight = story points (fallback estimate_minutes). Use largest-remainder so allo
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 79848e9 | taskmark-cursor | 2026-07-22T00:17:56Z | fix shared batch actual split |
+| 0b6df50 | taskmark-taskmark | 2026-07-22T00:17:57Z | sync taskmark board |
 
 ## Work log
 
