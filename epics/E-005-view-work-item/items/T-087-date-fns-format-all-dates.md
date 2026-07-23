@@ -50,6 +50,8 @@ Add `date-fns` and use it to format every user-visible date/time in the dashboar
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| ea40442 | taskmark-frontend | 2026-07-23T10:04:53Z | format dates with date-fns |
+| bbab1eb | taskmark-taskmark | 2026-07-23T10:04:53Z | add t-087 date-fns board |
 
 ## Work log
 
