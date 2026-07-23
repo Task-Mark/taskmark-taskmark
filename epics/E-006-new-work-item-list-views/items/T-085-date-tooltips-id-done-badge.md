@@ -4,13 +4,13 @@ type: task
 title: Date tooltips on ID and done badge instead of columns
 status: done
 priority: medium
-size: M
+size: XS
 size_source: suggested
 size_basis: [calibrated:T-085]
-points: 3
+points: 1
 points_source: suggested
-estimate_minutes: 5
-actual_minutes: 3
+estimate_minutes: 15
+actual_minutes: 16
 estimate_source: suggested
 estimate_basis: [calibrated:T-085]
 session_cap_minutes: 480
@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, workitems, dates, tooltip]
 created: 2026-07-23
-updated: 2026-07-23T07:54:17.663Z
+updated: 2026-07-23T09:36:52.298Z
 started_at: 2026-07-23T07:51:22Z
 completed_at: 2026-07-23T07:54:27Z
-actual_ms: 185000
+actual_ms: 971000
 ---
-
 # T-085: Date tooltips on ID and done badge instead of columns
 
 ## Description
@@ -58,3 +57,4 @@ Remove Created/Solved columns from the Work items list. Show creation date as a 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | agent | 2026-07-23T07:51:22Z | 2026-07-23T07:54:27Z | Date tooltips on ID + done badge; removed columns |
+| 2 | agent | 2026-07-23T07:51:22Z | 2026-07-23T08:04:28Z | auto-recovered: commit span |

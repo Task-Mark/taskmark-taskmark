@@ -4,13 +4,13 @@ type: task
 title: Show created and solved dates on work items list
 status: done
 priority: medium
-size: M
+size: XS
 size_source: suggested
 size_basis: [calibrated:T-084]
-points: 3
+points: 1
 points_source: suggested
-estimate_minutes: 5
-actual_minutes: 3
+estimate_minutes: 20
+actual_minutes: 21
 estimate_source: suggested
 estimate_basis: [calibrated:T-084]
 session_cap_minutes: 480
@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, workitems, dates]
 created: 2026-07-23
-updated: 2026-07-23T07:54:17.663Z
+updated: 2026-07-23T09:36:52.298Z
 started_at: 2026-07-23T07:46:42Z
 completed_at: 2026-07-23T07:50:02Z
-actual_ms: 200000
+actual_ms: 1266000
 ---
-
 # T-084: Show created and solved dates on work items list
 
 ## Description
@@ -58,3 +57,4 @@ Add creation date (`created`) and solve date (`completed_at`) columns to the Wor
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | agent | 2026-07-23T07:46:42Z | 2026-07-23T07:50:02Z | Added Created and Solved columns on work items list |
+| 2 | agent | 2026-07-23T07:46:42Z | 2026-07-23T08:04:28Z | auto-recovered: commit span |

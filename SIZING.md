@@ -2,7 +2,7 @@
 
 | Size | Points | Meaning | Seed estimate |
 |------|--------|---------|---------------|
-| XS | 1 | Trivial | 14 min |
+| XS | 1 | Trivial | 15 min |
 | S | 2 | Small | 32 min |
 | M | 3 | Medium | 5 min |
 | L | 5 | Large | 2 days |
@@ -16,6 +16,9 @@ Seed estimates are calibrated from **AI-assisted billable work-log minutes** (an
 
 | Date | Item | Sized | Points | Est | Actual | Note |
 |------|------|-------|--------|-----|--------|------|
+| 2026-07-23 | T-086 | M | 3 | 42 | 3 | estimate 42->5 |
+| 2026-07-23 | T-084 | M | 3 | 5 | 21 | estimate 5->20; size M->XS |
+| 2026-07-23 | T-085 | M | 3 | 5 | 16 | estimate 5->15; size M->XS |
 | 2026-07-23 | T-085 | S | 2 | 28 | 3 | estimate 28->5; size S->M |
 | 2026-07-23 | T-084 | S | 2 | 30 | 3 | estimate 30->5; size S->M |
 | 2026-07-23 | T-083 | M | 3 | 42 | 3 | estimate 42->5 |
