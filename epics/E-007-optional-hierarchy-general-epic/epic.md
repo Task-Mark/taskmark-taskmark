@@ -60,6 +60,7 @@ Let stories and tasks exist without a required parent, while still preferring a 
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 23411cb | taskmark-taskmark | 2026-07-23T04:41:03Z | add e-007 optional hierarchy board |
 
 ## Work log
 
