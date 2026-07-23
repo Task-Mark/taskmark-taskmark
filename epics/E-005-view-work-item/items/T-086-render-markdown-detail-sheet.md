@@ -4,13 +4,13 @@ type: task
 title: Render markdown in work item detail sheet sections
 status: done
 priority: high
-size: M
+size: XS
 size_source: suggested
-size_basis: [T-055, T-059]
-points: 3
+size_basis: [calibrated:T-086]
+points: 1
 points_source: suggested
-estimate_minutes: 5
-actual_minutes: 3
+estimate_minutes: 15
+actual_minutes: 14
 estimate_source: suggested
 estimate_basis: [calibrated:T-086]
 session_cap_minutes: 480
@@ -21,10 +21,10 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, detail, sheet, markdown]
 created: 2026-07-23
-updated: 2026-07-23T09:36:52.298Z
+updated: 2026-07-23T09:47:44.562Z
 started_at: 2026-07-23T09:33:08Z
 completed_at: 2026-07-23T09:36:18Z
-actual_ms: 190000
+actual_ms: 843000
 ---
 
 # T-086: Render markdown in work item detail sheet sections
@@ -58,3 +58,4 @@ Interpret markdown in detail sheet prose sections (goal, scope, user story, desc
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | agent | 2026-07-23T09:33:08Z | 2026-07-23T09:36:18Z | react-markdown + GFM for detail sheet prose |
+| 2 | agent | 2026-07-23T09:33:08Z | 2026-07-23T09:44:01Z | auto-recovered: commit span |

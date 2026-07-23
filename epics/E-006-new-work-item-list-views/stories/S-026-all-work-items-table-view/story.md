@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, all]
 created: 2026-07-22
-updated: 2026-07-23T09:36:52.298Z
+updated: 2026-07-23T09:47:44.562Z
 started_at: 2026-07-23T06:38:57Z
 completed_at: 2026-07-23T06:42:22Z
 actual_ms: 53000
 ---
+
 # S-026: All work items table view
 
 ## User story

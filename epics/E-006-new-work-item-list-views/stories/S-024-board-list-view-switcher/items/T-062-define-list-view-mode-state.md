@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [state, frontend, views]
 created: 2026-07-22
-updated: 2026-07-23T09:36:52.298Z
+updated: 2026-07-23T09:47:44.562Z
 started_at: 2026-07-23T06:38:57Z
 completed_at: 2026-07-23T06:39:10Z
 actual_ms: 13000
 ---
-
 # T-062: Define list view mode types and state
 
 ## Description

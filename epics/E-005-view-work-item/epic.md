@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 38
+points: 39
 points_source: rolled_up
-estimate_minutes: 520
-actual_minutes: 9
+estimate_minutes: 535
+actual_minutes: 23
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, detail, sheet]
 created: 2026-07-21
-updated: 2026-07-23T09:36:52.298Z
+updated: 2026-07-23T09:47:44.562Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
-actual_ms: 565000
+actual_ms: 1415000
 ---
+
 # E-005: View work item
 
 ## Goal
@@ -80,3 +81,4 @@ Let users open any work item (epic, user story, or task) in a dedicated view mod
 
 - [x] [T-083](items/T-083-sheet-width-and-children.md) — Wider detail sheet with children
 - [x] [T-086](items/T-086-render-markdown-detail-sheet.md) — Render markdown in detail sheet sections
+- [x] [T-087](items/T-087-date-fns-format-all-dates.md) — Add date-fns and format all displayed dates
