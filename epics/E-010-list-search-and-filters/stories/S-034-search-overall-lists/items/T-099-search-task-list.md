@@ -1,0 +1,57 @@
+---
+id: T-099
+type: task
+title: Search task list
+status: done
+priority: high
+size: S
+size_source: suggested
+size_basis: [T-093, T-098]
+points: 2
+points_source: suggested
+estimate_minutes: 30
+actual_minutes: 0
+estimate_source: suggested
+estimate_basis: [velocity:30d:16min/pt]
+session_cap_minutes: 480
+parent: S-034
+epic: E-010
+owner: ""
+blocked: false
+cancelled: false
+tags: [dashboard, frontend, search, tasks]
+created: 2026-07-23
+updated: 2026-07-23T16:16:14.881Z
+started_at: 2026-07-23T16:00:49Z
+completed_at: 2026-07-23T16:03:09Z
+actual_ms: 12000
+---
+# T-099: Search task list
+
+## Description
+
+Wire shared search into the Overall task/bug list for the selected story.
+
+## Acceptance criteria
+
+- [x] Search box filters tasks/bugs by id/title.
+- [x] Page resets when query changes.
+- [x] Works with empty and short lists.
+
+## Prompt & feedback log
+
+| # | When (UTC) | Kind | Summary |
+|---|------------|------|---------|
+| 1 | 2026-07-23T16:03:09Z | prompt | implement E-010 list search and filters |
+| 2 | 2026-07-23T16:03:09Z | feedback | delivered search, parent/tags filters, hide completed |
+
+## Commits
+
+| SHA | Repo | Date (UTC) | Message |
+|-----|------|------------|---------|
+
+## Work log
+
+| Session | Actor | Started (UTC) | Ended (UTC) | Summary |
+|---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-23T16:00:49Z | 2026-07-23T16:01:01Z | shared-batch: 12792 of 140714ms by points; delivered T-099 |

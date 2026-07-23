@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-23T15:41:41.343Z
+Last synced: 2026-07-23T16:16:14.971Z
 
 ## Epics
 
@@ -14,7 +14,8 @@ Last synced: 2026-07-23T15:41:41.343Z
 | E-006 | New work item list views | done | — | 40 | 560 | 486 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
 | E-007 | Optional hierarchy and General epic | done | — | 15 | 230 | 40 | [epic.md](epics/E-007-optional-hierarchy-general-epic/epic.md) |
 | E-008 | General | backlog | — | 0 | 0 | 0 | [epic.md](epics/E-008-general/epic.md) |
-| E-009 | List pagination for work items | done | — | 15 | 230 | 5 | [epic.md](epics/E-009-list-pagination/epic.md) |
+| E-009 | List pagination for work items | done | — | 15 | 230 | 13 | [epic.md](epics/E-009-list-pagination/epic.md) |
+| E-010 | List search and filters | done | — | 26 | 400 | 8 | [epic.md](epics/E-010-list-search-and-filters/epic.md) |
 
 ## Stories
 
@@ -52,6 +53,12 @@ Last synced: 2026-07-23T15:41:41.343Z
 | S-030 | Shared pagination control | E-009 | done | L | 7 | 110 | 2 | [story.md](epics/E-009-list-pagination/stories/S-030-shared-pagination-control/story.md) |
 | S-031 | Paginate Overall drill-down lists | E-009 | done | M | 6 | 90 | 2 | [story.md](epics/E-009-list-pagination/stories/S-031-paginate-overall-lists/story.md) |
 | S-032 | Paginate Work items list | E-009 | done | S | 2 | 30 | 0 | [story.md](epics/E-009-list-pagination/stories/S-032-paginate-work-items-list/story.md) |
+| S-033 | Shared search control | E-010 | done | M | 4 | 60 | 0 | [story.md](epics/E-010-list-search-and-filters/stories/S-033-shared-search-control/story.md) |
+| S-034 | Search on Overall drill-down lists | E-010 | done | M | 6 | 90 | 0 | [story.md](epics/E-010-list-search-and-filters/stories/S-034-search-overall-lists/story.md) |
+| S-035 | Search on Work items list | E-010 | done | S | 2 | 30 | 0 | [story.md](epics/E-010-list-search-and-filters/stories/S-035-work-items-search/story.md) |
+| S-036 | Parent epic/story autocomplete filter | E-010 | done | L | 6 | 95 | 4 | [story.md](epics/E-010-list-search-and-filters/stories/S-036-parent-autocomplete-filter/story.md) |
+| S-037 | Tags multiselect filter | E-010 | done | S | 3 | 50 | 0 | [story.md](epics/E-010-list-search-and-filters/stories/S-037-tags-multiselect-filter/story.md) |
+| S-038 | Hide completed filter | E-010 | done | M | 5 | 75 | 2 | [story.md](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/story.md) |
 
 ## Open work sessions
 
@@ -162,3 +169,16 @@ Last synced: 2026-07-23T15:41:41.343Z
 | T-092 | Paginate story list | S-031 | done | S | 2 | 30 | 0 | [T-092](epics/E-009-list-pagination/stories/S-031-paginate-overall-lists/items/T-092-paginate-story-list.md) |
 | T-093 | Paginate task list | S-031 | done | S | 2 | 30 | 0 | [T-093](epics/E-009-list-pagination/stories/S-031-paginate-overall-lists/items/T-093-paginate-task-list.md) |
 | T-094 | Paginate work items list | S-032 | done | S | 2 | 30 | 0 | [T-094](epics/E-009-list-pagination/stories/S-032-paginate-work-items-list/items/T-094-paginate-work-items-list.md) |
+| T-095 | Define search match helpers and filter types | S-033 | done | S | 2 | 30 | 0 | [T-095](epics/E-010-list-search-and-filters/stories/S-033-shared-search-control/items/T-095-search-match-helpers.md) |
+| T-096 | Build shared list search box UI | S-033 | done | S | 2 | 30 | 0 | [T-096](epics/E-010-list-search-and-filters/stories/S-033-shared-search-control/items/T-096-list-search-box-ui.md) |
+| T-097 | Search epic list | S-034 | done | S | 2 | 30 | 0 | [T-097](epics/E-010-list-search-and-filters/stories/S-034-search-overall-lists/items/T-097-search-epic-list.md) |
+| T-098 | Search story list | S-034 | done | S | 2 | 30 | 0 | [T-098](epics/E-010-list-search-and-filters/stories/S-034-search-overall-lists/items/T-098-search-story-list.md) |
+| T-099 | Search task list | S-034 | done | S | 2 | 30 | 0 | [T-099](epics/E-010-list-search-and-filters/stories/S-034-search-overall-lists/items/T-099-search-task-list.md) |
+| T-100 | Search work items list | S-035 | done | S | 2 | 30 | 0 | [T-100](epics/E-010-list-search-and-filters/stories/S-035-work-items-search/items/T-100-search-work-items-list.md) |
+| T-101 | Parent epic/story autocomplete filter on Work items | S-036 | done | M | 3 | 50 | 0 | [T-101](epics/E-010-list-search-and-filters/stories/S-036-parent-autocomplete-filter/items/T-101-parent-autocomplete-filter.md) |
+| T-102 | Tags multiselect filter | S-037 | done | M | 3 | 50 | 0 | [T-102](epics/E-010-list-search-and-filters/stories/S-037-tags-multiselect-filter/items/T-102-tags-multiselect-filter.md) |
+| T-103 | Hide completed control on all lists | S-038 | done | S | 2 | 30 | 0 | [T-103](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/items/T-103-hide-completed-filter.md) |
+| T-104 | Compose filters with pagination reset | S-038 | done | S | 2 | 30 | 0 | [T-104](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/items/T-104-compose-filters-pagination.md) |
+| T-105 | Parent filter multiselect and search chips layout | S-036 | done | S | 2 | 30 | 2 | [T-105](epics/E-010-list-search-and-filters/stories/S-036-parent-autocomplete-filter/items/T-105-parent-multiselect-search-layout.md) |
+| T-106 | Hide completed control as switch | S-038 | done | S | 1 | 15 | 2 | [T-106](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/items/T-106-hide-completed-switch.md) |
+| T-107 | Fix multiselect filter autocomplete | S-036 | done | S | 1 | 15 | 2 | [T-107](epics/E-010-list-search-and-filters/stories/S-036-parent-autocomplete-filter/items/T-107-fix-multiselect-autocomplete.md) |

@@ -10,7 +10,7 @@ size_basis: [sum:children]
 points: 15
 points_source: rolled_up
 estimate_minutes: 230
-actual_minutes: 5
+actual_minutes: 13
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, pagination]
 created: 2026-07-23
-updated: 2026-07-23T15:41:41.235Z
+updated: 2026-07-23T16:16:14.881Z
 started_at: 2026-07-23T15:35:42Z
 completed_at: 2026-07-23T15:41:41Z
-actual_ms: 353000
+actual_ms: 808000
 ---
+
 # E-009: List pagination for work items
 
 ## Goal
@@ -70,3 +71,4 @@ Every work-item list in the system (Overall epic/story/task tables and the Work 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | agent | 2026-07-23T15:35:42Z | 2026-07-23T15:35:42Z | shared-batch parent rollup (0 min); leaves hold effort |
+| 2 | agent | 2026-07-23T15:35:42Z | 2026-07-23T15:49:10Z | auto-recovered: commit span |

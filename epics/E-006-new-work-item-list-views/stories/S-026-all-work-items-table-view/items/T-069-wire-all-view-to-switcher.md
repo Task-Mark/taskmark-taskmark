@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [frontend, views, all, sheet]
 created: 2026-07-22
-updated: 2026-07-23T15:41:41.235Z
+updated: 2026-07-23T16:16:14.881Z
 started_at: 2026-07-23T06:38:57Z
 completed_at: 2026-07-23T06:39:10Z
 actual_ms: 13000
 ---
+
 # T-069: Wire All view into switcher and detail sheet
 
 ## Description

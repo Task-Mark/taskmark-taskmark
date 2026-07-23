@@ -20,11 +20,12 @@ blocked: false
 cancelled: false
 tags: [mvp, wizard, filesystem]
 created: 2026-07-21
-updated: 2026-07-23T15:41:41.235Z
+updated: 2026-07-23T16:16:14.881Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
 actual_ms: 879000
 ---
+
 # T-002: Implement project folder selection
 
 ## Description

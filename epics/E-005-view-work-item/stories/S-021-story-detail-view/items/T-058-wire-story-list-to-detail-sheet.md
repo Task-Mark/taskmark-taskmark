@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [ui, stories, frontend, sheet]
 created: 2026-07-21
-updated: 2026-07-23T15:41:41.235Z
+updated: 2026-07-23T16:16:14.881Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
 actual_ms: 12187
 ---
+
 # T-058: Wire story list open to story detail sheet
 
 ## Description

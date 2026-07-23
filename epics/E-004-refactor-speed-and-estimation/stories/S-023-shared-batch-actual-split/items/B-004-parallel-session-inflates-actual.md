@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [actual, work-log, batch, bug]
 created: 2026-07-22
-updated: 2026-07-23T15:41:41.235Z
+updated: 2026-07-23T16:16:14.881Z
 started_at: 2026-07-22T00:07:36Z
 completed_at: 2026-07-22T00:09:05Z
 actual_ms: 710000
 ---
+
 # B-004: Parallel full-session work logs inflate epic Actual
 
 ## Description
