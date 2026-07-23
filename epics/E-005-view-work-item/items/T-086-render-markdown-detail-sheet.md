@@ -50,6 +50,8 @@ Interpret markdown in detail sheet prose sections (goal, scope, user story, desc
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 1d310f9 | taskmark-frontend | 2026-07-23T09:44:01Z | render markdown in detail sheet |
+| ac93736 | taskmark-taskmark | 2026-07-23T09:44:01Z | add t-086 markdown detail board |
 
 ## Work log
 
