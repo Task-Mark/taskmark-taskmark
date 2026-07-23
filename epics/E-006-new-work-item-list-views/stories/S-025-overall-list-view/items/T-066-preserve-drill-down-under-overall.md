@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [frontend, views, overall]
 created: 2026-07-22
-updated: 2026-07-23T07:02:15.905Z
+updated: 2026-07-23T07:11:07.014Z
 started_at: 2026-07-23T06:38:57Z
 completed_at: 2026-07-23T06:39:10Z
 actual_ms: 13000
 ---
-
 # T-066: Preserve drill-down under Overall view
 
 ## Description

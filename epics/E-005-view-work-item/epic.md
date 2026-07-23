@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 32
+points: 35
 points_source: rolled_up
-estimate_minutes: 510
-actual_minutes: 3
+estimate_minutes: 515
+actual_minutes: 6
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, detail, sheet]
 created: 2026-07-21
-updated: 2026-07-23T07:02:15.905Z
+updated: 2026-07-23T07:11:07.014Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
-actual_ms: 195000
+actual_ms: 375000
 ---
+
 # E-005: View work item
 
 ## Goal
@@ -75,3 +76,7 @@ Let users open any work item (epic, user story, or task) in a dedicated view mod
 |---------|-------|---------------|-------------|---------|
 | 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:53:57Z | Delivered as part of E-005; shared-batch: 0ms rollup (children hold allocation) |
 | 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:56:38Z | Implemented work item detail sheets (S-018–S-022) |
+
+## Tasks
+
+- [x] [T-083](items/T-083-sheet-width-and-children.md) — Wider detail sheet with children

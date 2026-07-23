@@ -20,12 +20,11 @@ blocked: false
 cancelled: false
 tags: [mvp, epics, ui]
 created: 2026-07-21
-updated: 2026-07-23T07:02:15.905Z
+updated: 2026-07-23T07:11:07.014Z
 started_at: 2026-07-21T16:49:52Z
 completed_at: 2026-07-21T16:51:19Z
 actual_ms: 2828000
 ---
-
 # T-006: Build epic list UI
 
 ## Description

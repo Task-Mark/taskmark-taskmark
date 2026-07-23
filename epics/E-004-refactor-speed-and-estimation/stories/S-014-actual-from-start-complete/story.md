@@ -20,12 +20,11 @@ blocked: false
 cancelled: false
 tags: [actual, started_at, completed_at]
 created: 2026-07-21
-updated: 2026-07-23T07:02:15.905Z
+updated: 2026-07-23T07:11:07.014Z
 started_at: 2026-07-21T20:59:27Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 7680000
 ---
-
 # S-014: Actual time from start to complete
 
 ## User story

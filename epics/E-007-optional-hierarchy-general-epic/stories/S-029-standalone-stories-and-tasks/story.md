@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [plugin, conventions, hierarchy, create]
 created: 2026-07-23
-updated: 2026-07-23T07:02:15.905Z
+updated: 2026-07-23T07:11:07.014Z
 started_at: 2026-07-23T04:41:50Z
 completed_at: 2026-07-23T04:45:50Z
 actual_ms: 2426000
 ---
+
 # S-029: Standalone stories and tasks with General epic
 
 ## User story

@@ -10,7 +10,7 @@ size_basis: [sum:children]
 points: 38
 points_source: rolled_up
 estimate_minutes: 525
-actual_minutes: 58
+actual_minutes: 486
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, lists]
 created: 2026-07-22
-updated: 2026-07-23T07:08:22Z
+updated: 2026-07-23T07:11:07.014Z
 started_at: 2026-07-23T05:44:00Z
 completed_at: 2026-07-23T06:42:22Z
-actual_ms: 3537000
+actual_ms: 29185000
 ---
+
 # E-006: New work item list views
 
 ## Goal
@@ -89,3 +90,4 @@ Let users switch the board between Overall (current drill-down), All (flat mixed
 |---------|-------|---------------|-------------|---------|
 | 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:42:22Z | shared-batch parent rollup (0ms; effort on child tasks) |
 | 2 | agent | 2026-07-23T07:00:14Z | 2026-07-23T07:03:14Z | T-082 Overall + Work items tabs |
+| 3 | agent | 2026-07-22T00:35:27Z | 2026-07-23T07:08:22Z | auto-recovered: commit span |

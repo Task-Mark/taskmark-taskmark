@@ -20,12 +20,11 @@ blocked: false
 cancelled: false
 tags: [estimation, create, velocity]
 created: 2026-07-21
-updated: 2026-07-23T07:02:15.905Z
+updated: 2026-07-23T07:11:07.014Z
 started_at: 2026-07-21T22:19:27Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 0
 ---
-
 # T-035: Suggest estimates from monthly velocity on create
 
 ## Description
