@@ -2,7 +2,7 @@
 id: T-076
 type: task
 title: Conventions for optional parents and General epic
-status: backlog
+status: done
 priority: high
 size: M
 size_source: suggested
@@ -10,7 +10,7 @@ size_basis: [T-026, T-044]
 points: 3
 points_source: suggested
 estimate_minutes: 45
-actual_minutes: 0
+actual_minutes: 1
 estimate_source: suggested
 estimate_basis: [velocity:30d:15min/pt]
 session_cap_minutes: 480
@@ -21,10 +21,10 @@ blocked: false
 cancelled: false
 tags: [plugin, conventions, hierarchy]
 created: 2026-07-23
-updated: 2026-07-23T04:38:56.857Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T04:46:35.010Z
+started_at: 2026-07-23T04:41:50Z
+completed_at: 2026-07-23T04:42:50Z
+actual_ms: 60000
 ---
 # T-076: Conventions for optional parents and General epic
 
@@ -34,10 +34,10 @@ Update Taskmark conventions (frontmatter, folder layout, templates, INDEX notes)
 
 ## Acceptance criteria
 
-- [ ] Frontmatter docs allow `parent`/`epic` null for stories and for tasks/bugs when using General fallback paths.
-- [ ] Folder layout documents where General and its catch-all story/items live.
-- [ ] Templates and quick rules no longer require a hard parent for every story/task.
-- [ ] General epic naming/slug and “do not delete / always present” rules are documented.
+- [x] Frontmatter docs allow `parent`/`epic` null for stories and for tasks/bugs when using General fallback paths.
+- [x] Folder layout documents where General and its catch-all story/items live.
+- [x] Templates and quick rules no longer require a hard parent for every story/task.
+- [x] General epic naming/slug and “do not delete / always present” rules are documented.
 
 ## Notes
 
@@ -48,6 +48,8 @@ Physical files still live under an epic/story path when attached to General; “
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-23T04:38:20Z | prompt | Allow standalone stories/tasks; infer parents from context; default General epic for unattached work |
+| 2 | 2026-07-23T04:45:32Z | prompt | Develop S-029 |
+| 3 | 2026-07-23T04:45:32Z | feedback | Done as part of S-029 shared batch |
 
 ## Commits
 
@@ -58,3 +60,4 @@ Physical files still live under an epic/story path when attached to General; “
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-23T04:41:50Z | 2026-07-23T04:42:50Z | shared-batch: 1 of 4min by points; delivered T-076 |

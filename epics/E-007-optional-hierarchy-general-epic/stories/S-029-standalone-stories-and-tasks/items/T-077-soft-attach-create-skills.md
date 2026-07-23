@@ -2,7 +2,7 @@
 id: T-077
 type: task
 title: Soft-attach create-story and create-task
-status: backlog
+status: done
 priority: high
 size: L
 size_source: suggested
@@ -10,7 +10,7 @@ size_basis: [T-028, T-044]
 points: 5
 points_source: suggested
 estimate_minutes: 75
-actual_minutes: 0
+actual_minutes: 1
 estimate_source: suggested
 estimate_basis: [velocity:30d:15min/pt]
 session_cap_minutes: 480
@@ -21,10 +21,10 @@ blocked: false
 cancelled: false
 tags: [plugin, skills, create, hierarchy]
 created: 2026-07-23
-updated: 2026-07-23T04:38:56.857Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T04:46:35.010Z
+started_at: 2026-07-23T04:42:50Z
+completed_at: 2026-07-23T04:43:50Z
+actual_ms: 60000
 ---
 # T-077: Soft-attach create-story and create-task
 
@@ -34,11 +34,11 @@ Change `create-story` and `create-task` so a parent is preferred but not require
 
 ## Acceptance criteria
 
-- [ ] `create-story` succeeds without an explicit epic; prefers contextual epic, else General.
-- [ ] `create-task` succeeds without an explicit story; prefers contextual story/epic, else General + catch-all story.
-- [ ] Explicit parent ids/titles from the user always win.
-- [ ] Skills and project-memory rules no longer block creation when no parent is named.
-- [ ] Reply still reports assigned parent/epic (including General when used).
+- [x] `create-story` succeeds without an explicit epic; prefers contextual epic, else General.
+- [x] `create-task` succeeds without an explicit story; prefers contextual story/epic, else General + catch-all story.
+- [x] Explicit parent ids/titles from the user always win.
+- [x] Skills and project-memory rules no longer block creation when no parent is named.
+- [x] Reply still reports assigned parent/epic (including General when used).
 
 ## Notes
 
@@ -49,6 +49,8 @@ Keep sync-status / rollups working when General holds mixed unattached work.
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-23T04:38:20Z | prompt | Allow standalone stories/tasks; infer parents from context; default General epic for unattached work |
+| 2 | 2026-07-23T04:45:32Z | prompt | Develop S-029 |
+| 3 | 2026-07-23T04:45:32Z | feedback | Done as part of S-029 shared batch |
 
 ## Commits
 
@@ -59,3 +61,4 @@ Keep sync-status / rollups working when General holds mixed unattached work.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-23T04:42:50Z | 2026-07-23T04:43:50Z | shared-batch: 1 of 4min by points; delivered T-077 |

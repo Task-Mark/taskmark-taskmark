@@ -2,7 +2,7 @@
 id: E-007
 type: epic
 title: Optional hierarchy and General epic
-status: backlog
+status: done
 priority: high
 size: null
 size_source: rolled_up
@@ -10,7 +10,7 @@ size_basis: [sum:stories]
 points: 13
 points_source: rolled_up
 estimate_minutes: 195
-actual_minutes: 0
+actual_minutes: 4
 estimate_source: rolled_up
 estimate_basis: [sum:stories]
 session_cap_minutes: 480
@@ -21,10 +21,10 @@ blocked: false
 cancelled: false
 tags: [plugin, conventions, hierarchy, dashboard]
 created: 2026-07-23
-updated: 2026-07-23T04:38:56.857Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T04:46:35.010Z
+started_at: 2026-07-23T04:41:50Z
+completed_at: 2026-07-23T04:45:50Z
+actual_ms: 240000
 ---
 # E-007: Optional hierarchy and General epic
 
@@ -66,3 +66,4 @@ Let stories and tasks exist without a required parent, while still preferring a 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-23T04:41:50Z | 2026-07-23T04:41:50Z | shared-batch parent rollup (0 min) |

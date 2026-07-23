@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [mvp, epics, integration]
 created: 2026-07-21
-updated: 2026-07-23T04:38:56.857Z
+updated: 2026-07-23T04:46:35.010Z
 started_at: 2026-07-21T16:49:52Z
 completed_at: 2026-07-21T16:51:19Z
 actual_ms: 1920000

@@ -2,7 +2,7 @@
 id: S-029
 type: story
 title: Standalone stories and tasks with General epic
-status: backlog
+status: done
 priority: high
 size: XL
 size_source: rolled_up
@@ -10,7 +10,7 @@ size_basis: [sum:tasks]
 points: 13
 points_source: rolled_up
 estimate_minutes: 195
-actual_minutes: 0
+actual_minutes: 4
 estimate_source: suggested
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -21,10 +21,10 @@ blocked: false
 cancelled: false
 tags: [plugin, conventions, hierarchy, create]
 created: 2026-07-23
-updated: 2026-07-23T04:38:56.857Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T04:46:35.010Z
+started_at: 2026-07-23T04:41:50Z
+completed_at: 2026-07-23T04:45:50Z
+actual_ms: 240000
 ---
 # S-029: Standalone stories and tasks with General epic
 
@@ -34,11 +34,11 @@ As a user, I want to create stories without an epic and tasks without a story wh
 
 ## Acceptance criteria
 
-- [ ] A story can exist with `parent`/`epic` null (or attached only to General).
-- [ ] A task/bug can exist without a user-created story/epic (housed under General when needed).
-- [ ] When the user does not name a parent, create skills try to assign an epic/story from prompt and board context.
-- [ ] When no clear parent fits, unattached stories/tasks live under the default **General** epic.
-- [ ] The epic list always shows General so unattached work is visible.
+- [x] A story can exist with `parent`/`epic` null (or attached only to General).
+- [x] A task/bug can exist without a user-created story/epic (housed under General when needed).
+- [x] When the user does not name a parent, create skills try to assign an epic/story from prompt and board context.
+- [x] When no clear parent fits, unattached stories/tasks live under the default **General** epic.
+- [x] The epic list always shows General so unattached work is visible.
 
 ## Tasks
 
@@ -52,6 +52,7 @@ As a user, I want to create stories without an epic and tasks without a story wh
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-23T04:38:20Z | prompt | Allow standalone stories/tasks; infer parents from context; default General epic for unattached work |
+| 2 | 2026-07-23T04:41:50Z | prompt | Develop S-029 (standalone stories/tasks + General epic) |
 
 ## Commits
 
@@ -63,3 +64,4 @@ As a user, I want to create stories without an epic and tasks without a story wh
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-23T04:41:50Z | 2026-07-23T04:41:50Z | shared-batch parent rollup (0 min); leaves hold effort |

@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-23T04:38:56.934Z
+Last synced: 2026-07-23T04:46:35.063Z
 
 ## Epics
 
@@ -12,6 +12,8 @@ Last synced: 2026-07-23T04:38:56.934Z
 | E-004 | Refactor speed and estimation | done | — | 52 | 682 | 688 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
 | E-005 | View work item | done | — | 32 | 510 | 3 | [epic.md](epics/E-005-view-work-item/epic.md) |
 | E-006 | New work item list views | backlog | — | 30 | 450 | 0 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
+| E-007 | Optional hierarchy and General epic | done | — | 13 | 195 | 4 | [epic.md](epics/E-007-optional-hierarchy-general-epic/epic.md) |
+| E-008 | General | backlog | — | 0 | 0 | 0 | [epic.md](epics/E-008-general/epic.md) |
 
 ## Stories
 
@@ -34,17 +36,19 @@ Last synced: 2026-07-23T04:38:56.934Z
 | S-015 | Start cascade for task, story, epic | E-004 | done | M | 5 | 80 | 80 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-015-start-cascade/story.md) |
 | S-016 | End cascade for task, story, epic | E-004 | done | L | 9 | 150 | 144 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-016-end-cascade/story.md) |
 | S-017 | Frontend timing display for estimate and actual | E-004 | done | L | 7 | 106 | 80 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-017-frontend-timing-display/story.md) |
-| S-023 | Shared batch actual time split | E-004 | done | S | 5 | 10 | 11 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-023-shared-batch-actual-split/story.md) |
 | S-018 | Work item detail sheet | E-005 | done | L | 7 | 110 | 0 | [story.md](epics/E-005-view-work-item/stories/S-018-work-item-detail-sheet/story.md) |
 | S-019 | Load full work item content | E-005 | done | L | 10 | 160 | 1 | [story.md](epics/E-005-view-work-item/stories/S-019-load-full-work-item-content/story.md) |
 | S-020 | Epic detail view | E-005 | done | M | 5 | 80 | 0 | [story.md](epics/E-005-view-work-item/stories/S-020-epic-detail-view/story.md) |
 | S-021 | Story detail view | E-005 | done | M | 5 | 80 | 0 | [story.md](epics/E-005-view-work-item/stories/S-021-story-detail-view/story.md) |
 | S-022 | Task and bug detail view | E-005 | done | M | 5 | 80 | 0 | [story.md](epics/E-005-view-work-item/stories/S-022-task-detail-view/story.md) |
+| S-023 | Shared batch actual time split | E-004 | done | S | 5 | 10 | 11 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-023-shared-batch-actual-split/story.md) |
 | S-024 | Board list view switcher | E-006 | backlog | M | 6 | 90 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-024-board-list-view-switcher/story.md) |
 | S-025 | Overall list view (current drill-down) | E-006 | backlog | S | 3 | 45 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-025-overall-list-view/story.md) |
 | S-026 | All work items table view | E-006 | backlog | L | 8 | 120 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/story.md) |
 | S-027 | Stories list view with epic tag | E-006 | backlog | M | 6 | 90 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-027-stories-list-view-with-epic-tag/story.md) |
 | S-028 | Tasks list view with epic and story tags | E-006 | backlog | L | 7 | 105 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/story.md) |
+| S-029 | Standalone stories and tasks with General epic | E-007 | done | XL | 13 | 195 | 4 | [story.md](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/story.md) |
+| S-030 | Unattached | E-008 | backlog | XS | 0 | 0 | 0 | [story.md](epics/E-008-general/stories/S-030-unattached/story.md) |
 
 ## Open work sessions
 
@@ -56,6 +60,10 @@ Last synced: 2026-07-23T04:38:56.934Z
 
 | ID | Title | Story | Status | Size | Points | Est (min) | Actual (min) | Path |
 |----|-------|-------|--------|------|--------|-----------|--------------|------|
+| B-001 | Epic list fails after board frontmatter fence corruption | S-002 | done | S | 2 | 30 | 32 | [B-001](epics/E-001-mvp-dashboard/stories/S-002-epic-list/items/B-001-epic-frontmatter-parse.md) |
+| B-002 | Dedicated board repo must be flat (no nested taskmark/) | S-008 | done | S | 2 | 30 | 32 | [B-002](epics/E-003-refactor-taskmark-project-structure/stories/S-008-multi-project-dedicated-board/items/B-002-flat-board-repo-root.md) |
+| B-003 | Setup fails to discover flat multi-repo board | S-001 | done | S | 2 | 30 | 32 | [B-003](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/B-003-discover-flat-taskmark-board.md) |
+| B-004 | Parallel full-session work logs inflate epic Actual | S-023 | done | M | 5 | 10 | 11 | [B-004](epics/E-004-refactor-speed-and-estimation/stories/S-023-shared-batch-actual-split/items/B-004-parallel-session-inflates-actual.md) |
 | T-001 | Build setup wizard UI shell | S-001 | done | M | 3 | 5 | 3 | [T-001](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-001-setup-wizard-ui.md) |
 | T-002 | Implement project folder selection | S-001 | done | XS | 1 | 15 | 14 | [T-002](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-002-folder-selection.md) |
 | T-003 | Validate taskmark board in selected folder | S-001 | done | S | 2 | 30 | 2 | [T-003](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-003-validate-taskmark-board.md) |
@@ -103,6 +111,19 @@ Last synced: 2026-07-23T04:38:56.934Z
 | T-045 | Shared frontmatter timing field helpers | S-017 | done | S | 2 | 30 | 2 | [T-045](epics/E-004-refactor-speed-and-estimation/stories/S-017-frontend-timing-display/items/T-045-shared-timing-helpers.md) |
 | T-046 | Display Est Actual and optional Effort in lists | S-017 | done | S | 2 | 30 | 2 | [T-046](epics/E-004-refactor-speed-and-estimation/stories/S-017-frontend-timing-display/items/T-046-display-est-actual-effort.md) |
 | T-047 | Verify timing parse against flat board | S-017 | done | XS | 1 | 16 | 16 | [T-047](epics/E-004-refactor-speed-and-estimation/stories/S-017-frontend-timing-display/items/T-047-verify-flat-board-timing.md) |
+| T-048 | Build shared work item sheet shell | S-018 | done | M | 3 | 50 | 0 | [T-048](epics/E-005-view-work-item/stories/S-018-work-item-detail-sheet/items/T-048-shared-work-item-sheet-shell.md) |
+| T-049 | Open sheet from epic story and task list rows | S-018 | done | S | 2 | 30 | 0 | [T-049](epics/E-005-view-work-item/stories/S-018-work-item-detail-sheet/items/T-049-open-sheet-from-list-rows.md) |
+| T-050 | Sheet loading empty and error states | S-018 | done | S | 2 | 30 | 0 | [T-050](epics/E-005-view-work-item/stories/S-018-work-item-detail-sheet/items/T-050-sheet-loading-empty-error-states.md) |
+| T-051 | Define detail types and shared section parsers | S-019 | done | M | 3 | 50 | 0 | [T-051](epics/E-005-view-work-item/stories/S-019-load-full-work-item-content/items/T-051-detail-types-shared-parsers.md) |
+| T-052 | Load epic full detail by file path | S-019 | done | S | 2 | 30 | 0 | [T-052](epics/E-005-view-work-item/stories/S-019-load-full-work-item-content/items/T-052-load-epic-full-detail.md) |
+| T-053 | Load story full detail by file path | S-019 | done | S | 2 | 30 | 0 | [T-053](epics/E-005-view-work-item/stories/S-019-load-full-work-item-content/items/T-053-load-story-full-detail.md) |
+| T-054 | Load task and bug full detail by file path | S-019 | done | M | 3 | 50 | 0 | [T-054](epics/E-005-view-work-item/stories/S-019-load-full-work-item-content/items/T-054-load-task-bug-full-detail.md) |
+| T-055 | Build epic detail content layout | S-020 | done | M | 3 | 50 | 0 | [T-055](epics/E-005-view-work-item/stories/S-020-epic-detail-view/items/T-055-epic-detail-content-layout.md) |
+| T-056 | Wire epic list open to epic detail sheet | S-020 | done | S | 2 | 30 | 0 | [T-056](epics/E-005-view-work-item/stories/S-020-epic-detail-view/items/T-056-wire-epic-list-to-detail-sheet.md) |
+| T-057 | Build story detail content layout | S-021 | done | M | 3 | 50 | 0 | [T-057](epics/E-005-view-work-item/stories/S-021-story-detail-view/items/T-057-story-detail-content-layout.md) |
+| T-058 | Wire story list open to story detail sheet | S-021 | done | S | 2 | 30 | 0 | [T-058](epics/E-005-view-work-item/stories/S-021-story-detail-view/items/T-058-wire-story-list-to-detail-sheet.md) |
+| T-059 | Build task and bug detail content layout | S-022 | done | M | 3 | 50 | 0 | [T-059](epics/E-005-view-work-item/stories/S-022-task-detail-view/items/T-059-task-bug-detail-content-layout.md) |
+| T-060 | Wire task list open to item detail sheet | S-022 | done | S | 2 | 30 | 0 | [T-060](epics/E-005-view-work-item/stories/S-022-task-detail-view/items/T-060-wire-task-list-to-detail-sheet.md) |
 | T-061 | Show precise Actual with seconds or milliseconds | S-017 | done | S | 2 | 30 | 2 | [T-061](epics/E-004-refactor-speed-and-estimation/stories/S-017-frontend-timing-display/items/T-061-precise-actual-display.md) |
 | T-062 | Define list view mode types and state | S-024 | backlog | S | 2 | 30 | 0 | [T-062](epics/E-006-new-work-item-list-views/stories/S-024-board-list-view-switcher/items/T-062-define-list-view-mode-state.md) |
 | T-063 | Build view switcher button group UI | S-024 | backlog | S | 2 | 30 | 0 | [T-063](epics/E-006-new-work-item-list-views/stories/S-024-board-list-view-switcher/items/T-063-build-view-switcher-button-group.md) |
@@ -118,20 +139,7 @@ Last synced: 2026-07-23T04:38:56.934Z
 | T-073 | Collect tasks with epic and story metadata | S-028 | backlog | S | 2 | 30 | 0 | [T-073](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/items/T-073-collect-tasks-with-parent-metadata.md) |
 | T-074 | Build Tasks view table with epic and story tags | S-028 | backlog | M | 3 | 45 | 0 | [T-074](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/items/T-074-build-tasks-view-with-parent-tags.md) |
 | T-075 | Wire Tasks view into switcher and detail sheet | S-028 | backlog | S | 2 | 30 | 0 | [T-075](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/items/T-075-wire-tasks-view-to-switcher.md) |
-| T-048 | Build shared work item sheet shell | S-018 | done | M | 3 | 50 | 0 | [T-048](epics/E-005-view-work-item/stories/S-018-work-item-detail-sheet/items/T-048-shared-work-item-sheet-shell.md) |
-| T-049 | Open sheet from epic story and task list rows | S-018 | done | S | 2 | 30 | 0 | [T-049](epics/E-005-view-work-item/stories/S-018-work-item-detail-sheet/items/T-049-open-sheet-from-list-rows.md) |
-| T-050 | Sheet loading empty and error states | S-018 | done | S | 2 | 30 | 0 | [T-050](epics/E-005-view-work-item/stories/S-018-work-item-detail-sheet/items/T-050-sheet-loading-empty-error-states.md) |
-| T-051 | Define detail types and shared section parsers | S-019 | done | M | 3 | 50 | 0 | [T-051](epics/E-005-view-work-item/stories/S-019-load-full-work-item-content/items/T-051-detail-types-shared-parsers.md) |
-| T-052 | Load epic full detail by file path | S-019 | done | S | 2 | 30 | 0 | [T-052](epics/E-005-view-work-item/stories/S-019-load-full-work-item-content/items/T-052-load-epic-full-detail.md) |
-| T-053 | Load story full detail by file path | S-019 | done | S | 2 | 30 | 0 | [T-053](epics/E-005-view-work-item/stories/S-019-load-full-work-item-content/items/T-053-load-story-full-detail.md) |
-| T-054 | Load task and bug full detail by file path | S-019 | done | M | 3 | 50 | 0 | [T-054](epics/E-005-view-work-item/stories/S-019-load-full-work-item-content/items/T-054-load-task-bug-full-detail.md) |
-| T-055 | Build epic detail content layout | S-020 | done | M | 3 | 50 | 0 | [T-055](epics/E-005-view-work-item/stories/S-020-epic-detail-view/items/T-055-epic-detail-content-layout.md) |
-| T-056 | Wire epic list open to epic detail sheet | S-020 | done | S | 2 | 30 | 0 | [T-056](epics/E-005-view-work-item/stories/S-020-epic-detail-view/items/T-056-wire-epic-list-to-detail-sheet.md) |
-| T-057 | Build story detail content layout | S-021 | done | M | 3 | 50 | 0 | [T-057](epics/E-005-view-work-item/stories/S-021-story-detail-view/items/T-057-story-detail-content-layout.md) |
-| T-058 | Wire story list open to story detail sheet | S-021 | done | S | 2 | 30 | 0 | [T-058](epics/E-005-view-work-item/stories/S-021-story-detail-view/items/T-058-wire-story-list-to-detail-sheet.md) |
-| T-059 | Build task and bug detail content layout | S-022 | done | M | 3 | 50 | 0 | [T-059](epics/E-005-view-work-item/stories/S-022-task-detail-view/items/T-059-task-bug-detail-content-layout.md) |
-| T-060 | Wire task list open to item detail sheet | S-022 | done | S | 2 | 30 | 0 | [T-060](epics/E-005-view-work-item/stories/S-022-task-detail-view/items/T-060-wire-task-list-to-detail-sheet.md) |
-| B-003 | Setup fails to discover flat multi-repo board | S-001 | done | S | 2 | 30 | 32 | [B-003](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/B-003-discover-flat-taskmark-board.md) |
-| B-004 | Parallel full-session work logs inflate epic Actual | S-023 | done | M | 5 | 10 | 11 | [B-004](epics/E-004-refactor-speed-and-estimation/stories/S-023-shared-batch-actual-split/items/B-004-parallel-session-inflates-actual.md) |
-| B-002 | Dedicated board repo must be flat (no nested taskmark/) | S-008 | done | S | 2 | 30 | 32 | [B-002](epics/E-003-refactor-taskmark-project-structure/stories/S-008-multi-project-dedicated-board/items/B-002-flat-board-repo-root.md) |
-| B-001 | Epic list fails after board frontmatter fence corruption | S-002 | done | S | 2 | 30 | 32 | [B-001](epics/E-001-mvp-dashboard/stories/S-002-epic-list/items/B-001-epic-frontmatter-parse.md) |
+| T-076 | Conventions for optional parents and General epic | S-029 | done | M | 3 | 45 | 1 | [T-076](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/T-076-conventions-optional-parents-general.md) |
+| T-077 | Soft-attach create-story and create-task | S-029 | done | L | 5 | 75 | 1 | [T-077](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/T-077-soft-attach-create-skills.md) |
+| T-078 | Seed and ensure General epic on boards | S-029 | done | S | 2 | 30 | 1 | [T-078](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/T-078-seed-ensure-general-epic.md) |
+| T-079 | Show General epic with unattached items in UI | S-029 | done | M | 3 | 45 | 1 | [T-079](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/T-079-ui-general-epic-unattached.md) |
