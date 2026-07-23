@@ -7,10 +7,10 @@ priority: high
 size: XL
 size_source: rolled_up
 size_basis: [sum:tasks]
-points: 13
+points: 16
 points_source: rolled_up
-estimate_minutes: 195
-actual_minutes: 4
+estimate_minutes: 200
+actual_minutes: 7
 estimate_source: suggested
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -21,10 +21,10 @@ blocked: false
 cancelled: false
 tags: [plugin, conventions, hierarchy, create]
 created: 2026-07-23
-updated: 2026-07-23T04:47:32Z
+updated: 2026-07-23T05:10:21.353Z
 started_at: 2026-07-23T04:41:50Z
 completed_at: 2026-07-23T04:45:50Z
-actual_ms: 240000
+actual_ms: 420000
 ---
 # S-029: Standalone stories and tasks with General epic
 
@@ -41,6 +41,8 @@ As a user, I want to create stories without an epic and tasks without a story wh
 - [x] The epic list always shows General so unattached work is visible.
 
 ## Tasks
+
+- [B-005: Tasks and bugs cannot live under an epic without a story](items/B-005-epic-direct-tasks-without-story.md)
 
 - [T-076: Conventions for optional parents and General epic](items/T-076-conventions-optional-parents-general.md)
 - [T-077: Soft-attach create-story and create-task](items/T-077-soft-attach-create-skills.md)

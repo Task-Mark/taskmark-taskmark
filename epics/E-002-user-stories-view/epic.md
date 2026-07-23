@@ -6,12 +6,12 @@ status: done
 priority: high
 size: null
 size_source: rolled_up
-size_basis: [sum:stories]
+size_basis: [sum:children]
 points: 11
 points_source: rolled_up
 estimate_minutes: 1265
 actual_minutes: 831
-estimate_basis: [sum:stories]
+estimate_basis: [sum:children]
 session_cap_minutes: 480
 parent: null
 epic: null
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, stories, frontend]
 created: 2026-07-21
-updated: 2026-07-23T04:46:35.010Z
+updated: 2026-07-23T05:10:21.353Z
 started_at: 2026-07-21T17:45:49Z
 completed_at: 2026-07-21T18:02:46Z
 actual_ms: 49878000

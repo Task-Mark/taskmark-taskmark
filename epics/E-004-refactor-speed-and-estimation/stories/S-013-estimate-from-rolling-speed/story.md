@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [estimation, create, velocity]
 created: 2026-07-21
-updated: 2026-07-23T04:46:35.010Z
+updated: 2026-07-23T05:10:21.353Z
 started_at: 2026-07-21T21:31:27Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 5760000

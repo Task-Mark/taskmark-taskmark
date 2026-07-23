@@ -6,12 +6,12 @@ status: done
 priority: high
 size: null
 size_source: rolled_up
-size_basis: [sum:stories]
+size_basis: [sum:children]
 points: 26
 points_source: rolled_up
 estimate_minutes: 780
 actual_minutes: 440
-estimate_basis: [sum:stories]
+estimate_basis: [sum:children]
 session_cap_minutes: 480
 parent: null
 epic: null
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [mvp, dashboard, frontend]
 created: 2026-07-21
-updated: 2026-07-23T04:46:35.010Z
+updated: 2026-07-23T05:10:21.353Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T17:02:25Z
 actual_ms: 26400000

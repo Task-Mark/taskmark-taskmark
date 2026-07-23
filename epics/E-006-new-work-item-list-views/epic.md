@@ -6,13 +6,13 @@ status: backlog
 priority: high
 size: null
 size_source: rolled_up
-size_basis: [sum:stories]
+size_basis: [sum:children]
 points: 30
 points_source: rolled_up
-estimate_minutes: 450
+estimate_minutes: 435
 actual_minutes: 0
 estimate_source: rolled_up
-estimate_basis: [sum:stories]
+estimate_basis: [sum:children]
 session_cap_minutes: 480
 parent: null
 epic: null
@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, lists]
 created: 2026-07-22
-updated: 2026-07-23T04:46:35.010Z
+updated: 2026-07-23T05:10:21.353Z
 started_at: null
 completed_at: null
 actual_ms: 0

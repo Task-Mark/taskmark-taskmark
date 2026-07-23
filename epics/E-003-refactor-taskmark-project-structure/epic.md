@@ -6,12 +6,12 @@ status: done
 priority: high
 size: null
 size_source: rolled_up
-size_basis: [sum:stories]
+size_basis: [sum:children]
 points: 31
 points_source: rolled_up
 estimate_minutes: 443
 actual_minutes: 496
-estimate_basis: [sum:stories]
+estimate_basis: [sum:children]
 session_cap_minutes: 480
 parent: null
 epic: null
@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, plugin, board-layout]
 created: 2026-07-21
-updated: 2026-07-23T04:46:35.010Z
+updated: 2026-07-23T05:10:21.353Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 actual_ms: 29760000

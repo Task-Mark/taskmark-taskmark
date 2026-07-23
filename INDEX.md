@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-23T04:46:35.063Z
+Last synced: 2026-07-23T05:10:21.406Z
 
 ## Epics
 
@@ -11,8 +11,8 @@ Last synced: 2026-07-23T04:46:35.063Z
 | E-003 | Refactor Taskmark project structure | done | — | 31 | 443 | 496 | [epic.md](epics/E-003-refactor-taskmark-project-structure/epic.md) |
 | E-004 | Refactor speed and estimation | done | — | 52 | 682 | 688 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
 | E-005 | View work item | done | — | 32 | 510 | 3 | [epic.md](epics/E-005-view-work-item/epic.md) |
-| E-006 | New work item list views | backlog | — | 30 | 450 | 0 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
-| E-007 | Optional hierarchy and General epic | done | — | 13 | 195 | 4 | [epic.md](epics/E-007-optional-hierarchy-general-epic/epic.md) |
+| E-006 | New work item list views | backlog | — | 30 | 435 | 0 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
+| E-007 | Optional hierarchy and General epic | done | — | 16 | 200 | 7 | [epic.md](epics/E-007-optional-hierarchy-general-epic/epic.md) |
 | E-008 | General | backlog | — | 0 | 0 | 0 | [epic.md](epics/E-008-general/epic.md) |
 
 ## Stories
@@ -44,11 +44,10 @@ Last synced: 2026-07-23T04:46:35.063Z
 | S-023 | Shared batch actual time split | E-004 | done | S | 5 | 10 | 11 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-023-shared-batch-actual-split/story.md) |
 | S-024 | Board list view switcher | E-006 | backlog | M | 6 | 90 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-024-board-list-view-switcher/story.md) |
 | S-025 | Overall list view (current drill-down) | E-006 | backlog | S | 3 | 45 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-025-overall-list-view/story.md) |
-| S-026 | All work items table view | E-006 | backlog | L | 8 | 120 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/story.md) |
+| S-026 | All work items table view | E-006 | backlog | L | 8 | 110 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/story.md) |
 | S-027 | Stories list view with epic tag | E-006 | backlog | M | 6 | 90 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-027-stories-list-view-with-epic-tag/story.md) |
-| S-028 | Tasks list view with epic and story tags | E-006 | backlog | L | 7 | 105 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/story.md) |
-| S-029 | Standalone stories and tasks with General epic | E-007 | done | XL | 13 | 195 | 4 | [story.md](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/story.md) |
-| S-030 | Unattached | E-008 | backlog | XS | 0 | 0 | 0 | [story.md](epics/E-008-general/stories/S-030-unattached/story.md) |
+| S-028 | Tasks list view with epic and story tags | E-006 | backlog | L | 7 | 100 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/story.md) |
+| S-029 | Standalone stories and tasks with General epic | E-007 | done | XL | 16 | 200 | 7 | [story.md](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/story.md) |
 
 ## Open work sessions
 
@@ -130,16 +129,17 @@ Last synced: 2026-07-23T04:46:35.063Z
 | T-064 | Wire switcher into board shell | S-024 | backlog | S | 2 | 30 | 0 | [T-064](epics/E-006-new-work-item-list-views/stories/S-024-board-list-view-switcher/items/T-064-wire-switcher-into-board-shell.md) |
 | T-065 | Register Overall as default view mode | S-025 | backlog | XS | 1 | 15 | 0 | [T-065](epics/E-006-new-work-item-list-views/stories/S-025-overall-list-view/items/T-065-register-overall-as-default-view.md) |
 | T-066 | Preserve drill-down under Overall view | S-025 | backlog | S | 2 | 30 | 0 | [T-066](epics/E-006-new-work-item-list-views/stories/S-025-overall-list-view/items/T-066-preserve-drill-down-under-overall.md) |
-| T-067 | Aggregate all work items into flat rows | S-026 | backlog | M | 3 | 45 | 0 | [T-067](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-067-aggregate-all-work-item-rows.md) |
-| T-068 | Build All view unified table UI | S-026 | backlog | M | 3 | 45 | 0 | [T-068](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-068-build-all-items-table-ui.md) |
+| T-067 | Aggregate all work items into flat rows | S-026 | backlog | M | 3 | 40 | 0 | [T-067](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-067-aggregate-all-work-item-rows.md) |
+| T-068 | Build All view unified table UI | S-026 | backlog | M | 3 | 40 | 0 | [T-068](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-068-build-all-items-table-ui.md) |
 | T-069 | Wire All view into switcher and detail sheet | S-026 | backlog | S | 2 | 30 | 0 | [T-069](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-069-wire-all-view-to-switcher.md) |
 | T-070 | Collect stories with epic metadata | S-027 | backlog | S | 2 | 30 | 0 | [T-070](epics/E-006-new-work-item-list-views/stories/S-027-stories-list-view-with-epic-tag/items/T-070-collect-stories-with-epic-metadata.md) |
 | T-071 | Build Stories view table with epic tag | S-027 | backlog | S | 2 | 30 | 0 | [T-071](epics/E-006-new-work-item-list-views/stories/S-027-stories-list-view-with-epic-tag/items/T-071-build-stories-view-with-epic-tag.md) |
 | T-072 | Wire Stories view into switcher and detail sheet | S-027 | backlog | S | 2 | 30 | 0 | [T-072](epics/E-006-new-work-item-list-views/stories/S-027-stories-list-view-with-epic-tag/items/T-072-wire-stories-view-to-switcher.md) |
 | T-073 | Collect tasks with epic and story metadata | S-028 | backlog | S | 2 | 30 | 0 | [T-073](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/items/T-073-collect-tasks-with-parent-metadata.md) |
-| T-074 | Build Tasks view table with epic and story tags | S-028 | backlog | M | 3 | 45 | 0 | [T-074](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/items/T-074-build-tasks-view-with-parent-tags.md) |
+| T-074 | Build Tasks view table with epic and story tags | S-028 | backlog | M | 3 | 40 | 0 | [T-074](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/items/T-074-build-tasks-view-with-parent-tags.md) |
 | T-075 | Wire Tasks view into switcher and detail sheet | S-028 | backlog | S | 2 | 30 | 0 | [T-075](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/items/T-075-wire-tasks-view-to-switcher.md) |
 | T-076 | Conventions for optional parents and General epic | S-029 | done | M | 3 | 45 | 1 | [T-076](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/T-076-conventions-optional-parents-general.md) |
 | T-077 | Soft-attach create-story and create-task | S-029 | done | L | 5 | 75 | 1 | [T-077](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/T-077-soft-attach-create-skills.md) |
 | T-078 | Seed and ensure General epic on boards | S-029 | done | S | 2 | 30 | 1 | [T-078](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/T-078-seed-ensure-general-epic.md) |
 | T-079 | Show General epic with unattached items in UI | S-029 | done | M | 3 | 45 | 1 | [T-079](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/T-079-ui-general-epic-unattached.md) |
+| B-005 | Tasks and bugs cannot live under an epic without a story | S-029 | done | M | 3 | 5 | 3 | [B-005](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/B-005-epic-direct-tasks-without-story.md) |

@@ -6,13 +6,13 @@ status: done
 priority: high
 size: null
 size_source: rolled_up
-size_basis: [sum:stories]
-points: 13
+size_basis: [sum:children]
+points: 16
 points_source: rolled_up
-estimate_minutes: 195
-actual_minutes: 4
+estimate_minutes: 200
+actual_minutes: 7
 estimate_source: rolled_up
-estimate_basis: [sum:stories]
+estimate_basis: [sum:children]
 session_cap_minutes: 480
 parent: null
 epic: null
@@ -21,23 +21,23 @@ blocked: false
 cancelled: false
 tags: [plugin, conventions, hierarchy, dashboard]
 created: 2026-07-23
-updated: 2026-07-23T04:47:32Z
+updated: 2026-07-23T05:10:21.353Z
 started_at: 2026-07-23T04:41:50Z
 completed_at: 2026-07-23T04:45:50Z
-actual_ms: 240000
+actual_ms: 420000
 ---
 # E-007: Optional hierarchy and General epic
 
 ## Goal
 
-Let stories and tasks exist without a required parent, while still preferring a contextual epic/story when one is clear, and house truly unattached work under a default **General** epic visible in the epic list.
+Let stories and tasks exist without a required parent, while still preferring a contextual epic/story when one is clear, and house general tasks and user stories under a default **General** epic visible in the epic list.
 
 ## Scope
 
 - Optional `parent` / `epic` for stories and tasks (null allowed).
 - Create skills infer parents from prompt/context when the user does not name one.
 - Fallback attachment to a board-default **General** epic (and a catch-all story under it when a task has no story).
-- Dashboard epic list always includes General so unattached work is discoverable.
+- Dashboard epic list always includes General so general tasks and user stories are discoverable.
 - Conventions, init, create skills, and UI/parser updates needed for the above.
 
 ## Out of scope
@@ -49,7 +49,7 @@ Let stories and tasks exist without a required parent, while still preferring a 
 ## Success metrics
 
 - Creating a story or task without an explicit parent succeeds.
-- Unattached items appear under General in the epic list.
+- General tasks and user stories appear under General in the epic list (epic `items/` + stories; no Unattached story).
 - Explicit or clearly contextual parents still win over General.
 
 ## Stories
