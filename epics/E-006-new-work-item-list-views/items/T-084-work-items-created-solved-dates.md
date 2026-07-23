@@ -50,6 +50,8 @@ Add creation date (`created`) and solve date (`completed_at`) columns to the Wor
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 83d2ae9 | taskmark-frontend | 2026-07-23T08:04:28Z | add created solved date tooltips |
+| 1cee199 | taskmark-taskmark | 2026-07-23T08:04:28Z | add t-084 t-085 date tooltip board |
 
 ## Work log
 
