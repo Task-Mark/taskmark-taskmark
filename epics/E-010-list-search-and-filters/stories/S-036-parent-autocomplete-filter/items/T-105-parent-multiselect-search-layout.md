@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, filters, workitems]
 created: 2026-07-23
-updated: 2026-07-23T16:16:14.881Z
+updated: 2026-07-23T16:24:32.159Z
 started_at: 2026-07-23T16:12:45Z
 completed_at: 2026-07-23T16:14:55Z
 actual_ms: 130000

@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, parse, detail]
 created: 2026-07-21
-updated: 2026-07-23T16:16:14.881Z
+updated: 2026-07-23T16:24:32.159Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
 actual_ms: 60938

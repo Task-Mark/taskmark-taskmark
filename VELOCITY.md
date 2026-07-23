@@ -1,18 +1,18 @@
 # Team velocity
 
-Last synced: 2026-07-23T16:16:14.881Z
+Last synced: 2026-07-23T16:24:32.159Z
 Window: rolling 30 days (done tasks/bugs by completed_at)
 
 ## Throughput
 
 | Metric | Value |
 |--------|-------|
-| Done items in window | 112 |
-| Sum points | 250 |
+| Done items in window | 114 |
+| Sum points | 252 |
 | Median points | 2 |
 | Median actual_minutes | 16 |
 | Median minutes per point | 16 |
-| Points per week (approx) | 58.3 |
+| Points per week (approx) | 58.8 |
 
 ## Remaining backlog
 

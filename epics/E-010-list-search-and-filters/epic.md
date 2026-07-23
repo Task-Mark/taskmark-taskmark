@@ -10,7 +10,7 @@ size_basis: [sum:children]
 points: 26
 points_source: rolled_up
 estimate_minutes: 400
-actual_minutes: 8
+actual_minutes: 16
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -21,10 +21,10 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, search, filters]
 created: 2026-07-23
-updated: 2026-07-23T16:17:33Z
+updated: 2026-07-23T16:24:32.159Z
 started_at: 2026-07-23T16:00:49Z
 completed_at: 2026-07-23T16:03:09Z
-actual_ms: 524000
+actual_ms: 1004000
 ---
 
 # E-010: List search and filters
@@ -75,3 +75,4 @@ Let users find and narrow work items quickly: every list has a search box (by id
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | agent | 2026-07-23T16:00:49Z | 2026-07-23T16:00:49Z | rollup: children hold shared-batch; delivered E-010 list search and filters |
+| 2 | agent | 2026-07-23T16:00:49Z | 2026-07-23T16:17:33Z | auto-recovered: commit span |

@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-23T16:16:14.971Z
+Last synced: 2026-07-23T16:24:32.272Z
 
 ## Epics
 
@@ -11,11 +11,11 @@ Last synced: 2026-07-23T16:16:14.971Z
 | E-003 | Refactor Taskmark project structure | done | — | 31 | 443 | 496 | [epic.md](epics/E-003-refactor-taskmark-project-structure/epic.md) |
 | E-004 | Refactor speed and estimation | done | — | 52 | 682 | 688 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
 | E-005 | View work item | done | — | 37 | 555 | 44 | [epic.md](epics/E-005-view-work-item/epic.md) |
-| E-006 | New work item list views | done | — | 40 | 560 | 486 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
+| E-006 | New work item list views | done | — | 42 | 590 | 486 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
 | E-007 | Optional hierarchy and General epic | done | — | 15 | 230 | 40 | [epic.md](epics/E-007-optional-hierarchy-general-epic/epic.md) |
 | E-008 | General | backlog | — | 0 | 0 | 0 | [epic.md](epics/E-008-general/epic.md) |
 | E-009 | List pagination for work items | done | — | 15 | 230 | 13 | [epic.md](epics/E-009-list-pagination/epic.md) |
-| E-010 | List search and filters | done | — | 26 | 400 | 8 | [epic.md](epics/E-010-list-search-and-filters/epic.md) |
+| E-010 | List search and filters | done | — | 26 | 400 | 16 | [epic.md](epics/E-010-list-search-and-filters/epic.md) |
 
 ## Stories
 
@@ -46,7 +46,7 @@ Last synced: 2026-07-23T16:16:14.971Z
 | S-023 | Shared batch actual time split | E-004 | done | S | 5 | 10 | 11 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-023-shared-batch-actual-split/story.md) |
 | S-024 | Board list view switcher | E-006 | done | M | 6 | 90 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-024-board-list-view-switcher/story.md) |
 | S-025 | Overall list view (current drill-down) | E-006 | done | S | 3 | 45 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-025-overall-list-view/story.md) |
-| S-026 | All work items table view | E-006 | done | L | 8 | 130 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/story.md) |
+| S-026 | All work items table view | E-006 | done | XL | 10 | 160 | 5 | [story.md](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/story.md) |
 | S-027 | Stories list view with epic tag | E-006 | done | M | 6 | 90 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-027-stories-list-view-with-epic-tag/story.md) |
 | S-028 | Tasks list view with epic and story tags | E-006 | done | L | 7 | 110 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/story.md) |
 | S-029 | Standalone stories and tasks with General epic | E-007 | done | XL | 15 | 230 | 40 | [story.md](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/story.md) |
@@ -182,3 +182,5 @@ Last synced: 2026-07-23T16:16:14.971Z
 | T-105 | Parent filter multiselect and search chips layout | S-036 | done | S | 2 | 30 | 2 | [T-105](epics/E-010-list-search-and-filters/stories/S-036-parent-autocomplete-filter/items/T-105-parent-multiselect-search-layout.md) |
 | T-106 | Hide completed control as switch | S-038 | done | S | 1 | 15 | 2 | [T-106](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/items/T-106-hide-completed-switch.md) |
 | T-107 | Fix multiselect filter autocomplete | S-036 | done | S | 1 | 15 | 2 | [T-107](epics/E-010-list-search-and-filters/stories/S-036-parent-autocomplete-filter/items/T-107-fix-multiselect-autocomplete.md) |
+| T-108 | Sort done work items by completed date | S-026 | done | S | 1 | 15 | 2 | [T-108](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-108-sort-done-by-completed-date.md) |
+| T-109 | Done work items sort by solved date only | S-026 | done | S | 1 | 15 | 2 | [T-109](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-109-done-sort-by-solved-not-priority.md) |

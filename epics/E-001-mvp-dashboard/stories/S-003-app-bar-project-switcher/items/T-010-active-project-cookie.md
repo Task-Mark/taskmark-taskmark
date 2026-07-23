@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [mvp, cookie, navigation]
 created: 2026-07-21
-updated: 2026-07-23T16:16:14.881Z
+updated: 2026-07-23T16:24:32.159Z
 started_at: 2026-07-21T16:59:31Z
 completed_at: 2026-07-21T17:02:25Z
 actual_ms: 724000
