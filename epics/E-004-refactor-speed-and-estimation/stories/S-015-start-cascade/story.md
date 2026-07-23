@@ -20,11 +20,12 @@ blocked: false
 cancelled: false
 tags: [start-work, cascade, status]
 created: 2026-07-21
-updated: 2026-07-22T00:30:21.269Z
+updated: 2026-07-23T04:38:56.857Z
 started_at: 2026-07-21T21:47:27Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 4800000
 ---
+
 # S-015: Start cascade for task, story, epic
 
 ## User story

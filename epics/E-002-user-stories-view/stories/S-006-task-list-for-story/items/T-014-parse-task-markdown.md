@@ -20,12 +20,11 @@ blocked: false
 cancelled: false
 tags: [parser, tasks]
 created: 2026-07-21
-updated: 2026-07-22T00:30:21.269Z
+updated: 2026-07-23T04:38:56.857Z
 started_at: 2026-07-21T18:00:53Z
 completed_at: 2026-07-21T18:02:46Z
 actual_ms: 15706000
 ---
-
 # T-014: Parse task and bug markdown under selected story
 
 ## Description

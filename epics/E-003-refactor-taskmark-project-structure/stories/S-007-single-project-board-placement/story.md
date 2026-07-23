@@ -20,11 +20,12 @@ blocked: false
 cancelled: false
 tags: [architecture, single-repo, board-layout]
 created: 2026-07-21
-updated: 2026-07-22T00:30:21.269Z
+updated: 2026-07-23T04:38:56.857Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 actual_ms: 4800000
 ---
+
 # S-007: Single-project board placement
 
 ## User story

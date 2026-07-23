@@ -1,6 +1,6 @@
 # Team velocity
 
-Last synced: 2026-07-22T00:30:21.269Z
+Last synced: 2026-07-23T04:38:56.857Z
 Window: rolling 30 days (done tasks/bugs by completed_at)
 
 ## Throughput
@@ -18,10 +18,10 @@ Window: rolling 30 days (done tasks/bugs by completed_at)
 
 | Metric | Value |
 |--------|-------|
-| Open items (excl. cancelled) | 14 |
-| Sum points remaining | 30 |
-| Sum estimate_minutes remaining | 450 |
-| ETA (from median min/point) | ~450 min |
+| Open items (excl. cancelled) | 18 |
+| Sum points remaining | 43 |
+| Sum estimate_minutes remaining | 645 |
+| ETA (from median min/point) | ~645 min |
 
 ## Notes
 

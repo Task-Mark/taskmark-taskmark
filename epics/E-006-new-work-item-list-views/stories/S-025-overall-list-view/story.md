@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, overall]
 created: 2026-07-22
-updated: 2026-07-22T00:30:21.269Z
+updated: 2026-07-23T04:38:56.857Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
-
 # S-025: Overall list view (current drill-down)
 
 ## User story

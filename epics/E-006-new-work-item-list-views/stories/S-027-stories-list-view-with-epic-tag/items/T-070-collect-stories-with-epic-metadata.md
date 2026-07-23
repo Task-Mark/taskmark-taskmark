@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [data, frontend, views, stories]
 created: 2026-07-22
-updated: 2026-07-22T00:30:21.269Z
+updated: 2026-07-23T04:38:56.857Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
+
 # T-070: Collect stories with epic metadata
 
 ## Description
