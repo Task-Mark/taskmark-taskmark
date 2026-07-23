@@ -4,6 +4,6 @@ Canonical: taskmark-taskmark
 
 | Name | Path | Git | Last synced (UTC) |
 |------|------|-----|-------------------|
-| taskmark-taskmark | /Users/menda0/Projects/taskmark/taskmark-taskmark | yes | 2026-07-23T09:44:14Z |
-| taskmark-frontend | /Users/menda0/Projects/taskmark/taskmark-frontend | yes | 2026-07-23T09:44:14Z |
-| taskmark-cursor | /Users/menda0/Projects/taskmark/taskmark-cursor | yes | 2026-07-23T09:44:14Z |
+| taskmark-taskmark | /Users/menda0/Projects/taskmark/taskmark-taskmark | yes | 2026-07-23T15:35:42Z |
+| taskmark-frontend | /Users/menda0/Projects/taskmark/taskmark-frontend | yes | 2026-07-23T15:35:42Z |
+| taskmark-cursor | /Users/menda0/Projects/taskmark/taskmark-cursor | yes | 2026-07-23T15:35:42Z |

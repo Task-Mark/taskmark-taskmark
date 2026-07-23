@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 39
+points: 37
 points_source: rolled_up
-estimate_minutes: 535
-actual_minutes: 23
+estimate_minutes: 555
+actual_minutes: 44
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -21,10 +21,10 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, detail, sheet]
 created: 2026-07-21
-updated: 2026-07-23T09:47:44.562Z
+updated: 2026-07-23T15:41:41.235Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
-actual_ms: 1415000
+actual_ms: 2654000
 ---
 
 # E-005: View work item

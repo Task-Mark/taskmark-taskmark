@@ -4,13 +4,13 @@ type: task
 title: Add date-fns and format all displayed dates
 status: done
 priority: medium
-size: M
+size: XS
 size_source: suggested
 size_basis: [calibrated:T-087]
-points: 3
+points: 1
 points_source: suggested
-estimate_minutes: 5
-actual_minutes: 3
+estimate_minutes: 25
+actual_minutes: 23
 estimate_source: suggested
 estimate_basis: [calibrated:T-087]
 session_cap_minutes: 480
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, dates, detail]
 created: 2026-07-23
-updated: 2026-07-23T09:47:44.562Z
+updated: 2026-07-23T15:41:41.235Z
 started_at: 2026-07-23T09:44:14Z
 completed_at: 2026-07-23T09:47:31Z
-actual_ms: 197000
+actual_ms: 1436000
 ---
+
 # T-087: Add date-fns and format all displayed dates
 
 ## Description
@@ -58,3 +59,4 @@ Add `date-fns` and use it to format every user-visible date/time in the dashboar
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | agent | 2026-07-23T09:44:14Z | 2026-07-23T09:47:31Z | date-fns helpers; format detail + tooltip dates |
+| 2 | agent | 2026-07-23T09:44:14Z | 2026-07-23T10:04:53Z | auto-recovered: commit span |

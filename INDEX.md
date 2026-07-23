@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-23T09:47:44.650Z
+Last synced: 2026-07-23T15:41:41.343Z
 
 ## Epics
 
@@ -10,10 +10,11 @@ Last synced: 2026-07-23T09:47:44.650Z
 | E-002 | User stories view | done | — | 11 | 1265 | 831 | [epic.md](epics/E-002-user-stories-view/epic.md) |
 | E-003 | Refactor Taskmark project structure | done | — | 31 | 443 | 496 | [epic.md](epics/E-003-refactor-taskmark-project-structure/epic.md) |
 | E-004 | Refactor speed and estimation | done | — | 52 | 682 | 688 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
-| E-005 | View work item | done | — | 39 | 535 | 23 | [epic.md](epics/E-005-view-work-item/epic.md) |
+| E-005 | View work item | done | — | 37 | 555 | 44 | [epic.md](epics/E-005-view-work-item/epic.md) |
 | E-006 | New work item list views | done | — | 40 | 560 | 486 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
 | E-007 | Optional hierarchy and General epic | done | — | 15 | 230 | 40 | [epic.md](epics/E-007-optional-hierarchy-general-epic/epic.md) |
 | E-008 | General | backlog | — | 0 | 0 | 0 | [epic.md](epics/E-008-general/epic.md) |
+| E-009 | List pagination for work items | done | — | 15 | 230 | 5 | [epic.md](epics/E-009-list-pagination/epic.md) |
 
 ## Stories
 
@@ -48,6 +49,9 @@ Last synced: 2026-07-23T09:47:44.650Z
 | S-027 | Stories list view with epic tag | E-006 | done | M | 6 | 90 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-027-stories-list-view-with-epic-tag/story.md) |
 | S-028 | Tasks list view with epic and story tags | E-006 | done | L | 7 | 110 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/story.md) |
 | S-029 | Standalone stories and tasks with General epic | E-007 | done | XL | 15 | 230 | 40 | [story.md](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/story.md) |
+| S-030 | Shared pagination control | E-009 | done | L | 7 | 110 | 2 | [story.md](epics/E-009-list-pagination/stories/S-030-shared-pagination-control/story.md) |
+| S-031 | Paginate Overall drill-down lists | E-009 | done | M | 6 | 90 | 2 | [story.md](epics/E-009-list-pagination/stories/S-031-paginate-overall-lists/story.md) |
+| S-032 | Paginate Work items list | E-009 | done | S | 2 | 30 | 0 | [story.md](epics/E-009-list-pagination/stories/S-032-paginate-work-items-list/story.md) |
 
 ## Open work sessions
 
@@ -147,7 +151,14 @@ Last synced: 2026-07-23T09:47:44.650Z
 | T-081 | Count work items (stories, tasks, bugs) on epic and story lists | E-006 | done | M | 3 | 5 | 3 | [T-081](epics/E-006-new-work-item-list-views/items/T-081-work-item-totals-on-lists.md) |
 | T-083 | Wider detail sheet with epic and story children | E-005 | done | M | 3 | 5 | 3 | [T-083](epics/E-005-view-work-item/items/T-083-sheet-width-and-children.md) |
 | T-086 | Render markdown in work item detail sheet sections | E-005 | done | XS | 1 | 15 | 14 | [T-086](epics/E-005-view-work-item/items/T-086-render-markdown-detail-sheet.md) |
-| T-087 | Add date-fns and format all displayed dates | E-005 | done | M | 3 | 5 | 3 | [T-087](epics/E-005-view-work-item/items/T-087-date-fns-format-all-dates.md) |
+| T-087 | Add date-fns and format all displayed dates | E-005 | done | XS | 1 | 25 | 23 | [T-087](epics/E-005-view-work-item/items/T-087-date-fns-format-all-dates.md) |
 | T-082 | Overall and Work items tabs only | E-006 | done | M | 3 | 5 | 3 | [T-082](epics/E-006-new-work-item-list-views/items/T-082-overall-and-work-items-tabs.md) |
 | T-084 | Show created and solved dates on work items list | E-006 | done | XS | 1 | 20 | 21 | [T-084](epics/E-006-new-work-item-list-views/items/T-084-work-items-created-solved-dates.md) |
 | T-085 | Date tooltips on ID and done badge instead of columns | E-006 | done | XS | 1 | 15 | 16 | [T-085](epics/E-006-new-work-item-list-views/items/T-085-date-tooltips-id-done-badge.md) |
+| T-088 | Define pagination types and page-size defaults | S-030 | done | S | 2 | 30 | 0 | [T-088](epics/E-009-list-pagination/stories/S-030-shared-pagination-control/items/T-088-pagination-types-defaults.md) |
+| T-089 | Build pagination navigation and page-size UI | S-030 | done | M | 3 | 50 | 1 | [T-089](epics/E-009-list-pagination/stories/S-030-shared-pagination-control/items/T-089-pagination-control-ui.md) |
+| T-090 | Client-side page slice helper | S-030 | done | S | 2 | 30 | 0 | [T-090](epics/E-009-list-pagination/stories/S-030-shared-pagination-control/items/T-090-page-slice-helper.md) |
+| T-091 | Paginate epic list | S-031 | done | S | 2 | 30 | 0 | [T-091](epics/E-009-list-pagination/stories/S-031-paginate-overall-lists/items/T-091-paginate-epic-list.md) |
+| T-092 | Paginate story list | S-031 | done | S | 2 | 30 | 0 | [T-092](epics/E-009-list-pagination/stories/S-031-paginate-overall-lists/items/T-092-paginate-story-list.md) |
+| T-093 | Paginate task list | S-031 | done | S | 2 | 30 | 0 | [T-093](epics/E-009-list-pagination/stories/S-031-paginate-overall-lists/items/T-093-paginate-task-list.md) |
+| T-094 | Paginate work items list | S-032 | done | S | 2 | 30 | 0 | [T-094](epics/E-009-list-pagination/stories/S-032-paginate-work-items-list/items/T-094-paginate-work-items-list.md) |

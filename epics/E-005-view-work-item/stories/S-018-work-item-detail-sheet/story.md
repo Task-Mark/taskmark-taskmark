@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, sheet, detail]
 created: 2026-07-21
-updated: 2026-07-23T09:47:44.562Z
+updated: 2026-07-23T15:41:41.235Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
 actual_ms: 42657
