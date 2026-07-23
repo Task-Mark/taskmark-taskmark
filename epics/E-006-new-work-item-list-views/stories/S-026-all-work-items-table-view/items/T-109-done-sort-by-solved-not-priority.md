@@ -49,6 +49,7 @@ Done/cancelled Work items must ignore priority and order solely by solved date (
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 83957ad | taskmark-taskmark | 2026-07-23T16:28:18Z | complete t-108 t-109 done sort rules |
 | 9f8fe9a | taskmark-frontend | 2026-07-23T16:28:18Z | sort done work items by solved date |
 
 ## Work log
