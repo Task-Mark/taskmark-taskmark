@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, workitems]
 created: 2026-07-23
-updated: 2026-07-23T06:35:04.706Z
+updated: 2026-07-23T06:36:20Z
 started_at: null
 completed_at: null
 actual_ms: 0
@@ -70,6 +70,7 @@ Give users a **Work items** board tab that lists every user story, task, and bug
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 6201583 | taskmark-taskmark | 2026-07-23T06:36:19Z | add e-009 work items list view epic |
 
 ## Work log
 
