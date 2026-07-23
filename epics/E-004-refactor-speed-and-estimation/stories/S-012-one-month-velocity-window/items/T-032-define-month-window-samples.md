@@ -20,12 +20,11 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation]
 created: 2026-07-21
-updated: 2026-07-23T07:11:07.014Z
+updated: 2026-07-23T07:54:17.663Z
 started_at: 2026-07-21T22:35:27Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 180000
 ---
-
 # T-032: Define 1-month done-item sample set
 
 ## Description

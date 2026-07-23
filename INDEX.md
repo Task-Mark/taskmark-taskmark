@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-23T07:11:07.100Z
+Last synced: 2026-07-23T07:54:17.729Z
 
 ## Epics
 
@@ -11,7 +11,7 @@ Last synced: 2026-07-23T07:11:07.100Z
 | E-003 | Refactor Taskmark project structure | done | — | 31 | 443 | 496 | [epic.md](epics/E-003-refactor-taskmark-project-structure/epic.md) |
 | E-004 | Refactor speed and estimation | done | — | 52 | 682 | 688 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
 | E-005 | View work item | done | — | 35 | 515 | 6 | [epic.md](epics/E-005-view-work-item/epic.md) |
-| E-006 | New work item list views | done | — | 38 | 525 | 486 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
+| E-006 | New work item list views | done | — | 44 | 535 | 486 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
 | E-007 | Optional hierarchy and General epic | done | — | 15 | 230 | 40 | [epic.md](epics/E-007-optional-hierarchy-general-epic/epic.md) |
 | E-008 | General | backlog | — | 0 | 0 | 0 | [epic.md](epics/E-008-general/epic.md) |
 
@@ -147,3 +147,5 @@ Last synced: 2026-07-23T07:11:07.100Z
 | T-081 | Count work items (stories, tasks, bugs) on epic and story lists | E-006 | done | M | 3 | 5 | 3 | [T-081](epics/E-006-new-work-item-list-views/items/T-081-work-item-totals-on-lists.md) |
 | T-083 | Wider detail sheet with epic and story children | E-005 | done | M | 3 | 5 | 3 | [T-083](epics/E-005-view-work-item/items/T-083-sheet-width-and-children.md) |
 | T-082 | Overall and Work items tabs only | E-006 | done | M | 3 | 5 | 3 | [T-082](epics/E-006-new-work-item-list-views/items/T-082-overall-and-work-items-tabs.md) |
+| T-084 | Show created and solved dates on work items list | E-006 | done | M | 3 | 5 | 3 | [T-084](epics/E-006-new-work-item-list-views/items/T-084-work-items-created-solved-dates.md) |
+| T-085 | Date tooltips on ID and done badge instead of columns | E-006 | done | M | 3 | 5 | 3 | [T-085](epics/E-006-new-work-item-list-views/items/T-085-date-tooltips-id-done-badge.md) |

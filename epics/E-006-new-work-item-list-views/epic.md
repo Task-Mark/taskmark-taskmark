@@ -7,9 +7,9 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 38
+points: 44
 points_source: rolled_up
-estimate_minutes: 525
+estimate_minutes: 535
 actual_minutes: 486
 estimate_source: rolled_up
 estimate_basis: [sum:children]
@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, lists]
 created: 2026-07-22
-updated: 2026-07-23T07:11:07.014Z
+updated: 2026-07-23T07:54:17.663Z
 started_at: 2026-07-23T05:44:00Z
 completed_at: 2026-07-23T06:42:22Z
 actual_ms: 29185000
 ---
-
 # E-006: New work item list views
 
 ## Goal
@@ -67,6 +66,8 @@ Let users switch the board between Overall (current drill-down), All (flat mixed
 ## Tasks
 
 - [x] [T-082](items/T-082-overall-and-work-items-tabs.md) — Overall and Work items tabs only
+- [x] [T-084](items/T-084-work-items-created-solved-dates.md) — Show created and solved dates on work items list
+- [x] [T-085](items/T-085-date-tooltips-id-done-badge.md) — Date tooltips on ID and done badge instead of columns
 
 - [T-080: Add task and bug totals on epic and story lists](items/T-080-task-bug-totals-on-lists.md)
 

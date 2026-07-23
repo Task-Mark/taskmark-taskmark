@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, tasks]
 created: 2026-07-22
-updated: 2026-07-23T07:11:07.014Z
+updated: 2026-07-23T07:54:17.663Z
 started_at: 2026-07-23T06:38:57Z
 completed_at: 2026-07-23T06:42:22Z
 actual_ms: 46000
 ---
-
 # S-028: Tasks list view with epic and story tags
 
 ## User story

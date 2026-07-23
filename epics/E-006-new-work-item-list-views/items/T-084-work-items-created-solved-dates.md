@@ -1,0 +1,58 @@
+---
+id: T-084
+type: task
+title: Show created and solved dates on work items list
+status: done
+priority: medium
+size: M
+size_source: suggested
+size_basis: [calibrated:T-084]
+points: 3
+points_source: suggested
+estimate_minutes: 5
+actual_minutes: 3
+estimate_source: suggested
+estimate_basis: [calibrated:T-084]
+session_cap_minutes: 480
+parent: E-006
+epic: E-006
+owner: ""
+blocked: false
+cancelled: false
+tags: [dashboard, frontend, views, workitems, dates]
+created: 2026-07-23
+updated: 2026-07-23T07:54:17.663Z
+started_at: 2026-07-23T07:46:42Z
+completed_at: 2026-07-23T07:50:02Z
+actual_ms: 200000
+---
+
+# T-084: Show created and solved dates on work items list
+
+## Description
+
+Add creation date (`created`) and solve date (`completed_at`) columns to the Work items list table so users can see when each story or epic-direct task/bug was created and when it was completed.
+
+## Acceptance criteria
+
+- [x] Work items table shows a Created column from frontmatter `created`.
+- [x] Work items table shows a Solved column from frontmatter `completed_at`.
+- [x] Missing or empty dates display as an em dash.
+- [x] Dates are readable in the list (date-focused, not raw noisy timestamps when avoidable).
+
+## Prompt & feedback log
+
+| # | When (UTC) | Kind | Summary |
+|---|------------|------|---------|
+| 1 | 2026-07-23T07:46:42Z | prompt | Add solve date and creation date on the work items list |
+
+## Commits
+
+| SHA | Repo | Date (UTC) | Message |
+|-----|------|------------|---------|
+
+## Work log
+
+| Session | Actor | Started (UTC) | Ended (UTC) | Summary |
+|---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-23T07:46:42Z | 2026-07-23T07:50:02Z | Added Created and Solved columns on work items list |

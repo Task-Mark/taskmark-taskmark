@@ -1,0 +1,58 @@
+---
+id: T-085
+type: task
+title: Date tooltips on ID and done badge instead of columns
+status: done
+priority: medium
+size: M
+size_source: suggested
+size_basis: [calibrated:T-085]
+points: 3
+points_source: suggested
+estimate_minutes: 5
+actual_minutes: 3
+estimate_source: suggested
+estimate_basis: [calibrated:T-085]
+session_cap_minutes: 480
+parent: E-006
+epic: E-006
+owner: ""
+blocked: false
+cancelled: false
+tags: [dashboard, frontend, views, workitems, dates, tooltip]
+created: 2026-07-23
+updated: 2026-07-23T07:54:17.663Z
+started_at: 2026-07-23T07:51:22Z
+completed_at: 2026-07-23T07:54:27Z
+actual_ms: 185000
+---
+
+# T-085: Date tooltips on ID and done badge instead of columns
+
+## Description
+
+Remove Created/Solved columns from the Work items list. Show creation date as a tooltip on the item ID (code), and solved date as a tooltip on the done status badge. Apply the same pattern on Overall epic, story, and task lists.
+
+## Acceptance criteria
+
+- [x] Work items list has no Created or Solved columns.
+- [x] Hovering the item ID shows the creation date.
+- [x] Hovering a done status badge shows the solved date (`completed_at`).
+- [x] Epic, story, and task Overall lists use the same ID and done-badge tooltips.
+
+## Prompt & feedback log
+
+| # | When (UTC) | Kind | Summary |
+|---|------------|------|---------|
+| 1 | 2026-07-23T07:51:22Z | prompt | Remove date columns; tooltip on ID for created, on done badge for solved |
+
+## Commits
+
+| SHA | Repo | Date (UTC) | Message |
+|-----|------|------------|---------|
+
+## Work log
+
+| Session | Actor | Started (UTC) | Ended (UTC) | Summary |
+|---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-23T07:51:22Z | 2026-07-23T07:54:27Z | Date tooltips on ID + done badge; removed columns |
