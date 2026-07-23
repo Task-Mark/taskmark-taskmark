@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, workitems]
 created: 2026-07-23
-updated: 2026-07-23T07:05:44Z
+updated: 2026-07-23T07:08:22Z
 started_at: 2026-07-23T07:00:14Z
 completed_at: 2026-07-23T07:03:14Z
 actual_ms: 180000
@@ -59,6 +59,8 @@ Supersedes All / Stories / Tasks as separate tabs from E-006; keeps Overall dril
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 97685ee | taskmark-frontend | 2026-07-23T07:08:21Z | add overall and work items views |
+| ce68818 | taskmark-taskmark | 2026-07-23T07:08:22Z | complete e-006 work items tabs |
 
 ## Work log
 

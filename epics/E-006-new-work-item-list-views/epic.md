@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, lists]
 created: 2026-07-22
-updated: 2026-07-23T07:02:15.905Z
+updated: 2026-07-23T07:08:22Z
 started_at: 2026-07-23T05:44:00Z
 completed_at: 2026-07-23T06:42:22Z
 actual_ms: 3537000
@@ -75,6 +75,8 @@ Let users switch the board between Overall (current drill-down), All (flat mixed
 |-----|------|------------|---------|
 | c809639 | taskmark-frontend | 2026-07-22T00:35:27Z | add tabs and update button styles |
 | 603c59c | taskmark-taskmark | 2026-07-22T00:35:27Z | add e-006 list views board |
+| 97685ee | taskmark-frontend | 2026-07-23T07:08:21Z | add overall and work items views |
+| ce68818 | taskmark-taskmark | 2026-07-23T07:08:22Z | complete e-006 work items tabs |
 
 ## Tasks
 
