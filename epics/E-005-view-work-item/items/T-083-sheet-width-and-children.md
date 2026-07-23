@@ -53,6 +53,7 @@ Widen the work item detail sheet and show live child lists: stories (and epic-di
 | 9c75469 | taskmark-frontend | 2026-07-23T07:15:48Z | fix detail sheet layout width |
 | 7fa74bf | taskmark-frontend | 2026-07-23T07:16:16Z | fix detail sheet table widths |
 | 32e276b | taskmark-taskmark | 2026-07-23T07:15:40Z | add t-083 sheet children board |
+| 34439f4 | taskmark-taskmark | 2026-07-23T07:16:29Z | log t-083 commits |
 
 ## Work log
 
