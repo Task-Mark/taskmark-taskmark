@@ -74,6 +74,9 @@ Attribute every work item to the people who report it and who resolve it, using 
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 7392380 | taskmark-frontend | 2026-07-23T17:50:21Z | Marco Mendão | add git identity avatars on lists and detail |
+| ccebc26 | taskmark-cursor | 2026-07-23T17:50:22Z | Marco Mendão | add git identity helpers and contributor skills |
+| e6f0170 | taskmark-taskmark | 2026-07-23T17:50:22Z | Marco Mendão | complete e-011 git identity contributors |
 
 ## Work log
 
