@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, sheet, detail]
 created: 2026-07-23
-updated: 2026-07-23T07:11:07.014Z
+updated: 2026-07-23T07:16:20.000Z
 started_at: 2026-07-23T07:09:24Z
 completed_at: 2026-07-23T07:12:24Z
 actual_ms: 180000
@@ -49,6 +49,10 @@ Widen the work item detail sheet and show live child lists: stories (and epic-di
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 6c6195d | taskmark-frontend | 2026-07-23T07:15:40Z | widen sheet show children |
+| 9c75469 | taskmark-frontend | 2026-07-23T07:15:48Z | fix detail sheet layout width |
+| 7fa74bf | taskmark-frontend | 2026-07-23T07:16:16Z | fix detail sheet table widths |
+| 32e276b | taskmark-taskmark | 2026-07-23T07:15:40Z | add t-083 sheet children board |
 
 ## Work log
 
