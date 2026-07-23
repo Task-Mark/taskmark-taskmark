@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists]
 created: 2026-07-23
-updated: 2026-07-23T06:26:02.701Z
+updated: 2026-07-23T06:27:22Z
 started_at: 2026-07-23T06:25:29Z
 completed_at: 2026-07-23T06:28:29Z
 actual_ms: 180000
@@ -54,6 +54,8 @@ Follow-up to T-080. Frontend: `count-leaves.ts`, epic/story lists.
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 3a96f58 | taskmark-frontend | 2026-07-23T06:27:22Z | add work item totals on lists |
+| dcebe32 | taskmark-taskmark | 2026-07-23T06:27:22Z | complete t-080 t-081 list totals |
 
 ## Work log
 
