@@ -50,6 +50,7 @@ On Overall lists: hide the General epic when it has no stories and no tasks/bugs
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 767515a | taskmark-taskmark | 2026-07-23T16:40:51Z | complete t-110 progress bars board |
 | e3e8c71 | taskmark-frontend | 2026-07-23T16:40:51Z | add epic story progress bars |
 
 ## Work log
