@@ -2,17 +2,17 @@
 id: T-080
 type: task
 title: Add task and bug totals on epic and story lists
-status: backlog
+status: done
 priority: high
 size: M
 size_source: suggested
 size_basis: [T-006, T-012]
 points: 3
 points_source: suggested
-estimate_minutes: 45
-actual_minutes: 0
+estimate_minutes: 5
+actual_minutes: 3
 estimate_source: suggested
-estimate_basis: [velocity:30d:15min/pt]
+estimate_basis: [calibrated:T-080]
 session_cap_minutes: 480
 parent: E-006
 epic: E-006
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists]
 created: 2026-07-23
-updated: 2026-07-23T05:40:52Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T06:26:02.701Z
+started_at: 2026-07-23T05:44:00Z
+completed_at: 2026-07-23T05:47:00Z
+actual_ms: 180000
 ---
+
 # T-080: Add task and bug totals on epic and story lists
 
 ## Description
@@ -34,11 +35,11 @@ Show a combined **Tasks** total (tasks + bugs counted together in one column) on
 
 ## Acceptance criteria
 
-- [ ] Epic list has a column (or equivalent cell) showing the total count of tasks and bugs under that epic (story children + epic-direct leaves).
-- [ ] Story list has the same style of column showing the total count of tasks and bugs under that story.
-- [ ] Tasks and bugs share one total (not separate columns).
-- [ ] Zero children show `0` (or an agreed empty display), not a blank/crash.
-- [ ] Totals update correctly when switching project / selecting another epic.
+- [x] Epic list has a column (or equivalent cell) showing the total count of tasks and bugs under that epic (story children + epic-direct leaves).
+- [x] Story list has the same style of column showing the total count of tasks and bugs under that story.
+- [x] Tasks and bugs share one total (not separate columns).
+- [x] Zero children show `0` (or an agreed empty display), not a blank/crash.
+- [x] Totals update correctly when switching project / selecting another epic.
 
 ## Notes
 
@@ -49,6 +50,8 @@ Overall drill-down lists: `epic-list.tsx` and `story-list.tsx`. Count leaf markd
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
 | 1 | 2026-07-23T05:40:03Z | prompt | Add totals of tasks+bugs (same column) on epic list and stories list |
+| 2 | 2026-07-23T05:44:00Z | prompt | Implement T-080 |
+| 3 | 2026-07-23T05:46:18Z | feedback | Shipped Tasks totals on epic-list and story-list |
 
 ## Commits
 
@@ -60,3 +63,4 @@ Overall drill-down lists: `epic-list.tsx` and `story-list.tsx`. Count leaf markd
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-23T05:44:00Z | 2026-07-23T05:47:00Z | Added Tasks column (tasks+bugs) on epic and story lists |

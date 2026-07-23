@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 14
+points: 15
 points_source: rolled_up
-estimate_minutes: 210
-actual_minutes: 39
+estimate_minutes: 230
+actual_minutes: 40
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -21,10 +21,10 @@ blocked: false
 cancelled: false
 tags: [plugin, conventions, hierarchy, dashboard]
 created: 2026-07-23
-updated: 2026-07-23T05:40:19.806Z
+updated: 2026-07-23T06:26:02.701Z
 started_at: 2026-07-23T04:41:50Z
 completed_at: 2026-07-23T04:45:50Z
-actual_ms: 2351000
+actual_ms: 2426000
 ---
 
 # E-007: Optional hierarchy and General epic

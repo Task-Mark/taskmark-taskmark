@@ -4,13 +4,13 @@ type: bug
 title: Tasks and bugs cannot live under an epic without a story
 status: done
 priority: high
-size: XS
+size: S
 size_source: suggested
 size_basis: [calibrated:B-005]
-points: 1
+points: 2
 points_source: suggested
-estimate_minutes: 15
-actual_minutes: 15
+estimate_minutes: 35
+actual_minutes: 36
 estimate_source: suggested
 estimate_basis: [calibrated:B-005]
 session_cap_minutes: 480
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [plugin, hierarchy, bug]
 created: 2026-07-23
-updated: 2026-07-23T05:40:52Z
+updated: 2026-07-23T06:26:02.701Z
 started_at: 2026-07-23T05:07:15Z
 completed_at: 2026-07-23T05:10:15Z
-actual_ms: 959000
+actual_ms: 2186000
 ---
+
 # B-005: Tasks and bugs cannot live under an epic without a story
 
 ## Description
@@ -69,4 +70,4 @@ Unattached catch-all story removed; story-less tasks/bugs use epic-level `items/
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | agent | 2026-07-23T05:07:15Z | 2026-07-23T05:10:15Z | Epic-direct items under epics/E/items/; create-task + UI + ensure-general |
-| 2 | agent | 2026-07-23T05:07:15Z | 2026-07-23T05:20:14Z | auto-recovered: commit span |
+| 2 | agent | 2026-07-23T05:07:15Z | 2026-07-23T05:40:41Z | auto-recovered: commit span |

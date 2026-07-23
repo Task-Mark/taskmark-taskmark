@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 33
+points: 36
 points_source: rolled_up
-estimate_minutes: 495
-actual_minutes: 0
+estimate_minutes: 445
+actual_minutes: 6
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -21,10 +21,10 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, lists]
 created: 2026-07-22
-updated: 2026-07-23T05:40:19.806Z
-started_at: null
+updated: 2026-07-23T06:26:02.701Z
+started_at: 2026-07-23T05:44:00Z
 completed_at: null
-actual_ms: 0
+actual_ms: 360000
 ---
 
 # E-006: New work item list views
@@ -79,4 +79,4 @@ Let users switch the board between Overall (current drill-down), All (flat mixed
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-
+- [ ] [T-081](items/T-081-work-item-totals-on-lists.md) — Count work items on lists
