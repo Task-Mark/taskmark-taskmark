@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, search, filters]
 created: 2026-07-23
-updated: 2026-07-23T16:16:14.881Z
+updated: 2026-07-23T16:17:33Z
 started_at: 2026-07-23T16:00:49Z
 completed_at: 2026-07-23T16:03:09Z
 actual_ms: 524000
@@ -68,6 +68,7 @@ Let users find and narrow work items quickly: every list has a search box (by id
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
 | 66b89f7 | taskmark-frontend | 2026-07-23T16:17:20Z | add list search and filters |
+| c964895 | taskmark-taskmark | 2026-07-23T16:17:33Z | complete e-010 list search and filters |
 
 ## Work log
 
