@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [plugin, hierarchy, bug]
 created: 2026-07-23
-updated: 2026-07-23T05:40:19.806Z
+updated: 2026-07-23T05:40:52Z
 started_at: 2026-07-23T05:07:15Z
 completed_at: 2026-07-23T05:10:15Z
 actual_ms: 959000
@@ -59,6 +59,7 @@ Unattached catch-all story removed; story-less tasks/bugs use epic-level `items/
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 9c0c269 | taskmark-cursor | 2026-07-23T05:40:41Z | fix epic-direct points rollup |
 | dbb8838 | taskmark-cursor | 2026-07-23T05:20:13Z | epic-direct tasks drop unattached story |
 | cd914a9 | taskmark-frontend | 2026-07-23T05:20:13Z | show general tasks under epics |
 | 6aae4fd | taskmark-taskmark | 2026-07-23T05:20:14Z | remove unattached story fix b-005 |

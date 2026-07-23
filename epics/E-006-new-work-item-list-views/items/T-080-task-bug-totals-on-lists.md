@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists]
 created: 2026-07-23
-updated: 2026-07-23T05:40:19.806Z
+updated: 2026-07-23T05:40:52Z
 started_at: null
 completed_at: null
 actual_ms: 0
@@ -54,6 +54,7 @@ Overall drill-down lists: `epic-list.tsx` and `story-list.tsx`. Count leaf markd
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| d5eb379 | taskmark-taskmark | 2026-07-23T05:40:41Z | add t-080 list totals task |
 
 ## Work log
 
