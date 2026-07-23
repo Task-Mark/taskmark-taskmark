@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sorting]
 created: 2026-07-23
-updated: 2026-07-23T16:28:18Z
+updated: 2026-07-23T16:33:36.080Z
 started_at: 2026-07-23T16:18:57Z
 completed_at: 2026-07-23T16:21:07Z
 actual_ms: 130000
 ---
-
 # T-108: Sort done work items by completed date
 
 ## Description

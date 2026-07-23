@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, filters]
 created: 2026-07-23
-updated: 2026-07-23T16:24:32.159Z
+updated: 2026-07-23T16:33:36.080Z
 started_at: 2026-07-23T16:14:35Z
 completed_at: 2026-07-23T16:16:45Z
 actual_ms: 130000
 ---
-
 # T-106: Hide completed control as switch
 
 ## Description

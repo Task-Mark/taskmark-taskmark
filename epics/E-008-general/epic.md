@@ -2,15 +2,15 @@
 id: E-008
 type: epic
 title: General
-status: backlog
+status: done
 priority: medium
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 0
+points: 3
 points_source: rolled_up
-estimate_minutes: 0
-actual_minutes: 0
+estimate_minutes: 48
+actual_minutes: 2
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [general]
 created: 2026-07-23
-updated: 2026-07-23T16:24:32.159Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T16:33:36.080Z
+started_at: 2026-07-23T16:32:13Z
+completed_at: 2026-07-23T16:34:23Z
+actual_ms: 130000
 ---
+
 # E-008: General
 
 ## Goal
@@ -45,6 +46,10 @@ Default home for general tasks and user stories that do not have a clearer epic.
 
 - General tasks and user stories remain visible in the epic list under General.
 
+## Tasks
+
+- [T-110: Hide empty General epic and show child progress bars](items/T-110-hide-empty-general-progress-bars.md)
+
 ## Stories
 
 ## Commits
@@ -56,3 +61,4 @@ Default home for general tasks and user stories that do not have a clearer epic.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-23T16:32:13Z | 2026-07-23T16:32:13Z | rollup: child T-110 holds session |

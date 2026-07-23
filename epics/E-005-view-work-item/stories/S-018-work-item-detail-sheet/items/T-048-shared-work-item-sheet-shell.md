@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [ui, sheet, frontend]
 created: 2026-07-21
-updated: 2026-07-23T16:24:32.159Z
+updated: 2026-07-23T16:33:36.080Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
 actual_ms: 18281
 ---
-
 # T-048: Build shared work item sheet shell
 
 ## Description

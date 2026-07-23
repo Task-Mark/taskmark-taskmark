@@ -20,12 +20,11 @@ blocked: false
 cancelled: false
 tags: [mvp, discovery, filesystem]
 created: 2026-07-21
-updated: 2026-07-23T16:24:32.159Z
+updated: 2026-07-23T16:33:36.080Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
 actual_ms: 180000
 ---
-
 # T-008: Discover Taskmark projects under master folder
 
 ## Description

@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-23T16:24:32.272Z
+Last synced: 2026-07-23T16:33:36.190Z
 
 ## Epics
 
@@ -13,7 +13,7 @@ Last synced: 2026-07-23T16:24:32.272Z
 | E-005 | View work item | done | — | 37 | 555 | 44 | [epic.md](epics/E-005-view-work-item/epic.md) |
 | E-006 | New work item list views | done | — | 42 | 590 | 486 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
 | E-007 | Optional hierarchy and General epic | done | — | 15 | 230 | 40 | [epic.md](epics/E-007-optional-hierarchy-general-epic/epic.md) |
-| E-008 | General | backlog | — | 0 | 0 | 0 | [epic.md](epics/E-008-general/epic.md) |
+| E-008 | General | done | — | 3 | 48 | 2 | [epic.md](epics/E-008-general/epic.md) |
 | E-009 | List pagination for work items | done | — | 15 | 230 | 13 | [epic.md](epics/E-009-list-pagination/epic.md) |
 | E-010 | List search and filters | done | — | 26 | 400 | 16 | [epic.md](epics/E-010-list-search-and-filters/epic.md) |
 
@@ -184,3 +184,4 @@ Last synced: 2026-07-23T16:24:32.272Z
 | T-107 | Fix multiselect filter autocomplete | S-036 | done | S | 1 | 15 | 2 | [T-107](epics/E-010-list-search-and-filters/stories/S-036-parent-autocomplete-filter/items/T-107-fix-multiselect-autocomplete.md) |
 | T-108 | Sort done work items by completed date | S-026 | done | S | 1 | 15 | 2 | [T-108](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-108-sort-done-by-completed-date.md) |
 | T-109 | Done work items sort by solved date only | S-026 | done | S | 1 | 15 | 2 | [T-109](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-109-done-sort-by-solved-not-priority.md) |
+| T-110 | Hide empty General epic and show child progress bars | E-008 | done | M | 3 | 48 | 2 | [T-110](epics/E-008-general/items/T-110-hide-empty-general-progress-bars.md) |

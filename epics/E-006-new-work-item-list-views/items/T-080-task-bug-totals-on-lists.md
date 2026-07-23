@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists]
 created: 2026-07-23
-updated: 2026-07-23T16:24:32.159Z
+updated: 2026-07-23T16:33:36.080Z
 started_at: 2026-07-23T05:44:00Z
 completed_at: 2026-07-23T05:47:00Z
 actual_ms: 2981000
 ---
-
 # T-080: Add task and bug totals on epic and story lists
 
 ## Description
