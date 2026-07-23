@@ -2,7 +2,7 @@
 id: T-074
 type: task
 title: Build Tasks view table with epic and story tags
-status: backlog
+status: done
 priority: high
 size: M
 size_source: suggested
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [ui, frontend, views, tasks]
 created: 2026-07-22
-updated: 2026-07-23T06:35:04.706Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T07:02:15.905Z
+started_at: 2026-07-23T06:38:57Z
+completed_at: 2026-07-23T06:39:17Z
+actual_ms: 20000
 ---
+
 # T-074: Build Tasks view table with epic and story tags
 
 ## Description
@@ -34,10 +35,10 @@ Render a tasks-only table where each row shows tags for the parent epic and pare
 
 ## Acceptance criteria
 
-- [ ] Tasks view shows only tasks/bugs (no epics or stories as primary rows).
-- [ ] Each row displays an epic tag and a story tag.
-- [ ] Type distinction between task and bug remains clear.
-- [ ] Core fields (id, title, status, timing) remain visible.
+- [x] Tasks view shows only tasks/bugs (no epics or stories as primary rows).
+- [x] Each row displays an epic tag and a story tag.
+- [x] Type distinction between task and bug remains clear.
+- [x] Core fields (id, title, status, timing) remain visible.
 
 ## Notes
 
@@ -47,7 +48,8 @@ Tags are UI badges for parent epic/story, not frontmatter tag lists.
 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
-| 1 | 2026-07-22T00:29:24Z | prompt | Create E-006 new work item list views with stories and tasks |
+| 1 | 2026-07-23T06:42:22Z | prompt | Implement E-006 |
+| 2 | 2026-07-23T06:42:22Z | feedback | Shipped list view as part of E-006 |
 
 ## Commits
 
@@ -58,4 +60,4 @@ Tags are UI badges for parent epic/story, not frontmatter tag lists.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-
+| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:39:17Z | shared-batch: 20500 of 205000ms by points |

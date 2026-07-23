@@ -2,7 +2,7 @@
 id: S-028
 type: story
 title: Tasks list view with epic and story tags
-status: backlog
+status: done
 priority: high
 size: L
 size_source: rolled_up
@@ -21,10 +21,10 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, tasks]
 created: 2026-07-22
-updated: 2026-07-23T06:35:04.706Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T07:02:15.905Z
+started_at: 2026-07-23T06:38:57Z
+completed_at: 2026-07-23T06:42:22Z
+actual_ms: 46000
 ---
 # S-028: Tasks list view with epic and story tags
 
@@ -34,10 +34,10 @@ As a user, I want a Tasks view that lists only tasks with tags for their epic an
 
 ## Acceptance criteria
 
-- [ ] Tasks view lists only tasks and bugs.
-- [ ] Each row shows tags/badges for parent epic and parent story.
-- [ ] Activating a row opens the task/bug detail sheet.
-- [ ] Empty state is handled when there are no tasks.
+- [x] Tasks view lists only tasks and bugs.
+- [x] Each row shows tags/badges for parent epic and parent story.
+- [x] Activating a row opens the task/bug detail sheet.
+- [x] Empty state is handled when there are no tasks.
 
 ## Tasks
 
@@ -60,4 +60,4 @@ As a user, I want a Tasks view that lists only tasks with tags for their epic an
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-
+| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:38:57Z | shared-batch parent rollup (0ms; effort on child tasks) |

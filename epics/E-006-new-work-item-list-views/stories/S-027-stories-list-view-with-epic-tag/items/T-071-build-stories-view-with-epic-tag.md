@@ -2,7 +2,7 @@
 id: T-071
 type: task
 title: Build Stories view table with epic tag
-status: backlog
+status: done
 priority: high
 size: S
 size_source: suggested
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [ui, frontend, views, stories]
 created: 2026-07-22
-updated: 2026-07-23T06:35:04.706Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T07:02:15.905Z
+started_at: 2026-07-23T06:38:57Z
+completed_at: 2026-07-23T06:39:10Z
+actual_ms: 13000
 ---
+
 # T-071: Build Stories view table with epic tag
 
 ## Description
@@ -34,9 +35,9 @@ Render a stories-only table/list where each row shows an epic tag (badge/chip) i
 
 ## Acceptance criteria
 
-- [ ] Stories view shows only stories (no epics or tasks).
-- [ ] Each row displays an epic tag for the parent epic.
-- [ ] Core story fields (id, title, status, timing) remain visible.
+- [x] Stories view shows only stories (no epics or tasks).
+- [x] Each row displays an epic tag for the parent epic.
+- [x] Core story fields (id, title, status, timing) remain visible.
 
 ## Notes
 
@@ -46,7 +47,8 @@ Tag means a UI badge for the parent epic, not Taskmark frontmatter tags.
 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
-| 1 | 2026-07-22T00:29:24Z | prompt | Create E-006 new work item list views with stories and tasks |
+| 1 | 2026-07-23T06:42:22Z | prompt | Implement E-006 |
+| 2 | 2026-07-23T06:42:22Z | feedback | Shipped list view as part of E-006 |
 
 ## Commits
 
@@ -57,4 +59,4 @@ Tag means a UI badge for the parent epic, not Taskmark frontmatter tags.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-
+| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:39:10Z | shared-batch: 13667 of 205000ms by points |

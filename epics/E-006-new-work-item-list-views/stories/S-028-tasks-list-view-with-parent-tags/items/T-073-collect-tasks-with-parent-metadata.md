@@ -2,7 +2,7 @@
 id: T-073
 type: task
 title: Collect tasks with epic and story metadata
-status: backlog
+status: done
 priority: high
 size: S
 size_source: suggested
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [data, frontend, views, tasks]
 created: 2026-07-22
-updated: 2026-07-23T06:35:04.706Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T07:02:15.905Z
+started_at: 2026-07-23T06:38:57Z
+completed_at: 2026-07-23T06:39:10Z
+actual_ms: 13000
 ---
+
 # T-073: Collect tasks with epic and story metadata
 
 ## Description
@@ -34,9 +35,9 @@ Build a data helper that lists every task/bug with parent story and grandparent 
 
 ## Acceptance criteria
 
-- [ ] All tasks and bugs across the board are included.
-- [ ] Each row includes story and epic identifiers/titles for tags.
-- [ ] Missing parents are handled safely.
+- [x] All tasks and bugs across the board are included.
+- [x] Each row includes story and epic identifiers/titles for tags.
+- [x] Missing parents are handled safely.
 
 ## Notes
 
@@ -46,7 +47,8 @@ Build a data helper that lists every task/bug with parent story and grandparent 
 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
-| 1 | 2026-07-22T00:29:24Z | prompt | Create E-006 new work item list views with stories and tasks |
+| 1 | 2026-07-23T06:42:22Z | prompt | Implement E-006 |
+| 2 | 2026-07-23T06:42:22Z | feedback | Shipped list view as part of E-006 |
 
 ## Commits
 
@@ -57,4 +59,4 @@ Build a data helper that lists every task/bug with parent story and grandparent 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-
+| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:39:10Z | shared-batch: 13666 of 205000ms by points |

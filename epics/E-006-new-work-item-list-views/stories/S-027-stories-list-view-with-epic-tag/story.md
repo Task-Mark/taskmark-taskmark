@@ -2,7 +2,7 @@
 id: S-027
 type: story
 title: Stories list view with epic tag
-status: backlog
+status: done
 priority: high
 size: M
 size_source: rolled_up
@@ -21,10 +21,10 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, stories]
 created: 2026-07-22
-updated: 2026-07-23T06:35:04.706Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T07:02:15.905Z
+started_at: 2026-07-23T06:38:57Z
+completed_at: 2026-07-23T06:42:22Z
+actual_ms: 39000
 ---
 # S-027: Stories list view with epic tag
 
@@ -34,10 +34,10 @@ As a user, I want a Stories view that lists only stories with a tag for their ep
 
 ## Acceptance criteria
 
-- [ ] Stories view lists only stories.
-- [ ] Each story row shows a tag/badge for its parent epic.
-- [ ] Activating a row opens the story detail sheet.
-- [ ] Empty state is handled when there are no stories.
+- [x] Stories view lists only stories.
+- [x] Each story row shows a tag/badge for its parent epic.
+- [x] Activating a row opens the story detail sheet.
+- [x] Empty state is handled when there are no stories.
 
 ## Tasks
 
@@ -60,4 +60,4 @@ As a user, I want a Stories view that lists only stories with a tag for their ep
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-
+| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:38:57Z | shared-batch parent rollup (0ms; effort on child tasks) |

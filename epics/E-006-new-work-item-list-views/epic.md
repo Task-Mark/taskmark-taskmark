@@ -2,15 +2,15 @@
 id: E-006
 type: epic
 title: New work item list views
-status: backlog
+status: done
 priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 35
+points: 38
 points_source: rolled_up
-estimate_minutes: 520
-actual_minutes: 52
+estimate_minutes: 525
+actual_minutes: 58
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -21,10 +21,10 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, lists]
 created: 2026-07-22
-updated: 2026-07-23T06:35:04.706Z
+updated: 2026-07-23T07:02:15.905Z
 started_at: 2026-07-23T05:44:00Z
-completed_at: null
-actual_ms: 3161000
+completed_at: 2026-07-23T06:42:22Z
+actual_ms: 3537000
 ---
 # E-006: New work item list views
 
@@ -65,6 +65,8 @@ Let users switch the board between Overall (current drill-down), All (flat mixed
 
 ## Tasks
 
+- [x] [T-082](items/T-082-overall-and-work-items-tabs.md) — Overall and Work items tabs only
+
 - [T-080: Add task and bug totals on epic and story lists](items/T-080-task-bug-totals-on-lists.md)
 
 ## Commits
@@ -74,8 +76,14 @@ Let users switch the board between Overall (current drill-down), All (flat mixed
 | c809639 | taskmark-frontend | 2026-07-22T00:35:27Z | add tabs and update button styles |
 | 603c59c | taskmark-taskmark | 2026-07-22T00:35:27Z | add e-006 list views board |
 
+## Tasks
+
+- [x] [T-080](items/T-080-task-bug-totals-on-lists.md) — Add task and bug totals on epic and story lists
+- [x] [T-081](items/T-081-work-item-totals-on-lists.md) — Count work items on lists
+
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-- [ ] [T-081](items/T-081-work-item-totals-on-lists.md) — Count work items on lists
+| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:42:22Z | shared-batch parent rollup (0ms; effort on child tasks) |
+| 2 | agent | 2026-07-23T07:00:14Z | 2026-07-23T07:03:14Z | T-082 Overall + Work items tabs |

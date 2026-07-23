@@ -2,7 +2,7 @@
 id: T-066
 type: task
 title: Preserve drill-down under Overall view
-status: backlog
+status: done
 priority: high
 size: S
 size_source: suggested
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [frontend, views, overall]
 created: 2026-07-22
-updated: 2026-07-23T06:35:04.706Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T07:02:15.905Z
+started_at: 2026-07-23T06:38:57Z
+completed_at: 2026-07-23T06:39:10Z
+actual_ms: 13000
 ---
+
 # T-066: Preserve drill-down under Overall view
 
 ## Description
@@ -34,9 +35,9 @@ Keep epic list → story list → task list selection behavior unchanged when Ov
 
 ## Acceptance criteria
 
-- [ ] Epic, story, and task selection/drill-down work as before in Overall.
-- [ ] Switching away from Overall and back restores Overall drill-down without losing project context.
-- [ ] Work item detail sheet still opens from Overall list rows.
+- [x] Epic, story, and task selection/drill-down work as before in Overall.
+- [x] Switching away from Overall and back restores Overall drill-down without losing project context.
+- [x] Work item detail sheet still opens from Overall list rows.
 
 ## Notes
 
@@ -46,7 +47,8 @@ Keep epic list → story list → task list selection behavior unchanged when Ov
 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
-| 1 | 2026-07-22T00:29:24Z | prompt | Create E-006 new work item list views with stories and tasks |
+| 1 | 2026-07-23T06:42:22Z | prompt | Implement E-006 |
+| 2 | 2026-07-23T06:42:22Z | feedback | Shipped list view as part of E-006 |
 
 ## Commits
 
@@ -57,4 +59,4 @@ Keep epic list → story list → task list selection behavior unchanged when Ov
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-
+| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:39:10Z | shared-batch: 13667 of 205000ms by points |

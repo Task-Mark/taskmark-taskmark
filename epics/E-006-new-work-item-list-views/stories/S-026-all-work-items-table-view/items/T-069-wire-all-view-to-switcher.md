@@ -2,7 +2,7 @@
 id: T-069
 type: task
 title: Wire All view into switcher and detail sheet
-status: backlog
+status: done
 priority: high
 size: S
 size_source: suggested
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [frontend, views, all, sheet]
 created: 2026-07-22
-updated: 2026-07-23T06:35:04.706Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T07:02:15.905Z
+started_at: 2026-07-23T06:38:57Z
+completed_at: 2026-07-23T06:39:10Z
+actual_ms: 13000
 ---
+
 # T-069: Wire All view into switcher and detail sheet
 
 ## Description
@@ -34,9 +35,9 @@ Show the All table when All is selected; row activation opens the existing work 
 
 ## Acceptance criteria
 
-- [ ] Selecting All in the switcher shows the unified table.
-- [ ] Clicking/activating a row opens the correct detail sheet for that item type.
-- [ ] Closing the sheet returns to the All table context.
+- [x] Selecting All in the switcher shows the unified table.
+- [x] Clicking/activating a row opens the correct detail sheet for that item type.
+- [x] Closing the sheet returns to the All table context.
 
 ## Notes
 
@@ -46,7 +47,8 @@ Show the All table when All is selected; row activation opens the existing work 
 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
-| 1 | 2026-07-22T00:29:24Z | prompt | Create E-006 new work item list views with stories and tasks |
+| 1 | 2026-07-23T06:42:22Z | prompt | Implement E-006 |
+| 2 | 2026-07-23T06:42:22Z | feedback | Shipped list view as part of E-006 |
 
 ## Commits
 
@@ -57,4 +59,4 @@ Show the All table when All is selected; row activation opens the existing work 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-
+| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:39:10Z | shared-batch: 13667 of 205000ms by points |

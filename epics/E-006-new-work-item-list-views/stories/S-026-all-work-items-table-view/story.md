@@ -2,7 +2,7 @@
 id: S-026
 type: story
 title: All work items table view
-status: backlog
+status: done
 priority: high
 size: L
 size_source: rolled_up
@@ -21,10 +21,10 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, all]
 created: 2026-07-22
-updated: 2026-07-23T06:35:04.706Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T07:02:15.905Z
+started_at: 2026-07-23T06:38:57Z
+completed_at: 2026-07-23T06:42:22Z
+actual_ms: 53000
 ---
 # S-026: All work items table view
 
@@ -34,10 +34,10 @@ As a user, I want an All view that puts every epic, story, and task on one table
 
 ## Acceptance criteria
 
-- [ ] All view shows one table with every epic, story, and task/bug on the active board.
-- [ ] Row type is visually clear.
-- [ ] Activating a row opens the existing detail sheet for that item.
-- [ ] Empty boards show an empty state without errors.
+- [x] All view shows one table with every epic, story, and task/bug on the active board.
+- [x] Row type is visually clear.
+- [x] Activating a row opens the existing detail sheet for that item.
+- [x] Empty boards show an empty state without errors.
 
 ## Tasks
 
@@ -60,4 +60,4 @@ As a user, I want an All view that puts every epic, story, and task on one table
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-
+| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:38:57Z | shared-batch parent rollup (0ms; effort on child tasks) |

@@ -2,7 +2,7 @@
 id: S-024
 type: story
 title: Board list view switcher
-status: backlog
+status: done
 priority: high
 size: M
 size_source: rolled_up
@@ -21,10 +21,10 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, switcher]
 created: 2026-07-22
-updated: 2026-07-23T06:35:04.706Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T07:02:15.905Z
+started_at: 2026-07-23T06:38:57Z
+completed_at: 2026-07-23T06:42:22Z
+actual_ms: 39000
 ---
 # S-024: Board list view switcher
 
@@ -34,10 +34,10 @@ As a user, I want a control to switch board list views so I can pick Overall, Al
 
 ## Acceptance criteria
 
-- [ ] A button-group (or equivalent) lists Overall, All, Stories, and Tasks.
-- [ ] Selecting an option updates the active view mode and primary list region.
-- [ ] The active option is visually indicated.
-- [ ] Default selection is Overall.
+- [x] A button-group (or equivalent) lists Overall, All, Stories, and Tasks.
+- [x] Selecting an option updates the active view mode and primary list region.
+- [x] The active option is visually indicated.
+- [x] Default selection is Overall.
 
 ## Tasks
 
@@ -62,4 +62,4 @@ As a user, I want a control to switch board list views so I can pick Overall, Al
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-
+| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:38:57Z | shared-batch parent rollup (0ms; effort on child tasks) |

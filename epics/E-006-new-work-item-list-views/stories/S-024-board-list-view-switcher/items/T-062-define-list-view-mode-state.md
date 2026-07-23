@@ -2,7 +2,7 @@
 id: T-062
 type: task
 title: Define list view mode types and state
-status: backlog
+status: done
 priority: high
 size: S
 size_source: suggested
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [state, frontend, views]
 created: 2026-07-22
-updated: 2026-07-23T06:35:04.706Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T07:02:15.905Z
+started_at: 2026-07-23T06:38:57Z
+completed_at: 2026-07-23T06:39:10Z
+actual_ms: 13000
 ---
+
 # T-062: Define list view mode types and state
 
 ## Description
@@ -34,9 +35,9 @@ Introduce a shared list-view mode model (Overall, All, Stories, Tasks) and contr
 
 ## Acceptance criteria
 
-- [ ] A typed view-mode union covers Overall, All, Stories, and Tasks.
-- [ ] Board UI can hold and update the active view mode in shared state.
-- [ ] Default active mode is Overall.
+- [x] A typed view-mode union covers Overall, All, Stories, and Tasks.
+- [x] Board UI can hold and update the active view mode in shared state.
+- [x] Default active mode is Overall.
 
 ## Notes
 
@@ -46,7 +47,8 @@ Reuse existing board layout state patterns; do not build the switcher UI here.
 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
-| 1 | 2026-07-22T00:29:24Z | prompt | Create E-006 new work item list views with stories and tasks |
+| 1 | 2026-07-23T06:42:22Z | prompt | Implement E-006 |
+| 2 | 2026-07-23T06:42:22Z | feedback | Shipped list view as part of E-006 |
 
 ## Commits
 
@@ -57,4 +59,4 @@ Reuse existing board layout state patterns; do not build the switcher UI here.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-
+| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:39:10Z | shared-batch: 13667 of 205000ms by points |

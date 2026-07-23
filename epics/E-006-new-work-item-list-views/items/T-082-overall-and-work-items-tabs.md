@@ -1,0 +1,67 @@
+---
+id: T-082
+type: task
+title: Overall and Work items tabs only
+status: done
+priority: high
+size: M
+size_source: suggested
+size_basis: [T-068, T-071]
+points: 3
+points_source: suggested
+estimate_minutes: 5
+actual_minutes: 3
+estimate_source: suggested
+estimate_basis: [calibrated:T-082]
+session_cap_minutes: 480
+parent: E-006
+epic: E-006
+owner: ""
+blocked: false
+cancelled: false
+tags: [dashboard, frontend, views, workitems]
+created: 2026-07-23
+updated: 2026-07-23T07:05:44Z
+started_at: 2026-07-23T07:00:14Z
+completed_at: 2026-07-23T07:03:14Z
+actual_ms: 180000
+---
+# T-082: Overall and Work items tabs only
+
+## Description
+
+Replace the four list-view tabs with **Overall** and **Work items**. Work items shows stories plus epic-direct tasks/bugs (exclude tasks/bugs under a story), with priority column, sorted by status then priority. No Work items count column.
+
+## Acceptance criteria
+
+- [x] Board switcher has only Overall and Work items.
+- [x] Work items lists stories, tasks, and bugs.
+- [x] Tasks/bugs that belong to a story are not listed (epic-direct only).
+- [x] No Work items count column on this tab.
+- [x] Priority column is shown.
+- [x] Rows ordered by status (backlog → in_progress → done) then by priority (highest first), then by created date (newest first).
+
+## Notes
+
+Supersedes All / Stories / Tasks as separate tabs from E-006; keeps Overall drill-down.
+
+## Prompt & feedback log
+
+| # | When (UTC) | Kind | Summary |
+|---|------------|------|---------|
+| 1 | 2026-07-23T07:00:14Z | prompt | Two tabs Overall + Work items; mix stories/tasks; no story children; priority sort |
+
+| 2 | 2026-07-23T07:04:52Z | prompt | Tertiary sort by creating date |
+
+| 3 | 2026-07-23T07:05:44Z | prompt | Created sort newest first |
+
+## Commits
+
+| SHA | Repo | Date (UTC) | Message |
+|-----|------|------------|---------|
+
+## Work log
+
+| Session | Actor | Started (UTC) | Ended (UTC) | Summary |
+|---------|-------|---------------|-------------|---------|
+| 1 | agent | 2026-07-23T07:00:14Z | 2026-07-23T07:03:14Z | Overall + Work items tabs; epic-direct only; status/priority sort |

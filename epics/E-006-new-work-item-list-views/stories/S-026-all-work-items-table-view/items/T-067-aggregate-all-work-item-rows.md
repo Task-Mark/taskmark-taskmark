@@ -2,7 +2,7 @@
 id: T-067
 type: task
 title: Aggregate all work items into flat rows
-status: backlog
+status: done
 priority: high
 size: M
 size_source: suggested
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [data, frontend, views, all]
 created: 2026-07-22
-updated: 2026-07-23T06:35:04.706Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T07:02:15.905Z
+started_at: 2026-07-23T06:38:57Z
+completed_at: 2026-07-23T06:39:17Z
+actual_ms: 20000
 ---
+
 # T-067: Aggregate all work items into flat rows
 
 ## Description
@@ -34,9 +35,9 @@ Build a data helper that flattens every epic, story, and task/bug on the active 
 
 ## Acceptance criteria
 
-- [ ] Rows include all epics, stories, and tasks/bugs for the active project board.
-- [ ] Each row exposes type and enough parent ids/titles for display and navigation.
-- [ ] Empty board yields an empty list (no crash).
+- [x] Rows include all epics, stories, and tasks/bugs for the active project board.
+- [x] Each row exposes type and enough parent ids/titles for display and navigation.
+- [x] Empty board yields an empty list (no crash).
 
 ## Notes
 
@@ -46,7 +47,8 @@ Build a data helper that flattens every epic, story, and task/bug on the active 
 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
-| 1 | 2026-07-22T00:29:24Z | prompt | Create E-006 new work item list views with stories and tasks |
+| 1 | 2026-07-23T06:42:22Z | prompt | Implement E-006 |
+| 2 | 2026-07-23T06:42:22Z | feedback | Shipped list view as part of E-006 |
 
 ## Commits
 
@@ -57,4 +59,4 @@ Build a data helper that flattens every epic, story, and task/bug on the active 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-
+| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:39:17Z | shared-batch: 20500 of 205000ms by points |

@@ -2,7 +2,7 @@
 id: T-075
 type: task
 title: Wire Tasks view into switcher and detail sheet
-status: backlog
+status: done
 priority: high
 size: S
 size_source: suggested
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [frontend, views, tasks, sheet]
 created: 2026-07-22
-updated: 2026-07-23T06:35:04.706Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T07:02:15.905Z
+started_at: 2026-07-23T06:38:57Z
+completed_at: 2026-07-23T06:39:10Z
+actual_ms: 13000
 ---
+
 # T-075: Wire Tasks view into switcher and detail sheet
 
 ## Description
@@ -34,9 +35,9 @@ Show the Tasks view when Tasks is selected; row activation opens the task/bug de
 
 ## Acceptance criteria
 
-- [ ] Selecting Tasks shows the tasks-only list.
-- [ ] Activating a row opens the task/bug detail sheet.
-- [ ] Closing the sheet returns to the Tasks view.
+- [x] Selecting Tasks shows the tasks-only list.
+- [x] Activating a row opens the task/bug detail sheet.
+- [x] Closing the sheet returns to the Tasks view.
 
 ## Notes
 
@@ -46,7 +47,8 @@ Show the Tasks view when Tasks is selected; row activation opens the task/bug de
 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
-| 1 | 2026-07-22T00:29:24Z | prompt | Create E-006 new work item list views with stories and tasks |
+| 1 | 2026-07-23T06:42:22Z | prompt | Implement E-006 |
+| 2 | 2026-07-23T06:42:22Z | feedback | Shipped list view as part of E-006 |
 
 ## Commits
 
@@ -57,4 +59,4 @@ Show the Tasks view when Tasks is selected; row activation opens the task/bug de
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-
+| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:39:10Z | shared-batch: 13666 of 205000ms by points |

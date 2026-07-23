@@ -2,7 +2,7 @@
 id: T-068
 type: task
 title: Build All view unified table UI
-status: backlog
+status: done
 priority: high
 size: M
 size_source: suggested
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [ui, frontend, views, all]
 created: 2026-07-22
-updated: 2026-07-23T06:35:04.706Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T07:02:15.905Z
+started_at: 2026-07-23T06:38:57Z
+completed_at: 2026-07-23T06:39:17Z
+actual_ms: 20000
 ---
+
 # T-068: Build All view unified table UI
 
 ## Description
@@ -34,9 +35,9 @@ Render the All view as one table listing every work item with clear type distinc
 
 ## Acceptance criteria
 
-- [ ] All view shows a single table of mixed-type rows.
-- [ ] Type is visually distinguishable (epic/story/task/bug).
-- [ ] Table is usable for large boards (scroll, readable density).
+- [x] All view shows a single table of mixed-type rows.
+- [x] Type is visually distinguishable (epic/story/task/bug).
+- [x] Table is usable for large boards (scroll, readable density).
 
 ## Notes
 
@@ -46,7 +47,8 @@ Render the All view as one table listing every work item with clear type distinc
 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
-| 1 | 2026-07-22T00:29:24Z | prompt | Create E-006 new work item list views with stories and tasks |
+| 1 | 2026-07-23T06:42:22Z | prompt | Implement E-006 |
+| 2 | 2026-07-23T06:42:22Z | feedback | Shipped list view as part of E-006 |
 
 ## Commits
 
@@ -57,4 +59,4 @@ Render the All view as one table listing every work item with clear type distinc
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-
+| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:39:17Z | shared-batch: 20500 of 205000ms by points |

@@ -2,7 +2,7 @@
 id: T-065
 type: task
 title: Register Overall as default view mode
-status: backlog
+status: done
 priority: high
 size: XS
 size_source: suggested
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [frontend, views, overall]
 created: 2026-07-22
-updated: 2026-07-23T06:35:04.706Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T07:02:15.905Z
+started_at: 2026-07-23T06:38:57Z
+completed_at: 2026-07-23T06:39:03Z
+actual_ms: 6000
 ---
+
 # T-065: Register Overall as default view mode
 
 ## Description
@@ -34,8 +35,8 @@ Ensure Overall is the default selected mode and maps to the existing nested epic
 
 ## Acceptance criteria
 
-- [ ] On first load / refresh, Overall is selected in the switcher.
-- [ ] Selecting Overall shows the current drill-down list hierarchy.
+- [x] On first load / refresh, Overall is selected in the switcher.
+- [x] Selecting Overall shows the current drill-down list hierarchy.
 
 ## Notes
 
@@ -45,7 +46,8 @@ Ensure Overall is the default selected mode and maps to the existing nested epic
 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
-| 1 | 2026-07-22T00:29:24Z | prompt | Create E-006 new work item list views with stories and tasks |
+| 1 | 2026-07-23T06:42:22Z | prompt | Implement E-006 |
+| 2 | 2026-07-23T06:42:22Z | feedback | Shipped list view as part of E-006 |
 
 ## Commits
 
@@ -56,4 +58,4 @@ Ensure Overall is the default selected mode and maps to the existing nested epic
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-
+| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:39:03Z | shared-batch: 6833 of 205000ms by points |

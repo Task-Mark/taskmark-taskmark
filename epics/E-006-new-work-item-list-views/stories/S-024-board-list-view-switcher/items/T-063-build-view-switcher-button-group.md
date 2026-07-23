@@ -2,7 +2,7 @@
 id: T-063
 type: task
 title: Build view switcher button group UI
-status: backlog
+status: done
 priority: high
 size: S
 size_source: suggested
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [ui, frontend, views]
 created: 2026-07-22
-updated: 2026-07-23T06:35:04.706Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-23T07:02:15.905Z
+started_at: 2026-07-23T06:38:57Z
+completed_at: 2026-07-23T06:39:10Z
+actual_ms: 13000
 ---
+
 # T-063: Build view switcher button group UI
 
 ## Description
@@ -34,10 +35,10 @@ Add a button-group (or equivalent segmented control) that lets the user switch b
 
 ## Acceptance criteria
 
-- [ ] Switcher shows four labeled options: Overall, All, Stories, Tasks.
-- [ ] Selecting an option updates the active view mode.
-- [ ] Active option is visually indicated.
-- [ ] Control matches existing board UI primitives/styles.
+- [x] Switcher shows four labeled options: Overall, All, Stories, Tasks.
+- [x] Selecting an option updates the active view mode.
+- [x] Active option is visually indicated.
+- [x] Control matches existing board UI primitives/styles.
 
 ## Notes
 
@@ -47,7 +48,8 @@ Prefer existing shadcn/ui ToggleGroup or Button group patterns if present.
 
 | # | When (UTC) | Kind | Summary |
 |---|------------|------|---------|
-| 1 | 2026-07-22T00:29:24Z | prompt | Create E-006 new work item list views with stories and tasks |
+| 1 | 2026-07-23T06:42:22Z | prompt | Implement E-006 |
+| 2 | 2026-07-23T06:42:22Z | feedback | Shipped list view as part of E-006 |
 
 ## Commits
 
@@ -58,4 +60,4 @@ Prefer existing shadcn/ui ToggleGroup or Button group patterns if present.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-
+| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:39:10Z | shared-batch: 13667 of 205000ms by points |

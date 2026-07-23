@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, tasks, detail]
 created: 2026-07-21
-updated: 2026-07-23T06:35:04.706Z
+updated: 2026-07-23T07:02:15.905Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
 actual_ms: 30468
