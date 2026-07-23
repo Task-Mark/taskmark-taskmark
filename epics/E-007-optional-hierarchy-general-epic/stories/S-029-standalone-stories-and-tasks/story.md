@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [plugin, conventions, hierarchy, create]
 created: 2026-07-23
-updated: 2026-07-23T04:46:35.010Z
+updated: 2026-07-23T04:47:32Z
 started_at: 2026-07-23T04:41:50Z
 completed_at: 2026-07-23T04:45:50Z
 actual_ms: 240000
@@ -58,6 +58,9 @@ As a user, I want to create stories without an epic and tasks without a story wh
 
 | SHA | Repo | Date (UTC) | Message |
 |-----|------|------------|---------|
+| 571e51a | taskmark-cursor | 2026-07-23T04:47:21Z | add optional parents and general epic |
+| b1d87ab | taskmark-frontend | 2026-07-23T04:47:21Z | show general epic first in list |
+| f3c7b3e | taskmark-taskmark | 2026-07-23T04:47:21Z | complete s-029 optional hierarchy board |
 | 23411cb | taskmark-taskmark | 2026-07-23T04:41:03Z | add e-007 optional hierarchy board |
 
 ## Work log
