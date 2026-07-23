@@ -20,11 +20,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, stories, epics]
 created: 2026-07-21
-updated: 2026-07-23T06:26:02.701Z
+updated: 2026-07-23T06:35:04.706Z
 started_at: 2026-07-21T17:45:49Z
 completed_at: 2026-07-21T17:48:46Z
 actual_ms: 2880000
 ---
+
 # S-005: Story list for selected epic
 
 ## User story

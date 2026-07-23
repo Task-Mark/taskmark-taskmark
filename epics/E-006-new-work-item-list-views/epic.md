@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 36
+points: 35
 points_source: rolled_up
-estimate_minutes: 445
-actual_minutes: 6
+estimate_minutes: 520
+actual_minutes: 52
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, lists]
 created: 2026-07-22
-updated: 2026-07-23T06:26:02.701Z
+updated: 2026-07-23T06:35:04.706Z
 started_at: 2026-07-23T05:44:00Z
 completed_at: null
-actual_ms: 360000
+actual_ms: 3161000
 ---
-
 # E-006: New work item list views
 
 ## Goal

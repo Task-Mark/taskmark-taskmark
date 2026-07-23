@@ -9,7 +9,7 @@ size_source: rolled_up
 size_basis: [sum:tasks]
 points: 8
 points_source: rolled_up
-estimate_minutes: 110
+estimate_minutes: 130
 actual_minutes: 0
 estimate_source: rolled_up
 estimate_basis: [sum:tasks]
@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, all]
 created: 2026-07-22
-updated: 2026-07-23T06:26:02.701Z
+updated: 2026-07-23T06:35:04.706Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
-
 # S-026: All work items table view
 
 ## User story

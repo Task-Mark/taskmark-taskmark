@@ -9,10 +9,10 @@ size_source: suggested
 size_basis: [similar:list-ui]
 points: 3
 points_source: suggested
-estimate_minutes: 40
+estimate_minutes: 50
 actual_minutes: 0
 estimate_source: suggested
-estimate_basis: [velocity:30d:14min/pt]
+estimate_basis: [velocity:30d:16min/pt]
 session_cap_minutes: 480
 parent: S-026
 epic: E-006
@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [data, frontend, views, all]
 created: 2026-07-22
-updated: 2026-07-23T06:26:02.701Z
+updated: 2026-07-23T06:35:04.706Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
-
 # T-067: Aggregate all work items into flat rows
 
 ## Description

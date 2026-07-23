@@ -9,7 +9,7 @@ size_source: rolled_up
 size_basis: [sum:tasks]
 points: 7
 points_source: rolled_up
-estimate_minutes: 100
+estimate_minutes: 110
 actual_minutes: 0
 estimate_source: rolled_up
 estimate_basis: [sum:tasks]
@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, tasks]
 created: 2026-07-22
-updated: 2026-07-23T06:26:02.701Z
+updated: 2026-07-23T06:35:04.706Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
-
 # S-028: Tasks list view with epic and story tags
 
 ## User story

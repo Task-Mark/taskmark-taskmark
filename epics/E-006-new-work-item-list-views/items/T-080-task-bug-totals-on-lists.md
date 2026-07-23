@@ -4,13 +4,13 @@ type: task
 title: Add task and bug totals on epic and story lists
 status: done
 priority: high
-size: M
+size: S
 size_source: suggested
-size_basis: [T-006, T-012]
-points: 3
+size_basis: [calibrated:T-080]
+points: 2
 points_source: suggested
-estimate_minutes: 5
-actual_minutes: 3
+estimate_minutes: 50
+actual_minutes: 49
 estimate_source: suggested
 estimate_basis: [calibrated:T-080]
 session_cap_minutes: 480
@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists]
 created: 2026-07-23
-updated: 2026-07-23T06:27:22Z
+updated: 2026-07-23T06:35:04.706Z
 started_at: 2026-07-23T05:44:00Z
 completed_at: 2026-07-23T05:47:00Z
-actual_ms: 180000
+actual_ms: 2981000
 ---
-
 # T-080: Add task and bug totals on epic and story lists
 
 ## Description
@@ -66,3 +65,4 @@ Overall drill-down lists: `epic-list.tsx` and `story-list.tsx`. Count leaf markd
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | agent | 2026-07-23T05:44:00Z | 2026-07-23T05:47:00Z | Added Tasks column (tasks+bugs) on epic and story lists |
+| 2 | agent | 2026-07-23T05:40:41Z | 2026-07-23T06:27:22Z | auto-recovered: commit span |
