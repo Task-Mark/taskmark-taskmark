@@ -9,10 +9,10 @@ size_source: suggested
 size_basis: [similar:list-ui]
 points: 3
 points_source: suggested
-estimate_minutes: 40
+estimate_minutes: 45
 actual_minutes: 0
 estimate_source: suggested
-estimate_basis: [velocity:30d:14min/pt]
+estimate_basis: [velocity:30d:15min/pt]
 session_cap_minutes: 480
 parent: S-028
 epic: E-006
@@ -21,7 +21,7 @@ blocked: false
 cancelled: false
 tags: [ui, frontend, views, tasks]
 created: 2026-07-22
-updated: 2026-07-23T05:10:21.353Z
+updated: 2026-07-23T05:40:19.806Z
 started_at: null
 completed_at: null
 actual_ms: 0

@@ -7,9 +7,9 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 30
+points: 33
 points_source: rolled_up
-estimate_minutes: 435
+estimate_minutes: 495
 actual_minutes: 0
 estimate_source: rolled_up
 estimate_basis: [sum:children]
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, lists]
 created: 2026-07-22
-updated: 2026-07-23T05:10:21.353Z
+updated: 2026-07-23T05:40:19.806Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
+
 # E-006: New work item list views
 
 ## Goal
@@ -62,6 +63,10 @@ Let users switch the board between Overall (current drill-down), All (flat mixed
 - [S-026: All work items table view](stories/S-026-all-work-items-table-view/story.md)
 - [S-027: Stories list view with epic tag](stories/S-027-stories-list-view-with-epic-tag/story.md)
 - [S-028: Tasks list view with epic and story tags](stories/S-028-tasks-list-view-with-parent-tags/story.md)
+
+## Tasks
+
+- [T-080: Add task and bug totals on epic and story lists](items/T-080-task-bug-totals-on-lists.md)
 
 ## Commits
 

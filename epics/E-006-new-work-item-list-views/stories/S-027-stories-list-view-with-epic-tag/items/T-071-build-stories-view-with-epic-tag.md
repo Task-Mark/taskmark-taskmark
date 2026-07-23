@@ -21,12 +21,11 @@ blocked: false
 cancelled: false
 tags: [ui, frontend, views, stories]
 created: 2026-07-22
-updated: 2026-07-23T05:10:21.353Z
+updated: 2026-07-23T05:40:19.806Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
-
 # T-071: Build Stories view table with epic tag
 
 ## Description

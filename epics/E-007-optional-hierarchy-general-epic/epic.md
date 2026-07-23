@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 16
+points: 14
 points_source: rolled_up
-estimate_minutes: 200
-actual_minutes: 7
+estimate_minutes: 210
+actual_minutes: 39
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [plugin, conventions, hierarchy, dashboard]
 created: 2026-07-23
-updated: 2026-07-23T05:21:40Z
+updated: 2026-07-23T05:40:19.806Z
 started_at: 2026-07-23T04:41:50Z
 completed_at: 2026-07-23T04:45:50Z
-actual_ms: 420000
+actual_ms: 2351000
 ---
+
 # E-007: Optional hierarchy and General epic
 
 ## Goal
@@ -73,3 +74,4 @@ Let stories and tasks exist without a required parent, while still preferring a 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | agent | 2026-07-23T04:41:50Z | 2026-07-23T04:41:50Z | shared-batch parent rollup (0 min) |
+| 2 | agent | 2026-07-23T04:41:03Z | 2026-07-23T05:20:14Z | auto-recovered: commit span |

@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, tasks, detail]
 created: 2026-07-21
-updated: 2026-07-23T05:10:21.353Z
+updated: 2026-07-23T05:40:19.806Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
 actual_ms: 30468
 ---
+
 # S-022: Task and bug detail view
 
 ## User story

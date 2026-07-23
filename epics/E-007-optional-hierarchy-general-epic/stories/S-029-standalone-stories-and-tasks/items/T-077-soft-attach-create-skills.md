@@ -21,11 +21,12 @@ blocked: false
 cancelled: false
 tags: [plugin, skills, create, hierarchy]
 created: 2026-07-23
-updated: 2026-07-23T05:10:21.353Z
+updated: 2026-07-23T05:40:19.806Z
 started_at: 2026-07-23T04:42:50Z
 completed_at: 2026-07-23T04:43:50Z
 actual_ms: 60000
 ---
+
 # T-077: Soft-attach create-story and create-task
 
 ## Description
