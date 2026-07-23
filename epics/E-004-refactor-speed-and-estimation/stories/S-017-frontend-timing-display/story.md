@@ -16,15 +16,24 @@ session_cap_minutes: 480
 parent: E-004
 epic: E-004
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [frontend, estimation, actual, effort]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T23:00:19Z
 completed_at: 2026-07-21T23:01:18Z
 actual_ms: 4800000
 ---
+
 # S-017: Frontend timing display for estimate and actual
 
 ## User story
@@ -47,22 +56,22 @@ As a dashboard user, I want estimate and actual minutes to keep showing correctl
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T23:00:19Z | prompt | Ensure frontend keeps showing estimate and actual after latest Taskmark changes |
-| 2 | 2026-07-21T23:01:18Z | feedback | timing display delivered |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T23:00:19Z | prompt | Marco Mendão | Ensure frontend keeps showing estimate and actual after latest Taskmark changes |
+| 2 | 2026-07-21T23:01:18Z | feedback | Marco Mendão | timing display delivered |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| ff5d088 | taskmark-frontend | 2026-07-22T00:17:56Z | show precise actual duration |
-| 0b6df50 | taskmark-taskmark | 2026-07-22T00:17:57Z | sync taskmark board |
-| 9e136f1 | taskmark-frontend | 2026-07-21T23:02:38Z | harden est actual timing display for flat boards |
-| 0806511 | taskmark-taskmark | 2026-07-21T23:02:38Z | add S-017 frontend timing display and sync board |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| ff5d088 | taskmark-frontend | 2026-07-22T00:17:56Z | Marco Mendão | show precise actual duration |
+| 0b6df50 | taskmark-taskmark | 2026-07-22T00:17:57Z | Marco Mendão | sync taskmark board |
+| 9e136f1 | taskmark-frontend | 2026-07-21T23:02:38Z | Marco Mendão | harden est actual timing display for flat boards |
+| 0806511 | taskmark-taskmark | 2026-07-21T23:02:38Z | Marco Mendão | add S-017 frontend timing display and sync board |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T21:41:18Z | 2026-07-21T23:01:18Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | Marco Mendão | 2026-07-21T21:41:18Z | 2026-07-21T23:01:18Z | auto-backfilled: velocity × points (missing work log) |

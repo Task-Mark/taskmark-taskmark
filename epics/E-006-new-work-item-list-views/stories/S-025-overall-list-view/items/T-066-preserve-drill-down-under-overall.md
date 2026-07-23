@@ -17,15 +17,24 @@ session_cap_minutes: 480
 parent: S-025
 epic: E-006
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [frontend, views, overall]
 created: 2026-07-22
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T06:38:57Z
 completed_at: 2026-07-23T06:39:10Z
 actual_ms: 13000
 ---
+
 # T-066: Preserve drill-down under Overall view
 
 ## Description
@@ -44,18 +53,18 @@ Keep epic list → story list → task list selection behavior unchanged when Ov
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-23T06:42:22Z | prompt | Implement E-006 |
-| 2 | 2026-07-23T06:42:22Z | feedback | Shipped list view as part of E-006 |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-23T06:42:22Z | prompt | Marco Mendão | Implement E-006 |
+| 2 | 2026-07-23T06:42:22Z | feedback | Marco Mendão | Shipped list view as part of E-006 |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:39:10Z | shared-batch: 13667 of 205000ms by points |
+| 1 | Marco Mendão | 2026-07-23T06:38:57Z | 2026-07-23T06:39:10Z | shared-batch: 13667 of 205000ms by points |

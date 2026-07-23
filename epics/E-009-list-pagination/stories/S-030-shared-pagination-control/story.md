@@ -17,15 +17,24 @@ session_cap_minutes: 480
 parent: E-009
 epic: E-009
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, pagination]
 created: 2026-07-23
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T15:35:42Z
 completed_at: 2026-07-23T15:41:41Z
 actual_ms: 165000
 ---
+
 # S-030: Shared pagination control
 
 ## User story
@@ -47,17 +56,17 @@ As a user, I want a reusable pagination bar with first / previous / next / last 
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-23T15:29:50Z | prompt | Create epic for list pagination with nav + page size; include stories and tasks |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-23T15:29:50Z | prompt | Marco Mendão | Create epic for list pagination with nav + page size; include stories and tasks |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T15:35:42Z | 2026-07-23T15:35:42Z | shared-batch parent rollup (0 min); leaves hold effort |
+| 1 | Marco Mendão | 2026-07-23T15:35:42Z | 2026-07-23T15:35:42Z | shared-batch parent rollup (0 min); leaves hold effort |

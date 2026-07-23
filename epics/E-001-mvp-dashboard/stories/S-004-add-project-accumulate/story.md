@@ -16,15 +16,24 @@ session_cap_minutes: 480
 parent: E-001
 epic: E-001
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [mvp, app-bar, setup]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T17:05:52Z
 completed_at: 2026-07-21T17:05:52Z
 actual_ms: 2880000
 ---
+
 # S-004: Add project accumulates workspaces
 
 ## User story
@@ -42,19 +51,19 @@ As a user, I want **Add project** (not replace master folder) so previously conf
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T17:05:52Z | feedback | Change master folder should be Add project; keep prior projects; dedupe identical boards |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T17:05:52Z | feedback | Marco Mendão | Change master folder should be Add project; keep prior projects; dedupe identical boards |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 5735f0b | taskmark-frontend | 2026-07-21T17:11:35Z | add app bar and project accumulate |
-| 3389ae7 | taskmark-cursor | 2026-07-21T17:11:35Z | sync taskmark board |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 5735f0b | taskmark-frontend | 2026-07-21T17:11:35Z | Marco Mendão | add app bar and project accumulate |
+| 3389ae7 | taskmark-cursor | 2026-07-21T17:11:35Z | Marco Mendão | sync taskmark board |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T16:17:52Z | 2026-07-21T17:05:52Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | Marco Mendão | 2026-07-21T16:17:52Z | 2026-07-21T17:05:52Z | auto-backfilled: velocity × points (missing work log) |

@@ -16,15 +16,24 @@ session_cap_minutes: 480
 parent: E-003
 epic: E-003
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [plugin, conventions, migration, multi-repo]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 actual_ms: 11520000
 ---
+
 # S-010: Migrate plugin tooling to new layout
 
 ## User story
@@ -48,20 +57,20 @@ As a Taskmark plugin user, I want skills, scripts, conventions, and the always-a
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T22:26:00Z | prompt | Create epic: single-project board inside project git; multi-project sibling `-taskmark` repo; create stories/tasks |
-| 2 | 2026-07-21T22:32:39Z | feedback | Folder naming: use `<common_project_name>-taskmark` (hyphen), not underscore |
-| 3 | 2026-07-21T22:34:16Z | prompt | Implement E-003: single-in-project vs sibling <name>-taskmark board |
-| 4 | 2026-07-21T22:36:37Z | feedback | E-003 delivered: hyphen -taskmark sibling board model |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T22:26:00Z | prompt | Marco Mendão | Create epic: single-project board inside project git; multi-project sibling `-taskmark` repo; create stories/tasks |
+| 2 | 2026-07-21T22:32:39Z | feedback | Marco Mendão | Folder naming: use `<common_project_name>-taskmark` (hyphen), not underscore |
+| 3 | 2026-07-21T22:34:16Z | prompt | Marco Mendão | Implement E-003: single-in-project vs sibling <name>-taskmark board |
+| 4 | 2026-07-21T22:36:37Z | feedback | Marco Mendão | E-003 delivered: hyphen -taskmark sibling board model |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T19:24:51Z | 2026-07-21T22:36:51Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | Marco Mendão | 2026-07-21T19:24:51Z | 2026-07-21T22:36:51Z | auto-backfilled: velocity × points (missing work log) |

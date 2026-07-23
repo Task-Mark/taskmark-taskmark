@@ -17,16 +17,23 @@ session_cap_minutes: 480
 parent: E-005
 epic: E-005
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, dates, detail]
 created: 2026-07-23
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T09:44:14Z
 completed_at: 2026-07-23T09:47:31Z
 actual_ms: 1436000
 ---
-
 # T-087: Add date-fns and format all displayed dates
 
 ## Description
@@ -43,20 +50,20 @@ Add `date-fns` and use it to format every user-visible date/time in the dashboar
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-23T09:44:14Z | prompt | Add date-fns and format all dates |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-23T09:44:14Z | prompt | Marco Mendão | Add date-fns and format all dates |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| ea40442 | taskmark-frontend | 2026-07-23T10:04:53Z | format dates with date-fns |
-| bbab1eb | taskmark-taskmark | 2026-07-23T10:04:53Z | add t-087 date-fns board |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| ea40442 | taskmark-frontend | 2026-07-23T10:04:53Z | Marco Mendão | format dates with date-fns |
+| bbab1eb | taskmark-taskmark | 2026-07-23T10:04:53Z | Marco Mendão | add t-087 date-fns board |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T09:44:14Z | 2026-07-23T09:47:31Z | date-fns helpers; format detail + tooltip dates |
-| 2 | agent | 2026-07-23T09:44:14Z | 2026-07-23T10:04:53Z | auto-recovered: commit span |
+| 1 | Marco Mendão | 2026-07-23T09:44:14Z | 2026-07-23T09:47:31Z | date-fns helpers; format detail + tooltip dates |
+| 2 | Marco Mendão | 2026-07-23T09:44:14Z | 2026-07-23T10:04:53Z | auto-recovered: commit span |

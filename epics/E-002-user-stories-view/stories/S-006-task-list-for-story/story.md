@@ -16,15 +16,24 @@ session_cap_minutes: 480
 parent: E-002
 epic: E-002
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, tasks, stories]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T18:00:53Z
 completed_at: 2026-07-21T18:02:46Z
 actual_ms: 46998000
 ---
+
 # S-006: Task list for selected story
 
 ## User story
@@ -48,21 +57,21 @@ As a user, I want to select a user story and see the tasks (and bugs) connected 
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T17:40:05Z | prompt | Create E-002 user stories view with stories and tasks; select epic → stories, select story → tasks |
-| 2 | 2026-07-21T18:00:53Z | prompt | Implement S-006 task list for selected story |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T17:40:05Z | prompt | Marco Mendão | Create E-002 user stories view with stories and tasks; select epic → stories, select story → tasks |
+| 2 | 2026-07-21T18:00:53Z | prompt | Marco Mendão | Implement S-006 task list for selected story |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 4e49022 | taskmark-frontend | 2026-07-21T22:21:39Z | add task list for selected story |
-| ca69fce | taskmark-cursor | 2026-07-21T22:21:39Z | sync taskmark board |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 4e49022 | taskmark-frontend | 2026-07-21T22:21:39Z | Marco Mendão | add task list for selected story |
+| ca69fce | taskmark-cursor | 2026-07-21T22:21:39Z | Marco Mendão | sync taskmark board |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T04:59:46Z | 2026-07-21T10:02:46Z | auto-backfilled: rollup from children (missing/under-logged) |
-| 2 | agent | 2026-07-21T10:02:46Z | 2026-07-21T18:02:46Z | auto-backfilled: rollup from children (missing/under-logged) |
+| 1 | Marco Mendão | 2026-07-21T04:59:46Z | 2026-07-21T10:02:46Z | auto-backfilled: rollup from children (missing/under-logged) |
+| 2 | Marco Mendão | 2026-07-21T10:02:46Z | 2026-07-21T18:02:46Z | auto-backfilled: rollup from children (missing/under-logged) |

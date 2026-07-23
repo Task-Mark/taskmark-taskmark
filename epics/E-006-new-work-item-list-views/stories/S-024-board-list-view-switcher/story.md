@@ -17,16 +17,23 @@ session_cap_minutes: 480
 parent: E-006
 epic: E-006
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, switcher]
 created: 2026-07-22
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T06:38:57Z
 completed_at: 2026-07-23T06:42:22Z
 actual_ms: 39000
 ---
-
 # S-024: Board list view switcher
 
 ## User story
@@ -48,19 +55,19 @@ As a user, I want a control to switch board list views so I can pick Overall, Al
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-22T00:29:24Z | prompt | Create E-006 new work item list views with stories and tasks |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-22T00:29:24Z | prompt | Marco Mendão | Create E-006 new work item list views with stories and tasks |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| c809639 | taskmark-frontend | 2026-07-22T00:35:27Z | add tabs and update button styles |
-| 603c59c | taskmark-taskmark | 2026-07-22T00:35:27Z | add e-006 list views board |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| c809639 | taskmark-frontend | 2026-07-22T00:35:27Z | Marco Mendão | add tabs and update button styles |
+| 603c59c | taskmark-taskmark | 2026-07-22T00:35:27Z | Marco Mendão | add e-006 list views board |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:38:57Z | shared-batch parent rollup (0ms; effort on child tasks) |
+| 1 | Marco Mendão | 2026-07-23T06:38:57Z | 2026-07-23T06:38:57Z | shared-batch parent rollup (0ms; effort on child tasks) |

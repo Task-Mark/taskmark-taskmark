@@ -16,16 +16,23 @@ session_cap_minutes: 480
 parent: S-003
 epic: E-001
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [mvp, app-bar, ui]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T16:59:31Z
 completed_at: 2026-07-21T17:02:25Z
 actual_ms: 784000
 ---
-
 # T-009: Build post-setup app bar UI
 
 ## Description
@@ -43,19 +50,19 @@ Add a sticky/top app bar on post-setup views with Taskmark branding, a project s
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T16:59:31Z | prompt | After setup, app bar should switch among pre-configured projects |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T16:59:31Z | prompt | Marco Mendão | After setup, app bar should switch among pre-configured projects |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 5735f0b | taskmark-frontend | 2026-07-21T17:11:35Z | add app bar and project accumulate |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 5735f0b | taskmark-frontend | 2026-07-21T17:11:35Z | Marco Mendão | add app bar and project accumulate |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T16:59:31Z | 2026-07-21T17:00:31Z | Built sticky app bar with project select and change master folder; shared-batch: 1 of 1min by points |
-| 2 | agent | 2026-07-21T16:59:31Z | 2026-07-21T17:11:35Z | auto-recovered: commit span; shared-batch: 3 of 6min by points |
+| 1 | Marco Mendão | 2026-07-21T16:59:31Z | 2026-07-21T17:00:31Z | Built sticky app bar with project select and change master folder; shared-batch: 1 of 1min by points |
+| 2 | Marco Mendão | 2026-07-21T16:59:31Z | 2026-07-21T17:11:35Z | auto-recovered: commit span; shared-batch: 3 of 6min by points |

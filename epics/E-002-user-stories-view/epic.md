@@ -16,16 +16,25 @@ session_cap_minutes: 480
 parent: null
 epic: null
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, stories, frontend]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T17:45:49Z
 completed_at: 2026-07-21T18:02:46Z
 actual_ms: 49878000
 estimate_source: rolled_up
 ---
+
 # E-002: User stories view
 
 ## Goal
@@ -60,18 +69,18 @@ Let users drill from an epic into its user stories, then from a selected story i
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| a940d8b | taskmark-frontend | 2026-07-21T17:43:42Z | add e-002 user stories view board |
-| 10d1691 | taskmark-cursor | 2026-07-21T17:43:42Z | add e-002 user stories view board |
-| 0c104cd | taskmark-frontend | 2026-07-21T17:59:56Z | add story list for selected epic |
-| 2aef6ba | taskmark-cursor | 2026-07-21T17:59:56Z | sync taskmark board |
-| 4e49022 | taskmark-frontend | 2026-07-21T22:21:39Z | add task list for selected story |
-| ca69fce | taskmark-cursor | 2026-07-21T22:21:39Z | sync taskmark board |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| a940d8b | taskmark-frontend | 2026-07-21T17:43:42Z | Marco Mendão | add e-002 user stories view board |
+| 10d1691 | taskmark-cursor | 2026-07-21T17:43:42Z | Marco Mendão | add e-002 user stories view board |
+| 0c104cd | taskmark-frontend | 2026-07-21T17:59:56Z | Marco Mendão | add story list for selected epic |
+| 2aef6ba | taskmark-cursor | 2026-07-21T17:59:56Z | Marco Mendão | sync taskmark board |
+| 4e49022 | taskmark-frontend | 2026-07-21T22:21:39Z | Marco Mendão | add task list for selected story |
+| ca69fce | taskmark-cursor | 2026-07-21T22:21:39Z | Marco Mendão | sync taskmark board |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T04:11:46Z | 2026-07-21T10:02:46Z | auto-backfilled: rollup from children (missing/under-logged) |
-| 2 | agent | 2026-07-21T10:02:46Z | 2026-07-21T18:02:46Z | auto-backfilled: rollup from children (missing/under-logged) |
+| 1 | Marco Mendão | 2026-07-21T04:11:46Z | 2026-07-21T10:02:46Z | auto-backfilled: rollup from children (missing/under-logged) |
+| 2 | Marco Mendão | 2026-07-21T10:02:46Z | 2026-07-21T18:02:46Z | auto-backfilled: rollup from children (missing/under-logged) |

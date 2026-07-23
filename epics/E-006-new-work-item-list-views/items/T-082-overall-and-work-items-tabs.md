@@ -17,16 +17,23 @@ session_cap_minutes: 480
 parent: E-006
 epic: E-006
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, workitems]
 created: 2026-07-23
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T07:00:14Z
 completed_at: 2026-07-23T07:03:14Z
 actual_ms: 180000
 ---
-
 # T-082: Overall and Work items tabs only
 
 ## Description
@@ -48,23 +55,23 @@ Supersedes All / Stories / Tasks as separate tabs from E-006; keeps Overall dril
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-23T07:00:14Z | prompt | Two tabs Overall + Work items; mix stories/tasks; no story children; priority sort |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-23T07:00:14Z | prompt | Marco Mendão | Two tabs Overall + Work items; mix stories/tasks; no story children; priority sort |
 
-| 2 | 2026-07-23T07:04:52Z | prompt | Tertiary sort by creating date |
+| 2 | 2026-07-23T07:04:52Z | prompt | Marco Mendão | Tertiary sort by creating date |
 
-| 3 | 2026-07-23T07:05:44Z | prompt | Created sort newest first |
+| 3 | 2026-07-23T07:05:44Z | prompt | Marco Mendão | Created sort newest first |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 97685ee | taskmark-frontend | 2026-07-23T07:08:21Z | add overall and work items views |
-| ce68818 | taskmark-taskmark | 2026-07-23T07:08:22Z | complete e-006 work items tabs |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 97685ee | taskmark-frontend | 2026-07-23T07:08:21Z | Marco Mendão | add overall and work items views |
+| ce68818 | taskmark-taskmark | 2026-07-23T07:08:22Z | Marco Mendão | complete e-006 work items tabs |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T07:00:14Z | 2026-07-23T07:03:14Z | Overall + Work items tabs; epic-direct only; status/priority sort |
+| 1 | Marco Mendão | 2026-07-23T07:00:14Z | 2026-07-23T07:03:14Z | Overall + Work items tabs; epic-direct only; status/priority sort |

@@ -17,16 +17,23 @@ session_cap_minutes: 480
 parent: S-026
 epic: E-006
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sorting]
 created: 2026-07-23
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T16:24:32Z
 completed_at: 2026-07-23T16:26:42Z
 actual_ms: 130000
 ---
-
 # T-109: Done work items sort by solved date only
 
 ## Description
@@ -41,20 +48,20 @@ Done/cancelled Work items must ignore priority and order solely by solved date (
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-23T16:24:32Z | prompt | done workitems ordered by solved date not priority |
-| 2 | 2026-07-23T16:26:42Z | feedback | skip priority for done cohort |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-23T16:24:32Z | prompt | Marco Mendão | done workitems ordered by solved date not priority |
+| 2 | 2026-07-23T16:26:42Z | feedback | Marco Mendão | skip priority for done cohort |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 83957ad | taskmark-taskmark | 2026-07-23T16:28:18Z | complete t-108 t-109 done sort rules |
-| 9f8fe9a | taskmark-frontend | 2026-07-23T16:28:18Z | sort done work items by solved date |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 83957ad | taskmark-taskmark | 2026-07-23T16:28:18Z | Marco Mendão | complete t-108 t-109 done sort rules |
+| 9f8fe9a | taskmark-frontend | 2026-07-23T16:28:18Z | Marco Mendão | sort done work items by solved date |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T16:24:32Z | 2026-07-23T16:26:42Z | Done rows sort by solved date only |
+| 1 | Marco Mendão | 2026-07-23T16:24:32Z | 2026-07-23T16:26:42Z | Done rows sort by solved date only |

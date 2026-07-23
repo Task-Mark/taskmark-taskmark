@@ -17,16 +17,23 @@ session_cap_minutes: 480
 parent: null
 epic: null
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, lists]
 created: 2026-07-22
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T05:44:00Z
 completed_at: 2026-07-23T06:42:22Z
 actual_ms: 29185000
 ---
-
 # E-006: New work item list views
 
 ## Goal
@@ -74,12 +81,12 @@ Let users switch the board between Overall (current drill-down), All (flat mixed
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| c809639 | taskmark-frontend | 2026-07-22T00:35:27Z | add tabs and update button styles |
-| 603c59c | taskmark-taskmark | 2026-07-22T00:35:27Z | add e-006 list views board |
-| 97685ee | taskmark-frontend | 2026-07-23T07:08:21Z | add overall and work items views |
-| ce68818 | taskmark-taskmark | 2026-07-23T07:08:22Z | complete e-006 work items tabs |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| c809639 | taskmark-frontend | 2026-07-22T00:35:27Z | Marco Mendão | add tabs and update button styles |
+| 603c59c | taskmark-taskmark | 2026-07-22T00:35:27Z | Marco Mendão | add e-006 list views board |
+| 97685ee | taskmark-frontend | 2026-07-23T07:08:21Z | Marco Mendão | add overall and work items views |
+| ce68818 | taskmark-taskmark | 2026-07-23T07:08:22Z | Marco Mendão | complete e-006 work items tabs |
 
 ## Tasks
 
@@ -90,6 +97,6 @@ Let users switch the board between Overall (current drill-down), All (flat mixed
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:42:22Z | shared-batch parent rollup (0ms; effort on child tasks) |
-| 2 | agent | 2026-07-23T07:00:14Z | 2026-07-23T07:03:14Z | T-082 Overall + Work items tabs |
-| 3 | agent | 2026-07-22T00:35:27Z | 2026-07-23T07:08:22Z | auto-recovered: commit span |
+| 1 | Marco Mendão | 2026-07-23T06:38:57Z | 2026-07-23T06:42:22Z | shared-batch parent rollup (0ms; effort on child tasks) |
+| 2 | Marco Mendão | 2026-07-23T07:00:14Z | 2026-07-23T07:03:14Z | T-082 Overall + Work items tabs |
+| 3 | Marco Mendão | 2026-07-22T00:35:27Z | 2026-07-23T07:08:22Z | auto-recovered: commit span |

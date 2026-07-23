@@ -16,16 +16,25 @@ session_cap_minutes: 480
 parent: null
 epic: null
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [velocity, estimation, effort, plugin, conventions]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T23:05:18Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 41280000
 estimate_source: rolled_up
 ---
+
 # E-004: Refactor speed and estimation
 
 ## Goal
@@ -69,23 +78,23 @@ Refactor how Taskmark measures speed and estimates work: keep AI/human **session
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 79848e9 | taskmark-cursor | 2026-07-22T00:17:56Z | fix shared batch actual split |
-| ff5d088 | taskmark-frontend | 2026-07-22T00:17:56Z | show precise actual duration |
-| 0b6df50 | taskmark-taskmark | 2026-07-22T00:17:57Z | sync taskmark board |
-| 82bf126 | taskmark-cursor | 2026-07-21T23:27:54Z | require work logs on complete for accurate actuals |
-| 6204471 | taskmark-taskmark | 2026-07-21T23:27:54Z | backfill work logs on done items from velocity |
-| 6aca5e6 | taskmark-cursor | 2026-07-21T23:20:34Z | update speed estimation and epic points rollup |
-| 123ecb7 | taskmark-frontend | 2026-07-21T23:20:34Z | show est actual only and drop epic size |
-| 9883b62 | taskmark-taskmark | 2026-07-21T23:20:34Z | sync e-004 timing and points rollup on board |
-| 9e136f1 | taskmark-frontend | 2026-07-21T23:02:38Z | harden est actual timing display for flat boards |
-| 0806511 | taskmark-taskmark | 2026-07-21T23:02:38Z | add S-017 frontend timing display and sync board |
-| 758cd8c | taskmark-taskmark | 2026-07-21T22:58:00Z | add e-004 speed and estimation epic |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 79848e9 | taskmark-cursor | 2026-07-22T00:17:56Z | Marco Mendão | fix shared batch actual split |
+| ff5d088 | taskmark-frontend | 2026-07-22T00:17:56Z | Marco Mendão | show precise actual duration |
+| 0b6df50 | taskmark-taskmark | 2026-07-22T00:17:57Z | Marco Mendão | sync taskmark board |
+| 82bf126 | taskmark-cursor | 2026-07-21T23:27:54Z | Marco Mendão | require work logs on complete for accurate actuals |
+| 6204471 | taskmark-taskmark | 2026-07-21T23:27:54Z | Marco Mendão | backfill work logs on done items from velocity |
+| 6aca5e6 | taskmark-cursor | 2026-07-21T23:20:34Z | Marco Mendão | update speed estimation and epic points rollup |
+| 123ecb7 | taskmark-frontend | 2026-07-21T23:20:34Z | Marco Mendão | show est actual only and drop epic size |
+| 9883b62 | taskmark-taskmark | 2026-07-21T23:20:34Z | Marco Mendão | sync e-004 timing and points rollup on board |
+| 9e136f1 | taskmark-frontend | 2026-07-21T23:02:38Z | Marco Mendão | harden est actual timing display for flat boards |
+| 0806511 | taskmark-taskmark | 2026-07-21T23:02:38Z | Marco Mendão | add S-017 frontend timing display and sync board |
+| 758cd8c | taskmark-taskmark | 2026-07-21T22:58:00Z | Marco Mendão | add e-004 speed and estimation epic |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T11:39:27Z | 2026-07-21T15:07:27Z | auto-backfilled: velocity × points (missing work log) |
-| 2 | agent | 2026-07-21T15:07:27Z | 2026-07-21T23:07:27Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | Marco Mendão | 2026-07-21T11:39:27Z | 2026-07-21T15:07:27Z | auto-backfilled: velocity × points (missing work log) |
+| 2 | Marco Mendão | 2026-07-21T15:07:27Z | 2026-07-21T23:07:27Z | auto-backfilled: velocity × points (missing work log) |

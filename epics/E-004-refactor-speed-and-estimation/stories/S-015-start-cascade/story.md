@@ -16,15 +16,24 @@ session_cap_minutes: 480
 parent: E-004
 epic: E-004
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [start-work, cascade, status]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T21:47:27Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 4800000
 ---
+
 # S-015: Start cascade for task, story, epic
 
 ## User story
@@ -45,19 +54,19 @@ As a user or agent, I want a start action on tasks, stories, and epics so starte
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
-| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T22:56:48Z | prompt | Marco Mendão | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | Marco Mendão | E-004 dual model delivered |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T21:47:27Z | 2026-07-21T23:07:27Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | Marco Mendão | 2026-07-21T21:47:27Z | 2026-07-21T23:07:27Z | auto-backfilled: velocity × points (missing work log) |
 

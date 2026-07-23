@@ -16,16 +16,23 @@ session_cap_minutes: 480
 parent: S-008
 epic: E-003
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [architecture, multi-repo, layout]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T22:40:35Z
 completed_at: 2026-07-21T22:40:35Z
 actual_ms: 1920000
 ---
-
 # B-002: Dedicated board repo must be flat (no nested taskmark/)
 
 ## Description
@@ -48,21 +55,21 @@ In multi-project mode, `<common>-taskmark` nested the board under `taskmark/` (`
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T22:40:35Z | prompt | Multi-project: root <name>-taskmark should be the board; avoid nested taskmark/ |
-| 2 | 2026-07-21T22:40:35Z | feedback | Flattened board; updated sync script and conventions |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T22:40:35Z | prompt | Marco Mendão | Multi-project: root <name>-taskmark should be the board; avoid nested taskmark/ |
+| 2 | 2026-07-21T22:40:35Z | feedback | Marco Mendão | Flattened board; updated sync script and conventions |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 9510b02 | taskmark-taskmark | 2026-07-21T22:42:00Z | add flat taskmark board |
-| f742175 | taskmark-cursor | 2026-07-21T22:42:00Z | flatten multi-repo board layout |
-| 4605512 | taskmark-frontend | 2026-07-21T22:42:00Z | remove nested taskmark board copy |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 9510b02 | taskmark-taskmark | 2026-07-21T22:42:00Z | Marco Mendão | add flat taskmark board |
+| f742175 | taskmark-cursor | 2026-07-21T22:42:00Z | Marco Mendão | flatten multi-repo board layout |
+| 4605512 | taskmark-frontend | 2026-07-21T22:42:00Z | Marco Mendão | remove nested taskmark board copy |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T22:08:35Z | 2026-07-21T22:40:35Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | Marco Mendão | 2026-07-21T22:08:35Z | 2026-07-21T22:40:35Z | auto-backfilled: velocity × points (missing work log) |

@@ -16,15 +16,24 @@ session_cap_minutes: 480
 parent: S-001
 epic: E-001
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [setup, discovery, multi-repo, frontend]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T22:44:32Z
 completed_at: 2026-07-21T22:44:56Z
 actual_ms: 1920000
 ---
+
 # B-003: Setup fails to discover flat multi-repo board
 
 ## Description
@@ -48,20 +57,20 @@ After E-003, multi-git boards live at `<common>-taskmark/` root (no nested `task
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T22:44:32Z | prompt | Multi-folder setup shows no projects; flat *-taskmark board not discovered |
-| 2 | 2026-07-21T22:44:56Z | feedback | discovery fix delivered |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T22:44:32Z | prompt | Marco Mendão | Multi-folder setup shows no projects; flat *-taskmark board not discovered |
+| 2 | 2026-07-21T22:44:56Z | feedback | Marco Mendão | discovery fix delivered |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 292c94b | taskmark-frontend | 2026-07-21T22:46:18Z | fix discovery for flat taskmark boards |
-| 95a7951 | taskmark-taskmark | 2026-07-21T22:46:18Z | add b-003 flat board discovery bug |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 292c94b | taskmark-frontend | 2026-07-21T22:46:18Z | Marco Mendão | fix discovery for flat taskmark boards |
+| 95a7951 | taskmark-taskmark | 2026-07-21T22:46:18Z | Marco Mendão | add b-003 flat board discovery bug |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T22:12:56Z | 2026-07-21T22:44:56Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | Marco Mendão | 2026-07-21T22:12:56Z | 2026-07-21T22:44:56Z | auto-backfilled: velocity × points (missing work log) |

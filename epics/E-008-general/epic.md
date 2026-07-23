@@ -17,16 +17,23 @@ session_cap_minutes: 480
 parent: null
 epic: null
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [general]
 created: 2026-07-23
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T16:32:13Z
 completed_at: 2026-07-23T16:34:23Z
 actual_ms: 130000
 ---
-
 # E-008: General
 
 ## Goal
@@ -54,11 +61,11 @@ Default home for general tasks and user stories that do not have a clearer epic.
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T16:32:13Z | 2026-07-23T16:32:13Z | rollup: child T-110 holds session |
+| 1 | Marco Mendão | 2026-07-23T16:32:13Z | 2026-07-23T16:32:13Z | rollup: child T-110 holds session |

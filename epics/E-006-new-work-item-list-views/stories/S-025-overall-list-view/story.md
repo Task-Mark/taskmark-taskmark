@@ -17,16 +17,23 @@ session_cap_minutes: 480
 parent: E-006
 epic: E-006
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, overall]
 created: 2026-07-22
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T06:38:57Z
 completed_at: 2026-07-23T06:42:22Z
 actual_ms: 19000
 ---
-
 # S-025: Overall list view (current drill-down)
 
 ## User story
@@ -47,17 +54,17 @@ As a user, I want the Overall view to keep today’s epic → story → task dri
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-22T00:29:24Z | prompt | Create E-006 new work item list views with stories and tasks |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-22T00:29:24Z | prompt | Marco Mendão | Create E-006 new work item list views with stories and tasks |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T06:38:57Z | 2026-07-23T06:38:57Z | shared-batch parent rollup (0ms; effort on child tasks) |
+| 1 | Marco Mendão | 2026-07-23T06:38:57Z | 2026-07-23T06:38:57Z | shared-batch parent rollup (0ms; effort on child tasks) |

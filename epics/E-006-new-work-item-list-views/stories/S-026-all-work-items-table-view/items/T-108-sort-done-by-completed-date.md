@@ -17,15 +17,24 @@ session_cap_minutes: 480
 parent: S-026
 epic: E-006
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sorting]
 created: 2026-07-23
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T16:18:57Z
 completed_at: 2026-07-23T16:21:07Z
 actual_ms: 130000
 ---
+
 # T-108: Sort done work items by completed date
 
 ## Description
@@ -40,19 +49,19 @@ Within Work items (and any list using `compareByStatusThenPriority`), sort done/
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-23T16:18:57Z | prompt | solved issues sorted by done date not create date |
-| 2 | 2026-07-23T16:21:07Z | feedback | compareByStatusThenPriority uses completedAt for done |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-23T16:18:57Z | prompt | Marco Mendão | solved issues sorted by done date not create date |
+| 2 | 2026-07-23T16:21:07Z | feedback | Marco Mendão | compareByStatusThenPriority uses completedAt for done |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 9f8fe9a | taskmark-frontend | 2026-07-23T16:28:18Z | sort done work items by solved date |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 9f8fe9a | taskmark-frontend | 2026-07-23T16:28:18Z | Marco Mendão | sort done work items by solved date |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T16:18:57Z | 2026-07-23T16:21:07Z | Sort done rows by completedAt |
+| 1 | Marco Mendão | 2026-07-23T16:18:57Z | 2026-07-23T16:21:07Z | Sort done rows by completedAt |

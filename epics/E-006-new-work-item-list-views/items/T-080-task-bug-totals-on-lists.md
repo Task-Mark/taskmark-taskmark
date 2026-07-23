@@ -17,15 +17,24 @@ session_cap_minutes: 480
 parent: E-006
 epic: E-006
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists]
 created: 2026-07-23
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T05:44:00Z
 completed_at: 2026-07-23T05:47:00Z
 actual_ms: 2981000
 ---
+
 # T-080: Add task and bug totals on epic and story lists
 
 ## Description
@@ -46,23 +55,23 @@ Overall drill-down lists: `epic-list.tsx` and `story-list.tsx`. Count leaf markd
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-23T05:40:03Z | prompt | Add totals of tasks+bugs (same column) on epic list and stories list |
-| 2 | 2026-07-23T05:44:00Z | prompt | Implement T-080 |
-| 3 | 2026-07-23T05:46:18Z | feedback | Shipped Tasks totals on epic-list and story-list |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-23T05:40:03Z | prompt | Marco Mendão | Add totals of tasks+bugs (same column) on epic list and stories list |
+| 2 | 2026-07-23T05:44:00Z | prompt | Marco Mendão | Implement T-080 |
+| 3 | 2026-07-23T05:46:18Z | feedback | Marco Mendão | Shipped Tasks totals on epic-list and story-list |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| d5eb379 | taskmark-taskmark | 2026-07-23T05:40:41Z | add t-080 list totals task |
-| 3a96f58 | taskmark-frontend | 2026-07-23T06:27:22Z | add work item totals on lists |
-| dcebe32 | taskmark-taskmark | 2026-07-23T06:27:22Z | complete t-080 t-081 list totals |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| d5eb379 | taskmark-taskmark | 2026-07-23T05:40:41Z | Marco Mendão | add t-080 list totals task |
+| 3a96f58 | taskmark-frontend | 2026-07-23T06:27:22Z | Marco Mendão | add work item totals on lists |
+| dcebe32 | taskmark-taskmark | 2026-07-23T06:27:22Z | Marco Mendão | complete t-080 t-081 list totals |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T05:44:00Z | 2026-07-23T05:47:00Z | Added Tasks column (tasks+bugs) on epic and story lists |
-| 2 | agent | 2026-07-23T05:40:41Z | 2026-07-23T06:27:22Z | auto-recovered: commit span |
+| 1 | Marco Mendão | 2026-07-23T05:44:00Z | 2026-07-23T05:47:00Z | Added Tasks column (tasks+bugs) on epic and story lists |
+| 2 | Marco Mendão | 2026-07-23T05:40:41Z | 2026-07-23T06:27:22Z | auto-recovered: commit span |

@@ -17,16 +17,23 @@ session_cap_minutes: 480
 parent: E-005
 epic: E-005
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, detail, sheet, markdown]
 created: 2026-07-23
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T09:33:08Z
 completed_at: 2026-07-23T09:36:18Z
 actual_ms: 843000
 ---
-
 # T-086: Render markdown in work item detail sheet sections
 
 ## Description
@@ -42,20 +49,20 @@ Interpret markdown in detail sheet prose sections (goal, scope, user story, desc
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-23T09:33:08Z | prompt | Interpret markdown in detail sheet description, repro steps, etc. |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-23T09:33:08Z | prompt | Marco Mendão | Interpret markdown in detail sheet description, repro steps, etc. |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 1d310f9 | taskmark-frontend | 2026-07-23T09:44:01Z | render markdown in detail sheet |
-| ac93736 | taskmark-taskmark | 2026-07-23T09:44:01Z | add t-086 markdown detail board |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 1d310f9 | taskmark-frontend | 2026-07-23T09:44:01Z | Marco Mendão | render markdown in detail sheet |
+| ac93736 | taskmark-taskmark | 2026-07-23T09:44:01Z | Marco Mendão | add t-086 markdown detail board |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T09:33:08Z | 2026-07-23T09:36:18Z | react-markdown + GFM for detail sheet prose |
-| 2 | agent | 2026-07-23T09:33:08Z | 2026-07-23T09:44:01Z | auto-recovered: commit span |
+| 1 | Marco Mendão | 2026-07-23T09:33:08Z | 2026-07-23T09:36:18Z | react-markdown + GFM for detail sheet prose |
+| 2 | Marco Mendão | 2026-07-23T09:33:08Z | 2026-07-23T09:44:01Z | auto-recovered: commit span |

@@ -16,16 +16,25 @@ session_cap_minutes: 480
 parent: null
 epic: null
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [mvp, dashboard, frontend]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T17:02:25Z
 actual_ms: 26400000
 estimate_source: rolled_up
 ---
+
 # E-001: MVP Taskmark dashboard
 
 ## Goal
@@ -64,19 +73,19 @@ Ship an MVP dashboard that reads Taskmark markdown boards from a local **master 
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 5735f0b | taskmark-frontend | 2026-07-21T17:11:35Z | add app bar and project accumulate |
-| 3389ae7 | taskmark-cursor | 2026-07-21T17:11:35Z | sync taskmark board |
-| cc992dc | taskmark-frontend | 2026-07-21T16:58:32Z | add epic list and fix frontmatter parse |
-| 8f1a801 | taskmark-cursor | 2026-07-21T16:58:32Z | sync taskmark board |
-| 1fcb25f | taskmark-frontend | 2026-07-21T16:48:57Z | add native folder picker to setup |
-| e1923e9 | taskmark-cursor | 2026-07-21T16:48:57Z | sync taskmark board |
-| 9c3c5c5 | taskmark-frontend | 2026-07-21T16:40:53Z | add setup wizard and taskmark board |
-| 489cdff | taskmark-cursor | 2026-07-21T16:40:54Z | add taskmark board and update plugin |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 5735f0b | taskmark-frontend | 2026-07-21T17:11:35Z | Marco Mendão | add app bar and project accumulate |
+| 3389ae7 | taskmark-cursor | 2026-07-21T17:11:35Z | Marco Mendão | sync taskmark board |
+| cc992dc | taskmark-frontend | 2026-07-21T16:58:32Z | Marco Mendão | add epic list and fix frontmatter parse |
+| 8f1a801 | taskmark-cursor | 2026-07-21T16:58:32Z | Marco Mendão | sync taskmark board |
+| 1fcb25f | taskmark-frontend | 2026-07-21T16:48:57Z | Marco Mendão | add native folder picker to setup |
+| e1923e9 | taskmark-cursor | 2026-07-21T16:48:57Z | Marco Mendão | sync taskmark board |
+| 9c3c5c5 | taskmark-frontend | 2026-07-21T16:40:53Z | Marco Mendão | add setup wizard and taskmark board |
+| 489cdff | taskmark-cursor | 2026-07-21T16:40:54Z | Marco Mendão | add taskmark board and update plugin |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T09:42:25Z | 2026-07-21T17:02:25Z | auto-backfilled: rollup from children (missing/under-logged) |
+| 1 | Marco Mendão | 2026-07-21T09:42:25Z | 2026-07-21T17:02:25Z | auto-backfilled: rollup from children (missing/under-logged) |

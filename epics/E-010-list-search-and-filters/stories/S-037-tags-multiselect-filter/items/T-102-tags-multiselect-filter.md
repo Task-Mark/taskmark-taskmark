@@ -17,16 +17,23 @@ session_cap_minutes: 480
 parent: S-037
 epic: E-010
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, filters, tags]
 created: 2026-07-23
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T16:00:49Z
 completed_at: 2026-07-23T16:03:09Z
 actual_ms: 19000
 ---
-
 # T-102: Tags multiselect filter
 
 ## Description
@@ -45,18 +52,18 @@ Work items rows may need `tags` plumbed from parsers if not already on the flat 
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-23T16:03:09Z | prompt | implement E-010 list search and filters |
-| 2 | 2026-07-23T16:03:09Z | feedback | delivered search, parent/tags filters, hide completed |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-23T16:03:09Z | prompt | Marco Mendão | implement E-010 list search and filters |
+| 2 | 2026-07-23T16:03:09Z | feedback | Marco Mendão | delivered search, parent/tags filters, hide completed |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T16:00:49Z | 2026-07-23T16:01:08Z | shared-batch: 19189 of 140714ms by points; delivered T-102 |
+| 1 | Marco Mendão | 2026-07-23T16:00:49Z | 2026-07-23T16:01:08Z | shared-batch: 19189 of 140714ms by points; delivered T-102 |

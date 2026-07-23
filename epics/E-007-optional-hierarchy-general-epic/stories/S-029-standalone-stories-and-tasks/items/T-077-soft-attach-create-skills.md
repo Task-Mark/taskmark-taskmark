@@ -17,16 +17,23 @@ session_cap_minutes: 480
 parent: S-029
 epic: E-007
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [plugin, skills, create, hierarchy]
 created: 2026-07-23
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T04:42:50Z
 completed_at: 2026-07-23T04:43:50Z
 actual_ms: 60000
 ---
-
 # T-077: Soft-attach create-story and create-task
 
 ## Description
@@ -47,19 +54,19 @@ Keep sync-status / rollups working when General holds mixed unattached work.
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-23T04:38:20Z | prompt | Allow standalone stories/tasks; infer parents from context; default General epic for unattached work |
-| 2 | 2026-07-23T04:45:32Z | prompt | Develop S-029 |
-| 3 | 2026-07-23T04:45:32Z | feedback | Done as part of S-029 shared batch |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-23T04:38:20Z | prompt | Marco Mendão | Allow standalone stories/tasks; infer parents from context; default General epic for unattached work |
+| 2 | 2026-07-23T04:45:32Z | prompt | Marco Mendão | Develop S-029 |
+| 3 | 2026-07-23T04:45:32Z | feedback | Marco Mendão | Done as part of S-029 shared batch |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T04:42:50Z | 2026-07-23T04:43:50Z | shared-batch: 1 of 4min by points; delivered T-077 |
+| 1 | Marco Mendão | 2026-07-23T04:42:50Z | 2026-07-23T04:43:50Z | shared-batch: 1 of 4min by points; delivered T-077 |

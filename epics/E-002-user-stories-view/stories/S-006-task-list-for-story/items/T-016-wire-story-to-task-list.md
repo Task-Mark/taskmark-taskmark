@@ -16,15 +16,24 @@ session_cap_minutes: 480
 parent: S-006
 epic: E-002
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [wiring, tasks, stories]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T18:00:53Z
 completed_at: 2026-07-21T18:02:46Z
 actual_ms: 15646000
 ---
+
 # T-016: Wire story selection to task list
 
 ## Description
@@ -44,20 +53,20 @@ Completes the epic → story → task drill-down for E-002.
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T17:40:05Z | prompt | Create E-002 user stories view with stories and tasks |
-| 2 | 2026-07-21T18:00:53Z | prompt | Implement S-006 task list for selected story |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T17:40:05Z | prompt | Marco Mendão | Create E-002 user stories view with stories and tasks |
+| 2 | 2026-07-21T18:00:53Z | prompt | Marco Mendão | Implement S-006 task list for selected story |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 4e49022 | taskmark-frontend | 2026-07-21T22:21:39Z | add task list for selected story |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 4e49022 | taskmark-frontend | 2026-07-21T22:21:39Z | Marco Mendão | add task list for selected story |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T18:00:53Z | 2026-07-21T18:00:53Z | Wired story selection via ?story= to task list; shared-batch: 0 of 1min by points |
-| 2 | agent | 2026-07-21T18:00:53Z | 2026-07-21T22:21:39Z | auto-recovered: commit span; shared-batch: 65 of 260min by points |
+| 1 | Marco Mendão | 2026-07-21T18:00:53Z | 2026-07-21T18:00:53Z | Wired story selection via ?story= to task list; shared-batch: 0 of 1min by points |
+| 2 | Marco Mendão | 2026-07-21T18:00:53Z | 2026-07-21T22:21:39Z | auto-recovered: commit span; shared-batch: 65 of 260min by points |

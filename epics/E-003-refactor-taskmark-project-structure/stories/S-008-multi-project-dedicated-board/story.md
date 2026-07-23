@@ -16,15 +16,24 @@ session_cap_minutes: 480
 parent: E-003
 epic: E-003
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [architecture, multi-repo, board-layout, git]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 actual_ms: 9600000
 ---
+
 # S-008: Multi-project dedicated board repo
 
 ## User story
@@ -50,21 +59,21 @@ As a developer working across multiple git projects in one workspace, I want a d
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T22:26:00Z | prompt | Create epic: single-project board inside project git; multi-project sibling `-taskmark` repo; create stories/tasks |
-| 2 | 2026-07-21T22:41:00Z | feedback | Board root is <name>-taskmark (flat); no nested taskmark/ |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T22:26:00Z | prompt | Marco Mendão | Create epic: single-project board inside project git; multi-project sibling `-taskmark` repo; create stories/tasks |
+| 2 | 2026-07-21T22:41:00Z | feedback | Marco Mendão | Board root is <name>-taskmark (flat); no nested taskmark/ |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 9510b02 | taskmark-taskmark | 2026-07-21T22:42:00Z | add flat taskmark board |
-| f742175 | taskmark-cursor | 2026-07-21T22:42:00Z | flatten multi-repo board layout |
-| 4605512 | taskmark-frontend | 2026-07-21T22:42:00Z | remove nested taskmark board copy |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 9510b02 | taskmark-taskmark | 2026-07-21T22:42:00Z | Marco Mendão | add flat taskmark board |
+| f742175 | taskmark-cursor | 2026-07-21T22:42:00Z | Marco Mendão | flatten multi-repo board layout |
+| 4605512 | taskmark-frontend | 2026-07-21T22:42:00Z | Marco Mendão | remove nested taskmark board copy |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T19:56:51Z | 2026-07-21T22:36:51Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | Marco Mendão | 2026-07-21T19:56:51Z | 2026-07-21T22:36:51Z | auto-backfilled: velocity × points (missing work log) |

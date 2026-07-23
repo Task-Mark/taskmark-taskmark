@@ -17,15 +17,24 @@ session_cap_minutes: 480
 parent: null
 epic: null
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, pagination]
 created: 2026-07-23
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T15:35:42Z
 completed_at: 2026-07-23T15:41:41Z
 actual_ms: 808000
 ---
+
 # E-009: List pagination for work items
 
 ## Goal
@@ -60,14 +69,14 @@ Every work-item list in the system (Overall epic/story/task tables and the Work 
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 7bd7ab2 | taskmark-frontend | 2026-07-23T15:49:09Z | add list pagination controls |
-| 1245518 | taskmark-taskmark | 2026-07-23T15:49:10Z | complete e-009 list pagination board |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 7bd7ab2 | taskmark-frontend | 2026-07-23T15:49:09Z | Marco Mendão | add list pagination controls |
+| 1245518 | taskmark-taskmark | 2026-07-23T15:49:10Z | Marco Mendão | complete e-009 list pagination board |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T15:35:42Z | 2026-07-23T15:35:42Z | shared-batch parent rollup (0 min); leaves hold effort |
-| 2 | agent | 2026-07-23T15:35:42Z | 2026-07-23T15:49:10Z | auto-recovered: commit span |
+| 1 | Marco Mendão | 2026-07-23T15:35:42Z | 2026-07-23T15:35:42Z | shared-batch parent rollup (0 min); leaves hold effort |
+| 2 | Marco Mendão | 2026-07-23T15:35:42Z | 2026-07-23T15:49:10Z | auto-recovered: commit span |

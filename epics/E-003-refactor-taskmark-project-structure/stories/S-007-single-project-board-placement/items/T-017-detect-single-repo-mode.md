@@ -16,15 +16,24 @@ session_cap_minutes: 480
 parent: S-007
 epic: E-003
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [architecture, single-repo, detection]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T22:04:51Z
 completed_at: 2026-07-21T22:36:51Z
 actual_ms: 60000
 ---
+
 # T-017: Detect single-repo workspace mode
 
 ## Description
@@ -43,18 +52,18 @@ Feeds S-007 placement and S-008 branching.
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T22:26:00Z | prompt | Create epic + stories/tasks for Taskmark project structure refactor |
-| 2 | 2026-07-21T22:36:37Z | feedback | E-003 delivered: hyphen -taskmark sibling board model |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T22:26:00Z | prompt | Marco Mendão | Create epic + stories/tasks for Taskmark project structure refactor |
+| 2 | 2026-07-21T22:36:37Z | feedback | Marco Mendão | E-003 delivered: hyphen -taskmark sibling board model |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T22:04:51Z | 2026-07-21T22:05:51Z | auto-backfilled: velocity × points (missing work log); shared-batch: 1 of 2min by points |
+| 1 | Marco Mendão | 2026-07-21T22:04:51Z | 2026-07-21T22:05:51Z | auto-backfilled: velocity × points (missing work log); shared-batch: 1 of 2min by points |

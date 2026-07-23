@@ -16,16 +16,23 @@ session_cap_minutes: 480
 parent: S-002
 epic: E-001
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [mvp, parser, epics]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T16:49:52Z
 completed_at: 2026-07-21T16:51:19Z
 actual_ms: 2880000
 ---
-
 # T-005: Parse epic markdown from local taskmark folder
 
 ## Description
@@ -45,19 +52,19 @@ Foundation for later story/task dashboard parsing; keep the API extensible. Pair
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 3 | 2026-07-21T16:51:19Z | prompt | Implement S-002 epic list |
-| 1 | 2026-07-21T16:24:55Z | prompt | Create MVP epic with setup wizard + epic list; create stories and tasks |
-| 2 | 2026-07-21T16:31:04Z | feedback | Parse epics per discovered project under master folder |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 3 | 2026-07-21T16:51:19Z | prompt | Marco Mendão | Implement S-002 epic list |
+| 1 | 2026-07-21T16:24:55Z | prompt | Marco Mendão | Create MVP epic with setup wizard + epic list; create stories and tasks |
+| 2 | 2026-07-21T16:31:04Z | feedback | Marco Mendão | Parse epics per discovered project under master folder |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T16:03:19Z | 2026-07-21T16:51:19Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | Marco Mendão | 2026-07-21T16:03:19Z | 2026-07-21T16:51:19Z | auto-backfilled: velocity × points (missing work log) |

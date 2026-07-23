@@ -16,16 +16,23 @@ session_cap_minutes: 480
 parent: S-005
 epic: E-002
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [ui, stories, dashboard]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T17:45:49Z
 completed_at: 2026-07-21T17:48:46Z
 actual_ms: 847000
 ---
-
 # T-012: Build story list UI
 
 ## Description
@@ -46,20 +53,20 @@ Reuse shared list/row patterns from the epic list (T-006) where practical.
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T17:40:05Z | prompt | Create E-002 user stories view with stories and tasks |
-| 2 | 2026-07-21T17:45:49Z | prompt | Start developing S-005 (includes this task) |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T17:40:05Z | prompt | Marco Mendão | Create E-002 user stories view with stories and tasks |
+| 2 | 2026-07-21T17:45:49Z | prompt | Marco Mendão | Start developing S-005 (includes this task) |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 0c104cd | taskmark-frontend | 2026-07-21T17:59:56Z | add story list for selected epic |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 0c104cd | taskmark-frontend | 2026-07-21T17:59:56Z | Marco Mendão | add story list for selected epic |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T17:45:49Z | 2026-07-21T17:45:49Z | Built story list UI matching epic list; shared-batch: 0 of 1min by points |
-| 2 | agent | 2026-07-21T17:45:49Z | 2026-07-21T17:59:56Z | auto-recovered: commit span; shared-batch: 5 of 14min by points |
+| 1 | Marco Mendão | 2026-07-21T17:45:49Z | 2026-07-21T17:45:49Z | Built story list UI matching epic list; shared-batch: 0 of 1min by points |
+| 2 | Marco Mendão | 2026-07-21T17:45:49Z | 2026-07-21T17:59:56Z | auto-recovered: commit span; shared-batch: 5 of 14min by points |

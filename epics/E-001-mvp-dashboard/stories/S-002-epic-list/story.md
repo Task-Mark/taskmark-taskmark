@@ -16,16 +16,23 @@ session_cap_minutes: 480
 parent: E-001
 epic: E-001
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [mvp, epics, dashboard]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T16:49:52Z
 completed_at: 2026-07-21T16:51:19Z
 actual_ms: 9548000
 ---
-
 # S-002: Epic list for selected project
 
 ## User story
@@ -50,23 +57,23 @@ As a user, I want to see every epic for **each** Taskmark project discovered und
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T16:24:55Z | prompt | Create MVP epic with setup wizard + epic list; create stories and tasks |
-| 2 | 2026-07-21T16:31:04Z | feedback | Master folder may contain multiple Taskmark projects in subfolders; list epics per project |
-| 3 | 2026-07-21T16:49:52Z | prompt | Implement S-002 epic list for selected projects |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T16:24:55Z | prompt | Marco Mendão | Create MVP epic with setup wizard + epic list; create stories and tasks |
+| 2 | 2026-07-21T16:31:04Z | feedback | Marco Mendão | Master folder may contain multiple Taskmark projects in subfolders; list epics per project |
+| 3 | 2026-07-21T16:49:52Z | prompt | Marco Mendão | Implement S-002 epic list for selected projects |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| cc992dc | taskmark-frontend | 2026-07-21T16:58:32Z | add epic list and fix frontmatter parse |
-| 8f1a801 | taskmark-cursor | 2026-07-21T16:58:32Z | sync taskmark board |
-| 3d64d0e | taskmark-frontend | 2026-07-21T17:35:33Z | format epic list durations and status badges |
-| 622a560 | taskmark-cursor | 2026-07-21T17:35:33Z | add recompute-actuals and update effort skills |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| cc992dc | taskmark-frontend | 2026-07-21T16:58:32Z | Marco Mendão | add epic list and fix frontmatter parse |
+| 8f1a801 | taskmark-cursor | 2026-07-21T16:58:32Z | Marco Mendão | sync taskmark board |
+| 3d64d0e | taskmark-frontend | 2026-07-21T17:35:33Z | Marco Mendão | format epic list durations and status badges |
+| 622a560 | taskmark-cursor | 2026-07-21T17:35:33Z | Marco Mendão | add recompute-actuals and update effort skills |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T14:13:19Z | 2026-07-21T16:51:19Z | auto-backfilled: rollup from children (missing/under-logged) |
+| 1 | Marco Mendão | 2026-07-21T14:13:19Z | 2026-07-21T16:51:19Z | auto-backfilled: rollup from children (missing/under-logged) |

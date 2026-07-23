@@ -17,15 +17,24 @@ session_cap_minutes: 480
 parent: null
 epic: null
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, search, filters]
 created: 2026-07-23
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T16:00:49Z
 completed_at: 2026-07-23T16:03:09Z
 actual_ms: 1004000
 ---
+
 # E-010: List search and filters
 
 ## Goal
@@ -64,14 +73,14 @@ Let users find and narrow work items quickly: every list has a search box (by id
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 66b89f7 | taskmark-frontend | 2026-07-23T16:17:20Z | add list search and filters |
-| c964895 | taskmark-taskmark | 2026-07-23T16:17:33Z | complete e-010 list search and filters |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 66b89f7 | taskmark-frontend | 2026-07-23T16:17:20Z | Marco Mendão | add list search and filters |
+| c964895 | taskmark-taskmark | 2026-07-23T16:17:33Z | Marco Mendão | complete e-010 list search and filters |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T16:00:49Z | 2026-07-23T16:00:49Z | rollup: children hold shared-batch; delivered E-010 list search and filters |
-| 2 | agent | 2026-07-23T16:00:49Z | 2026-07-23T16:17:33Z | auto-recovered: commit span |
+| 1 | Marco Mendão | 2026-07-23T16:00:49Z | 2026-07-23T16:00:49Z | rollup: children hold shared-batch; delivered E-010 list search and filters |
+| 2 | Marco Mendão | 2026-07-23T16:00:49Z | 2026-07-23T16:17:33Z | auto-recovered: commit span |

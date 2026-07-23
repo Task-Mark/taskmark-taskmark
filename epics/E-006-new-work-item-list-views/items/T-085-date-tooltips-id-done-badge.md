@@ -17,16 +17,23 @@ session_cap_minutes: 480
 parent: E-006
 epic: E-006
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, workitems, dates, tooltip]
 created: 2026-07-23
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T07:51:22Z
 completed_at: 2026-07-23T07:54:27Z
 actual_ms: 971000
 ---
-
 # T-085: Date tooltips on ID and done badge instead of columns
 
 ## Description
@@ -42,20 +49,20 @@ Remove Created/Solved columns from the Work items list. Show creation date as a 
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-23T07:51:22Z | prompt | Remove date columns; tooltip on ID for created, on done badge for solved |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-23T07:51:22Z | prompt | Marco Mendão | Remove date columns; tooltip on ID for created, on done badge for solved |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 83d2ae9 | taskmark-frontend | 2026-07-23T08:04:28Z | add created solved date tooltips |
-| 1cee199 | taskmark-taskmark | 2026-07-23T08:04:28Z | add t-084 t-085 date tooltip board |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 83d2ae9 | taskmark-frontend | 2026-07-23T08:04:28Z | Marco Mendão | add created solved date tooltips |
+| 1cee199 | taskmark-taskmark | 2026-07-23T08:04:28Z | Marco Mendão | add t-084 t-085 date tooltip board |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T07:51:22Z | 2026-07-23T07:54:27Z | Date tooltips on ID + done badge; removed columns |
-| 2 | agent | 2026-07-23T07:51:22Z | 2026-07-23T08:04:28Z | auto-recovered: commit span |
+| 1 | Marco Mendão | 2026-07-23T07:51:22Z | 2026-07-23T07:54:27Z | Date tooltips on ID + done badge; removed columns |
+| 2 | Marco Mendão | 2026-07-23T07:51:22Z | 2026-07-23T08:04:28Z | auto-recovered: commit span |

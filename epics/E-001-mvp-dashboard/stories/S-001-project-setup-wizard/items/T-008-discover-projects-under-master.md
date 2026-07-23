@@ -16,15 +16,24 @@ session_cap_minutes: 480
 parent: S-001
 epic: E-001
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [mvp, discovery, filesystem]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
 actual_ms: 180000
 ---
+
 # T-008: Discover Taskmark projects under master folder
 
 ## Description
@@ -45,18 +54,18 @@ Example: master `/Users/.../taskmark` → discover `/Users/.../taskmark/taskmark
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T16:31:04Z | feedback | Master folder may contain multiple Taskmark projects in subfolders; discover by venturing into children |
-| 2 | 2026-07-21T16:37:18Z | prompt | Implement S-001 setup wizard |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T16:31:04Z | feedback | Marco Mendão | Master folder may contain multiple Taskmark projects in subfolders; discover by venturing into children |
+| 2 | 2026-07-21T16:37:18Z | prompt | Marco Mendão | Implement S-001 setup wizard |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T15:49:18Z | 2026-07-21T15:52:18Z | auto-backfilled: velocity × points (missing work log); shared-batch: 3 of 6min by points |
+| 1 | Marco Mendão | 2026-07-21T15:49:18Z | 2026-07-21T15:52:18Z | auto-backfilled: velocity × points (missing work log); shared-batch: 3 of 6min by points |

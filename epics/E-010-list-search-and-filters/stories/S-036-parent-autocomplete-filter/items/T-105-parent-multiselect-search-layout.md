@@ -17,16 +17,23 @@ session_cap_minutes: 480
 parent: S-036
 epic: E-010
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, filters, workitems]
 created: 2026-07-23
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T16:12:45Z
 completed_at: 2026-07-23T16:14:55Z
 actual_ms: 130000
 ---
-
 # T-105: Parent filter multiselect and search chips layout
 
 ## Description
@@ -41,17 +48,17 @@ Make the Work items parent epic/story picker multiselect (match any selected par
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-23T16:12:45Z | prompt | epic/story picker multiselect; search same layout as multiselect |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-23T16:12:45Z | prompt | Marco Mendão | epic/story picker multiselect; search same layout as multiselect |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T16:12:45Z | 2026-07-23T16:14:55Z | Delivered parent multiselect + search chips layout |
+| 1 | Marco Mendão | 2026-07-23T16:12:45Z | 2026-07-23T16:14:55Z | Delivered parent multiselect + search chips layout |

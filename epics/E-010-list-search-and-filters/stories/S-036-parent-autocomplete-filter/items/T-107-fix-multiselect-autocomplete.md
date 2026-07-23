@@ -17,16 +17,23 @@ session_cap_minutes: 480
 parent: S-036
 epic: E-010
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, filters, bugfix]
 created: 2026-07-23
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T16:16:14Z
 completed_at: 2026-07-23T16:18:24Z
 actual_ms: 130000
 ---
-
 # T-107: Fix multiselect filter autocomplete
 
 ## Description
@@ -41,19 +48,19 @@ Parent and tags multiselect comboboxes were not filtering the dropdown as the us
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-23T16:16:14Z | prompt | multiselect filters autocomplete not working |
-| 2 | 2026-07-23T16:18:24Z | feedback | items + list render filter wired |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-23T16:16:14Z | prompt | Marco Mendão | multiselect filters autocomplete not working |
+| 2 | 2026-07-23T16:18:24Z | feedback | Marco Mendão | items + list render filter wired |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 66b89f7 | taskmark-frontend | 2026-07-23T16:17:20Z | add list search and filters |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 66b89f7 | taskmark-frontend | 2026-07-23T16:17:20Z | Marco Mendão | add list search and filters |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T16:16:14Z | 2026-07-23T16:18:24Z | Fixed Combobox items/list filtering for parent and tags |
+| 1 | Marco Mendão | 2026-07-23T16:16:14Z | 2026-07-23T16:18:24Z | Fixed Combobox items/list filtering for parent and tags |

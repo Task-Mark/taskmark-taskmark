@@ -17,15 +17,24 @@ session_cap_minutes: 480
 parent: S-038
 epic: E-010
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, filters]
 created: 2026-07-23
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T16:14:35Z
 completed_at: 2026-07-23T16:16:45Z
 actual_ms: 130000
 ---
+
 # T-106: Hide completed control as switch
 
 ## Description
@@ -39,18 +48,18 @@ Replace the Hide completed checkbox with the shared Switch UI control.
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-23T16:14:35Z | prompt | hide complete should be a switch |
-| 2 | 2026-07-23T16:16:45Z | feedback | switch control wired |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-23T16:14:35Z | prompt | Marco Mendão | hide complete should be a switch |
+| 2 | 2026-07-23T16:16:45Z | feedback | Marco Mendão | switch control wired |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T16:14:35Z | 2026-07-23T16:16:45Z | Delivered Hide completed as Switch |
+| 1 | Marco Mendão | 2026-07-23T16:14:35Z | 2026-07-23T16:16:45Z | Delivered Hide completed as Switch |

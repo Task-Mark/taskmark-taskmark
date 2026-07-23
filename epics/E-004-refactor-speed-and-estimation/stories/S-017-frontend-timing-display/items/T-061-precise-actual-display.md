@@ -17,16 +17,23 @@ session_cap_minutes: 480
 parent: S-017
 epic: E-004
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [frontend, actual, timing]
 created: 2026-07-22
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-22T00:13:39Z
 completed_at: 2026-07-22T00:16:21Z
 actual_ms: 162000
 ---
-
 # T-061: Show precise Actual with seconds or milliseconds
 
 ## Description
@@ -46,20 +53,20 @@ Est stays minute-oriented.
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-22T00:13:39Z | prompt | Show actual time spent to the milliseconds if need on tasks and user stories |
-| 2 | 2026-07-22T00:16:21Z | feedback | Precise Actual display delivered |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-22T00:13:39Z | prompt | Marco Mendão | Show actual time spent to the milliseconds if need on tasks and user stories |
+| 2 | 2026-07-22T00:16:21Z | feedback | Marco Mendão | Precise Actual display delivered |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| ff5d088 | taskmark-frontend | 2026-07-22T00:17:56Z | show precise actual duration |
-| 0b6df50 | taskmark-taskmark | 2026-07-22T00:17:57Z | sync taskmark board |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| ff5d088 | taskmark-frontend | 2026-07-22T00:17:56Z | Marco Mendão | show precise actual duration |
+| 0b6df50 | taskmark-taskmark | 2026-07-22T00:17:57Z | Marco Mendão | sync taskmark board |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-22T00:13:39Z | 2026-07-22T00:16:21Z | Precise Actual ms display + recompute actual_ms |
+| 1 | Marco Mendão | 2026-07-22T00:13:39Z | 2026-07-22T00:16:21Z | Precise Actual ms display + recompute actual_ms |

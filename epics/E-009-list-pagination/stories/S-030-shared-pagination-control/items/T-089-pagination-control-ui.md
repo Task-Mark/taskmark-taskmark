@@ -17,16 +17,23 @@ session_cap_minutes: 480
 parent: S-030
 epic: E-009
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, pagination, ui]
 created: 2026-07-23
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T15:35:42Z
 completed_at: 2026-07-23T15:41:41Z
 actual_ms: 71000
 ---
-
 # T-089: Build pagination navigation and page-size UI
 
 ## Description
@@ -42,17 +49,17 @@ Build a reusable pagination control component with first / previous / next / las
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-23T15:35:42Z | prompt | Implement epic E-009 list pagination |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-23T15:35:42Z | prompt | Marco Mendão | Implement epic E-009 list pagination |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T15:35:42Z | 2026-07-23T15:36:53Z | shared-batch: 71836 of 359182ms by points; delivered T-089 |
+| 1 | Marco Mendão | 2026-07-23T15:35:42Z | 2026-07-23T15:36:53Z | shared-batch: 71836 of 359182ms by points; delivered T-089 |

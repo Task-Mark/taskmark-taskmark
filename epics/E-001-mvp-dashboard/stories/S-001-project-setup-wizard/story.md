@@ -16,16 +16,23 @@ session_cap_minutes: 480
 parent: E-001
 epic: E-001
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [mvp, wizard, setup]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
 actual_ms: 12360000
 ---
-
 # S-001: Project setup wizard
 
 ## User story
@@ -53,26 +60,26 @@ As a user, I want a setup wizard that lets me select a local **master folder** s
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T16:24:55Z | prompt | Create MVP epic with setup wizard + epic list; create stories and tasks |
-| 2 | 2026-07-21T16:29:20Z | feedback | Persist project in cookies; skip setup when already configured; allow switching projects via setup |
-| 3 | 2026-07-21T16:31:04Z | feedback | Master folder may contain multiple Taskmark projects in subfolders; discover by venturing into children |
-| 4 | 2026-07-21T16:35:18Z | prompt | Start implementing S-001 project setup wizard |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T16:24:55Z | prompt | Marco Mendão | Create MVP epic with setup wizard + epic list; create stories and tasks |
+| 2 | 2026-07-21T16:29:20Z | feedback | Marco Mendão | Persist project in cookies; skip setup when already configured; allow switching projects via setup |
+| 3 | 2026-07-21T16:31:04Z | feedback | Marco Mendão | Master folder may contain multiple Taskmark projects in subfolders; discover by venturing into children |
+| 4 | 2026-07-21T16:35:18Z | prompt | Marco Mendão | Start implementing S-001 project setup wizard |
 
-| 5 | 2026-07-21T22:44:32Z | prompt | Setup fails: flat *-taskmark board not discovered |
+| 5 | 2026-07-21T22:44:32Z | prompt | Marco Mendão | Setup fails: flat *-taskmark board not discovered |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 1fcb25f | taskmark-frontend | 2026-07-21T16:48:57Z | add native folder picker to setup |
-| e1923e9 | taskmark-cursor | 2026-07-21T16:48:57Z | sync taskmark board |
-| 9c3c5c5 | taskmark-frontend | 2026-07-21T16:40:53Z | add setup wizard and taskmark board |
-| 489cdff | taskmark-cursor | 2026-07-21T16:40:54Z | add taskmark board and update plugin |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 1fcb25f | taskmark-frontend | 2026-07-21T16:48:57Z | Marco Mendão | add native folder picker to setup |
+| e1923e9 | taskmark-cursor | 2026-07-21T16:48:57Z | Marco Mendão | sync taskmark board |
+| 9c3c5c5 | taskmark-frontend | 2026-07-21T16:40:53Z | Marco Mendão | add setup wizard and taskmark board |
+| 489cdff | taskmark-cursor | 2026-07-21T16:40:54Z | Marco Mendão | add taskmark board and update plugin |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T13:11:18Z | 2026-07-21T16:37:18Z | auto-backfilled: rollup from children (missing/under-logged) |
+| 1 | Marco Mendão | 2026-07-21T13:11:18Z | 2026-07-21T16:37:18Z | auto-backfilled: rollup from children (missing/under-logged) |

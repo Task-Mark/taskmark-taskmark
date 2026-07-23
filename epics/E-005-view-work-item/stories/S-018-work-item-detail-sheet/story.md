@@ -17,16 +17,23 @@ session_cap_minutes: 480
 parent: E-005
 epic: E-005
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, sheet, detail]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
 actual_ms: 42657
 ---
-
 # S-018: Work item detail sheet
 
 ## User story
@@ -48,19 +55,19 @@ As a user, I want every work item view to open in a sheet so I can inspect detai
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T23:48:59Z | prompt | Create all user stories and tasks for E-005 view work item |
-| 2 | 2026-07-21T23:53:57Z | prompt | Develop epic E-005 — implement work item detail views in sheets |
-| 3 | 2026-07-21T23:56:38Z | feedback | Implement E-005 detail sheets delivered |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T23:48:59Z | prompt | Marco Mendão | Create all user stories and tasks for E-005 view work item |
+| 2 | 2026-07-21T23:53:57Z | prompt | Marco Mendão | Develop epic E-005 — implement work item detail views in sheets |
+| 3 | 2026-07-21T23:56:38Z | feedback | Marco Mendão | Implement E-005 detail sheets delivered |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:53:57Z | Delivered as part of E-005; shared-batch: 0ms rollup (children hold allocation) |
+| 1 | Marco Mendão | 2026-07-21T23:53:57Z | 2026-07-21T23:53:57Z | Delivered as part of E-005; shared-batch: 0ms rollup (children hold allocation) |

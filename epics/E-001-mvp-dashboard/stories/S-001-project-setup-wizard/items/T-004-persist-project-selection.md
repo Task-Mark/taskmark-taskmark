@@ -16,16 +16,23 @@ session_cap_minutes: 480
 parent: S-001
 epic: E-001
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [mvp, wizard, persistence]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
 actual_ms: 120000
 ---
-
 # T-004: Persist selected project and enter app
 
 ## Description
@@ -47,20 +54,20 @@ Cookie name `taskmark_master_folder`, httpOnly, maxAge 1 year, stores master fol
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T16:24:55Z | prompt | Create MVP epic with setup wizard + epic list; create stories and tasks |
-| 2 | 2026-07-21T16:29:20Z | feedback | Persist project in cookies; skip setup when already configured; allow switching projects via setup |
-| 3 | 2026-07-21T16:31:04Z | feedback | Cookie stores master folder; multiple Taskmark projects live in subfolders |
-| 4 | 2026-07-21T16:37:18Z | prompt | Implement S-001 setup wizard |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T16:24:55Z | prompt | Marco Mendão | Create MVP epic with setup wizard + epic list; create stories and tasks |
+| 2 | 2026-07-21T16:29:20Z | feedback | Marco Mendão | Persist project in cookies; skip setup when already configured; allow switching projects via setup |
+| 3 | 2026-07-21T16:31:04Z | feedback | Marco Mendão | Cookie stores master folder; multiple Taskmark projects live in subfolders |
+| 4 | 2026-07-21T16:37:18Z | prompt | Marco Mendão | Implement S-001 setup wizard |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T16:05:18Z | 2026-07-21T16:07:18Z | auto-backfilled: velocity × points (missing work log); shared-batch: 2 of 4min by points |
+| 1 | Marco Mendão | 2026-07-21T16:05:18Z | 2026-07-21T16:07:18Z | auto-backfilled: velocity × points (missing work log); shared-batch: 2 of 4min by points |

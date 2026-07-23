@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-23T16:33:36.190Z
+Last synced: 2026-07-23T17:34:40.417Z
 
 ## Epics
 
@@ -16,6 +16,7 @@ Last synced: 2026-07-23T16:33:36.190Z
 | E-008 | General | done | — | 3 | 48 | 2 | [epic.md](epics/E-008-general/epic.md) |
 | E-009 | List pagination for work items | done | — | 15 | 230 | 13 | [epic.md](epics/E-009-list-pagination/epic.md) |
 | E-010 | List search and filters | done | — | 26 | 400 | 16 | [epic.md](epics/E-010-list-search-and-filters/epic.md) |
+| E-011 | Git identity contributors and avatars | done | — | 33 | 515 | 8 | [epic.md](epics/E-011-git-identity-contributors/epic.md) |
 
 ## Stories
 
@@ -59,6 +60,11 @@ Last synced: 2026-07-23T16:33:36.190Z
 | S-036 | Parent epic/story autocomplete filter | E-010 | done | L | 6 | 95 | 4 | [story.md](epics/E-010-list-search-and-filters/stories/S-036-parent-autocomplete-filter/story.md) |
 | S-037 | Tags multiselect filter | E-010 | done | S | 3 | 50 | 0 | [story.md](epics/E-010-list-search-and-filters/stories/S-037-tags-multiselect-filter/story.md) |
 | S-038 | Hide completed filter | E-010 | done | M | 5 | 75 | 2 | [story.md](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/story.md) |
+| S-039 | Git identity data model | E-011 | done | M | 5 | 75 | 0 | [story.md](epics/E-011-git-identity-contributors/stories/S-039-git-identity-data-model/story.md) |
+| S-040 | Capture git user on create and resolve | E-011 | done | L | 8 | 130 | 2 | [story.md](epics/E-011-git-identity-contributors/stories/S-040-capture-git-user-on-create-resolve/story.md) |
+| S-041 | README contributors | E-011 | done | M | 5 | 80 | 1 | [story.md](epics/E-011-git-identity-contributors/stories/S-041-readme-contributors/story.md) |
+| S-042 | Initials avatars on work item lists | E-011 | done | L | 9 | 140 | 2 | [story.md](epics/E-011-git-identity-contributors/stories/S-042-list-initials-avatars/story.md) |
+| S-043 | Authors on activity logs | E-011 | done | M | 6 | 90 | 3 | [story.md](epics/E-011-git-identity-contributors/stories/S-043-authors-on-activity-logs/story.md) |
 
 ## Open work sessions
 
@@ -185,3 +191,18 @@ Last synced: 2026-07-23T16:33:36.190Z
 | T-108 | Sort done work items by completed date | S-026 | done | S | 1 | 15 | 2 | [T-108](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-108-sort-done-by-completed-date.md) |
 | T-109 | Done work items sort by solved date only | S-026 | done | S | 1 | 15 | 2 | [T-109](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-109-done-sort-by-solved-not-priority.md) |
 | T-110 | Hide empty General epic and show child progress bars | E-008 | done | M | 3 | 48 | 2 | [T-110](epics/E-008-general/items/T-110-hide-empty-general-progress-bars.md) |
+| T-111 | Define contributor identity schema in conventions | S-039 | done | XS | 1 | 15 | 0 | [T-111](epics/E-011-git-identity-contributors/stories/S-039-git-identity-data-model/items/T-111-contributor-identity-schema.md) |
+| T-112 | Add reporters and resolvers frontmatter on work items | S-039 | done | S | 2 | 30 | 0 | [T-112](epics/E-011-git-identity-contributors/stories/S-039-git-identity-data-model/items/T-112-reporters-resolvers-frontmatter.md) |
+| T-113 | Git config identity helper (name, email, initials) | S-039 | done | S | 2 | 30 | 0 | [T-113](epics/E-011-git-identity-contributors/stories/S-039-git-identity-data-model/items/T-113-git-config-identity-helper.md) |
+| T-114 | Stamp reporter on create-* skills | S-040 | done | M | 3 | 50 | 1 | [T-114](epics/E-011-git-identity-contributors/stories/S-040-capture-git-user-on-create-resolve/items/T-114-stamp-reporter-on-create.md) |
+| T-115 | Stamp resolver on complete-work | S-040 | done | M | 3 | 50 | 1 | [T-115](epics/E-011-git-identity-contributors/stories/S-040-capture-git-user-on-create-resolve/items/T-115-stamp-resolver-on-complete.md) |
+| T-116 | Merge multi-author identity lists by email | S-040 | done | S | 2 | 30 | 0 | [T-116](epics/E-011-git-identity-contributors/stories/S-040-capture-git-user-on-create-resolve/items/T-116-merge-multi-author-by-email.md) |
+| T-117 | Upsert Contributors section in project README | S-041 | done | M | 3 | 50 | 1 | [T-117](epics/E-011-git-identity-contributors/stories/S-041-readme-contributors/items/T-117-upsert-readme-contributors.md) |
+| T-118 | Sync README when a new git identity appears | S-041 | done | S | 2 | 30 | 0 | [T-118](epics/E-011-git-identity-contributors/stories/S-041-readme-contributors/items/T-118-sync-readme-on-new-identity.md) |
+| T-119 | Initials avatar component with hover tooltip | S-042 | done | S | 2 | 30 | 0 | [T-119](epics/E-011-git-identity-contributors/stories/S-042-list-initials-avatars/items/T-119-initials-avatar-component.md) |
+| T-120 | Parse reporters and resolvers in the frontend | S-042 | done | S | 2 | 30 | 0 | [T-120](epics/E-011-git-identity-contributors/stories/S-042-list-initials-avatars/items/T-120-parse-reporters-resolvers-frontend.md) |
+| T-121 | Show avatars on epic, story, and task lists | S-042 | done | M | 3 | 50 | 1 | [T-121](epics/E-011-git-identity-contributors/stories/S-042-list-initials-avatars/items/T-121-avatars-on-work-item-lists.md) |
+| T-122 | Multi-avatar stack and same-person dedupe | S-042 | done | S | 2 | 30 | 1 | [T-122](epics/E-011-git-identity-contributors/stories/S-042-list-initials-avatars/items/T-122-multi-avatar-dedupe.md) |
+| T-123 | Show authors on Commits table | S-043 | done | S | 2 | 30 | 1 | [T-123](epics/E-011-git-identity-contributors/stories/S-043-authors-on-activity-logs/items/T-123-authors-on-commits.md) |
+| T-124 | Show authors on Work log | S-043 | done | S | 2 | 30 | 1 | [T-124](epics/E-011-git-identity-contributors/stories/S-043-authors-on-activity-logs/items/T-124-authors-on-work-log.md) |
+| T-125 | Show authors on Prompt and feedback | S-043 | done | S | 2 | 30 | 1 | [T-125](epics/E-011-git-identity-contributors/stories/S-043-authors-on-activity-logs/items/T-125-authors-on-prompt-feedback.md) |

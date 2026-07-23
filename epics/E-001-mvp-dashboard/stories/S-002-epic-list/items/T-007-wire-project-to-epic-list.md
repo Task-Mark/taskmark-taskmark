@@ -16,16 +16,23 @@ session_cap_minutes: 480
 parent: S-002
 epic: E-001
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [mvp, epics, integration]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T16:49:52Z
 completed_at: 2026-07-21T16:51:19Z
 actual_ms: 1920000
 ---
-
 # T-007: Wire selected project to epic list
 
 ## Description
@@ -43,19 +50,19 @@ Connect the persisted **master folder** cookie from the setup wizard to discover
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 3 | 2026-07-21T16:51:19Z | prompt | Implement S-002 epic list |
-| 1 | 2026-07-21T16:24:55Z | prompt | Create MVP epic with setup wizard + epic list; create stories and tasks |
-| 2 | 2026-07-21T16:31:04Z | feedback | Wire master folder discovery to per-project epic lists |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 3 | 2026-07-21T16:51:19Z | prompt | Marco Mendão | Implement S-002 epic list |
+| 1 | 2026-07-21T16:24:55Z | prompt | Marco Mendão | Create MVP epic with setup wizard + epic list; create stories and tasks |
+| 2 | 2026-07-21T16:31:04Z | feedback | Marco Mendão | Wire master folder discovery to per-project epic lists |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T16:19:19Z | 2026-07-21T16:51:19Z | auto-backfilled: velocity × points (missing work log) |
+| 1 | Marco Mendão | 2026-07-21T16:19:19Z | 2026-07-21T16:51:19Z | auto-backfilled: velocity × points (missing work log) |

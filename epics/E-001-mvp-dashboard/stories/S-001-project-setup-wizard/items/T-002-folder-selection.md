@@ -16,15 +16,24 @@ session_cap_minutes: 480
 parent: S-001
 epic: E-001
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [mvp, wizard, filesystem]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
 actual_ms: 879000
 ---
+
 # T-002: Implement project folder selection
 
 ## Description
@@ -44,23 +53,23 @@ Browser sandboxes cannot expose absolute disk paths. Folder selection uses a **n
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T16:24:55Z | prompt | Create MVP epic with setup wizard + epic list; create stories and tasks |
-| 2 | 2026-07-21T16:31:04Z | feedback | Selection is a master folder; Taskmark projects live in subfolders |
-| 3 | 2026-07-21T16:37:18Z | prompt | Implement S-001 setup wizard |
-| 4 | 2026-07-21T16:45:20Z | feedback | Find/select project should use a folder picker as well as path input |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T16:24:55Z | prompt | Marco Mendão | Create MVP epic with setup wizard + epic list; create stories and tasks |
+| 2 | 2026-07-21T16:31:04Z | feedback | Marco Mendão | Selection is a master folder; Taskmark projects live in subfolders |
+| 3 | 2026-07-21T16:37:18Z | prompt | Marco Mendão | Implement S-001 setup wizard |
+| 4 | 2026-07-21T16:45:20Z | feedback | Marco Mendão | Find/select project should use a folder picker as well as path input |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 1fcb25f | taskmark-frontend | 2026-07-21T16:48:57Z | add native folder picker to setup |
-| e1923e9 | taskmark-cursor | 2026-07-21T16:48:57Z | sync taskmark board |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 1fcb25f | taskmark-frontend | 2026-07-21T16:48:57Z | Marco Mendão | add native folder picker to setup |
+| e1923e9 | taskmark-cursor | 2026-07-21T16:48:57Z | Marco Mendão | sync taskmark board |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T16:35:18Z | 2026-07-21T16:36:18Z | Implemented as part of S-001 setup wizard |
-| 2 | agent | 2026-07-21T16:35:18Z | 2026-07-21T16:48:57Z | auto-recovered: commit span |
+| 1 | Marco Mendão | 2026-07-21T16:35:18Z | 2026-07-21T16:36:18Z | Implemented as part of S-001 setup wizard |
+| 2 | Marco Mendão | 2026-07-21T16:35:18Z | 2026-07-21T16:48:57Z | auto-recovered: commit span |

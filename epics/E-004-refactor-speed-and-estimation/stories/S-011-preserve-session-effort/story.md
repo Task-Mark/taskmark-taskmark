@@ -16,16 +16,23 @@ session_cap_minutes: 480
 parent: E-004
 epic: E-004
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [effort, work-log, conventions]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T23:05:18Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 1200000
 ---
-
 # S-011: Preserve session effort tracking
 
 ## User story
@@ -45,24 +52,24 @@ As a team using Taskmark, I want AI/human session elapsed time still stored so w
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-21T23:05:18Z | prompt | develop the epic E-004 |
-| 1 | 2026-07-21T22:56:48Z | prompt | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
-| 2 | 2026-07-21T23:07:27Z | feedback | E-004 dual model delivered |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-21T23:05:18Z | prompt | Marco Mendão | develop the epic E-004 |
+| 1 | 2026-07-21T22:56:48Z | prompt | Marco Mendão | Create epic: refactor speed/estimation — 1-month velocity, start/end cascade, dual effort vs actual |
+| 2 | 2026-07-21T23:07:27Z | feedback | Marco Mendão | E-004 dual model delivered |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 6aca5e6 | taskmark-cursor | 2026-07-21T23:20:34Z | update speed estimation and epic points rollup |
-| 123ecb7 | taskmark-frontend | 2026-07-21T23:20:34Z | show est actual only and drop epic size |
-| 9883b62 | taskmark-taskmark | 2026-07-21T23:20:34Z | sync e-004 timing and points rollup on board |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 6aca5e6 | taskmark-cursor | 2026-07-21T23:20:34Z | Marco Mendão | update speed estimation and epic points rollup |
+| 123ecb7 | taskmark-frontend | 2026-07-21T23:20:34Z | Marco Mendão | show est actual only and drop epic size |
+| 9883b62 | taskmark-taskmark | 2026-07-21T23:20:34Z | Marco Mendão | sync e-004 timing and points rollup on board |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T22:19:27Z | 2026-07-21T22:19:27Z | auto-backfilled: velocity × points (missing work log); shared-batch: 0min rollup (children hold allocation) |
-| 2 | agent | 2026-07-21T23:05:18Z | 2026-07-21T23:20:34Z | auto-recovered: commit span |
+| 1 | Marco Mendão | 2026-07-21T22:19:27Z | 2026-07-21T22:19:27Z | auto-backfilled: velocity × points (missing work log); shared-batch: 0min rollup (children hold allocation) |
+| 2 | Marco Mendão | 2026-07-21T23:05:18Z | 2026-07-21T23:20:34Z | auto-recovered: commit span |
 

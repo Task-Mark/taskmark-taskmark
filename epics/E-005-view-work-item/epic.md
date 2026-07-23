@@ -17,16 +17,23 @@ session_cap_minutes: 480
 parent: null
 epic: null
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, detail, sheet]
 created: 2026-07-21
-updated: 2026-07-23T16:33:36.080Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
 actual_ms: 2654000
 ---
-
 # E-005: View work item
 
 ## Goal
@@ -64,18 +71,18 @@ Let users open any work item (epic, user story, or task) in a dedicated view mod
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| e890d82 | taskmark-taskmark | 2026-07-21T23:52:01Z | add e-005 view work item board |
-| 5756d6a | taskmark-frontend | 2026-07-22T00:00:33Z | add work item detail sheet |
-| cedb561 | taskmark-taskmark | 2026-07-22T00:00:33Z | sync taskmark board |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| e890d82 | taskmark-taskmark | 2026-07-21T23:52:01Z | Marco Mendão | add e-005 view work item board |
+| 5756d6a | taskmark-frontend | 2026-07-22T00:00:33Z | Marco Mendão | add work item detail sheet |
+| cedb561 | taskmark-taskmark | 2026-07-22T00:00:33Z | Marco Mendão | sync taskmark board |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:53:57Z | Delivered as part of E-005; shared-batch: 0ms rollup (children hold allocation) |
-| 1 | agent | 2026-07-21T23:53:57Z | 2026-07-21T23:56:38Z | Implemented work item detail sheets (S-018–S-022) |
+| 1 | Marco Mendão | 2026-07-21T23:53:57Z | 2026-07-21T23:53:57Z | Delivered as part of E-005; shared-batch: 0ms rollup (children hold allocation) |
+| 1 | Marco Mendão | 2026-07-21T23:53:57Z | 2026-07-21T23:56:38Z | Implemented work item detail sheets (S-018–S-022) |
 
 ## Tasks
 

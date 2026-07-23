@@ -17,15 +17,24 @@ session_cap_minutes: 480
 parent: E-008
 epic: E-008
 owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, general, lists]
 created: 2026-07-23
-updated: 2026-07-23T16:40:51Z
+updated: 2026-07-23T17:36:48Z
 started_at: 2026-07-23T16:32:13Z
 completed_at: 2026-07-23T16:34:23Z
 actual_ms: 130000
 ---
+
 # T-110: Hide empty General epic and show child progress bars
 
 ## Description
@@ -42,19 +51,19 @@ On Overall lists: hide the General epic when it has no stories and no tasks/bugs
 
 ## Prompt & feedback log
 
-| # | When (UTC) | Kind | Summary |
-|---|------------|------|---------|
-| 1 | 2026-07-23T16:32:13Z | prompt | hide empty General; progress bars instead of complete status; hide toggle unchanged |
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-23T16:32:13Z | prompt | Marco Mendão | hide empty General; progress bars instead of complete status; hide toggle unchanged |
 
 ## Commits
 
-| SHA | Repo | Date (UTC) | Message |
-|-----|------|------------|---------|
-| 767515a | taskmark-taskmark | 2026-07-23T16:40:51Z | complete t-110 progress bars board |
-| e3e8c71 | taskmark-frontend | 2026-07-23T16:40:51Z | add epic story progress bars |
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+| 767515a | taskmark-taskmark | 2026-07-23T16:40:51Z | Marco Mendão | complete t-110 progress bars board |
+| e3e8c71 | taskmark-frontend | 2026-07-23T16:40:51Z | Marco Mendão | add epic story progress bars |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | agent | 2026-07-23T16:32:13Z | 2026-07-23T16:34:23Z | Hide empty General; progress bars on epic/story lists |
+| 1 | Marco Mendão | 2026-07-23T16:32:13Z | 2026-07-23T16:34:23Z | Hide empty General; progress bars on epic/story lists |
