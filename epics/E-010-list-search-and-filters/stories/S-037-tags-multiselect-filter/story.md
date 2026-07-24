@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, filters, tags]
 created: 2026-07-23
-updated: 2026-07-23T17:36:48Z
+updated: 2026-07-24T16:49:37.998Z
 started_at: 2026-07-23T16:00:49Z
 completed_at: 2026-07-23T16:03:09Z
 actual_ms: 19000
 ---
-
 # S-037: Tags multiselect filter
 
 ## User story

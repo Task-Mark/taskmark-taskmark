@@ -28,11 +28,12 @@ blocked: false
 cancelled: false
 tags: [mvp, cookie, navigation]
 created: 2026-07-21
-updated: 2026-07-23T17:36:48Z
+updated: 2026-07-24T16:49:37.998Z
 started_at: 2026-07-21T16:59:31Z
 completed_at: 2026-07-21T17:02:25Z
 actual_ms: 724000
 ---
+
 # T-010: Persist active project and filter epic list
 
 ## Description

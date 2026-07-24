@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, search]
 created: 2026-07-23
-updated: 2026-07-23T17:36:48Z
+updated: 2026-07-24T16:49:37.998Z
 started_at: 2026-07-23T16:00:49Z
 completed_at: 2026-07-23T16:03:09Z
 actual_ms: 12000
 ---
+
 # T-095: Define search match helpers and filter types
 
 ## Description

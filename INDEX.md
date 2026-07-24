@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-23T17:34:40.417Z
+Last synced: 2026-07-24T16:49:38.130Z
 
 ## Epics
 
@@ -17,6 +17,7 @@ Last synced: 2026-07-23T17:34:40.417Z
 | E-009 | List pagination for work items | done | — | 15 | 230 | 13 | [epic.md](epics/E-009-list-pagination/epic.md) |
 | E-010 | List search and filters | done | — | 26 | 400 | 16 | [epic.md](epics/E-010-list-search-and-filters/epic.md) |
 | E-011 | Git identity contributors and avatars | done | — | 33 | 515 | 8 | [epic.md](epics/E-011-git-identity-contributors/epic.md) |
+| E-012 | Timeframe filters for solved work items | done | — | 32 | 515 | 10 | [epic.md](epics/E-012-timeframe-filters/epic.md) |
 
 ## Stories
 
@@ -65,6 +66,9 @@ Last synced: 2026-07-23T17:34:40.417Z
 | S-041 | README contributors | E-011 | done | M | 5 | 80 | 1 | [story.md](epics/E-011-git-identity-contributors/stories/S-041-readme-contributors/story.md) |
 | S-042 | Initials avatars on work item lists | E-011 | done | L | 9 | 140 | 2 | [story.md](epics/E-011-git-identity-contributors/stories/S-042-list-initials-avatars/story.md) |
 | S-043 | Authors on activity logs | E-011 | done | M | 6 | 90 | 3 | [story.md](epics/E-011-git-identity-contributors/stories/S-043-authors-on-activity-logs/story.md) |
+| S-044 | Shared timeframe filter plumbing | E-012 | done | L | 7 | 110 | 1 | [story.md](epics/E-012-timeframe-filters/stories/S-044-shared-timeframe-filter-plumbing/story.md) |
+| S-045 | Year and week number filter | E-012 | done | L | 8 | 130 | 1 | [story.md](epics/E-012-timeframe-filters/stories/S-045-year-and-week-number-filter/story.md) |
+| S-046 | Date range picker filter | E-012 | done | M | 6 | 100 | 1 | [story.md](epics/E-012-timeframe-filters/stories/S-046-date-range-picker-filter/story.md) |
 
 ## Open work sessions
 
@@ -206,3 +210,17 @@ Last synced: 2026-07-23T17:34:40.417Z
 | T-123 | Show authors on Commits table | S-043 | done | S | 2 | 30 | 1 | [T-123](epics/E-011-git-identity-contributors/stories/S-043-authors-on-activity-logs/items/T-123-authors-on-commits.md) |
 | T-124 | Show authors on Work log | S-043 | done | S | 2 | 30 | 1 | [T-124](epics/E-011-git-identity-contributors/stories/S-043-authors-on-activity-logs/items/T-124-authors-on-work-log.md) |
 | T-125 | Show authors on Prompt and feedback | S-043 | done | S | 2 | 30 | 1 | [T-125](epics/E-011-git-identity-contributors/stories/S-043-authors-on-activity-logs/items/T-125-authors-on-prompt-feedback.md) |
+| T-126 | Define timeframe filter types and solved-date helpers | S-044 | done | S | 2 | 30 | 0 | [T-126](epics/E-012-timeframe-filters/stories/S-044-shared-timeframe-filter-plumbing/items/T-126-timeframe-filter-types-and-helpers.md) |
+| T-127 | Wire timeframe into list filters and pagination | S-044 | done | M | 3 | 50 | 0 | [T-127](epics/E-012-timeframe-filters/stories/S-044-shared-timeframe-filter-plumbing/items/T-127-wire-timeframe-into-list-filters.md) |
+| T-128 | Add timeframe controls slot to list filters bar | S-044 | done | S | 2 | 30 | 0 | [T-128](epics/E-012-timeframe-filters/stories/S-044-shared-timeframe-filter-plumbing/items/T-128-timeframe-filter-bar-slot.md) |
+| T-129 | Derive available years and week bounds from board | S-045 | done | S | 2 | 30 | 0 | [T-129](epics/E-012-timeframe-filters/stories/S-045-year-and-week-number-filter/items/T-129-derive-years-and-week-bounds.md) |
+| T-130 | Build week number range slider UI | S-045 | done | M | 3 | 50 | 0 | [T-130](epics/E-012-timeframe-filters/stories/S-045-year-and-week-number-filter/items/T-130-week-number-range-slider.md) |
+| T-131 | Year dropdown and apply week filter to lists | S-045 | done | M | 3 | 50 | 0 | [T-131](epics/E-012-timeframe-filters/stories/S-045-year-and-week-number-filter/items/T-131-year-dropdown-and-week-filter.md) |
+| T-132 | Build date range picker UI | S-046 | done | M | 3 | 50 | 0 | [T-132](epics/E-012-timeframe-filters/stories/S-046-date-range-picker-filter/items/T-132-date-range-picker-ui.md) |
+| T-133 | Apply date range filter to solved items on lists | S-046 | done | M | 3 | 50 | 0 | [T-133](epics/E-012-timeframe-filters/stories/S-046-date-range-picker-filter/items/T-133-apply-date-range-to-lists.md) |
+| T-134 | Move timeframe controls to card header | E-012 | done | S | 2 | 30 | 0 | [T-134](epics/E-012-timeframe-filters/items/T-134-move-timeframe-controls-to-card-header.md) |
+| T-135 | Week picker dropdown with optional range slider | E-012 | done | M | 3 | 50 | 1 | [T-135](epics/E-012-timeframe-filters/items/T-135-week-picker-dropdown-with-range-slider.md) |
+| T-136 | Highlight and quick-select current week in picker | E-012 | done | XS | 1 | 15 | 0 | [T-136](epics/E-012-timeframe-filters/items/T-136-highlight-current-week-in-picker.md) |
+| T-137 | Mark prev/next weeks and widen week slider | E-012 | done | XS | 1 | 15 | 0 | [T-137](epics/E-012-timeframe-filters/items/T-137-mark-prev-next-weeks-widen-slider.md) |
+| T-138 | Scroll week picker to current week; distinct prev/next colors | E-012 | done | XS | 1 | 15 | 0 | [T-138](epics/E-012-timeframe-filters/items/T-138-scroll-to-current-week-distinct-colors.md) |
+| T-139 | Week/day completion counts and prev/next opacity | E-012 | done | M | 3 | 50 | 2 | [T-139](epics/E-012-timeframe-filters/items/T-139-week-day-completion-counts-opacity.md) |
