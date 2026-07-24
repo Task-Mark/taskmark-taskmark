@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [filters, timeframe, weeks, frontend, ui]
 created: 2026-07-24
-updated: 2026-07-24T16:57:53.518Z
+updated: 2026-07-24T17:00:21Z
 started_at: 2026-07-24T16:57:13Z
 completed_at: 2026-07-24T16:58:20Z
 actual_ms: 67000
@@ -61,6 +61,8 @@ Follow-up polish on E-012.
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| d010f70 | taskmark-frontend | 2026-07-24T17:00:20Z | Marco Mendão | use dual week dropdown for range filter |
+| efa533f | taskmark-taskmark | 2026-07-24T17:00:20Z | Marco Mendão | complete t-140 week range dual dropdown |
 
 ## Work log
 

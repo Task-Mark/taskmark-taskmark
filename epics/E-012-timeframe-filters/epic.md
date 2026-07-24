@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, filters, timeframe]
 created: 2026-07-23
-updated: 2026-07-24T16:57:53.518Z
+updated: 2026-07-24T17:00:21Z
 started_at: 2026-07-24T16:02:37Z
 completed_at: 2026-07-24T16:06:21Z
 actual_ms: 711000
@@ -81,6 +81,8 @@ Let users narrow epics, stories, tasks, and bugs to those **solved** in a chosen
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| d010f70 | taskmark-frontend | 2026-07-24T17:00:20Z | Marco Mendão | use dual week dropdown for range filter |
+| efa533f | taskmark-taskmark | 2026-07-24T17:00:20Z | Marco Mendão | complete t-140 week range dual dropdown |
 | f85e61c | taskmark-frontend | 2026-07-24T16:54:00Z | Marco Mendão | add timeframe filters for solved work items |
 | ea2c152 | taskmark-taskmark | 2026-07-24T16:54:00Z | Marco Mendão | complete e-012 timeframe filters |
 
