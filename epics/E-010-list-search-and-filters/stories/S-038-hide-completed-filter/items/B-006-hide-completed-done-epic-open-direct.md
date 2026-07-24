@@ -70,6 +70,9 @@ After adding a backlog epic-direct task (e.g. T-159) under a previously complete
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 80b848a | taskmark-frontend | 2026-07-24T17:40:19Z | Marco Mendão | fix hide-completed for open epic children |
+| 55bf8d5 | taskmark-cursor | 2026-07-24T17:40:19Z | Marco Mendão | document reopen parent on new child |
+| f6aa2da | taskmark-taskmark | 2026-07-24T17:40:19Z | Marco Mendão | add t-160 and sync board |
 
 ## Work log
 
