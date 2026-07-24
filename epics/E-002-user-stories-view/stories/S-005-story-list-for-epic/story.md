@@ -28,7 +28,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, stories, epics]
 created: 2026-07-21
-updated: 2026-07-24T17:14:20.339Z
+updated: 2026-07-24T17:39:50.198Z
 started_at: 2026-07-21T17:45:49Z
 completed_at: 2026-07-21T17:48:46Z
 actual_ms: 2880000

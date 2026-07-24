@@ -28,7 +28,7 @@ blocked: false
 cancelled: false
 tags: [parser, tasks]
 created: 2026-07-21
-updated: 2026-07-24T17:14:20.339Z
+updated: 2026-07-24T17:39:50.198Z
 started_at: 2026-07-21T18:00:53Z
 completed_at: 2026-07-21T18:02:46Z
 actual_ms: 15706000

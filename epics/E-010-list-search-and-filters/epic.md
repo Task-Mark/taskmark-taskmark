@@ -7,9 +7,9 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 26
+points: 28
 points_source: rolled_up
-estimate_minutes: 400
+estimate_minutes: 430
 actual_minutes: 16
 estimate_source: rolled_up
 estimate_basis: [sum:children]
@@ -29,9 +29,9 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, search, filters]
 created: 2026-07-23
-updated: 2026-07-24T17:14:20.339Z
+updated: 2026-07-24T17:39:50.198Z
 started_at: 2026-07-23T16:00:49Z
-completed_at: 2026-07-23T16:03:09Z
+completed_at: 2026-07-24T17:38:52Z
 actual_ms: 1004000
 ---
 

@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, pagination]
 created: 2026-07-23
-updated: 2026-07-24T17:14:20.339Z
+updated: 2026-07-24T17:39:50.198Z
 started_at: 2026-07-23T15:35:42Z
 completed_at: 2026-07-23T15:41:41Z
 actual_ms: 808000

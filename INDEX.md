@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-24T17:14:20.494Z
+Last synced: 2026-07-24T17:39:50.316Z
 
 ## Epics
 
@@ -10,15 +10,16 @@ Last synced: 2026-07-24T17:14:20.494Z
 | E-002 | User stories view | done | — | 11 | 1265 | 831 | [epic.md](epics/E-002-user-stories-view/epic.md) |
 | E-003 | Refactor Taskmark project structure | done | — | 31 | 443 | 496 | [epic.md](epics/E-003-refactor-taskmark-project-structure/epic.md) |
 | E-004 | Refactor speed and estimation | done | — | 52 | 682 | 688 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
-| E-005 | View work item | done | — | 37 | 555 | 44 | [epic.md](epics/E-005-view-work-item/epic.md) |
-| E-006 | New work item list views | done | — | 42 | 590 | 486 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
+| E-005 | View work item | in_progress | — | 40 | 600 | 44 | [epic.md](epics/E-005-view-work-item/epic.md) |
+| E-006 | New work item list views | in_progress | — | 45 | 635 | 486 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
 | E-007 | Optional hierarchy and General epic | done | — | 15 | 230 | 40 | [epic.md](epics/E-007-optional-hierarchy-general-epic/epic.md) |
 | E-008 | General | done | — | 3 | 48 | 2 | [epic.md](epics/E-008-general/epic.md) |
 | E-009 | List pagination for work items | done | — | 15 | 230 | 13 | [epic.md](epics/E-009-list-pagination/epic.md) |
-| E-010 | List search and filters | done | — | 26 | 400 | 16 | [epic.md](epics/E-010-list-search-and-filters/epic.md) |
+| E-010 | List search and filters | done | — | 28 | 430 | 16 | [epic.md](epics/E-010-list-search-and-filters/epic.md) |
 | E-011 | Git identity contributors and avatars | done | — | 33 | 515 | 8 | [epic.md](epics/E-011-git-identity-contributors/epic.md) |
 | E-012 | Timeframe filters for solved work items | done | — | 34 | 545 | 11 | [epic.md](epics/E-012-timeframe-filters/epic.md) |
-| E-013 | Table sort functionalities | backlog | — | 0 | 0 | 0 | [epic.md](epics/E-013-table-sort-functionalities/epic.md) |
+| E-013 | Table sort functionalities | backlog | — | 16 | 240 | 0 | [epic.md](epics/E-013-table-sort-functionalities/epic.md) |
+| E-014 | Zero-config local board UI package | backlog | — | 27 | 405 | 0 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
 
 ## Stories
 
@@ -61,7 +62,7 @@ Last synced: 2026-07-24T17:14:20.494Z
 | S-035 | Search on Work items list | E-010 | done | S | 2 | 30 | 0 | [story.md](epics/E-010-list-search-and-filters/stories/S-035-work-items-search/story.md) |
 | S-036 | Parent epic/story autocomplete filter | E-010 | done | L | 6 | 95 | 4 | [story.md](epics/E-010-list-search-and-filters/stories/S-036-parent-autocomplete-filter/story.md) |
 | S-037 | Tags multiselect filter | E-010 | done | S | 3 | 50 | 0 | [story.md](epics/E-010-list-search-and-filters/stories/S-037-tags-multiselect-filter/story.md) |
-| S-038 | Hide completed filter | E-010 | done | M | 5 | 75 | 2 | [story.md](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/story.md) |
+| S-038 | Hide completed filter | E-010 | done | L | 7 | 105 | 3 | [story.md](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/story.md) |
 | S-039 | Git identity data model | E-011 | done | M | 5 | 75 | 0 | [story.md](epics/E-011-git-identity-contributors/stories/S-039-git-identity-data-model/story.md) |
 | S-040 | Capture git user on create and resolve | E-011 | done | L | 8 | 130 | 2 | [story.md](epics/E-011-git-identity-contributors/stories/S-040-capture-git-user-on-create-resolve/story.md) |
 | S-041 | README contributors | E-011 | done | M | 5 | 80 | 1 | [story.md](epics/E-011-git-identity-contributors/stories/S-041-readme-contributors/story.md) |
@@ -70,6 +71,12 @@ Last synced: 2026-07-24T17:14:20.494Z
 | S-044 | Shared timeframe filter plumbing | E-012 | done | L | 7 | 110 | 1 | [story.md](epics/E-012-timeframe-filters/stories/S-044-shared-timeframe-filter-plumbing/story.md) |
 | S-045 | Year and week number filter | E-012 | done | L | 8 | 130 | 1 | [story.md](epics/E-012-timeframe-filters/stories/S-045-year-and-week-number-filter/story.md) |
 | S-046 | Date range picker filter | E-012 | done | M | 6 | 100 | 1 | [story.md](epics/E-012-timeframe-filters/stories/S-046-date-range-picker-filter/story.md) |
+| S-047 | Shared table sort plumbing | E-013 | backlog | M | 5 | 75 | 0 | [story.md](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/story.md) |
+| S-048 | Sort Overall drill-down lists | E-013 | backlog | M | 6 | 90 | 0 | [story.md](epics/E-013-table-sort-functionalities/stories/S-048-sort-overall-lists/story.md) |
+| S-049 | Sort Work items list | E-013 | backlog | M | 5 | 75 | 0 | [story.md](epics/E-013-table-sort-functionalities/stories/S-049-sort-work-items-list/story.md) |
+| S-050 | Zero-config board binding from env and cwd | E-014 | backlog | L | 9 | 135 | 0 | [story.md](epics/E-014-zero-config-local-board-ui/stories/S-050-zero-config-board-binding/story.md) |
+| S-051 | Publishable npm CLI for local board UI | E-014 | backlog | XL | 13 | 195 | 0 | [story.md](epics/E-014-zero-config-local-board-ui/stories/S-051-publishable-npm-cli/story.md) |
+| S-052 | Board init one-command UI launch | E-014 | backlog | M | 5 | 75 | 0 | [story.md](epics/E-014-zero-config-local-board-ui/stories/S-052-board-init-one-command-ui/story.md) |
 
 ## Open work sessions
 
@@ -165,6 +172,7 @@ Last synced: 2026-07-24T17:14:20.494Z
 | T-078 | Seed and ensure General epic on boards | S-029 | done | S | 2 | 30 | 1 | [T-078](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/T-078-seed-ensure-general-epic.md) |
 | T-079 | Show General epic with unattached items in UI | S-029 | done | M | 3 | 45 | 1 | [T-079](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/T-079-ui-general-epic-unattached.md) |
 | B-005 | Tasks and bugs cannot live under an epic without a story | S-029 | done | S | 2 | 35 | 36 | [B-005](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/B-005-epic-direct-tasks-without-story.md) |
+| B-006 | Hide completed hides done epics that still have open epic-direct work | S-038 | done | S | 2 | 30 | 0 | [B-006](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/items/B-006-hide-completed-done-epic-open-direct.md) |
 | T-080 | Add task and bug totals on epic and story lists | E-006 | done | S | 2 | 50 | 49 | [T-080](epics/E-006-new-work-item-list-views/items/T-080-task-bug-totals-on-lists.md) |
 | T-081 | Count work items (stories, tasks, bugs) on epic and story lists | E-006 | done | M | 3 | 5 | 3 | [T-081](epics/E-006-new-work-item-list-views/items/T-081-work-item-totals-on-lists.md) |
 | T-083 | Wider detail sheet with epic and story children | E-005 | done | M | 3 | 5 | 3 | [T-083](epics/E-005-view-work-item/items/T-083-sheet-width-and-children.md) |
@@ -226,3 +234,22 @@ Last synced: 2026-07-24T17:14:20.494Z
 | T-138 | Scroll week picker to current week; distinct prev/next colors | E-012 | done | XS | 1 | 15 | 0 | [T-138](epics/E-012-timeframe-filters/items/T-138-scroll-to-current-week-distinct-colors.md) |
 | T-139 | Week/day completion counts and prev/next opacity | E-012 | done | M | 3 | 50 | 2 | [T-139](epics/E-012-timeframe-filters/items/T-139-week-day-completion-counts-opacity.md) |
 | T-140 | Week range dual dropdown instead of slider | E-012 | done | S | 2 | 30 | 1 | [T-140](epics/E-012-timeframe-filters/items/T-140-week-range-dual-dropdown.md) |
+| T-142 | Define sort keys, comparators, and types | S-047 | backlog | S | 2 | 30 | 0 | [T-142](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/items/T-142-sort-keys-comparators-types.md) |
+| T-143 | Build shared sortable table header UI | S-047 | backlog | M | 3 | 45 | 0 | [T-143](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/items/T-143-sortable-table-header-ui.md) |
+| T-144 | Sort epic list by id and title | S-048 | backlog | S | 2 | 30 | 0 | [T-144](epics/E-013-table-sort-functionalities/stories/S-048-sort-overall-lists/items/T-144-sort-epic-list.md) |
+| T-145 | Sort story list by id, title, and size | S-048 | backlog | S | 2 | 30 | 0 | [T-145](epics/E-013-table-sort-functionalities/stories/S-048-sort-overall-lists/items/T-145-sort-story-list.md) |
+| T-146 | Sort task list by id, title, and size | S-048 | backlog | S | 2 | 30 | 0 | [T-146](epics/E-013-table-sort-functionalities/stories/S-048-sort-overall-lists/items/T-146-sort-task-list.md) |
+| T-147 | Sort work items by id, title, size, and epic | S-049 | backlog | M | 3 | 45 | 0 | [T-147](epics/E-013-table-sort-functionalities/stories/S-049-sort-work-items-list/items/T-147-sort-work-items-list.md) |
+| T-148 | Compose sort with filters and pagination | S-049 | backlog | S | 2 | 30 | 0 | [T-148](epics/E-013-table-sort-functionalities/stories/S-049-sort-work-items-list/items/T-148-compose-sort-filters-pagination.md) |
+| T-149 | Add TASKMARK_BOARD and TASKMARK_MASTER env resolution | S-050 | backlog | S | 2 | 30 | 0 | [T-149](epics/E-014-zero-config-local-board-ui/stories/S-050-zero-config-board-binding/items/T-149-env-board-master-resolution.md) |
+| T-150 | Resolve board from cwd layouts | S-050 | backlog | S | 2 | 30 | 0 | [T-150](epics/E-014-zero-config-local-board-ui/stories/S-050-zero-config-board-binding/items/T-150-resolve-board-from-cwd.md) |
+| T-151 | Skip setup wizard when auto-config is valid | S-050 | backlog | M | 3 | 45 | 0 | [T-151](epics/E-014-zero-config-local-board-ui/stories/S-050-zero-config-board-binding/items/T-151-skip-setup-when-autoconfig.md) |
+| T-152 | Prefer env and cwd over cookies when auto-config present | S-050 | backlog | S | 2 | 30 | 0 | [T-152](epics/E-014-zero-config-local-board-ui/stories/S-050-zero-config-board-binding/items/T-152-prefer-autoconfig-over-cookies.md) |
+| T-153 | Configure Next standalone output for packaging | S-051 | backlog | M | 3 | 45 | 0 | [T-153](epics/E-014-zero-config-local-board-ui/stories/S-051-publishable-npm-cli/items/T-153-next-standalone-output.md) |
+| T-154 | Create publishable package with CLI bin | S-051 | backlog | L | 5 | 75 | 0 | [T-154](epics/E-014-zero-config-local-board-ui/stories/S-051-publishable-npm-cli/items/T-154-publishable-package-bin.md) |
+| T-155 | CLI starts server and opens browser | S-051 | backlog | M | 3 | 45 | 0 | [T-155](epics/E-014-zero-config-local-board-ui/stories/S-051-publishable-npm-cli/items/T-155-cli-start-open-browser.md) |
+| T-156 | Document npx and npm start usage | S-051 | backlog | S | 2 | 30 | 0 | [T-156](epics/E-014-zero-config-local-board-ui/stories/S-051-publishable-npm-cli/items/T-156-document-npx-npm-start.md) |
+| T-157 | Document one-command UI launch on board init | S-052 | backlog | M | 3 | 45 | 0 | [T-157](epics/E-014-zero-config-local-board-ui/stories/S-052-board-init-one-command-ui/items/T-157-document-one-command-on-init.md) |
+| T-158 | Optional stub package.json for npm start | S-052 | backlog | S | 2 | 30 | 0 | [T-158](epics/E-014-zero-config-local-board-ui/stories/S-052-board-init-one-command-ui/items/T-158-optional-stub-package-json.md) |
+| T-159 | Materialized detail sheet route with back navigation | E-005 | backlog | M | 3 | 45 | 0 | [T-159](epics/E-005-view-work-item/items/T-159-materialized-detail-sheet-route.md) |
+| T-160 | Remake Overall work items and sub tasks lists | E-006 | backlog | M | 3 | 45 | 0 | [T-160](epics/E-006-new-work-item-list-views/items/T-160-overall-work-items-and-sub-tasks.md) |

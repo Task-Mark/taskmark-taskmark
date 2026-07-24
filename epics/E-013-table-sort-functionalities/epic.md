@@ -7,9 +7,9 @@ priority: medium
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 0
+points: 16
 points_source: rolled_up
-estimate_minutes: 0
+estimate_minutes: 240
 actual_minutes: 0
 estimate_source: rolled_up
 estimate_basis: [sum:children]
@@ -26,7 +26,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-24
-updated: 2026-07-24T17:14:20.339Z
+updated: 2026-07-24T17:39:50.198Z
 started_at: null
 completed_at: null
 actual_ms: 0
@@ -57,6 +57,10 @@ Let users sort work-item tables by epic, size, title, and id so they can quickly
 - Active sort is obvious; clearing or switching columns behaves predictably with filters and pagination.
 
 ## Stories
+
+- [S-047: Shared table sort plumbing](stories/S-047-shared-table-sort-plumbing/story.md)
+- [S-048: Sort Overall drill-down lists](stories/S-048-sort-overall-lists/story.md)
+- [S-049: Sort Work items list](stories/S-049-sort-work-items-list/story.md)
 
 ## Commits
 

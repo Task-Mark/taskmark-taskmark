@@ -4,13 +4,13 @@ type: story
 title: Hide completed filter
 status: done
 priority: high
-size: M
+size: L
 size_source: rolled_up
 size_basis: [sum:tasks]
-points: 5
+points: 7
 points_source: rolled_up
-estimate_minutes: 75
-actual_minutes: 2
+estimate_minutes: 105
+actual_minutes: 3
 estimate_source: rolled_up
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -29,10 +29,10 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, filters]
 created: 2026-07-23
-updated: 2026-07-24T17:14:20.339Z
+updated: 2026-07-24T17:39:50.198Z
 started_at: 2026-07-23T16:00:49Z
-completed_at: 2026-07-23T16:16:45Z
-actual_ms: 154000
+completed_at: 2026-07-24T17:38:52Z
+actual_ms: 205000
 ---
 
 # S-038: Hide completed filter
@@ -53,6 +53,7 @@ As a user, I want to hide completed epics, stories, and tasks/bugs, so open work
 - [T-103: Hide completed control on all lists](items/T-103-hide-completed-filter.md)
 - [T-106: Hide completed control as switch](items/T-106-hide-completed-switch.md)
 - [T-104: Compose filters with pagination reset](items/T-104-compose-filters-pagination.md)
+- [B-006: Hide completed hides done epics that still have open epic-direct work](items/B-006-hide-completed-done-epic-open-direct.md)
 
 ## Prompt & feedback log
 
