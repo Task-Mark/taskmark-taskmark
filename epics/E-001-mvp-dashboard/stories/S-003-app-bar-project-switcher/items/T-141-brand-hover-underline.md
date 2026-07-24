@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [app-bar, brand, ui]
 created: 2026-07-24
-updated: 2026-07-24T17:14:44Z
+updated: 2026-07-24T17:16:42Z
 started_at: 2026-07-24T17:06:11Z
 completed_at: 2026-07-24T17:14:20Z
 actual_ms: 489000
@@ -63,6 +63,7 @@ UI polish on the app bar brand mark.
 | 6 | 2026-07-24T17:11:07Z | prompt | Marco Mendão | Tilt the Taskmark text a little on hover |
 | 7 | 2026-07-24T17:12:30Z | prompt | Marco Mendão | Shift projects/workspaces line down on hover so tilt does not collide |
 | 8 | 2026-07-24T17:13:12Z | prompt | Marco Mendão | Add logo.png aligned with Taskmark text and projects/workspaces line |
+| 9 | 2026-07-24T17:15:02Z | prompt | Marco Mendão | Expand logo a little on text hover; keep logo from colliding with text |
 
 ## Commits
 
@@ -70,6 +71,7 @@ UI polish on the app bar brand mark.
 |-----|------|------------|--------|---------|
 | 316e73a | taskmark-frontend | 2026-07-24T17:14:23Z | Marco Mendão | add brand logo and hover underline |
 | 8c8d50e | taskmark-taskmark | 2026-07-24T17:14:44Z | Marco Mendão | complete t-141 brand hover underline |
+| 3aec186 | taskmark-frontend | 2026-07-24T17:16:42Z | Marco Mendão | expand logo on brand hover |
 
 ## Work log
 
