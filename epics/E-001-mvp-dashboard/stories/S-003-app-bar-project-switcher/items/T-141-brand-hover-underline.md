@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [app-bar, brand, ui]
 created: 2026-07-24
-updated: 2026-07-24T17:14:28Z
+updated: 2026-07-24T17:14:44Z
 started_at: 2026-07-24T17:06:11Z
 completed_at: 2026-07-24T17:14:20Z
 actual_ms: 489000
@@ -69,6 +69,7 @@ UI polish on the app bar brand mark.
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
 | 316e73a | taskmark-frontend | 2026-07-24T17:14:23Z | Marco Mendão | add brand logo and hover underline |
+| 8c8d50e | taskmark-taskmark | 2026-07-24T17:14:44Z | Marco Mendão | complete t-141 brand hover underline |
 
 ## Work log
 
