@@ -72,6 +72,7 @@ UI polish on the app bar brand mark.
 | 316e73a | taskmark-frontend | 2026-07-24T17:14:23Z | Marco Mendão | add brand logo and hover underline |
 | 8c8d50e | taskmark-taskmark | 2026-07-24T17:14:44Z | Marco Mendão | complete t-141 brand hover underline |
 | 3aec186 | taskmark-frontend | 2026-07-24T17:16:42Z | Marco Mendão | expand logo on brand hover |
+| 3a846df | taskmark-taskmark | 2026-07-24T17:16:42Z | Marco Mendão | log t-141 logo hover scale |
 
 ## Work log
 
