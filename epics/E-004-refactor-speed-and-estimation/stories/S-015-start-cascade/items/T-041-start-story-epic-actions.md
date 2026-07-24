@@ -28,12 +28,11 @@ blocked: false
 cancelled: false
 tags: [start-work, cascade, status]
 created: 2026-07-21
-updated: 2026-07-24T16:49:37.998Z
+updated: 2026-07-24T16:57:53.518Z
 started_at: 2026-07-21T22:35:27Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 0
 ---
-
 # T-041: Start actions for story and epic
 
 ## Description

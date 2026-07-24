@@ -28,11 +28,12 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation]
 created: 2026-07-21
-updated: 2026-07-24T16:49:37.998Z
+updated: 2026-07-24T16:57:53.518Z
 started_at: 2026-07-21T22:19:27Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 60000
 ---
+
 # T-033: Compute minutes per point for window
 
 ## Description

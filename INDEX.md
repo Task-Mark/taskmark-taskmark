@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-24T16:49:38.130Z
+Last synced: 2026-07-24T16:57:53.694Z
 
 ## Epics
 
@@ -17,7 +17,7 @@ Last synced: 2026-07-24T16:49:38.130Z
 | E-009 | List pagination for work items | done | — | 15 | 230 | 13 | [epic.md](epics/E-009-list-pagination/epic.md) |
 | E-010 | List search and filters | done | — | 26 | 400 | 16 | [epic.md](epics/E-010-list-search-and-filters/epic.md) |
 | E-011 | Git identity contributors and avatars | done | — | 33 | 515 | 8 | [epic.md](epics/E-011-git-identity-contributors/epic.md) |
-| E-012 | Timeframe filters for solved work items | done | — | 32 | 515 | 10 | [epic.md](epics/E-012-timeframe-filters/epic.md) |
+| E-012 | Timeframe filters for solved work items | done | — | 34 | 545 | 11 | [epic.md](epics/E-012-timeframe-filters/epic.md) |
 
 ## Stories
 
@@ -224,3 +224,4 @@ Last synced: 2026-07-24T16:49:38.130Z
 | T-137 | Mark prev/next weeks and widen week slider | E-012 | done | XS | 1 | 15 | 0 | [T-137](epics/E-012-timeframe-filters/items/T-137-mark-prev-next-weeks-widen-slider.md) |
 | T-138 | Scroll week picker to current week; distinct prev/next colors | E-012 | done | XS | 1 | 15 | 0 | [T-138](epics/E-012-timeframe-filters/items/T-138-scroll-to-current-week-distinct-colors.md) |
 | T-139 | Week/day completion counts and prev/next opacity | E-012 | done | M | 3 | 50 | 2 | [T-139](epics/E-012-timeframe-filters/items/T-139-week-day-completion-counts-opacity.md) |
+| T-140 | Week range dual dropdown instead of slider | E-012 | done | S | 2 | 30 | 1 | [T-140](epics/E-012-timeframe-filters/items/T-140-week-range-dual-dropdown.md) |

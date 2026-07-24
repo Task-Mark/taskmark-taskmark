@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 32
+points: 34
 points_source: rolled_up
-estimate_minutes: 515
-actual_minutes: 10
+estimate_minutes: 545
+actual_minutes: 11
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, filters, timeframe]
 created: 2026-07-23
-updated: 2026-07-24T16:49:37.998Z
+updated: 2026-07-24T16:57:53.518Z
 started_at: 2026-07-24T16:02:37Z
 completed_at: 2026-07-24T16:06:21Z
-actual_ms: 644000
+actual_ms: 711000
 ---
+
 # E-012: Timeframe filters for solved work items
 
 ## Goal
@@ -74,6 +75,7 @@ Let users narrow epics, stories, tasks, and bugs to those **solved** in a chosen
 - [T-137: Mark prev/next weeks and widen week slider](items/T-137-mark-prev-next-weeks-widen-slider.md)
 - [T-138: Scroll week picker to current week; distinct prev/next colors](items/T-138-scroll-to-current-week-distinct-colors.md)
 - [T-139: Week/day completion counts and prev/next opacity](items/T-139-week-day-completion-counts-opacity.md)
+- [T-140: Week range dual dropdown instead of slider](items/T-140-week-range-dual-dropdown.md)
 
 ## Commits
 
