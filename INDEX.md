@@ -1,12 +1,12 @@
 # Board index
 
-Last synced: 2026-07-24T16:57:53.694Z
+Last synced: 2026-07-24T17:14:20.494Z
 
 ## Epics
 
 | ID | Title | Status | Size | Points | Est (min) | Actual (min) | Path |
 |----|-------|--------|------|--------|-----------|--------------|------|
-| E-001 | MVP Taskmark dashboard | done | — | 26 | 780 | 440 | [epic.md](epics/E-001-mvp-dashboard/epic.md) |
+| E-001 | MVP Taskmark dashboard | done | — | 27 | 795 | 446 | [epic.md](epics/E-001-mvp-dashboard/epic.md) |
 | E-002 | User stories view | done | — | 11 | 1265 | 831 | [epic.md](epics/E-002-user-stories-view/epic.md) |
 | E-003 | Refactor Taskmark project structure | done | — | 31 | 443 | 496 | [epic.md](epics/E-003-refactor-taskmark-project-structure/epic.md) |
 | E-004 | Refactor speed and estimation | done | — | 52 | 682 | 688 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
@@ -18,6 +18,7 @@ Last synced: 2026-07-24T16:57:53.694Z
 | E-010 | List search and filters | done | — | 26 | 400 | 16 | [epic.md](epics/E-010-list-search-and-filters/epic.md) |
 | E-011 | Git identity contributors and avatars | done | — | 33 | 515 | 8 | [epic.md](epics/E-011-git-identity-contributors/epic.md) |
 | E-012 | Timeframe filters for solved work items | done | — | 34 | 545 | 11 | [epic.md](epics/E-012-timeframe-filters/epic.md) |
+| E-013 | Table sort functionalities | backlog | — | 0 | 0 | 0 | [epic.md](epics/E-013-table-sort-functionalities/epic.md) |
 
 ## Stories
 
@@ -25,7 +26,7 @@ Last synced: 2026-07-24T16:57:53.694Z
 |----|-------|------|--------|------|--------|-----------|--------------|------|
 | S-001 | Project setup wizard | E-001 | done | XL | 13 | 115 | 206 | [story.md](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/story.md) |
 | S-002 | Epic list for selected project | E-001 | done | L | 8 | 155 | 159 | [story.md](epics/E-001-mvp-dashboard/stories/S-002-epic-list/story.md) |
-| S-003 | App bar project switcher | E-001 | done | S | 2 | 30 | 25 | [story.md](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/story.md) |
+| S-003 | App bar project switcher | E-001 | done | S | 3 | 45 | 33 | [story.md](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/story.md) |
 | S-004 | Add project accumulates workspaces | E-001 | done | M | 3 | 480 | 48 | [story.md](epics/E-001-mvp-dashboard/stories/S-004-add-project-accumulate/story.md) |
 | S-005 | Story list for selected epic | E-002 | done | S | 3 | 45 | 48 | [story.md](epics/E-002-user-stories-view/stories/S-005-story-list-for-epic/story.md) |
 | S-006 | Task list for selected story | E-002 | done | L | 8 | 1220 | 783 | [story.md](epics/E-002-user-stories-view/stories/S-006-task-list-for-story/story.md) |

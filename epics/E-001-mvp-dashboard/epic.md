@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 26
+points: 27
 points_source: rolled_up
-estimate_minutes: 780
-actual_minutes: 440
+estimate_minutes: 795
+actual_minutes: 446
 estimate_basis: [sum:children]
 session_cap_minutes: 480
 parent: null
@@ -28,10 +28,10 @@ blocked: false
 cancelled: false
 tags: [mvp, dashboard, frontend]
 created: 2026-07-21
-updated: 2026-07-24T16:57:53.518Z
+updated: 2026-07-24T17:14:20.339Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T17:02:25Z
-actual_ms: 26400000
+actual_ms: 26785000
 estimate_source: rolled_up
 ---
 

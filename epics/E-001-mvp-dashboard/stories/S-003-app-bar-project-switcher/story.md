@@ -7,10 +7,10 @@ priority: high
 size: S
 size_source: rolled_up
 size_basis: [sum:tasks]
-points: 2
+points: 3
 points_source: rolled_up
-estimate_minutes: 30
-actual_minutes: 25
+estimate_minutes: 45
+actual_minutes: 33
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-001
@@ -28,10 +28,10 @@ blocked: false
 cancelled: false
 tags: [mvp, app-bar, navigation]
 created: 2026-07-21
-updated: 2026-07-24T16:57:53.518Z
+updated: 2026-07-24T17:14:20.339Z
 started_at: 2026-07-21T16:59:31Z
 completed_at: 2026-07-21T17:02:25Z
-actual_ms: 1508000
+actual_ms: 1997000
 ---
 # S-003: App bar project switcher
 
@@ -52,6 +52,7 @@ As a user, after I set up a master folder, I want an app bar that lets me switch
 
 - [T-009: Build post-setup app bar UI](items/T-009-app-bar-ui.md)
 - [T-010: Persist active project and filter epic list](items/T-010-active-project-cookie.md)
+- [T-141: Primary hover underline under Taskmark brand](items/T-141-brand-hover-underline.md)
 
 ## Prompt & feedback log
 

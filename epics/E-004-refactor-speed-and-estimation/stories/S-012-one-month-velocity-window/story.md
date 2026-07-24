@@ -28,7 +28,7 @@ blocked: false
 cancelled: false
 tags: [velocity, estimation]
 created: 2026-07-21
-updated: 2026-07-24T16:57:53.518Z
+updated: 2026-07-24T17:14:20.339Z
 started_at: 2026-07-21T21:15:27Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 6720000
