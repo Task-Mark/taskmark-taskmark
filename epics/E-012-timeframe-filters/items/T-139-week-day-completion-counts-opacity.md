@@ -63,6 +63,8 @@ Follow-up polish on E-012.
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| f85e61c | taskmark-frontend | 2026-07-24T16:54:00Z | Marco Mendão | add timeframe filters for solved work items |
+| ea2c152 | taskmark-taskmark | 2026-07-24T16:54:00Z | Marco Mendão | complete e-012 timeframe filters |
 
 ## Work log
 
