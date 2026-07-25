@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, filters, bug]
 created: 2026-07-24
-updated: 2026-07-25T10:24:50.747Z
+updated: 2026-07-25T10:34:45Z
 started_at: 2026-07-24T17:38:01Z
 completed_at: 2026-07-24T17:38:52Z
 actual_ms: 51000
@@ -72,6 +72,8 @@ After adding a backlog epic-direct task (e.g. T-159) under a previously complete
 | 80b848a | taskmark-frontend | 2026-07-24T17:40:19Z | Marco Mendão | fix hide-completed for open epic children |
 | 55bf8d5 | taskmark-cursor | 2026-07-24T17:40:19Z | Marco Mendão | document reopen parent on new child |
 | f6aa2da | taskmark-taskmark | 2026-07-24T17:40:19Z | Marco Mendão | add t-160 and sync board |
+| b66202d | taskmark-frontend | 2026-07-25T11:34:33+01:00 | Marco Mendão | add detail sheet routes and overall work items |
+| 861fc90 | taskmark-taskmark | 2026-07-25T11:34:33+01:00 | Marco Mendão | sync taskmark board |
 
 ## Work log
 

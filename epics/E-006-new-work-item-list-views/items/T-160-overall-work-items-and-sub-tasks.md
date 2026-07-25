@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, overall, workitems]
 created: 2026-07-24
-updated: 2026-07-25T10:24:50.747Z
+updated: 2026-07-25T10:34:45Z
 started_at: 2026-07-24T17:41:23Z
 completed_at: 2026-07-24T17:42:47Z
 actual_ms: 84000
@@ -69,6 +69,8 @@ Builds on S-025 / T-082 Overall drill-down; naming aligns with the Work items ta
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
 | f6aa2da | taskmark-taskmark | 2026-07-24T17:40:19Z | Marco Mendão | add t-160 and sync board |
+| b66202d | taskmark-frontend | 2026-07-25T11:34:33+01:00 | Marco Mendão | add detail sheet routes and overall work items |
+| 861fc90 | taskmark-taskmark | 2026-07-25T11:34:33+01:00 | Marco Mendão | sync taskmark board |
 
 ## Work log
 

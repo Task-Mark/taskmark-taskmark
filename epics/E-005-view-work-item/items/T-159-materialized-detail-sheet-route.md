@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, sheet, detail, routing]
 created: 2026-07-24
-updated: 2026-07-25T10:24:50.747Z
+updated: 2026-07-25T10:34:45Z
 started_at: 2026-07-25T10:18:40Z
 completed_at: 2026-07-25T10:22:08Z
 actual_ms: 208000
@@ -68,6 +68,8 @@ When the user opens another work item from inside a detail sheet (e.g. a child o
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| b66202d | taskmark-frontend | 2026-07-25T11:34:33+01:00 | Marco Mendão | add detail sheet routes and overall work items |
+| 861fc90 | taskmark-taskmark | 2026-07-25T11:34:33+01:00 | Marco Mendão | sync taskmark board |
 
 ## Work log
 
