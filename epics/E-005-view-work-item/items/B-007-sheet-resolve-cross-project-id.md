@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, sheet, routing, bug]
 created: 2026-07-25
-updated: 2026-07-25T10:44:19.816Z
+updated: 2026-07-25T10:45:05Z
 started_at: 2026-07-25T10:43:07Z
 completed_at: 2026-07-25T10:44:19Z
 actual_ms: 72000
@@ -67,6 +67,8 @@ When navigating to a parent via the sheet back control or hierarchy breadcrumb, 
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 5701242 | taskmark-frontend | 2026-07-25T11:45:05+01:00 | Marco Mendão | fix sheet resolve to active board |
+| 6335bfa | taskmark-taskmark | 2026-07-25T11:45:05+01:00 | Marco Mendão | sync taskmark board |
 
 ## Work log
 
