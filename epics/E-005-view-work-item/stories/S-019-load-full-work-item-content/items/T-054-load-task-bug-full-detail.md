@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [parse, frontend, tasks]
 created: 2026-07-21
-updated: 2026-07-25T10:24:50.747Z
+updated: 2026-07-25T10:44:19.816Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
 actual_ms: 18281
 ---
+
 # T-054: Load task and bug full detail by file path
 
 ## Description

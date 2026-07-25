@@ -26,12 +26,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-24
-updated: 2026-07-25T10:24:50.747Z
+updated: 2026-07-25T10:44:19.816Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
-
 # T-143: Build shared sortable table header UI
 
 ## Description

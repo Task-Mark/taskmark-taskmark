@@ -28,12 +28,11 @@ blocked: false
 cancelled: false
 tags: [mvp, app-bar, ui]
 created: 2026-07-21
-updated: 2026-07-25T10:24:50.747Z
+updated: 2026-07-25T10:44:19.816Z
 started_at: 2026-07-21T16:59:31Z
 completed_at: 2026-07-21T17:02:25Z
 actual_ms: 784000
 ---
-
 # T-009: Build post-setup app bar UI
 
 ## Description

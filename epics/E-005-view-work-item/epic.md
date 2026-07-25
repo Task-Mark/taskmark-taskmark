@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 42
+points: 44
 points_source: rolled_up
-estimate_minutes: 590
-actual_minutes: 48
+estimate_minutes: 620
+actual_minutes: 49
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, detail, sheet]
 created: 2026-07-21
-updated: 2026-07-25T10:24:50.747Z
+updated: 2026-07-25T10:44:19.816Z
 started_at: 2026-07-21T23:53:57Z
-completed_at: 2026-07-25T10:24:34Z
-actual_ms: 2907000
+completed_at: 2026-07-25T10:44:19Z
+actual_ms: 2979000
 ---
-
 # E-005: View work item
 
 ## Goal
@@ -92,3 +91,4 @@ Let users open any work item (epic, user story, or task) in a dedicated view mod
 - [x] [T-087](items/T-087-date-fns-format-all-dates.md) — Add date-fns and format all displayed dates
 - [x] [T-159](items/T-159-materialized-detail-sheet-route.md) — Materialized detail sheet route with back navigation
 - [x] [T-161](items/T-161-in-sheet-back-button.md) — In-sheet back button for detail navigation
+- [x] [B-007](items/B-007-sheet-resolve-cross-project-id.md) — Sheet parent/breadcrumb cross-project id collision

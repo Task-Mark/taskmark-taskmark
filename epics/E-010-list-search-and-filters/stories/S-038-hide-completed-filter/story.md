@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, filters]
 created: 2026-07-23
-updated: 2026-07-25T10:24:50.747Z
+updated: 2026-07-25T10:44:19.816Z
 started_at: 2026-07-23T16:00:49Z
 completed_at: 2026-07-24T17:38:52Z
 actual_ms: 205000
 ---
+
 # S-038: Hide completed filter
 
 ## User story

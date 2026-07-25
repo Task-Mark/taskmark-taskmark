@@ -28,12 +28,11 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, naming]
 created: 2026-07-21
-updated: 2026-07-25T10:24:50.747Z
+updated: 2026-07-25T10:44:19.816Z
 started_at: 2026-07-21T22:04:51Z
 completed_at: 2026-07-21T22:36:51Z
 actual_ms: 60000
 ---
-
 # T-020: Derive common project name
 
 ## Description

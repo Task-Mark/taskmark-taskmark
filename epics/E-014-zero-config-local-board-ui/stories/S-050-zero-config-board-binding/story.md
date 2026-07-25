@@ -26,12 +26,11 @@ blocked: false
 cancelled: false
 tags: [frontend, local, config]
 created: 2026-07-24
-updated: 2026-07-25T10:24:50.747Z
+updated: 2026-07-25T10:44:19.816Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
-
 # S-050: Zero-config board binding from env and cwd
 
 ## User story

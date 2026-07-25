@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [actual, work-log, batch, velocity]
 created: 2026-07-22
-updated: 2026-07-25T10:24:50.747Z
+updated: 2026-07-25T10:44:19.816Z
 started_at: 2026-07-22T00:07:36Z
 completed_at: 2026-07-22T00:09:05Z
 actual_ms: 710000
 ---
-
 # S-023: Shared batch actual time split
 
 ## User story

@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-25T10:24:50.846Z
+Last synced: 2026-07-25T10:44:19.960Z
 
 ## Epics
 
@@ -10,7 +10,7 @@ Last synced: 2026-07-25T10:24:50.846Z
 | E-002 | User stories view | done | — | 11 | 1265 | 831 | [epic.md](epics/E-002-user-stories-view/epic.md) |
 | E-003 | Refactor Taskmark project structure | done | — | 31 | 443 | 496 | [epic.md](epics/E-003-refactor-taskmark-project-structure/epic.md) |
 | E-004 | Refactor speed and estimation | done | — | 52 | 682 | 688 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
-| E-005 | View work item | done | — | 42 | 590 | 48 | [epic.md](epics/E-005-view-work-item/epic.md) |
+| E-005 | View work item | done | — | 44 | 620 | 49 | [epic.md](epics/E-005-view-work-item/epic.md) |
 | E-006 | New work item list views | done | — | 45 | 635 | 486 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
 | E-007 | Optional hierarchy and General epic | done | — | 15 | 230 | 40 | [epic.md](epics/E-007-optional-hierarchy-general-epic/epic.md) |
 | E-008 | General | done | — | 3 | 48 | 2 | [epic.md](epics/E-008-general/epic.md) |
@@ -173,6 +173,7 @@ Last synced: 2026-07-25T10:24:50.846Z
 | T-079 | Show General epic with unattached items in UI | S-029 | done | M | 3 | 45 | 1 | [T-079](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/T-079-ui-general-epic-unattached.md) |
 | B-005 | Tasks and bugs cannot live under an epic without a story | S-029 | done | S | 2 | 35 | 36 | [B-005](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/B-005-epic-direct-tasks-without-story.md) |
 | B-006 | Hide completed hides done epics that still have open epic-direct work | S-038 | done | S | 2 | 30 | 0 | [B-006](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/items/B-006-hide-completed-done-epic-open-direct.md) |
+| B-007 | Sheet parent and breadcrumb resolve same id from another project | E-005 | done | S | 2 | 30 | 1 | [B-007](epics/E-005-view-work-item/items/B-007-sheet-resolve-cross-project-id.md) |
 | T-080 | Add task and bug totals on epic and story lists | E-006 | done | S | 2 | 50 | 49 | [T-080](epics/E-006-new-work-item-list-views/items/T-080-task-bug-totals-on-lists.md) |
 | T-081 | Count work items (stories, tasks, bugs) on epic and story lists | E-006 | done | M | 3 | 5 | 3 | [T-081](epics/E-006-new-work-item-list-views/items/T-081-work-item-totals-on-lists.md) |
 | T-083 | Wider detail sheet with epic and story children | E-005 | done | M | 3 | 5 | 3 | [T-083](epics/E-005-view-work-item/items/T-083-sheet-width-and-children.md) |
