@@ -28,11 +28,12 @@ blocked: false
 cancelled: false
 tags: [ui, tasks, dashboard]
 created: 2026-07-21
-updated: 2026-07-24T17:39:50.198Z
+updated: 2026-07-25T10:24:50.747Z
 started_at: 2026-07-21T18:00:53Z
 completed_at: 2026-07-21T18:02:46Z
 actual_ms: 15646000
 ---
+
 # T-015: Build task list UI
 
 ## Description

@@ -9,10 +9,10 @@ size_source: suggested
 size_basis: [T-028, T-156]
 points: 3
 points_source: suggested
-estimate_minutes: 45
+estimate_minutes: 40
 actual_minutes: 0
 estimate_source: suggested
-estimate_basis: [velocity:30d:15min/pt]
+estimate_basis: [velocity:30d:14min/pt]
 session_cap_minutes: 480
 parent: S-052
 epic: E-014
@@ -26,7 +26,7 @@ blocked: false
 cancelled: false
 tags: [plugin, init, docs]
 created: 2026-07-24
-updated: 2026-07-24T17:39:50.198Z
+updated: 2026-07-25T10:24:50.747Z
 started_at: null
 completed_at: null
 actual_ms: 0
@@ -35,11 +35,11 @@ actual_ms: 0
 
 ## Description
 
-Update Taskmark init / board README (and related plugin docs) so a newly created board tells the user how to open the web UI with one command against that board.
+Update Taskmark init / board README (and related plugin docs) so a newly created board tells the user to run `npx taskmark serve` and open `http://localhost:8275`.
 
 ## Acceptance criteria
 
-- [ ] New boards (or init output) include how to run the published UI via `npx` from product or board root.
+- [ ] New boards (or init output) include `npx taskmark serve` and port **8275**.
 - [ ] Nested and flat board layouts are both covered.
 - [ ] Wording does not require cloning `taskmark-frontend`.
 
@@ -50,6 +50,7 @@ Update Taskmark init / board README (and related plugin docs) so a newly created
 | # | When (UTC) | Kind | Author | Summary |
 |---|------------|------|--------|---------|
 | 1 | 2026-07-24T17:26:00Z | prompt | Marco Mendão | Create epic + stories/tasks for zero-config npm/CLI board UI (no Docker) |
+| 2 | 2026-07-25T10:21:15Z | prompt | Marco Mendão | CLI must be `npx taskmark serve`; default port 8275 |
 
 ## Commits
 

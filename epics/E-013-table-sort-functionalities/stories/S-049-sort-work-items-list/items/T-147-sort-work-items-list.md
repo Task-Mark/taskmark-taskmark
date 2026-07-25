@@ -9,10 +9,10 @@ size_source: suggested
 size_basis: [T-100, T-131]
 points: 3
 points_source: suggested
-estimate_minutes: 45
+estimate_minutes: 40
 actual_minutes: 0
 estimate_source: suggested
-estimate_basis: [velocity:30d:15min/pt]
+estimate_basis: [velocity:30d:14min/pt]
 session_cap_minutes: 480
 parent: S-049
 epic: E-013
@@ -26,7 +26,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-24
-updated: 2026-07-24T17:39:50.198Z
+updated: 2026-07-25T10:24:50.747Z
 started_at: null
 completed_at: null
 actual_ms: 0

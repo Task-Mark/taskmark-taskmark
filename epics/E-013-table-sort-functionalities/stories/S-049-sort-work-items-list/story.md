@@ -9,7 +9,7 @@ size_source: rolled_up
 size_basis: [sum:tasks]
 points: 5
 points_source: rolled_up
-estimate_minutes: 75
+estimate_minutes: 70
 actual_minutes: 0
 estimate_source: suggested
 estimate_basis: [sum:tasks]
@@ -26,12 +26,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-24
-updated: 2026-07-24T17:39:50.198Z
+updated: 2026-07-25T10:24:50.747Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
-
 # S-049: Sort Work items list
 
 ## User story

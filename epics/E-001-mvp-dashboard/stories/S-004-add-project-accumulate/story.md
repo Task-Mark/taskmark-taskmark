@@ -28,12 +28,11 @@ blocked: false
 cancelled: false
 tags: [mvp, app-bar, setup]
 created: 2026-07-21
-updated: 2026-07-24T17:39:50.198Z
+updated: 2026-07-25T10:24:50.747Z
 started_at: 2026-07-21T17:05:52Z
 completed_at: 2026-07-21T17:05:52Z
 actual_ms: 2880000
 ---
-
 # S-004: Add project accumulates workspaces
 
 ## User story

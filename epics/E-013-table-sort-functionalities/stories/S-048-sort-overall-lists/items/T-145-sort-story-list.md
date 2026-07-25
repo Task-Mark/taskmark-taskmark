@@ -26,12 +26,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-24
-updated: 2026-07-24T17:39:50.198Z
+updated: 2026-07-25T10:24:50.747Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
-
 # T-145: Sort story list by id, title, and size
 
 ## Description

@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [frontend, views, overall]
 created: 2026-07-22
-updated: 2026-07-24T17:39:50.198Z
+updated: 2026-07-25T10:24:50.747Z
 started_at: 2026-07-23T06:38:57Z
 completed_at: 2026-07-23T06:39:03Z
 actual_ms: 6000
 ---
-
 # T-065: Register Overall as default view mode
 
 ## Description

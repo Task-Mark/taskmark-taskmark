@@ -9,7 +9,7 @@ size_source: rolled_up
 size_basis: [sum:tasks]
 points: 5
 points_source: rolled_up
-estimate_minutes: 75
+estimate_minutes: 70
 actual_minutes: 0
 estimate_source: suggested
 estimate_basis: [sum:tasks]
@@ -26,21 +26,22 @@ blocked: false
 cancelled: false
 tags: [plugin, init, cli, docs]
 created: 2026-07-24
-updated: 2026-07-24T17:39:50.198Z
+updated: 2026-07-25T10:24:50.747Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
+
 # S-052: Board init one-command UI launch
 
 ## User story
 
-As someone whose Cursor/plugin just created a Taskmark board, I want a documented (or scaffolded) one-command way to open the web UI against that board, so the viewer appears without setting up a frontend project.
+As someone whose Cursor/plugin just created a Taskmark board, I want to be told to run `npx taskmark serve` (port 8275) so the web UI opens against that board without setting up a frontend project.
 
 ## Acceptance criteria
 
-- [ ] Board init / README documents how to run the published UI against the new board (`npx` from product root or board root).
-- [ ] Optional stub `package.json` (or equivalent script) can be generated so `npm start` / `npm run taskmark` works after install.
+- [ ] Board init / README documents `npx taskmark serve` and `http://localhost:8275` from product root or board root.
+- [ ] Optional stub `package.json` can expose a script that runs `taskmark serve` (e.g. `"start": "taskmark serve"`).
 - [ ] Instructions cover both nested `taskmark/` and flat dedicated board roots.
 
 ## Tasks
@@ -53,6 +54,7 @@ As someone whose Cursor/plugin just created a Taskmark board, I want a documente
 | # | When (UTC) | Kind | Author | Summary |
 |---|------------|------|--------|---------|
 | 1 | 2026-07-24T17:26:00Z | prompt | Marco Mendão | Create epic + stories/tasks for zero-config npm/CLI board UI (no Docker) |
+| 2 | 2026-07-25T10:21:15Z | prompt | Marco Mendão | CLI must be `npx taskmark serve`; default port 8275 |
 
 ## Commits
 

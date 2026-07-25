@@ -9,7 +9,7 @@ size_source: rolled_up
 size_basis: [sum:tasks]
 points: 13
 points_source: rolled_up
-estimate_minutes: 195
+estimate_minutes: 180
 actual_minutes: 0
 estimate_source: suggested
 estimate_basis: [sum:tasks]
@@ -26,23 +26,25 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm]
 created: 2026-07-24
-updated: 2026-07-24T17:39:50.198Z
+updated: 2026-07-25T10:24:50.747Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
+
 # S-051: Publishable npm CLI for local board UI
 
 ## User story
 
-As a developer with a Taskmark board on disk, I want to run a single npm/npx command that starts the board UI already pointed at that folder, so I do not need to clone or configure `taskmark-frontend`.
+As a developer with a Taskmark board on disk, I want to run `npx taskmark serve` so the board UI starts on port 8275 already pointed at that folder, without cloning or configuring `taskmark-frontend`.
 
 ## Acceptance criteria
 
-- [ ] A publishable package (working name `@taskmark/ui`) exposes a `bin` that starts the prebuilt Next server.
+- [ ] Publishable package exposes bin `taskmark` with subcommand `serve` that starts the prebuilt Next server.
 - [ ] The CLI resolves the board from cwd/env (S-050) before listen.
-- [ ] `npx @taskmark/ui` (or agreed name) opens the UI in the browser against the local board.
-- [ ] README documents install, `npx`, and `npm start` / script usage.
+- [ ] `npx taskmark serve` opens the UI in the browser at `http://localhost:8275` against the local board.
+- [ ] Default listen port is **8275**; override via flag and/or env is allowed.
+- [ ] README documents `npx taskmark serve`, port 8275, and optional local script wrappers.
 
 ## Tasks
 
@@ -56,6 +58,7 @@ As a developer with a Taskmark board on disk, I want to run a single npm/npx com
 | # | When (UTC) | Kind | Author | Summary |
 |---|------------|------|--------|---------|
 | 1 | 2026-07-24T17:26:00Z | prompt | Marco Mendão | Create epic + stories/tasks for zero-config npm/CLI board UI (no Docker) |
+| 2 | 2026-07-25T10:21:15Z | prompt | Marco Mendão | CLI must be `npx taskmark serve`; default port 8275 |
 
 ## Commits
 

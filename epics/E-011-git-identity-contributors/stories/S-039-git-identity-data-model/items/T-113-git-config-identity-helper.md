@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [identity, git, plugin, scripts]
 created: 2026-07-23
-updated: 2026-07-24T17:39:50.198Z
+updated: 2026-07-25T10:24:50.747Z
 started_at: 2026-07-23T17:28:57Z
 completed_at: 2026-07-23T17:36:57Z
 actual_ms: 0
 ---
-
 # T-113: Git config identity helper (name, email, initials)
 
 ## Description

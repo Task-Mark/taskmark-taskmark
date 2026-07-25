@@ -9,7 +9,7 @@ size_source: rolled_up
 size_basis: [sum:tasks]
 points: 9
 points_source: rolled_up
-estimate_minutes: 135
+estimate_minutes: 130
 actual_minutes: 0
 estimate_source: suggested
 estimate_basis: [sum:tasks]
@@ -26,11 +26,12 @@ blocked: false
 cancelled: false
 tags: [frontend, local, config]
 created: 2026-07-24
-updated: 2026-07-24T17:39:50.198Z
+updated: 2026-07-25T10:24:50.747Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
+
 # S-050: Zero-config board binding from env and cwd
 
 ## User story

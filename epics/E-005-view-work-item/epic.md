@@ -2,15 +2,15 @@
 id: E-005
 type: epic
 title: View work item
-status: in_progress
+status: done
 priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 40
+points: 42
 points_source: rolled_up
-estimate_minutes: 600
-actual_minutes: 44
+estimate_minutes: 590
+actual_minutes: 48
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, detail, sheet]
 created: 2026-07-21
-updated: 2026-07-24T17:39:50.198Z
+updated: 2026-07-25T10:24:50.747Z
 started_at: 2026-07-21T23:53:57Z
-completed_at: null
-actual_ms: 2654000
+completed_at: 2026-07-25T10:24:34Z
+actual_ms: 2907000
 ---
+
 # E-005: View work item
 
 ## Goal
@@ -89,4 +90,5 @@ Let users open any work item (epic, user story, or task) in a dedicated view mod
 - [x] [T-083](items/T-083-sheet-width-and-children.md) — Wider detail sheet with children
 - [x] [T-086](items/T-086-render-markdown-detail-sheet.md) — Render markdown in detail sheet sections
 - [x] [T-087](items/T-087-date-fns-format-all-dates.md) — Add date-fns and format all displayed dates
-- [ ] [T-159](items/T-159-materialized-detail-sheet-route.md) — Materialized detail sheet route with back navigation
+- [x] [T-159](items/T-159-materialized-detail-sheet-route.md) — Materialized detail sheet route with back navigation
+- [x] [T-161](items/T-161-in-sheet-back-button.md) — In-sheet back button for detail navigation
