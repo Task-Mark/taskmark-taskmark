@@ -7,7 +7,7 @@ This repo’s **root is the board** (`INDEX.md`, `epics/`, …). Product repos (
 <!-- taskmark:project-status:begin -->
 ## Project status
 
-_Last synced: 2026-07-27T07:37:31.441Z_
+_Last synced: 2026-07-27T07:37:41.140Z_
 
 | Metric | Value |
 |--------|-------|
@@ -20,7 +20,7 @@ _Last synced: 2026-07-27T07:37:31.441Z_
 <!-- taskmark:open-work:begin -->
 ## Open work items
 
-_Last synced: 2026-07-27T07:37:31.441Z_
+_Last synced: 2026-07-27T07:37:41.140Z_
 
 Stories, tasks, and bugs that are not done, cancelled, or blocked.
 
@@ -45,12 +45,13 @@ Stories, tasks, and bugs that are not done, cancelled, or blocked.
 <!-- taskmark:changelog:begin -->
 ## Changelog
 
-_Last synced: 2026-07-27T07:37:31.441Z_
+_Last synced: 2026-07-27T07:37:41.140Z_
 
 Recent commits on this board repository.
 
 | Date (UTC) | SHA | Author | Message |
 |------------|-----|--------|---------|
+| 2026-07-27 | `abddfb2` | Marco Mendão | sync taskmark board |
 | 2026-07-27 | `92da0d0` | Marco Mendão | sync taskmark board |
 | 2026-07-27 | `ff45ec3` | Marco Mendão | sync taskmark board |
 | 2026-07-27 | `a174f90` | Marco Mendão | sync taskmark board |
@@ -90,7 +91,6 @@ Recent commits on this board repository.
 | 2026-07-23 | `1245518` | Marco Mendão | complete e-009 list pagination board |
 | 2026-07-23 | `40991f9` | Marco Mendão | log t-087 commits |
 | 2026-07-23 | `bbab1eb` | Marco Mendão | add t-087 date-fns board |
-| 2026-07-23 | `471284d` | Marco Mendão | log t-086 commits |
 
 <!-- taskmark:changelog:end -->
 
