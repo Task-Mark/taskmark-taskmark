@@ -28,11 +28,12 @@ blocked: false
 cancelled: false
 tags: [mvp, app-bar, navigation]
 created: 2026-07-21
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-21T16:59:31Z
 completed_at: 2026-07-27T05:16:43Z
 actual_ms: 1997000
 ---
+
 # S-003: App bar project switcher
 
 ## User story

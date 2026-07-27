@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [filters, timeframe, date-range, frontend]
 created: 2026-07-23
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-24T16:02:37Z
 completed_at: 2026-07-24T16:06:21Z
 actual_ms: 64000
 ---
-
 # S-046: Date range picker filter
 
 ## User story

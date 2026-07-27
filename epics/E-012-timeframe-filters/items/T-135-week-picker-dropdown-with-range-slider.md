@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [filters, timeframe, weeks, frontend, ui]
 created: 2026-07-24
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-24T16:19:29Z
 completed_at: 2026-07-24T16:21:26Z
 actual_ms: 117000
 ---
-
 # T-135: Week picker dropdown with optional range slider
 
 ## Description

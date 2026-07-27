@@ -28,12 +28,11 @@ blocked: false
 cancelled: false
 tags: [multi-repo, naming, detection]
 created: 2026-07-21
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-21T22:04:51Z
 completed_at: 2026-07-21T22:36:51Z
 actual_ms: 0
 ---
-
 # T-024: Detect ambiguous common-name cases
 
 ## Description

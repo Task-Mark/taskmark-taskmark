@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [frontend, actual, timing]
 created: 2026-07-22
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-22T00:13:39Z
 completed_at: 2026-07-22T00:16:21Z
 actual_ms: 162000
 ---
-
 # T-061: Show precise Actual with seconds or milliseconds
 
 ## Description

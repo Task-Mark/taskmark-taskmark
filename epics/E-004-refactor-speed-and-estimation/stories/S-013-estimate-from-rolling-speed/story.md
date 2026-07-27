@@ -28,12 +28,11 @@ blocked: false
 cancelled: false
 tags: [estimation, create, velocity]
 created: 2026-07-21
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-21T21:31:27Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 5760000
 ---
-
 # S-013: Estimate from rolling speed
 
 ## User story

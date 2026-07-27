@@ -28,11 +28,12 @@ blocked: false
 cancelled: false
 tags: [mvp, wizard, ui]
 created: 2026-07-21
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
 actual_ms: 180000
 ---
+
 # T-001: Build setup wizard UI shell
 
 ## Description

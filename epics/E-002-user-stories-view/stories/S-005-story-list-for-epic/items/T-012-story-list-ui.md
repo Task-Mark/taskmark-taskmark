@@ -28,12 +28,11 @@ blocked: false
 cancelled: false
 tags: [ui, stories, dashboard]
 created: 2026-07-21
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-21T17:45:49Z
 completed_at: 2026-07-21T17:48:46Z
 actual_ms: 847000
 ---
-
 # T-012: Build story list UI
 
 ## Description

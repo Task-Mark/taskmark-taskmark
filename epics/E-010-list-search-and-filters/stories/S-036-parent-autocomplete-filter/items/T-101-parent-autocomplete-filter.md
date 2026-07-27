@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, filters, workitems]
 created: 2026-07-23
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-23T16:00:49Z
 completed_at: 2026-07-23T16:03:09Z
 actual_ms: 19000
 ---
-
 # T-101: Parent epic/story autocomplete filter on Work items
 
 ## Description

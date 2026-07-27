@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-27
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-27T05:29:14Z
 completed_at: 2026-07-27T05:30:00Z
 actual_ms: 0
 ---
+
 # T-167: Sort by type and people
 
 ## Description

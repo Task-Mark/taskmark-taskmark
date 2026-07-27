@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [filters, timeframe, weeks, frontend, ui]
 created: 2026-07-24
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-24T16:46:51Z
 completed_at: 2026-07-24T16:49:27Z
 actual_ms: 156000
 ---
-
 # T-139: Week/day completion counts and prev/next opacity
 
 ## Description

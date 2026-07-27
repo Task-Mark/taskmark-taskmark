@@ -28,12 +28,11 @@ blocked: false
 cancelled: false
 tags: [mvp, parser, bug]
 created: 2026-07-21
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-21T16:56:26Z
 completed_at: 2026-07-21T16:56:26Z
 actual_ms: 1920000
 ---
-
 # B-001: Epic list fails after board frontmatter fence corruption
 
 ## Description

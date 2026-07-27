@@ -28,11 +28,12 @@ blocked: false
 cancelled: false
 tags: [mvp, epics, dashboard]
 created: 2026-07-21
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-21T16:49:52Z
 completed_at: 2026-07-21T16:51:19Z
 actual_ms: 9548000
 ---
+
 # S-002: Epic list for selected project
 
 ## User story

@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, pagination]
 created: 2026-07-23
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-23T15:35:42Z
 completed_at: 2026-07-23T15:41:41Z
 actual_ms: 47000
 ---
-
 # T-090: Client-side page slice helper
 
 ## Description

@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, overall, workitems]
 created: 2026-07-24
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-24T17:41:23Z
 completed_at: 2026-07-24T17:42:47Z
 actual_ms: 84000
 ---
+
 # T-160: Remake Overall work items and sub tasks lists
 
 ## Description

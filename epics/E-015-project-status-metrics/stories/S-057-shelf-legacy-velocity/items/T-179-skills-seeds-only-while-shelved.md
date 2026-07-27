@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [plugin, velocity, shelved]
 created: 2026-07-27
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-27T06:10:41Z
 completed_at: 2026-07-27T06:17:22Z
 actual_ms: 120000
 ---
-
 # T-179: Sizing and create skills: size + points only
 
 ## Description

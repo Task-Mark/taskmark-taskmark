@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [frontend, metrics, counts]
 created: 2026-07-27
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-27T06:25:20Z
 completed_at: 2026-07-27T06:28:48Z
 actual_ms: 0
 ---
+
 # T-171: Aggregate total and done work item counts
 
 ## Description

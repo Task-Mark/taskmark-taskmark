@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-27T07:23:22.023Z
+Last synced: 2026-07-27T07:36:40.575Z
 
 ## Epics
 
@@ -21,7 +21,7 @@ Last synced: 2026-07-27T07:23:22.023Z
 | E-013 | Table sort functionalities | done | — | 21 | 305 | 2 | [epic.md](epics/E-013-table-sort-functionalities/epic.md) |
 | E-014 | Zero-config local board UI package | backlog | — | 27 | 380 | 0 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
 | E-015 | Project status metrics | done | — | 40 | 550 | 12 | [epic.md](epics/E-015-project-status-metrics/epic.md) |
-| E-016 | README project status and changelog | backlog | — | 0 | 0 | 0 | [epic.md](epics/E-016-readme-project-status-and-changelog/epic.md) |
+| E-016 | README project status and changelog | done | — | 16 | 0 | 4 | [epic.md](epics/E-016-readme-project-status-and-changelog/epic.md) |
 
 ## Stories
 

@@ -28,12 +28,11 @@ blocked: false
 cancelled: false
 tags: [actual, started_at, completed_at]
 created: 2026-07-21
-updated: 2026-07-27T07:23:21.914Z
+updated: 2026-07-27T07:36:40.469Z
 started_at: 2026-07-21T22:19:27Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 0
 ---
-
 # T-039: Handle complete without start or missing dates
 
 ## Description
