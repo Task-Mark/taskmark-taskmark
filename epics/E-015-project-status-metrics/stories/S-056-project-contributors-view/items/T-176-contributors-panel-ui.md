@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [frontend, contributors, ui]
 created: 2026-07-27
-updated: 2026-07-27T07:36:40.469Z
+updated: 2026-07-27T07:45:28.202Z
 started_at: 2026-07-27T06:25:20Z
 completed_at: 2026-07-27T06:28:48Z
 actual_ms: 60000
 ---
-
 # T-176: Build contributors panel UI
 
 ## Description

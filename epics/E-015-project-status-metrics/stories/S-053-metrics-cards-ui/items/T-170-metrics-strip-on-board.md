@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [frontend, metrics, ui]
 created: 2026-07-27
-updated: 2026-07-27T07:36:40.469Z
+updated: 2026-07-27T07:45:28.202Z
 started_at: 2026-07-27T06:25:20Z
 completed_at: 2026-07-27T06:28:48Z
 actual_ms: 0
 ---
-
 # T-170: Place metrics strip on board overview
 
 ## Description

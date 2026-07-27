@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [ui, sheet, frontend]
 created: 2026-07-21
-updated: 2026-07-27T07:36:40.469Z
+updated: 2026-07-27T07:45:28.202Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
 actual_ms: 12188
 ---
-
 # T-049: Open sheet from epic story and task list rows
 
 ## Description

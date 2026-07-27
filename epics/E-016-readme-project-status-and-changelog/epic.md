@@ -7,10 +7,10 @@ priority: medium
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 16
+points: 19
 points_source: rolled_up
-estimate_minutes: 0
-actual_minutes: 4
+estimate_minutes: 5
+actual_minutes: 7
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [readme, metrics, changelog, automation, plugin]
 created: 2026-07-27
-updated: 2026-07-27T07:37:31Z
+updated: 2026-07-27T07:46:37Z
 started_at: 2026-07-27T07:32:04Z
-completed_at: 2026-07-27T07:36:40Z
-actual_ms: 243000
+completed_at: 2026-07-27T07:45:28Z
+actual_ms: 447000
 ---
+
 # E-016: README project status and changelog
 
 ## Goal
@@ -75,6 +76,7 @@ Keep the board repo `README.md` (`taskmark-taskmark/README.md` in this workspace
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 0c7bfa3 | taskmark-cursor | 2026-07-27T07:46:37Z | Marco Mendão | filter changelog housekeeping commits |
 | 764379b | taskmark-cursor | 2026-07-27T07:37:20Z | Marco Mendão | add readme dashboard refresh |
 
 ## Work log

@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [readme, metrics, changelog, plugin]
 created: 2026-07-27
-updated: 2026-07-27T07:37:31Z
+updated: 2026-07-27T07:45:28.202Z
 started_at: 2026-07-27T07:32:04Z
 completed_at: 2026-07-27T07:34:06Z
 actual_ms: 1000
 ---
-
 # T-191: Upsert README open work marker section
 
 ## Description

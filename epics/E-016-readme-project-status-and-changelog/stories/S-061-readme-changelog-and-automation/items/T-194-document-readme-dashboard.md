@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [readme, metrics, changelog, plugin]
 created: 2026-07-27
-updated: 2026-07-27T07:37:31Z
+updated: 2026-07-27T07:45:28.202Z
 started_at: 2026-07-27T07:32:04Z
 completed_at: 2026-07-27T07:36:07Z
 actual_ms: 1000
 ---
-
 # T-194: Document README dashboard conventions
 
 ## Description

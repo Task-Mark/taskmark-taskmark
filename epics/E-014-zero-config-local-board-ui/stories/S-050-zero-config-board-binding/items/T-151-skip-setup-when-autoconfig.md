@@ -26,12 +26,11 @@ blocked: false
 cancelled: false
 tags: [frontend, local, config]
 created: 2026-07-24
-updated: 2026-07-27T07:36:40.469Z
+updated: 2026-07-27T07:45:28.202Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
-
 # T-151: Skip setup wizard when auto-config is valid
 
 ## Description

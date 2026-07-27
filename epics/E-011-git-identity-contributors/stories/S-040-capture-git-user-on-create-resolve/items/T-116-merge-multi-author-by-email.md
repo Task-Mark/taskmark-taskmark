@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [identity, plugin]
 created: 2026-07-23
-updated: 2026-07-27T07:36:40.469Z
+updated: 2026-07-27T07:45:28.202Z
 started_at: 2026-07-23T17:28:57Z
 completed_at: 2026-07-23T17:36:57Z
 actual_ms: 0
 ---
-
 # T-116: Merge multi-author identity lists by email
 
 ## Description

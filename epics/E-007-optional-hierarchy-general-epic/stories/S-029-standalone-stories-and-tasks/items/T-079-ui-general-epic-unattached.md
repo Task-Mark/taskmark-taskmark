@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, hierarchy]
 created: 2026-07-23
-updated: 2026-07-27T07:36:40.469Z
+updated: 2026-07-27T07:45:28.202Z
 started_at: 2026-07-23T04:44:50Z
 completed_at: 2026-07-23T04:45:50Z
 actual_ms: 60000
 ---
+
 # T-079: Show General epic with unattached items in UI
 
 ## Description

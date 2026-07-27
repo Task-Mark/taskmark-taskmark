@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-24
-updated: 2026-07-27T07:36:40.469Z
+updated: 2026-07-27T07:45:28.202Z
 started_at: 2026-07-27T05:20:06Z
 completed_at: 2026-07-27T05:22:17Z
 actual_ms: 0
 ---
-
 # T-142: Define sort keys, comparators, and types
 
 ## Description

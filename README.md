@@ -7,12 +7,12 @@ This repo’s **root is the board** (`INDEX.md`, `epics/`, …). Product repos (
 <!-- taskmark:project-status:begin -->
 ## Project status
 
-_Last synced: 2026-07-27T07:37:41.140Z_
+_Last synced: 2026-07-27T07:46:37.708Z_
 
 | Metric | Value |
 |--------|-------|
-| Total work items | 262 |
-| Complete work items | 249 |
+| Total work items | 263 |
+| Complete work items | 250 |
 | Current speed | 337 (pts/week · 1 active weeks (90d)) |
 
 <!-- taskmark:project-status:end -->
@@ -20,7 +20,7 @@ _Last synced: 2026-07-27T07:37:41.140Z_
 <!-- taskmark:open-work:begin -->
 ## Open work items
 
-_Last synced: 2026-07-27T07:37:41.140Z_
+_Last synced: 2026-07-27T07:46:37.708Z_
 
 Stories, tasks, and bugs that are not done, cancelled, or blocked.
 
@@ -45,52 +45,39 @@ Stories, tasks, and bugs that are not done, cancelled, or blocked.
 <!-- taskmark:changelog:begin -->
 ## Changelog
 
-_Last synced: 2026-07-27T07:37:41.140Z_
+_Last synced: 2026-07-27T07:46:37.708Z_
 
-Recent commits on this board repository.
+Recent meaningful commits on this board repository (excludes sync / housekeeping).
 
 | Date (UTC) | SHA | Author | Message |
 |------------|-----|--------|---------|
-| 2026-07-27 | `abddfb2` | Marco Mendão | sync taskmark board |
-| 2026-07-27 | `92da0d0` | Marco Mendão | sync taskmark board |
-| 2026-07-27 | `ff45ec3` | Marco Mendão | sync taskmark board |
-| 2026-07-27 | `a174f90` | Marco Mendão | sync taskmark board |
-| 2026-07-27 | `aa0e452` | Marco Mendão | log s-057 remove velocity commits |
 | 2026-07-27 | `a494e58` | Marco Mendão | add e-015 metrics and remove velocity board |
-| 2026-07-27 | `17c64d8` | Marco Mendão | log t-168 column polish commits |
-| 2026-07-27 | `aa19198` | Marco Mendão | sync taskmark board |
-| 2026-07-27 | `0afc2be` | Marco Mendão | log t-165 sort icon commits |
-| 2026-07-27 | `2c23d3b` | Marco Mendão | sync taskmark board |
-| 2026-07-27 | `222144d` | Marco Mendão | log e-013 table sort commits |
-| 2026-07-27 | `f14af32` | Marco Mendão | sync taskmark board |
-| 2026-07-27 | `a1a5a0d` | Marco Mendão | log commits and complete t-162 t-163 t-164 |
-| 2026-07-27 | `3235283` | Marco Mendão | sync taskmark board |
-| 2026-07-25 | `023b3e3` | Marco Mendão | log b-007 commits |
-| 2026-07-25 | `6335bfa` | Marco Mendão | sync taskmark board |
-| 2026-07-25 | `1705598` | Marco Mendão | log sheet and board commits |
-| 2026-07-25 | `861fc90` | Marco Mendão | sync taskmark board |
-| 2026-07-24 | `b1e0247` | Marco Mendão | log t-160 and b-006 commits |
-| 2026-07-24 | `f6aa2da` | Marco Mendão | add t-160 and sync board |
-| 2026-07-24 | `84289c3` | Marco Mendão | log t-141 board commit |
-| 2026-07-24 | `3a846df` | Marco Mendão | log t-141 logo hover scale |
-| 2026-07-24 | `585bdd7` | Marco Mendão | log t-141 commits |
 | 2026-07-24 | `8c8d50e` | Marco Mendão | complete t-141 brand hover underline |
-| 2026-07-24 | `b908f17` | Marco Mendão | log t-140 commits |
 | 2026-07-24 | `efa533f` | Marco Mendão | complete t-140 week range dual dropdown |
-| 2026-07-24 | `1841eb0` | Marco Mendão | log e-012 commits |
 | 2026-07-24 | `ea2c152` | Marco Mendão | complete e-012 timeframe filters |
-| 2026-07-23 | `b571adb` | Marco Mendão | log e-011 commits |
 | 2026-07-23 | `e6f0170` | Marco Mendão | complete e-011 git identity contributors |
-| 2026-07-23 | `618c84c` | Marco Mendão | log t-110 commits |
 | 2026-07-23 | `767515a` | Marco Mendão | complete t-110 progress bars board |
-| 2026-07-23 | `30917c9` | Marco Mendão | log t-109 commits |
 | 2026-07-23 | `83957ad` | Marco Mendão | complete t-108 t-109 done sort rules |
-| 2026-07-23 | `9b54889` | Marco Mendão | log e-010 commits |
 | 2026-07-23 | `c964895` | Marco Mendão | complete e-010 list search and filters |
-| 2026-07-23 | `ea3c3c5` | Marco Mendão | log e-009 commits |
 | 2026-07-23 | `1245518` | Marco Mendão | complete e-009 list pagination board |
-| 2026-07-23 | `40991f9` | Marco Mendão | log t-087 commits |
 | 2026-07-23 | `bbab1eb` | Marco Mendão | add t-087 date-fns board |
+| 2026-07-23 | `ac93736` | Marco Mendão | add t-086 markdown detail board |
+| 2026-07-23 | `1cee199` | Marco Mendão | add t-084 t-085 date tooltip board |
+| 2026-07-23 | `32e276b` | Marco Mendão | add t-083 sheet children board |
+| 2026-07-23 | `ce68818` | Marco Mendão | complete e-006 work items tabs |
+| 2026-07-23 | `6201583` | Marco Mendão | add e-009 work items list view epic |
+| 2026-07-23 | `dcebe32` | Marco Mendão | complete t-080 t-081 list totals |
+| 2026-07-23 | `d5eb379` | Marco Mendão | add t-080 list totals task |
+| 2026-07-23 | `6aae4fd` | Marco Mendão | remove unattached story fix b-005 |
+| 2026-07-23 | `f3c7b3e` | Marco Mendão | complete s-029 optional hierarchy board |
+| 2026-07-23 | `23411cb` | Marco Mendão | add e-007 optional hierarchy board |
+| 2026-07-22 | `603c59c` | Marco Mendão | add e-006 list views board |
+| 2026-07-21 | `e890d82` | Marco Mendão | add e-005 view work item board |
+| 2026-07-21 | `6204471` | Marco Mendão | backfill work logs on done items from velocity |
+| 2026-07-21 | `9883b62` | Marco Mendão | sync e-004 timing and points rollup on board |
+| 2026-07-21 | `758cd8c` | Marco Mendão | add e-004 speed and estimation epic |
+| 2026-07-21 | `95a7951` | Marco Mendão | add b-003 flat board discovery bug |
+| 2026-07-21 | `9510b02` | Marco Mendão | add flat taskmark board |
 
 <!-- taskmark:changelog:end -->
 

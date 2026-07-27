@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, filters, timeframe]
 created: 2026-07-23
-updated: 2026-07-27T07:36:40.469Z
+updated: 2026-07-27T07:45:28.202Z
 started_at: 2026-07-24T16:02:37Z
 completed_at: 2026-07-27T07:06:27Z
 actual_ms: 946000
 ---
+
 # E-012: Timeframe filters for solved work items
 
 ## Goal
