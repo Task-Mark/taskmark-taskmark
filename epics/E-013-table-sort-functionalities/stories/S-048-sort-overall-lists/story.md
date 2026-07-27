@@ -2,7 +2,7 @@
 id: S-048
 type: story
 title: Sort Overall drill-down lists
-status: backlog
+status: done
 priority: medium
 size: M
 size_source: rolled_up
@@ -21,17 +21,19 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-24
-updated: 2026-07-27T05:18:44.416Z
-started_at: null
-completed_at: null
+updated: 2026-07-27T05:30:10.150Z
+started_at: 2026-07-27T05:20:06Z
+completed_at: 2026-07-27T05:22:17Z
 actual_ms: 0
 ---
-
 # S-048: Sort Overall drill-down lists
 
 ## User story
@@ -40,10 +42,10 @@ As a user, I want to sort the Overall epic, story, and task tables by id, title,
 
 ## Acceptance criteria
 
-- [ ] Epic list sorts by **id** and **title** (asc/desc) via column headers.
-- [ ] Story list sorts by **id**, **title**, and **size**.
-- [ ] Task list sorts by **id**, **title**, and **size**.
-- [ ] Sort applies after search/filters; changing sort resets pagination to page 1.
+- [x] Epic list sorts by **id** and **title** (asc/desc) via column headers.
+- [x] Story list sorts by **id**, **title**, and **size**.
+- [x] Task list sorts by **id**, **title**, and **size**.
+- [x] Sort applies after search/filters; changing sort resets pagination to page 1.
 
 ## Tasks
 
@@ -66,3 +68,4 @@ As a user, I want to sort the Overall epic, story, and task tables by id, title,
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-27T05:20:06Z | 2026-07-27T05:20:06Z | — | Rollup: children hold shared-batch for E-013 |

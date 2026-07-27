@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, progress]
 created: 2026-07-27
-updated: 2026-07-27T05:18:44.416Z
+updated: 2026-07-27T05:30:10.150Z
 started_at: 2026-07-27T05:16:08Z
 completed_at: 2026-07-27T05:18:44Z
 actual_ms: 0
 ---
-
 # T-164: Show story progress bars on Work items list
 
 ## Description

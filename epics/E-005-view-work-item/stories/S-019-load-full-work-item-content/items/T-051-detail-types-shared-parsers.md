@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [parse, frontend, detail]
 created: 2026-07-21
-updated: 2026-07-27T05:18:44.416Z
+updated: 2026-07-27T05:30:10.150Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
 actual_ms: 18281
 ---
-
 # T-051: Define detail types and shared section parsers
 
 ## Description

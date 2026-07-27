@@ -26,11 +26,12 @@ blocked: false
 cancelled: false
 tags: [frontend, local, config]
 created: 2026-07-24
-updated: 2026-07-27T05:18:44.416Z
+updated: 2026-07-27T05:30:10.150Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
+
 # T-152: Prefer env and cwd over cookies when auto-config present
 
 ## Description

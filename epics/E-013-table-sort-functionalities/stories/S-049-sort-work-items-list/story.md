@@ -2,7 +2,7 @@
 id: S-049
 type: story
 title: Sort Work items list
-status: backlog
+status: done
 priority: medium
 size: M
 size_source: rolled_up
@@ -10,7 +10,7 @@ size_basis: [sum:tasks]
 points: 5
 points_source: rolled_up
 estimate_minutes: 70
-actual_minutes: 0
+actual_minutes: 1
 estimate_source: suggested
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -21,17 +21,19 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-24
-updated: 2026-07-27T05:18:44.416Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-27T05:30:10.150Z
+started_at: 2026-07-27T05:20:06Z
+completed_at: 2026-07-27T05:22:17Z
+actual_ms: 60000
 ---
-
 # S-049: Sort Work items list
 
 ## User story
@@ -40,9 +42,9 @@ As a user, I want to sort the Work items table by epic, size, title, and id, so 
 
 ## Acceptance criteria
 
-- [ ] Work items table sorts by **id**, **title**, **size**, and **epic** (asc/desc).
-- [ ] Epic sort uses a stable key (epic id or title) with missing-epic rows ordered consistently.
-- [ ] Sort composes with search, parent/tag/hide-completed, and timeframe filters; changing sort resets to page 1.
+- [x] Work items table sorts by **id**, **title**, **size**, and **epic** (asc/desc).
+- [x] Epic sort uses a stable key (epic id or title) with missing-epic rows ordered consistently.
+- [x] Sort composes with search, parent/tag/hide-completed, and timeframe filters; changing sort resets to page 1.
 
 ## Tasks
 
@@ -64,3 +66,4 @@ As a user, I want to sort the Work items table by epic, size, title, and id, so 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-27T05:20:06Z | 2026-07-27T05:20:06Z | — | Rollup: children hold shared-batch for E-013 |

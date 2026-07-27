@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-27T05:18:44.647Z
+Last synced: 2026-07-27T05:30:10.276Z
 
 ## Epics
 
@@ -18,7 +18,7 @@ Last synced: 2026-07-27T05:18:44.647Z
 | E-010 | List search and filters | done | — | 30 | 460 | 16 | [epic.md](epics/E-010-list-search-and-filters/epic.md) |
 | E-011 | Git identity contributors and avatars | done | — | 33 | 515 | 8 | [epic.md](epics/E-011-git-identity-contributors/epic.md) |
 | E-012 | Timeframe filters for solved work items | done | — | 34 | 545 | 11 | [epic.md](epics/E-012-timeframe-filters/epic.md) |
-| E-013 | Table sort functionalities | backlog | — | 16 | 230 | 0 | [epic.md](epics/E-013-table-sort-functionalities/epic.md) |
+| E-013 | Table sort functionalities | done | — | 21 | 305 | 2 | [epic.md](epics/E-013-table-sort-functionalities/epic.md) |
 | E-014 | Zero-config local board UI package | backlog | — | 27 | 380 | 0 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
 
 ## Stories
@@ -71,9 +71,9 @@ Last synced: 2026-07-27T05:18:44.647Z
 | S-044 | Shared timeframe filter plumbing | E-012 | done | L | 7 | 110 | 1 | [story.md](epics/E-012-timeframe-filters/stories/S-044-shared-timeframe-filter-plumbing/story.md) |
 | S-045 | Year and week number filter | E-012 | done | L | 8 | 130 | 1 | [story.md](epics/E-012-timeframe-filters/stories/S-045-year-and-week-number-filter/story.md) |
 | S-046 | Date range picker filter | E-012 | done | M | 6 | 100 | 1 | [story.md](epics/E-012-timeframe-filters/stories/S-046-date-range-picker-filter/story.md) |
-| S-047 | Shared table sort plumbing | E-013 | backlog | M | 5 | 70 | 0 | [story.md](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/story.md) |
-| S-048 | Sort Overall drill-down lists | E-013 | backlog | M | 6 | 90 | 0 | [story.md](epics/E-013-table-sort-functionalities/stories/S-048-sort-overall-lists/story.md) |
-| S-049 | Sort Work items list | E-013 | backlog | M | 5 | 70 | 0 | [story.md](epics/E-013-table-sort-functionalities/stories/S-049-sort-work-items-list/story.md) |
+| S-047 | Shared table sort plumbing | E-013 | done | L | 10 | 145 | 1 | [story.md](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/story.md) |
+| S-048 | Sort Overall drill-down lists | E-013 | done | M | 6 | 90 | 0 | [story.md](epics/E-013-table-sort-functionalities/stories/S-048-sort-overall-lists/story.md) |
+| S-049 | Sort Work items list | E-013 | done | M | 5 | 70 | 1 | [story.md](epics/E-013-table-sort-functionalities/stories/S-049-sort-work-items-list/story.md) |
 | S-050 | Zero-config board binding from env and cwd | E-014 | backlog | L | 9 | 130 | 0 | [story.md](epics/E-014-zero-config-local-board-ui/stories/S-050-zero-config-board-binding/story.md) |
 | S-051 | Publishable npm CLI for local board UI | E-014 | backlog | XL | 13 | 180 | 0 | [story.md](epics/E-014-zero-config-local-board-ui/stories/S-051-publishable-npm-cli/story.md) |
 | S-052 | Board init one-command UI launch | E-014 | backlog | M | 5 | 70 | 0 | [story.md](epics/E-014-zero-config-local-board-ui/stories/S-052-board-init-one-command-ui/story.md) |
@@ -235,13 +235,14 @@ Last synced: 2026-07-27T05:18:44.647Z
 | T-138 | Scroll week picker to current week; distinct prev/next colors | E-012 | done | XS | 1 | 15 | 0 | [T-138](epics/E-012-timeframe-filters/items/T-138-scroll-to-current-week-distinct-colors.md) |
 | T-139 | Week/day completion counts and prev/next opacity | E-012 | done | M | 3 | 50 | 2 | [T-139](epics/E-012-timeframe-filters/items/T-139-week-day-completion-counts-opacity.md) |
 | T-140 | Week range dual dropdown instead of slider | E-012 | done | S | 2 | 30 | 1 | [T-140](epics/E-012-timeframe-filters/items/T-140-week-range-dual-dropdown.md) |
-| T-142 | Define sort keys, comparators, and types | S-047 | backlog | S | 2 | 30 | 0 | [T-142](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/items/T-142-sort-keys-comparators-types.md) |
-| T-143 | Build shared sortable table header UI | S-047 | backlog | M | 3 | 40 | 0 | [T-143](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/items/T-143-sortable-table-header-ui.md) |
-| T-144 | Sort epic list by id and title | S-048 | backlog | S | 2 | 30 | 0 | [T-144](epics/E-013-table-sort-functionalities/stories/S-048-sort-overall-lists/items/T-144-sort-epic-list.md) |
-| T-145 | Sort story list by id, title, and size | S-048 | backlog | S | 2 | 30 | 0 | [T-145](epics/E-013-table-sort-functionalities/stories/S-048-sort-overall-lists/items/T-145-sort-story-list.md) |
-| T-146 | Sort task list by id, title, and size | S-048 | backlog | S | 2 | 30 | 0 | [T-146](epics/E-013-table-sort-functionalities/stories/S-048-sort-overall-lists/items/T-146-sort-task-list.md) |
-| T-147 | Sort work items by id, title, size, and epic | S-049 | backlog | M | 3 | 40 | 0 | [T-147](epics/E-013-table-sort-functionalities/stories/S-049-sort-work-items-list/items/T-147-sort-work-items-list.md) |
-| T-148 | Compose sort with filters and pagination | S-049 | backlog | S | 2 | 30 | 0 | [T-148](epics/E-013-table-sort-functionalities/stories/S-049-sort-work-items-list/items/T-148-compose-sort-filters-pagination.md) |
+| T-142 | Define sort keys, comparators, and types | S-047 | done | S | 2 | 30 | 0 | [T-142](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/items/T-142-sort-keys-comparators-types.md) |
+| T-143 | Build shared sortable table header UI | S-047 | done | M | 3 | 40 | 1 | [T-143](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/items/T-143-sortable-table-header-ui.md) |
+| T-144 | Sort epic list by id and title | S-048 | done | S | 2 | 30 | 0 | [T-144](epics/E-013-table-sort-functionalities/stories/S-048-sort-overall-lists/items/T-144-sort-epic-list.md) |
+| T-145 | Sort story list by id, title, and size | S-048 | done | S | 2 | 30 | 0 | [T-145](epics/E-013-table-sort-functionalities/stories/S-048-sort-overall-lists/items/T-145-sort-story-list.md) |
+| T-146 | Sort task list by id, title, and size | S-048 | done | S | 2 | 30 | 0 | [T-146](epics/E-013-table-sort-functionalities/stories/S-048-sort-overall-lists/items/T-146-sort-task-list.md) |
+| T-147 | Sort work items by id, title, size, and epic | S-049 | done | M | 3 | 40 | 1 | [T-147](epics/E-013-table-sort-functionalities/stories/S-049-sort-work-items-list/items/T-147-sort-work-items-list.md) |
+| T-148 | Compose sort with filters and pagination | S-049 | done | S | 2 | 30 | 0 | [T-148](epics/E-013-table-sort-functionalities/stories/S-049-sort-work-items-list/items/T-148-compose-sort-filters-pagination.md) |
+| T-166 | Sort by points, status, and priority | S-047 | done | S | 2 | 30 | 0 | [T-166](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/items/T-166-sort-points-status-priority.md) |
 | T-149 | Add TASKMARK_BOARD and TASKMARK_MASTER env resolution | S-050 | backlog | S | 2 | 30 | 0 | [T-149](epics/E-014-zero-config-local-board-ui/stories/S-050-zero-config-board-binding/items/T-149-env-board-master-resolution.md) |
 | T-150 | Resolve board from cwd layouts | S-050 | backlog | S | 2 | 30 | 0 | [T-150](epics/E-014-zero-config-local-board-ui/stories/S-050-zero-config-board-binding/items/T-150-resolve-board-from-cwd.md) |
 | T-151 | Skip setup wizard when auto-config is valid | S-050 | backlog | M | 3 | 40 | 0 | [T-151](epics/E-014-zero-config-local-board-ui/stories/S-050-zero-config-board-binding/items/T-151-skip-setup-when-autoconfig.md) |

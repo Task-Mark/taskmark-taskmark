@@ -2,7 +2,7 @@
 id: T-144
 type: task
 title: Sort epic list by id and title
-status: backlog
+status: done
 priority: medium
 size: S
 size_source: suggested
@@ -21,17 +21,19 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-24
-updated: 2026-07-27T05:18:44.416Z
-started_at: null
-completed_at: null
+updated: 2026-07-27T05:30:10.150Z
+started_at: 2026-07-27T05:20:06Z
+completed_at: 2026-07-27T05:22:17Z
 actual_ms: 0
 ---
-
 # T-144: Sort epic list by id and title
 
 ## Description
@@ -40,9 +42,9 @@ Wire the Overall epic table to shared sort for **id** and **title** columns.
 
 ## Acceptance criteria
 
-- [ ] Epic list headers for ID and Title are sortable.
-- [ ] Rows reorder correctly for asc and desc.
-- [ ] Changing sort resets to page 1 and keeps search/filters applied.
+- [x] Epic list headers for ID and Title are sortable.
+- [x] Rows reorder correctly for asc and desc.
+- [x] Changing sort resets to page 1 and keeps search/filters applied.
 
 ## Notes
 
@@ -51,6 +53,8 @@ Wire the Overall epic table to shared sort for **id** and **title** columns.
 | # | When (UTC) | Kind | Author | Summary |
 |---|------------|------|--------|---------|
 | 1 | 2026-07-24T17:19:23Z | prompt | Marco Mendão | Create stories and tasks for E-013 table sort (epic, size, title, id) |
+| 99 | 2026-07-27T05:22:17Z | prompt | Marco Mendão | Implement this E-013 |
+| 100 | 2026-07-27T05:22:17Z | feedback | Marco Mendão | Delivered as part of E-013 shared batch |
 
 ## Commits
 
@@ -61,3 +65,4 @@ Wire the Overall epic table to shared sort for **id** and **title** columns.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-27T05:20:06Z | 2026-07-27T05:20:06Z | — | Epic list sort by id/title; shared-batch: 0 of 2min by points |

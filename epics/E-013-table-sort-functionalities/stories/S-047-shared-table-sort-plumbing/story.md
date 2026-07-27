@@ -2,15 +2,15 @@
 id: S-047
 type: story
 title: Shared table sort plumbing
-status: backlog
+status: done
 priority: medium
-size: M
+size: L
 size_source: rolled_up
 size_basis: [sum:tasks]
-points: 5
+points: 10
 points_source: rolled_up
-estimate_minutes: 70
-actual_minutes: 0
+estimate_minutes: 145
+actual_minutes: 1
 estimate_source: suggested
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -21,17 +21,19 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-24
-updated: 2026-07-27T05:18:44.416Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-27T05:30:10.150Z
+started_at: 2026-07-27T05:20:06Z
+completed_at: 2026-07-27T05:26:10Z
+actual_ms: 60000
 ---
-
 # S-047: Shared table sort plumbing
 
 ## User story
@@ -40,14 +42,17 @@ As a user, I want consistent sort controls and behavior across board tables, so 
 
 ## Acceptance criteria
 
-- [ ] Shared sort key types cover at least `id`, `title`, `size`, and `epic`.
-- [ ] Pure comparators sort ascending/descending with stable, predictable handling of missing values.
-- [ ] A reusable sortable column header toggles asc ↔ desc and shows the active direction.
+- [x] Shared sort key types cover at least `id`, `title`, `size`, and `epic`.
+- [x] Pure comparators sort ascending/descending with stable, predictable handling of missing values.
+- [x] A reusable sortable column header cycles none → asc → desc → none and shows the active direction.
 
 ## Tasks
 
 - [T-142: Define sort keys, comparators, and types](items/T-142-sort-keys-comparators-types.md)
 - [T-143: Build shared sortable table header UI](items/T-143-sortable-table-header-ui.md)
+- [T-165: Three-click sort cycle clears to default](items/T-165-three-click-sort-clear.md)
+- [T-166: Sort by points, status, and priority](items/T-166-sort-points-status-priority.md)
+- [T-167: Sort by type and people](items/T-167-sort-type-and-people.md)
 
 ## Prompt & feedback log
 
@@ -64,3 +69,4 @@ As a user, I want consistent sort controls and behavior across board tables, so 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-27T05:20:06Z | 2026-07-27T05:20:06Z | — | Rollup: children hold shared-batch for E-013 |

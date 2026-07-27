@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [plugin, conventions, hierarchy]
 created: 2026-07-23
-updated: 2026-07-27T05:18:44.416Z
+updated: 2026-07-27T05:30:10.150Z
 started_at: 2026-07-23T04:41:50Z
 completed_at: 2026-07-23T04:42:50Z
 actual_ms: 60000
 ---
+
 # T-076: Conventions for optional parents and General epic
 
 ## Description

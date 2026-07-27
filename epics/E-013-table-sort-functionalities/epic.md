@@ -2,15 +2,15 @@
 id: E-013
 type: epic
 title: Table sort functionalities
-status: backlog
+status: done
 priority: medium
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 16
+points: 21
 points_source: rolled_up
-estimate_minutes: 230
-actual_minutes: 0
+estimate_minutes: 305
+actual_minutes: 2
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -21,17 +21,19 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-24
-updated: 2026-07-27T05:18:44.416Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-27T05:30:10.150Z
+started_at: 2026-07-27T05:20:06Z
+completed_at: 2026-07-27T05:26:10Z
+actual_ms: 120000
 ---
-
 # E-013: Table sort functionalities
 
 ## Goal
@@ -71,3 +73,4 @@ Let users sort work-item tables by epic, size, title, and id so they can quickly
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-27T05:20:06Z | 2026-07-27T05:20:06Z | Rollup: children hold shared-batch (2min) |

@@ -2,7 +2,7 @@
 id: T-142
 type: task
 title: Define sort keys, comparators, and types
-status: backlog
+status: done
 priority: medium
 size: S
 size_source: suggested
@@ -21,17 +21,19 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-24
-updated: 2026-07-27T05:18:44.416Z
-started_at: null
-completed_at: null
+updated: 2026-07-27T05:30:10.150Z
+started_at: 2026-07-27T05:20:06Z
+completed_at: 2026-07-27T05:22:17Z
 actual_ms: 0
 ---
-
 # T-142: Define sort keys, comparators, and types
 
 ## Description
@@ -40,10 +42,10 @@ Add shared TypeScript types and pure comparators for table sort keys (`id`, `tit
 
 ## Acceptance criteria
 
-- [ ] Exported `SortKey` / `SortDirection` (or equivalent) cover id, title, size, and epic.
-- [ ] Comparators are pure, deterministic, and treat missing/null values consistently (e.g. last on asc).
-- [ ] Size compare uses t-shirt order (XS < S < M < L < XL), not alphabetical.
-- [ ] Id compare is natural for Taskmark ids (prefix then numeric) when that improves ordering.
+- [x] Exported `SortKey` / `SortDirection` (or equivalent) cover id, title, size, and epic.
+- [x] Comparators are pure, deterministic, and treat missing/null values consistently (e.g. last on asc).
+- [x] Size compare uses t-shirt order (XS < S < M < L < XL), not alphabetical.
+- [x] Id compare is natural for Taskmark ids (prefix then numeric) when that improves ordering.
 
 ## Notes
 
@@ -52,6 +54,8 @@ Add shared TypeScript types and pure comparators for table sort keys (`id`, `tit
 | # | When (UTC) | Kind | Author | Summary |
 |---|------------|------|--------|---------|
 | 1 | 2026-07-24T17:19:23Z | prompt | Marco Mendão | Create stories and tasks for E-013 table sort (epic, size, title, id) |
+| 2 | 2026-07-27T05:20:06Z | prompt | Marco Mendão | Implement this E-013 |
+| 3 | 2026-07-27T05:22:17Z | feedback | Marco Mendão | Delivered as part of E-013 shared batch |
 
 ## Commits
 
@@ -62,3 +66,4 @@ Add shared TypeScript types and pure comparators for table sort keys (`id`, `tit
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-27T05:20:06Z | 2026-07-27T05:20:06Z | — | Sort keys, comparators, types; shared-batch: 0 of 2min by points |
