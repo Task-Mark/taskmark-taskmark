@@ -53,6 +53,8 @@ Sortable headers should cycle: first click starts ascending sort, second click i
 |---|------------|------|--------|---------|
 | 1 | 2026-07-27T05:25:37Z | prompt | Marco Mendão | Third click should reset sort to default |
 | 2 | 2026-07-27T05:26:10Z | feedback | Marco Mendão | Three-click clear implemented |
+| 3 | 2026-07-27T05:34:45Z | prompt | Marco Mendão | Hide sort icon until column is actively sorted |
+| 4 | 2026-07-27T05:34:45Z | feedback | Marco Mendão | Inactive columns show no icon |
 
 ## Commits
 
