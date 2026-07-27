@@ -26,7 +26,7 @@ blocked: false
 cancelled: false
 tags: [frontend, metrics, dashboard, velocity, contributors]
 created: 2026-07-27
-updated: 2026-07-27T06:17:22.249Z
+updated: 2026-07-27T06:20:07Z
 started_at: 2026-07-27T06:10:41Z
 completed_at: null
 actual_ms: 360000
@@ -73,6 +73,9 @@ Show at-a-glance project health on the board: total work items, completed work i
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| a494e58 | taskmark-taskmark | 2026-07-27T06:19:46Z | Marco Mendão | add e-015 metrics and remove velocity board |
+| 1a8522f | taskmark-frontend | 2026-07-27T06:19:45Z | Marco Mendão | drop est actual columns and velocity timing notes |
+| b942bb0 | taskmark-cursor | 2026-07-27T06:19:45Z | Marco Mendão | remove velocity and time-estimate sizing |
 
 ## Work log
 
