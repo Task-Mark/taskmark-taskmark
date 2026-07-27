@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 34
+points: 39
 points_source: rolled_up
 estimate_minutes: 545
-actual_minutes: 11
+actual_minutes: 15
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -29,10 +29,10 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, filters, timeframe]
 created: 2026-07-23
-updated: 2026-07-27T06:17:22.249Z
+updated: 2026-07-27T07:06:27.645Z
 started_at: 2026-07-24T16:02:37Z
-completed_at: 2026-07-24T16:06:21Z
-actual_ms: 711000
+completed_at: 2026-07-27T07:06:27Z
+actual_ms: 946000
 ---
 
 # E-012: Timeframe filters for solved work items
@@ -77,10 +77,17 @@ Let users narrow epics, stories, tasks, and bugs to those **solved** in a chosen
 - [T-139: Week/day completion counts and prev/next opacity](items/T-139-week-day-completion-counts-opacity.md)
 - [T-140: Week range dual dropdown instead of slider](items/T-140-week-range-dual-dropdown.md)
 
+- [T-180: Show story points per day on calendar picker](items/T-180-calendar-day-story-points.md)
+
+- [T-181: Align calendar points with leaf speed logic](items/T-181-align-calendar-points-with-leaf-speed.md)
+
+- [T-182: Compact calendar point badges](items/T-182-compact-calendar-point-badges.md)
+
 ## Commits
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| d5f8f02 | taskmark-frontend | 2026-07-27T07:08:31Z | Marco Mendão | add project metrics and calendar points |
 | d010f70 | taskmark-frontend | 2026-07-24T17:00:20Z | Marco Mendão | use dual week dropdown for range filter |
 | efa533f | taskmark-taskmark | 2026-07-24T17:00:20Z | Marco Mendão | complete t-140 week range dual dropdown |
 | f85e61c | taskmark-frontend | 2026-07-24T16:54:00Z | Marco Mendão | add timeframe filters for solved work items |

@@ -2,7 +2,7 @@
 id: T-175
 type: task
 title: Collect unique project contributors
-status: backlog
+status: done
 priority: medium
 size: S
 size_source: suggested
@@ -21,17 +21,19 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [frontend, contributors, identity]
 created: 2026-07-27
-updated: 2026-07-27T06:17:22.249Z
-started_at: null
-completed_at: null
+updated: 2026-07-27T07:06:27.645Z
+started_at: 2026-07-27T06:25:20Z
+completed_at: 2026-07-27T06:28:48Z
 actual_ms: 0
 ---
-
 # T-175: Collect unique project contributors
 
 ## Description
@@ -40,10 +42,10 @@ Build a helper that walks loaded work items’ `reporters` and `resolvers`, dedu
 
 ## Acceptance criteria
 
-- [ ] Deduplicate by normalized email.
-- [ ] Prefer non-empty name/initials when merging duplicates.
-- [ ] Stable sort (name, then email).
-- [ ] Reuses existing identity types from E-011.
+- [x] Deduplicate by normalized email.
+- [x] Prefer non-empty name/initials when merging duplicates.
+- [x] Stable sort (name, then email).
+- [x] Reuses existing identity types from E-011.
 
 ## Notes
 
@@ -62,3 +64,4 @@ Build a helper that walks loaded work items’ `reporters` and `resolvers`, dedu
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-27T06:27:20Z | 2026-07-27T06:27:20Z | shared-batch: 0 of 3min by points — implement E-015 (T-175) |

@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-24
-updated: 2026-07-27T06:17:22.249Z
+updated: 2026-07-27T07:06:27.645Z
 started_at: 2026-07-27T05:20:06Z
 completed_at: 2026-07-27T05:22:17Z
 actual_ms: 60000
 ---
+
 # T-147: Sort work items by id, title, size, and epic
 
 ## Description

@@ -2,7 +2,7 @@
 id: S-055
 type: story
 title: Current speed metric
-status: backlog
+status: done
 priority: high
 size: M
 size_source: rolled_up
@@ -10,7 +10,7 @@ size_basis: [sum:tasks]
 points: 6
 points_source: rolled_up
 estimate_minutes: 85
-actual_minutes: 0
+actual_minutes: 1
 estimate_source: suggested
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -21,15 +21,18 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [frontend, metrics, velocity, speed]
 created: 2026-07-27
-updated: 2026-07-27T06:17:22.249Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-27T07:06:27.645Z
+started_at: 2026-07-27T06:25:20Z
+completed_at: 2026-07-27T06:28:48Z
+actual_ms: 60000
 ---
 # S-055: Current speed metric
 
@@ -39,12 +42,14 @@ As a project lead, I want a Current Speed number based on recent weekly throughp
 
 ## Acceptance criteria
 
-- [ ] Find the week containing the most recently completed **task or bug** (`completed_at`); that week is the end of the window.
-- [ ] Look back **90 days** from that anchor (inclusive of weeks overlapping the window).
-- [ ] For each week in the window, sum **story points** of items completed that week (tasks/bugs that carry points; clarify stories if rolled — prefer leaf done items with points).
-- [ ] **Current Speed** = average of those weekly point totals (handle empty weeks as 0 in the average, or document if empty weeks are omitted — pick one and keep consistent).
-- [ ] If no completed tasks/bugs exist, show a clear empty state (e.g. `—` or `0`) rather than crashing.
-- [ ] Value renders in the Current Speed metric card.
+- [x] Find the week containing the most recently completed **task or bug** (`completed_at`); that week anchors the end of the 90-day window.
+- [x] Look back **90 days** from that anchor (inclusive of weeks overlapping the window).
+- [x] For each week in the window, sum **story points** of tasks/bugs completed that week.
+- [x] **Exclude** the **current** ISO week from the average (in-progress week).
+- [x] **Exclude** weeks with **0** points (idle/hold) from both numerator and denominator.
+- [x] **Current Speed** = sum(remaining weekly totals) / count(remaining weeks).
+- [x] If no considered weeks remain, show `—`.
+- [x] Value renders in the Current Speed metric card.
 
 ## Tasks
 
@@ -55,7 +60,9 @@ As a project lead, I want a Current Speed number based on recent weekly throughp
 
 | # | When (UTC) | Kind | Author | Summary |
 |---|------------|------|--------|---------|
+| 2 | 2026-07-27T06:25:20Z | prompt | Marco Mendão | Implement the E-015 |
 | 1 | 2026-07-27T05:55:45Z | prompt | Marco Mendão | Create epic for project status metrics (total/complete/speed + contributors) styled like neo-brutalism metric cards; include stories and tasks |
+| 3 | 2026-07-27T06:42:30Z | prompt | Marco Mendão | Fix speed: ignore current week and zero-point weeks in average |
 
 ## Commits
 
@@ -66,3 +73,4 @@ As a project lead, I want a Current Speed number based on recent weekly throughp
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-27T06:25:20Z | 2026-07-27T06:25:20Z | Parent rollup: children hold shared-batch |

@@ -2,7 +2,7 @@
 id: T-170
 type: task
 title: Place metrics strip on board overview
-status: backlog
+status: done
 priority: high
 size: S
 size_source: suggested
@@ -21,17 +21,19 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [frontend, metrics, ui]
 created: 2026-07-27
-updated: 2026-07-27T06:17:22.249Z
-started_at: null
-completed_at: null
+updated: 2026-07-27T07:06:27.645Z
+started_at: 2026-07-27T06:25:20Z
+completed_at: 2026-07-27T06:28:48Z
 actual_ms: 0
 ---
-
 # T-170: Place metrics strip on board overview
 
 ## Description
@@ -40,9 +42,9 @@ Add a metrics row to the board shell (above or beside the main list views) that 
 
 ## Acceptance criteria
 
-- [ ] Metrics strip appears for the selected project board without requiring a new route.
-- [ ] Three card slots are laid out in one row on desktop and stack on narrow viewports.
-- [ ] Strip remains stable when switching list view modes (Overall / Work items / etc.).
+- [x] Metrics strip appears for the selected project board without requiring a new route.
+- [x] Three card slots are laid out in one row on desktop and stack on narrow viewports.
+- [x] Strip remains stable when switching list view modes (Overall / Work items / etc.).
 
 ## Notes
 
@@ -61,3 +63,4 @@ Add a metrics row to the board shell (above or beside the main list views) that 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-27T06:26:20Z | 2026-07-27T06:26:20Z | shared-batch: 0 of 3min by points — implement E-015 (T-170) |

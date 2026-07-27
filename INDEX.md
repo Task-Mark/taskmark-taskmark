@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-27T06:17:22.376Z
+Last synced: 2026-07-27T07:06:27.752Z
 
 ## Epics
 
@@ -17,10 +17,11 @@ Last synced: 2026-07-27T06:17:22.376Z
 | E-009 | List pagination for work items | done | — | 15 | 230 | 13 | [epic.md](epics/E-009-list-pagination/epic.md) |
 | E-010 | List search and filters | done | — | 30 | 460 | 16 | [epic.md](epics/E-010-list-search-and-filters/epic.md) |
 | E-011 | Git identity contributors and avatars | done | — | 33 | 515 | 8 | [epic.md](epics/E-011-git-identity-contributors/epic.md) |
-| E-012 | Timeframe filters for solved work items | done | — | 34 | 545 | 11 | [epic.md](epics/E-012-timeframe-filters/epic.md) |
+| E-012 | Timeframe filters for solved work items | done | — | 39 | 545 | 15 | [epic.md](epics/E-012-timeframe-filters/epic.md) |
 | E-013 | Table sort functionalities | done | — | 21 | 305 | 2 | [epic.md](epics/E-013-table-sort-functionalities/epic.md) |
 | E-014 | Zero-config local board UI package | backlog | — | 27 | 380 | 0 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
-| E-015 | Project status metrics | in_progress | — | 39 | 550 | 6 | [epic.md](epics/E-015-project-status-metrics/epic.md) |
+| E-015 | Project status metrics | in_progress | — | 39 | 550 | 9 | [epic.md](epics/E-015-project-status-metrics/epic.md) |
+| E-016 | README project status and changelog | backlog | — | 0 | 0 | 0 | [epic.md](epics/E-016-readme-project-status-and-changelog/epic.md) |
 
 ## Stories
 
@@ -78,10 +79,10 @@ Last synced: 2026-07-27T06:17:22.376Z
 | S-050 | Zero-config board binding from env and cwd | E-014 | backlog | L | 9 | 130 | 0 | [story.md](epics/E-014-zero-config-local-board-ui/stories/S-050-zero-config-board-binding/story.md) |
 | S-051 | Publishable npm CLI for local board UI | E-014 | backlog | XL | 13 | 180 | 0 | [story.md](epics/E-014-zero-config-local-board-ui/stories/S-051-publishable-npm-cli/story.md) |
 | S-052 | Board init one-command UI launch | E-014 | backlog | M | 5 | 70 | 0 | [story.md](epics/E-014-zero-config-local-board-ui/stories/S-052-board-init-one-command-ui/story.md) |
-| S-053 | Metrics cards UI shell | E-015 | backlog | M | 5 | 70 | 0 | [story.md](epics/E-015-project-status-metrics/stories/S-053-metrics-cards-ui/story.md) |
-| S-054 | Total and complete work item counts | E-015 | backlog | S | 3 | 45 | 0 | [story.md](epics/E-015-project-status-metrics/stories/S-054-work-item-count-metrics/story.md) |
-| S-055 | Current speed metric | E-015 | backlog | M | 6 | 85 | 0 | [story.md](epics/E-015-project-status-metrics/stories/S-055-current-speed-metric/story.md) |
-| S-056 | Project contributors view | E-015 | backlog | M | 5 | 70 | 0 | [story.md](epics/E-015-project-status-metrics/stories/S-056-project-contributors-view/story.md) |
+| S-053 | Metrics cards UI shell | E-015 | done | M | 5 | 70 | 1 | [story.md](epics/E-015-project-status-metrics/stories/S-053-metrics-cards-ui/story.md) |
+| S-054 | Total and complete work item counts | E-015 | done | S | 3 | 45 | 0 | [story.md](epics/E-015-project-status-metrics/stories/S-054-work-item-count-metrics/story.md) |
+| S-055 | Current speed metric | E-015 | done | M | 6 | 85 | 1 | [story.md](epics/E-015-project-status-metrics/stories/S-055-current-speed-metric/story.md) |
+| S-056 | Project contributors view | E-015 | done | M | 5 | 70 | 1 | [story.md](epics/E-015-project-status-metrics/stories/S-056-project-contributors-view/story.md) |
 | S-057 | Remove legacy velocity and time estimates | E-015 | done | L | 7 | 100 | 6 | [story.md](epics/E-015-project-status-metrics/stories/S-057-shelf-legacy-velocity/story.md) |
 | S-058 | Reimplement velocity and time estimates | E-015 | backlog | XL | 13 | 180 | 0 | [story.md](epics/E-015-project-status-metrics/stories/S-058-reimplement-velocity-estimates/story.md) |
 
@@ -269,14 +270,14 @@ Last synced: 2026-07-27T06:17:22.376Z
 | T-168 | Show points on size hover in work item lists | S-026 | done | XS | 1 | 15 | 0 | [T-168](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-168-size-points-hover-tooltip.md) |
 | T-165 | Three-click sort cycle clears to default | S-047 | done | XS | 1 | 15 | 0 | [T-165](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/items/T-165-three-click-sort-clear.md) |
 | T-167 | Sort by type and people | S-047 | done | S | 2 | 30 | 0 | [T-167](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/items/T-167-sort-type-and-people.md) |
-| T-169 | Build MetricStatCard component | S-053 | backlog | M | 3 | 40 | 0 | [T-169](epics/E-015-project-status-metrics/stories/S-053-metrics-cards-ui/items/T-169-metric-stat-card-component.md) |
-| T-170 | Place metrics strip on board overview | S-053 | backlog | S | 2 | 30 | 0 | [T-170](epics/E-015-project-status-metrics/stories/S-053-metrics-cards-ui/items/T-170-metrics-strip-on-board.md) |
-| T-171 | Aggregate total and done work item counts | S-054 | backlog | S | 2 | 30 | 0 | [T-171](epics/E-015-project-status-metrics/stories/S-054-work-item-count-metrics/items/T-171-aggregate-work-item-counts.md) |
-| T-172 | Wire count metrics into Total and Complete cards | S-054 | backlog | XS | 1 | 15 | 0 | [T-172](epics/E-015-project-status-metrics/stories/S-054-work-item-count-metrics/items/T-172-wire-count-metric-cards.md) |
-| T-173 | Implement 90-day weekly points average | S-055 | backlog | L | 5 | 70 | 0 | [T-173](epics/E-015-project-status-metrics/stories/S-055-current-speed-metric/items/T-173-ninety-day-weekly-speed.md) |
-| T-174 | Wire Current Speed into metric card | S-055 | backlog | XS | 1 | 15 | 0 | [T-174](epics/E-015-project-status-metrics/stories/S-055-current-speed-metric/items/T-174-wire-current-speed-card.md) |
-| T-175 | Collect unique project contributors | S-056 | backlog | S | 2 | 30 | 0 | [T-175](epics/E-015-project-status-metrics/stories/S-056-project-contributors-view/items/T-175-collect-project-contributors.md) |
-| T-176 | Build contributors panel UI | S-056 | backlog | M | 3 | 40 | 0 | [T-176](epics/E-015-project-status-metrics/stories/S-056-project-contributors-view/items/T-176-contributors-panel-ui.md) |
+| T-169 | Build MetricStatCard component | S-053 | done | M | 3 | 40 | 1 | [T-169](epics/E-015-project-status-metrics/stories/S-053-metrics-cards-ui/items/T-169-metric-stat-card-component.md) |
+| T-170 | Place metrics strip on board overview | S-053 | done | S | 2 | 30 | 0 | [T-170](epics/E-015-project-status-metrics/stories/S-053-metrics-cards-ui/items/T-170-metrics-strip-on-board.md) |
+| T-171 | Aggregate total and done work item counts | S-054 | done | S | 2 | 30 | 0 | [T-171](epics/E-015-project-status-metrics/stories/S-054-work-item-count-metrics/items/T-171-aggregate-work-item-counts.md) |
+| T-172 | Wire count metrics into Total and Complete cards | S-054 | done | XS | 1 | 15 | 0 | [T-172](epics/E-015-project-status-metrics/stories/S-054-work-item-count-metrics/items/T-172-wire-count-metric-cards.md) |
+| T-173 | Implement 90-day weekly points average | S-055 | done | L | 5 | 70 | 1 | [T-173](epics/E-015-project-status-metrics/stories/S-055-current-speed-metric/items/T-173-ninety-day-weekly-speed.md) |
+| T-174 | Wire Current Speed into metric card | S-055 | done | XS | 1 | 15 | 0 | [T-174](epics/E-015-project-status-metrics/stories/S-055-current-speed-metric/items/T-174-wire-current-speed-card.md) |
+| T-175 | Collect unique project contributors | S-056 | done | S | 2 | 30 | 0 | [T-175](epics/E-015-project-status-metrics/stories/S-056-project-contributors-view/items/T-175-collect-project-contributors.md) |
+| T-176 | Build contributors panel UI | S-056 | done | M | 3 | 40 | 1 | [T-176](epics/E-015-project-status-metrics/stories/S-056-project-contributors-view/items/T-176-contributors-panel-ui.md) |
 | T-177 | Remove velocity docs and VELOCITY.md | S-057 | done | S | 2 | 30 | 2 | [T-177](epics/E-015-project-status-metrics/stories/S-057-shelf-legacy-velocity/items/T-177-mark-velocity-docs-shelved.md) |
 | T-178 | Remove velocity and estimate calibration from recompute | S-057 | done | M | 3 | 40 | 2 | [T-178](epics/E-015-project-status-metrics/stories/S-057-shelf-legacy-velocity/items/T-178-disable-velocity-estimate-refresh.md) |
 | T-179 | Sizing and create skills: size + points only | S-057 | done | S | 2 | 30 | 2 | [T-179](epics/E-015-project-status-metrics/stories/S-057-shelf-legacy-velocity/items/T-179-skills-seeds-only-while-shelved.md) |

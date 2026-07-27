@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [ui, frontend, views, all]
 created: 2026-07-22
-updated: 2026-07-27T06:17:22.249Z
+updated: 2026-07-27T07:06:27.645Z
 started_at: 2026-07-23T06:38:57Z
 completed_at: 2026-07-23T06:39:17Z
 actual_ms: 20000
 ---
-
 # T-068: Build All view unified table UI
 
 ## Description

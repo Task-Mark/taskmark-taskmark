@@ -2,7 +2,7 @@
 id: T-171
 type: task
 title: Aggregate total and done work item counts
-status: backlog
+status: done
 priority: high
 size: S
 size_source: suggested
@@ -21,17 +21,19 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [frontend, metrics, counts]
 created: 2026-07-27
-updated: 2026-07-27T06:17:22.249Z
-started_at: null
-completed_at: null
+updated: 2026-07-27T07:06:27.645Z
+started_at: 2026-07-27T06:25:20Z
+completed_at: 2026-07-27T06:28:48Z
 actual_ms: 0
 ---
-
 # T-171: Aggregate total and done work item counts
 
 ## Description
@@ -40,10 +42,10 @@ Add a shared helper that, given loaded board items, returns `{ total, complete }
 
 ## Acceptance criteria
 
-- [ ] Total = count of story/bug/task where `cancelled` is false.
-- [ ] Complete = subset with `status: done`.
-- [ ] Helper is pure / unit-testable from existing board row types.
-- [ ] Document cancelled exclusion in a short code comment.
+- [x] Total = count of story/bug/task where `cancelled` is false.
+- [x] Complete = subset with `status: done`.
+- [x] Helper is pure / unit-testable from existing board row types.
+- [x] Document cancelled exclusion in a short code comment.
 
 ## Notes
 
@@ -62,3 +64,4 @@ Add a shared helper that, given loaded board items, returns `{ total, complete }
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-27T06:26:20Z | 2026-07-27T06:26:20Z | shared-batch: 0 of 3min by points — implement E-015 (T-171) |

@@ -10,7 +10,7 @@ size_basis: [sum:children]
 points: 39
 points_source: rolled_up
 estimate_minutes: 550
-actual_minutes: 6
+actual_minutes: 9
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -26,10 +26,10 @@ blocked: false
 cancelled: false
 tags: [frontend, metrics, dashboard, velocity, contributors]
 created: 2026-07-27
-updated: 2026-07-27T06:20:07Z
+updated: 2026-07-27T07:06:27.645Z
 started_at: 2026-07-27T06:10:41Z
 completed_at: null
-actual_ms: 360000
+actual_ms: 540000
 ---
 # E-015: Project status metrics
 
@@ -42,7 +42,7 @@ Show at-a-glance project health on the board: total work items, completed work i
 - Metric cards for:
   - **Total work items** — count of user stories, bugs, and tasks (exclude epics).
   - **Complete work items** — same types with `status: done`.
-  - **Current speed** — average weekly story points completed over a 90-day window anchored at the week of the most recently completed task/bug; for each week in that window, sum points completed that week, then average those weekly totals.
+  - **Current speed** — average weekly story points completed over a 90-day window anchored at the most recently completed task/bug. Exclude the **current** ISO week and weeks with **0** points; average only the remaining (active) weeks.
 - A simple **contributors** view listing people who have reported or resolved work on the project (reuse existing identity / initials avatars).
 - Shared card visual language matching the reference: white card, solid black border, large bold value, accent icon square with hard offset shadow.
 
@@ -73,6 +73,7 @@ Show at-a-glance project health on the board: total work items, completed work i
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| d5f8f02 | taskmark-frontend | 2026-07-27T07:08:31Z | Marco Mendão | add project metrics and calendar points |
 | a494e58 | taskmark-taskmark | 2026-07-27T06:19:46Z | Marco Mendão | add e-015 metrics and remove velocity board |
 | 1a8522f | taskmark-frontend | 2026-07-27T06:19:45Z | Marco Mendão | drop est actual columns and velocity timing notes |
 | b942bb0 | taskmark-cursor | 2026-07-27T06:19:45Z | Marco Mendão | remove velocity and time-estimate sizing |
@@ -81,3 +82,4 @@ Show at-a-glance project health on the board: total work items, completed work i
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-27T06:25:20Z | 2026-07-27T06:25:20Z | Parent rollup: E-015 metrics UI; billable on T-169–T-176 (shared-batch) |

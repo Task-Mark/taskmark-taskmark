@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [plugin, velocity, shelved]
 created: 2026-07-27
-updated: 2026-07-27T06:20:07Z
+updated: 2026-07-27T07:06:27.645Z
 started_at: 2026-07-27T06:10:41Z
 completed_at: 2026-07-27T06:17:22Z
 actual_ms: 120000
 ---
+
 # T-177: Remove velocity docs and VELOCITY.md
 
 ## Description

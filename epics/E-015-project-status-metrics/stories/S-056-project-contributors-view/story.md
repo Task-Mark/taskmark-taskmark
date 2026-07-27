@@ -2,7 +2,7 @@
 id: S-056
 type: story
 title: Project contributors view
-status: backlog
+status: done
 priority: medium
 size: M
 size_source: rolled_up
@@ -10,7 +10,7 @@ size_basis: [sum:tasks]
 points: 5
 points_source: rolled_up
 estimate_minutes: 70
-actual_minutes: 0
+actual_minutes: 1
 estimate_source: suggested
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -21,15 +21,18 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [frontend, contributors, identity]
 created: 2026-07-27
-updated: 2026-07-27T06:17:22.249Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-27T07:06:27.645Z
+started_at: 2026-07-27T06:25:20Z
+completed_at: 2026-07-27T06:28:48Z
+actual_ms: 60000
 ---
 # S-056: Project contributors view
 
@@ -39,11 +42,11 @@ As a project lead, I want a simple view of everyone who has contributed to the p
 
 ## Acceptance criteria
 
-- [ ] Collect unique contributors from board work-item `reporters` and `resolvers` (dedupe by email).
-- [ ] Optionally merge README Contributors when already parsed — do not invent new identity sources.
-- [ ] Simple view shows initials avatars plus name (and email on hover or secondary text).
-- [ ] Empty state when no identities are present yet.
-- [ ] Placed near the metrics strip so status + people read as one project overview.
+- [x] Collect unique contributors from board work-item `reporters` and `resolvers` (dedupe by email).
+- [x] Optionally merge README Contributors when already parsed — do not invent new identity sources.
+- [x] Simple view shows initials avatars plus name (and email on hover or secondary text).
+- [x] Empty state when no identities are present yet.
+- [x] Placed near the metrics strip so status + people read as one project overview.
 
 ## Tasks
 
@@ -54,6 +57,7 @@ As a project lead, I want a simple view of everyone who has contributed to the p
 
 | # | When (UTC) | Kind | Author | Summary |
 |---|------------|------|--------|---------|
+| 2 | 2026-07-27T06:25:20Z | prompt | Marco Mendão | Implement the E-015 |
 | 1 | 2026-07-27T05:55:45Z | prompt | Marco Mendão | Create epic for project status metrics (total/complete/speed + contributors) styled like neo-brutalism metric cards; include stories and tasks |
 
 ## Commits
@@ -65,3 +69,4 @@ As a project lead, I want a simple view of everyone who has contributed to the p
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-27T06:25:20Z | 2026-07-27T06:25:20Z | Parent rollup: children hold shared-batch |

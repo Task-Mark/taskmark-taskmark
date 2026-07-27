@@ -2,7 +2,7 @@
 id: T-174
 type: task
 title: Wire Current Speed into metric card
-status: backlog
+status: done
 priority: high
 size: XS
 size_source: suggested
@@ -21,17 +21,19 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [frontend, metrics, velocity]
 created: 2026-07-27
-updated: 2026-07-27T06:17:22.249Z
-started_at: null
-completed_at: null
+updated: 2026-07-27T07:06:27.645Z
+started_at: 2026-07-27T06:25:20Z
+completed_at: 2026-07-27T06:28:48Z
 actual_ms: 0
 ---
-
 # T-174: Wire Current Speed into metric card
 
 ## Description
@@ -40,9 +42,9 @@ Display the 90-day weekly points average on the Current Speed metric card (e.g. 
 
 ## Acceptance criteria
 
-- [ ] Card shows formatted average weekly points from T-173.
-- [ ] Empty history shows `—` (or equivalent) without looking like a crash.
-- [ ] Label/subtitle makes the unit clear (points per week).
+- [x] Card shows formatted average weekly points from T-173.
+- [x] Empty history shows `—` (or equivalent) without looking like a crash.
+- [x] Label/subtitle makes the unit clear (points per week).
 
 ## Notes
 
@@ -61,3 +63,4 @@ Display the 90-day weekly points average on the Current Speed metric card (e.g. 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-27T06:27:20Z | 2026-07-27T06:27:20Z | shared-batch: 0 of 3min by points — implement E-015 (T-174) |

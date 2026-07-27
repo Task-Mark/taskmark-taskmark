@@ -2,7 +2,7 @@
 id: S-054
 type: story
 title: Total and complete work item counts
-status: backlog
+status: done
 priority: high
 size: S
 size_source: rolled_up
@@ -21,14 +21,17 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [frontend, metrics, counts]
 created: 2026-07-27
-updated: 2026-07-27T06:17:22.249Z
-started_at: null
-completed_at: null
+updated: 2026-07-27T07:06:27.645Z
+started_at: 2026-07-27T06:25:20Z
+completed_at: 2026-07-27T06:28:48Z
 actual_ms: 0
 ---
 # S-054: Total and complete work item counts
@@ -39,10 +42,10 @@ As a project lead, I want to see how many stories, bugs, and tasks exist and how
 
 ## Acceptance criteria
 
-- [ ] **Total work items** counts stories + bugs + tasks for the current board (epics excluded).
-- [ ] **Complete work items** counts the same types with `status: done` (cancelled excluded from both totals unless product already treats cancelled as non-work — document choice in Notes).
-- [ ] Counts update when the board data reloads / project switches.
-- [ ] Values render in the Total and Complete metric cards from S-053.
+- [x] **Total work items** counts stories + bugs + tasks for the current board (epics excluded).
+- [x] **Complete work items** counts the same types with `status: done` (cancelled excluded from both totals unless product already treats cancelled as non-work — document choice in Notes).
+- [x] Counts update when the board data reloads / project switches.
+- [x] Values render in the Total and Complete metric cards from S-053.
 
 ## Tasks
 
@@ -53,6 +56,7 @@ As a project lead, I want to see how many stories, bugs, and tasks exist and how
 
 | # | When (UTC) | Kind | Author | Summary |
 |---|------------|------|--------|---------|
+| 2 | 2026-07-27T06:25:20Z | prompt | Marco Mendão | Implement the E-015 |
 | 1 | 2026-07-27T05:55:45Z | prompt | Marco Mendão | Create epic for project status metrics (total/complete/speed + contributors) styled like neo-brutalism metric cards; include stories and tasks |
 
 ## Commits
@@ -64,3 +68,4 @@ As a project lead, I want to see how many stories, bugs, and tasks exist and how
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-27T06:25:20Z | 2026-07-27T06:25:20Z | Parent rollup: children hold shared-batch |
