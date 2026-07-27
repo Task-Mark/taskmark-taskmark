@@ -28,7 +28,7 @@ blocked: false
 cancelled: false
 tags: [mvp, parser, bug]
 created: 2026-07-21
-updated: 2026-07-27T05:37:38.663Z
+updated: 2026-07-27T06:17:22.249Z
 started_at: 2026-07-21T16:56:26Z
 completed_at: 2026-07-21T16:56:26Z
 actual_ms: 1920000

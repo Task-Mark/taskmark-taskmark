@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, ui]
 created: 2026-07-27
-updated: 2026-07-27T05:45:23Z
+updated: 2026-07-27T06:17:22.249Z
 started_at: 2026-07-27T05:37:12Z
 completed_at: 2026-07-27T05:37:45Z
 actual_ms: 0
@@ -60,6 +60,8 @@ On Overall work items and the Work items tab, hovering the Size cell shows the s
 | 8 | 2026-07-27T05:42:24Z | feedback | Marco Mendão | Status align center header / right content on lists |
 | 9 | 2026-07-27T05:44:16Z | prompt | Marco Mendão | Center-align status and priority instead |
 | 10 | 2026-07-27T05:44:16Z | feedback | Marco Mendão | Status and priority header+cells centered |
+| 11 | 2026-07-27T05:45:36Z | prompt | Marco Mendão | Remove actual and estimation columns |
+| 12 | 2026-07-27T05:45:36Z | feedback | Marco Mendão | Dropped Est and Actual from overall + work items |
 
 ## Commits
 
