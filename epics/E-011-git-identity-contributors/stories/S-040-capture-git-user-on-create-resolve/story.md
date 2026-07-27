@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [identity, git, plugin, skills]
 created: 2026-07-23
-updated: 2026-07-27T05:30:10.150Z
+updated: 2026-07-27T05:37:38.663Z
 started_at: 2026-07-23T17:28:57Z
 completed_at: 2026-07-23T17:36:57Z
 actual_ms: 120000
 ---
-
 # S-040: Capture git user on create and resolve
 
 ## User story

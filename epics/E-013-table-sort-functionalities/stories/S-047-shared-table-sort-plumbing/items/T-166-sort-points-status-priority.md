@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-27
-updated: 2026-07-27T05:34:38Z
+updated: 2026-07-27T05:37:38.663Z
 started_at: 2026-07-27T05:27:49Z
 completed_at: 2026-07-27T05:28:30Z
 actual_ms: 0
 ---
-
 # T-166: Sort by points, status, and priority
 
 ## Description

@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-27T05:30:10.276Z
+Last synced: 2026-07-27T05:37:38.840Z
 
 ## Epics
 
@@ -11,7 +11,7 @@ Last synced: 2026-07-27T05:30:10.276Z
 | E-003 | Refactor Taskmark project structure | done | — | 31 | 443 | 496 | [epic.md](epics/E-003-refactor-taskmark-project-structure/epic.md) |
 | E-004 | Refactor speed and estimation | done | — | 52 | 682 | 688 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
 | E-005 | View work item | done | — | 44 | 620 | 49 | [epic.md](epics/E-005-view-work-item/epic.md) |
-| E-006 | New work item list views | done | — | 46 | 650 | 486 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
+| E-006 | New work item list views | done | — | 47 | 665 | 486 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
 | E-007 | Optional hierarchy and General epic | done | — | 15 | 230 | 40 | [epic.md](epics/E-007-optional-hierarchy-general-epic/epic.md) |
 | E-008 | General | done | — | 3 | 48 | 2 | [epic.md](epics/E-008-general/epic.md) |
 | E-009 | List pagination for work items | done | — | 15 | 230 | 13 | [epic.md](epics/E-009-list-pagination/epic.md) |
@@ -50,7 +50,7 @@ Last synced: 2026-07-27T05:30:10.276Z
 | S-023 | Shared batch actual time split | E-004 | done | S | 5 | 10 | 11 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-023-shared-batch-actual-split/story.md) |
 | S-024 | Board list view switcher | E-006 | done | M | 6 | 90 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-024-board-list-view-switcher/story.md) |
 | S-025 | Overall list view (current drill-down) | E-006 | done | S | 3 | 45 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-025-overall-list-view/story.md) |
-| S-026 | All work items table view | E-006 | done | XL | 11 | 175 | 5 | [story.md](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/story.md) |
+| S-026 | All work items table view | E-006 | done | XL | 12 | 190 | 5 | [story.md](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/story.md) |
 | S-027 | Stories list view with epic tag | E-006 | done | M | 6 | 90 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-027-stories-list-view-with-epic-tag/story.md) |
 | S-028 | Tasks list view with epic and story tags | E-006 | done | L | 7 | 110 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/story.md) |
 | S-029 | Standalone stories and tasks with General epic | E-007 | done | XL | 15 | 230 | 40 | [story.md](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/story.md) |

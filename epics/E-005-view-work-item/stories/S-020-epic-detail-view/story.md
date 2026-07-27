@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, epic, detail]
 created: 2026-07-21
-updated: 2026-07-27T05:30:10.150Z
+updated: 2026-07-27T05:37:38.663Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
 actual_ms: 30469
 ---
-
 # S-020: Epic detail view
 
 ## User story

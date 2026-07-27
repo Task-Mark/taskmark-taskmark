@@ -28,12 +28,11 @@ blocked: false
 cancelled: false
 tags: [plugin, sync, multi-repo]
 created: 2026-07-21
-updated: 2026-07-27T05:30:10.150Z
+updated: 2026-07-27T05:37:38.663Z
 started_at: 2026-07-21T21:48:51Z
 completed_at: 2026-07-21T22:36:51Z
 actual_ms: 60000
 ---
-
 # T-027: Update sync-taskmark-repos skill and script
 
 ## Description

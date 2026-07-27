@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [filters, timeframe, weeks, frontend, ui]
 created: 2026-07-24
-updated: 2026-07-27T05:30:10.150Z
+updated: 2026-07-27T05:37:38.663Z
 started_at: 2026-07-24T16:23:57Z
 completed_at: 2026-07-24T16:24:19Z
 actual_ms: 22000
 ---
-
 # T-137: Mark prev/next weeks and widen week slider
 
 ## Description

@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [filters, timeframe, date-range, frontend]
 created: 2026-07-23
-updated: 2026-07-27T05:30:10.150Z
+updated: 2026-07-27T05:37:38.663Z
 started_at: 2026-07-24T16:02:37Z
 completed_at: 2026-07-24T16:06:21Z
 actual_ms: 32000
 ---
+
 # T-133: Apply date range filter to solved items on lists
 
 ## Description

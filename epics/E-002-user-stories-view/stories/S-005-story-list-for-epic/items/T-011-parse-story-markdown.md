@@ -28,12 +28,11 @@ blocked: false
 cancelled: false
 tags: [parser, stories]
 created: 2026-07-21
-updated: 2026-07-27T05:30:10.150Z
+updated: 2026-07-27T05:37:38.663Z
 started_at: 2026-07-21T17:45:49Z
 completed_at: 2026-07-21T17:48:46Z
 actual_ms: 907000
 ---
-
 # T-011: Parse story markdown under selected epic
 
 ## Description

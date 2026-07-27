@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, workitems]
 created: 2026-07-23
-updated: 2026-07-27T05:30:10.150Z
+updated: 2026-07-27T05:37:38.663Z
 started_at: 2026-07-23T07:00:14Z
 completed_at: 2026-07-23T07:03:14Z
 actual_ms: 180000
 ---
-
 # T-082: Overall and Work items tabs only
 
 ## Description
