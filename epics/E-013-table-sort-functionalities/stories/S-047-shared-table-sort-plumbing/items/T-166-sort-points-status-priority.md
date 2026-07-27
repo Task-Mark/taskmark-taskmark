@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-27
-updated: 2026-07-27T05:30:10.150Z
+updated: 2026-07-27T05:34:38Z
 started_at: 2026-07-27T05:27:49Z
 completed_at: 2026-07-27T05:28:30Z
 actual_ms: 0
@@ -60,6 +60,8 @@ Extend shared table sort so lists can sort by **points**, **status**, and **prio
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 4b6097c | taskmark-frontend | 2026-07-27T06:34:38+01:00 | Marco Mendão | add sortable table columns across board lists |
+| f14af32 | taskmark-taskmark | 2026-07-27T06:34:38+01:00 | Marco Mendão | sync taskmark board |
 
 ## Work log
 

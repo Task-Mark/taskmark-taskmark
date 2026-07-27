@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-27
-updated: 2026-07-27T05:30:10.150Z
+updated: 2026-07-27T05:34:38Z
 started_at: 2026-07-27T05:25:37Z
 completed_at: 2026-07-27T05:26:10Z
 actual_ms: 0
@@ -58,6 +58,8 @@ Sortable headers should cycle: first click starts ascending sort, second click i
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 4b6097c | taskmark-frontend | 2026-07-27T06:34:38+01:00 | Marco Mendão | add sortable table columns across board lists |
+| f14af32 | taskmark-taskmark | 2026-07-27T06:34:38+01:00 | Marco Mendão | sync taskmark board |
 
 ## Work log
 
