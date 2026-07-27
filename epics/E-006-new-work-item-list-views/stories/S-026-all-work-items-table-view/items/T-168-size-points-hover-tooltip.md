@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, ui]
 created: 2026-07-27
-updated: 2026-07-27T07:09:18.868Z
+updated: 2026-07-27T07:23:21.914Z
 started_at: 2026-07-27T05:37:12Z
 completed_at: 2026-07-27T05:37:45Z
 actual_ms: 0
 ---
+
 # T-168: Show points on size hover in work item lists
 
 ## Description

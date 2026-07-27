@@ -28,11 +28,12 @@ blocked: false
 cancelled: false
 tags: [start-work, cascade, status]
 created: 2026-07-21
-updated: 2026-07-27T07:09:18.868Z
+updated: 2026-07-27T07:23:21.914Z
 started_at: 2026-07-21T22:19:27Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 0
 ---
+
 # T-040: Start task cascades to story and epic
 
 ## Description

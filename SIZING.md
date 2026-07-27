@@ -1,20 +1,20 @@
 # T-shirt sizing and story points
 
-| Size | Points | Meaning |
-|------|--------|---------|
-| XS | 1 | Trivial |
-| S | 2 | Small |
-| M | 3 | Medium |
-| L | 5 | Large |
-| XL | 8 | Extra large (prefer split) |
+| Size | Points | Meaning | Seed estimate |
+|------|--------|---------|---------------|
+| XS | 1 | Trivial | 14 min |
+| S | 2 | Small | 32 min |
+| M | 3 | Medium | 5 min |
+| L | 5 | Large | 90 min |
+| XL | 8 | Extra large (prefer split) | 3 h (180 min) |
 
 Weights for size rollups: XS=1, S=2, M=3, L=4, XL=5.
 
-Sizing suggests **size + points only**. Do not suggest `estimate_minutes` from size
-(velocity/time-estimate mechanism removed — S-057).
+Sizing suggests size + points; Est uses Current Speed median min/pt when available
+(see `VELOCITY.md`). Seed estimates are fallbacks only.
 
 ## Calibration log
 
-| Date | Item | Sized | Points | Note |
-|------|------|-------|--------|------|
-| — | — | — | — | Prior seed-estimate / velocity calibration rows retired |
+| Date | Item | Sized | Points | Est | Actual | Note |
+|------|------|-------|--------|-----|--------|------|
+| — | — | — | — | — | — | — |

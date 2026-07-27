@@ -2,7 +2,7 @@
 id: E-015
 type: epic
 title: Project status metrics
-status: in_progress
+status: done
 priority: high
 size: null
 size_source: rolled_up
@@ -10,7 +10,7 @@ size_basis: [sum:children]
 points: 40
 points_source: rolled_up
 estimate_minutes: 550
-actual_minutes: 9
+actual_minutes: 12
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -21,15 +21,18 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [frontend, metrics, dashboard, velocity, contributors]
 created: 2026-07-27
-updated: 2026-07-27T07:16:22Z
+updated: 2026-07-27T07:31:16Z
 started_at: 2026-07-27T06:10:41Z
-completed_at: null
-actual_ms: 558000
+completed_at: 2026-07-27T07:23:21Z
+actual_ms: 738000
 ---
 # E-015: Project status metrics
 
@@ -73,6 +76,7 @@ Show at-a-glance project health on the board: total work items, completed work i
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 21253c0 | taskmark-cursor | 2026-07-27T07:30:51Z | Marco Mendão | restore velocity with current speed |
 | 577a91d | taskmark-frontend | 2026-07-27T07:16:12Z | Marco Mendão | add current week points metric |
 | d5f8f02 | taskmark-frontend | 2026-07-27T07:08:31Z | Marco Mendão | add project metrics and calendar points |
 | a494e58 | taskmark-taskmark | 2026-07-27T06:19:46Z | Marco Mendão | add e-015 metrics and remove velocity board |
@@ -84,3 +88,4 @@ Show at-a-glance project health on the board: total work items, completed work i
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | Marco Mendão | 2026-07-27T06:25:20Z | 2026-07-27T06:25:20Z | Parent rollup: E-015 metrics UI; billable on T-169–T-176 (shared-batch) |
+| 2 | Marco Mendão | 2026-07-27T07:23:21Z | 2026-07-27T07:23:21Z | Parent rollup: S-058 velocity redesign; billable on T-184–T-187 |

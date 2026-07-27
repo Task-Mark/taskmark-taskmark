@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, filters, bugfix]
 created: 2026-07-23
-updated: 2026-07-27T07:09:18.868Z
+updated: 2026-07-27T07:23:21.914Z
 started_at: 2026-07-23T16:16:14Z
 completed_at: 2026-07-23T16:18:24Z
 actual_ms: 130000
 ---
+
 # T-107: Fix multiselect filter autocomplete
 
 ## Description

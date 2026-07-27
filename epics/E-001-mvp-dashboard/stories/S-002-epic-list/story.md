@@ -28,7 +28,7 @@ blocked: false
 cancelled: false
 tags: [mvp, epics, dashboard]
 created: 2026-07-21
-updated: 2026-07-27T07:09:18.868Z
+updated: 2026-07-27T07:23:21.914Z
 started_at: 2026-07-21T16:49:52Z
 completed_at: 2026-07-21T16:51:19Z
 actual_ms: 9548000

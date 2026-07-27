@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [frontend, views, tasks, sheet]
 created: 2026-07-22
-updated: 2026-07-27T07:09:18.868Z
+updated: 2026-07-27T07:23:21.914Z
 started_at: 2026-07-23T06:38:57Z
 completed_at: 2026-07-23T06:39:10Z
 actual_ms: 13000
 ---
-
 # T-075: Wire Tasks view into switcher and detail sheet
 
 ## Description

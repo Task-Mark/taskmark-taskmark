@@ -2,7 +2,7 @@
 id: S-055
 type: story
 title: Current speed metric
-status: in_progress
+status: done
 priority: high
 size: M
 size_source: rolled_up
@@ -29,9 +29,9 @@ blocked: false
 cancelled: false
 tags: [frontend, metrics, velocity, speed]
 created: 2026-07-27
-updated: 2026-07-27T07:16:22Z
+updated: 2026-07-27T07:23:21.914Z
 started_at: 2026-07-27T06:25:20Z
-completed_at: null
+completed_at: 2026-07-27T07:19:27Z
 actual_ms: 78000
 ---
 # S-055: Current speed metric
@@ -55,6 +55,7 @@ As a project lead, I want a Current Speed number based on recent weekly throughp
 
 - [T-173: Implement 90-day weekly points average](items/T-173-ninety-day-weekly-speed.md)
 - [T-174: Wire Current Speed into metric card](items/T-174-wire-current-speed-card.md)
+- [T-183: Add current week story points card](items/T-183-current-week-story-points-card.md)
 
 ## Prompt & feedback log
 
@@ -64,7 +65,6 @@ As a project lead, I want a Current Speed number based on recent weekly throughp
 | 1 | 2026-07-27T05:55:45Z | prompt | Marco Mendão | Create epic for project status metrics (total/complete/speed + contributors) styled like neo-brutalism metric cards; include stories and tasks |
 | 3 | 2026-07-27T06:42:30Z | prompt | Marco Mendão | Fix speed: ignore current week and zero-point weeks in average |
 
-- [T-183: Add current week story points card](items/T-183-current-week-story-points-card.md)
 
 ## Commits
 
