@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [filters, timeframe, frontend]
 created: 2026-07-23
-updated: 2026-07-25T10:44:19.816Z
+updated: 2026-07-27T05:16:43.229Z
 started_at: 2026-07-24T16:02:37Z
 completed_at: 2026-07-24T16:06:21Z
 actual_ms: 21333
 ---
-
 # T-128: Add timeframe controls slot to list filters bar
 
 ## Description

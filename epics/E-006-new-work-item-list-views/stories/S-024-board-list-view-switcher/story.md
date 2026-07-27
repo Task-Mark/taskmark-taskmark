@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, switcher]
 created: 2026-07-22
-updated: 2026-07-25T10:44:19.816Z
+updated: 2026-07-27T05:16:43.229Z
 started_at: 2026-07-23T06:38:57Z
 completed_at: 2026-07-23T06:42:22Z
 actual_ms: 39000
 ---
+
 # S-024: Board list view switcher
 
 ## User story

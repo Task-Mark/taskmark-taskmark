@@ -2,14 +2,14 @@
 id: S-026
 type: story
 title: All work items table view
-status: done
+status: in_progress
 priority: high
 size: XL
 size_source: rolled_up
 size_basis: [sum:tasks]
-points: 10
+points: 11
 points_source: rolled_up
-estimate_minutes: 160
+estimate_minutes: 175
 actual_minutes: 5
 estimate_source: rolled_up
 estimate_basis: [sum:tasks]
@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, all]
 created: 2026-07-22
-updated: 2026-07-25T10:44:19.816Z
+updated: 2026-07-27T05:16:43.229Z
 started_at: 2026-07-23T06:38:57Z
-completed_at: 2026-07-23T06:42:22Z
+completed_at: null
 actual_ms: 313000
 ---
+
 # S-026: All work items table view
 
 ## User story
@@ -54,6 +55,7 @@ As a user, I want an All view that puts every epic, story, and task on one table
 - [T-069: Wire All view into switcher and detail sheet](items/T-069-wire-all-view-to-switcher.md)
 - [T-108: Sort done work items by completed date](items/T-108-sort-done-by-completed-date.md)
 - [T-109: Done work items sort by solved date only](items/T-109-done-sort-by-solved-not-priority.md)
+- [T-164: Show story progress bars on Work items list](items/T-164-work-items-story-progress-bars.md)
 
 ## Prompt & feedback log
 

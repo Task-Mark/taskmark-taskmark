@@ -1,27 +1,27 @@
 # Team velocity
 
-Last synced: 2026-07-25T10:44:19.816Z
+Last synced: 2026-07-27T05:16:43.229Z
 Window: rolling 30 days (done tasks/bugs by completed_at)
 
 ## Throughput
 
 | Metric | Value |
 |--------|-------|
-| Done items in window | 151 |
-| Sum points | 335 |
+| Done items in window | 153 |
+| Sum points | 338 |
 | Median points | 2 |
 | Median actual_minutes | 14 |
 | Median minutes per point | 14 |
-| Points per week (approx) | 78.2 |
+| Points per week (approx) | 78.9 |
 
 ## Remaining backlog
 
 | Metric | Value |
 |--------|-------|
-| Open items (excl. cancelled) | 17 |
-| Sum points remaining | 43 |
-| Sum estimate_minutes remaining | 610 |
-| ETA (from median min/point) | ~602 min |
+| Open items (excl. cancelled) | 18 |
+| Sum points remaining | 44 |
+| Sum estimate_minutes remaining | 625 |
+| ETA (from median min/point) | ~616 min |
 
 ## Notes
 

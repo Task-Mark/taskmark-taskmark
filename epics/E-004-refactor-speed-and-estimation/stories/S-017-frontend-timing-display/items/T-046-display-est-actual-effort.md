@@ -28,12 +28,11 @@ blocked: false
 cancelled: false
 tags: [frontend, estimation, actual]
 created: 2026-07-21
-updated: 2026-07-25T10:44:19.816Z
+updated: 2026-07-27T05:16:43.229Z
 started_at: 2026-07-21T23:00:19Z
 completed_at: 2026-07-21T23:01:18Z
 actual_ms: 120000
 ---
-
 # T-046: Display Est Actual and optional Effort in lists
 
 ## Description

@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, detail, sheet, markdown]
 created: 2026-07-23
-updated: 2026-07-25T10:44:19.816Z
+updated: 2026-07-27T05:16:43.229Z
 started_at: 2026-07-23T09:33:08Z
 completed_at: 2026-07-23T09:36:18Z
 actual_ms: 843000
 ---
+
 # T-086: Render markdown in work item detail sheet sections
 
 ## Description

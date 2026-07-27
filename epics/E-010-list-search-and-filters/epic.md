@@ -2,14 +2,14 @@
 id: E-010
 type: epic
 title: List search and filters
-status: done
+status: in_progress
 priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 28
+points: 30
 points_source: rolled_up
-estimate_minutes: 430
+estimate_minutes: 460
 actual_minutes: 16
 estimate_source: rolled_up
 estimate_basis: [sum:children]
@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, search, filters]
 created: 2026-07-23
-updated: 2026-07-25T10:44:19.816Z
+updated: 2026-07-27T05:16:43.229Z
 started_at: 2026-07-23T16:00:49Z
-completed_at: 2026-07-24T17:38:52Z
+completed_at: null
 actual_ms: 1004000
 ---
-
 # E-010: List search and filters
 
 ## Goal

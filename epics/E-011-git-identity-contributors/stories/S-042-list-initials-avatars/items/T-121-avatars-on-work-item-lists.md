@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [frontend, avatars, lists]
 created: 2026-07-23
-updated: 2026-07-25T10:44:19.816Z
+updated: 2026-07-27T05:16:43.229Z
 started_at: 2026-07-23T17:28:57Z
 completed_at: 2026-07-23T17:36:57Z
 actual_ms: 60000
 ---
-
 # T-121: Show avatars on epic, story, and task lists
 
 ## Description

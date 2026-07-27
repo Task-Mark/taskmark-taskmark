@@ -26,12 +26,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-24
-updated: 2026-07-25T10:44:19.816Z
+updated: 2026-07-27T05:16:43.229Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
-
 # T-146: Sort task list by id, title, and size
 
 ## Description

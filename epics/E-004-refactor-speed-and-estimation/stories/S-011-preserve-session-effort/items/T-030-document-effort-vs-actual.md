@@ -28,11 +28,12 @@ blocked: false
 cancelled: false
 tags: [effort, work-log, conventions]
 created: 2026-07-21
-updated: 2026-07-25T10:44:19.816Z
+updated: 2026-07-27T05:16:43.229Z
 started_at: 2026-07-21T23:05:18Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 960000
 ---
+
 # T-030: Document effort vs actual dual model
 
 ## Description

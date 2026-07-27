@@ -4,12 +4,12 @@ type: story
 title: App bar project switcher
 status: done
 priority: high
-size: S
+size: M
 size_source: rolled_up
 size_basis: [sum:tasks]
-points: 3
+points: 4
 points_source: rolled_up
-estimate_minutes: 45
+estimate_minutes: 60
 actual_minutes: 33
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -28,11 +28,12 @@ blocked: false
 cancelled: false
 tags: [mvp, app-bar, navigation]
 created: 2026-07-21
-updated: 2026-07-25T10:44:19.816Z
+updated: 2026-07-27T05:16:43.229Z
 started_at: 2026-07-21T16:59:31Z
-completed_at: 2026-07-21T17:02:25Z
+completed_at: 2026-07-27T05:16:43Z
 actual_ms: 1997000
 ---
+
 # S-003: App bar project switcher
 
 ## User story
@@ -53,6 +54,7 @@ As a user, after I set up a master folder, I want an app bar that lets me switch
 - [T-009: Build post-setup app bar UI](items/T-009-app-bar-ui.md)
 - [T-010: Persist active project and filter epic list](items/T-010-active-project-cookie.md)
 - [T-141: Primary hover underline under Taskmark brand](items/T-141-brand-hover-underline.md)
+- [T-163: Replace app brand logo with tm_light mark](items/T-163-replace-brand-logo.md)
 
 ## Prompt & feedback log
 

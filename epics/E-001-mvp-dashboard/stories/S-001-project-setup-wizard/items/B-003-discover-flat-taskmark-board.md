@@ -28,12 +28,11 @@ blocked: false
 cancelled: false
 tags: [setup, discovery, multi-repo, frontend]
 created: 2026-07-21
-updated: 2026-07-25T10:44:19.816Z
+updated: 2026-07-27T05:16:43.229Z
 started_at: 2026-07-21T22:44:32Z
 completed_at: 2026-07-21T22:44:56Z
 actual_ms: 1920000
 ---
-
 # B-003: Setup fails to discover flat multi-repo board
 
 ## Description

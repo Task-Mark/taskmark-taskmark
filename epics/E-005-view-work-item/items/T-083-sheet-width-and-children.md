@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, sheet, detail]
 created: 2026-07-23
-updated: 2026-07-25T10:44:19.816Z
+updated: 2026-07-27T05:16:43.229Z
 started_at: 2026-07-23T07:09:24Z
 completed_at: 2026-07-23T07:12:24Z
 actual_ms: 180000
 ---
-
 # T-083: Wider detail sheet with epic and story children
 
 ## Description

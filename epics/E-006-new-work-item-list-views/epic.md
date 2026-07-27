@@ -2,14 +2,14 @@
 id: E-006
 type: epic
 title: New work item list views
-status: done
+status: in_progress
 priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 45
+points: 46
 points_source: rolled_up
-estimate_minutes: 635
+estimate_minutes: 650
 actual_minutes: 486
 estimate_source: rolled_up
 estimate_basis: [sum:children]
@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, lists]
 created: 2026-07-22
-updated: 2026-07-25T10:44:19.816Z
+updated: 2026-07-27T05:16:43.229Z
 started_at: 2026-07-23T05:44:00Z
-completed_at: 2026-07-24T17:42:47Z
+completed_at: null
 actual_ms: 29185000
 ---
+
 # E-006: New work item list views
 
 ## Goal

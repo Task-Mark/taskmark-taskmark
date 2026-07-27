@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, filters, bug]
 created: 2026-07-24
-updated: 2026-07-25T10:44:19.816Z
+updated: 2026-07-27T05:16:43.229Z
 started_at: 2026-07-24T17:38:01Z
 completed_at: 2026-07-24T17:38:52Z
 actual_ms: 51000
 ---
-
 # B-006: Hide completed hides done epics that still have open epic-direct work
 
 ## Description
