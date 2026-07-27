@@ -26,11 +26,12 @@ blocked: false
 cancelled: false
 tags: [plugin, init, docs]
 created: 2026-07-24
-updated: 2026-07-27T07:06:27.645Z
+updated: 2026-07-27T07:09:18.868Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
+
 # T-157: Document one-command UI launch on board init
 
 ## Description

@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [app-bar, brand, ui]
 created: 2026-07-24
-updated: 2026-07-27T07:06:27.645Z
+updated: 2026-07-27T07:09:18.868Z
 started_at: 2026-07-24T17:06:11Z
 completed_at: 2026-07-24T17:14:20Z
 actual_ms: 489000
 ---
-
 # T-141: Primary hover underline under Taskmark brand
 
 ## Description

@@ -26,12 +26,11 @@ blocked: false
 cancelled: false
 tags: [frontend, local, config]
 created: 2026-07-24
-updated: 2026-07-27T07:06:27.645Z
+updated: 2026-07-27T07:09:18.868Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
-
 # T-150: Resolve board from cwd layouts
 
 ## Description

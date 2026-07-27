@@ -28,11 +28,12 @@ blocked: false
 cancelled: false
 tags: [wiring, tasks, stories]
 created: 2026-07-21
-updated: 2026-07-27T07:06:27.645Z
+updated: 2026-07-27T07:09:18.868Z
 started_at: 2026-07-21T18:00:53Z
 completed_at: 2026-07-21T18:02:46Z
 actual_ms: 15646000
 ---
+
 # T-016: Wire story selection to task list
 
 ## Description

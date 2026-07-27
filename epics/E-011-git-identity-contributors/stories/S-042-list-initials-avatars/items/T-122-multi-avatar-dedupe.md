@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [frontend, avatars, ux]
 created: 2026-07-23
-updated: 2026-07-27T07:06:27.645Z
+updated: 2026-07-27T07:09:18.868Z
 started_at: 2026-07-23T17:28:57Z
 completed_at: 2026-07-23T17:36:57Z
 actual_ms: 60000
 ---
+
 # T-122: Multi-avatar stack and same-person dedupe
 
 ## Description

@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [filters, timeframe, calendar, metrics, points]
 created: 2026-07-27
-updated: 2026-07-27T07:06:27.645Z
+updated: 2026-07-27T07:09:18.868Z
 started_at: 2026-07-27T07:02:34Z
 completed_at: 2026-07-27T07:03:33Z
 actual_ms: 59000
 ---
+
 # T-181: Align calendar points with leaf speed logic
 
 ## Description

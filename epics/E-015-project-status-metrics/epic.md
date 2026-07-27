@@ -7,7 +7,7 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 39
+points: 40
 points_source: rolled_up
 estimate_minutes: 550
 actual_minutes: 9
@@ -26,10 +26,10 @@ blocked: false
 cancelled: false
 tags: [frontend, metrics, dashboard, velocity, contributors]
 created: 2026-07-27
-updated: 2026-07-27T07:06:27.645Z
+updated: 2026-07-27T07:16:22Z
 started_at: 2026-07-27T06:10:41Z
 completed_at: null
-actual_ms: 540000
+actual_ms: 558000
 ---
 # E-015: Project status metrics
 
@@ -73,6 +73,7 @@ Show at-a-glance project health on the board: total work items, completed work i
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 577a91d | taskmark-frontend | 2026-07-27T07:16:12Z | Marco Mendão | add current week points metric |
 | d5f8f02 | taskmark-frontend | 2026-07-27T07:08:31Z | Marco Mendão | add project metrics and calendar points |
 | a494e58 | taskmark-taskmark | 2026-07-27T06:19:46Z | Marco Mendão | add e-015 metrics and remove velocity board |
 | 1a8522f | taskmark-frontend | 2026-07-27T06:19:45Z | Marco Mendão | drop est actual columns and velocity timing notes |

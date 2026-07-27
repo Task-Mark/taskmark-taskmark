@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-27T07:06:27.752Z
+Last synced: 2026-07-27T07:09:18.988Z
 
 ## Epics
 
@@ -20,7 +20,7 @@ Last synced: 2026-07-27T07:06:27.752Z
 | E-012 | Timeframe filters for solved work items | done | — | 39 | 545 | 15 | [epic.md](epics/E-012-timeframe-filters/epic.md) |
 | E-013 | Table sort functionalities | done | — | 21 | 305 | 2 | [epic.md](epics/E-013-table-sort-functionalities/epic.md) |
 | E-014 | Zero-config local board UI package | backlog | — | 27 | 380 | 0 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
-| E-015 | Project status metrics | in_progress | — | 39 | 550 | 9 | [epic.md](epics/E-015-project-status-metrics/epic.md) |
+| E-015 | Project status metrics | in_progress | — | 40 | 550 | 9 | [epic.md](epics/E-015-project-status-metrics/epic.md) |
 | E-016 | README project status and changelog | backlog | — | 0 | 0 | 0 | [epic.md](epics/E-016-readme-project-status-and-changelog/epic.md) |
 
 ## Stories
@@ -81,7 +81,7 @@ Last synced: 2026-07-27T07:06:27.752Z
 | S-052 | Board init one-command UI launch | E-014 | backlog | M | 5 | 70 | 0 | [story.md](epics/E-014-zero-config-local-board-ui/stories/S-052-board-init-one-command-ui/story.md) |
 | S-053 | Metrics cards UI shell | E-015 | done | M | 5 | 70 | 1 | [story.md](epics/E-015-project-status-metrics/stories/S-053-metrics-cards-ui/story.md) |
 | S-054 | Total and complete work item counts | E-015 | done | S | 3 | 45 | 0 | [story.md](epics/E-015-project-status-metrics/stories/S-054-work-item-count-metrics/story.md) |
-| S-055 | Current speed metric | E-015 | done | M | 6 | 85 | 1 | [story.md](epics/E-015-project-status-metrics/stories/S-055-current-speed-metric/story.md) |
+| S-055 | Current speed metric | E-015 | in_progress | M | 7 | 85 | 1 | [story.md](epics/E-015-project-status-metrics/stories/S-055-current-speed-metric/story.md) |
 | S-056 | Project contributors view | E-015 | done | M | 5 | 70 | 1 | [story.md](epics/E-015-project-status-metrics/stories/S-056-project-contributors-view/story.md) |
 | S-057 | Remove legacy velocity and time estimates | E-015 | done | L | 7 | 100 | 6 | [story.md](epics/E-015-project-status-metrics/stories/S-057-shelf-legacy-velocity/story.md) |
 | S-058 | Reimplement velocity and time estimates | E-015 | backlog | XL | 13 | 180 | 0 | [story.md](epics/E-015-project-status-metrics/stories/S-058-reimplement-velocity-estimates/story.md) |

@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, sheet, routing, bug]
 created: 2026-07-25
-updated: 2026-07-27T07:06:27.645Z
+updated: 2026-07-27T07:09:18.868Z
 started_at: 2026-07-25T10:43:07Z
 completed_at: 2026-07-25T10:44:19Z
 actual_ms: 72000
 ---
-
 # B-007: Sheet parent and breadcrumb resolve same id from another project
 
 ## Description
