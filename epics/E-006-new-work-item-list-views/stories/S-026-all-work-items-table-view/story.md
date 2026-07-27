@@ -2,7 +2,7 @@
 id: S-026
 type: story
 title: All work items table view
-status: in_progress
+status: done
 priority: high
 size: XL
 size_source: rolled_up
@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, all]
 created: 2026-07-22
-updated: 2026-07-27T05:16:43.229Z
+updated: 2026-07-27T05:18:44.416Z
 started_at: 2026-07-23T06:38:57Z
-completed_at: null
+completed_at: 2026-07-27T05:18:44Z
 actual_ms: 313000
 ---
-
 # S-026: All work items table view
 
 ## User story

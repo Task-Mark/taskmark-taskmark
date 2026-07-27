@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [prompt-feedback, identity, plugin, frontend]
 created: 2026-07-23
-updated: 2026-07-27T05:16:43.229Z
+updated: 2026-07-27T05:18:44.416Z
 started_at: 2026-07-23T17:28:57Z
 completed_at: 2026-07-23T17:36:57Z
 actual_ms: 60000
 ---
+
 # T-125: Show authors on Prompt and feedback
 
 ## Description

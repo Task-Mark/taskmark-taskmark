@@ -2,7 +2,7 @@
 id: T-164
 type: task
 title: Show story progress bars on Work items list
-status: in_progress
+status: done
 priority: medium
 size: XS
 size_source: suggested
@@ -21,16 +21,20 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, progress]
 created: 2026-07-27
-updated: 2026-07-27T05:16:43.229Z
+updated: 2026-07-27T05:18:44.416Z
 started_at: 2026-07-27T05:16:08Z
-completed_at: null
+completed_at: 2026-07-27T05:18:44Z
 actual_ms: 0
 ---
+
 # T-164: Show story progress bars on Work items list
 
 ## Description
@@ -53,9 +57,11 @@ On the Work items tab, user stories should show the same child progress bar used
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| b13c67c | taskmark-frontend | 2026-07-27T06:18:24+01:00 | Marco Mendão | persist hide filters, brand logo, and story progress |
+| 3235283 | taskmark-taskmark | 2026-07-27T06:18:25+01:00 | Marco Mendão | sync taskmark board |
 
 ## Work log
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Duration | Note |
 |---------|-------|---------------|-------------|----------|------|
-| 1 | Marco Mendão | 2026-07-27T05:16:08Z | — | — | In progress: story progress bars on work items list |
+| 1 | Marco Mendão | 2026-07-27T05:16:08Z | 2026-07-27T05:18:44Z | — | Story progress bars on Work items list |

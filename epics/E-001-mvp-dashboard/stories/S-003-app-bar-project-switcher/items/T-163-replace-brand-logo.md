@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [app-bar, brand, ui]
 created: 2026-07-27
-updated: 2026-07-27T05:16:43.229Z
+updated: 2026-07-27T05:18:44.416Z
 started_at: 2026-07-27T05:13:45Z
 completed_at: 2026-07-27T05:16:31Z
 actual_ms: 0
 ---
-
 # T-163: Replace app brand logo with tm_light mark
 
 ## Description
@@ -58,6 +57,8 @@ Use `public/tm_light.png` as the Taskmark brand logo (with `tm_dark.png` for dar
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| b13c67c | taskmark-frontend | 2026-07-27T06:18:24+01:00 | Marco Mendão | persist hide filters, brand logo, and story progress |
+| 3235283 | taskmark-taskmark | 2026-07-27T06:18:25+01:00 | Marco Mendão | sync taskmark board |
 
 ## Work log
 

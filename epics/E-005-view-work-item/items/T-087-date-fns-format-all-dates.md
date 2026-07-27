@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, dates, detail]
 created: 2026-07-23
-updated: 2026-07-27T05:16:43.229Z
+updated: 2026-07-27T05:18:44.416Z
 started_at: 2026-07-23T09:44:14Z
 completed_at: 2026-07-23T09:47:31Z
 actual_ms: 1436000
 ---
-
 # T-087: Add date-fns and format all displayed dates
 
 ## Description

@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-27T05:16:43.388Z
+Last synced: 2026-07-27T05:18:44.647Z
 
 ## Epics
 
@@ -11,11 +11,11 @@ Last synced: 2026-07-27T05:16:43.388Z
 | E-003 | Refactor Taskmark project structure | done | — | 31 | 443 | 496 | [epic.md](epics/E-003-refactor-taskmark-project-structure/epic.md) |
 | E-004 | Refactor speed and estimation | done | — | 52 | 682 | 688 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
 | E-005 | View work item | done | — | 44 | 620 | 49 | [epic.md](epics/E-005-view-work-item/epic.md) |
-| E-006 | New work item list views | in_progress | — | 46 | 650 | 486 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
+| E-006 | New work item list views | done | — | 46 | 650 | 486 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
 | E-007 | Optional hierarchy and General epic | done | — | 15 | 230 | 40 | [epic.md](epics/E-007-optional-hierarchy-general-epic/epic.md) |
 | E-008 | General | done | — | 3 | 48 | 2 | [epic.md](epics/E-008-general/epic.md) |
 | E-009 | List pagination for work items | done | — | 15 | 230 | 13 | [epic.md](epics/E-009-list-pagination/epic.md) |
-| E-010 | List search and filters | in_progress | — | 30 | 460 | 16 | [epic.md](epics/E-010-list-search-and-filters/epic.md) |
+| E-010 | List search and filters | done | — | 30 | 460 | 16 | [epic.md](epics/E-010-list-search-and-filters/epic.md) |
 | E-011 | Git identity contributors and avatars | done | — | 33 | 515 | 8 | [epic.md](epics/E-011-git-identity-contributors/epic.md) |
 | E-012 | Timeframe filters for solved work items | done | — | 34 | 545 | 11 | [epic.md](epics/E-012-timeframe-filters/epic.md) |
 | E-013 | Table sort functionalities | backlog | — | 16 | 230 | 0 | [epic.md](epics/E-013-table-sort-functionalities/epic.md) |
@@ -50,7 +50,7 @@ Last synced: 2026-07-27T05:16:43.388Z
 | S-023 | Shared batch actual time split | E-004 | done | S | 5 | 10 | 11 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-023-shared-batch-actual-split/story.md) |
 | S-024 | Board list view switcher | E-006 | done | M | 6 | 90 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-024-board-list-view-switcher/story.md) |
 | S-025 | Overall list view (current drill-down) | E-006 | done | S | 3 | 45 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-025-overall-list-view/story.md) |
-| S-026 | All work items table view | E-006 | in_progress | XL | 11 | 175 | 5 | [story.md](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/story.md) |
+| S-026 | All work items table view | E-006 | done | XL | 11 | 175 | 5 | [story.md](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/story.md) |
 | S-027 | Stories list view with epic tag | E-006 | done | M | 6 | 90 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-027-stories-list-view-with-epic-tag/story.md) |
 | S-028 | Tasks list view with epic and story tags | E-006 | done | L | 7 | 110 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/story.md) |
 | S-029 | Standalone stories and tasks with General epic | E-007 | done | XL | 15 | 230 | 40 | [story.md](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/story.md) |
@@ -62,7 +62,7 @@ Last synced: 2026-07-27T05:16:43.388Z
 | S-035 | Search on Work items list | E-010 | done | S | 2 | 30 | 0 | [story.md](epics/E-010-list-search-and-filters/stories/S-035-work-items-search/story.md) |
 | S-036 | Parent epic/story autocomplete filter | E-010 | done | L | 6 | 95 | 4 | [story.md](epics/E-010-list-search-and-filters/stories/S-036-parent-autocomplete-filter/story.md) |
 | S-037 | Tags multiselect filter | E-010 | done | S | 3 | 50 | 0 | [story.md](epics/E-010-list-search-and-filters/stories/S-037-tags-multiselect-filter/story.md) |
-| S-038 | Hide completed filter | E-010 | in_progress | L | 9 | 135 | 3 | [story.md](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/story.md) |
+| S-038 | Hide completed filter | E-010 | done | L | 9 | 135 | 3 | [story.md](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/story.md) |
 | S-039 | Git identity data model | E-011 | done | M | 5 | 75 | 0 | [story.md](epics/E-011-git-identity-contributors/stories/S-039-git-identity-data-model/story.md) |
 | S-040 | Capture git user on create and resolve | E-011 | done | L | 8 | 130 | 2 | [story.md](epics/E-011-git-identity-contributors/stories/S-040-capture-git-user-on-create-resolve/story.md) |
 | S-041 | README contributors | E-011 | done | M | 5 | 80 | 1 | [story.md](epics/E-011-git-identity-contributors/stories/S-041-readme-contributors/story.md) |
@@ -257,4 +257,4 @@ Last synced: 2026-07-27T05:16:43.388Z
 | T-161 | In-sheet back button for detail navigation | E-005 | done | S | 2 | 30 | 0 | [T-161](epics/E-005-view-work-item/items/T-161-in-sheet-back-button.md) |
 | T-162 | Persist each Hide completed toggle in a cookie | S-038 | done | S | 2 | 30 | 0 | [T-162](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/items/T-162-persist-hide-completed-cookies.md) |
 | T-163 | Replace app brand logo with tm_light mark | S-003 | done | XS | 1 | 15 | 0 | [T-163](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/items/T-163-replace-brand-logo.md) |
-| T-164 | Show story progress bars on Work items list | S-026 | in_progress | XS | 1 | 15 | 0 | [T-164](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-164-work-items-story-progress-bars.md) |
+| T-164 | Show story progress bars on Work items list | S-026 | done | XS | 1 | 15 | 0 | [T-164](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-164-work-items-story-progress-bars.md) |

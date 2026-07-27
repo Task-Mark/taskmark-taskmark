@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [parse, frontend, epic]
 created: 2026-07-21
-updated: 2026-07-27T05:16:43.229Z
+updated: 2026-07-27T05:18:44.416Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
 actual_ms: 12188
 ---
+
 # T-052: Load epic full detail by file path
 
 ## Description
