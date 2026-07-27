@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, ui]
 created: 2026-07-27
-updated: 2026-07-27T05:37:38.663Z
+updated: 2026-07-27T05:45:23Z
 started_at: 2026-07-27T05:37:12Z
 completed_at: 2026-07-27T05:37:45Z
 actual_ms: 0
@@ -65,6 +65,8 @@ On Overall work items and the Work items tab, hovering the Size cell shows the s
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 9328f72 | taskmark-frontend | 2026-07-27T06:45:22+01:00 | Marco Mendão | polish work item columns size tooltip and alignment |
+| aa19198 | taskmark-taskmark | 2026-07-27T06:45:23+01:00 | Marco Mendão | sync taskmark board |
 
 ## Work log
 
