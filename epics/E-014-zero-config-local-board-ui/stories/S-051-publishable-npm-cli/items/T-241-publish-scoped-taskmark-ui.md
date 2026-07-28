@@ -62,6 +62,7 @@ Without a local install, `npx -p @taskmark/ui taskmark serve` also works once pu
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 31800fc | taskmark-taskmark | 2026-07-28T09:13:02Z | Marco Mendão | log T-241 @taskmark/ui commits |
 | b62a48c | taskmark-frontend | 2026-07-28T09:12:29Z | Marco Mendão | publish local ui as @taskmark/ui |
 | bce55d8 | taskmark-cursor | 2026-07-28T09:12:29Z | Marco Mendão | point board init at @taskmark/ui |
 | bd0fede | taskmark-taskmark | 2026-07-28T09:12:29Z | Marco Mendão | sync taskmark board |
