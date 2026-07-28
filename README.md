@@ -15,7 +15,7 @@ Opens http://localhost:8275 (package `@taskmark/ui` is installed in this folder;
 <!-- taskmark:project-status:begin -->
 ## Project status
 
-_Last synced: 2026-07-28T14:35:03.995Z_
+_Last synced: 2026-07-28T14:35:04.394Z_
 
 | Metric | Value |
 |--------|-------|
@@ -28,7 +28,7 @@ _Last synced: 2026-07-28T14:35:03.995Z_
 <!-- taskmark:open-work:begin -->
 ## Open work items
 
-_Last synced: 2026-07-28T14:35:03.995Z_
+_Last synced: 2026-07-28T14:35:04.394Z_
 
 Stories, tasks, and bugs that are not done, cancelled, or blocked.
 
@@ -39,7 +39,7 @@ _No open work items._
 <!-- taskmark:changelog:begin -->
 ## Changelog
 
-_Last synced: 2026-07-28T14:35:03.995Z_
+_Last synced: 2026-07-28T14:35:04.394Z_
 
 Recent meaningful commits on this board repository (excludes sync / housekeeping).
 

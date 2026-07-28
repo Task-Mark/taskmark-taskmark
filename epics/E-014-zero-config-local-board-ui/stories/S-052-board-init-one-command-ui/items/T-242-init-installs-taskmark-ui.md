@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [plugin, init, npm, ui]
 created: 2026-07-28
-updated: 2026-07-28T14:35:03Z
+updated: 2026-07-28T14:35:04Z
 started_at: 2026-07-28T14:30:38Z
 completed_at: 2026-07-28T14:33:38Z
 actual_ms: 180000
@@ -58,6 +58,7 @@ On first-time `taskmark-init`, scaffold a board `package.json` and run `npm inst
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 3a3ef93 | taskmark-taskmark | 2026-07-28T14:35:04Z | Marco Mendão | log T-242 init ui install commits |
 | fd924c0 | taskmark-cursor | 2026-07-28T14:34:41Z | Marco Mendão | install @taskmark/ui during taskmark-init |
 | 082f140 | taskmark-taskmark | 2026-07-28T14:34:41Z | Marco Mendão | sync taskmark board |
 
