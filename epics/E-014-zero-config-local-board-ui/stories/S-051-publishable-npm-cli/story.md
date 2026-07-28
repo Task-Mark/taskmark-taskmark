@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm]
 created: 2026-07-24
-updated: 2026-07-28T09:08:49.505Z
+updated: 2026-07-28T09:13:02Z
 started_at: 2026-07-28T08:31:48Z
 completed_at: 2026-07-28T09:10:14Z
 actual_ms: 383667
@@ -69,6 +69,9 @@ As a developer with a Taskmark board on disk, I want to run `npx taskmark serve`
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| b62a48c | taskmark-frontend | 2026-07-28T09:12:29Z | Marco Mendão | publish local ui as @taskmark/ui |
+| bce55d8 | taskmark-cursor | 2026-07-28T09:12:29Z | Marco Mendão | point board init at @taskmark/ui |
+| bd0fede | taskmark-taskmark | 2026-07-28T09:12:29Z | Marco Mendão | sync taskmark board |
 | f9b7f3f | taskmark-frontend | 2026-07-28T09:50:48Z | Marco Mendão | add taskmark serve cli and zero-config board bind |
 | 935c164 | taskmark-taskmark | 2026-07-28T09:50:56Z | Marco Mendão | sync taskmark board |
 

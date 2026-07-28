@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm]
 created: 2026-07-28
-updated: 2026-07-28T09:08:49.505Z
+updated: 2026-07-28T09:13:02Z
 started_at: 2026-07-28T09:07:14Z
 completed_at: 2026-07-28T09:10:14Z
 actual_ms: 180000
@@ -62,6 +62,9 @@ Without a local install, `npx -p @taskmark/ui taskmark serve` also works once pu
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| b62a48c | taskmark-frontend | 2026-07-28T09:12:29Z | Marco Mendão | publish local ui as @taskmark/ui |
+| bce55d8 | taskmark-cursor | 2026-07-28T09:12:29Z | Marco Mendão | point board init at @taskmark/ui |
+| bd0fede | taskmark-taskmark | 2026-07-28T09:12:29Z | Marco Mendão | sync taskmark board |
 
 ## Work log
 
