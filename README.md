@@ -7,20 +7,30 @@ This repo’s **root is the board** (`INDEX.md`, `epics/`, …). Product repos (
 ## Local board UI
 
 ```bash
+npm install
 npx taskmark serve
 ```
 
-Opens http://localhost:8275 (package `@taskmark/ui` is installed in this folder; or use `npm start`).
+Opens http://localhost:8275 (package `@taskmark/ui`). Or `npm run serve` / `npm start` (`start` skips opening a browser).
+
+## Deploy on Vercel (Node)
+
+1. Import this repo in Vercel.
+2. Framework Preset: **Node** (auto-detects root `server.js`).
+3. Install Command: `npm install` (default). Leave Build Command empty.
+4. Deploy — `server.js` starts `@taskmark/ui` with `TASKMARK_BOARD` set to this repo root.
+
+Optional: set Start Command to `npm start` (`taskmark serve --no-open`) if you override the Node entry.
 
 <!-- taskmark:project-status:begin -->
 ## Project status
 
-_Last synced: 2026-07-28T15:14:44.894Z_
+_Last synced: 2026-07-28T15:34:58.543Z_
 
 | Metric | Value |
 |--------|-------|
-| Total work items | 347 |
-| Complete work items | 346 |
+| Total work items | 348 |
+| Complete work items | 347 |
 | Current speed | 337 (pts/week · 1 active weeks (90d)) |
 
 <!-- taskmark:project-status:end -->
@@ -28,20 +38,20 @@ _Last synced: 2026-07-28T15:14:44.894Z_
 <!-- taskmark:open-work:begin -->
 ## Open work items
 
-_Last synced: 2026-07-28T15:14:44.894Z_
+_Last synced: 2026-07-28T15:34:58.543Z_
 
 Stories, tasks, and bugs that are not done, cancelled, or blocked.
 
 | ID | Type | Title | Status | Size | Points | Parent |
 |----|------|-------|--------|------|--------|--------|
-| T-255 | task | Website favicon, metadata, and SEO parity | in_progress | M | 3 | E-020 |
+| T-256 | task | Make board package Vercel-deployable via Node serve | in_progress | M | 3 | E-014 |
 
 <!-- taskmark:open-work:end -->
 
 <!-- taskmark:changelog:begin -->
 ## Changelog
 
-_Last synced: 2026-07-28T15:14:44.894Z_
+_Last synced: 2026-07-28T15:34:58.543Z_
 
 Recent meaningful commits on this board repository (excludes sync / housekeeping).
 

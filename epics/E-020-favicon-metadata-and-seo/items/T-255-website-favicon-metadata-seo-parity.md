@@ -2,17 +2,17 @@
 id: T-255
 type: task
 title: Website favicon, metadata, and SEO parity
-status: in_progress
+status: done
 priority: high
-size: M
+size: XS
 size_source: suggested
-size_basis: []
-points: 3
+size_basis: [calibrated:T-255]
+points: 1
 points_source: suggested
-estimate_minutes: 40
-actual_minutes: 0
+estimate_minutes: 15
+actual_minutes: 16
 estimate_source: suggested
-estimate_basis: [speed:90d:14min/pt]
+estimate_basis: [calibrated:T-255]
 session_cap_minutes: 480
 parent: E-020
 epic: E-020
@@ -29,10 +29,10 @@ blocked: false
 cancelled: false
 tags: [website, branding, favicon, seo]
 created: 2026-07-28
-updated: 2026-07-28T15:03:07.151Z
+updated: 2026-07-28T15:31:09.902Z
 started_at: 2026-07-28T14:47:21Z
-completed_at: null
-actual_ms: 49151
+completed_at: 2026-07-28T15:18:30Z
+actual_ms: 972000
 ---
 # T-255: Website favicon, metadata, and SEO parity
 
@@ -52,7 +52,7 @@ Umbrella for website parity already delivered under S-081 / S-082 / S-084 (T-246
 
 ## Notes
 
-Working-tree changes in `taskmark-website` (layout, site URL, public favicon/OG pack) — verify and finish for commit.
+Shipped in `taskmark-website` (`9b6ddcf`); assets match frontend.
 
 ## Prompt & feedback log
 
@@ -60,6 +60,7 @@ Working-tree changes in `taskmark-website` (layout, site URL, public favicon/OG 
 |---|------------|------|--------|---------|
 | 1 | 2026-07-28T14:59:13Z | prompt | Marco Mendão | /create-task — same favicon and everything for Taskmark-website |
 | 2 | 2026-07-28T15:02:18Z | prompt | Marco Mendão | start developing — website favicon/metadata/SEO parity |
+| 3 | 2026-07-28T15:18:30Z | feedback | Marco Mendão | /complete-work — website favicon/SEO parity accepted |
 
 ## Commits
 
@@ -73,4 +74,4 @@ Working-tree changes in `taskmark-website` (layout, site URL, public favicon/OG 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | Marco Mendão | 2026-07-28T14:47:21Z | 2026-07-28T14:47:21Z | Already delivered with E-020 website leaves; 0-min (no double-count) |
-| 2 | Marco Mendão | 2026-07-28T15:02:18Z | — | In progress: verify and finish website favicon/metadata/SEO |
+| 2 | Marco Mendão | 2026-07-28T15:02:18Z | 2026-07-28T15:18:30Z | Verified website favicon/metadata/SEO parity; committed 9b6ddcf |

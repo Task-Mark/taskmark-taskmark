@@ -1,11 +1,17 @@
 {
   "name": "taskmark-taskmark",
   "private": true,
-  "description": "Board stub so npm start / npx taskmark serve launch the local UI.",
-  "scripts": {
-    "start": "taskmark serve"
+  "type": "module",
+  "description": "Taskmark board \u2014 npm start / npx taskmark serve (local), or deploy on Vercel as a Node project (server.js).",
+  "engines": {
+    "node": ">=18"
   },
-  "devDependencies": {
-    "@taskmark/ui": "file:../taskmark-frontend"
+  "scripts": {
+    "start": "taskmark serve --no-open",
+    "serve": "taskmark serve",
+    "dev": "taskmark serve"
+  },
+  "dependencies": {
+    "@taskmark/ui": "^0.1.0"
   }
 }

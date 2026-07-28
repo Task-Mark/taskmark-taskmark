@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, detail, sheet]
 created: 2026-07-21
-updated: 2026-07-28T15:03:07.151Z
+updated: 2026-07-28T15:31:09.902Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-25T10:44:19Z
 actual_ms: 2979000

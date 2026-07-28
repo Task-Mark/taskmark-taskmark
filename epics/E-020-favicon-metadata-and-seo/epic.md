@@ -2,15 +2,15 @@
 id: E-020
 type: epic
 title: Favicon, metadata, and SEO
-status: in_progress
+status: done
 priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 36
+points: 34
 points_source: rolled_up
-estimate_minutes: 500
-actual_minutes: 3
+estimate_minutes: 475
+actual_minutes: 18
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -29,10 +29,10 @@ blocked: false
 cancelled: false
 tags: [frontend, website, branding, seo, favicon]
 created: 2026-07-28
-updated: 2026-07-28T15:03:07.151Z
+updated: 2026-07-28T15:31:09.902Z
 started_at: 2026-07-28T14:47:21Z
-completed_at: null
-actual_ms: 210420
+completed_at: 2026-07-28T15:18:30Z
+actual_ms: 1133269
 ---
 # E-020: Favicon, metadata, and SEO
 
@@ -77,6 +77,7 @@ Ship consistent Taskmark brand icons and SEO/social metadata across the local bo
 | 2 | 2026-07-28T14:47:21Z | prompt | Marco Mendão | /start-work E-020 — implement favicon pack, metadata/SEO, and Open Graph |
 | 3 | 2026-07-28T14:59:13Z | prompt | Marco Mendão | /create-task — same favicon and everything for Taskmark-website |
 | 4 | 2026-07-28T15:02:18Z | prompt | Marco Mendão | start developing — website favicon/metadata/SEO parity |
+| 5 | 2026-07-28T15:18:30Z | feedback | Marco Mendão | /complete-work — T-255 website favicon/SEO parity done |
 
 ## Commits
 
@@ -90,3 +91,4 @@ Ship consistent Taskmark brand icons and SEO/social metadata across the local bo
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | Marco Mendão | 2026-07-28T14:47:21Z | 2026-07-28T14:47:21Z | Rollup: E-020 complete; billable on leaves (shared-batch); 0-min parent |
+| 2 | Marco Mendão | 2026-07-28T15:18:30Z | 2026-07-28T15:18:30Z | Rollup: T-255 done; all children complete; 0-min parent |

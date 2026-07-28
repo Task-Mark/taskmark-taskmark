@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-28T15:03:07.345Z
+Last synced: 2026-07-28T15:31:10.195Z
 
 ## Epics
 
@@ -19,13 +19,13 @@ Last synced: 2026-07-28T15:03:07.345Z
 | E-011 | Git identity contributors and avatars | done | — | 33 | 515 | 8 | [epic.md](epics/E-011-git-identity-contributors/epic.md) |
 | E-012 | Timeframe filters for solved work items | done | — | 39 | 545 | 15 | [epic.md](epics/E-012-timeframe-filters/epic.md) |
 | E-013 | Table sort functionalities | done | — | 21 | 305 | 2 | [epic.md](epics/E-013-table-sort-functionalities/epic.md) |
-| E-014 | Zero-config local board UI package | done | — | 33 | 355 | 22 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
+| E-014 | Zero-config local board UI package | in_progress | — | 36 | 395 | 30 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
 | E-015 | Project status metrics | done | — | 40 | 550 | 12 | [epic.md](epics/E-015-project-status-metrics/epic.md) |
 | E-016 | README project status and changelog | done | — | 19 | 5 | 7 | [epic.md](epics/E-016-readme-project-status-and-changelog/epic.md) |
 | E-017 | Taskmark website base Next.js project | done | — | 20 | 285 | 3 | [epic.md](epics/E-017-taskmark-website-base/epic.md) |
 | E-018 | Taskmark website landing page | done | — | 38 | 530 | 5 | [epic.md](epics/E-018-taskmark-website-landing-page/epic.md) |
 | E-019 | Taskmark product documentation | done | — | 58 | 765 | 13 | [epic.md](epics/E-019-taskmark-product-documentation/epic.md) |
-| E-020 | Favicon, metadata, and SEO | in_progress | — | 36 | 500 | 3 | [epic.md](epics/E-020-favicon-metadata-and-seo/epic.md) |
+| E-020 | Favicon, metadata, and SEO | done | — | 34 | 475 | 18 | [epic.md](epics/E-020-favicon-metadata-and-seo/epic.md) |
 
 ## Stories
 
@@ -120,7 +120,8 @@ Last synced: 2026-07-28T15:03:07.345Z
 
 | Item | Actor | Started (UTC) |
 |------|-------|---------------|
-| T-255 | Marco Mendão | 2026-07-28T15:02:18Z |
+| T-256 | Marco Mendão | 2026-07-28T15:23:18Z |
+
 
 ## Items
 
@@ -387,4 +388,5 @@ Last synced: 2026-07-28T15:03:07.345Z
 | T-252 | Export OG image for apps and optional variant | S-083 | done | S | 2 | 30 | 0 | [T-252](epics/E-020-favicon-metadata-and-seo/stories/S-083-create-open-graph-images/items/T-252-export-og-variants.md) |
 | T-253 | Wire Open Graph and Twitter on website | S-084 | done | M | 3 | 40 | 0 | [T-253](epics/E-020-favicon-metadata-and-seo/stories/S-084-wire-open-graph-twitter-cards/items/T-253-wire-og-twitter-website.md) |
 | T-254 | Wire Open Graph and Twitter on local board UI | S-084 | done | M | 3 | 40 | 0 | [T-254](epics/E-020-favicon-metadata-and-seo/stories/S-084-wire-open-graph-twitter-cards/items/T-254-wire-og-twitter-frontend.md) |
-| T-255 | Website favicon, metadata, and SEO parity | E-020 | in_progress | M | 3 | 40 | 0 | [T-255](epics/E-020-favicon-metadata-and-seo/items/T-255-website-favicon-metadata-seo-parity.md) |
+| T-255 | Website favicon, metadata, and SEO parity | E-020 | done | XS | 1 | 15 | 16 | [T-255](epics/E-020-favicon-metadata-and-seo/items/T-255-website-favicon-metadata-seo-parity.md) |
+| T-256 | Make board package Vercel-deployable via Node serve | E-014 | in_progress | M | 3 | 40 | 0 | [T-256](epics/E-014-zero-config-local-board-ui/items/T-256-board-vercel-node-serve.md) |

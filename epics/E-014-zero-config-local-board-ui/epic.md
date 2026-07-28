@@ -2,15 +2,15 @@
 id: E-014
 type: epic
 title: Zero-config local board UI package
-status: done
+status: in_progress
 priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 33
+points: 36
 points_source: rolled_up
-estimate_minutes: 355
-actual_minutes: 22
+estimate_minutes: 395
+actual_minutes: 30
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -27,12 +27,12 @@ resolvers:
     initials: "MM"
 blocked: false
 cancelled: false
-tags: [frontend, packaging, cli, npm, local]
+tags: [frontend, packaging, cli, npm, local, vercel]
 created: 2026-07-24
-updated: 2026-07-28T15:03:07.151Z
+updated: 2026-07-28T15:31:09.902Z
 started_at: 2026-07-28T08:09:03Z
-completed_at: 2026-07-28T14:33:38Z
-actual_ms: 1362000
+completed_at: null
+actual_ms: 1833902
 ---
 
 # E-014: Zero-config local board UI package
@@ -65,10 +65,16 @@ Ship Taskmark’s web UI so a developer can open a local board with `npx taskmar
 - [S-051: Publishable npm CLI for local board UI](stories/S-051-publishable-npm-cli/story.md)
 - [S-052: Board init one-command UI launch](stories/S-052-board-init-one-command-ui/story.md)
 
+## Tasks
+
+- [T-256: Make board package Vercel-deployable via Node serve](items/T-256-board-vercel-node-serve.md)
+
 ## Commits
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| ab9106c | taskmark-cursor | 2026-07-28T15:34:40Z | Marco Mendão | add ensure-board-ui vercel stubs on init |
+| 0922bae | taskmark-frontend | 2026-07-28T15:34:40Z | Marco Mendão | skip browser open on hosted serve |
 | 3a3ef93 | taskmark-taskmark | 2026-07-28T14:35:04Z | Marco Mendão | log T-242 init ui install commits |
 | fd924c0 | taskmark-cursor | 2026-07-28T14:34:41Z | Marco Mendão | install @taskmark/ui during taskmark-init |
 | 082f140 | taskmark-taskmark | 2026-07-28T14:34:41Z | Marco Mendão | sync taskmark board |
