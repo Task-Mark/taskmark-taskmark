@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists]
 created: 2026-07-23
-updated: 2026-07-28T06:20:01.202Z
+updated: 2026-07-28T07:27:54.696Z
 started_at: 2026-07-23T06:25:29Z
 completed_at: 2026-07-23T06:28:29Z
 actual_ms: 180000
 ---
+
 # T-081: Count work items (stories, tasks, bugs) on epic and story lists
 
 ## Description

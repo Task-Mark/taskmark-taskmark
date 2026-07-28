@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [filters, timeframe, frontend, ui]
 created: 2026-07-24
-updated: 2026-07-28T06:20:01.202Z
+updated: 2026-07-28T07:27:54.696Z
 started_at: 2026-07-24T16:14:35Z
 completed_at: 2026-07-24T16:15:29Z
 actual_ms: 54000
 ---
-
 # T-134: Move timeframe controls to card header
 
 ## Description

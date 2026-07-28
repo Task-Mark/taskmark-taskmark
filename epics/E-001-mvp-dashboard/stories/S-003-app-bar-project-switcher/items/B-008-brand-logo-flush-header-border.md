@@ -4,15 +4,15 @@ type: bug
 title: Brand logo sits flush against app bar bottom border
 status: done
 priority: medium
-size: XS
+size: XL
 size_source: suggested
-size_basis: [T-163]
-points: 1
+size_basis: [calibrated:B-008]
+points: 8
 points_source: suggested
-estimate_minutes: 15
+estimate_minutes: 480
 actual_minutes: 480
 estimate_source: suggested
-estimate_basis: [speed:90d:14min/pt]
+estimate_basis: [calibrated:B-008]
 session_cap_minutes: 480
 parent: S-003
 epic: E-001
@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [frontend, app-bar, ui]
 created: 2026-07-27
-updated: 2026-07-28T06:20:01.202Z
+updated: 2026-07-28T07:27:54.696Z
 started_at: 2026-07-27T08:59:14Z
 completed_at: 2026-07-28T06:19:44Z
 actual_ms: 28800000

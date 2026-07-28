@@ -1,12 +1,12 @@
 # Board index
 
-Last synced: 2026-07-28T06:20:01.288Z
+Last synced: 2026-07-28T07:27:54.832Z
 
 ## Epics
 
 | ID | Title | Status | Size | Points | Est (min) | Actual (min) | Path |
 |----|-------|--------|------|--------|-----------|--------------|------|
-| E-001 | MVP Taskmark dashboard | done | — | 29 | 825 | 926 | [epic.md](epics/E-001-mvp-dashboard/epic.md) |
+| E-001 | MVP Taskmark dashboard | done | — | 36 | 1290 | 926 | [epic.md](epics/E-001-mvp-dashboard/epic.md) |
 | E-002 | User stories view | done | — | 11 | 1265 | 831 | [epic.md](epics/E-002-user-stories-view/epic.md) |
 | E-003 | Refactor Taskmark project structure | done | — | 31 | 443 | 496 | [epic.md](epics/E-003-refactor-taskmark-project-structure/epic.md) |
 | E-004 | Refactor speed and estimation | done | — | 52 | 682 | 688 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
@@ -23,6 +23,7 @@ Last synced: 2026-07-28T06:20:01.288Z
 | E-015 | Project status metrics | done | — | 40 | 550 | 12 | [epic.md](epics/E-015-project-status-metrics/epic.md) |
 | E-016 | README project status and changelog | done | — | 19 | 5 | 7 | [epic.md](epics/E-016-readme-project-status-and-changelog/epic.md) |
 | E-017 | Taskmark website base Next.js project | done | — | 20 | 285 | 3 | [epic.md](epics/E-017-taskmark-website-base/epic.md) |
+| E-018 | Taskmark website landing page | done | — | 38 | 530 | 5 | [epic.md](epics/E-018-taskmark-website-landing-page/epic.md) |
 
 ## Stories
 
@@ -30,7 +31,7 @@ Last synced: 2026-07-28T06:20:01.288Z
 |----|-------|------|--------|------|--------|-----------|--------------|------|
 | S-001 | Project setup wizard | E-001 | done | XL | 13 | 115 | 206 | [story.md](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/story.md) |
 | S-002 | Epic list for selected project | E-001 | done | L | 8 | 155 | 159 | [story.md](epics/E-001-mvp-dashboard/stories/S-002-epic-list/story.md) |
-| S-003 | App bar project switcher | E-001 | done | M | 5 | 75 | 513 | [story.md](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/story.md) |
+| S-003 | App bar project switcher | E-001 | done | L | 12 | 540 | 513 | [story.md](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/story.md) |
 | S-004 | Add project accumulates workspaces | E-001 | done | M | 3 | 480 | 48 | [story.md](epics/E-001-mvp-dashboard/stories/S-004-add-project-accumulate/story.md) |
 | S-005 | Story list for selected epic | E-002 | done | S | 3 | 45 | 48 | [story.md](epics/E-002-user-stories-view/stories/S-005-story-list-for-epic/story.md) |
 | S-006 | Task list for selected story | E-002 | done | L | 8 | 1220 | 783 | [story.md](epics/E-002-user-stories-view/stories/S-006-task-list-for-story/story.md) |
@@ -92,6 +93,13 @@ Last synced: 2026-07-28T06:20:01.288Z
 | S-062 | Scaffold Taskmark website Next.js project | E-017 | done | L | 7 | 100 | 1 | [story.md](epics/E-017-taskmark-website-base/stories/S-062-scaffold-website-nextjs/story.md) |
 | S-063 | Share UI components and visual interface with frontend | E-017 | done | L | 8 | 110 | 2 | [story.md](epics/E-017-taskmark-website-base/stories/S-063-share-ui-with-frontend/story.md) |
 | S-064 | App shell providers and smoke homepage | E-017 | done | M | 5 | 75 | 0 | [story.md](epics/E-017-taskmark-website-base/stories/S-064-app-shell-smoke-homepage/story.md) |
+| S-065 | Landing hero with console demo and Start now CTA | E-018 | done | L | 10 | 140 | 1 | [story.md](epics/E-018-taskmark-website-landing-page/stories/S-065-hero-console-demo-start-cta/story.md) |
+| S-066 | Purpose and motivation section | E-018 | done | M | 5 | 70 | 0 | [story.md](epics/E-018-taskmark-website-landing-page/stories/S-066-purpose-and-motivation/story.md) |
+| S-067 | Features showcase sections | E-018 | done | L | 10 | 140 | 1 | [story.md](epics/E-018-taskmark-website-landing-page/stories/S-067-features-showcase/story.md) |
+| S-068 | Open source and Cursor positioning | E-018 | done | S | 3 | 40 | 0 | [story.md](epics/E-018-taskmark-website-landing-page/stories/S-068-opensource-cursor-positioning/story.md) |
+| S-069 | Contact form | E-018 | done | M | 6 | 80 | 0 | [story.md](epics/E-018-taskmark-website-landing-page/stories/S-069-contact-form/story.md) |
+| S-070 | Documentation call to action | E-018 | done | S | 2 | 30 | 0 | [story.md](epics/E-018-taskmark-website-landing-page/stories/S-070-documentation-cta/story.md) |
+| S-071 | Become a contributor section | E-018 | done | S | 2 | 30 | 0 | [story.md](epics/E-018-taskmark-website-landing-page/stories/S-071-become-a-contributor/story.md) |
 
 ## Open work sessions
 
@@ -110,7 +118,7 @@ Last synced: 2026-07-28T06:20:01.288Z
 | B-005 | Tasks and bugs cannot live under an epic without a story | S-029 | done | S | 2 | 35 | 36 | [B-005](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/B-005-epic-direct-tasks-without-story.md) |
 | B-006 | Hide completed hides done epics that still have open epic-direct work | S-038 | done | S | 2 | 30 | 0 | [B-006](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/items/B-006-hide-completed-done-epic-open-direct.md) |
 | B-007 | Sheet parent and breadcrumb resolve same id from another project | E-005 | done | S | 2 | 30 | 1 | [B-007](epics/E-005-view-work-item/items/B-007-sheet-resolve-cross-project-id.md) |
-| B-008 | Brand logo sits flush against app bar bottom border | S-003 | done | XS | 1 | 15 | 480 | [B-008](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/items/B-008-brand-logo-flush-header-border.md) |
+| B-008 | Brand logo sits flush against app bar bottom border | S-003 | done | XL | 8 | 480 | 480 | [B-008](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/items/B-008-brand-logo-flush-header-border.md) |
 | T-001 | Build setup wizard UI shell | S-001 | done | M | 3 | 5 | 3 | [T-001](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-001-setup-wizard-ui.md) |
 | T-002 | Implement project folder selection | S-001 | done | XS | 1 | 15 | 14 | [T-002](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-002-folder-selection.md) |
 | T-003 | Validate taskmark board in selected folder | S-001 | done | S | 2 | 30 | 2 | [T-003](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-003-validate-taskmark-board.md) |
@@ -315,3 +323,16 @@ Last synced: 2026-07-28T06:20:01.288Z
 | T-202 | Wire App Router root layout with shared theme providers | S-064 | done | S | 2 | 30 | 0 | [T-202](epics/E-017-taskmark-website-base/stories/S-064-app-shell-smoke-homepage/items/T-202-wire-app-router-root-layout-with-shared-theme-providers.md) |
 | T-203 | Build placeholder homepage using shared UI components | S-064 | done | S | 2 | 30 | 0 | [T-203](epics/E-017-taskmark-website-base/stories/S-064-app-shell-smoke-homepage/items/T-203-build-placeholder-homepage-using-shared-ui-components.md) |
 | T-204 | Verify dev build and lint scripts succeed | S-064 | done | XS | 1 | 15 | 0 | [T-204](epics/E-017-taskmark-website-base/stories/S-064-app-shell-smoke-homepage/items/T-204-verify-dev-build-and-lint-scripts-succeed.md) |
+| T-206 | Landing hero layout and brand headline | S-065 | done | M | 3 | 40 | 0 | [T-206](epics/E-018-taskmark-website-landing-page/stories/S-065-hero-console-demo-start-cta/items/T-206-landing-hero-layout-and-headline.md) |
+| T-207 | Animated console typing of Taskmark commands | S-065 | done | L | 5 | 70 | 0 | [T-207](epics/E-018-taskmark-website-landing-page/stories/S-065-hero-console-demo-start-cta/items/T-207-animated-console-typing-demo.md) |
+| T-208 | Start now primary CTA | S-065 | done | S | 2 | 30 | 0 | [T-208](epics/E-018-taskmark-website-landing-page/stories/S-065-hero-console-demo-start-cta/items/T-208-start-now-primary-cta.md) |
+| T-209 | Purpose and motivation copy section | S-066 | done | M | 3 | 40 | 0 | [T-209](epics/E-018-taskmark-website-landing-page/stories/S-066-purpose-and-motivation/items/T-209-purpose-motivation-copy-section.md) |
+| T-210 | Purpose supporting visual | S-066 | done | S | 2 | 30 | 0 | [T-210](epics/E-018-taskmark-website-landing-page/stories/S-066-purpose-and-motivation/items/T-210-purpose-supporting-visual.md) |
+| T-211 | Feature inventory and section structure | S-067 | done | M | 3 | 40 | 0 | [T-211](epics/E-018-taskmark-website-landing-page/stories/S-067-features-showcase/items/T-211-feature-inventory-and-structure.md) |
+| T-212 | Feature cards with icons and descriptions | S-067 | done | L | 5 | 70 | 0 | [T-212](epics/E-018-taskmark-website-landing-page/stories/S-067-features-showcase/items/T-212-feature-cards-ui.md) |
+| T-213 | Feature anchors or deep-links | S-067 | done | S | 2 | 30 | 0 | [T-213](epics/E-018-taskmark-website-landing-page/stories/S-067-features-showcase/items/T-213-feature-anchors-or-deeplinks.md) |
+| T-214 | Open source and Cursor positioning section | S-068 | done | M | 3 | 40 | 0 | [T-214](epics/E-018-taskmark-website-landing-page/stories/S-068-opensource-cursor-positioning/items/T-214-opensource-cursor-section.md) |
+| T-215 | Contact form UI | S-069 | done | M | 3 | 40 | 0 | [T-215](epics/E-018-taskmark-website-landing-page/stories/S-069-contact-form/items/T-215-contact-form-ui.md) |
+| T-216 | Contact form submission handling | S-069 | done | M | 3 | 40 | 0 | [T-216](epics/E-018-taskmark-website-landing-page/stories/S-069-contact-form/items/T-216-contact-form-submission.md) |
+| T-217 | Documentation call-to-action section | S-070 | done | S | 2 | 30 | 0 | [T-217](epics/E-018-taskmark-website-landing-page/stories/S-070-documentation-cta/items/T-217-documentation-cta-section.md) |
+| T-218 | Contributor section linking to GitHub | S-071 | done | S | 2 | 30 | 0 | [T-218](epics/E-018-taskmark-website-landing-page/stories/S-071-become-a-contributor/items/T-218-contributor-github-section.md) |

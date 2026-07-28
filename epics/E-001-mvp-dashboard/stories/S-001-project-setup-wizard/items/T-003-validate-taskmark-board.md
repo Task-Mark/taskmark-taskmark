@@ -28,12 +28,11 @@ blocked: false
 cancelled: false
 tags: [mvp, wizard, validation]
 created: 2026-07-21
-updated: 2026-07-28T06:20:01.202Z
+updated: 2026-07-28T07:27:54.696Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-21T16:37:18Z
 actual_ms: 120000
 ---
-
 # T-003: Validate taskmark board in selected folder
 
 ## Description

@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [frontend, metrics, speed, points]
 created: 2026-07-27
-updated: 2026-07-28T06:20:01.202Z
+updated: 2026-07-28T07:27:54.696Z
 started_at: 2026-07-27T07:09:00Z
 completed_at: 2026-07-27T07:09:18Z
 actual_ms: 18000
 ---
+
 # T-183: Add current week story points card
 
 ## Description

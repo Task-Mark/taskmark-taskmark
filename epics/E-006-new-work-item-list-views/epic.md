@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, lists]
 created: 2026-07-22
-updated: 2026-07-28T06:20:01.202Z
+updated: 2026-07-28T07:27:54.696Z
 started_at: 2026-07-23T05:44:00Z
 completed_at: 2026-07-28T06:16:13Z
 actual_ms: 29185000
 ---
+
 # E-006: New work item list views
 
 ## Goal

@@ -7,9 +7,9 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 29
+points: 36
 points_source: rolled_up
-estimate_minutes: 825
+estimate_minutes: 1290
 actual_minutes: 926
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -28,13 +28,12 @@ blocked: false
 cancelled: false
 tags: [mvp, dashboard, frontend]
 created: 2026-07-21
-updated: 2026-07-28T06:20:01.202Z
+updated: 2026-07-28T07:27:54.696Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-27T05:16:43Z
 actual_ms: 55585000
 estimate_source: rolled_up
 ---
-
 # E-001: MVP Taskmark dashboard
 
 ## Goal

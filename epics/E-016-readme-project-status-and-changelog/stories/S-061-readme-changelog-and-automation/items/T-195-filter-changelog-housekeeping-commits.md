@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [readme, changelog, plugin]
 created: 2026-07-27
-updated: 2026-07-28T06:20:01.202Z
+updated: 2026-07-28T07:27:54.696Z
 started_at: 2026-07-27T07:39:00Z
 completed_at: 2026-07-27T07:42:24Z
 actual_ms: 204000
 ---
-
 # T-195: Filter housekeeping commits from README changelog
 
 ## Description

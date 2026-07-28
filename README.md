@@ -7,12 +7,12 @@ This repo’s **root is the board** (`INDEX.md`, `epics/`, …). Product repos (
 <!-- taskmark:project-status:begin -->
 ## Project status
 
-_Last synced: 2026-07-28T06:21:19.992Z_
+_Last synced: 2026-07-28T07:33:14.020Z_
 
 | Metric | Value |
 |--------|-------|
-| Total work items | 277 |
-| Complete work items | 264 |
+| Total work items | 297 |
+| Complete work items | 284 |
 | Current speed | 337 (pts/week · 1 active weeks (90d)) |
 
 <!-- taskmark:project-status:end -->
@@ -20,7 +20,7 @@ _Last synced: 2026-07-28T06:21:19.992Z_
 <!-- taskmark:open-work:begin -->
 ## Open work items
 
-_Last synced: 2026-07-28T06:21:19.992Z_
+_Last synced: 2026-07-28T07:33:14.020Z_
 
 Stories, tasks, and bugs that are not done, cancelled, or blocked.
 
@@ -45,7 +45,7 @@ Stories, tasks, and bugs that are not done, cancelled, or blocked.
 <!-- taskmark:changelog:begin -->
 ## Changelog
 
-_Last synced: 2026-07-28T06:21:19.992Z_
+_Last synced: 2026-07-28T07:33:14.020Z_
 
 Recent meaningful commits on this board repository (excludes sync / housekeeping).
 

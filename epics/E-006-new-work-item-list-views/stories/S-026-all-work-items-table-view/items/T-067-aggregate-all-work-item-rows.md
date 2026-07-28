@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [data, frontend, views, all]
 created: 2026-07-22
-updated: 2026-07-28T06:20:01.202Z
+updated: 2026-07-28T07:27:54.696Z
 started_at: 2026-07-23T06:38:57Z
 completed_at: 2026-07-23T06:39:17Z
 actual_ms: 20000
 ---
+
 # T-067: Aggregate all work items into flat rows
 
 ## Description

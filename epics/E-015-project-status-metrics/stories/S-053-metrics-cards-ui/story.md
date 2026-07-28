@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [frontend, metrics, ui]
 created: 2026-07-27
-updated: 2026-07-28T06:20:01.202Z
+updated: 2026-07-28T07:27:54.696Z
 started_at: 2026-07-27T06:25:20Z
 completed_at: 2026-07-27T06:28:48Z
 actual_ms: 60000
 ---
+
 # S-053: Metrics cards UI shell
 
 ## User story

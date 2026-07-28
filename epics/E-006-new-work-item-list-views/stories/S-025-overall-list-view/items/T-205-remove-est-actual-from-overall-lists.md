@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, overall, lists]
 created: 2026-07-28
-updated: 2026-07-28T06:20:01.202Z
+updated: 2026-07-28T07:27:54.696Z
 started_at: 2026-07-28T06:14:00Z
 completed_at: 2026-07-28T06:16:13Z
 actual_ms: 133000
 ---
+
 # T-205: Remove Est and Actual columns from Overall lists
 
 ## Description

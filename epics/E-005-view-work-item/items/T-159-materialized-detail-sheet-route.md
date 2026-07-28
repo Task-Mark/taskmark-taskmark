@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, sheet, detail, routing]
 created: 2026-07-24
-updated: 2026-07-28T06:20:01.202Z
+updated: 2026-07-28T07:27:54.696Z
 started_at: 2026-07-25T10:18:40Z
 completed_at: 2026-07-25T10:22:08Z
 actual_ms: 208000
 ---
+
 # T-159: Materialized detail sheet route with back navigation
 
 ## Description

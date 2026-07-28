@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [filters, timeframe, calendar, frontend]
 created: 2026-07-27
-updated: 2026-07-28T06:20:01.202Z
+updated: 2026-07-28T07:27:54.696Z
 started_at: 2026-07-27T06:51:07Z
 completed_at: 2026-07-27T06:53:47Z
 actual_ms: 160000
 ---
+
 # T-180: Show story points per day on calendar picker
 
 ## Description
