@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [vercel, npm, packaging, board]
 created: 2026-07-28
-updated: 2026-07-28T19:13:32.846Z
+updated: 2026-07-28T19:13:43Z
 started_at: 2026-07-28T19:06:10Z
 completed_at: 2026-07-28T19:13:32Z
 actual_ms: 442000
@@ -70,6 +70,7 @@ Related: T-256 (Vercel Node serve stubs).
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 5615050 | taskmark-taskmark | 2026-07-28T19:13:43Z | Marco Mendão | fix B-009 vercel ui production dep |
 | e2b0fda | taskmark-frontend | 2026-07-28T19:13:32Z | Marco Mendão | document @taskmark/ui as production dependency |
 | 62f8af2 | taskmark-cursor | 2026-07-28T19:13:32Z | Marco Mendão | keep @taskmark/ui as production dep on vercel |
 

@@ -26,7 +26,7 @@ Optional: set Start Command to `npm start` (`taskmark serve --no-open`) if you o
 <!-- taskmark:project-status:begin -->
 ## Project status
 
-_Last synced: 2026-07-28T19:13:33.687Z_
+_Last synced: 2026-07-28T19:13:43.513Z_
 
 | Metric | Value |
 |--------|-------|
@@ -39,7 +39,7 @@ _Last synced: 2026-07-28T19:13:33.687Z_
 <!-- taskmark:open-work:begin -->
 ## Open work items
 
-_Last synced: 2026-07-28T19:13:33.687Z_
+_Last synced: 2026-07-28T19:13:43.513Z_
 
 Stories, tasks, and bugs that are not done, cancelled, or blocked.
 
@@ -52,12 +52,13 @@ Stories, tasks, and bugs that are not done, cancelled, or blocked.
 <!-- taskmark:changelog:begin -->
 ## Changelog
 
-_Last synced: 2026-07-28T19:13:33.687Z_
+_Last synced: 2026-07-28T19:13:43.513Z_
 
 Recent meaningful commits on this board repository (excludes sync / housekeeping).
 
 | Date (UTC) | SHA | Author | Message |
 |------------|-----|--------|---------|
+| 2026-07-28 | `5615050` | Marco Mendão | fix B-009 vercel ui production dep |
 | 2026-07-28 | `2ff359c` | Marco Mendão | add vercel node board deploy stubs |
 | 2026-07-28 | `31a2da5` | Marco Mendão | add e-019 documentation epic |
 | 2026-07-27 | `a494e58` | Marco Mendão | add e-015 metrics and remove velocity board |

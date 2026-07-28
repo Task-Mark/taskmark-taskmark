@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm, local, vercel]
 created: 2026-07-24
-updated: 2026-07-28T19:13:32.846Z
+updated: 2026-07-28T19:13:43Z
 started_at: 2026-07-28T08:09:03Z
 completed_at: null
 actual_ms: 15618846
@@ -74,6 +74,7 @@ Ship Taskmark’s web UI so a developer can open a local board with `npx taskmar
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 5615050 | taskmark-taskmark | 2026-07-28T19:13:43Z | Marco Mendão | fix B-009 vercel ui production dep |
 | e2b0fda | taskmark-frontend | 2026-07-28T19:13:32Z | Marco Mendão | document @taskmark/ui as production dependency |
 | 62f8af2 | taskmark-cursor | 2026-07-28T19:13:32Z | Marco Mendão | keep @taskmark/ui as production dep on vercel |
 | ab9106c | taskmark-cursor | 2026-07-28T15:34:40Z | Marco Mendão | add ensure-board-ui vercel stubs on init |
