@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, pagination]
 created: 2026-07-23
-updated: 2026-07-28T09:08:49.505Z
+updated: 2026-07-28T14:32:06.722Z
 started_at: 2026-07-23T15:35:42Z
 completed_at: 2026-07-23T15:41:41Z
 actual_ms: 165000
 ---
+
 # S-030: Shared pagination control
 
 ## User story

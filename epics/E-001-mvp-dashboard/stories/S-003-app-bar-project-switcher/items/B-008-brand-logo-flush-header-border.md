@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [frontend, app-bar, ui]
 created: 2026-07-27
-updated: 2026-07-28T09:08:49.505Z
+updated: 2026-07-28T14:32:06.722Z
 started_at: 2026-07-27T08:59:14Z
 completed_at: 2026-07-28T06:19:44Z
 actual_ms: 28800000
 ---
+
 # B-008: Brand logo sits flush against app bar bottom border
 
 ## Description

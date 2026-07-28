@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, general, lists]
 created: 2026-07-23
-updated: 2026-07-28T09:08:49.505Z
+updated: 2026-07-28T14:32:06.722Z
 started_at: 2026-07-23T16:32:13Z
 completed_at: 2026-07-23T16:34:23Z
 actual_ms: 130000
 ---
-
 # T-110: Hide empty General epic and show child progress bars
 
 ## Description

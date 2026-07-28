@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [ui, tasks, frontend, detail]
 created: 2026-07-21
-updated: 2026-07-28T09:08:49.505Z
+updated: 2026-07-28T14:32:06.722Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-21T23:57:12Z
 actual_ms: 18281
 ---
-
 # T-059: Build task and bug detail content layout
 
 ## Description

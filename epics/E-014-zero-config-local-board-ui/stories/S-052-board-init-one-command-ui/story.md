@@ -4,13 +4,13 @@ type: story
 title: Board init one-command UI launch
 status: done
 priority: medium
-size: M
+size: L
 size_source: rolled_up
 size_basis: [sum:tasks]
-points: 5
+points: 8
 points_source: rolled_up
-estimate_minutes: 70
-actual_minutes: 1
+estimate_minutes: 75
+actual_minutes: 4
 estimate_source: suggested
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [plugin, init, cli, docs]
 created: 2026-07-24
-updated: 2026-07-28T09:08:49.505Z
+updated: 2026-07-28T14:32:06.722Z
 started_at: 2026-07-28T08:31:48Z
-completed_at: 2026-07-28T08:36:30Z
-actual_ms: 78333
+completed_at: 2026-07-28T14:33:38Z
+actual_ms: 258333
 ---
-
 # S-052: Board init one-command UI launch
 
 ## User story
@@ -51,6 +50,7 @@ As someone whose Cursor/plugin just created a Taskmark board, I want to be told 
 
 - [T-157: Document one-command UI launch on board init](items/T-157-document-one-command-on-init.md)
 - [T-158: Optional stub package.json for npm start](items/T-158-optional-stub-package-json.md)
+- [T-242: Init always installs @taskmark/ui via npm](items/T-242-init-installs-taskmark-ui.md)
 
 ## Prompt & feedback log
 
@@ -72,3 +72,4 @@ As someone whose Cursor/plugin just created a Taskmark board, I want to be told 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | Marco Mendão | 2026-07-28T08:31:48Z | 2026-07-28T08:31:48Z | Rollup: S-052 init docs/stub done (shared-batch on leaves); 0-min parent rollup |
+| 2 | Marco Mendão | 2026-07-28T14:33:38Z | 2026-07-28T14:33:38Z | Rollup: T-242 init npm install UI; 0-min parent |

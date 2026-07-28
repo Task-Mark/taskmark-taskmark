@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [website, landing, frontend]
 created: 2026-07-28
-updated: 2026-07-28T09:08:49.505Z
+updated: 2026-07-28T14:32:06.722Z
 started_at: 2026-07-28T07:17:59Z
 completed_at: 2026-07-28T07:23:05Z
 actual_ms: 16125
 ---
-
 # T-213: Feature anchors or deep-links
 
 ## Description

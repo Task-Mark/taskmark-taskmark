@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 30
+points: 33
 points_source: rolled_up
-estimate_minutes: 350
-actual_minutes: 19
+estimate_minutes: 355
+actual_minutes: 22
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm, local]
 created: 2026-07-24
-updated: 2026-07-28T09:13:02Z
+updated: 2026-07-28T14:32:06.722Z
 started_at: 2026-07-28T08:09:03Z
-completed_at: 2026-07-28T09:10:14Z
-actual_ms: 1182000
+completed_at: 2026-07-28T14:33:38Z
+actual_ms: 1362000
 ---
-
 # E-014: Zero-config local board UI package
 
 ## Goal
@@ -83,3 +82,4 @@ Ship Taskmark’s web UI so a developer can open a local board with `npx taskmar
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | Marco Mendão | 2026-07-28T08:31:48Z | 2026-07-28T08:31:48Z | Rollup: E-014 complete; billable on leaves (shared-batch); 0-min parent |
+| 2 | Marco Mendão | 2026-07-28T14:33:38Z | 2026-07-28T14:33:38Z | Rollup: T-242 done; 0-min parent |

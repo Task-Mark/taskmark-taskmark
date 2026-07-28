@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [website, nextjs, scaffolding]
 created: 2026-07-27
-updated: 2026-07-28T09:08:49.505Z
+updated: 2026-07-28T14:32:06.722Z
 started_at: 2026-07-27T09:54:28Z
 completed_at: 2026-07-27T09:56:34Z
 actual_ms: 60000
 ---
+
 # S-062: Scaffold Taskmark website Next.js project
 
 ## User story

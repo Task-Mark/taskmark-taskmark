@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [filters, timeframe, calendar, formatting]
 created: 2026-07-27
-updated: 2026-07-28T09:08:49.505Z
+updated: 2026-07-28T14:32:06.722Z
 started_at: 2026-07-27T07:06:11Z
 completed_at: 2026-07-27T07:06:27Z
 actual_ms: 16000
 ---
+
 # T-182: Compact calendar point badges
 
 ## Description

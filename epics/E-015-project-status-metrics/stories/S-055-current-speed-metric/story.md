@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [frontend, metrics, velocity, speed]
 created: 2026-07-27
-updated: 2026-07-28T09:08:49.505Z
+updated: 2026-07-28T14:32:06.722Z
 started_at: 2026-07-27T06:25:20Z
 completed_at: 2026-07-27T07:19:27Z
 actual_ms: 78000
 ---
-
 # S-055: Current speed metric
 
 ## User story

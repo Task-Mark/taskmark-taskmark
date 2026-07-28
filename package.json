@@ -1,0 +1,11 @@
+{
+  "name": "taskmark-taskmark",
+  "private": true,
+  "description": "Board stub so npm start / npx taskmark serve launch the local UI.",
+  "scripts": {
+    "start": "taskmark serve"
+  },
+  "devDependencies": {
+    "@taskmark/ui": "file:../taskmark-frontend"
+  }
+}

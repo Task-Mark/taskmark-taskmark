@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [identity, frontend, avatars, lists]
 created: 2026-07-23
-updated: 2026-07-28T09:08:49.505Z
+updated: 2026-07-28T14:32:06.722Z
 started_at: 2026-07-23T17:28:57Z
 completed_at: 2026-07-23T17:36:57Z
 actual_ms: 120000
 ---
-
 # S-042: Initials avatars on work item lists
 
 ## User story

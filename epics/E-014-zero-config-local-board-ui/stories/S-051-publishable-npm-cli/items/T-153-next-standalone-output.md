@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, next]
 created: 2026-07-24
-updated: 2026-07-28T09:08:49.505Z
+updated: 2026-07-28T14:32:06.722Z
 started_at: 2026-07-28T08:31:48Z
 completed_at: 2026-07-28T08:36:30Z
 actual_ms: 47000
 ---
-
 # T-153: Configure Next standalone output for packaging
 
 ## Description

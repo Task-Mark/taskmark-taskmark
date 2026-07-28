@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [filters, timeframe, weeks, frontend, ui]
 created: 2026-07-24
-updated: 2026-07-28T09:08:49.505Z
+updated: 2026-07-28T14:32:06.722Z
 started_at: 2026-07-24T16:21:43Z
 completed_at: 2026-07-24T16:22:23Z
 actual_ms: 40000
 ---
-
 # T-136: Highlight and quick-select current week in picker
 
 ## Description
