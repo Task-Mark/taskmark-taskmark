@@ -1,6 +1,6 @@
 # Team velocity
 
-Last synced: 2026-07-28T07:27:54.696Z
+Last synced: 2026-07-28T07:41:00.094Z
 Window: Current Speed 90-day weekly points average (done tasks/bugs by completed_at)
 
 ## Throughput
@@ -19,11 +19,11 @@ Window: Current Speed 90-day weekly points average (done tasks/bugs by completed
 
 | Metric | Value |
 |--------|-------|
-| Open items (excl. cancelled) | 10 |
-| Sum points remaining | 27 |
-| Sum estimate_minutes remaining | 380 |
-| ETA (calendar weeks @ Current Speed) | ~0.1 weeks |
-| ETA (from median min/point) | ~378 min |
+| Open items (excl. cancelled) | 31 |
+| Sum points remaining | 82 |
+| Sum estimate_minutes remaining | 1140 |
+| ETA (calendar weeks @ Current Speed) | ~0.2 weeks |
+| ETA (from median min/point) | ~1148 min |
 
 ## Notes
 

@@ -28,7 +28,7 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, layout]
 created: 2026-07-21
-updated: 2026-07-28T07:27:54.696Z
+updated: 2026-07-28T07:41:00.094Z
 started_at: 2026-07-21T22:40:35Z
 completed_at: 2026-07-21T22:40:35Z
 actual_ms: 1920000

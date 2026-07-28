@@ -7,11 +7,11 @@ This repo’s **root is the board** (`INDEX.md`, `epics/`, …). Product repos (
 <!-- taskmark:project-status:begin -->
 ## Project status
 
-_Last synced: 2026-07-28T07:34:15.749Z_
+_Last synced: 2026-07-28T07:42:10.104Z_
 
 | Metric | Value |
 |--------|-------|
-| Total work items | 297 |
+| Total work items | 326 |
 | Complete work items | 284 |
 | Current speed | 337 (pts/week · 1 active weeks (90d)) |
 
@@ -20,7 +20,7 @@ _Last synced: 2026-07-28T07:34:15.749Z_
 <!-- taskmark:open-work:begin -->
 ## Open work items
 
-_Last synced: 2026-07-28T07:34:15.749Z_
+_Last synced: 2026-07-28T07:42:10.104Z_
 
 Stories, tasks, and bugs that are not done, cancelled, or blocked.
 
@@ -29,6 +29,14 @@ Stories, tasks, and bugs that are not done, cancelled, or blocked.
 | S-050 | story | Zero-config board binding from env and cwd | backlog | L | 9 | E-014 |
 | S-051 | story | Publishable npm CLI for local board UI | backlog | XL | 13 | E-014 |
 | S-052 | story | Board init one-command UI launch | backlog | M | 5 | E-014 |
+| S-072 | story | Docs information architecture and navigation | backlog | L | 7 | E-019 |
+| S-073 | story | Setup and installation guide | backlog | M | 6 | E-019 |
+| S-074 | story | Slash commands reference | backlog | XL | 13 | E-019 |
+| S-075 | story | Board folder structure | backlog | M | 6 | E-019 |
+| S-076 | story | Sizing and story points | backlog | M | 5 | E-019 |
+| S-077 | story | Velocity and ETA | backlog | M | 5 | E-019 |
+| S-078 | story | README dashboard | backlog | M | 5 | E-019 |
+| S-079 | story | Core workflows and related topics | backlog | L | 8 | E-019 |
 | T-149 | task | Add TASKMARK_BOARD and TASKMARK_MASTER env resolution | backlog | S | 2 | S-050 |
 | T-150 | task | Resolve board from cwd layouts | backlog | S | 2 | S-050 |
 | T-151 | task | Skip setup wizard when auto-config is valid | backlog | M | 3 | S-050 |
@@ -39,13 +47,34 @@ Stories, tasks, and bugs that are not done, cancelled, or blocked.
 | T-156 | task | Document npx and npm start usage | backlog | S | 2 | S-051 |
 | T-157 | task | Document one-command UI launch on board init | backlog | M | 3 | S-052 |
 | T-158 | task | Optional stub package.json for npm start | backlog | S | 2 | S-052 |
+| T-219 | task | Document docs IA and topic outline | backlog | S | 2 | S-072 |
+| T-220 | task | Docs shell navigation and section routes | backlog | M | 3 | S-072 |
+| T-221 | task | Documentation home and overview page | backlog | S | 2 | S-072 |
+| T-222 | task | Install and plugin setup guide | backlog | M | 3 | S-073 |
+| T-223 | task | Board init and first-run guide | backlog | M | 3 | S-073 |
+| T-224 | task | Commands index page | backlog | S | 2 | S-074 |
+| T-225 | task | Document /new-epic, /new-story, and /new-task | backlog | M | 3 | S-074 |
+| T-226 | task | Document /start-work and /complete-work | backlog | M | 3 | S-074 |
+| T-227 | task | Document /commit-all and /log-commits | backlog | S | 2 | S-074 |
+| T-228 | task | Document remaining sync and utility commands | backlog | M | 3 | S-074 |
+| T-229 | task | Single-repo and multi-repo board layout | backlog | M | 3 | S-075 |
+| T-230 | task | Epic story task file conventions | backlog | M | 3 | S-075 |
+| T-231 | task | T-shirt sizes and Fibonacci points guide | backlog | M | 3 | S-076 |
+| T-232 | task | Parent rollups and estimate suggestions | backlog | S | 2 | S-076 |
+| T-233 | task | Current Speed and ETA documentation | backlog | M | 3 | S-077 |
+| T-234 | task | Median minutes-per-point estimate docs | backlog | S | 2 | S-077 |
+| T-235 | task | Document README sections and metrics | backlog | M | 3 | S-078 |
+| T-236 | task | Document README refresh automation | backlog | S | 2 | S-078 |
+| T-237 | task | Work logs, idle caps, and actual minutes | backlog | M | 3 | S-079 |
+| T-238 | task | Multi-repo day-to-day workflow | backlog | M | 3 | S-079 |
+| T-239 | task | Prompt/feedback and commits logs | backlog | S | 2 | S-079 |
 
 <!-- taskmark:open-work:end -->
 
 <!-- taskmark:changelog:begin -->
 ## Changelog
 
-_Last synced: 2026-07-28T07:34:15.749Z_
+_Last synced: 2026-07-28T07:42:10.104Z_
 
 Recent meaningful commits on this board repository (excludes sync / housekeeping).
 

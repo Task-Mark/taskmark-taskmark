@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-28T07:27:54.832Z
+Last synced: 2026-07-28T07:41:00.317Z
 
 ## Epics
 
@@ -24,6 +24,7 @@ Last synced: 2026-07-28T07:27:54.832Z
 | E-016 | README project status and changelog | done | — | 19 | 5 | 7 | [epic.md](epics/E-016-readme-project-status-and-changelog/epic.md) |
 | E-017 | Taskmark website base Next.js project | done | — | 20 | 285 | 3 | [epic.md](epics/E-017-taskmark-website-base/epic.md) |
 | E-018 | Taskmark website landing page | done | — | 38 | 530 | 5 | [epic.md](epics/E-018-taskmark-website-landing-page/epic.md) |
+| E-019 | Taskmark product documentation | backlog | — | 55 | 760 | 0 | [epic.md](epics/E-019-taskmark-product-documentation/epic.md) |
 
 ## Stories
 
@@ -100,6 +101,14 @@ Last synced: 2026-07-28T07:27:54.832Z
 | S-069 | Contact form | E-018 | done | M | 6 | 80 | 0 | [story.md](epics/E-018-taskmark-website-landing-page/stories/S-069-contact-form/story.md) |
 | S-070 | Documentation call to action | E-018 | done | S | 2 | 30 | 0 | [story.md](epics/E-018-taskmark-website-landing-page/stories/S-070-documentation-cta/story.md) |
 | S-071 | Become a contributor section | E-018 | done | S | 2 | 30 | 0 | [story.md](epics/E-018-taskmark-website-landing-page/stories/S-071-become-a-contributor/story.md) |
+| S-072 | Docs information architecture and navigation | E-019 | backlog | L | 7 | 100 | 0 | [story.md](epics/E-019-taskmark-product-documentation/stories/S-072-docs-information-architecture/story.md) |
+| S-073 | Setup and installation guide | E-019 | backlog | M | 6 | 80 | 0 | [story.md](epics/E-019-taskmark-product-documentation/stories/S-073-setup-and-installation-guide/story.md) |
+| S-074 | Slash commands reference | E-019 | backlog | XL | 13 | 180 | 0 | [story.md](epics/E-019-taskmark-product-documentation/stories/S-074-slash-commands-reference/story.md) |
+| S-075 | Board folder structure | E-019 | backlog | M | 6 | 80 | 0 | [story.md](epics/E-019-taskmark-product-documentation/stories/S-075-board-folder-structure/story.md) |
+| S-076 | Sizing and story points | E-019 | backlog | M | 5 | 70 | 0 | [story.md](epics/E-019-taskmark-product-documentation/stories/S-076-sizing-and-story-points/story.md) |
+| S-077 | Velocity and ETA | E-019 | backlog | M | 5 | 70 | 0 | [story.md](epics/E-019-taskmark-product-documentation/stories/S-077-velocity-and-eta/story.md) |
+| S-078 | README dashboard | E-019 | backlog | M | 5 | 70 | 0 | [story.md](epics/E-019-taskmark-product-documentation/stories/S-078-readme-dashboard/story.md) |
+| S-079 | Core workflows and related topics | E-019 | backlog | L | 8 | 110 | 0 | [story.md](epics/E-019-taskmark-product-documentation/stories/S-079-core-workflows-and-related-topics/story.md) |
 
 ## Open work sessions
 
@@ -336,3 +345,24 @@ Last synced: 2026-07-28T07:27:54.832Z
 | T-216 | Contact form submission handling | S-069 | done | M | 3 | 40 | 0 | [T-216](epics/E-018-taskmark-website-landing-page/stories/S-069-contact-form/items/T-216-contact-form-submission.md) |
 | T-217 | Documentation call-to-action section | S-070 | done | S | 2 | 30 | 0 | [T-217](epics/E-018-taskmark-website-landing-page/stories/S-070-documentation-cta/items/T-217-documentation-cta-section.md) |
 | T-218 | Contributor section linking to GitHub | S-071 | done | S | 2 | 30 | 0 | [T-218](epics/E-018-taskmark-website-landing-page/stories/S-071-become-a-contributor/items/T-218-contributor-github-section.md) |
+| T-219 | Document docs IA and topic outline | S-072 | backlog | S | 2 | 30 | 0 | [T-219](epics/E-019-taskmark-product-documentation/stories/S-072-docs-information-architecture/items/T-219-docs-ia-and-topic-outline.md) |
+| T-220 | Docs shell navigation and section routes | S-072 | backlog | M | 3 | 40 | 0 | [T-220](epics/E-019-taskmark-product-documentation/stories/S-072-docs-information-architecture/items/T-220-docs-shell-nav-and-routes.md) |
+| T-221 | Documentation home and overview page | S-072 | backlog | S | 2 | 30 | 0 | [T-221](epics/E-019-taskmark-product-documentation/stories/S-072-docs-information-architecture/items/T-221-documentation-home-overview.md) |
+| T-222 | Install and plugin setup guide | S-073 | backlog | M | 3 | 40 | 0 | [T-222](epics/E-019-taskmark-product-documentation/stories/S-073-setup-and-installation-guide/items/T-222-install-and-plugin-setup-guide.md) |
+| T-223 | Board init and first-run guide | S-073 | backlog | M | 3 | 40 | 0 | [T-223](epics/E-019-taskmark-product-documentation/stories/S-073-setup-and-installation-guide/items/T-223-board-init-and-first-run.md) |
+| T-224 | Commands index page | S-074 | backlog | S | 2 | 30 | 0 | [T-224](epics/E-019-taskmark-product-documentation/stories/S-074-slash-commands-reference/items/T-224-commands-index-page.md) |
+| T-225 | Document /new-epic, /new-story, and /new-task | S-074 | backlog | M | 3 | 40 | 0 | [T-225](epics/E-019-taskmark-product-documentation/stories/S-074-slash-commands-reference/items/T-225-document-new-epic-story-task.md) |
+| T-226 | Document /start-work and /complete-work | S-074 | backlog | M | 3 | 40 | 0 | [T-226](epics/E-019-taskmark-product-documentation/stories/S-074-slash-commands-reference/items/T-226-document-start-and-complete-work.md) |
+| T-227 | Document /commit-all and /log-commits | S-074 | backlog | S | 2 | 30 | 0 | [T-227](epics/E-019-taskmark-product-documentation/stories/S-074-slash-commands-reference/items/T-227-document-commit-all-and-log-commits.md) |
+| T-228 | Document remaining sync and utility commands | S-074 | backlog | M | 3 | 40 | 0 | [T-228](epics/E-019-taskmark-product-documentation/stories/S-074-slash-commands-reference/items/T-228-document-remaining-commands.md) |
+| T-229 | Single-repo and multi-repo board layout | S-075 | backlog | M | 3 | 40 | 0 | [T-229](epics/E-019-taskmark-product-documentation/stories/S-075-board-folder-structure/items/T-229-single-and-multi-repo-layout.md) |
+| T-230 | Epic story task file conventions | S-075 | backlog | M | 3 | 40 | 0 | [T-230](epics/E-019-taskmark-product-documentation/stories/S-075-board-folder-structure/items/T-230-epic-story-task-file-conventions.md) |
+| T-231 | T-shirt sizes and Fibonacci points guide | S-076 | backlog | M | 3 | 40 | 0 | [T-231](epics/E-019-taskmark-product-documentation/stories/S-076-sizing-and-story-points/items/T-231-tshirt-and-points-guide.md) |
+| T-232 | Parent rollups and estimate suggestions | S-076 | backlog | S | 2 | 30 | 0 | [T-232](epics/E-019-taskmark-product-documentation/stories/S-076-sizing-and-story-points/items/T-232-rollups-and-estimate-suggestions.md) |
+| T-233 | Current Speed and ETA documentation | S-077 | backlog | M | 3 | 40 | 0 | [T-233](epics/E-019-taskmark-product-documentation/stories/S-077-velocity-and-eta/items/T-233-current-speed-and-eta-docs.md) |
+| T-234 | Median minutes-per-point estimate docs | S-077 | backlog | S | 2 | 30 | 0 | [T-234](epics/E-019-taskmark-product-documentation/stories/S-077-velocity-and-eta/items/T-234-median-min-per-point-estimates.md) |
+| T-235 | Document README sections and metrics | S-078 | backlog | M | 3 | 40 | 0 | [T-235](epics/E-019-taskmark-product-documentation/stories/S-078-readme-dashboard/items/T-235-readme-sections-and-metrics.md) |
+| T-236 | Document README refresh automation | S-078 | backlog | S | 2 | 30 | 0 | [T-236](epics/E-019-taskmark-product-documentation/stories/S-078-readme-dashboard/items/T-236-readme-refresh-automation.md) |
+| T-237 | Work logs, idle caps, and actual minutes | S-079 | backlog | M | 3 | 40 | 0 | [T-237](epics/E-019-taskmark-product-documentation/stories/S-079-core-workflows-and-related-topics/items/T-237-work-logs-idle-and-actuals.md) |
+| T-238 | Multi-repo day-to-day workflow | S-079 | backlog | M | 3 | 40 | 0 | [T-238](epics/E-019-taskmark-product-documentation/stories/S-079-core-workflows-and-related-topics/items/T-238-multi-repo-day-to-day-workflow.md) |
+| T-239 | Prompt/feedback and commits logs | S-079 | backlog | S | 2 | 30 | 0 | [T-239](epics/E-019-taskmark-product-documentation/stories/S-079-core-workflows-and-related-topics/items/T-239-prompt-feedback-and-commits-logs.md) |
