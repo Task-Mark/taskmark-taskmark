@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 36
+points: 39
 points_source: rolled_up
-estimate_minutes: 395
-actual_minutes: 30
+estimate_minutes: 400
+actual_minutes: 260
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -29,10 +29,10 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm, local, vercel]
 created: 2026-07-24
-updated: 2026-07-28T15:31:09.902Z
+updated: 2026-07-28T19:13:32.846Z
 started_at: 2026-07-28T08:09:03Z
 completed_at: null
-actual_ms: 1833902
+actual_ms: 15618846
 ---
 
 # E-014: Zero-config local board UI package
@@ -68,11 +68,14 @@ Ship Taskmark’s web UI so a developer can open a local board with `npx taskmar
 ## Tasks
 
 - [T-256: Make board package Vercel-deployable via Node serve](items/T-256-board-vercel-node-serve.md)
+- [B-009: @taskmark/ui must be a production dependency for Vercel](items/B-009-ui-must-be-production-dep.md)
 
 ## Commits
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| e2b0fda | taskmark-frontend | 2026-07-28T19:13:32Z | Marco Mendão | document @taskmark/ui as production dependency |
+| 62f8af2 | taskmark-cursor | 2026-07-28T19:13:32Z | Marco Mendão | keep @taskmark/ui as production dep on vercel |
 | ab9106c | taskmark-cursor | 2026-07-28T15:34:40Z | Marco Mendão | add ensure-board-ui vercel stubs on init |
 | 0922bae | taskmark-frontend | 2026-07-28T15:34:40Z | Marco Mendão | skip browser open on hosted serve |
 | 3a3ef93 | taskmark-taskmark | 2026-07-28T14:35:04Z | Marco Mendão | log T-242 init ui install commits |

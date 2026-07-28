@@ -10,7 +10,7 @@ size_basis: []
 points: 3
 points_source: suggested
 estimate_minutes: 40
-actual_minutes: 7
+actual_minutes: 230
 estimate_source: suggested
 estimate_basis: [speed:90d:14min/pt]
 session_cap_minutes: 480
@@ -26,10 +26,10 @@ blocked: false
 cancelled: false
 tags: [deploy, vercel, board, serve]
 created: 2026-07-28
-updated: 2026-07-28T15:31:09.902Z
+updated: 2026-07-28T19:13:32.846Z
 started_at: 2026-07-28T15:23:18Z
 completed_at: null
-actual_ms: 471902
+actual_ms: 13814846
 ---
 # T-256: Make board package Vercel-deployable via Node serve
 

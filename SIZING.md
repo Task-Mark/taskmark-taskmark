@@ -17,6 +17,7 @@ Sizing suggests size + points; Est uses Current Speed median min/pt when availab
 
 | Date | Item | Sized | Points | Est | Actual | Note |
 |------|------|-------|--------|-----|--------|------|
+| 2026-07-28 | B-009 | S | 2 | 30 | 7 | estimate 30->5; size S->M |
 | 2026-07-28 | T-255 | M | 3 | 40 | 16 | estimate 40->15; size M->XS |
 | 2026-07-28 | T-242 | S | 2 | 30 | 3 | estimate 30->5; size S->M |
 | 2026-07-28 | T-241 | M | 3 | 40 | 3 | estimate 40->5 |

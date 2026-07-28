@@ -28,7 +28,7 @@ blocked: false
 cancelled: false
 tags: [ui, stories, dashboard]
 created: 2026-07-21
-updated: 2026-07-28T15:31:09.902Z
+updated: 2026-07-28T19:13:32.846Z
 started_at: 2026-07-21T17:45:49Z
 completed_at: 2026-07-21T17:48:46Z
 actual_ms: 847000

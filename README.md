@@ -18,19 +18,20 @@ Opens http://localhost:8275 (package `@taskmark/ui`). Or `npm run serve` / `npm 
 1. Import this repo in Vercel.
 2. Framework Preset: **Node** (auto-detects root `server.js`).
 3. Install Command: `npm install` (default). Leave Build Command empty.
-4. Deploy — `server.js` starts `@taskmark/ui` with `TASKMARK_BOARD` set to this repo root.
+4. Keep `@taskmark/ui` under **`dependencies`** (not `devDependencies`) — production installs omit devDeps.
+5. Deploy — `server.js` starts `@taskmark/ui` with `TASKMARK_BOARD` set to this repo root. `vercel.json` includes the UI package and board markdown via `includeFiles`.
 
 Optional: set Start Command to `npm start` (`taskmark serve --no-open`) if you override the Node entry.
 
 <!-- taskmark:project-status:begin -->
 ## Project status
 
-_Last synced: 2026-07-28T15:34:58.543Z_
+_Last synced: 2026-07-28T19:13:33.687Z_
 
 | Metric | Value |
 |--------|-------|
-| Total work items | 348 |
-| Complete work items | 347 |
+| Total work items | 349 |
+| Complete work items | 348 |
 | Current speed | 337 (pts/week · 1 active weeks (90d)) |
 
 <!-- taskmark:project-status:end -->
@@ -38,7 +39,7 @@ _Last synced: 2026-07-28T15:34:58.543Z_
 <!-- taskmark:open-work:begin -->
 ## Open work items
 
-_Last synced: 2026-07-28T15:34:58.543Z_
+_Last synced: 2026-07-28T19:13:33.687Z_
 
 Stories, tasks, and bugs that are not done, cancelled, or blocked.
 
@@ -51,12 +52,13 @@ Stories, tasks, and bugs that are not done, cancelled, or blocked.
 <!-- taskmark:changelog:begin -->
 ## Changelog
 
-_Last synced: 2026-07-28T15:34:58.543Z_
+_Last synced: 2026-07-28T19:13:33.687Z_
 
 Recent meaningful commits on this board repository (excludes sync / housekeeping).
 
 | Date (UTC) | SHA | Author | Message |
 |------------|-----|--------|---------|
+| 2026-07-28 | `2ff359c` | Marco Mendão | add vercel node board deploy stubs |
 | 2026-07-28 | `31a2da5` | Marco Mendão | add e-019 documentation epic |
 | 2026-07-27 | `a494e58` | Marco Mendão | add e-015 metrics and remove velocity board |
 | 2026-07-24 | `8c8d50e` | Marco Mendão | complete t-141 brand hover underline |

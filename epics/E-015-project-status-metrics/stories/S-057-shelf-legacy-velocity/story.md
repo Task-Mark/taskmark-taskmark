@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [plugin, velocity, estimation, shelved]
 created: 2026-07-27
-updated: 2026-07-28T15:31:09.902Z
+updated: 2026-07-28T19:13:32.846Z
 started_at: 2026-07-27T06:10:41Z
 completed_at: 2026-07-27T06:17:22Z
 actual_ms: 360000
