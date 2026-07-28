@@ -7,7 +7,7 @@ This repo’s **root is the board** (`INDEX.md`, `epics/`, …). Product repos (
 <!-- taskmark:project-status:begin -->
 ## Project status
 
-_Last synced: 2026-07-28T07:42:10.104Z_
+_Last synced: 2026-07-28T07:42:31.451Z_
 
 | Metric | Value |
 |--------|-------|
@@ -20,7 +20,7 @@ _Last synced: 2026-07-28T07:42:10.104Z_
 <!-- taskmark:open-work:begin -->
 ## Open work items
 
-_Last synced: 2026-07-28T07:42:10.104Z_
+_Last synced: 2026-07-28T07:42:31.451Z_
 
 Stories, tasks, and bugs that are not done, cancelled, or blocked.
 
@@ -74,12 +74,13 @@ Stories, tasks, and bugs that are not done, cancelled, or blocked.
 <!-- taskmark:changelog:begin -->
 ## Changelog
 
-_Last synced: 2026-07-28T07:42:10.104Z_
+_Last synced: 2026-07-28T07:42:31.451Z_
 
 Recent meaningful commits on this board repository (excludes sync / housekeeping).
 
 | Date (UTC) | SHA | Author | Message |
 |------------|-----|--------|---------|
+| 2026-07-28 | `31a2da5` | Marco Mendão | add e-019 documentation epic |
 | 2026-07-27 | `a494e58` | Marco Mendão | add e-015 metrics and remove velocity board |
 | 2026-07-24 | `8c8d50e` | Marco Mendão | complete t-141 brand hover underline |
 | 2026-07-24 | `efa533f` | Marco Mendão | complete t-140 week range dual dropdown |
