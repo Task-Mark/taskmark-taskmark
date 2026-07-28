@@ -28,13 +28,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, stories, frontend]
 created: 2026-07-21
-updated: 2026-07-27T07:45:28.202Z
+updated: 2026-07-28T06:16:13.686Z
 started_at: 2026-07-21T17:45:49Z
 completed_at: 2026-07-21T18:02:46Z
 actual_ms: 49878000
 estimate_source: rolled_up
 ---
-
 # E-002: User stories view
 
 ## Goal

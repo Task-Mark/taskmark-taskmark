@@ -7,9 +7,9 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 47
+points: 49
 points_source: rolled_up
-estimate_minutes: 665
+estimate_minutes: 695
 actual_minutes: 486
 estimate_source: rolled_up
 estimate_basis: [sum:children]
@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, lists]
 created: 2026-07-22
-updated: 2026-07-27T07:45:28.202Z
+updated: 2026-07-28T06:18:39Z
 started_at: 2026-07-23T05:44:00Z
-completed_at: 2026-07-27T05:18:44Z
+completed_at: 2026-07-28T06:16:13Z
 actual_ms: 29185000
 ---
+
 # E-006: New work item list views
 
 ## Goal
@@ -84,6 +85,7 @@ Let users switch the board between Overall (current drill-down), All (flat mixed
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| cb6c435 | taskmark-frontend | 2026-07-28T06:18:39Z | Marco Mendão | remove overall est actual columns |
 | c809639 | taskmark-frontend | 2026-07-22T00:35:27Z | Marco Mendão | add tabs and update button styles |
 | 603c59c | taskmark-taskmark | 2026-07-22T00:35:27Z | Marco Mendão | add e-006 list views board |
 | 97685ee | taskmark-frontend | 2026-07-23T07:08:21Z | Marco Mendão | add overall and work items views |

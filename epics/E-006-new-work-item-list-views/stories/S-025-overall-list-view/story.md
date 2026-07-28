@@ -4,13 +4,13 @@ type: story
 title: Overall list view (current drill-down)
 status: done
 priority: high
-size: S
+size: M
 size_source: rolled_up
 size_basis: [sum:tasks]
-points: 3
+points: 5
 points_source: rolled_up
-estimate_minutes: 45
-actual_minutes: 0
+estimate_minutes: 75
+actual_minutes: 2
 estimate_source: rolled_up
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, overall]
 created: 2026-07-22
-updated: 2026-07-27T07:45:28.202Z
+updated: 2026-07-28T06:18:39Z
 started_at: 2026-07-23T06:38:57Z
-completed_at: 2026-07-23T06:42:22Z
-actual_ms: 19000
+completed_at: 2026-07-28T06:16:13Z
+actual_ms: 152000
 ---
+
 # S-025: Overall list view (current drill-down)
 
 ## User story
@@ -51,6 +52,7 @@ As a user, I want the Overall view to keep today’s epic → story → task dri
 
 - [T-065: Register Overall as default view mode](items/T-065-register-overall-as-default-view.md)
 - [T-066: Preserve drill-down under Overall view](items/T-066-preserve-drill-down-under-overall.md)
+- [T-205: Remove Est and Actual columns from Overall lists](items/T-205-remove-est-actual-from-overall-lists.md)
 
 ## Prompt & feedback log
 
@@ -62,6 +64,7 @@ As a user, I want the Overall view to keep today’s epic → story → task dri
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| cb6c435 | taskmark-frontend | 2026-07-28T06:18:39Z | Marco Mendão | remove overall est actual columns |
 
 ## Work log
 

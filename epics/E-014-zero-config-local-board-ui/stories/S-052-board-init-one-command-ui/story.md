@@ -26,11 +26,12 @@ blocked: false
 cancelled: false
 tags: [plugin, init, cli, docs]
 created: 2026-07-24
-updated: 2026-07-27T07:45:28.202Z
+updated: 2026-07-28T06:16:13.686Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
+
 # S-052: Board init one-command UI launch
 
 ## User story

@@ -1,17 +1,17 @@
 # Board index
 
-Last synced: 2026-07-27T07:45:28.335Z
+Last synced: 2026-07-28T06:16:13.793Z
 
 ## Epics
 
 | ID | Title | Status | Size | Points | Est (min) | Actual (min) | Path |
 |----|-------|--------|------|--------|-----------|--------------|------|
-| E-001 | MVP Taskmark dashboard | done | — | 28 | 810 | 446 | [epic.md](epics/E-001-mvp-dashboard/epic.md) |
+| E-001 | MVP Taskmark dashboard | done | — | 29 | 825 | 926 | [epic.md](epics/E-001-mvp-dashboard/epic.md) |
 | E-002 | User stories view | done | — | 11 | 1265 | 831 | [epic.md](epics/E-002-user-stories-view/epic.md) |
 | E-003 | Refactor Taskmark project structure | done | — | 31 | 443 | 496 | [epic.md](epics/E-003-refactor-taskmark-project-structure/epic.md) |
 | E-004 | Refactor speed and estimation | done | — | 52 | 682 | 688 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
 | E-005 | View work item | done | — | 44 | 620 | 49 | [epic.md](epics/E-005-view-work-item/epic.md) |
-| E-006 | New work item list views | done | — | 47 | 665 | 486 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
+| E-006 | New work item list views | done | — | 49 | 695 | 486 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
 | E-007 | Optional hierarchy and General epic | done | — | 15 | 230 | 40 | [epic.md](epics/E-007-optional-hierarchy-general-epic/epic.md) |
 | E-008 | General | done | — | 3 | 48 | 2 | [epic.md](epics/E-008-general/epic.md) |
 | E-009 | List pagination for work items | done | — | 15 | 230 | 13 | [epic.md](epics/E-009-list-pagination/epic.md) |
@@ -22,6 +22,7 @@ Last synced: 2026-07-27T07:45:28.335Z
 | E-014 | Zero-config local board UI package | backlog | — | 27 | 380 | 0 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
 | E-015 | Project status metrics | done | — | 40 | 550 | 12 | [epic.md](epics/E-015-project-status-metrics/epic.md) |
 | E-016 | README project status and changelog | done | — | 19 | 5 | 7 | [epic.md](epics/E-016-readme-project-status-and-changelog/epic.md) |
+| E-017 | Taskmark website base Next.js project | done | — | 20 | 285 | 3 | [epic.md](epics/E-017-taskmark-website-base/epic.md) |
 
 ## Stories
 
@@ -29,7 +30,7 @@ Last synced: 2026-07-27T07:45:28.335Z
 |----|-------|------|--------|------|--------|-----------|--------------|------|
 | S-001 | Project setup wizard | E-001 | done | XL | 13 | 115 | 206 | [story.md](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/story.md) |
 | S-002 | Epic list for selected project | E-001 | done | L | 8 | 155 | 159 | [story.md](epics/E-001-mvp-dashboard/stories/S-002-epic-list/story.md) |
-| S-003 | App bar project switcher | E-001 | done | M | 4 | 60 | 33 | [story.md](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/story.md) |
+| S-003 | App bar project switcher | E-001 | done | M | 5 | 75 | 513 | [story.md](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/story.md) |
 | S-004 | Add project accumulates workspaces | E-001 | done | M | 3 | 480 | 48 | [story.md](epics/E-001-mvp-dashboard/stories/S-004-add-project-accumulate/story.md) |
 | S-005 | Story list for selected epic | E-002 | done | S | 3 | 45 | 48 | [story.md](epics/E-002-user-stories-view/stories/S-005-story-list-for-epic/story.md) |
 | S-006 | Task list for selected story | E-002 | done | L | 8 | 1220 | 783 | [story.md](epics/E-002-user-stories-view/stories/S-006-task-list-for-story/story.md) |
@@ -51,7 +52,7 @@ Last synced: 2026-07-27T07:45:28.335Z
 | S-022 | Task and bug detail view | E-005 | done | M | 5 | 80 | 0 | [story.md](epics/E-005-view-work-item/stories/S-022-task-detail-view/story.md) |
 | S-023 | Shared batch actual time split | E-004 | done | S | 5 | 10 | 11 | [story.md](epics/E-004-refactor-speed-and-estimation/stories/S-023-shared-batch-actual-split/story.md) |
 | S-024 | Board list view switcher | E-006 | done | M | 6 | 90 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-024-board-list-view-switcher/story.md) |
-| S-025 | Overall list view (current drill-down) | E-006 | done | S | 3 | 45 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-025-overall-list-view/story.md) |
+| S-025 | Overall list view (current drill-down) | E-006 | done | M | 5 | 75 | 2 | [story.md](epics/E-006-new-work-item-list-views/stories/S-025-overall-list-view/story.md) |
 | S-026 | All work items table view | E-006 | done | XL | 12 | 190 | 5 | [story.md](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/story.md) |
 | S-027 | Stories list view with epic tag | E-006 | done | M | 6 | 90 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-027-stories-list-view-with-epic-tag/story.md) |
 | S-028 | Tasks list view with epic and story tags | E-006 | done | L | 7 | 110 | 0 | [story.md](epics/E-006-new-work-item-list-views/stories/S-028-tasks-list-view-with-parent-tags/story.md) |
@@ -85,12 +86,18 @@ Last synced: 2026-07-27T07:45:28.335Z
 | S-056 | Project contributors view | E-015 | done | M | 5 | 70 | 1 | [story.md](epics/E-015-project-status-metrics/stories/S-056-project-contributors-view/story.md) |
 | S-057 | Remove legacy velocity and time estimates | E-015 | done | L | 7 | 100 | 6 | [story.md](epics/E-015-project-status-metrics/stories/S-057-shelf-legacy-velocity/story.md) |
 | S-058 | Reimplement velocity and time estimates | E-015 | done | XL | 13 | 180 | 3 | [story.md](epics/E-015-project-status-metrics/stories/S-058-reimplement-velocity-estimates/story.md) |
+| S-059 | README project metrics section | E-016 | done | M | 4 | 0 | 2 | [story.md](epics/E-016-readme-project-status-and-changelog/stories/S-059-readme-project-metrics-section/story.md) |
+| S-060 | README open work items list | E-016 | done | M | 4 | 0 | 0 | [story.md](epics/E-016-readme-project-status-and-changelog/stories/S-060-readme-open-work-items-list/story.md) |
+| S-061 | README changelog and automation | E-016 | done | XL | 11 | 5 | 5 | [story.md](epics/E-016-readme-project-status-and-changelog/stories/S-061-readme-changelog-and-automation/story.md) |
+| S-062 | Scaffold Taskmark website Next.js project | E-017 | done | L | 7 | 100 | 1 | [story.md](epics/E-017-taskmark-website-base/stories/S-062-scaffold-website-nextjs/story.md) |
+| S-063 | Share UI components and visual interface with frontend | E-017 | done | L | 8 | 110 | 2 | [story.md](epics/E-017-taskmark-website-base/stories/S-063-share-ui-with-frontend/story.md) |
+| S-064 | App shell providers and smoke homepage | E-017 | done | M | 5 | 75 | 0 | [story.md](epics/E-017-taskmark-website-base/stories/S-064-app-shell-smoke-homepage/story.md) |
 
 ## Open work sessions
 
 | Item | Actor | Started (UTC) |
 |------|-------|---------------|
-| T-164 | Marco Mendão | 2026-07-27T05:16:08Z |
+| B-008 | Marco Mendão | 2026-07-27T08:59:14Z |
 
 ## Items
 
@@ -100,6 +107,10 @@ Last synced: 2026-07-27T07:45:28.335Z
 | B-002 | Dedicated board repo must be flat (no nested taskmark/) | S-008 | done | S | 2 | 30 | 32 | [B-002](epics/E-003-refactor-taskmark-project-structure/stories/S-008-multi-project-dedicated-board/items/B-002-flat-board-repo-root.md) |
 | B-003 | Setup fails to discover flat multi-repo board | S-001 | done | S | 2 | 30 | 32 | [B-003](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/B-003-discover-flat-taskmark-board.md) |
 | B-004 | Parallel full-session work logs inflate epic Actual | S-023 | done | M | 5 | 10 | 11 | [B-004](epics/E-004-refactor-speed-and-estimation/stories/S-023-shared-batch-actual-split/items/B-004-parallel-session-inflates-actual.md) |
+| B-005 | Tasks and bugs cannot live under an epic without a story | S-029 | done | S | 2 | 35 | 36 | [B-005](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/B-005-epic-direct-tasks-without-story.md) |
+| B-006 | Hide completed hides done epics that still have open epic-direct work | S-038 | done | S | 2 | 30 | 0 | [B-006](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/items/B-006-hide-completed-done-epic-open-direct.md) |
+| B-007 | Sheet parent and breadcrumb resolve same id from another project | E-005 | done | S | 2 | 30 | 1 | [B-007](epics/E-005-view-work-item/items/B-007-sheet-resolve-cross-project-id.md) |
+| B-008 | Brand logo sits flush against app bar bottom border | S-003 | in_progress | XS | 1 | 15 | 480 | [B-008](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/items/B-008-brand-logo-flush-header-border.md) |
 | T-001 | Build setup wizard UI shell | S-001 | done | M | 3 | 5 | 3 | [T-001](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-001-setup-wizard-ui.md) |
 | T-002 | Implement project folder selection | S-001 | done | XS | 1 | 15 | 14 | [T-002](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-002-folder-selection.md) |
 | T-003 | Validate taskmark board in selected folder | S-001 | done | S | 2 | 30 | 2 | [T-003](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-003-validate-taskmark-board.md) |
@@ -179,17 +190,14 @@ Last synced: 2026-07-27T07:45:28.335Z
 | T-077 | Soft-attach create-story and create-task | S-029 | done | L | 5 | 75 | 1 | [T-077](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/T-077-soft-attach-create-skills.md) |
 | T-078 | Seed and ensure General epic on boards | S-029 | done | S | 2 | 30 | 1 | [T-078](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/T-078-seed-ensure-general-epic.md) |
 | T-079 | Show General epic with unattached items in UI | S-029 | done | M | 3 | 45 | 1 | [T-079](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/T-079-ui-general-epic-unattached.md) |
-| B-005 | Tasks and bugs cannot live under an epic without a story | S-029 | done | S | 2 | 35 | 36 | [B-005](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/B-005-epic-direct-tasks-without-story.md) |
-| B-006 | Hide completed hides done epics that still have open epic-direct work | S-038 | done | S | 2 | 30 | 0 | [B-006](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/items/B-006-hide-completed-done-epic-open-direct.md) |
-| B-007 | Sheet parent and breadcrumb resolve same id from another project | E-005 | done | S | 2 | 30 | 1 | [B-007](epics/E-005-view-work-item/items/B-007-sheet-resolve-cross-project-id.md) |
 | T-080 | Add task and bug totals on epic and story lists | E-006 | done | S | 2 | 50 | 49 | [T-080](epics/E-006-new-work-item-list-views/items/T-080-task-bug-totals-on-lists.md) |
 | T-081 | Count work items (stories, tasks, bugs) on epic and story lists | E-006 | done | M | 3 | 5 | 3 | [T-081](epics/E-006-new-work-item-list-views/items/T-081-work-item-totals-on-lists.md) |
-| T-083 | Wider detail sheet with epic and story children | E-005 | done | M | 3 | 5 | 3 | [T-083](epics/E-005-view-work-item/items/T-083-sheet-width-and-children.md) |
-| T-086 | Render markdown in work item detail sheet sections | E-005 | done | XS | 1 | 15 | 14 | [T-086](epics/E-005-view-work-item/items/T-086-render-markdown-detail-sheet.md) |
-| T-087 | Add date-fns and format all displayed dates | E-005 | done | XS | 1 | 25 | 23 | [T-087](epics/E-005-view-work-item/items/T-087-date-fns-format-all-dates.md) |
 | T-082 | Overall and Work items tabs only | E-006 | done | M | 3 | 5 | 3 | [T-082](epics/E-006-new-work-item-list-views/items/T-082-overall-and-work-items-tabs.md) |
+| T-083 | Wider detail sheet with epic and story children | E-005 | done | M | 3 | 5 | 3 | [T-083](epics/E-005-view-work-item/items/T-083-sheet-width-and-children.md) |
 | T-084 | Show created and solved dates on work items list | E-006 | done | XS | 1 | 20 | 21 | [T-084](epics/E-006-new-work-item-list-views/items/T-084-work-items-created-solved-dates.md) |
 | T-085 | Date tooltips on ID and done badge instead of columns | E-006 | done | XS | 1 | 15 | 16 | [T-085](epics/E-006-new-work-item-list-views/items/T-085-date-tooltips-id-done-badge.md) |
+| T-086 | Render markdown in work item detail sheet sections | E-005 | done | XS | 1 | 15 | 14 | [T-086](epics/E-005-view-work-item/items/T-086-render-markdown-detail-sheet.md) |
+| T-087 | Add date-fns and format all displayed dates | E-005 | done | XS | 1 | 25 | 23 | [T-087](epics/E-005-view-work-item/items/T-087-date-fns-format-all-dates.md) |
 | T-088 | Define pagination types and page-size defaults | S-030 | done | S | 2 | 30 | 0 | [T-088](epics/E-009-list-pagination/stories/S-030-shared-pagination-control/items/T-088-pagination-types-defaults.md) |
 | T-089 | Build pagination navigation and page-size UI | S-030 | done | M | 3 | 50 | 1 | [T-089](epics/E-009-list-pagination/stories/S-030-shared-pagination-control/items/T-089-pagination-control-ui.md) |
 | T-090 | Client-side page slice helper | S-030 | done | S | 2 | 30 | 0 | [T-090](epics/E-009-list-pagination/stories/S-030-shared-pagination-control/items/T-090-page-slice-helper.md) |
@@ -243,6 +251,7 @@ Last synced: 2026-07-27T07:45:28.335Z
 | T-138 | Scroll week picker to current week; distinct prev/next colors | E-012 | done | XS | 1 | 15 | 0 | [T-138](epics/E-012-timeframe-filters/items/T-138-scroll-to-current-week-distinct-colors.md) |
 | T-139 | Week/day completion counts and prev/next opacity | E-012 | done | M | 3 | 50 | 2 | [T-139](epics/E-012-timeframe-filters/items/T-139-week-day-completion-counts-opacity.md) |
 | T-140 | Week range dual dropdown instead of slider | E-012 | done | S | 2 | 30 | 1 | [T-140](epics/E-012-timeframe-filters/items/T-140-week-range-dual-dropdown.md) |
+| T-141 | Primary hover underline under Taskmark brand | S-003 | done | XS | 1 | 15 | 8 | [T-141](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/items/T-141-brand-hover-underline.md) |
 | T-142 | Define sort keys, comparators, and types | S-047 | done | S | 2 | 30 | 0 | [T-142](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/items/T-142-sort-keys-comparators-types.md) |
 | T-143 | Build shared sortable table header UI | S-047 | done | M | 3 | 40 | 1 | [T-143](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/items/T-143-sortable-table-header-ui.md) |
 | T-144 | Sort epic list by id and title | S-048 | done | S | 2 | 30 | 0 | [T-144](epics/E-013-table-sort-functionalities/stories/S-048-sort-overall-lists/items/T-144-sort-epic-list.md) |
@@ -250,7 +259,6 @@ Last synced: 2026-07-27T07:45:28.335Z
 | T-146 | Sort task list by id, title, and size | S-048 | done | S | 2 | 30 | 0 | [T-146](epics/E-013-table-sort-functionalities/stories/S-048-sort-overall-lists/items/T-146-sort-task-list.md) |
 | T-147 | Sort work items by id, title, size, and epic | S-049 | done | M | 3 | 40 | 1 | [T-147](epics/E-013-table-sort-functionalities/stories/S-049-sort-work-items-list/items/T-147-sort-work-items-list.md) |
 | T-148 | Compose sort with filters and pagination | S-049 | done | S | 2 | 30 | 0 | [T-148](epics/E-013-table-sort-functionalities/stories/S-049-sort-work-items-list/items/T-148-compose-sort-filters-pagination.md) |
-| T-166 | Sort by points, status, and priority | S-047 | done | S | 2 | 30 | 0 | [T-166](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/items/T-166-sort-points-status-priority.md) |
 | T-149 | Add TASKMARK_BOARD and TASKMARK_MASTER env resolution | S-050 | backlog | S | 2 | 30 | 0 | [T-149](epics/E-014-zero-config-local-board-ui/stories/S-050-zero-config-board-binding/items/T-149-env-board-master-resolution.md) |
 | T-150 | Resolve board from cwd layouts | S-050 | backlog | S | 2 | 30 | 0 | [T-150](epics/E-014-zero-config-local-board-ui/stories/S-050-zero-config-board-binding/items/T-150-resolve-board-from-cwd.md) |
 | T-151 | Skip setup wizard when auto-config is valid | S-050 | backlog | M | 3 | 40 | 0 | [T-151](epics/E-014-zero-config-local-board-ui/stories/S-050-zero-config-board-binding/items/T-151-skip-setup-when-autoconfig.md) |
@@ -267,9 +275,10 @@ Last synced: 2026-07-27T07:45:28.335Z
 | T-162 | Persist each Hide completed toggle in a cookie | S-038 | done | S | 2 | 30 | 0 | [T-162](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/items/T-162-persist-hide-completed-cookies.md) |
 | T-163 | Replace app brand logo with tm_light mark | S-003 | done | XS | 1 | 15 | 0 | [T-163](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/items/T-163-replace-brand-logo.md) |
 | T-164 | Show story progress bars on Work items list | S-026 | done | XS | 1 | 15 | 0 | [T-164](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-164-work-items-story-progress-bars.md) |
-| T-168 | Show points on size hover in work item lists | S-026 | done | XS | 1 | 15 | 0 | [T-168](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-168-size-points-hover-tooltip.md) |
 | T-165 | Three-click sort cycle clears to default | S-047 | done | XS | 1 | 15 | 0 | [T-165](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/items/T-165-three-click-sort-clear.md) |
+| T-166 | Sort by points, status, and priority | S-047 | done | S | 2 | 30 | 0 | [T-166](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/items/T-166-sort-points-status-priority.md) |
 | T-167 | Sort by type and people | S-047 | done | S | 2 | 30 | 0 | [T-167](epics/E-013-table-sort-functionalities/stories/S-047-shared-table-sort-plumbing/items/T-167-sort-type-and-people.md) |
+| T-168 | Show points on size hover in work item lists | S-026 | done | XS | 1 | 15 | 0 | [T-168](epics/E-006-new-work-item-list-views/stories/S-026-all-work-items-table-view/items/T-168-size-points-hover-tooltip.md) |
 | T-169 | Build MetricStatCard component | S-053 | done | M | 3 | 40 | 1 | [T-169](epics/E-015-project-status-metrics/stories/S-053-metrics-cards-ui/items/T-169-metric-stat-card-component.md) |
 | T-170 | Place metrics strip on board overview | S-053 | done | S | 2 | 30 | 0 | [T-170](epics/E-015-project-status-metrics/stories/S-053-metrics-cards-ui/items/T-170-metrics-strip-on-board.md) |
 | T-171 | Aggregate total and done work item counts | S-054 | done | S | 2 | 30 | 0 | [T-171](epics/E-015-project-status-metrics/stories/S-054-work-item-count-metrics/items/T-171-aggregate-work-item-counts.md) |
@@ -281,3 +290,28 @@ Last synced: 2026-07-27T07:45:28.335Z
 | T-177 | Remove velocity docs and VELOCITY.md | S-057 | done | S | 2 | 30 | 2 | [T-177](epics/E-015-project-status-metrics/stories/S-057-shelf-legacy-velocity/items/T-177-mark-velocity-docs-shelved.md) |
 | T-178 | Remove velocity and estimate calibration from recompute | S-057 | done | M | 3 | 40 | 2 | [T-178](epics/E-015-project-status-metrics/stories/S-057-shelf-legacy-velocity/items/T-178-disable-velocity-estimate-refresh.md) |
 | T-179 | Sizing and create skills: size + points only | S-057 | done | S | 2 | 30 | 2 | [T-179](epics/E-015-project-status-metrics/stories/S-057-shelf-legacy-velocity/items/T-179-skills-seeds-only-while-shelved.md) |
+| T-180 | Show story points per day on calendar picker | E-012 | done | S | 2 | 0 | 2 | [T-180](epics/E-012-timeframe-filters/items/T-180-calendar-day-story-points.md) |
+| T-181 | Align calendar points with leaf speed logic | E-012 | done | S | 2 | 0 | 0 | [T-181](epics/E-012-timeframe-filters/items/T-181-align-calendar-points-with-leaf-speed.md) |
+| T-182 | Compact calendar point badges | E-012 | done | XS | 1 | 0 | 0 | [T-182](epics/E-012-timeframe-filters/items/T-182-compact-calendar-point-badges.md) |
+| T-183 | Add current week story points card | S-055 | done | XS | 1 | 0 | 0 | [T-183](epics/E-015-project-status-metrics/stories/S-055-current-speed-metric/items/T-183-current-week-story-points-card.md) |
+| T-184 | Port Current Speed into recompute and VELOCITY.md | S-058 | done | L | 5 | 70 | 1 | [T-184](epics/E-015-project-status-metrics/stories/S-058-reimplement-velocity-estimates/items/T-184-port-current-speed-into-recompute-and-velocity.md) |
+| T-185 | Suggest estimates from 90-day speed window | S-058 | done | M | 3 | 40 | 1 | [T-185](epics/E-015-project-status-metrics/stories/S-058-reimplement-velocity-estimates/items/T-185-suggest-estimates-from-90-day-speed-window.md) |
+| T-186 | Restore velocity skill command and docs | S-058 | done | M | 3 | 40 | 1 | [T-186](epics/E-015-project-status-metrics/stories/S-058-reimplement-velocity-estimates/items/T-186-restore-velocity-skill-command-and-docs.md) |
+| T-187 | Deploy plugin and seed board VELOCITY.md | S-058 | done | S | 2 | 30 | 0 | [T-187](epics/E-015-project-status-metrics/stories/S-058-reimplement-velocity-estimates/items/T-187-deploy-plugin-and-seed-board-velocity.md) |
+| T-188 | Compute README metrics from board leaves | S-059 | done | S | 2 | 0 | 1 | [T-188](epics/E-016-readme-project-status-and-changelog/stories/S-059-readme-project-metrics-section/items/T-188-compute-readme-metrics.md) |
+| T-189 | Upsert README metrics marker section | S-059 | done | S | 2 | 0 | 1 | [T-189](epics/E-016-readme-project-status-and-changelog/stories/S-059-readme-project-metrics-section/items/T-189-upsert-readme-metrics-section.md) |
+| T-190 | Collect open work item rows | S-060 | done | S | 2 | 0 | 0 | [T-190](epics/E-016-readme-project-status-and-changelog/stories/S-060-readme-open-work-items-list/items/T-190-collect-open-work-rows.md) |
+| T-191 | Upsert README open work marker section | S-060 | done | S | 2 | 0 | 0 | [T-191](epics/E-016-readme-project-status-and-changelog/stories/S-060-readme-open-work-items-list/items/T-191-upsert-readme-open-work-section.md) |
+| T-192 | Upsert README changelog from board commits | S-061 | done | M | 3 | 0 | 1 | [T-192](epics/E-016-readme-project-status-and-changelog/stories/S-061-readme-changelog-and-automation/items/T-192-upsert-readme-changelog.md) |
+| T-193 | Wire README refresh into sync and complete | S-061 | done | M | 3 | 0 | 1 | [T-193](epics/E-016-readme-project-status-and-changelog/stories/S-061-readme-changelog-and-automation/items/T-193-wire-readme-refresh-into-sync.md) |
+| T-194 | Document README dashboard conventions | S-061 | done | S | 2 | 0 | 0 | [T-194](epics/E-016-readme-project-status-and-changelog/stories/S-061-readme-changelog-and-automation/items/T-194-document-readme-dashboard.md) |
+| T-195 | Filter housekeeping commits from README changelog | S-061 | done | M | 3 | 5 | 3 | [T-195](epics/E-016-readme-project-status-and-changelog/stories/S-061-readme-changelog-and-automation/items/T-195-filter-changelog-housekeeping-commits.md) |
+| T-196 | Create sibling Next.js app with matching Next and React versions | S-062 | done | M | 3 | 40 | 1 | [T-196](epics/E-017-taskmark-website-base/stories/S-062-scaffold-website-nextjs/items/T-196-create-sibling-nextjs-app-with-matching-next-and-react-versions.md) |
+| T-197 | Align TypeScript ESLint Tailwind and PostCSS with frontend | S-062 | done | S | 2 | 30 | 0 | [T-197](epics/E-017-taskmark-website-base/stories/S-062-scaffold-website-nextjs/items/T-197-align-typescript-eslint-tailwind-and-postcss-with-frontend.md) |
+| T-198 | Initialize git and link website repo in workspace REPOS | S-062 | done | S | 2 | 30 | 0 | [T-198](epics/E-017-taskmark-website-base/stories/S-062-scaffold-website-nextjs/items/T-198-initialize-git-and-link-website-repo-in-workspace-repos.md) |
+| T-199 | Port shared UI primitives and utility helpers from frontend | S-063 | done | M | 3 | 40 | 1 | [T-199](epics/E-017-taskmark-website-base/stories/S-063-share-ui-with-frontend/items/T-199-port-shared-ui-primitives-and-utility-helpers-from-frontend.md) |
+| T-200 | Align theme tokens globals and fonts with taskmark-frontend | S-063 | done | M | 3 | 40 | 1 | [T-200](epics/E-017-taskmark-website-base/stories/S-063-share-ui-with-frontend/items/T-200-align-theme-tokens-globals-and-fonts-with-taskmark-frontend.md) |
+| T-201 | Port shared interface chrome patterns for marketing layout | S-063 | done | S | 2 | 30 | 0 | [T-201](epics/E-017-taskmark-website-base/stories/S-063-share-ui-with-frontend/items/T-201-port-shared-interface-chrome-patterns-for-marketing-layout.md) |
+| T-202 | Wire App Router root layout with shared theme providers | S-064 | done | S | 2 | 30 | 0 | [T-202](epics/E-017-taskmark-website-base/stories/S-064-app-shell-smoke-homepage/items/T-202-wire-app-router-root-layout-with-shared-theme-providers.md) |
+| T-203 | Build placeholder homepage using shared UI components | S-064 | done | S | 2 | 30 | 0 | [T-203](epics/E-017-taskmark-website-base/stories/S-064-app-shell-smoke-homepage/items/T-203-build-placeholder-homepage-using-shared-ui-components.md) |
+| T-204 | Verify dev build and lint scripts succeed | S-064 | done | XS | 1 | 15 | 0 | [T-204](epics/E-017-taskmark-website-base/stories/S-064-app-shell-smoke-homepage/items/T-204-verify-dev-build-and-lint-scripts-succeed.md) |

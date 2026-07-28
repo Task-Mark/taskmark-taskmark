@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [readme, metrics, changelog, plugin]
 created: 2026-07-27
-updated: 2026-07-27T07:46:37Z
+updated: 2026-07-28T06:16:13.686Z
 started_at: 2026-07-27T07:32:04Z
 completed_at: 2026-07-27T07:45:28Z
 actual_ms: 325000
 ---
+
 # S-061: README changelog and automation
 
 ## User story

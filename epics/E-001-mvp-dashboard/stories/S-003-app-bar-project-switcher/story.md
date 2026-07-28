@@ -7,10 +7,10 @@ priority: high
 size: M
 size_source: rolled_up
 size_basis: [sum:tasks]
-points: 4
+points: 5
 points_source: rolled_up
-estimate_minutes: 60
-actual_minutes: 33
+estimate_minutes: 75
+actual_minutes: 513
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-001
@@ -28,11 +28,12 @@ blocked: false
 cancelled: false
 tags: [mvp, app-bar, navigation]
 created: 2026-07-21
-updated: 2026-07-27T07:45:28.202Z
+updated: 2026-07-28T06:16:13.686Z
 started_at: 2026-07-21T16:59:31Z
 completed_at: 2026-07-27T05:16:43Z
-actual_ms: 1997000
+actual_ms: 30797000
 ---
+
 # S-003: App bar project switcher
 
 ## User story
@@ -49,6 +50,8 @@ As a user, after I set up a master folder, I want an app bar that lets me switch
 - [x] User can still change the master folder from the app bar (setup).
 
 ## Tasks
+
+- [B-008: Brand logo sits flush against app bar bottom border](items/B-008-brand-logo-flush-header-border.md)
 
 - [T-009: Build post-setup app bar UI](items/T-009-app-bar-ui.md)
 - [T-010: Persist active project and filter epic list](items/T-010-active-project-cookie.md)

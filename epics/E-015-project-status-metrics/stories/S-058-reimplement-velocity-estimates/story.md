@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [plugin, velocity, estimation, future]
 created: 2026-07-27
-updated: 2026-07-27T07:45:28.202Z
+updated: 2026-07-28T06:16:13.686Z
 started_at: 2026-07-27T07:19:27Z
 completed_at: 2026-07-27T07:23:21Z
 actual_ms: 180000
 ---
+
 # S-058: Reimplement velocity and time estimates
 
 ## User story

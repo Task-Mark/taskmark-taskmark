@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, search, filters]
 created: 2026-07-23
-updated: 2026-07-27T07:45:28.202Z
+updated: 2026-07-28T06:16:13.686Z
 started_at: 2026-07-23T16:00:49Z
 completed_at: 2026-07-27T05:18:44Z
 actual_ms: 1004000
 ---
-
 # E-010: List search and filters
 
 ## Goal
