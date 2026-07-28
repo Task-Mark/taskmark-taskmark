@@ -7,12 +7,12 @@ This repo’s **root is the board** (`INDEX.md`, `epics/`, …). Product repos (
 <!-- taskmark:project-status:begin -->
 ## Project status
 
-_Last synced: 2026-07-28T06:19:04.115Z_
+_Last synced: 2026-07-28T06:21:19.597Z_
 
 | Metric | Value |
 |--------|-------|
 | Total work items | 277 |
-| Complete work items | 263 |
+| Complete work items | 264 |
 | Current speed | 337 (pts/week · 1 active weeks (90d)) |
 
 <!-- taskmark:project-status:end -->
@@ -20,13 +20,12 @@ _Last synced: 2026-07-28T06:19:04.115Z_
 <!-- taskmark:open-work:begin -->
 ## Open work items
 
-_Last synced: 2026-07-28T06:19:04.115Z_
+_Last synced: 2026-07-28T06:21:19.597Z_
 
 Stories, tasks, and bugs that are not done, cancelled, or blocked.
 
 | ID | Type | Title | Status | Size | Points | Parent |
 |----|------|-------|--------|------|--------|--------|
-| B-008 | bug | Brand logo sits flush against app bar bottom border | in_progress | XS | 1 | S-003 |
 | S-050 | story | Zero-config board binding from env and cwd | backlog | L | 9 | E-014 |
 | S-051 | story | Publishable npm CLI for local board UI | backlog | XL | 13 | E-014 |
 | S-052 | story | Board init one-command UI launch | backlog | M | 5 | E-014 |
@@ -46,7 +45,7 @@ Stories, tasks, and bugs that are not done, cancelled, or blocked.
 <!-- taskmark:changelog:begin -->
 ## Changelog
 
-_Last synced: 2026-07-28T06:19:04.115Z_
+_Last synced: 2026-07-28T06:21:19.597Z_
 
 Recent meaningful commits on this board repository (excludes sync / housekeeping).
 

@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [identity, git, conventions, plugin]
 created: 2026-07-23
-updated: 2026-07-28T06:16:13.686Z
+updated: 2026-07-28T06:20:01.202Z
 started_at: 2026-07-23T17:28:57Z
 completed_at: 2026-07-23T17:36:57Z
 actual_ms: 0
 ---
-
 # S-039: Git identity data model
 
 ## User story

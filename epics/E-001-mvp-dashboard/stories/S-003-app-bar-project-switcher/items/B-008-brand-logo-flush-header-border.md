@@ -2,7 +2,7 @@
 id: B-008
 type: bug
 title: Brand logo sits flush against app bar bottom border
-status: in_progress
+status: done
 priority: medium
 size: XS
 size_source: suggested
@@ -21,17 +21,19 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [frontend, app-bar, ui]
 created: 2026-07-27
-updated: 2026-07-28T06:18:39Z
+updated: 2026-07-28T06:20:01.202Z
 started_at: 2026-07-27T08:59:14Z
-completed_at: null
+completed_at: 2026-07-28T06:19:44Z
 actual_ms: 28800000
 ---
-
 # B-008: Brand logo sits flush against app bar bottom border
 
 ## Description
@@ -56,6 +58,7 @@ The `tm_light` / `tm_dark` brand mark in the sticky app bar sits visually agains
 | # | When (UTC) | Kind | Author | Summary |
 |---|------------|------|--------|---------|
 | 1 | 2026-07-27T08:59:14Z | prompt | Marco Mendão | Imagem da equipa no cabeçalho colada à linha em baixo — resolver espaçamento |
+| 2 | 2026-07-28T06:19:44Z | feedback | Marco Mendão | Close B-008 — logo spacing fix accepted |
 
 ## Commits
 
@@ -67,4 +70,4 @@ The `tm_light` / `tm_dark` brand mark in the sticky app bar sits visually agains
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | Marco Mendão | 2026-07-27T08:59:14Z | — | In progress: spacing for brand logo vs header border |
+| 1 | Marco Mendão | 2026-07-27T08:59:14Z | 2026-07-28T06:19:44Z | Increased app-bar bottom padding and logo margin so mark clears header border |

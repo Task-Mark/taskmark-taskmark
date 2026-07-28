@@ -26,12 +26,11 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm, local]
 created: 2026-07-24
-updated: 2026-07-28T06:16:13.686Z
+updated: 2026-07-28T06:20:01.202Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
-
 # E-014: Zero-config local board UI package
 
 ## Goal

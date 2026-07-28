@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-28T06:16:13.793Z
+Last synced: 2026-07-28T06:20:01.288Z
 
 ## Epics
 
@@ -110,7 +110,7 @@ Last synced: 2026-07-28T06:16:13.793Z
 | B-005 | Tasks and bugs cannot live under an epic without a story | S-029 | done | S | 2 | 35 | 36 | [B-005](epics/E-007-optional-hierarchy-general-epic/stories/S-029-standalone-stories-and-tasks/items/B-005-epic-direct-tasks-without-story.md) |
 | B-006 | Hide completed hides done epics that still have open epic-direct work | S-038 | done | S | 2 | 30 | 0 | [B-006](epics/E-010-list-search-and-filters/stories/S-038-hide-completed-filter/items/B-006-hide-completed-done-epic-open-direct.md) |
 | B-007 | Sheet parent and breadcrumb resolve same id from another project | E-005 | done | S | 2 | 30 | 1 | [B-007](epics/E-005-view-work-item/items/B-007-sheet-resolve-cross-project-id.md) |
-| B-008 | Brand logo sits flush against app bar bottom border | S-003 | in_progress | XS | 1 | 15 | 480 | [B-008](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/items/B-008-brand-logo-flush-header-border.md) |
+| B-008 | Brand logo sits flush against app bar bottom border | S-003 | done | XS | 1 | 15 | 480 | [B-008](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/items/B-008-brand-logo-flush-header-border.md) |
 | T-001 | Build setup wizard UI shell | S-001 | done | M | 3 | 5 | 3 | [T-001](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-001-setup-wizard-ui.md) |
 | T-002 | Implement project folder selection | S-001 | done | XS | 1 | 15 | 14 | [T-002](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-002-folder-selection.md) |
 | T-003 | Validate taskmark board in selected folder | S-001 | done | S | 2 | 30 | 2 | [T-003](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/items/T-003-validate-taskmark-board.md) |
