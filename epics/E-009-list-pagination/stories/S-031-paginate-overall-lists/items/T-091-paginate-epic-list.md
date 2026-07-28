@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, pagination, epics]
 created: 2026-07-23
-updated: 2026-07-28T07:41:00.094Z
+updated: 2026-07-28T08:37:10.649Z
 started_at: 2026-07-23T15:35:42Z
 completed_at: 2026-07-23T15:41:41Z
 actual_ms: 47000

@@ -2,7 +2,7 @@
 id: S-073
 type: story
 title: Setup and installation guide
-status: backlog
+status: done
 priority: medium
 size: M
 size_source: rolled_up
@@ -21,16 +21,20 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [docs, website, documentation]
 created: 2026-07-28
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T07:43:14Z
+completed_at: 2026-07-28T07:51:14Z
+actual_ms: 52364
 ---
+
 # S-073: Setup and installation guide
 
 ## User story
@@ -39,9 +43,9 @@ As a new user, I want setup docs so I can install the plugin and create my first
 
 ## Acceptance criteria
 
-- [ ] Install steps for the Cursor plugin are documented
-- [ ] Board initialization (taskmark-init) is documented
-- [ ] Multi-repo first-run sync is covered or linked
+- [x] Install steps for the Cursor plugin are documented
+- [x] Board initialization (taskmark-init) is documented
+- [x] Multi-repo first-run sync is covered or linked
 
 ## Tasks
 
@@ -63,3 +67,4 @@ As a new user, I want setup docs so I can install the plugin and create my first
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T07:43:14Z | 2026-07-28T07:43:14Z | shared-batch rollup: children hold billable minutes |

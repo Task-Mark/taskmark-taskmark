@@ -2,7 +2,7 @@
 id: T-233
 type: task
 title: Current Speed and ETA documentation
-status: backlog
+status: done
 priority: medium
 size: M
 size_source: suggested
@@ -21,16 +21,20 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [docs, website, documentation]
 created: 2026-07-28
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T07:43:14Z
+completed_at: 2026-07-28T07:51:14Z
+actual_ms: 26182
 ---
+
 # T-233: Current Speed and ETA documentation
 
 ## Description
@@ -39,8 +43,8 @@ Document Current Speed calculation exclusions and calendar ETA.
 
 ## Acceptance criteria
 
-- [ ] Excludes current ISO week and zero-point weeks
-- [ ] ETA formula described
+- [x] Excludes current ISO week and zero-point weeks
+- [x] ETA formula described
 
 ## Notes
 
@@ -61,3 +65,4 @@ Slash command names on the site should prefer `/new-*` where that is the Cursor 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T07:43:14.000Z | 2026-07-28T07:43:40.182Z | Current Speed and ETA docs; shared-batch: 26182 of 480000ms by points |

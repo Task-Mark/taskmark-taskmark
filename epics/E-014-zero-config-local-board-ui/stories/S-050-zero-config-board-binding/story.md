@@ -2,15 +2,15 @@
 id: S-050
 type: story
 title: Zero-config board binding from env and cwd
-status: backlog
+status: done
 priority: high
 size: L
 size_source: rolled_up
 size_basis: [sum:tasks]
 points: 9
 points_source: rolled_up
-estimate_minutes: 130
-actual_minutes: 0
+estimate_minutes: 95
+actual_minutes: 12
 estimate_source: suggested
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -21,15 +21,18 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [frontend, local, config]
 created: 2026-07-24
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T08:09:03Z
+completed_at: 2026-07-28T08:21:03Z
+actual_ms: 720000
 ---
 
 # S-050: Zero-config board binding from env and cwd
@@ -40,10 +43,10 @@ As a developer running the Taskmark UI against a known local board, I want the a
 
 ## Acceptance criteria
 
-- [ ] `TASKMARK_BOARD` and/or `TASKMARK_MASTER` resolve a valid workspace without cookies.
-- [ ] When cwd is a board root or a product root containing `./taskmark/`, discovery binds that board.
-- [ ] With valid auto-config, `/` and `/board` never redirect to `/setup`.
-- [ ] Existing cookie-based multi-master setup remains available when auto-config is absent.
+- [x] `TASKMARK_BOARD` and/or `TASKMARK_MASTER` resolve a valid workspace without cookies.
+- [x] When cwd is a board root or a product root containing `./taskmark/`, discovery binds that board.
+- [x] With valid auto-config, `/` and `/board` never redirect to `/setup`.
+- [x] Existing cookie-based multi-master setup remains available when auto-config is absent.
 
 ## Tasks
 
@@ -57,6 +60,7 @@ As a developer running the Taskmark UI against a known local board, I want the a
 | # | When (UTC) | Kind | Author | Summary |
 |---|------------|------|--------|---------|
 | 1 | 2026-07-24T17:26:00Z | prompt | Marco Mendão | Create epic + stories/tasks for zero-config npm/CLI board UI (no Docker) |
+| 2 | 2026-07-28T08:09:03Z | prompt | Marco Mendão | Implement zero-config: npm run dev in taskmark-frontend keeps setup; when a local taskmark folder exists for the project, show only that project's board |
 
 ## Commits
 
@@ -67,3 +71,4 @@ As a developer running the Taskmark UI against a known local board, I want the a
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T08:09:03Z | 2026-07-28T08:09:03Z | shared-batch rollup: children hold billable minutes |

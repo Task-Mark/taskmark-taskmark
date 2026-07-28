@@ -2,7 +2,7 @@
 id: T-157
 type: task
 title: Document one-command UI launch on board init
-status: backlog
+status: done
 priority: medium
 size: M
 size_source: suggested
@@ -21,15 +21,18 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [plugin, init, docs]
 created: 2026-07-24
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T08:31:48Z
+completed_at: 2026-07-28T08:36:30Z
+actual_ms: 47000
 ---
 
 # T-157: Document one-command UI launch on board init
@@ -40,9 +43,9 @@ Update Taskmark init / board README (and related plugin docs) so a newly created
 
 ## Acceptance criteria
 
-- [ ] New boards (or init output) include `npx taskmark serve` and port **8275**.
-- [ ] Nested and flat board layouts are both covered.
-- [ ] Wording does not require cloning `taskmark-frontend`.
+- [x] New boards (or init output) include `npx taskmark serve` and port **8275**.
+- [x] Nested and flat board layouts are both covered.
+- [x] Wording does not require cloning `taskmark-frontend`.
 
 ## Notes
 
@@ -52,6 +55,7 @@ Update Taskmark init / board README (and related plugin docs) so a newly created
 |---|------------|------|--------|---------|
 | 1 | 2026-07-24T17:26:00Z | prompt | Marco Mendão | Create epic + stories/tasks for zero-config npm/CLI board UI (no Docker) |
 | 2 | 2026-07-25T10:21:15Z | prompt | Marco Mendão | CLI must be `npx taskmark serve`; default port 8275 |
+| 3 | 2026-07-28T08:31:48Z | prompt | Marco Mendão | Implement E-014 remaining stories: publishable npm CLI (taskmark serve, port 8275) and board-init one-command UI launch docs/stub |
 
 ## Commits
 
@@ -62,3 +66,4 @@ Update Taskmark init / board README (and related plugin docs) so a newly created
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T08:31:48Z | 2026-07-28T08:32:35.000Z | taskmark-init + sample README document npx taskmark serve; shared-batch: 47000 of 282000ms by points |

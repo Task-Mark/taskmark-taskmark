@@ -2,15 +2,15 @@
 id: E-014
 type: epic
 title: Zero-config local board UI package
-status: backlog
+status: done
 priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
 points: 27
 points_source: rolled_up
-estimate_minutes: 380
-actual_minutes: 0
+estimate_minutes: 345
+actual_minutes: 16
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -21,15 +21,18 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm, local]
 created: 2026-07-24
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T08:09:03Z
+completed_at: 2026-07-28T08:36:30Z
+actual_ms: 1002000
 ---
 
 # E-014: Zero-config local board UI package
@@ -71,3 +74,4 @@ Ship Taskmark’s web UI so a developer can open a local board with `npx taskmar
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T08:31:48Z | 2026-07-28T08:31:48Z | Rollup: E-014 complete; billable on leaves (shared-batch); 0-min parent |

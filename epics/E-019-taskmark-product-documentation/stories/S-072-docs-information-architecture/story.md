@@ -2,7 +2,7 @@
 id: S-072
 type: story
 title: Docs information architecture and navigation
-status: backlog
+status: done
 priority: medium
 size: L
 size_source: rolled_up
@@ -10,7 +10,7 @@ size_basis: [sum:tasks]
 points: 7
 points_source: rolled_up
 estimate_minutes: 100
-actual_minutes: 0
+actual_minutes: 1
 estimate_source: rolled_up
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -21,16 +21,20 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [docs, website, documentation]
 created: 2026-07-28
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T07:43:14Z
+completed_at: 2026-07-28T07:51:14Z
+actual_ms: 61090
 ---
+
 # S-072: Docs information architecture and navigation
 
 ## User story
@@ -39,9 +43,9 @@ As a visitor, I want a clear docs home and navigation so I can find Taskmark top
 
 ## Acceptance criteria
 
-- [ ] Docs IA lists all planned topics and routes
-- [ ] Site nav / docs shell links to major sections
-- [ ] Documentation overview page explains what Taskmark is and how docs are organized
+- [x] Docs IA lists all planned topics and routes
+- [x] Site nav / docs shell links to major sections
+- [x] Documentation overview page explains what Taskmark is and how docs are organized
 
 ## Tasks
 
@@ -64,3 +68,4 @@ As a visitor, I want a clear docs home and navigation so I can find Taskmark top
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T07:43:14Z | 2026-07-28T07:43:14Z | shared-batch rollup: children hold billable minutes |

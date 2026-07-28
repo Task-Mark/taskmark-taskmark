@@ -2,7 +2,7 @@
 id: T-219
 type: task
 title: Document docs IA and topic outline
-status: backlog
+status: done
 priority: medium
 size: S
 size_source: suggested
@@ -21,16 +21,20 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [docs, website, documentation]
 created: 2026-07-28
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T07:43:14Z
+completed_at: 2026-07-28T07:51:14Z
+actual_ms: 17454
 ---
+
 # T-219: Document docs IA and topic outline
 
 ## Description
@@ -39,12 +43,17 @@ Write the documentation information architecture: sections, routes, and cross-li
 
 ## Acceptance criteria
 
-- [ ] IA covers setup, commands, structure, sizing, velocity, README, and workflows
-- [ ] Outline is recorded in Notes or a docs source file
+- [x] IA covers setup, commands, structure, sizing, velocity, README, and workflows
+- [x] Outline is recorded in Notes or a docs source file
 
 ## Notes
 
-Slash command names on the site should prefer `/new-*` where that is the Cursor command; mention `create-*` skill names alongside when helpful.
+Canonical IA: `taskmark-website/lib/docs-nav.ts` (`DOCS_NAV`).
+
+Routes: /docs, /docs/setup, /docs/commands, /docs/structure, /docs/specification, /docs/sizing, /docs/velocity, /docs/readme, /docs/workflows.
+
+Slash command names on the site prefer `/new-*`; mention `create-*` skill names alongside when helpful.
+
 
 ## Prompt & feedback log
 
@@ -61,3 +70,4 @@ Slash command names on the site should prefer `/new-*` where that is the Cursor 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T07:43:14.000Z | 2026-07-28T07:43:31.454Z | Documented docs IA in lib/docs-nav.ts; shared-batch: 17454 of 480000ms by points |

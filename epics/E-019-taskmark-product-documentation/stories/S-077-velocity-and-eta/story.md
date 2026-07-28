@@ -2,7 +2,7 @@
 id: S-077
 type: story
 title: Velocity and ETA
-status: backlog
+status: done
 priority: medium
 size: M
 size_source: rolled_up
@@ -21,16 +21,20 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [docs, website, documentation]
 created: 2026-07-28
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T07:43:14Z
+completed_at: 2026-07-28T07:51:14Z
+actual_ms: 43636
 ---
+
 # S-077: Velocity and ETA
 
 ## User story
@@ -39,9 +43,9 @@ As a planner, I want velocity docs so I understand Current Speed, ETA, and how e
 
 ## Acceptance criteria
 
-- [ ] Current Speed definition (90-day weekly average rules) is documented
-- [ ] ETA from speed and from median min/point is explained
-- [ ] VELOCITY.md and /velocity usage are covered
+- [x] Current Speed definition (90-day weekly average rules) is documented
+- [x] ETA from speed and from median min/point is explained
+- [x] VELOCITY.md and /velocity usage are covered
 
 ## Tasks
 
@@ -63,3 +67,4 @@ As a planner, I want velocity docs so I understand Current Speed, ETA, and how e
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T07:43:14Z | 2026-07-28T07:43:14Z | shared-batch rollup: children hold billable minutes |

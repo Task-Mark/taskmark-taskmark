@@ -2,17 +2,17 @@
 id: T-151
 type: task
 title: Skip setup wizard when auto-config is valid
-status: backlog
+status: done
 priority: high
 size: M
 size_source: suggested
 size_basis: [T-004, T-010]
 points: 3
 points_source: suggested
-estimate_minutes: 40
-actual_minutes: 0
+estimate_minutes: 5
+actual_minutes: 4
 estimate_source: suggested
-estimate_basis: [velocity:30d:14min/pt]
+estimate_basis: [calibrated:T-151]
 session_cap_minutes: 480
 parent: S-050
 epic: E-014
@@ -21,17 +21,19 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [frontend, local, config]
 created: 2026-07-24
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T08:09:03Z
+completed_at: 2026-07-28T08:21:03Z
+actual_ms: 240000
 ---
-
 # T-151: Skip setup wizard when auto-config is valid
 
 ## Description
@@ -40,9 +42,9 @@ Update `/`, `/setup`, and `/board` entry routing so a valid auto-configured work
 
 ## Acceptance criteria
 
-- [ ] Valid auto-config → `/` redirects to `/board` (not `/setup`).
-- [ ] `/board` loads using the auto-configured project list.
-- [ ] Without auto-config and without cookies, existing `/setup` flow still works.
+- [x] Valid auto-config → `/` redirects to `/board` (not `/setup`).
+- [x] `/board` loads using the auto-configured project list.
+- [x] Without auto-config and without cookies, existing `/setup` flow still works.
 
 ## Notes
 
@@ -51,6 +53,7 @@ Update `/`, `/setup`, and `/board` entry routing so a valid auto-configured work
 | # | When (UTC) | Kind | Author | Summary |
 |---|------------|------|--------|---------|
 | 1 | 2026-07-24T17:26:00Z | prompt | Marco Mendão | Create epic + stories/tasks for zero-config npm/CLI board UI (no Docker) |
+| 2 | 2026-07-28T08:09:03Z | prompt | Marco Mendão | Implement zero-config: npm run dev in taskmark-frontend keeps setup; when a local taskmark folder exists for the project, show only that project's board |
 
 ## Commits
 
@@ -61,3 +64,4 @@ Update `/`, `/setup`, and `/board` entry routing so a valid auto-configured work
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T08:09:03.000Z | 2026-07-28T08:13:03.000Z | Skip setup when autoconfig; / goes to /board; shared-batch: 240000 of 720000ms by points |

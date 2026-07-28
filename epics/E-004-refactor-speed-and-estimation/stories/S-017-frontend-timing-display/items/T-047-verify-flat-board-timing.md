@@ -28,7 +28,7 @@ blocked: false
 cancelled: false
 tags: [frontend, estimation, actual]
 created: 2026-07-21
-updated: 2026-07-28T07:41:00.094Z
+updated: 2026-07-28T08:37:10.649Z
 started_at: 2026-07-21T23:00:19Z
 completed_at: 2026-07-21T23:01:18Z
 actual_ms: 960000

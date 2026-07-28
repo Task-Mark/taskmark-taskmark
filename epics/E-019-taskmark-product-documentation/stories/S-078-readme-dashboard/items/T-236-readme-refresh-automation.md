@@ -2,7 +2,7 @@
 id: T-236
 type: task
 title: Document README refresh automation
-status: backlog
+status: done
 priority: medium
 size: S
 size_source: suggested
@@ -21,16 +21,20 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [docs, website, documentation]
 created: 2026-07-28
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T07:43:14Z
+completed_at: 2026-07-28T07:51:14Z
+actual_ms: 17455
 ---
+
 # T-236: Document README refresh automation
 
 ## Description
@@ -39,8 +43,8 @@ Document when refresh-readme-dashboard runs (sync-status, commit-all board step)
 
 ## Acceptance criteria
 
-- [ ] Triggers listed
-- [ ] Do not hand-edit managed sections guidance included
+- [x] Triggers listed
+- [x] Do not hand-edit managed sections guidance included
 
 ## Notes
 
@@ -61,3 +65,4 @@ Slash command names on the site should prefer `/new-*` where that is the Cursor 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T07:43:14.000Z | 2026-07-28T07:43:31.455Z | README refresh automation; shared-batch: 17455 of 480000ms by points |

@@ -2,7 +2,7 @@
 id: T-224
 type: task
 title: Commands index page
-status: backlog
+status: done
 priority: medium
 size: S
 size_source: suggested
@@ -21,16 +21,20 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [docs, website, documentation]
 created: 2026-07-28
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T07:43:14Z
+completed_at: 2026-07-28T07:51:14Z
+actual_ms: 17454
 ---
+
 # T-224: Commands index page
 
 ## Description
@@ -39,8 +43,8 @@ Add a commands index mapping slash commands to skills and one-line purposes.
 
 ## Acceptance criteria
 
-- [ ] Index includes create/new, start/complete work, commit-all, sync, velocity
-- [ ] Notes clarify /new-* slash names vs create-* skill names
+- [x] Index includes create/new, start/complete work, commit-all, sync, velocity
+- [x] Notes clarify /new-* slash names vs create-* skill names
 
 ## Notes
 
@@ -61,3 +65,4 @@ Slash command names on the site should prefer `/new-*` where that is the Cursor 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T07:43:14.000Z | 2026-07-28T07:43:31.454Z | Commands index table; shared-batch: 17454 of 480000ms by points |

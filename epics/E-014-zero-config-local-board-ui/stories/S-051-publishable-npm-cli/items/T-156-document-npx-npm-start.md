@@ -2,7 +2,7 @@
 id: T-156
 type: task
 title: Document npx and npm start usage
-status: backlog
+status: done
 priority: medium
 size: S
 size_source: suggested
@@ -21,15 +21,18 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [frontend, packaging, docs]
 created: 2026-07-24
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T08:31:48Z
+completed_at: 2026-07-28T08:36:30Z
+actual_ms: 31334
 ---
 # T-156: Document npx and npm start usage
 
@@ -39,10 +42,10 @@ Write package README (and/or frontend README section) with the primary happy pat
 
 ## Acceptance criteria
 
-- [ ] Docs lead with `npx taskmark serve` and `http://localhost:8275`.
-- [ ] Docs show the happy path from product root and from board root.
-- [ ] Env vars `TASKMARK_BOARD` / `TASKMARK_MASTER` (and port override) are documented.
-- [ ] Setup-wizard fallback (cookie mode) is mentioned for multi-master use.
+- [x] Docs lead with `npx taskmark serve` and `http://localhost:8275`.
+- [x] Docs show the happy path from product root and from board root.
+- [x] Env vars `TASKMARK_BOARD` / `TASKMARK_MASTER` (and port override) are documented.
+- [x] Setup-wizard fallback (cookie mode) is mentioned for multi-master use.
 
 ## Notes
 
@@ -52,6 +55,7 @@ Write package README (and/or frontend README section) with the primary happy pat
 |---|------------|------|--------|---------|
 | 1 | 2026-07-24T17:26:00Z | prompt | Marco Mendão | Create epic + stories/tasks for zero-config npm/CLI board UI (no Docker) |
 | 2 | 2026-07-25T10:21:15Z | prompt | Marco Mendão | CLI must be `npx taskmark serve`; default port 8275 |
+| 3 | 2026-07-28T08:31:48Z | prompt | Marco Mendão | Implement E-014 remaining stories: publishable npm CLI (taskmark serve, port 8275) and board-init one-command UI launch docs/stub |
 
 ## Commits
 
@@ -62,3 +66,4 @@ Write package README (and/or frontend README section) with the primary happy pat
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T08:31:48Z | 2026-07-28T08:32:19.334Z | Frontend README documents npx taskmark serve @ 8275; shared-batch: 31334 of 282000ms by points |

@@ -2,15 +2,15 @@
 id: E-019
 type: epic
 title: Taskmark product documentation
-status: backlog
+status: done
 priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 55
+points: 58
 points_source: rolled_up
-estimate_minutes: 760
-actual_minutes: 0
+estimate_minutes: 765
+actual_minutes: 13
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -21,16 +21,20 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [docs, website, documentation]
 created: 2026-07-28
-updated: 2026-07-28T07:42:31.404Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T07:43:14Z
+completed_at: 2026-07-28T08:05:14Z
+actual_ms: 780000
 ---
+
 # E-019: Taskmark product documentation
 
 ## Goal
@@ -87,3 +91,4 @@ Ship comprehensive Taskmark product documentation on `taskmark-website` covering
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T07:43:14Z | 2026-07-28T07:43:14Z | shared-batch rollup: leaves hold billable minutes for docs delivery |

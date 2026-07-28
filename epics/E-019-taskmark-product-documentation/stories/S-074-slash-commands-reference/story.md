@@ -2,7 +2,7 @@
 id: S-074
 type: story
 title: Slash commands reference
-status: backlog
+status: done
 priority: medium
 size: XL
 size_source: rolled_up
@@ -10,7 +10,7 @@ size_basis: [sum:tasks]
 points: 13
 points_source: rolled_up
 estimate_minutes: 180
-actual_minutes: 0
+actual_minutes: 1
 estimate_source: rolled_up
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -21,16 +21,20 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [docs, website, documentation]
 created: 2026-07-28
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T07:43:14Z
+completed_at: 2026-07-28T07:51:14Z
+actual_ms: 113454
 ---
+
 # S-074: Slash commands reference
 
 ## User story
@@ -39,9 +43,9 @@ As a user, I want a commands reference so I know when to use each Taskmark slash
 
 ## Acceptance criteria
 
-- [ ] Commands index lists primary slash commands with short purpose
-- [ ] Create flow commands (/new-epic, /new-story, /new-task) are documented (skills create-*)
-- [ ] /start-work, /complete-work, /commit-all, and other core commands are documented
+- [x] Commands index lists primary slash commands with short purpose
+- [x] Create flow commands (/new-epic, /new-story, /new-task) are documented (skills create-*)
+- [x] /start-work, /complete-work, /commit-all, and other core commands are documented
 
 ## Tasks
 
@@ -66,3 +70,4 @@ As a user, I want a commands reference so I know when to use each Taskmark slash
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T07:43:14Z | 2026-07-28T07:43:14Z | shared-batch rollup: children hold billable minutes |

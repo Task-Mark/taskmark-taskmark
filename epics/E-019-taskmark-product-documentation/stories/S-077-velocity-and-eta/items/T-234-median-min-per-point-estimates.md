@@ -2,7 +2,7 @@
 id: T-234
 type: task
 title: Median minutes-per-point estimate docs
-status: backlog
+status: done
 priority: medium
 size: S
 size_source: suggested
@@ -21,16 +21,20 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [docs, website, documentation]
 created: 2026-07-28
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T07:43:14Z
+completed_at: 2026-07-28T07:51:14Z
+actual_ms: 17454
 ---
+
 # T-234: Median minutes-per-point estimate docs
 
 ## Description
@@ -39,8 +43,8 @@ Document median min/pt samples, calibrate flag, and trustworthy sample rules.
 
 ## Acceptance criteria
 
-- [ ] Trustworthy sample rule (actual > 2, points > 0) documented
-- [ ] Link to SIZING.md / VELOCITY.md
+- [x] Trustworthy sample rule (actual > 2, points > 0) documented
+- [x] Link to SIZING.md / VELOCITY.md
 
 ## Notes
 
@@ -61,3 +65,4 @@ Slash command names on the site should prefer `/new-*` where that is the Cursor 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T07:43:14.000Z | 2026-07-28T07:43:31.454Z | Median min/pt estimate docs; shared-batch: 17454 of 480000ms by points |

@@ -2,7 +2,7 @@
 id: T-221
 type: task
 title: Documentation home and overview page
-status: backlog
+status: done
 priority: medium
 size: S
 size_source: suggested
@@ -21,16 +21,20 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [docs, website, documentation]
 created: 2026-07-28
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T07:43:14Z
+completed_at: 2026-07-28T07:51:14Z
+actual_ms: 17454
 ---
+
 # T-221: Documentation home and overview page
 
 ## Description
@@ -39,8 +43,8 @@ Create the documentation landing/overview page summarizing Taskmark and linking 
 
 ## Acceptance criteria
 
-- [ ] Overview page is reachable from site Docs CTA
-- [ ] Page links to setup and commands at minimum
+- [x] Overview page is reachable from site Docs CTA
+- [x] Page links to setup and commands at minimum
 
 ## Notes
 
@@ -61,3 +65,4 @@ Slash command names on the site should prefer `/new-*` where that is the Cursor 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T07:43:14.000Z | 2026-07-28T07:43:31.454Z | Documentation overview page; shared-batch: 17454 of 480000ms by points |

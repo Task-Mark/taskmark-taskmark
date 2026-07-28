@@ -2,15 +2,15 @@
 id: S-075
 type: story
 title: Board folder structure
-status: backlog
+status: done
 priority: medium
-size: M
+size: L
 size_source: rolled_up
 size_basis: [sum:tasks]
-points: 6
+points: 9
 points_source: rolled_up
-estimate_minutes: 80
-actual_minutes: 0
+estimate_minutes: 85
+actual_minutes: 5
 estimate_source: rolled_up
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -21,16 +21,20 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [docs, website, documentation]
 created: 2026-07-28
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T07:43:14Z
+completed_at: 2026-07-28T08:05:14Z
+actual_ms: 352364
 ---
+
 # S-075: Board folder structure
 
 ## User story
@@ -39,14 +43,15 @@ As a user, I want folder-structure docs so I know where board files live in sing
 
 ## Acceptance criteria
 
-- [ ] Single-repo `taskmark/` layout is documented
-- [ ] Multi-repo sibling `*-taskmark` flat board root is documented
-- [ ] Epic/story/task file conventions and IDs are explained
+- [x] Single-repo `taskmark/` layout is documented
+- [x] Multi-repo sibling `*-taskmark` flat board root is documented
+- [x] Epic/story/task file conventions and IDs are explained
 
 ## Tasks
 
 - [T-229: Single-repo and multi-repo board layout](items/T-229-single-and-multi-repo-layout.md)
 - [T-230: Epic story task file conventions](items/T-230-epic-story-task-file-conventions.md)
+- [T-240: Document epic story task bug file specification](items/T-240-item-file-specification-docs.md)
 
 ## Prompt & feedback log
 
@@ -63,3 +68,4 @@ As a user, I want folder-structure docs so I know where board files live in sing
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T07:43:14Z | 2026-07-28T07:43:14Z | shared-batch rollup: children hold billable minutes |

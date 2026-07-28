@@ -2,7 +2,7 @@
 id: T-223
 type: task
 title: Board init and first-run guide
-status: backlog
+status: done
 priority: medium
 size: M
 size_source: suggested
@@ -21,16 +21,20 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [docs, website, documentation]
 created: 2026-07-28
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T07:43:14Z
+completed_at: 2026-07-28T07:51:14Z
+actual_ms: 26182
 ---
+
 # T-223: Board init and first-run guide
 
 ## Description
@@ -39,8 +43,8 @@ Document taskmark-init, single vs multi-git board placement, and /sync-repos fir
 
 ## Acceptance criteria
 
-- [ ] Init steps for single-repo and multi-repo are clear
-- [ ] REPOS.md purpose is briefly explained
+- [x] Init steps for single-repo and multi-repo are clear
+- [x] REPOS.md purpose is briefly explained
 
 ## Notes
 
@@ -61,3 +65,4 @@ Slash command names on the site should prefer `/new-*` where that is the Cursor 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T07:43:14.000Z | 2026-07-28T07:43:40.182Z | Board init and first-run guide; shared-batch: 26182 of 480000ms by points |

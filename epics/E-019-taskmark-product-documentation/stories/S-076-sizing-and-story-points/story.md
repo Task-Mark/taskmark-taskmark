@@ -2,7 +2,7 @@
 id: S-076
 type: story
 title: Sizing and story points
-status: backlog
+status: done
 priority: medium
 size: M
 size_source: rolled_up
@@ -21,16 +21,20 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [docs, website, documentation]
 created: 2026-07-28
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T07:43:14Z
+completed_at: 2026-07-28T07:51:14Z
+actual_ms: 43636
 ---
+
 # S-076: Sizing and story points
 
 ## User story
@@ -39,9 +43,9 @@ As a planner, I want sizing docs so I understand t-shirt sizes, points, and roll
 
 ## Acceptance criteria
 
-- [ ] T-shirt → default points map is documented
-- [ ] Story/epic point rollups are explained
-- [ ] Suggested vs manual size/points/estimate sources are clarified
+- [x] T-shirt → default points map is documented
+- [x] Story/epic point rollups are explained
+- [x] Suggested vs manual size/points/estimate sources are clarified
 
 ## Tasks
 
@@ -63,3 +67,4 @@ As a planner, I want sizing docs so I understand t-shirt sizes, points, and roll
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T07:43:14Z | 2026-07-28T07:43:14Z | shared-batch rollup: children hold billable minutes |

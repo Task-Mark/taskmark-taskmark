@@ -2,7 +2,7 @@
 id: S-079
 type: story
 title: Core workflows and related topics
-status: backlog
+status: done
 priority: medium
 size: L
 size_source: rolled_up
@@ -10,7 +10,7 @@ size_basis: [sum:tasks]
 points: 8
 points_source: rolled_up
 estimate_minutes: 110
-actual_minutes: 0
+actual_minutes: 1
 estimate_source: rolled_up
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -21,16 +21,20 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [docs, website, documentation]
 created: 2026-07-28
-updated: 2026-07-28T07:41:00.094Z
-started_at: null
-completed_at: null
-actual_ms: 0
+updated: 2026-07-28T08:37:10.649Z
+started_at: 2026-07-28T07:43:14Z
+completed_at: 2026-07-28T07:51:14Z
+actual_ms: 69819
 ---
+
 # S-079: Core workflows and related topics
 
 ## User story
@@ -39,9 +43,9 @@ As a user, I want docs for work logs, multi-repo day-to-day use, and audit trail
 
 ## Acceptance criteria
 
-- [ ] Work logs, idle caps, and Actual vs calendar span are documented
-- [ ] Multi-repo day-to-day workflow is covered
-- [ ] Prompt/feedback and Commits logs purpose is explained
+- [x] Work logs, idle caps, and Actual vs calendar span are documented
+- [x] Multi-repo day-to-day workflow is covered
+- [x] Prompt/feedback and Commits logs purpose is explained
 
 ## Tasks
 
@@ -64,3 +68,4 @@ As a user, I want docs for work logs, multi-repo day-to-day use, and audit trail
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T07:43:14Z | 2026-07-28T07:43:14Z | shared-batch rollup: children hold billable minutes |
