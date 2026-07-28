@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [frontend, local, config]
 created: 2026-07-24
-updated: 2026-07-28T08:37:10.649Z
+updated: 2026-07-28T08:51:30Z
 started_at: 2026-07-28T08:09:03Z
 completed_at: 2026-07-28T08:21:03Z
 actual_ms: 720000
@@ -66,6 +66,8 @@ As a developer running the Taskmark UI against a known local board, I want the a
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| f9b7f3f | taskmark-frontend | 2026-07-28T09:50:48Z | Marco Mendão | add taskmark serve cli and zero-config board bind |
+| 935c164 | taskmark-taskmark | 2026-07-28T09:50:56Z | Marco Mendão | sync taskmark board |
 
 ## Work log
 
