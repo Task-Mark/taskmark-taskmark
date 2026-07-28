@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [ui, frontend, views, tasks]
 created: 2026-07-22
-updated: 2026-07-28T14:32:06.722Z
+updated: 2026-07-28T15:03:07.151Z
 started_at: 2026-07-23T06:38:57Z
 completed_at: 2026-07-23T06:39:17Z
 actual_ms: 20000
 ---
+
 # T-074: Build Tasks view table with epic and story tags
 
 ## Description

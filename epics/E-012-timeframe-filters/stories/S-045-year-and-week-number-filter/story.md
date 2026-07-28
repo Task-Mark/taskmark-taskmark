@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [filters, timeframe, weeks, frontend]
 created: 2026-07-23
-updated: 2026-07-28T14:32:06.722Z
+updated: 2026-07-28T15:03:07.151Z
 started_at: 2026-07-24T16:02:37Z
 completed_at: 2026-07-24T16:06:21Z
 actual_ms: 85333
 ---
-
 # S-045: Year and week number filter
 
 ## User story

@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, pagination, overall]
 created: 2026-07-23
-updated: 2026-07-28T14:32:06.722Z
+updated: 2026-07-28T15:03:07.151Z
 started_at: 2026-07-23T15:35:42Z
 completed_at: 2026-07-23T15:41:41Z
 actual_ms: 141000
 ---
-
 # S-031: Paginate Overall drill-down lists
 
 ## User story

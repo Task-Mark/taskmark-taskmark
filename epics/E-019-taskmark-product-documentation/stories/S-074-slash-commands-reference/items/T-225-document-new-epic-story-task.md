@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [docs, website, documentation]
 created: 2026-07-28
-updated: 2026-07-28T14:32:06.722Z
+updated: 2026-07-28T15:03:07.151Z
 started_at: 2026-07-28T07:43:14Z
 completed_at: 2026-07-28T07:51:14Z
 actual_ms: 26182
 ---
+
 # T-225: Document /new-epic, /new-story, and /new-task
 
 ## Description

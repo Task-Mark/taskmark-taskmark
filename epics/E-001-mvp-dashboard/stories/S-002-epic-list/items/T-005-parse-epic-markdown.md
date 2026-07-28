@@ -28,12 +28,11 @@ blocked: false
 cancelled: false
 tags: [mvp, parser, epics]
 created: 2026-07-21
-updated: 2026-07-28T14:32:06.722Z
+updated: 2026-07-28T15:03:07.151Z
 started_at: 2026-07-21T16:49:52Z
 completed_at: 2026-07-21T16:51:19Z
 actual_ms: 2880000
 ---
-
 # T-005: Parse epic markdown from local taskmark folder
 
 ## Description

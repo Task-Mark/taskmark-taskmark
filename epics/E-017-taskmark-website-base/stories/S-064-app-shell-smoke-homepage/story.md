@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [website, app-router, smoke]
 created: 2026-07-27
-updated: 2026-07-28T14:32:06.722Z
+updated: 2026-07-28T15:03:07.151Z
 started_at: 2026-07-27T09:54:28Z
 completed_at: 2026-07-27T09:56:34Z
 actual_ms: 0
 ---
-
 # S-064: App shell providers and smoke homepage
 
 ## User story

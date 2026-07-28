@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, stories]
 created: 2026-07-22
-updated: 2026-07-28T14:32:06.722Z
+updated: 2026-07-28T15:03:07.151Z
 started_at: 2026-07-23T06:38:57Z
 completed_at: 2026-07-23T06:42:22Z
 actual_ms: 39000
 ---
+
 # S-027: Stories list view with epic tag
 
 ## User story

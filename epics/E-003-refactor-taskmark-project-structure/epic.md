@@ -28,13 +28,12 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, plugin, board-layout]
 created: 2026-07-21
-updated: 2026-07-28T14:32:06.722Z
+updated: 2026-07-28T15:03:07.151Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 actual_ms: 29760000
 estimate_source: rolled_up
 ---
-
 # E-003: Refactor Taskmark project structure
 
 ## Goal

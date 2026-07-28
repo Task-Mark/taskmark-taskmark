@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, sheet, detail, routing]
 created: 2026-07-25
-updated: 2026-07-28T14:32:06.722Z
+updated: 2026-07-28T15:03:07.151Z
 started_at: 2026-07-25T10:23:49Z
 completed_at: 2026-07-25T10:24:34Z
 actual_ms: 45000
 ---
-
 # T-161: In-sheet back button for detail navigation
 
 ## Description

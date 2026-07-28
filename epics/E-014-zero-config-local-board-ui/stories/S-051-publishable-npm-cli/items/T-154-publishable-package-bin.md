@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm]
 created: 2026-07-24
-updated: 2026-07-28T14:32:06.722Z
+updated: 2026-07-28T15:03:07.151Z
 started_at: 2026-07-28T08:31:48Z
 completed_at: 2026-07-28T08:36:30Z
 actual_ms: 78333
 ---
+
 # T-154: Create publishable package with CLI bin
 
 ## Description

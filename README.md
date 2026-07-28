@@ -15,12 +15,12 @@ Opens http://localhost:8275 (package `@taskmark/ui` is installed in this folder;
 <!-- taskmark:project-status:begin -->
 ## Project status
 
-_Last synced: 2026-07-28T14:35:04.394Z_
+_Last synced: 2026-07-28T15:14:44.894Z_
 
 | Metric | Value |
 |--------|-------|
-| Total work items | 329 |
-| Complete work items | 329 |
+| Total work items | 347 |
+| Complete work items | 346 |
 | Current speed | 337 (pts/week · 1 active weeks (90d)) |
 
 <!-- taskmark:project-status:end -->
@@ -28,18 +28,20 @@ _Last synced: 2026-07-28T14:35:04.394Z_
 <!-- taskmark:open-work:begin -->
 ## Open work items
 
-_Last synced: 2026-07-28T14:35:04.394Z_
+_Last synced: 2026-07-28T15:14:44.894Z_
 
 Stories, tasks, and bugs that are not done, cancelled, or blocked.
 
-_No open work items._
+| ID | Type | Title | Status | Size | Points | Parent |
+|----|------|-------|--------|------|--------|--------|
+| T-255 | task | Website favicon, metadata, and SEO parity | in_progress | M | 3 | E-020 |
 
 <!-- taskmark:open-work:end -->
 
 <!-- taskmark:changelog:begin -->
 ## Changelog
 
-_Last synced: 2026-07-28T14:35:04.394Z_
+_Last synced: 2026-07-28T15:14:44.894Z_
 
 Recent meaningful commits on this board repository (excludes sync / housekeeping).
 

@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-28T14:32:06.917Z
+Last synced: 2026-07-28T15:03:07.345Z
 
 ## Epics
 
@@ -25,6 +25,7 @@ Last synced: 2026-07-28T14:32:06.917Z
 | E-017 | Taskmark website base Next.js project | done | — | 20 | 285 | 3 | [epic.md](epics/E-017-taskmark-website-base/epic.md) |
 | E-018 | Taskmark website landing page | done | — | 38 | 530 | 5 | [epic.md](epics/E-018-taskmark-website-landing-page/epic.md) |
 | E-019 | Taskmark product documentation | done | — | 58 | 765 | 13 | [epic.md](epics/E-019-taskmark-product-documentation/epic.md) |
+| E-020 | Favicon, metadata, and SEO | in_progress | — | 36 | 500 | 3 | [epic.md](epics/E-020-favicon-metadata-and-seo/epic.md) |
 
 ## Stories
 
@@ -109,12 +110,17 @@ Last synced: 2026-07-28T14:32:06.917Z
 | S-077 | Velocity and ETA | E-019 | done | M | 5 | 70 | 0 | [story.md](epics/E-019-taskmark-product-documentation/stories/S-077-velocity-and-eta/story.md) |
 | S-078 | README dashboard | E-019 | done | M | 5 | 70 | 0 | [story.md](epics/E-019-taskmark-product-documentation/stories/S-078-readme-dashboard/story.md) |
 | S-079 | Core workflows and related topics | E-019 | done | L | 8 | 110 | 1 | [story.md](epics/E-019-taskmark-product-documentation/stories/S-079-core-workflows-and-related-topics/story.md) |
+| S-080 | Favicon pack for local board UI | E-020 | done | L | 7 | 100 | 0 | [story.md](epics/E-020-favicon-metadata-and-seo/stories/S-080-favicon-local-board-ui/story.md) |
+| S-081 | Favicon pack for marketing website | E-020 | done | M | 5 | 70 | 0 | [story.md](epics/E-020-favicon-metadata-and-seo/stories/S-081-favicon-marketing-website/story.md) |
+| S-082 | App metadata and SEO tags | E-020 | done | L | 8 | 110 | 0 | [story.md](epics/E-020-favicon-metadata-and-seo/stories/S-082-app-metadata-and-seo-tags/story.md) |
+| S-083 | Create Open Graph social images | E-020 | done | M | 7 | 100 | 0 | [story.md](epics/E-020-favicon-metadata-and-seo/stories/S-083-create-open-graph-images/story.md) |
+| S-084 | Wire Open Graph and Twitter cards | E-020 | done | M | 6 | 80 | 0 | [story.md](epics/E-020-favicon-metadata-and-seo/stories/S-084-wire-open-graph-twitter-cards/story.md) |
 
 ## Open work sessions
 
 | Item | Actor | Started (UTC) |
 |------|-------|---------------|
-| B-008 | Marco Mendão | 2026-07-27T08:59:14Z |
+| T-255 | Marco Mendão | 2026-07-28T15:02:18Z |
 
 ## Items
 
@@ -367,3 +373,18 @@ Last synced: 2026-07-28T14:32:06.917Z
 | T-238 | Multi-repo day-to-day workflow | S-079 | done | M | 3 | 40 | 0 | [T-238](epics/E-019-taskmark-product-documentation/stories/S-079-core-workflows-and-related-topics/items/T-238-multi-repo-day-to-day-workflow.md) |
 | T-239 | Prompt/feedback and commits logs | S-079 | done | S | 2 | 30 | 0 | [T-239](epics/E-019-taskmark-product-documentation/stories/S-079-core-workflows-and-related-topics/items/T-239-prompt-feedback-and-commits-logs.md) |
 | T-240 | Document epic story task bug file specification | S-075 | done | M | 3 | 5 | 5 | [T-240](epics/E-019-taskmark-product-documentation/stories/S-075-board-folder-structure/items/T-240-item-file-specification-docs.md) |
+| T-241 | Publish local UI as scoped package @taskmark/ui | S-051 | done | M | 3 | 5 | 3 | [T-241](epics/E-014-zero-config-local-board-ui/stories/S-051-publishable-npm-cli/items/T-241-publish-scoped-taskmark-ui.md) |
+| T-242 | Init always installs @taskmark/ui via npm | S-052 | done | M | 3 | 5 | 3 | [T-242](epics/E-014-zero-config-local-board-ui/stories/S-052-board-init-one-command-ui/items/T-242-init-installs-taskmark-ui.md) |
+| T-243 | Install favicon assets into frontend public | S-080 | done | S | 2 | 30 | 0 | [T-243](epics/E-020-favicon-metadata-and-seo/stories/S-080-favicon-local-board-ui/items/T-243-install-favicon-assets-frontend.md) |
+| T-244 | Wire favicon and webmanifest in frontend layout | S-080 | done | M | 3 | 40 | 0 | [T-244](epics/E-020-favicon-metadata-and-seo/stories/S-080-favicon-local-board-ui/items/T-244-wire-favicon-layout-frontend.md) |
+| T-245 | Verify favicon and apple touch on local UI | S-080 | done | S | 2 | 30 | 0 | [T-245](epics/E-020-favicon-metadata-and-seo/stories/S-080-favicon-local-board-ui/items/T-245-verify-favicon-frontend.md) |
+| T-246 | Install favicon assets into website public | S-081 | done | S | 2 | 30 | 0 | [T-246](epics/E-020-favicon-metadata-and-seo/stories/S-081-favicon-marketing-website/items/T-246-install-favicon-assets-website.md) |
+| T-247 | Wire favicon and webmanifest in website layout | S-081 | done | M | 3 | 40 | 0 | [T-247](epics/E-020-favicon-metadata-and-seo/stories/S-081-favicon-marketing-website/items/T-247-wire-favicon-layout-website.md) |
+| T-248 | Expand Next metadata for local board UI | S-082 | done | M | 3 | 40 | 0 | [T-248](epics/E-020-favicon-metadata-and-seo/stories/S-082-app-metadata-and-seo-tags/items/T-248-expand-metadata-frontend.md) |
+| T-249 | Expand Next metadata for marketing website | S-082 | done | M | 3 | 40 | 0 | [T-249](epics/E-020-favicon-metadata-and-seo/stories/S-082-app-metadata-and-seo-tags/items/T-249-expand-metadata-website.md) |
+| T-250 | Align webmanifest name and theme colors | S-082 | done | S | 2 | 30 | 0 | [T-250](epics/E-020-favicon-metadata-and-seo/stories/S-082-app-metadata-and-seo-tags/items/T-250-align-webmanifest-branding.md) |
+| T-251 | Design default Open Graph image | S-083 | done | L | 5 | 70 | 0 | [T-251](epics/E-020-favicon-metadata-and-seo/stories/S-083-create-open-graph-images/items/T-251-design-og-default-image.md) |
+| T-252 | Export OG image for apps and optional variant | S-083 | done | S | 2 | 30 | 0 | [T-252](epics/E-020-favicon-metadata-and-seo/stories/S-083-create-open-graph-images/items/T-252-export-og-variants.md) |
+| T-253 | Wire Open Graph and Twitter on website | S-084 | done | M | 3 | 40 | 0 | [T-253](epics/E-020-favicon-metadata-and-seo/stories/S-084-wire-open-graph-twitter-cards/items/T-253-wire-og-twitter-website.md) |
+| T-254 | Wire Open Graph and Twitter on local board UI | S-084 | done | M | 3 | 40 | 0 | [T-254](epics/E-020-favicon-metadata-and-seo/stories/S-084-wire-open-graph-twitter-cards/items/T-254-wire-og-twitter-frontend.md) |
+| T-255 | Website favicon, metadata, and SEO parity | E-020 | in_progress | M | 3 | 40 | 0 | [T-255](epics/E-020-favicon-metadata-and-seo/items/T-255-website-favicon-metadata-seo-parity.md) |

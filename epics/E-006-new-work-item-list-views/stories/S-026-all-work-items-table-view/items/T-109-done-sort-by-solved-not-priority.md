@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sorting]
 created: 2026-07-23
-updated: 2026-07-28T14:32:06.722Z
+updated: 2026-07-28T15:03:07.151Z
 started_at: 2026-07-23T16:24:32Z
 completed_at: 2026-07-23T16:26:42Z
 actual_ms: 130000
 ---
-
 # T-109: Done work items sort by solved date only
 
 ## Description

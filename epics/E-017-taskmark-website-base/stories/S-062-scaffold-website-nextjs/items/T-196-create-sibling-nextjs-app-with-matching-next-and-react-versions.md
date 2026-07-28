@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [website, nextjs, scaffolding]
 created: 2026-07-27
-updated: 2026-07-28T14:32:06.722Z
+updated: 2026-07-28T15:03:07.151Z
 started_at: 2026-07-27T09:54:28Z
 completed_at: 2026-07-27T09:55:28Z
 actual_ms: 60000
 ---
-
 # T-196: Create sibling Next.js app with matching Next and React versions
 
 ## Description

@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, views, workitems, dates, tooltip]
 created: 2026-07-23
-updated: 2026-07-28T14:32:06.722Z
+updated: 2026-07-28T15:03:07.151Z
 started_at: 2026-07-23T07:51:22Z
 completed_at: 2026-07-23T07:54:27Z
 actual_ms: 971000
 ---
-
 # T-085: Date tooltips on ID and done badge instead of columns
 
 ## Description
