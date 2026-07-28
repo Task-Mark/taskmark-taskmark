@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [website, app-router, smoke]
 created: 2026-07-27
-updated: 2026-07-28T06:16:13.686Z
+updated: 2026-07-28T06:19:03Z
 started_at: 2026-07-27T09:54:28Z
 completed_at: 2026-07-27T09:54:28Z
 actual_ms: 0
@@ -60,6 +60,7 @@ Implement the App Router root layout with theme/providers matching the frontend 
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| fa6cb40 | taskmark-website | 2026-07-28T06:19:03Z | Marco Mendão | scaffold taskmark website |
 
 ## Work log
 

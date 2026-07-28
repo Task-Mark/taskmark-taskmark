@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [website, nextjs, scaffolding]
 created: 2026-07-27
-updated: 2026-07-28T06:16:13.686Z
+updated: 2026-07-28T06:19:03Z
 started_at: 2026-07-27T09:54:28Z
 completed_at: 2026-07-27T09:56:34Z
 actual_ms: 60000
@@ -63,6 +63,7 @@ As a Taskmark contributor, I want a dedicated Next.js website project scaffolded
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| fa6cb40 | taskmark-website | 2026-07-28T06:19:03Z | Marco Mendão | scaffold taskmark website |
 
 ## Work log
 

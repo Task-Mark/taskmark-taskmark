@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [website, app-router, smoke]
 created: 2026-07-27
-updated: 2026-07-28T06:16:13.686Z
+updated: 2026-07-28T06:19:03Z
 started_at: 2026-07-27T09:54:28Z
 completed_at: 2026-07-27T09:56:34Z
 actual_ms: 0
@@ -63,6 +63,7 @@ As a contributor, I want a working App Router shell with shared providers and a 
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| fa6cb40 | taskmark-website | 2026-07-28T06:19:03Z | Marco Mendão | scaffold taskmark website |
 
 ## Work log
 

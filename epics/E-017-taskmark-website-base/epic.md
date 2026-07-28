@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [website, frontend, nextjs, docs]
 created: 2026-07-27
-updated: 2026-07-28T06:16:13.686Z
+updated: 2026-07-28T06:19:03Z
 started_at: 2026-07-27T09:54:28Z
 completed_at: 2026-07-27T09:56:34Z
 actual_ms: 180000
@@ -70,6 +70,7 @@ Stand up a new Next.js project for the public Taskmark website that reuses the s
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| fa6cb40 | taskmark-website | 2026-07-28T06:19:03Z | Marco Mendão | scaffold taskmark website |
 
 ## Work log
 
