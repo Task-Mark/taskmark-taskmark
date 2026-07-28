@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [plugin, init, cli, docs]
 created: 2026-07-24
-updated: 2026-07-28T14:32:06.722Z
+updated: 2026-07-28T14:35:03Z
 started_at: 2026-07-28T08:31:48Z
 completed_at: 2026-07-28T14:33:38Z
 actual_ms: 258333
@@ -64,6 +64,8 @@ As someone whose Cursor/plugin just created a Taskmark board, I want to be told 
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| fd924c0 | taskmark-cursor | 2026-07-28T14:34:41Z | Marco Mendão | install @taskmark/ui during taskmark-init |
+| 082f140 | taskmark-taskmark | 2026-07-28T14:34:41Z | Marco Mendão | sync taskmark board |
 | d07e536 | taskmark-cursor | 2026-07-28T09:50:48Z | Marco Mendão | document taskmark serve on board init |
 | 935c164 | taskmark-taskmark | 2026-07-28T09:50:56Z | Marco Mendão | sync taskmark board |
 

@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm, local]
 created: 2026-07-24
-updated: 2026-07-28T14:32:06.722Z
+updated: 2026-07-28T14:35:03Z
 started_at: 2026-07-28T08:09:03Z
 completed_at: 2026-07-28T14:33:38Z
 actual_ms: 1362000
@@ -68,6 +68,8 @@ Ship Taskmark’s web UI so a developer can open a local board with `npx taskmar
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| fd924c0 | taskmark-cursor | 2026-07-28T14:34:41Z | Marco Mendão | install @taskmark/ui during taskmark-init |
+| 082f140 | taskmark-taskmark | 2026-07-28T14:34:41Z | Marco Mendão | sync taskmark board |
 | 31800fc | taskmark-taskmark | 2026-07-28T09:13:02Z | Marco Mendão | log T-241 @taskmark/ui commits |
 | b62a48c | taskmark-frontend | 2026-07-28T09:12:29Z | Marco Mendão | publish local ui as @taskmark/ui |
 | bce55d8 | taskmark-cursor | 2026-07-28T09:12:29Z | Marco Mendão | point board init at @taskmark/ui |
