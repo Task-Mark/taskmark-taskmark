@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [website, landing, marketing, frontend]
 created: 2026-07-28
-updated: 2026-07-28T07:27:54.696Z
+updated: 2026-07-28T07:33:42.082Z
 started_at: 2026-07-28T07:17:59Z
 completed_at: 2026-07-28T07:23:05Z
 actual_ms: 306383
@@ -85,6 +85,8 @@ Ship a marketing landing page on `taskmark-website` that explains Taskmark, show
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 9ce152e | taskmark-website | 2026-07-28T07:33:14Z | Marco Mendão | ship website landing page |
+| d8fd130 | taskmark-taskmark | 2026-07-28T07:33:27Z | Marco Mendão | sync taskmark board |
 
 ## Work log
 
