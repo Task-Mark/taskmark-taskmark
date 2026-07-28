@@ -7,10 +7,10 @@ priority: high
 size: XL
 size_source: rolled_up
 size_basis: [sum:tasks]
-points: 13
+points: 16
 points_source: rolled_up
-estimate_minutes: 180
-actual_minutes: 3
+estimate_minutes: 185
+actual_minutes: 6
 estimate_source: suggested
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
@@ -29,10 +29,10 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm]
 created: 2026-07-24
-updated: 2026-07-28T08:51:30Z
+updated: 2026-07-28T09:08:49.505Z
 started_at: 2026-07-28T08:31:48Z
-completed_at: 2026-07-28T08:36:30Z
-actual_ms: 203667
+completed_at: 2026-07-28T09:10:14Z
+actual_ms: 383667
 ---
 
 # S-051: Publishable npm CLI for local board UI
@@ -55,6 +55,7 @@ As a developer with a Taskmark board on disk, I want to run `npx taskmark serve`
 - [T-154: Create publishable package with CLI bin](items/T-154-publishable-package-bin.md)
 - [T-155: CLI starts server and opens browser](items/T-155-cli-start-open-browser.md)
 - [T-156: Document npx and npm start usage](items/T-156-document-npx-npm-start.md)
+- [T-241: Publish local UI as scoped package @taskmark/ui](items/T-241-publish-scoped-taskmark-ui.md)
 
 ## Prompt & feedback log
 

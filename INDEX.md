@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-28T08:37:10.850Z
+Last synced: 2026-07-28T09:08:49.914Z
 
 ## Epics
 
@@ -19,7 +19,7 @@ Last synced: 2026-07-28T08:37:10.850Z
 | E-011 | Git identity contributors and avatars | done | — | 33 | 515 | 8 | [epic.md](epics/E-011-git-identity-contributors/epic.md) |
 | E-012 | Timeframe filters for solved work items | done | — | 39 | 545 | 15 | [epic.md](epics/E-012-timeframe-filters/epic.md) |
 | E-013 | Table sort functionalities | done | — | 21 | 305 | 2 | [epic.md](epics/E-013-table-sort-functionalities/epic.md) |
-| E-014 | Zero-config local board UI package | done | — | 27 | 345 | 16 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
+| E-014 | Zero-config local board UI package | done | — | 30 | 350 | 19 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
 | E-015 | Project status metrics | done | — | 40 | 550 | 12 | [epic.md](epics/E-015-project-status-metrics/epic.md) |
 | E-016 | README project status and changelog | done | — | 19 | 5 | 7 | [epic.md](epics/E-016-readme-project-status-and-changelog/epic.md) |
 | E-017 | Taskmark website base Next.js project | done | — | 20 | 285 | 3 | [epic.md](epics/E-017-taskmark-website-base/epic.md) |
@@ -80,7 +80,7 @@ Last synced: 2026-07-28T08:37:10.850Z
 | S-048 | Sort Overall drill-down lists | E-013 | done | M | 6 | 90 | 0 | [story.md](epics/E-013-table-sort-functionalities/stories/S-048-sort-overall-lists/story.md) |
 | S-049 | Sort Work items list | E-013 | done | M | 5 | 70 | 1 | [story.md](epics/E-013-table-sort-functionalities/stories/S-049-sort-work-items-list/story.md) |
 | S-050 | Zero-config board binding from env and cwd | E-014 | done | L | 9 | 95 | 12 | [story.md](epics/E-014-zero-config-local-board-ui/stories/S-050-zero-config-board-binding/story.md) |
-| S-051 | Publishable npm CLI for local board UI | E-014 | done | XL | 13 | 180 | 3 | [story.md](epics/E-014-zero-config-local-board-ui/stories/S-051-publishable-npm-cli/story.md) |
+| S-051 | Publishable npm CLI for local board UI | E-014 | done | XL | 16 | 185 | 6 | [story.md](epics/E-014-zero-config-local-board-ui/stories/S-051-publishable-npm-cli/story.md) |
 | S-052 | Board init one-command UI launch | E-014 | done | M | 5 | 70 | 1 | [story.md](epics/E-014-zero-config-local-board-ui/stories/S-052-board-init-one-command-ui/story.md) |
 | S-053 | Metrics cards UI shell | E-015 | done | M | 5 | 70 | 1 | [story.md](epics/E-015-project-status-metrics/stories/S-053-metrics-cards-ui/story.md) |
 | S-054 | Total and complete work item counts | E-015 | done | S | 3 | 45 | 0 | [story.md](epics/E-015-project-status-metrics/stories/S-054-work-item-count-metrics/story.md) |

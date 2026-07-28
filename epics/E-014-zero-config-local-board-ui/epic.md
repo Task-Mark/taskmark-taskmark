@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 27
+points: 30
 points_source: rolled_up
-estimate_minutes: 345
-actual_minutes: 16
+estimate_minutes: 350
+actual_minutes: 19
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -29,10 +29,10 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm, local]
 created: 2026-07-24
-updated: 2026-07-28T08:51:45Z
+updated: 2026-07-28T09:08:49.505Z
 started_at: 2026-07-28T08:09:03Z
-completed_at: 2026-07-28T08:36:30Z
-actual_ms: 1002000
+completed_at: 2026-07-28T09:10:14Z
+actual_ms: 1182000
 ---
 
 # E-014: Zero-config local board UI package
