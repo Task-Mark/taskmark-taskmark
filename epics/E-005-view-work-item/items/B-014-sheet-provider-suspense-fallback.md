@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, sheet, suspense, bug]
 created: 2026-07-29
-updated: 2026-07-29T07:31:14.976Z
+updated: 2026-07-29T10:28:54Z
 started_at: 2026-07-29T07:30:00Z
 completed_at: 2026-07-29T07:30:44Z
 actual_ms: 44000
@@ -66,6 +66,9 @@ Root cause is fallback=`children` bypassing `WorkItemSheetContext.Provider`.
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 8b5fdb3 | taskmark-taskmark | 2026-07-29T11:28:26+01:00 | Marco Mendão | add e-021 version generator and b-014 |
+| 6da0049 | taskmark-taskmark | 2026-07-29T11:28:54+01:00 | Marco Mendão | update readme dashboard |
+| 38d75cf | taskmark-frontend | 2026-07-29T11:28:25+01:00 | Marco Mendão | fix sheet suspense fallback and hide paths |
 
 ## Work log
 

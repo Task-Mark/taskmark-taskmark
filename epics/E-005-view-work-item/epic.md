@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, detail, sheet]
 created: 2026-07-21
-updated: 2026-07-29T07:31:14.976Z
+updated: 2026-07-29T10:28:54Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-29T07:31:14Z
 actual_ms: 3023000
@@ -74,6 +74,7 @@ Let users open any work item (epic, user story, or task) in a dedicated view mod
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 38d75cf | taskmark-frontend | 2026-07-29T11:28:25+01:00 | Marco Mendão | fix sheet suspense fallback and hide paths |
 | e890d82 | taskmark-taskmark | 2026-07-21T23:52:01Z | Marco Mendão | add e-005 view work item board |
 | 5756d6a | taskmark-frontend | 2026-07-22T00:00:33Z | Marco Mendão | add work item detail sheet |
 | cedb561 | taskmark-taskmark | 2026-07-22T00:00:33Z | Marco Mendão | sync taskmark board |
