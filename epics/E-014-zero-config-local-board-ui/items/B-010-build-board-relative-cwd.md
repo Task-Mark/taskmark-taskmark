@@ -56,7 +56,10 @@ actual_ms: 68000
 ## Prompt & feedback log
 
 | # | When (UTC) | Kind | Author | Summary |
-|---|------------|------|--------|---------|
+|---|-----| d220a7b | taskmark-frontend | 2026-07-29T06:51:55Z | Marco Mendão | add static board build and preview |
+| 81dda43 | taskmark-cursor | 2026-07-29T06:51:55Z | Marco Mendão | add board preview and static hosting stubs |
+| 6f9db22 | taskmark-taskmark | 2026-07-29T06:51:56Z | Marco Mendão | sync taskmark board |
+-------|------|--------|---------|
 | 1 | 2026-07-29T06:15:52Z | prompt | Marco Mendão | fix taskmark build --board . cwd bug |
 
 ## Commits

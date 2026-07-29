@@ -84,6 +84,9 @@ Ship Taskmark’s web UI so a developer can open a local board with `npx taskmar
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| d220a7b | taskmark-frontend | 2026-07-29T06:51:55Z | Marco Mendão | add static board build and preview |
+| 81dda43 | taskmark-cursor | 2026-07-29T06:51:55Z | Marco Mendão | add board preview and static hosting stubs |
+| 6f9db22 | taskmark-taskmark | 2026-07-29T06:51:56Z | Marco Mendão | sync taskmark board |
 | 5615050 | taskmark-taskmark | 2026-07-28T19:13:43Z | Marco Mendão | fix B-009 vercel ui production dep |
 | e2b0fda | taskmark-frontend | 2026-07-28T19:13:32Z | Marco Mendão | document @taskmark/ui as production dependency |
 | 62f8af2 | taskmark-cursor | 2026-07-28T19:13:32Z | Marco Mendão | keep @taskmark/ui as production dep on vercel |

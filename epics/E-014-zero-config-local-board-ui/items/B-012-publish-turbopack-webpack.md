@@ -55,7 +55,10 @@ actual_ms: 117000
 ## Prompt & feedback log
 
 | # | When (UTC) | Kind | Author | Summary |
-|---|------------|------|--------|---------|
+|---|-----| d220a7b | taskmark-frontend | 2026-07-29T06:51:55Z | Marco Mendão | add static board build and preview |
+| 81dda43 | taskmark-cursor | 2026-07-29T06:51:55Z | Marco Mendão | add board preview and static hosting stubs |
+| 6f9db22 | taskmark-taskmark | 2026-07-29T06:51:56Z | Marco Mendão | sync taskmark board |
+-------|------|--------|---------|
 | 1 | 2026-07-29T06:32:00Z | prompt | Marco Mendão | npm publish prepack fails on Turbopack vs webpack |
 
 ## Commits

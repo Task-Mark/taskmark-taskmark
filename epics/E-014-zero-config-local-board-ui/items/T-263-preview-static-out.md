@@ -59,6 +59,9 @@ After `taskmark build`, boards need a local way to preview the static `out/` sit
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| d220a7b | taskmark-frontend | 2026-07-29T06:51:55Z | Marco Mendão | add static board build and preview |
+| 81dda43 | taskmark-cursor | 2026-07-29T06:51:55Z | Marco Mendão | add board preview and static hosting stubs |
+| 6f9db22 | taskmark-taskmark | 2026-07-29T06:51:56Z | Marco Mendão | sync taskmark board |
 
 ## Work log
 
