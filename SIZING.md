@@ -2,7 +2,7 @@
 
 | Size | Points | Meaning | Seed estimate |
 |------|--------|---------|---------------|
-| XS | 1 | Trivial | 15 min |
+| XS | 1 | Trivial | 14 min |
 | S | 2 | Small | 32 min |
 | M | 3 | Medium | 5 min |
 | L | 5 | Large | 90 min |
@@ -17,6 +17,12 @@ Sizing suggests size + points; Est uses Current Speed median min/pt when availab
 
 | Date | Item | Sized | Points | Est | Actual | Note |
 |------|------|-------|--------|-----|--------|------|
+| 2026-07-29 | T-263 | XS | 1 | 15 | 3 | estimate 15->5; size XS->M |
+| 2026-07-29 | B-011 | S | 2 | 30 | 11 | estimate 30->10; size S->XS |
+| 2026-07-29 | T-259 | M | 3 | 15 | 4 | estimate 15->5 |
+| 2026-07-29 | T-258 | L | 5 | 70 | 10 | estimate 70->10; size L->XS |
+| 2026-07-29 | T-259 | M | 3 | 40 | 15 | estimate 40->15; size M->XS |
+| 2026-07-29 | T-257 | M | 3 | 40 | 4 | estimate 40->5 |
 | 2026-07-28 | B-009 | S | 2 | 30 | 7 | estimate 30->5; size S->M |
 | 2026-07-28 | T-255 | M | 3 | 40 | 16 | estimate 40->15; size M->XS |
 | 2026-07-28 | T-242 | S | 2 | 30 | 3 | estimate 30->5; size S->M |

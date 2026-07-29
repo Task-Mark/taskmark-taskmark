@@ -2,16 +2,18 @@
   "name": "taskmark-taskmark",
   "private": true,
   "type": "module",
-  "description": "Taskmark board \u2014 npm start / npx taskmark serve (local), or deploy on Vercel as a Node project (server.js).",
+  "description": "Taskmark board — npm start / npx taskmark serve (local), or Vercel static hosting via npm run build.",
   "engines": {
     "node": ">=18"
   },
   "scripts": {
     "start": "taskmark serve --no-open",
     "serve": "taskmark serve",
-    "dev": "taskmark serve"
+    "dev": "taskmark serve",
+    "build": "taskmark build --board . --out out",
+    "preview": "taskmark preview"
   },
   "dependencies": {
-    "@taskmark/ui": "^0.1.0"
+    "@taskmark/ui": "^0.2.4"
   }
 }

@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, next]
 created: 2026-07-24
-updated: 2026-07-28T19:13:32.846Z
+updated: 2026-07-29T06:48:27.505Z
 started_at: 2026-07-28T08:31:48Z
 completed_at: 2026-07-28T08:36:30Z
 actual_ms: 47000

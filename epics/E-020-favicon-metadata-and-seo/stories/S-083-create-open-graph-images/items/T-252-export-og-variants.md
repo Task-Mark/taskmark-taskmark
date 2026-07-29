@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [branding, design, opengraph]
 created: 2026-07-28
-updated: 2026-07-28T19:13:32.846Z
+updated: 2026-07-29T06:48:27.505Z
 started_at: 2026-07-28T14:47:21Z
 completed_at: 2026-07-28T14:50:02Z
 actual_ms: 9774

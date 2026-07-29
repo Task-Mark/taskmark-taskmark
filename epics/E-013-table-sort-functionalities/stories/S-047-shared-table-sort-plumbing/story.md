@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, lists, sort]
 created: 2026-07-24
-updated: 2026-07-28T19:13:32.846Z
+updated: 2026-07-29T06:48:27.505Z
 started_at: 2026-07-27T05:20:06Z
 completed_at: 2026-07-27T05:26:10Z
 actual_ms: 60000

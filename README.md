@@ -13,25 +13,25 @@ npx taskmark serve
 
 Opens http://localhost:8275 (package `@taskmark/ui`). Or `npm run serve` / `npm start` (`start` skips opening a browser).
 
-## Deploy on Vercel (Node)
+## Deploy on Vercel (static)
 
 1. Import this repo in Vercel.
-2. Framework Preset: **Node** (auto-detects root `server.js`).
-3. Install Command: `npm install` (default). Leave Build Command empty.
-4. Keep `@taskmark/ui` under **`dependencies`** (not `devDependencies`) — production installs omit devDeps.
-5. Deploy — `server.js` starts `@taskmark/ui` with `TASKMARK_BOARD` set to this repo root. `vercel.json` includes the UI package and board markdown via `includeFiles`.
+2. Leave Framework Preset empty / Other — `vercel.json` sets `buildCommand` + `outputDirectory: out`.
+3. Install Command: `npm install` (default). Keep `@taskmark/ui` under **`dependencies`**.
+4. Deploy — `npm run build` runs `taskmark build`, baking this board’s markdown into static HTML under `out/`.
+5. Redeploy after board markdown changes to refresh the published site.
 
-Optional: set Start Command to `npm start` (`taskmark serve --no-open`) if you override the Node entry.
+Local interactive UI remains `npx taskmark serve` (Node standalone).
 
 <!-- taskmark:project-status:begin -->
 ## Project status
 
-_Last synced: 2026-07-28T19:13:43.513Z_
+_Last synced: 2026-07-29T06:51:55.724Z_
 
 | Metric | Value |
 |--------|-------|
-| Total work items | 349 |
-| Complete work items | 348 |
+| Total work items | 359 |
+| Complete work items | 356 |
 | Current speed | 337 (pts/week · 1 active weeks (90d)) |
 
 <!-- taskmark:project-status:end -->
@@ -39,20 +39,22 @@ _Last synced: 2026-07-28T19:13:43.513Z_
 <!-- taskmark:open-work:begin -->
 ## Open work items
 
-_Last synced: 2026-07-28T19:13:43.513Z_
+_Last synced: 2026-07-29T06:51:55.724Z_
 
 Stories, tasks, and bugs that are not done, cancelled, or blocked.
 
 | ID | Type | Title | Status | Size | Points | Parent |
 |----|------|-------|--------|------|--------|--------|
-| T-256 | task | Make board package Vercel-deployable via Node serve | in_progress | M | 3 | E-014 |
+| T-260 | task | Replace logo subtitle with product memory tagline | backlog | S | 2 | E-014 |
+| T-261 | task | Hide project selector in standalone serve mode | backlog | S | 2 | E-014 |
+| T-262 | task | Remove folder path references from board UI | backlog | M | 3 | E-014 |
 
 <!-- taskmark:open-work:end -->
 
 <!-- taskmark:changelog:begin -->
 ## Changelog
 
-_Last synced: 2026-07-28T19:13:43.513Z_
+_Last synced: 2026-07-29T06:51:55.724Z_
 
 Recent meaningful commits on this board repository (excludes sync / housekeeping).
 

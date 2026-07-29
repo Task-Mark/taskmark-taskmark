@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 39
+points: 61
 points_source: rolled_up
-estimate_minutes: 400
-actual_minutes: 260
+estimate_minutes: 560
+actual_minutes: 62
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -29,10 +29,10 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm, local, vercel]
 created: 2026-07-24
-updated: 2026-07-28T19:13:43Z
+updated: 2026-07-29T06:48:27.505Z
 started_at: 2026-07-28T08:09:03Z
 completed_at: null
-actual_ms: 15618846
+actual_ms: 3735000
 ---
 
 # E-014: Zero-config local board UI package
@@ -50,7 +50,7 @@ Ship Taskmark’s web UI so a developer can open a local board with `npx taskmar
 
 ## Out of scope
 
-- Docker images and static/nginx-only hosting (later).
+- Docker / custom nginx images (Vercel static hosting is in scope via T-258–T-259).
 - Hosted/cloud board sync or multi-tenant SaaS.
 - Changing board markdown schema beyond what the current UI already reads.
 
@@ -69,6 +69,16 @@ Ship Taskmark’s web UI so a developer can open a local board with `npx taskmar
 
 - [T-256: Make board package Vercel-deployable via Node serve](items/T-256-board-vercel-node-serve.md)
 - [B-009: @taskmark/ui must be a production dependency for Vercel](items/B-009-ui-must-be-production-dep.md)
+- [T-258: Add production static HTML build for board UI](items/T-258-production-static-html-build.md)
+- [T-259: Host board package on Vercel as static site](items/T-259-vercel-static-board-hosting.md)
+- [B-010: taskmark build --board . resolves against UI package cwd](items/B-010-build-board-relative-cwd.md)
+- [B-011: taskmark build snapshot fails on @/ path aliases under tsx](items/B-011-build-snapshot-path-aliases.md)
+- [B-012: npm publish prepack fails: Turbopack vs webpack config](items/B-012-publish-turbopack-webpack.md)
+- [B-013: Static build CSS warnings from `first-child` arbitrary variant Tailwind class](items/B-013-css-first-child-lightning-warnings.md)
+- [T-260: Replace logo subtitle with product memory tagline](items/T-260-logo-tagline-product-memory.md)
+- [T-261: Hide project selector in standalone serve mode](items/T-261-hide-project-selector-standalone.md)
+- [T-262: Remove folder path references from board UI](items/T-262-remove-folder-paths-from-ui.md)
+- [T-263: Add package.json preview script to serve static out/](items/T-263-preview-static-out.md)
 
 ## Commits
 

@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 34
+points: 37
 points_source: rolled_up
-estimate_minutes: 475
-actual_minutes: 18
+estimate_minutes: 480
+actual_minutes: 23
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -29,10 +29,10 @@ blocked: false
 cancelled: false
 tags: [frontend, website, branding, seo, favicon]
 created: 2026-07-28
-updated: 2026-07-28T19:13:32.846Z
+updated: 2026-07-29T06:48:27.505Z
 started_at: 2026-07-28T14:47:21Z
-completed_at: 2026-07-28T15:18:30Z
-actual_ms: 1133269
+completed_at: 2026-07-29T06:03:50Z
+actual_ms: 1387269
 ---
 # E-020: Favicon, metadata, and SEO
 
@@ -68,6 +68,7 @@ Ship consistent Taskmark brand icons and SEO/social metadata across the local bo
 ## Tasks
 
 - [T-255: Website favicon, metadata, and SEO parity](items/T-255-website-favicon-metadata-seo-parity.md)
+- [T-257: Ship favicon and SEO branding in board folder web UI](items/T-257-board-ui-favicon-seo-branding.md)
 
 ## Prompt & feedback log
 

@@ -28,7 +28,7 @@ blocked: false
 cancelled: false
 tags: [parser, stories]
 created: 2026-07-21
-updated: 2026-07-28T19:13:32.846Z
+updated: 2026-07-29T06:48:27.505Z
 started_at: 2026-07-21T17:45:49Z
 completed_at: 2026-07-21T17:48:46Z
 actual_ms: 907000

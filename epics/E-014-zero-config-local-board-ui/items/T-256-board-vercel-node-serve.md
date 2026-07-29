@@ -2,7 +2,7 @@
 id: T-256
 type: task
 title: Make board package Vercel-deployable via Node serve
-status: in_progress
+status: cancelled
 priority: high
 size: M
 size_source: suggested
@@ -10,7 +10,7 @@ size_basis: []
 points: 3
 points_source: suggested
 estimate_minutes: 40
-actual_minutes: 230
+actual_minutes: 0
 estimate_source: suggested
 estimate_basis: [speed:90d:14min/pt]
 session_cap_minutes: 480
@@ -23,13 +23,13 @@ reporters:
     initials: "MM"
 resolvers: []
 blocked: false
-cancelled: false
+cancelled: true
 tags: [deploy, vercel, board, serve]
 created: 2026-07-28
-updated: 2026-07-28T19:13:32.846Z
+updated: 2026-07-29T06:48:27.505Z
 started_at: 2026-07-28T15:23:18Z
 completed_at: null
-actual_ms: 13814846
+actual_ms: 0
 ---
 # T-256: Make board package Vercel-deployable via Node serve
 
@@ -46,6 +46,8 @@ Configure the Taskmark board folder (`taskmark-taskmark` / board stub) so it can
 - [x] `taskmark-init` (and create-* / sync when bootstrapping) always runs `ensure-board-ui.py` so Vercel Node stubs are present.
 
 ## Notes
+
+Superseded by T-258/T-259 (static HTML hosting).
 
 `ensure-board-ui.py` is Taskmark’s Vercel init — do not run CLI `vercel init` (downloads unrelated examples).
 
@@ -67,4 +69,4 @@ Configure the Taskmark board folder (`taskmark-taskmark` / board stub) so it can
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
-| 1 | Marco Mendão | 2026-07-28T15:23:18Z | — | In progress: Vercel Node serve for board package |
+P26-07-29T05:47:29Z | auto-closed: superseded by T-258/T-259 static hosting |

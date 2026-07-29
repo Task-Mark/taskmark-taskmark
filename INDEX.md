@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-28T19:13:33.286Z
+Last synced: 2026-07-29T06:48:28.359Z
 
 ## Epics
 
@@ -19,13 +19,13 @@ Last synced: 2026-07-28T19:13:33.286Z
 | E-011 | Git identity contributors and avatars | done | — | 33 | 515 | 8 | [epic.md](epics/E-011-git-identity-contributors/epic.md) |
 | E-012 | Timeframe filters for solved work items | done | — | 39 | 545 | 15 | [epic.md](epics/E-012-timeframe-filters/epic.md) |
 | E-013 | Table sort functionalities | done | — | 21 | 305 | 2 | [epic.md](epics/E-013-table-sort-functionalities/epic.md) |
-| E-014 | Zero-config local board UI package | in_progress | — | 39 | 400 | 260 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
+| E-014 | Zero-config local board UI package | in_progress | — | 61 | 560 | 62 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
 | E-015 | Project status metrics | done | — | 40 | 550 | 12 | [epic.md](epics/E-015-project-status-metrics/epic.md) |
 | E-016 | README project status and changelog | done | — | 19 | 5 | 7 | [epic.md](epics/E-016-readme-project-status-and-changelog/epic.md) |
 | E-017 | Taskmark website base Next.js project | done | — | 20 | 285 | 3 | [epic.md](epics/E-017-taskmark-website-base/epic.md) |
 | E-018 | Taskmark website landing page | done | — | 38 | 530 | 5 | [epic.md](epics/E-018-taskmark-website-landing-page/epic.md) |
 | E-019 | Taskmark product documentation | done | — | 58 | 765 | 13 | [epic.md](epics/E-019-taskmark-product-documentation/epic.md) |
-| E-020 | Favicon, metadata, and SEO | done | — | 34 | 475 | 18 | [epic.md](epics/E-020-favicon-metadata-and-seo/epic.md) |
+| E-020 | Favicon, metadata, and SEO | done | — | 37 | 480 | 23 | [epic.md](epics/E-020-favicon-metadata-and-seo/epic.md) |
 
 ## Stories
 
@@ -389,4 +389,13 @@ Last synced: 2026-07-28T19:13:33.286Z
 | T-253 | Wire Open Graph and Twitter on website | S-084 | done | M | 3 | 40 | 0 | [T-253](epics/E-020-favicon-metadata-and-seo/stories/S-084-wire-open-graph-twitter-cards/items/T-253-wire-og-twitter-website.md) |
 | T-254 | Wire Open Graph and Twitter on local board UI | S-084 | done | M | 3 | 40 | 0 | [T-254](epics/E-020-favicon-metadata-and-seo/stories/S-084-wire-open-graph-twitter-cards/items/T-254-wire-og-twitter-frontend.md) |
 | T-255 | Website favicon, metadata, and SEO parity | E-020 | done | XS | 1 | 15 | 16 | [T-255](epics/E-020-favicon-metadata-and-seo/items/T-255-website-favicon-metadata-seo-parity.md) |
-| T-256 | Make board package Vercel-deployable via Node serve | E-014 | in_progress | M | 3 | 40 | 230 | [T-256](epics/E-014-zero-config-local-board-ui/items/T-256-board-vercel-node-serve.md) |
+| T-256 | Make board package Vercel-deployable via Node serve | E-014 | cancelled | M | 3 | 40 | 0 | [T-256](epics/E-014-zero-config-local-board-ui/items/T-256-board-vercel-node-serve.md) |
+| B-009 | @taskmark/ui must be a production dependency for Vercel | E-014 | done | M | 3 | 5 | 7 | [B-009](epics/E-014-zero-config-local-board-ui/items/B-009-ui-must-be-production-dep.md) |
+| T-257 | Ship favicon and SEO branding in board folder web UI | E-020 | done | M | 3 | 5 | 4 | [T-257](epics/E-020-favicon-metadata-and-seo/items/T-257-board-ui-favicon-seo-branding.md) |
+| T-258 | Add production static HTML build for board UI | E-014 | done | L | 5 | 10 | 7 | [T-258](epics/E-014-zero-config-local-board-ui/items/T-258-production-static-html-build.md) |
+| T-259 | Host board package on Vercel as static site | E-014 | done | M | 3 | 5 | 4 | [T-259](epics/E-014-zero-config-local-board-ui/items/T-259-vercel-static-board-hosting.md) |
+| B-010 | taskmark build --board . resolves against UI package cwd | E-014 | done | XS | 1 | 15 | 1 | [B-010](epics/E-014-zero-config-local-board-ui/items/B-010-build-board-relative-cwd.md) |
+| B-011 | taskmark build snapshot fails on @/ path aliases under tsx | E-014 | done | XS | 1 | 10 | 11 | [B-011](epics/E-014-zero-config-local-board-ui/items/B-011-build-snapshot-path-aliases.md) |
+| B-012 | npm publish prepack fails: Turbopack vs webpack config | E-014 | done | XS | 1 | 15 | 1 | [B-012](epics/E-014-zero-config-local-board-ui/items/B-012-publish-turbopack-webpack.md) |
+| B-013 | Static build CSS warnings from `first-child` arbitrary variant Tailwind class | E-014 | done | XS | 1 | 10 | 2 | [B-013](epics/E-014-zero-config-local-board-ui/items/B-013-css-first-child-lightning-warnings.md) |
+| T-263 | Add package.json preview script to serve static out/ | E-014 | done | M | 3 | 5 | 3 | [T-263](epics/E-014-zero-config-local-board-ui/items/T-263-preview-static-out.md) |
