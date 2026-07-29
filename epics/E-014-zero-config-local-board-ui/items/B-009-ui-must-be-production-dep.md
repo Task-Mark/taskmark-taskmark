@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [vercel, npm, packaging, board]
 created: 2026-07-28
-updated: 2026-07-29T06:48:27.505Z
+updated: 2026-07-29T07:31:14.976Z
 started_at: 2026-07-28T19:06:10Z
 completed_at: 2026-07-28T19:13:32Z
 actual_ms: 442000

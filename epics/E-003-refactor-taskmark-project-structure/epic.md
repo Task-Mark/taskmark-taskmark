@@ -28,7 +28,7 @@ blocked: false
 cancelled: false
 tags: [architecture, multi-repo, plugin, board-layout]
 created: 2026-07-21
-updated: 2026-07-29T06:48:27.505Z
+updated: 2026-07-29T07:31:14.976Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 actual_ms: 29760000

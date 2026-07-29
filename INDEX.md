@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-29T06:48:28.359Z
+Last synced: 2026-07-29T07:31:15.238Z
 
 ## Epics
 
@@ -10,7 +10,7 @@ Last synced: 2026-07-29T06:48:28.359Z
 | E-002 | User stories view | done | — | 11 | 1265 | 831 | [epic.md](epics/E-002-user-stories-view/epic.md) |
 | E-003 | Refactor Taskmark project structure | done | — | 31 | 443 | 496 | [epic.md](epics/E-003-refactor-taskmark-project-structure/epic.md) |
 | E-004 | Refactor speed and estimation | done | — | 52 | 682 | 688 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
-| E-005 | View work item | done | — | 44 | 620 | 49 | [epic.md](epics/E-005-view-work-item/epic.md) |
+| E-005 | View work item | done | — | 46 | 645 | 50 | [epic.md](epics/E-005-view-work-item/epic.md) |
 | E-006 | New work item list views | done | — | 49 | 695 | 486 | [epic.md](epics/E-006-new-work-item-list-views/epic.md) |
 | E-007 | Optional hierarchy and General epic | done | — | 15 | 230 | 40 | [epic.md](epics/E-007-optional-hierarchy-general-epic/epic.md) |
 | E-008 | General | done | — | 3 | 48 | 2 | [epic.md](epics/E-008-general/epic.md) |
@@ -19,13 +19,14 @@ Last synced: 2026-07-29T06:48:28.359Z
 | E-011 | Git identity contributors and avatars | done | — | 33 | 515 | 8 | [epic.md](epics/E-011-git-identity-contributors/epic.md) |
 | E-012 | Timeframe filters for solved work items | done | — | 39 | 545 | 15 | [epic.md](epics/E-012-timeframe-filters/epic.md) |
 | E-013 | Table sort functionalities | done | — | 21 | 305 | 2 | [epic.md](epics/E-013-table-sort-functionalities/epic.md) |
-| E-014 | Zero-config local board UI package | in_progress | — | 61 | 560 | 62 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
+| E-014 | Zero-config local board UI package | in_progress | — | 61 | 525 | 69 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
 | E-015 | Project status metrics | done | — | 40 | 550 | 12 | [epic.md](epics/E-015-project-status-metrics/epic.md) |
 | E-016 | README project status and changelog | done | — | 19 | 5 | 7 | [epic.md](epics/E-016-readme-project-status-and-changelog/epic.md) |
 | E-017 | Taskmark website base Next.js project | done | — | 20 | 285 | 3 | [epic.md](epics/E-017-taskmark-website-base/epic.md) |
 | E-018 | Taskmark website landing page | done | — | 38 | 530 | 5 | [epic.md](epics/E-018-taskmark-website-landing-page/epic.md) |
 | E-019 | Taskmark product documentation | done | — | 58 | 765 | 13 | [epic.md](epics/E-019-taskmark-product-documentation/epic.md) |
 | E-020 | Favicon, metadata, and SEO | done | — | 37 | 480 | 23 | [epic.md](epics/E-020-favicon-metadata-and-seo/epic.md) |
+| E-021 | New version generator | backlog | — | 34 | 405 | 0 | [epic.md](epics/E-021-new-version-generator/epic.md) |
 
 ## Stories
 
@@ -115,6 +116,9 @@ Last synced: 2026-07-29T06:48:28.359Z
 | S-082 | App metadata and SEO tags | E-020 | done | L | 8 | 110 | 0 | [story.md](epics/E-020-favicon-metadata-and-seo/stories/S-082-app-metadata-and-seo-tags/story.md) |
 | S-083 | Create Open Graph social images | E-020 | done | M | 7 | 100 | 0 | [story.md](epics/E-020-favicon-metadata-and-seo/stories/S-083-create-open-graph-images/story.md) |
 | S-084 | Wire Open Graph and Twitter cards | E-020 | done | M | 6 | 80 | 0 | [story.md](epics/E-020-favicon-metadata-and-seo/stories/S-084-wire-open-graph-twitter-cards/story.md) |
+| S-085 | Multi-project version bump | E-021 | backlog | XL | 13 | 155 | 0 | [story.md](epics/E-021-new-version-generator/stories/S-085-multi-project-version-bump/story.md) |
+| S-086 | Versioned README changelog with Development bucket | E-021 | backlog | XL | 14 | 165 | 0 | [story.md](epics/E-021-new-version-generator/stories/S-086-versioned-readme-changelog/story.md) |
+| S-087 | Human-readable changelog messages | E-021 | backlog | L | 7 | 85 | 0 | [story.md](epics/E-021-new-version-generator/stories/S-087-human-readable-changelog-messages/story.md) |
 
 ## Open work sessions
 
@@ -398,4 +402,16 @@ Last synced: 2026-07-29T06:48:28.359Z
 | B-011 | taskmark build snapshot fails on @/ path aliases under tsx | E-014 | done | XS | 1 | 10 | 11 | [B-011](epics/E-014-zero-config-local-board-ui/items/B-011-build-snapshot-path-aliases.md) |
 | B-012 | npm publish prepack fails: Turbopack vs webpack config | E-014 | done | XS | 1 | 15 | 1 | [B-012](epics/E-014-zero-config-local-board-ui/items/B-012-publish-turbopack-webpack.md) |
 | B-013 | Static build CSS warnings from `first-child` arbitrary variant Tailwind class | E-014 | done | XS | 1 | 10 | 2 | [B-013](epics/E-014-zero-config-local-board-ui/items/B-013-css-first-child-lightning-warnings.md) |
+| B-014 | Board crashes when WorkItemSheet Suspense falls back without provider | E-005 | done | S | 2 | 25 | 0 | [B-014](epics/E-005-view-work-item/items/B-014-sheet-provider-suspense-fallback.md) |
 | T-263 | Add package.json preview script to serve static out/ | E-014 | done | M | 3 | 5 | 3 | [T-263](epics/E-014-zero-config-local-board-ui/items/T-263-preview-static-out.md) |
+| T-264 | Discover current versions across linked projects | S-085 | backlog | S | 2 | 25 | 0 | [T-264](epics/E-021-new-version-generator/stories/S-085-multi-project-version-bump/items/T-264-discover-project-versions.md) |
+| T-265 | Suggest semver bump from changes since last release | S-085 | backlog | L | 5 | 60 | 0 | [T-265](epics/E-021-new-version-generator/stories/S-085-multi-project-version-bump/items/T-265-suggest-semver-from-changes.md) |
+| T-266 | Apply user or suggested version to packages | S-085 | backlog | M | 3 | 35 | 0 | [T-266](epics/E-021-new-version-generator/stories/S-085-multi-project-version-bump/items/T-266-apply-version-to-packages.md) |
+| T-267 | Add create-version skill and command | S-085 | backlog | M | 3 | 35 | 0 | [T-267](epics/E-021-new-version-generator/stories/S-085-multi-project-version-bump/items/T-267-create-version-skill.md) |
+| T-268 | Replace commit-table README changelog with versioned sections | S-086 | backlog | M | 3 | 35 | 0 | [T-268](epics/E-021-new-version-generator/stories/S-086-versioned-readme-changelog/items/T-268-replace-commit-table-changelog.md) |
+| T-269 | Append ongoing changes under Development | S-086 | backlog | M | 3 | 35 | 0 | [T-269](epics/E-021-new-version-generator/stories/S-086-versioned-readme-changelog/items/T-269-append-development-notes.md) |
+| T-270 | Promote Development to released version and clear it | S-086 | backlog | L | 5 | 60 | 0 | [T-270](epics/E-021-new-version-generator/stories/S-086-versioned-readme-changelog/items/T-270-promote-development-on-release.md) |
+| T-271 | Wire Development logging into sync and complete-work | S-086 | backlog | M | 3 | 35 | 0 | [T-271](epics/E-021-new-version-generator/stories/S-086-versioned-readme-changelog/items/T-271-wire-development-logging.md) |
+| T-272 | Strip work-item IDs from changelog entry text | S-087 | backlog | S | 2 | 25 | 0 | [T-272](epics/E-021-new-version-generator/stories/S-087-human-readable-changelog-messages/items/T-272-strip-work-item-ids.md) |
+| T-273 | Rewrite commits and board titles into end-user messages | S-087 | backlog | M | 3 | 35 | 0 | [T-273](epics/E-021-new-version-generator/stories/S-087-human-readable-changelog-messages/items/T-273-rewrite-end-user-messages.md) |
+| T-274 | Document changelog wording conventions | S-087 | backlog | S | 2 | 25 | 0 | [T-274](epics/E-021-new-version-generator/stories/S-087-human-readable-changelog-messages/items/T-274-document-changelog-wording.md) |

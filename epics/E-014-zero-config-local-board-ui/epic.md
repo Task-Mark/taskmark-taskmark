@@ -9,8 +9,8 @@ size_source: rolled_up
 size_basis: [sum:children]
 points: 61
 points_source: rolled_up
-estimate_minutes: 560
-actual_minutes: 62
+estimate_minutes: 525
+actual_minutes: 69
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -29,10 +29,10 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm, local, vercel]
 created: 2026-07-24
-updated: 2026-07-29T06:48:27.505Z
+updated: 2026-07-29T07:31:14.976Z
 started_at: 2026-07-28T08:09:03Z
 completed_at: null
-actual_ms: 3735000
+actual_ms: 4155000
 ---
 
 # E-014: Zero-config local board UI package

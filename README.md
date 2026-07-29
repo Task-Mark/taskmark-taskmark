@@ -26,12 +26,12 @@ Local interactive UI remains `npx taskmark serve` (Node standalone).
 <!-- taskmark:project-status:begin -->
 ## Project status
 
-_Last synced: 2026-07-29T06:52:22.867Z_
+_Last synced: 2026-07-29T10:28:25.703Z_
 
 | Metric | Value |
 |--------|-------|
-| Total work items | 359 |
-| Complete work items | 356 |
+| Total work items | 374 |
+| Complete work items | 360 |
 | Current speed | 337 (pts/week · 1 active weeks (90d)) |
 
 <!-- taskmark:project-status:end -->
@@ -39,22 +39,33 @@ _Last synced: 2026-07-29T06:52:22.867Z_
 <!-- taskmark:open-work:begin -->
 ## Open work items
 
-_Last synced: 2026-07-29T06:52:22.867Z_
+_Last synced: 2026-07-29T10:28:25.703Z_
 
 Stories, tasks, and bugs that are not done, cancelled, or blocked.
 
 | ID | Type | Title | Status | Size | Points | Parent |
 |----|------|-------|--------|------|--------|--------|
-| T-260 | task | Replace logo subtitle with product memory tagline | backlog | S | 2 | E-014 |
-| T-261 | task | Hide project selector in standalone serve mode | backlog | S | 2 | E-014 |
-| T-262 | task | Remove folder path references from board UI | backlog | M | 3 | E-014 |
+| S-085 | story | Multi-project version bump | backlog | XL | 13 | E-021 |
+| S-086 | story | Versioned README changelog with Development bucket | backlog | XL | 14 | E-021 |
+| S-087 | story | Human-readable changelog messages | backlog | L | 7 | E-021 |
+| T-264 | task | Discover current versions across linked projects | backlog | S | 2 | S-085 |
+| T-265 | task | Suggest semver bump from changes since last release | backlog | L | 5 | S-085 |
+| T-266 | task | Apply user or suggested version to packages | backlog | M | 3 | S-085 |
+| T-267 | task | Add create-version skill and command | backlog | M | 3 | S-085 |
+| T-268 | task | Replace commit-table README changelog with versioned sections | backlog | M | 3 | S-086 |
+| T-269 | task | Append ongoing changes under Development | backlog | M | 3 | S-086 |
+| T-270 | task | Promote Development to released version and clear it | backlog | L | 5 | S-086 |
+| T-271 | task | Wire Development logging into sync and complete-work | backlog | M | 3 | S-086 |
+| T-272 | task | Strip work-item IDs from changelog entry text | backlog | S | 2 | S-087 |
+| T-273 | task | Rewrite commits and board titles into end-user messages | backlog | M | 3 | S-087 |
+| T-274 | task | Document changelog wording conventions | backlog | S | 2 | S-087 |
 
 <!-- taskmark:open-work:end -->
 
 <!-- taskmark:changelog:begin -->
 ## Changelog
 
-_Last synced: 2026-07-29T06:52:22.867Z_
+_Last synced: 2026-07-29T10:28:25.703Z_
 
 Recent meaningful commits on this board repository (excludes sync / housekeeping).
 

@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 44
+points: 46
 points_source: rolled_up
-estimate_minutes: 620
-actual_minutes: 49
+estimate_minutes: 645
+actual_minutes: 50
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -29,10 +29,10 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, detail, sheet]
 created: 2026-07-21
-updated: 2026-07-29T06:48:27.505Z
+updated: 2026-07-29T07:31:14.976Z
 started_at: 2026-07-21T23:53:57Z
-completed_at: 2026-07-25T10:44:19Z
-actual_ms: 2979000
+completed_at: 2026-07-29T07:31:14Z
+actual_ms: 3023000
 ---
 
 # E-005: View work item
@@ -82,6 +82,7 @@ Let users open any work item (epic, user story, or task) in a dedicated view mod
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| — | Marco Mendão | 2026-07-29T07:31:14Z | 2026-07-29T07:31:14Z | Parent rollup: B-014 done; children hold billable time |
 | 1 | Marco Mendão | 2026-07-21T23:53:57Z | 2026-07-21T23:53:57Z | Delivered as part of E-005; shared-batch: 0ms rollup (children hold allocation) |
 | 1 | Marco Mendão | 2026-07-21T23:53:57Z | 2026-07-21T23:56:38Z | Implemented work item detail sheets (S-018–S-022) |
 
@@ -93,3 +94,4 @@ Let users open any work item (epic, user story, or task) in a dedicated view mod
 - [x] [T-159](items/T-159-materialized-detail-sheet-route.md) — Materialized detail sheet route with back navigation
 - [x] [T-161](items/T-161-in-sheet-back-button.md) — In-sheet back button for detail navigation
 - [x] [B-007](items/B-007-sheet-resolve-cross-project-id.md) — Sheet parent/breadcrumb cross-project id collision
+- [x] [B-014](items/B-014-sheet-provider-suspense-fallback.md) — Board crashes when WorkItemSheet Suspense falls back without provider

@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [plugin, init, npm]
 created: 2026-07-24
-updated: 2026-07-29T06:48:27.505Z
+updated: 2026-07-29T07:31:14.976Z
 started_at: 2026-07-28T08:31:48Z
 completed_at: 2026-07-28T08:36:30Z
 actual_ms: 31333
