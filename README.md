@@ -26,7 +26,7 @@ Local interactive UI remains `npx taskmark serve` (Node standalone).
 <!-- taskmark:project-status:begin -->
 ## Project status
 
-_Last synced: 2026-07-29T10:28:25.703Z_
+_Last synced: 2026-07-29T10:28:54.139Z_
 
 | Metric | Value |
 |--------|-------|
@@ -39,7 +39,7 @@ _Last synced: 2026-07-29T10:28:25.703Z_
 <!-- taskmark:open-work:begin -->
 ## Open work items
 
-_Last synced: 2026-07-29T10:28:25.703Z_
+_Last synced: 2026-07-29T10:28:54.139Z_
 
 Stories, tasks, and bugs that are not done, cancelled, or blocked.
 
@@ -65,12 +65,13 @@ Stories, tasks, and bugs that are not done, cancelled, or blocked.
 <!-- taskmark:changelog:begin -->
 ## Changelog
 
-_Last synced: 2026-07-29T10:28:25.703Z_
+_Last synced: 2026-07-29T10:28:54.139Z_
 
 Recent meaningful commits on this board repository (excludes sync / housekeeping).
 
 | Date (UTC) | SHA | Author | Message |
 |------------|-----|--------|---------|
+| 2026-07-29 | `8b5fdb3` | Marco Mendão | add e-021 version generator and b-014 |
 | 2026-07-28 | `5615050` | Marco Mendão | fix B-009 vercel ui production dep |
 | 2026-07-28 | `2ff359c` | Marco Mendão | add vercel node board deploy stubs |
 | 2026-07-28 | `31a2da5` | Marco Mendão | add e-019 documentation epic |
