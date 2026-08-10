@@ -56,6 +56,7 @@ Board stubs currently map `dev` to `taskmark serve` (production standalone). Add
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 61a5097 | taskmark-taskmark | 2026-08-10T16:09:57+01:00 | Marco Mendão | sync taskmark board |
 | 4db830e | taskmark-frontend | 2026-08-10T15:09:00Z | Marco Mendão | fix serve packaging and add taskmark dev |
 | ac89ac0 | taskmark-cursor | 2026-08-10T15:09:00Z | Marco Mendão | point board stub dev at taskmark dev |
 

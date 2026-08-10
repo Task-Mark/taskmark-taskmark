@@ -86,6 +86,7 @@ Ship Taskmark’s web UI so a developer can open a local board with `npx taskmar
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 61a5097 | taskmark-taskmark | 2026-08-10T16:09:57+01:00 | Marco Mendão | sync taskmark board |
 | 4db830e | taskmark-frontend | 2026-08-10T15:09:00Z | Marco Mendão | fix serve packaging and add taskmark dev |
 | ac89ac0 | taskmark-cursor | 2026-08-10T15:09:00Z | Marco Mendão | point board stub dev at taskmark dev |
 | d220a7b | taskmark-frontend | 2026-07-29T06:51:55Z | Marco Mendão | add static board build and preview |
