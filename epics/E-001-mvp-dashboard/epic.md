@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 36
+points: 38
 points_source: rolled_up
-estimate_minutes: 1290
-actual_minutes: 926
+estimate_minutes: 1315
+actual_minutes: 927
 estimate_basis: [sum:children]
 session_cap_minutes: 480
 parent: null
@@ -28,10 +28,10 @@ blocked: false
 cancelled: false
 tags: [mvp, dashboard, frontend]
 created: 2026-07-21
-updated: 2026-07-29T07:31:14.976Z
+updated: 2026-07-29T11:30:07.936Z
 started_at: 2026-07-21T16:35:18Z
-completed_at: 2026-07-27T05:16:43Z
-actual_ms: 55585000
+completed_at: 2026-07-29T10:31:45Z
+actual_ms: 55632000
 estimate_source: rolled_up
 ---
 # E-001: MVP Taskmark dashboard
@@ -87,4 +87,5 @@ Ship an MVP dashboard that reads Taskmark markdown boards from a local **master 
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| — | Marco Mendão | 2026-07-29T10:31:45Z | 2026-07-29T10:31:45Z | Parent rollup: T-275 done |
 | 1 | Marco Mendão | 2026-07-21T09:42:25Z | 2026-07-21T17:02:25Z | auto-backfilled: rollup from children (missing/under-logged) |

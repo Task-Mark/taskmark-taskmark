@@ -4,13 +4,13 @@ type: story
 title: App bar project switcher
 status: done
 priority: high
-size: L
+size: XL
 size_source: rolled_up
 size_basis: [sum:tasks]
-points: 12
+points: 14
 points_source: rolled_up
-estimate_minutes: 540
-actual_minutes: 513
+estimate_minutes: 565
+actual_minutes: 514
 estimate_basis: [sum:tasks]
 session_cap_minutes: 480
 parent: E-001
@@ -28,10 +28,10 @@ blocked: false
 cancelled: false
 tags: [mvp, app-bar, navigation]
 created: 2026-07-21
-updated: 2026-07-29T07:31:14.976Z
+updated: 2026-07-29T11:30:07.936Z
 started_at: 2026-07-21T16:59:31Z
-completed_at: 2026-07-27T05:16:43Z
-actual_ms: 30797000
+completed_at: 2026-07-29T10:31:45Z
+actual_ms: 30844000
 ---
 
 # S-003: App bar project switcher
@@ -50,6 +50,8 @@ As a user, after I set up a master folder, I want an app bar that lets me switch
 - [x] User can still change the master folder from the app bar (setup).
 
 ## Tasks
+
+- [x] [T-275: Align website header brand with frontend app bar](items/T-275-align-appbar-brand-with-website.md)
 
 - [B-008: Brand logo sits flush against app bar bottom border](items/B-008-brand-logo-flush-header-border.md)
 
@@ -75,5 +77,6 @@ As a user, after I set up a master folder, I want an app bar that lets me switch
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| — | Marco Mendão | 2026-07-29T10:31:45Z | 2026-07-29T10:31:45Z | Parent rollup: T-275 done |
 | 1 | Marco Mendão | 2026-07-21T16:59:31Z | 2026-07-21T16:59:31Z | App bar project switcher shipped; shared-batch: 0min rollup (children hold allocation) |
 | 2 | Marco Mendão | 2026-07-21T16:59:31Z | 2026-07-21T17:11:35Z | auto-recovered: commit span; shared-batch: 0min rollup (children hold allocation) |

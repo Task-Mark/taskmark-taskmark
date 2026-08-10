@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli]
 created: 2026-07-24
-updated: 2026-07-29T07:31:14.976Z
+updated: 2026-07-29T11:30:07.936Z
 started_at: 2026-07-28T08:31:48Z
 completed_at: 2026-07-28T08:36:30Z
 actual_ms: 47000

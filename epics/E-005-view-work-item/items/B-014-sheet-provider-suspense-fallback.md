@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, sheet, suspense, bug]
 created: 2026-07-29
-updated: 2026-07-29T10:28:54Z
+updated: 2026-07-29T11:30:07.936Z
 started_at: 2026-07-29T07:30:00Z
 completed_at: 2026-07-29T07:30:44Z
 actual_ms: 44000

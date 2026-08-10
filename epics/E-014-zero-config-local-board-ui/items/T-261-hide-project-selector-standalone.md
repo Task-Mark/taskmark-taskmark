@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [frontend, ui, serve, standalone]
 created: 2026-07-29
-updated: 2026-07-29T07:31:14.976Z
+updated: 2026-07-29T11:30:07.936Z
 started_at: 2026-07-29T07:08:36Z
 completed_at: 2026-07-29T07:13:00Z
 actual_ms: 120000

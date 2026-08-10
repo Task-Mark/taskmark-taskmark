@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [cli, build, static, packaging]
 created: 2026-07-29
-updated: 2026-07-29T07:31:14.976Z
+updated: 2026-07-29T11:30:07.936Z
 started_at: 2026-07-29T06:20:00Z
 completed_at: 2026-07-29T06:31:30Z
 actual_ms: 690000

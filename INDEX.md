@@ -1,12 +1,12 @@
 # Board index
 
-Last synced: 2026-07-29T07:31:15.238Z
+Last synced: 2026-07-29T11:30:08.385Z
 
 ## Epics
 
 | ID | Title | Status | Size | Points | Est (min) | Actual (min) | Path |
 |----|-------|--------|------|--------|-----------|--------------|------|
-| E-001 | MVP Taskmark dashboard | done | — | 36 | 1290 | 926 | [epic.md](epics/E-001-mvp-dashboard/epic.md) |
+| E-001 | MVP Taskmark dashboard | done | — | 38 | 1315 | 927 | [epic.md](epics/E-001-mvp-dashboard/epic.md) |
 | E-002 | User stories view | done | — | 11 | 1265 | 831 | [epic.md](epics/E-002-user-stories-view/epic.md) |
 | E-003 | Refactor Taskmark project structure | done | — | 31 | 443 | 496 | [epic.md](epics/E-003-refactor-taskmark-project-structure/epic.md) |
 | E-004 | Refactor speed and estimation | done | — | 52 | 682 | 688 | [epic.md](epics/E-004-refactor-speed-and-estimation/epic.md) |
@@ -34,7 +34,7 @@ Last synced: 2026-07-29T07:31:15.238Z
 |----|-------|------|--------|------|--------|-----------|--------------|------|
 | S-001 | Project setup wizard | E-001 | done | XL | 13 | 115 | 206 | [story.md](epics/E-001-mvp-dashboard/stories/S-001-project-setup-wizard/story.md) |
 | S-002 | Epic list for selected project | E-001 | done | L | 8 | 155 | 159 | [story.md](epics/E-001-mvp-dashboard/stories/S-002-epic-list/story.md) |
-| S-003 | App bar project switcher | E-001 | done | L | 12 | 540 | 513 | [story.md](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/story.md) |
+| S-003 | App bar project switcher | E-001 | done | XL | 14 | 565 | 514 | [story.md](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/story.md) |
 | S-004 | Add project accumulates workspaces | E-001 | done | M | 3 | 480 | 48 | [story.md](epics/E-001-mvp-dashboard/stories/S-004-add-project-accumulate/story.md) |
 | S-005 | Story list for selected epic | E-002 | done | S | 3 | 45 | 48 | [story.md](epics/E-002-user-stories-view/stories/S-005-story-list-for-epic/story.md) |
 | S-006 | Task list for selected story | E-002 | done | L | 8 | 1220 | 783 | [story.md](epics/E-002-user-stories-view/stories/S-006-task-list-for-story/story.md) |
@@ -415,3 +415,4 @@ Last synced: 2026-07-29T07:31:15.238Z
 | T-272 | Strip work-item IDs from changelog entry text | S-087 | backlog | S | 2 | 25 | 0 | [T-272](epics/E-021-new-version-generator/stories/S-087-human-readable-changelog-messages/items/T-272-strip-work-item-ids.md) |
 | T-273 | Rewrite commits and board titles into end-user messages | S-087 | backlog | M | 3 | 35 | 0 | [T-273](epics/E-021-new-version-generator/stories/S-087-human-readable-changelog-messages/items/T-273-rewrite-end-user-messages.md) |
 | T-274 | Document changelog wording conventions | S-087 | backlog | S | 2 | 25 | 0 | [T-274](epics/E-021-new-version-generator/stories/S-087-human-readable-changelog-messages/items/T-274-document-changelog-wording.md) |
+| T-275 | Align website header brand with frontend app bar | S-003 | done | S | 2 | 25 | 0 | [T-275](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/items/T-275-align-appbar-brand-with-website.md) |

@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm, local, vercel]
 created: 2026-07-24
-updated: 2026-07-29T07:31:14.976Z
+updated: 2026-07-29T11:30:07.936Z
 started_at: 2026-07-28T08:09:03Z
 completed_at: null
 actual_ms: 4155000
@@ -79,11 +79,15 @@ Ship Taskmark’s web UI so a developer can open a local board with `npx taskmar
 - [T-261: Hide project selector in standalone serve mode](items/T-261-hide-project-selector-standalone.md)
 - [T-262: Remove folder path references from board UI](items/T-262-remove-folder-paths-from-ui.md)
 - [T-263: Add package.json preview script to serve static out/](items/T-263-preview-static-out.md)
+- [B-015: taskmark serve fails: Cannot find module './cpu-profile'](items/B-015-serve-missing-cpu-profile.md)
+- [T-276: Add taskmark dev with board markdown live reload](items/T-276-taskmark-dev-md-reload.md)
 
 ## Commits
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 4db830e | taskmark-frontend | 2026-08-10T15:09:00Z | Marco Mendão | fix serve packaging and add taskmark dev |
+| ac89ac0 | taskmark-cursor | 2026-08-10T15:09:00Z | Marco Mendão | point board stub dev at taskmark dev |
 | d220a7b | taskmark-frontend | 2026-07-29T06:51:55Z | Marco Mendão | add static board build and preview |
 | 81dda43 | taskmark-cursor | 2026-07-29T06:51:55Z | Marco Mendão | add board preview and static hosting stubs |
 | 6f9db22 | taskmark-taskmark | 2026-07-29T06:51:56Z | Marco Mendão | sync taskmark board |

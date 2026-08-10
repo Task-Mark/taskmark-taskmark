@@ -26,7 +26,7 @@ blocked: false
 cancelled: false
 tags: [release, versioning, changelog, readme, plugin]
 created: 2026-07-29
-updated: 2026-07-29T07:31:14.976Z
+updated: 2026-07-29T11:30:07.936Z
 started_at: null
 completed_at: null
 actual_ms: 0
