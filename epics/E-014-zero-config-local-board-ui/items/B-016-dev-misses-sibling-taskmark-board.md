@@ -61,6 +61,7 @@ In a multi-git workspace, running `yarn dev` / `taskmark dev` from a product rep
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| b08f8ab | taskmark-taskmark | 2026-08-10T17:04:20+01:00 | Marco Mendão | sync taskmark board |
 | bd7d5b4 | taskmark-frontend | 2026-08-10T17:04:19+01:00 | Marco Mendão | resolve sibling taskmark board from product cwd |
 
 ## Work log
