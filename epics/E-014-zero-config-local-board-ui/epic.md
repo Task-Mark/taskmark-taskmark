@@ -81,11 +81,13 @@ Ship Taskmark’s web UI so a developer can open a local board with `npx taskmar
 - [T-263: Add package.json preview script to serve static out/](items/T-263-preview-static-out.md)
 - [B-015: taskmark serve fails: Cannot find module './cpu-profile'](items/B-015-serve-missing-cpu-profile.md)
 - [T-276: Add taskmark dev with board markdown live reload](items/T-276-taskmark-dev-md-reload.md)
+- [B-016: taskmark dev from product repo misses sibling *-taskmark board](items/B-016-dev-misses-sibling-taskmark-board.md)
 
 ## Commits
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| bd7d5b4 | taskmark-frontend | 2026-08-10T17:04:19+01:00 | Marco Mendão | resolve sibling taskmark board from product cwd |
 | 61a5097 | taskmark-taskmark | 2026-08-10T16:09:57+01:00 | Marco Mendão | sync taskmark board |
 | 4db830e | taskmark-frontend | 2026-08-10T15:09:00Z | Marco Mendão | fix serve packaging and add taskmark dev |
 | ac89ac0 | taskmark-cursor | 2026-08-10T15:09:00Z | Marco Mendão | point board stub dev at taskmark dev |

@@ -33,11 +33,11 @@ Local interactive UI remains `npx taskmark serve` (Node standalone).
 <!-- taskmark:project-status:begin -->
 ## Project status
 
-_Last synced: 2026-08-10T15:09:57.660Z_
+_Last synced: 2026-08-10T16:04:19.896Z_
 
 | Metric | Value |
 |--------|-------|
-| Total work items | 377 |
+| Total work items | 378 |
 | Complete work items | 361 |
 | Current speed | 325 (pts/week · 2 active weeks (90d)) |
 
@@ -46,13 +46,14 @@ _Last synced: 2026-08-10T15:09:57.660Z_
 <!-- taskmark:open-work:begin -->
 ## Open work items
 
-_Last synced: 2026-08-10T15:09:57.660Z_
+_Last synced: 2026-08-10T16:04:19.896Z_
 
 Stories, tasks, and bugs that are not done, cancelled, or blocked.
 
 | ID | Type | Title | Status | Size | Points | Parent |
 |----|------|-------|--------|------|--------|--------|
 | B-015 | bug | "taskmark serve fails: Cannot find module './cpu-profile'" | backlog | M | 3 | E-014 |
+| B-016 | bug | "taskmark dev from product repo misses sibling *-taskmark board" | backlog | S | 2 | E-014 |
 | S-085 | story | Multi-project version bump | backlog | XL | 13 | E-021 |
 | S-086 | story | Versioned README changelog with Development bucket | backlog | XL | 14 | E-021 |
 | S-087 | story | Human-readable changelog messages | backlog | L | 7 | E-021 |
@@ -74,7 +75,7 @@ Stories, tasks, and bugs that are not done, cancelled, or blocked.
 <!-- taskmark:changelog:begin -->
 ## Changelog
 
-_Last synced: 2026-08-10T15:09:57.660Z_
+_Last synced: 2026-08-10T16:04:19.896Z_
 
 Recent meaningful commits on this board repository (excludes sync / housekeeping).
 
