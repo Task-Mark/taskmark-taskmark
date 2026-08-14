@@ -67,6 +67,8 @@ Default command is internal `auto`: resolve board → bound `serve`, else worksp
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 51b972b | taskmark-frontend | 2026-08-14T17:52:38Z | Marco Mendão | add smart workspace and local board launch |
+| 4f027b0 | taskmark-taskmark | 2026-08-14T17:52:41Z | Marco Mendão | sync taskmark board |
 
 ## Work log
 

@@ -73,6 +73,8 @@ Verified with two dev servers: bound on :9101 redirected to `/board` with no `pr
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 51b972b | taskmark-frontend | 2026-08-14T17:52:38Z | Marco Mendão | add smart workspace and local board launch |
+| 4f027b0 | taskmark-taskmark | 2026-08-14T17:52:41Z | Marco Mendão | sync taskmark board |
 
 ## Work log
 
