@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, sheet, detail, routing]
 created: 2026-07-25
-updated: 2026-07-29T11:30:07.936Z
+updated: 2026-08-14T17:50:46.835Z
 started_at: 2026-07-25T10:23:49Z
 completed_at: 2026-07-25T10:24:34Z
 actual_ms: 45000

@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-07-29T11:30:08.385Z
+Last synced: 2026-08-14T17:50:47.066Z
 
 ## Epics
 
@@ -19,7 +19,7 @@ Last synced: 2026-07-29T11:30:08.385Z
 | E-011 | Git identity contributors and avatars | done | — | 33 | 515 | 8 | [epic.md](epics/E-011-git-identity-contributors/epic.md) |
 | E-012 | Timeframe filters for solved work items | done | — | 39 | 545 | 15 | [epic.md](epics/E-012-timeframe-filters/epic.md) |
 | E-013 | Table sort functionalities | done | — | 21 | 305 | 2 | [epic.md](epics/E-013-table-sort-functionalities/epic.md) |
-| E-014 | Zero-config local board UI package | in_progress | — | 61 | 525 | 69 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
+| E-014 | Zero-config local board UI package | in_progress | — | 74 | 649 | 1036 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
 | E-015 | Project status metrics | done | — | 40 | 550 | 12 | [epic.md](epics/E-015-project-status-metrics/epic.md) |
 | E-016 | README project status and changelog | done | — | 19 | 5 | 7 | [epic.md](epics/E-016-readme-project-status-and-changelog/epic.md) |
 | E-017 | Taskmark website base Next.js project | done | — | 20 | 285 | 3 | [epic.md](epics/E-017-taskmark-website-base/epic.md) |

@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [frontend, metrics, speed, points]
 created: 2026-07-27
-updated: 2026-07-29T11:30:07.936Z
+updated: 2026-08-14T17:50:46.835Z
 started_at: 2026-07-27T07:09:00Z
 completed_at: 2026-07-27T07:09:18Z
 actual_ms: 18000

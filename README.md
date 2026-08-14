@@ -33,12 +33,12 @@ Local interactive UI remains `npx taskmark serve` (Node standalone).
 <!-- taskmark:project-status:begin -->
 ## Project status
 
-_Last synced: 2026-08-14T16:24:43.805Z_
+_Last synced: 2026-08-14T17:52:40.802Z_
 
 | Metric | Value |
 |--------|-------|
-| Total work items | 378 |
-| Complete work items | 361 |
+| Total work items | 380 |
+| Complete work items | 363 |
 | Current speed | 325 (pts/week · 2 active weeks (90d)) |
 
 <!-- taskmark:project-status:end -->
@@ -46,7 +46,7 @@ _Last synced: 2026-08-14T16:24:43.805Z_
 <!-- taskmark:open-work:begin -->
 ## Open work items
 
-_Last synced: 2026-08-14T16:24:43.805Z_
+_Last synced: 2026-08-14T17:52:40.802Z_
 
 Stories, tasks, and bugs that are not done, cancelled, or blocked.
 
@@ -75,7 +75,7 @@ Stories, tasks, and bugs that are not done, cancelled, or blocked.
 <!-- taskmark:changelog:begin -->
 ## Changelog
 
-_Last synced: 2026-08-14T16:24:43.805Z_
+_Last synced: 2026-08-14T17:52:40.802Z_
 
 Recent meaningful commits on this board repository (excludes sync / housekeeping).
 

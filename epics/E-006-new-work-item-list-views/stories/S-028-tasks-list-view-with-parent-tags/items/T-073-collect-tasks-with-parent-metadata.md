@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [data, frontend, views, tasks]
 created: 2026-07-22
-updated: 2026-07-29T11:30:07.936Z
+updated: 2026-08-14T17:50:46.835Z
 started_at: 2026-07-23T06:38:57Z
 completed_at: 2026-07-23T06:39:10Z
 actual_ms: 13000

@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [website, landing, frontend]
 created: 2026-07-28
-updated: 2026-07-29T11:30:07.936Z
+updated: 2026-08-14T17:50:46.835Z
 started_at: 2026-07-28T07:17:59Z
 completed_at: 2026-07-28T07:23:05Z
 actual_ms: 16126

@@ -7,10 +7,10 @@ priority: high
 size: null
 size_source: rolled_up
 size_basis: [sum:children]
-points: 61
+points: 74
 points_source: rolled_up
-estimate_minutes: 525
-actual_minutes: 69
+estimate_minutes: 649
+actual_minutes: 1036
 estimate_source: rolled_up
 estimate_basis: [sum:children]
 session_cap_minutes: 480
@@ -29,10 +29,10 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm, local, vercel]
 created: 2026-07-24
-updated: 2026-07-29T11:30:07.936Z
+updated: 2026-08-14T17:50:46.835Z
 started_at: 2026-07-28T08:09:03Z
 completed_at: null
-actual_ms: 4155000
+actual_ms: 62217000
 ---
 
 # E-014: Zero-config local board UI package
@@ -82,6 +82,8 @@ Ship Taskmark’s web UI so a developer can open a local board with `npx taskmar
 - [B-015: taskmark serve fails: Cannot find module './cpu-profile'](items/B-015-serve-missing-cpu-profile.md)
 - [T-276: Add taskmark dev with board markdown live reload](items/T-276-taskmark-dev-md-reload.md)
 - [B-016: taskmark dev from product repo misses sibling *-taskmark board](items/B-016-dev-misses-sibling-taskmark-board.md)
+- [T-277: Global taskmark workspace mode with project picker](items/T-277-workspace-mode-project-picker.md)
+- [T-278: Smart default — global setup vs local board bind](items/T-278-smart-default-global-vs-local.md)
 
 ## Commits
 

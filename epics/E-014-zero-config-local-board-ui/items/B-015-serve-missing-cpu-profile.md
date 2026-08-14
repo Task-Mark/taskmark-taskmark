@@ -9,10 +9,10 @@ size_source: suggested
 size_basis: [B-012]
 points: 3
 points_source: suggested
-estimate_minutes: 42
-actual_minutes: 0
+estimate_minutes: 35
+actual_minutes: 480
 estimate_source: suggested
-estimate_basis: [speed:90d:14min/pt]
+estimate_basis: [speed:90d:12min/pt]
 session_cap_minutes: 480
 parent: E-014
 epic: E-014
@@ -26,11 +26,11 @@ blocked: false
 cancelled: false
 tags: [packaging, next, serve, npm]
 created: 2026-08-10
-updated: 2026-08-10T15:09:30Z
+updated: 2026-08-14T17:50:46.835Z
 started_at: 2026-08-10T14:31:05Z
 completed_at: null
+actual_ms: 28800000
 ---
-
 # B-015: taskmark serve fails: Cannot find module './cpu-profile'
 
 ## Description

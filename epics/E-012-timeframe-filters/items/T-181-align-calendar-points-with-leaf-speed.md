@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [filters, timeframe, calendar, metrics, points]
 created: 2026-07-27
-updated: 2026-07-29T11:30:07.936Z
+updated: 2026-08-14T17:50:46.835Z
 started_at: 2026-07-27T07:02:34Z
 completed_at: 2026-07-27T07:03:33Z
 actual_ms: 59000

@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [frontend, local, config]
 created: 2026-07-24
-updated: 2026-07-29T11:30:07.936Z
+updated: 2026-08-14T17:50:46.835Z
 started_at: 2026-07-28T08:09:03Z
 completed_at: 2026-07-28T08:21:03Z
 actual_ms: 240000

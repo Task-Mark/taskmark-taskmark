@@ -9,10 +9,10 @@ size_source: suggested
 size_basis: [T-150]
 points: 2
 points_source: suggested
-estimate_minutes: 28
-actual_minutes: 0
+estimate_minutes: 25
+actual_minutes: 480
 estimate_source: suggested
-estimate_basis: [speed:90d:14min/pt]
+estimate_basis: [speed:90d:12min/pt]
 session_cap_minutes: 480
 parent: E-014
 epic: E-014
@@ -26,11 +26,11 @@ blocked: false
 cancelled: false
 tags: [cli, board-resolution, multi-repo]
 created: 2026-08-10
-updated: 2026-08-10T16:02:29Z
+updated: 2026-08-14T17:50:46.835Z
 started_at: 2026-08-10T16:02:29Z
 completed_at: null
+actual_ms: 28800000
 ---
-
 # B-016: taskmark dev from product repo misses sibling *-taskmark board
 
 ## Description

@@ -26,7 +26,7 @@ blocked: false
 cancelled: true
 tags: [deploy, vercel, board, serve]
 created: 2026-07-28
-updated: 2026-07-29T11:30:07.936Z
+updated: 2026-08-14T17:50:46.835Z
 started_at: 2026-07-28T15:23:18Z
 completed_at: null
 actual_ms: 0
