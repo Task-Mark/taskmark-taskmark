@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [vercel, npm, packaging, board]
 created: 2026-07-28
-updated: 2026-08-14T17:50:46.835Z
+updated: 2026-08-17T08:03:41.619Z
 started_at: 2026-07-28T19:06:10Z
 completed_at: 2026-07-28T19:13:32Z
 actual_ms: 442000
 ---
+
 # B-009: @taskmark/ui must be a production dependency for Vercel
 
 ## Description

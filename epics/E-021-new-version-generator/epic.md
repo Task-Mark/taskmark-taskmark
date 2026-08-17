@@ -9,7 +9,7 @@ size_source: rolled_up
 size_basis: [sum:children]
 points: 34
 points_source: rolled_up
-estimate_minutes: 405
+estimate_minutes: 340
 actual_minutes: 0
 estimate_source: rolled_up
 estimate_basis: [sum:children]
@@ -26,12 +26,11 @@ blocked: false
 cancelled: false
 tags: [release, versioning, changelog, readme, plugin]
 created: 2026-07-29
-updated: 2026-08-14T17:50:46.835Z
+updated: 2026-08-17T08:03:41.619Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
-
 # E-021: New version generator
 
 ## Goal

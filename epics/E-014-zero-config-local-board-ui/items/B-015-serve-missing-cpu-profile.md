@@ -9,10 +9,10 @@ size_source: suggested
 size_basis: [B-012]
 points: 3
 points_source: suggested
-estimate_minutes: 35
+estimate_minutes: 30
 actual_minutes: 480
 estimate_source: suggested
-estimate_basis: [speed:90d:12min/pt]
+estimate_basis: [speed:90d:10min/pt]
 session_cap_minutes: 480
 parent: E-014
 epic: E-014
@@ -26,7 +26,7 @@ blocked: false
 cancelled: false
 tags: [packaging, next, serve, npm]
 created: 2026-08-10
-updated: 2026-08-14T17:50:46.835Z
+updated: 2026-08-17T08:03:41.619Z
 started_at: 2026-08-10T14:31:05Z
 completed_at: null
 actual_ms: 28800000

@@ -9,7 +9,7 @@ size_source: rolled_up
 size_basis: [sum:tasks]
 points: 13
 points_source: rolled_up
-estimate_minutes: 155
+estimate_minutes: 130
 actual_minutes: 0
 estimate_source: suggested
 estimate_basis: [sum:tasks]
@@ -26,12 +26,11 @@ blocked: false
 cancelled: false
 tags: [release, versioning, changelog, readme, plugin]
 created: 2026-07-29
-updated: 2026-08-14T17:50:46.835Z
+updated: 2026-08-17T08:03:41.619Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
-
 # S-085: Multi-project version bump
 
 ## User story

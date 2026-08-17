@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [packaging, next, publish]
 created: 2026-07-29
-updated: 2026-08-14T17:50:46.835Z
+updated: 2026-08-17T08:03:41.619Z
 started_at: 2026-07-29T06:32:00Z
 completed_at: 2026-07-29T06:33:57Z
 actual_ms: 117000
 ---
+
 # B-012: npm publish prepack fails: Turbopack vs webpack config
 
 ## Description

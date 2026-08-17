@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm]
 created: 2026-07-28
-updated: 2026-08-14T17:50:46.835Z
+updated: 2026-08-17T08:03:41.619Z
 started_at: 2026-07-28T09:07:14Z
 completed_at: 2026-07-28T09:10:14Z
 actual_ms: 180000
 ---
+
 # T-241: Publish local UI as scoped package @taskmark/ui
 
 ## Description

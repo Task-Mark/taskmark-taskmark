@@ -28,12 +28,13 @@ blocked: false
 cancelled: false
 tags: [mvp, dashboard, frontend]
 created: 2026-07-21
-updated: 2026-08-14T17:50:46.835Z
+updated: 2026-08-17T08:03:41.619Z
 started_at: 2026-07-21T16:35:18Z
 completed_at: 2026-07-29T10:31:45Z
 actual_ms: 55632000
 estimate_source: rolled_up
 ---
+
 # E-001: MVP Taskmark dashboard
 
 ## Goal

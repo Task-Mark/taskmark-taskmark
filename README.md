@@ -33,20 +33,20 @@ Local interactive UI remains `npx taskmark serve` (Node standalone).
 <!-- taskmark:project-status:begin -->
 ## Project status
 
-_Last synced: 2026-08-14T17:53:03.738Z_
+_Last synced: 2026-08-17T09:57:22.955Z_
 
 | Metric | Value |
 |--------|-------|
-| Total work items | 380 |
-| Complete work items | 363 |
-| Current speed | 325 (pts/week · 2 active weeks (90d)) |
+| Total work items | 383 |
+| Complete work items | 366 |
+| Current speed | 218.3 (pts/week · 3 active weeks (90d)) |
 
 <!-- taskmark:project-status:end -->
 
 <!-- taskmark:open-work:begin -->
 ## Open work items
 
-_Last synced: 2026-08-14T17:53:03.738Z_
+_Last synced: 2026-08-17T09:57:22.955Z_
 
 Stories, tasks, and bugs that are not done, cancelled, or blocked.
 
@@ -75,12 +75,13 @@ Stories, tasks, and bugs that are not done, cancelled, or blocked.
 <!-- taskmark:changelog:begin -->
 ## Changelog
 
-_Last synced: 2026-08-14T17:53:03.738Z_
+_Last synced: 2026-08-17T09:57:22.955Z_
 
 Recent meaningful commits on this board repository (excludes sync / housekeeping).
 
 | Date (UTC) | SHA | Author | Message |
 |------------|-----|--------|---------|
+| 2026-08-14 | `15539416` | Marco Mendão | sync taskmark repos |
 | 2026-07-29 | `8b5fdb35` | Marco Mendão | add e-021 version generator and b-014 |
 | 2026-07-28 | `5615050f` | Marco Mendão | fix B-009 vercel ui production dep |
 | 2026-07-28 | `2ff359ca` | Marco Mendão | add vercel node board deploy stubs |

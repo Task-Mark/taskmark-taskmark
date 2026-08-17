@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [website, branding, favicon, seo]
 created: 2026-07-28
-updated: 2026-08-14T17:50:46.835Z
+updated: 2026-08-17T08:03:41.619Z
 started_at: 2026-07-28T14:47:21Z
 completed_at: 2026-07-28T15:18:30Z
 actual_ms: 972000
 ---
+
 # T-255: Website favicon, metadata, and SEO parity
 
 ## Description

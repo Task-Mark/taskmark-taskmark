@@ -28,11 +28,12 @@ blocked: false
 cancelled: false
 tags: [plugin, conventions, migration, multi-repo]
 created: 2026-07-21
-updated: 2026-08-14T17:50:46.835Z
+updated: 2026-08-17T08:03:41.619Z
 started_at: 2026-07-21T22:34:16Z
 completed_at: 2026-07-21T22:36:51Z
 actual_ms: 11520000
 ---
+
 # S-010: Migrate plugin tooling to new layout
 
 ## User story

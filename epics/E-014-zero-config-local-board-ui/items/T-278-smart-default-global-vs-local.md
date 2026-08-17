@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [frontend, cli, workspace, packaging]
 created: 2026-08-14
-updated: 2026-08-14T17:50:46.835Z
+updated: 2026-08-17T08:03:41.619Z
 started_at: 2026-08-14T17:49:09Z
 completed_at: 2026-08-14T17:50:33Z
 actual_ms: 84000
 ---
+
 # T-278: Smart default — global setup vs local board bind
 
 ## Description

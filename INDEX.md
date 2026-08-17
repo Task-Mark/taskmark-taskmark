@@ -1,6 +1,6 @@
 # Board index
 
-Last synced: 2026-08-14T17:50:47.066Z
+Last synced: 2026-08-17T08:03:41.752Z
 
 ## Epics
 
@@ -19,14 +19,14 @@ Last synced: 2026-08-14T17:50:47.066Z
 | E-011 | Git identity contributors and avatars | done | — | 33 | 515 | 8 | [epic.md](epics/E-011-git-identity-contributors/epic.md) |
 | E-012 | Timeframe filters for solved work items | done | — | 39 | 545 | 15 | [epic.md](epics/E-012-timeframe-filters/epic.md) |
 | E-013 | Table sort functionalities | done | — | 21 | 305 | 2 | [epic.md](epics/E-013-table-sort-functionalities/epic.md) |
-| E-014 | Zero-config local board UI package | in_progress | — | 74 | 649 | 1036 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
+| E-014 | Zero-config local board UI package | in_progress | — | 82 | 656 | 1064 | [epic.md](epics/E-014-zero-config-local-board-ui/epic.md) |
 | E-015 | Project status metrics | done | — | 40 | 550 | 12 | [epic.md](epics/E-015-project-status-metrics/epic.md) |
 | E-016 | README project status and changelog | done | — | 19 | 5 | 7 | [epic.md](epics/E-016-readme-project-status-and-changelog/epic.md) |
 | E-017 | Taskmark website base Next.js project | done | — | 20 | 285 | 3 | [epic.md](epics/E-017-taskmark-website-base/epic.md) |
 | E-018 | Taskmark website landing page | done | — | 38 | 530 | 5 | [epic.md](epics/E-018-taskmark-website-landing-page/epic.md) |
 | E-019 | Taskmark product documentation | done | — | 58 | 765 | 13 | [epic.md](epics/E-019-taskmark-product-documentation/epic.md) |
 | E-020 | Favicon, metadata, and SEO | done | — | 37 | 480 | 23 | [epic.md](epics/E-020-favicon-metadata-and-seo/epic.md) |
-| E-021 | New version generator | backlog | — | 34 | 405 | 0 | [epic.md](epics/E-021-new-version-generator/epic.md) |
+| E-021 | New version generator | backlog | — | 34 | 340 | 0 | [epic.md](epics/E-021-new-version-generator/epic.md) |
 
 ## Stories
 
@@ -116,9 +116,9 @@ Last synced: 2026-08-14T17:50:47.066Z
 | S-082 | App metadata and SEO tags | E-020 | done | L | 8 | 110 | 0 | [story.md](epics/E-020-favicon-metadata-and-seo/stories/S-082-app-metadata-and-seo-tags/story.md) |
 | S-083 | Create Open Graph social images | E-020 | done | M | 7 | 100 | 0 | [story.md](epics/E-020-favicon-metadata-and-seo/stories/S-083-create-open-graph-images/story.md) |
 | S-084 | Wire Open Graph and Twitter cards | E-020 | done | M | 6 | 80 | 0 | [story.md](epics/E-020-favicon-metadata-and-seo/stories/S-084-wire-open-graph-twitter-cards/story.md) |
-| S-085 | Multi-project version bump | E-021 | backlog | XL | 13 | 155 | 0 | [story.md](epics/E-021-new-version-generator/stories/S-085-multi-project-version-bump/story.md) |
-| S-086 | Versioned README changelog with Development bucket | E-021 | backlog | XL | 14 | 165 | 0 | [story.md](epics/E-021-new-version-generator/stories/S-086-versioned-readme-changelog/story.md) |
-| S-087 | Human-readable changelog messages | E-021 | backlog | L | 7 | 85 | 0 | [story.md](epics/E-021-new-version-generator/stories/S-087-human-readable-changelog-messages/story.md) |
+| S-085 | Multi-project version bump | E-021 | backlog | XL | 13 | 130 | 0 | [story.md](epics/E-021-new-version-generator/stories/S-085-multi-project-version-bump/story.md) |
+| S-086 | Versioned README changelog with Development bucket | E-021 | backlog | XL | 14 | 140 | 0 | [story.md](epics/E-021-new-version-generator/stories/S-086-versioned-readme-changelog/story.md) |
+| S-087 | Human-readable changelog messages | E-021 | backlog | L | 7 | 70 | 0 | [story.md](epics/E-021-new-version-generator/stories/S-087-human-readable-changelog-messages/story.md) |
 
 ## Open work sessions
 
@@ -404,15 +404,23 @@ Last synced: 2026-08-14T17:50:47.066Z
 | B-013 | Static build CSS warnings from `first-child` arbitrary variant Tailwind class | E-014 | done | XS | 1 | 10 | 2 | [B-013](epics/E-014-zero-config-local-board-ui/items/B-013-css-first-child-lightning-warnings.md) |
 | B-014 | Board crashes when WorkItemSheet Suspense falls back without provider | E-005 | done | S | 2 | 25 | 0 | [B-014](epics/E-005-view-work-item/items/B-014-sheet-provider-suspense-fallback.md) |
 | T-263 | Add package.json preview script to serve static out/ | E-014 | done | M | 3 | 5 | 3 | [T-263](epics/E-014-zero-config-local-board-ui/items/T-263-preview-static-out.md) |
-| T-264 | Discover current versions across linked projects | S-085 | backlog | S | 2 | 25 | 0 | [T-264](epics/E-021-new-version-generator/stories/S-085-multi-project-version-bump/items/T-264-discover-project-versions.md) |
-| T-265 | Suggest semver bump from changes since last release | S-085 | backlog | L | 5 | 60 | 0 | [T-265](epics/E-021-new-version-generator/stories/S-085-multi-project-version-bump/items/T-265-suggest-semver-from-changes.md) |
-| T-266 | Apply user or suggested version to packages | S-085 | backlog | M | 3 | 35 | 0 | [T-266](epics/E-021-new-version-generator/stories/S-085-multi-project-version-bump/items/T-266-apply-version-to-packages.md) |
-| T-267 | Add create-version skill and command | S-085 | backlog | M | 3 | 35 | 0 | [T-267](epics/E-021-new-version-generator/stories/S-085-multi-project-version-bump/items/T-267-create-version-skill.md) |
-| T-268 | Replace commit-table README changelog with versioned sections | S-086 | backlog | M | 3 | 35 | 0 | [T-268](epics/E-021-new-version-generator/stories/S-086-versioned-readme-changelog/items/T-268-replace-commit-table-changelog.md) |
-| T-269 | Append ongoing changes under Development | S-086 | backlog | M | 3 | 35 | 0 | [T-269](epics/E-021-new-version-generator/stories/S-086-versioned-readme-changelog/items/T-269-append-development-notes.md) |
-| T-270 | Promote Development to released version and clear it | S-086 | backlog | L | 5 | 60 | 0 | [T-270](epics/E-021-new-version-generator/stories/S-086-versioned-readme-changelog/items/T-270-promote-development-on-release.md) |
-| T-271 | Wire Development logging into sync and complete-work | S-086 | backlog | M | 3 | 35 | 0 | [T-271](epics/E-021-new-version-generator/stories/S-086-versioned-readme-changelog/items/T-271-wire-development-logging.md) |
-| T-272 | Strip work-item IDs from changelog entry text | S-087 | backlog | S | 2 | 25 | 0 | [T-272](epics/E-021-new-version-generator/stories/S-087-human-readable-changelog-messages/items/T-272-strip-work-item-ids.md) |
-| T-273 | Rewrite commits and board titles into end-user messages | S-087 | backlog | M | 3 | 35 | 0 | [T-273](epics/E-021-new-version-generator/stories/S-087-human-readable-changelog-messages/items/T-273-rewrite-end-user-messages.md) |
-| T-274 | Document changelog wording conventions | S-087 | backlog | S | 2 | 25 | 0 | [T-274](epics/E-021-new-version-generator/stories/S-087-human-readable-changelog-messages/items/T-274-document-changelog-wording.md) |
+| T-264 | Discover current versions across linked projects | S-085 | backlog | S | 2 | 20 | 0 | [T-264](epics/E-021-new-version-generator/stories/S-085-multi-project-version-bump/items/T-264-discover-project-versions.md) |
+| T-265 | Suggest semver bump from changes since last release | S-085 | backlog | L | 5 | 50 | 0 | [T-265](epics/E-021-new-version-generator/stories/S-085-multi-project-version-bump/items/T-265-suggest-semver-from-changes.md) |
+| T-266 | Apply user or suggested version to packages | S-085 | backlog | M | 3 | 30 | 0 | [T-266](epics/E-021-new-version-generator/stories/S-085-multi-project-version-bump/items/T-266-apply-version-to-packages.md) |
+| T-267 | Add create-version skill and command | S-085 | backlog | M | 3 | 30 | 0 | [T-267](epics/E-021-new-version-generator/stories/S-085-multi-project-version-bump/items/T-267-create-version-skill.md) |
+| T-268 | Replace commit-table README changelog with versioned sections | S-086 | backlog | M | 3 | 30 | 0 | [T-268](epics/E-021-new-version-generator/stories/S-086-versioned-readme-changelog/items/T-268-replace-commit-table-changelog.md) |
+| T-269 | Append ongoing changes under Development | S-086 | backlog | M | 3 | 30 | 0 | [T-269](epics/E-021-new-version-generator/stories/S-086-versioned-readme-changelog/items/T-269-append-development-notes.md) |
+| T-270 | Promote Development to released version and clear it | S-086 | backlog | L | 5 | 50 | 0 | [T-270](epics/E-021-new-version-generator/stories/S-086-versioned-readme-changelog/items/T-270-promote-development-on-release.md) |
+| T-271 | Wire Development logging into sync and complete-work | S-086 | backlog | M | 3 | 30 | 0 | [T-271](epics/E-021-new-version-generator/stories/S-086-versioned-readme-changelog/items/T-271-wire-development-logging.md) |
+| T-272 | Strip work-item IDs from changelog entry text | S-087 | backlog | S | 2 | 20 | 0 | [T-272](epics/E-021-new-version-generator/stories/S-087-human-readable-changelog-messages/items/T-272-strip-work-item-ids.md) |
+| T-273 | Rewrite commits and board titles into end-user messages | S-087 | backlog | M | 3 | 30 | 0 | [T-273](epics/E-021-new-version-generator/stories/S-087-human-readable-changelog-messages/items/T-273-rewrite-end-user-messages.md) |
+| T-274 | Document changelog wording conventions | S-087 | backlog | S | 2 | 20 | 0 | [T-274](epics/E-021-new-version-generator/stories/S-087-human-readable-changelog-messages/items/T-274-document-changelog-wording.md) |
 | T-275 | Align website header brand with frontend app bar | S-003 | done | S | 2 | 25 | 0 | [T-275](epics/E-001-mvp-dashboard/stories/S-003-app-bar-project-switcher/items/T-275-align-appbar-brand-with-website.md) |
+| B-015 | taskmark serve fails: Cannot find module './cpu-profile' | E-014 | backlog | M | 3 | 30 | 480 | [B-015](epics/E-014-zero-config-local-board-ui/items/B-015-serve-missing-cpu-profile.md) |
+| B-016 | taskmark dev from product repo misses sibling *-taskmark board | E-014 | backlog | S | 2 | 20 | 480 | [B-016](epics/E-014-zero-config-local-board-ui/items/B-016-dev-misses-sibling-taskmark-board.md) |
+| T-276 | Add taskmark dev with board markdown live reload | E-014 | backlog | M | 3 | 30 | 0 | [T-276](epics/E-014-zero-config-local-board-ui/items/T-276-taskmark-dev-md-reload.md) |
+| T-277 | Global taskmark workspace mode with project picker | E-014 | done | M | 3 | 5 | 6 | [T-277](epics/E-014-zero-config-local-board-ui/items/T-277-workspace-mode-project-picker.md) |
+| T-278 | Smart default — global setup vs local board bind | E-014 | done | S | 2 | 24 | 1 | [T-278](epics/E-014-zero-config-local-board-ui/items/T-278-smart-default-global-vs-local.md) |
+| B-017 | npx taskmark runs an unrelated npm package instead of the board UI | E-014 | done | M | 3 | 5 | 7 | [B-017](epics/E-014-zero-config-local-board-ui/items/B-017-npx-taskmark-wrong-package.md) |
+| B-018 | ERR_TOO_MANY_REDIRECTS — serve the board at / instead of redirecting | E-014 | done | M | 3 | 10 | 9 | [B-018](epics/E-014-zero-config-local-board-ui/items/B-018-board-at-root-redirect-loop.md) |
+| B-019 | taskmark build leaves a static .next that serve then runs instead of the app | E-014 | done | S | 2 | 7 | 10 | [B-019](epics/E-014-zero-config-local-board-ui/items/B-019-static-build-clobbers-serve.md) |

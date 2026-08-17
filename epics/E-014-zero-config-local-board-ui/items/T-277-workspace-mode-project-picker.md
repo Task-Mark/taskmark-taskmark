@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [frontend, cli, workspace, multi-project]
 created: 2026-08-14
-updated: 2026-08-14T17:50:46.835Z
+updated: 2026-08-17T08:03:41.619Z
 started_at: 2026-08-14T17:32:36Z
 completed_at: 2026-08-14T17:38:54Z
 actual_ms: 378000
 ---
+
 # T-277: Global taskmark workspace mode with project picker
 
 ## Description

@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [frontend, identity, parsing]
 created: 2026-07-23
-updated: 2026-08-14T17:50:46.835Z
+updated: 2026-08-17T08:03:41.619Z
 started_at: 2026-07-23T17:28:57Z
 completed_at: 2026-07-23T17:36:57Z
 actual_ms: 0
 ---
-
 # T-120: Parse reporters and resolvers in the frontend
 
 ## Description

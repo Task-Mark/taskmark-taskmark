@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [css, tailwind, build]
 created: 2026-07-29
-updated: 2026-08-14T17:50:46.835Z
+updated: 2026-08-17T08:03:41.619Z
 started_at: 2026-07-29T06:37:00Z
 completed_at: 2026-07-29T06:39:44Z
 actual_ms: 164000
 ---
-
 # B-013: Static build CSS warnings from `first-child` arbitrary variant Tailwind class
 
 ## Description

@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [website, ui, design-system]
 created: 2026-07-27
-updated: 2026-08-14T17:50:46.835Z
+updated: 2026-08-17T08:03:41.619Z
 started_at: 2026-07-27T09:54:28Z
 completed_at: 2026-07-27T09:55:28Z
 actual_ms: 60000
 ---
+
 # T-200: Align theme tokens globals and fonts with taskmark-frontend
 
 ## Description

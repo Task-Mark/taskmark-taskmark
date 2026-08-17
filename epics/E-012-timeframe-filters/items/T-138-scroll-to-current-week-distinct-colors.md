@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [filters, timeframe, weeks, frontend, ui]
 created: 2026-07-24
-updated: 2026-08-14T17:50:46.835Z
+updated: 2026-08-17T08:03:41.619Z
 started_at: 2026-07-24T16:25:50Z
 completed_at: 2026-07-24T16:26:21Z
 actual_ms: 31000
 ---
-
 # T-138: Scroll week picker to current week; distinct prev/next colors
 
 ## Description

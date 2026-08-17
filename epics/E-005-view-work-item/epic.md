@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, detail, sheet]
 created: 2026-07-21
-updated: 2026-08-14T17:50:46.835Z
+updated: 2026-08-17T08:03:41.619Z
 started_at: 2026-07-21T23:53:57Z
 completed_at: 2026-07-29T07:31:14Z
 actual_ms: 3023000
 ---
-
 # E-005: View work item
 
 ## Goal

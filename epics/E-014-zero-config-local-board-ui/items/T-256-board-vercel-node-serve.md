@@ -26,11 +26,12 @@ blocked: false
 cancelled: true
 tags: [deploy, vercel, board, serve]
 created: 2026-07-28
-updated: 2026-08-14T17:50:46.835Z
+updated: 2026-08-17T08:03:41.619Z
 started_at: 2026-07-28T15:23:18Z
 completed_at: null
 actual_ms: 0
 ---
+
 # T-256: Make board package Vercel-deployable via Node serve
 
 ## Description
