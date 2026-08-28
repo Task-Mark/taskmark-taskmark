@@ -49,6 +49,9 @@ and `/tkmd-commit` instead of `/tsmk-*`.
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 6b4a7c4b76503b86d945ebd4eaf2d3daf35d04cc | taskmark-cursor | 2026-08-28T22:58:27Z | Marco Mendão | rename slash commands to tkmd |
+| 7063175a9bcc82746ac5d860c4850bb81b85817c | taskmark-website | 2026-08-28T22:58:27Z | Marco Mendão | document tkmd slash commands |
+| 5a0f2790802e9292ea9fddd2ae8c9c3703bcb8c6 | taskmark-taskmark | 2026-08-28T22:58:27Z | Marco Mendão | add T-MO-a8de0ef8 tkmd rename |
 
 ## Work log
 
