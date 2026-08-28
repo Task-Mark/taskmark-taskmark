@@ -45,6 +45,7 @@ reuse parsed markdown instead of repeatedly scanning every board file.
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
 | 2026-08-28T16:08:45Z | prompt | Marco Mendão | Implement the suggested single-scan markdown loading optimizations. |
+| 2026-08-28T22:36:27Z | prompt | Marco Mendão | Group duplicate prompt/work-log rows; show work items as aligned tags. |
 
 ## Commits
 
