@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [frontend, performance, markdown, rollup]
 created: 2026-08-28
-updated: 2026-08-28T16:08:45Z
+updated: 2026-08-28T22:42:41Z
 started_at: 2026-08-28T16:02:21Z
 completed_at: 2026-08-28T16:08:45Z
 ---
@@ -46,6 +46,7 @@ reuse parsed markdown instead of repeatedly scanning every board file.
 |------------|------|--------|---------|
 | 2026-08-28T16:08:45Z | prompt | Marco Mendão | Implement the suggested single-scan markdown loading optimizations. |
 | 2026-08-28T22:36:27Z | prompt | Marco Mendão | Group duplicate prompt/work-log rows; show work items as aligned tags. |
+| 2026-08-28T22:42:41Z | prompt | Marco Mendão | Work item tags should show the task title in a tooltip. |
 
 ## Commits
 
@@ -57,3 +58,4 @@ reuse parsed markdown instead of repeatedly scanning every board file.
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
 | Marco Mendão | 2026-08-28T16:02:21Z | 2026-08-28T16:08:45Z | Added a reusable board index, lazy detail parsing, and shared metric collection; verified sub-second application rendering. |
+| Marco Mendão | 2026-08-28T22:41:30Z | 2026-08-28T22:42:41Z | Gave work item tags a hover tooltip with the task title. |

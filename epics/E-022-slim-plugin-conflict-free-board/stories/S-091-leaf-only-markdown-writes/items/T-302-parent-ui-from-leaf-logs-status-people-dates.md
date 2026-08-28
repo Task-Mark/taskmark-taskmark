@@ -9,14 +9,8 @@ size_source: suggested
 size_basis: [like:T-296]
 points: 8
 points_source: suggested
-estimate_minutes: 80
-actual_minutes: 0
-estimate_source: suggested
-estimate_basis: [speed:90d:10min/pt]
-session_cap_minutes: 480
 parent: S-091
 epic: E-022
-owner: ""
 reporters:
   - name: Marco Mendão
     email: marco.mendao@betacode.tech
@@ -29,10 +23,9 @@ blocked: false
 cancelled: false
 tags: [frontend, board, collaboration, rollup]
 created: 2026-08-28
-updated: 2026-08-28T15:43:42Z
+updated: 2026-08-28T22:49:03Z
 started_at: 2026-08-28T15:40:33Z
-completed_at: 2026-08-28T15:43:42Z
-actual_ms: 0
+completed_at: 2026-08-28T22:49:03Z
 ---
 
 # T-302: Mostrar logs, estado, pessoas e datas dos pais a partir das folhas
@@ -83,6 +76,7 @@ Auditoria 2026-08-28 (só leitura):
 | 1 | 2026-08-28T12:36:37Z | prompt | Marco Mendão | Logs nas folhas e agregados no UI do pai; estado, implementadores e datas do pai inferidos das folhas, sem alterar documentos pais. |
 | 2 | 2026-08-28T12:38:00Z | feedback | Marco Mendão | Exploração: plugin write-through nos pais; frontend read-through literal. T-302 = derive logs/status/people/dates no UI; T-294/T-295 param writes no plugin. |
 | 2 | 2026-08-28T15:43:42Z | feedback | Marco Mendão | Implemented and verified as part of E-022; no commits created. |
+| 3 | 2026-08-28T22:45:00Z | prompt | Marco Mendão | Remove Est and Owner; derive Actual exclusively from Work log intervals on leaves. |
 
 ## Commits
 
@@ -94,3 +88,4 @@ Auditoria 2026-08-28 (só leitura):
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | Marco Mendão | 2026-08-28T15:40:33Z | 2026-08-28T15:41:12Z | E-022 shared batch: implemented and verified T-302 (8 points); no commit. |
+| 2 | Marco Mendão | 2026-08-28T22:45:00Z | 2026-08-28T22:49:03Z | Removed estimate/owner from the UI model and derived Actual from closed leaf Work log intervals. |
