@@ -28,12 +28,11 @@ blocked: false
 cancelled: false
 tags: [complete-work, cascade, status]
 created: 2026-07-21
-updated: 2026-08-17T08:03:41.619Z
+updated: 2026-08-28T12:37:43.783Z
 started_at: 2026-07-21T20:43:27Z
 completed_at: 2026-07-21T23:07:27Z
 actual_ms: 8640000
 ---
-
 # S-016: End cascade for task, story, epic
 
 ## User story

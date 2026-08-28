@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [website, landing, frontend]
 created: 2026-07-28
-updated: 2026-08-17T08:03:41.619Z
+updated: 2026-08-28T12:37:43.783Z
 started_at: 2026-07-28T07:17:59Z
 completed_at: 2026-07-28T07:23:05Z
 actual_ms: 80627
 ---
+
 # S-065: Landing hero with console demo and Start now CTA
 
 ## User story

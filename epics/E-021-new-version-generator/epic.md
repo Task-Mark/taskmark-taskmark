@@ -26,11 +26,12 @@ blocked: false
 cancelled: false
 tags: [release, versioning, changelog, readme, plugin]
 created: 2026-07-29
-updated: 2026-08-17T08:03:41.619Z
+updated: 2026-08-28T12:37:43.783Z
 started_at: null
 completed_at: null
 actual_ms: 0
 ---
+
 # E-021: New version generator
 
 ## Goal

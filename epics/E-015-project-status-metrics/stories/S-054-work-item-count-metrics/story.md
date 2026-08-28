@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [frontend, metrics, counts]
 created: 2026-07-27
-updated: 2026-08-17T08:03:41.619Z
+updated: 2026-08-28T12:37:43.783Z
 started_at: 2026-07-27T06:25:20Z
 completed_at: 2026-07-27T06:28:48Z
 actual_ms: 0
 ---
+
 # S-054: Total and complete work item counts
 
 ## User story

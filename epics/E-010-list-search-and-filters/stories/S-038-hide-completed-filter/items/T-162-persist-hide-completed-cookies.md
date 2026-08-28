@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [dashboard, frontend, filters]
 created: 2026-07-25
-updated: 2026-08-17T08:03:41.619Z
+updated: 2026-08-28T12:37:43.783Z
 started_at: 2026-07-25T21:53:12Z
 completed_at: 2026-07-26T12:00:00Z
 actual_ms: 0

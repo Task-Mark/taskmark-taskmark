@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm]
 created: 2026-07-24
-updated: 2026-08-17T08:03:41.619Z
+updated: 2026-08-28T12:37:43.783Z
 started_at: 2026-07-28T08:31:48Z
 completed_at: 2026-07-28T09:10:14Z
 actual_ms: 383667
 ---
+
 # S-051: Publishable npm CLI for local board UI
 
 ## User story

@@ -29,12 +29,11 @@ blocked: false
 cancelled: false
 tags: [website, branding, favicon]
 created: 2026-07-28
-updated: 2026-08-17T08:03:41.619Z
+updated: 2026-08-28T12:37:43.783Z
 started_at: 2026-07-28T14:47:21Z
 completed_at: 2026-07-28T14:50:02Z
 actual_ms: 24435
 ---
-
 # S-081: Favicon pack for marketing website
 
 ## User story

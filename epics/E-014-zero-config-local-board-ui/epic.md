@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [frontend, packaging, cli, npm, local, vercel]
 created: 2026-07-24
-updated: 2026-08-17T08:03:41.619Z
+updated: 2026-08-28T12:37:43.783Z
 started_at: 2026-07-28T08:09:03Z
 completed_at: null
 actual_ms: 63855000
 ---
+
 # E-014: Zero-config local board UI package
 
 ## Goal

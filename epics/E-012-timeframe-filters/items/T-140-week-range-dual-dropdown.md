@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [filters, timeframe, weeks, frontend, ui]
 created: 2026-07-24
-updated: 2026-08-17T08:03:41.619Z
+updated: 2026-08-28T12:37:43.783Z
 started_at: 2026-07-24T16:57:13Z
 completed_at: 2026-07-24T16:58:20Z
 actual_ms: 67000

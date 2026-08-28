@@ -26,7 +26,7 @@ blocked: false
 cancelled: false
 tags: [packaging, next, serve, npm]
 created: 2026-08-10
-updated: 2026-08-17T08:03:41.619Z
+updated: 2026-08-28T12:37:43.783Z
 started_at: 2026-08-10T14:31:05Z
 completed_at: null
 actual_ms: 28800000

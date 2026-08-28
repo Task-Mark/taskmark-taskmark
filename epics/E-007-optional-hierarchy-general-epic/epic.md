@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [plugin, conventions, hierarchy, dashboard]
 created: 2026-07-23
-updated: 2026-08-17T08:03:41.619Z
+updated: 2026-08-28T12:37:43.783Z
 started_at: 2026-07-23T04:41:50Z
 completed_at: 2026-07-23T04:45:50Z
 actual_ms: 2426000
 ---
+
 # E-007: Optional hierarchy and General epic
 
 ## Goal

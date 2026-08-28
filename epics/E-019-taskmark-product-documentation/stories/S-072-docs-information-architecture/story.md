@@ -29,11 +29,12 @@ blocked: false
 cancelled: false
 tags: [docs, website, documentation]
 created: 2026-07-28
-updated: 2026-08-17T08:03:41.619Z
+updated: 2026-08-28T12:37:43.783Z
 started_at: 2026-07-28T07:43:14Z
 completed_at: 2026-07-28T07:51:14Z
 actual_ms: 61090
 ---
+
 # S-072: Docs information architecture and navigation
 
 ## User story
