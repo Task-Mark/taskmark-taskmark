@@ -2,7 +2,7 @@
 id: T-MO-aeebbe0e
 type: task
 title: Fit planned work into the existing hierarchy
-status: backlog
+status: done
 priority: high
 size: L
 points: 8
@@ -12,14 +12,17 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MO"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MO"
 blocked: false
 cancelled: false
 tags: [plugin, planning, hierarchy, deduplication]
 created: 2026-08-29
-updated: 2026-08-29T10:39:07Z
-started_at: null
-completed_at: null
+updated: 2026-08-29T10:48:48Z
+started_at: 2026-08-29T10:46:30Z
+completed_at: 2026-08-29T10:48:48Z
 ---
 
 # T-MO-aeebbe0e: Fit planned work into the existing hierarchy
@@ -33,18 +36,20 @@ the right product context.
 
 ## Acceptance criteria
 
-- [ ] The skill searches open and done board items for matching scope before allocating IDs.
-- [ ] New tasks/bugs can be attached to an existing story or directly to an existing epic using frontmatter relationships.
-- [ ] A new story can be attached to an existing epic without editing that epic file.
-- [ ] A new epic is created only for a distinct initiative/outcome that does not fit an existing epic.
-- [ ] Creation remains conflict-resistant: only new item files are written, existing parents and leaves are never rewritten.
-- [ ] The resulting hierarchy avoids duplicate work items and preserves leaf-only prompt/feedback conventions.
+- [x] The skill searches open and done board items for matching scope before allocating IDs.
+- [x] New tasks/bugs can be attached to an existing story or directly to an existing epic using frontmatter relationships.
+- [x] A new story can be attached to an existing epic without editing that epic file.
+- [x] A new epic is created only for a distinct initiative/outcome that does not fit an existing epic.
+- [x] Creation remains conflict-resistant: only new item files are written, existing parents and leaves are never rewritten.
+- [x] The resulting hierarchy avoids duplicate work items and preserves leaf-only prompt/feedback conventions.
 
 ## Prompt & feedback
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
 | 2026-08-29T10:38:00Z | prompt | Marco Mendão | Rename `/tkmd-create` to `/tkmd-plan` and make it organize user requirements into the optimal Taskmark hierarchy. |
+| 2026-08-29T10:42:00Z | prompt | Marco Mendão | `/tkmd-do`: complete every remaining task in S-088. |
+| 2026-08-29T10:48:48Z | feedback | Marco Mendão | Planning now searches the board, avoids overlaps and attaches new files to fitting existing parents. |
 
 ## Commits
 
@@ -55,3 +60,4 @@ the right product context.
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
+| Marco Mendão | 2026-08-29T10:46:30Z | 2026-08-29T10:48:48Z | Added board-first matching, duplicate avoidance, explicit existing-parent paths and leaf prompt logging. |
