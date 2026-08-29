@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [frontend, overall, ux, metrics]
 created: 2026-08-29
-updated: 2026-08-29T18:09:45Z
+updated: 2026-08-29T18:36:00Z
 started_at: 2026-08-29T18:05:00Z
 completed_at: 2026-08-29T18:09:45Z
 ---
@@ -46,6 +46,8 @@ Implement a contribution-calendar heatmap (weeks as columns, one square per week
 |------------|------|--------|---------|
 | 2026-08-29T17:46:00Z | prompt | Marco Mendão | Add an 8StarLabs-style heatmap on Overall for story points completed per week, in the board’s retro style, with strong UI/UX. |
 | 2026-08-29T18:05:00Z | prompt | Marco Mendão | /tkmd-do S-MM-225ab050 and S-MM-2d3bf631 |
+| 2026-08-29T18:20:00Z | feedback | Marco Mendão | The heatmap must show a full year like a GitHub calendar (day cells, weekday and month labels) and use shades of #C4A1FF only, white for zero. |
+| 2026-08-29T18:28:00Z | feedback | Marco Mendão | The heatmap should be centred inside its card. |
 
 ## Commits
 
@@ -57,3 +59,5 @@ Implement a contribution-calendar heatmap (weeks as columns, one square per week
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
 | Marco Mendão | 2026-08-29T18:08:45Z | 2026-08-29T18:09:30Z | Retro weekly heatmap component with legend, tooltips, and empty-state copy. |
+| Marco Mendão | 2026-08-29T18:20:00Z | 2026-08-29T18:32:00Z | Rebuilt as a one-year day calendar with a white-to-#C4A1FF scale. |
+| Marco Mendão | 2026-08-29T18:33:00Z | 2026-08-29T18:36:00Z | Centred the calendar and legend inside the card while keeping narrow-screen scrolling. |
