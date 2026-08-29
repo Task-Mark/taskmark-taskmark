@@ -6,6 +6,20 @@ The format follows Keep a Changelog, and versions follow SemVer.
 
 ## Unreleased
 
+## 0.3.0 - 2026-08-29
+
+### Added
+
+- The board now has a light or dark control that follows the operating system until a theme is chosen, and that choice is remembered in a cookie shared with the website.
+- A contribution-style heatmap of completed story points was added on the Overall view, on both the live and static board.
+- A Changelog tab was added in the board UI when `CHANGELOG.md` exists, and is hidden when the file is missing.
+- `/tkmd-init` now writes a static project README covering purpose, linked repositories, run, and deploy, without restoring generated dashboards.
+- The website now links to the live product board as the working Taskmark demo.
+
+### Changed
+
+- Landing-page features were rewritten as outcome cards for agent memory, team visibility, readable changelogs, and hierarchical boards.
+
 ## 0.2.0 - 2026-08-29
 
 ### Added
