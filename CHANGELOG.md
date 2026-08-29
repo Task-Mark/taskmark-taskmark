@@ -1,62 +1,62 @@
 # Changelog
 
-Todas as alterações relevantes deste produto são registadas neste ficheiro.
+All notable changes to this product are recorded in this file.
 
-O formato segue o Keep a Changelog e as versões seguem SemVer.
+The format follows Keep a Changelog, and versions follow SemVer.
 
-## Não publicado
+## Unreleased
 
 ## 0.2.0 - 2026-08-29
 
-### Adicionado
+### Added
 
-- Foi adicionado um assistente de configuração que descobre projetos Taskmark na pasta escolhida, valida o quadro e guarda o projeto ativo.
-- Foi adicionada uma barra de aplicação com a marca Taskmark e troca rápida entre projetos.
-- Foram adicionadas listas de épicos, histórias, tarefas e bugs lidas diretamente do markdown local.
-- Foi adicionado um painel de detalhe para qualquer item, com markdown formatado, datas legíveis, navegação para trás e ligação direta por URL.
-- Passou a ser possível ver diagramas Mermaid desenhados no detalhe do item, em vez do bloco de código.
-- Foi adicionada a vista Work items, com tabela única de todo o trabalho, etiquetas de épico e história, barras de progresso e pontos visíveis ao passar sobre o tamanho.
-- Foram adicionadas paginação, pesquisa, ordenação por coluna, filtro de período, filtro por épico ou história, filtro por etiquetas e a opção de esconder trabalho concluído.
-- Passou a ser possível ter tarefas e bugs diretamente num épico, sem história intermédia.
-- Foi adicionada a identidade de quem cria e resolve trabalho, com iniciais em avatar nas listas e autor nos registos de atividade.
-- Foi adicionado um painel de métricas com a contagem total e concluída de itens e a lista de contribuidores do projeto.
-- O quadro passou a abrir com um único comando: `npx taskmark serve` dentro da pasta do quadro, ou `npx @taskmark/ui` para escolher o projeto.
-- Foram adicionados os comandos `/tkmd-init`, `/tkmd-plan`, `/tkmd-save`, `/tkmd-plan-do`, `/tkmd-do`, `/tkmd-shelf` e `/tkmd-commit` no Cursor, sendo o último o único que faz commit.
-- Foi adicionado o estado arquivado, para fechar trabalho que nunca será implementado sem o dar como feito, com aspeto próprio e escondido junto com o concluído.
-- Foram adicionados os comandos `/tkmd-changelog` e `/tkmd-version`, que escrevem as notas de alterações em `CHANGELOG.md` e a versão no `package.json` do quadro, sem fazer commit nem publicar.
-- Foi criado o site do Taskmark, com página inicial, demonstração em consola, secções de funcionalidades, motivação e contribuição, formulário de contacto e seletor de tema claro ou escuro.
-- Foi publicada a documentação do produto, com instalação, referência de comandos, estrutura de pastas, especificação dos ficheiros, tamanhos e fluxos de trabalho.
-- Foram adicionados favicons, imagens de partilha e metadados de SEO no site e no quadro local.
+- A setup assistant was added that discovers Taskmark projects in the chosen folder, validates the board, and saves the active project.
+- An application bar was added with the Taskmark brand and quick switching between projects.
+- Lists of epics, stories, tasks, and bugs were added, read directly from local markdown.
+- A detail panel was added for any item, with formatted markdown, readable dates, back navigation, and a direct URL.
+- Mermaid diagrams can now be drawn in item detail instead of showing as a code block.
+- The Work items view was added, with a single table of all work, epic and story labels, progress bars, and points shown on size hover.
+- Pagination, search, column sorting, period filter, epic or story filter, tag filter, and an option to hide completed work were added.
+- Tasks and bugs can now live directly on an epic, without an intermediate story.
+- Creator and resolver identity was added, with initials avatars in lists and authors on activity logs.
+- A metrics panel was added with total and completed item counts and the project contributor list.
+- The board now opens with a single command: `npx taskmark serve` inside the board folder, or `npx @taskmark/ui` to choose the project.
+- The `/tkmd-init`, `/tkmd-plan`, `/tkmd-save`, `/tkmd-plan-do`, `/tkmd-do`, `/tkmd-shelf`, and `/tkmd-commit` Cursor commands were added, the last being the only one that commits.
+- A shelved status was added, to close work that will never be implemented without marking it done, with its own look and hidden together with completed work.
+- The `/tkmd-changelog` and `/tkmd-version` commands were added, which write release notes in `CHANGELOG.md` and the version on the board `package.json`, without committing or publishing.
+- The Taskmark website was created, with a home page, console demo, features, motivation and contribution sections, a contact form, and a light or dark theme switcher.
+- Product documentation was published, covering install, command reference, folder structure, file spec, sizes, and workflows.
+- Favicons, share images, and SEO metadata were added on the site and the local board.
 
-### Alterado
+### Changed
 
-- A vista Overall passou a ser uma árvore hierárquica expansível, em vez de tabelas empilhadas, com ordenação por incompletos e mais recentes, pesquisa que mantém o contexto dos pais, atalhos de teclado, suporte para leitores de ecrã e expansão preservada durante a sessão.
-- O quadro passou a viver em `<projeto>/taskmark/` quando há um só repositório, ou num repositório dedicado `<comum>-taskmark` quando há vários, deixando de ser copiado para dentro de cada projeto.
-- Os tamanhos passaram a ser fixos, de XS a XXL, com pontos previsíveis, em vez de estimativas calculadas a partir de velocidade.
-- O tempo real passou a ser somado a partir dos intervalos fechados do registo de trabalho, sem estimativa nem responsável atribuído.
-- As alterações passaram a ser escritas apenas nos ficheiros de tarefa ou bug; o estado, as pessoas, os registos e as datas dos épicos e histórias passaram a ser calculados na leitura, o que evita conflitos quando várias pessoas trabalham ao mesmo tempo.
-- Os identificadores de trabalho passaram a incluir o tipo e a identidade de quem cria, deixando de depender de um contador global partilhado.
+- The Overall view became an expandable hierarchical tree instead of stacked tables, with incomplete-then-newest sorting, search that keeps parent context, keyboard shortcuts, screen-reader support, and expand state kept for the session.
+- The board now lives in `<project>/taskmark/` when there is a single repository, or in a dedicated `<common>-taskmark` repository when there are several, and is no longer copied into each product.
+- Sizes became fixed, from XS to XXL, with predictable points, instead of estimates calculated from velocity.
+- Actual time is now summed from closed work-log intervals, with no estimate or assigned owner.
+- Changes are written only to task or bug files; epic and story status, people, logs, and dates are calculated at read time, which avoids conflicts when several people work at once.
+- Work identifiers now include the type and the creator identity, and no longer depend on a shared global counter.
 
-### Removido
+### Removed
 
-- Foram removidos os ficheiros gerados `INDEX.md`, `SIZING.md`, `VELOCITY.md` e o README do quadro, incluindo o registo de alterações que era mantido nesse README.
-- Foram removidas a velocidade, a calibração de estimativas, as previsões de conclusão e o campo de responsável.
-- O ficheiro `REPOS.md` deixou de ser versionado e passou a ser gerado localmente.
-- Foram removidos os comandos, scripts e regras do plugin que já não eram utilizados.
+- The generated `INDEX.md`, `SIZING.md`, `VELOCITY.md`, and board README files were removed, including the changelog that used to live in that README.
+- Velocity, estimate calibration, completion forecasts, and the owner field were removed.
+- `REPOS.md` is no longer versioned and is generated locally.
+- Plugin commands, scripts, and rules that were no longer used were removed.
 
-### Corrigido
+### Fixed
 
-- A configuração inicial deixou de falhar a descobrir quadros de vários repositórios guardados numa pasta única.
-- A lista de épicos deixou de falhar quando o cabeçalho de um ficheiro do quadro estava malformado.
-- O repositório dedicado do quadro deixou de criar uma pasta `taskmark/` desnecessária.
-- O logótipo deixou de ficar colado ao limite inferior da barra de aplicação.
-- O tempo real do épico deixou de ser inflacionado quando várias tarefas partilhavam a mesma sessão de trabalho.
-- O detalhe deixou de mostrar o item errado quando outro projeto tinha um identificador igual.
-- O quadro deixou de rebentar ao abrir o detalhe de um item em certas navegações.
-- As tarefas e bugs deixaram de precisar de uma história para poderem pertencer a um épico.
-- Esconder concluídos deixou de esconder épicos que ainda tinham trabalho por fazer.
-- O comando `npx taskmark` deixou de executar um pacote sem relação e passou a abrir sempre o quadro.
-- O quadro passou a ser servido na raiz, sem ciclos de redirecionamento.
-- A geração estática do quadro deixou de falhar por causa de caminhos abreviados, de configuração de build incompatível e de ficheiros de build antigos, e deixou de emitir avisos de CSS.
-- O quadro alojado no Vercel deixou de falhar por a interface estar declarada como dependência de desenvolvimento.
-- Os nomes com acentos deixaram de gerar identidades erradas nos identificadores de trabalho.
+- Initial setup no longer fails to discover multi-repo boards stored in a single folder.
+- The epic list no longer fails when a board file header is malformed.
+- The dedicated board repository no longer creates an unnecessary `taskmark/` folder.
+- The logo no longer sticks to the bottom edge of the application bar.
+- Epic actual time is no longer inflated when several tasks shared the same work session.
+- Detail no longer shows the wrong item when another project had the same identifier.
+- The board no longer crashes when opening item detail on certain navigations.
+- Tasks and bugs no longer need a story in order to belong to an epic.
+- Hiding completed work no longer hides epics that still have open work.
+- `npx taskmark` no longer runs an unrelated package and always opens the board.
+- The board is served at the root, without redirect loops.
+- Static board generation no longer fails because of abbreviated paths, incompatible build config, or stale build files, and no longer emits CSS warnings.
+- The Vercel-hosted board no longer fails because the UI was declared as a development dependency.
+- Accented names no longer produce wrong identities in work identifiers.

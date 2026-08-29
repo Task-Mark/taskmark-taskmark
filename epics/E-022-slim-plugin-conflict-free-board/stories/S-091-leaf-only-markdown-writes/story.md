@@ -52,7 +52,7 @@ As a teammate, I want agents to change only the markdown of the work they create
 - [T-294: Create writes only new item files](items/T-294-create-without-parent-edits.md)
 - [T-295: tsmk-do mutates only the implemented leaf markdown](items/T-295-do-mutates-only-target-leaf.md)
 - [T-296: Derive parent lists, status, and rollups in the UI](items/T-296-ui-query-parents-and-rollups.md)
-- [T-302: Mostrar logs, estado, pessoas e datas dos pais a partir das folhas](items/T-302-parent-ui-from-leaf-logs-status-people-dates.md)
+- [T-302: Show parent logs, status, people, and dates from leaves](items/T-302-parent-ui-from-leaf-logs-status-people-dates.md)
 
 ## Prompt & feedback log
 

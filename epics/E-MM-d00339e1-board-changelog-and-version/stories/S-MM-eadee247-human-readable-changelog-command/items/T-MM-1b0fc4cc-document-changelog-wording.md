@@ -29,11 +29,11 @@ completed_at: 2026-08-29T17:18:08Z
 
 ## Description
 
-Document how agents write Unreleased bullets: one user-visible outcome, past tense, from user story / acceptance / title, never IDs or commit shorthand. Example: “Foi adicionado um botão para filtrar as tarefas já realizadas.”
+Document how agents write Unreleased bullets: one user-visible outcome, past tense, from user story / acceptance / title, never IDs or commit shorthand. Example: “A button to filter completed tasks was added.”
 
 ## Acceptance criteria
 
-- [x] `taskmark-conventions` (and the changelog skill) state the wording rules and Portuguese Keep a Changelog headings (`Não publicado`, `## x.y.z - date`)
+- [x] `taskmark-conventions` (and the changelog skill) state the wording rules and Keep a Changelog headings in the board language (`Unreleased` or the stored-language equivalent, `## x.y.z - date`)
 - [x] Merging related leaves from the same story is allowed when it reads better
 - [x] Visible changelog text must not include work-item codes
 
@@ -53,4 +53,4 @@ Document how agents write Unreleased bullets: one user-visible outcome, past ten
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
-| Marco Mendão | 2026-08-29T17:13:00Z | 2026-08-29T17:13:44Z | Documented Portuguese changelog wording without work-item IDs. |
+| Marco Mendão | 2026-08-29T17:13:00Z | 2026-08-29T17:13:44Z | Documented changelog wording without work-item IDs. |

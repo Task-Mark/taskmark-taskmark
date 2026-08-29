@@ -1,7 +1,7 @@
 ---
 id: T-302
 type: task
-title: Mostrar logs, estado, pessoas e datas dos pais a partir das folhas
+title: Show parent logs, status, people, and dates from leaves
 status: done
 priority: high
 size: L
@@ -28,53 +28,57 @@ started_at: 2026-08-28T15:40:33Z
 completed_at: 2026-08-28T22:49:03Z
 ---
 
-# T-302: Mostrar logs, estado, pessoas e datas dos pais a partir das folhas
+# T-302: Show parent logs, status, people, and dates from leaves
 
 ## Description
 
-No detalhe de epic/story, Prompt & feedback, Commits e Work log existem só nas
-folhas (task/bug). O frontend agrega essas tabelas no pai em tempo de leitura,
-sem gravar nada em `epic.md` / `story.md`.
+In epic/story detail, Prompt & feedback, Commits, and Work log exist only on
+leaves (task/bug). The frontend aggregates those tables on the parent at read
+time, without writing anything to `epic.md` / `story.md`.
 
-O estado visível do pai deriva só do estado das folhas. Só se escreve `status`
-nas folhas; o plugin não actualiza o estado do pai para “acompanhar” o filho.
+The parent's visible status is derived only from leaf status. `status` is
+written only on leaves; the plugin does not update the parent status to
+"follow" the child.
 
-Há dois papéis: **quem criou** (`reporters` no próprio ficheiro) e **quem
-implementou**. Os implementadores do pai são a união dos implementadores das
-folhas descendentes — não se escreve `resolvers` no pai.
+There are two roles: **who created** (`reporters` on the item's own file) and
+**who implemented**. Parent implementers are the union of descendant leaf
+implementers — `resolvers` is not written on the parent.
 
-`started_at`, `updated` e `completed_at` mostrados no pai são inferidos das
-folhas (mínimo / máximo / regra de fecho), sem persistir no markdown do pai.
+`started_at`, `updated`, and `completed_at` shown on the parent are inferred
+from leaves (min / max / close rule), without persisting them on parent
+markdown.
 
 ## Acceptance criteria
 
-- [x] Prompt & feedback, Commits e Work log de um pai no UI são a agregação
-      das folhas descendentes (com identificação da folha), sem editar o MD do pai
-- [x] Estado mostrado no pai é calculado pelas folhas; alterar estado só nas
-      folhas não reescreve `status` no ficheiro do pai
-- [x] UI distingue criador (reporters do item) de implementadores; no pai os
-      implementadores vêm das folhas, não de `resolvers` no ficheiro pai
-- [x] `started_at`, `updated` e `completed_at` no detalhe do pai são inferidos
-      das folhas (não escritos no frontmatter do pai para este efeito)
+- [x] Prompt & feedback, Commits, and Work log for a parent in the UI are the
+      aggregation of descendant leaves (with leaf identification), without
+      editing the parent's markdown
+- [x] Status shown on the parent is computed from leaves; changing status only
+      on leaves does not rewrite `status` in the parent file
+- [x] The UI distinguishes creator (item reporters) from implementers; on the
+      parent, implementers come from leaves, not from `resolvers` on the parent
+      file
+- [x] `started_at`, `updated`, and `completed_at` on parent detail are inferred
+      from leaves (not written to parent frontmatter for this purpose)
 
 ## Notes
 
-Complementa [T-296](T-296-ui-query-parents-and-rollups.md) (listas/pontos).
-Mapa de sizing deste épico: XS=1, S=3, M=5, L=8, XL=13, XXL=21.
+Complements [T-296](T-296-ui-query-parents-and-rollups.md) (lists/points).
+Sizing map for this epic: XS=1, S=3, M=5, L=8, XL=13, XXL=21.
 
-Auditoria 2026-08-28 (só leitura):
+Audit 2026-08-28 (read-only):
 
-- Plugin (`taskmark-cursor/plugins/taskmark`): create/do/commit e `recompute-actuals.py` (`rollup_parent`, shared-batch, `ensure_started_at_from_sessions`) persistem status, datas, rollups, logs e `resolvers` nos pais. Skills críticas: `create-task`, `start-work`, `complete-work`, `sync-status`, `log-commits`.
-- UI (`taskmark-frontend`): parse literal (`parse-detail.ts`, `detail-load.ts`, `work-item-detail-body.tsx`). Só `count-leaves.ts` agrega progresso. Epic não mostra Prompt & feedback. Sem camada `derive-*` nem testes.
-- Implementação UI proposta: `build-tree.ts` + `derive-work-item.ts` (status, datas, contributors, `aggregatePromptFeedback` / Commits / Work log com origem da folha), integrar em `detail-load.ts` e `build-snapshot.ts`.
-- Plugin (T-294/T-295): deixar de escrever nos pais; este item cobre o que o UI passa a mostrar em vez desses writes.
+- Plugin (`taskmark-cursor/plugins/taskmark`): create/do/commit and `recompute-actuals.py` (`rollup_parent`, shared-batch, `ensure_started_at_from_sessions`) persist status, dates, rollups, logs, and `resolvers` on parents. Critical skills: `create-task`, `start-work`, `complete-work`, `sync-status`, `log-commits`.
+- UI (`taskmark-frontend`): literal parse (`parse-detail.ts`, `detail-load.ts`, `work-item-detail-body.tsx`). Only `count-leaves.ts` aggregates progress. Epic does not show Prompt & feedback. No `derive-*` layer or tests.
+- Proposed UI implementation: `build-tree.ts` + `derive-work-item.ts` (status, dates, contributors, `aggregatePromptFeedback` / Commits / Work log with leaf origin), integrate in `detail-load.ts` and `build-snapshot.ts`.
+- Plugin (T-294/T-295): stop writing to parents; this item covers what the UI now shows instead of those writes.
 
 ## Prompt & feedback log
 
 | # | When (UTC) | Kind | Author | Summary |
 |---|------------|------|--------|---------|
-| 1 | 2026-08-28T12:36:37Z | prompt | Marco Mendão | Logs nas folhas e agregados no UI do pai; estado, implementadores e datas do pai inferidos das folhas, sem alterar documentos pais. |
-| 2 | 2026-08-28T12:38:00Z | feedback | Marco Mendão | Exploração: plugin write-through nos pais; frontend read-through literal. T-302 = derive logs/status/people/dates no UI; T-294/T-295 param writes no plugin. |
+| 1 | 2026-08-28T12:36:37Z | prompt | Marco Mendão | Logs on leaves, aggregated in the parent UI; parent status, implementers, and dates inferred from leaves, without changing parent documents. |
+| 2 | 2026-08-28T12:38:00Z | feedback | Marco Mendão | Exploration: plugin write-through on parents; frontend literal read-through. T-302 = derive logs/status/people/dates in the UI; T-294/T-295 stop plugin writes. |
 | 2 | 2026-08-28T15:43:42Z | feedback | Marco Mendão | Implemented and verified as part of E-022; no commits created. |
 | 3 | 2026-08-28T22:45:00Z | prompt | Marco Mendão | Remove Est and Owner; derive Actual exclusively from Work log intervals on leaves. |
 

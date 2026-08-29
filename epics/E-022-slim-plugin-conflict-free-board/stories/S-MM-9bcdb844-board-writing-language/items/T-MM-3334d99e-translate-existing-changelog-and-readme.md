@@ -2,7 +2,7 @@
 id: T-MM-3334d99e
 type: task
 title: Translate existing changelog and project README into the board language
-status: backlog
+status: done
 priority: high
 size: M
 points: 5
@@ -12,14 +12,17 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [changelog, readme, i18n]
 created: 2026-08-29
-updated: 2026-08-29T17:31:00Z
-started_at: null
-completed_at: null
+updated: 2026-08-29T17:40:45Z
+started_at: 2026-08-29T17:33:00Z
+completed_at: 2026-08-29T17:40:45Z
 ---
 
 # T-MM-3334d99e: Translate existing changelog and project README into the board language
@@ -30,16 +33,17 @@ Rewrite the board-root `CHANGELOG.md` (intro, Unreleased, category headings, and
 
 ## Acceptance criteria
 
-- [ ] Board `CHANGELOG.md` intro, Unreleased heading, category headings, and all existing bullets are in the stored writing language
-- [ ] Version headings stay `## x.y.z - YYYY-MM-DD`; bullets still omit work-item IDs
-- [ ] The static project README prose is in the stored writing language; Last synced / Current speed / README changelog remain absent
-- [ ] Plugin/frontend/website READMEs are left unchanged unless they are that same static project README
+- [x] Board `CHANGELOG.md` intro, Unreleased heading, category headings, and all existing bullets are in the stored writing language
+- [x] Version headings stay `## x.y.z - YYYY-MM-DD`; bullets still omit work-item IDs
+- [x] The static project README prose is in the stored writing language; Last synced / Current speed / README changelog remain absent
+- [x] Plugin/frontend/website READMEs are left unchanged unless they are that same static project README
 
 ## Prompt & feedback
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
 | 2026-08-29T17:31:00Z | prompt | Marco Mendão | Translate all work items, changelog, and README to the writing language chosen for the Taskmark project. |
+| 2026-08-29T17:33:00Z | prompt | Marco Mendão | `/tkmd-do S-MM-9bcdb844` |
 
 ## Commits
 
@@ -50,3 +54,4 @@ Rewrite the board-root `CHANGELOG.md` (intro, Unreleased, category headings, and
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
+| Marco Mendão | 2026-08-29T17:33:00Z | 2026-08-29T17:40:45Z | Translated board CHANGELOG to English; workspace README was already English. |
