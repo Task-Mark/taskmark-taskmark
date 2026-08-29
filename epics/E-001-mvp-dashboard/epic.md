@@ -68,7 +68,6 @@ Ship an MVP dashboard that reads Taskmark markdown boards from a local **master 
 - [S-001: Project setup wizard](stories/S-001-project-setup-wizard/story.md)
 - [S-002: Epic list for selected project](stories/S-002-epic-list/story.md)
 - [S-003: App bar project switcher](stories/S-003-app-bar-project-switcher/story.md)
-- [S-004: Add project accumulates workspaces](stories/S-004-add-project-accumulate/story.md)
 
 ## Commits
 
