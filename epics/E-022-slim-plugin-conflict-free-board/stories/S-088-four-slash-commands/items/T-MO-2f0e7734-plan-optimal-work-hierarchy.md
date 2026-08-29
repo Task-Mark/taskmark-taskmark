@@ -1,0 +1,56 @@
+---
+id: T-MO-2f0e7734
+type: task
+title: Plan the optimal Taskmark work hierarchy from prose
+status: backlog
+priority: high
+size: L
+points: 8
+parent: S-088
+epic: E-022
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MO"
+resolvers: []
+blocked: false
+cancelled: false
+tags: [plugin, planning, hierarchy]
+created: 2026-08-29
+updated: 2026-08-29T10:39:07Z
+started_at: null
+completed_at: null
+---
+
+# T-MO-2f0e7734: Plan the optimal Taskmark work hierarchy from prose
+
+## Description
+
+Make `/tkmd-plan` reason from the user's requirements before writing files. It
+must choose the smallest useful combination of epic, story, task, and bug,
+split work into executable leaves, and avoid mechanically creating a new epic
+for every prompt.
+
+## Acceptance criteria
+
+- [ ] The skill classifies outcomes as epics, user-visible capabilities as stories, executable units as tasks, and defects/regressions as bugs.
+- [ ] It decomposes broad requests into cohesive stories and independently executable task/bug leaves with clear acceptance criteria.
+- [ ] It avoids oversized or duplicate items and uses static sizing to split work that is not sprint-ready.
+- [ ] It asks a question only when missing information would materially change the hierarchy or scope.
+- [ ] It reports the hierarchy and rationale concisely after writing the new item files.
+
+## Prompt & feedback
+
+| When (UTC) | Kind | Author | Summary |
+|------------|------|--------|---------|
+| 2026-08-29T10:38:00Z | prompt | Marco Mendão | Rename `/tkmd-create` to `/tkmd-plan` and make it organize user requirements into the optimal Taskmark hierarchy. |
+
+## Commits
+
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+
+## Work log
+
+| Actor | Started (UTC) | Ended (UTC) | Summary |
+|-------|---------------|-------------|---------|

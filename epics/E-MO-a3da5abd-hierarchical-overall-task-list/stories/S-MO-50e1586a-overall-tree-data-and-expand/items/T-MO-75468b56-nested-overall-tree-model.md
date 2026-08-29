@@ -2,7 +2,7 @@
 id: T-MO-75468b56
 type: task
 title: Nested Overall tree types and parser
-status: backlog
+status: done
 priority: high
 size: L
 points: 8
@@ -12,14 +12,17 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MO"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MO"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, overall]
 created: 2026-08-29
-updated: 2026-08-28T23:03:00Z
-started_at: null
-completed_at: null
+updated: 2026-08-28T23:17:07Z
+started_at: 2026-08-28T23:07:29Z
+completed_at: 2026-08-28T23:17:07Z
 ---
 
 # T-MO-75468b56: Nested Overall tree types and parser
@@ -30,15 +33,16 @@ Introduce a nested tree type (epic nodes with story/item children; story nodes w
 
 ## Acceptance criteria
 
-- [ ] One structure can render the full Overall hierarchy for a project.
-- [ ] Epic-direct items are first-class children of the epic node.
-- [ ] Parse errors still surface without dropping the rest of the tree.
+- [x] One structure can render the full Overall hierarchy for a project.
+- [x] Epic-direct items are first-class children of the epic node.
+- [x] Parse errors still surface without dropping the rest of the tree.
 
 
 ## Prompt & feedback
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
+| 2026-08-28T23:07:00Z | prompt | Marco Mendão | /tkmd-do E-MO-a3da5abd: replace Overall stacked tables with one hierarchical tree (live+static); tests; no commit/push. |
 
 ## Commits
 
@@ -49,4 +53,5 @@ Introduce a nested tree type (epic nodes with story/item children; story nodes w
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
+| Marco Mendão | 2026-08-28T23:07:29Z | 2026-08-28T23:07:58Z | Nested Overall tree types and builder from existing parsers. |
 

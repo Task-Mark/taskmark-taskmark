@@ -1,8 +1,8 @@
 ---
 id: T-MO-6623e5fd
 type: task
-title: Leave All, Stories, and Tasks views unchanged
-status: backlog
+title: Leave the non-Overall Work items view unchanged
+status: done
 priority: high
 size: XS
 points: 1
@@ -12,32 +12,39 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MO"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MO"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, overall]
 created: 2026-08-29
-updated: 2026-08-28T23:03:00Z
-started_at: null
-completed_at: null
+updated: 2026-08-28T23:29:01Z
+started_at: 2026-08-28T23:27:00Z
+completed_at: 2026-08-28T23:29:01Z
 ---
 
-# T-MO-6623e5fd: Leave All, Stories, and Tasks views unchanged
+# T-MO-6623e5fd: Leave the non-Overall Work items view unchanged
 
 ## Description
 
-Confirm All, Stories, and Tasks still use flat tables and are not converted to the Overall tree.
+Confirm the existing non-Overall Work items view keeps its flat table and is
+not converted to the Overall tree. The board already used the two-view
+Overall / Work items model when this epic started.
 
 ## Acceptance criteria
 
-- [ ] View switcher still has Overall / All / Stories / Tasks.
-- [ ] Non-Overall views still render their current list components.
+- [x] View switcher still has Overall / Work items.
+- [x] Work items still renders its existing flat list component.
 
 
 ## Prompt & feedback
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
+| 2026-08-28T23:27:00Z | prompt | Marco Mendão | Complete every task and story when `/tkmd-do` targets an epic. |
+| 2026-08-28T23:29:01Z | feedback | Marco Mendão | Verified the current two-view baseline: only Overall changed; Work items remains flat. |
 
 ## Commits
 
@@ -48,4 +55,5 @@ Confirm All, Stories, and Tasks still use flat tables and are not converted to t
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
+| Marco Mendão | 2026-08-28T23:28:31Z | 2026-08-28T23:29:01Z | Verified the non-Overall Work items view stayed unchanged and completed the final epic leaf. |
 

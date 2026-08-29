@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [plugin, collaboration, board]
 created: 2026-08-28
-updated: 2026-08-28T15:43:42Z
+updated: 2026-08-28T23:29:01Z
 started_at: 2026-08-28T15:32:52Z
 completed_at: 2026-08-28T15:43:42Z
 actual_ms: 0
@@ -46,6 +46,7 @@ actual_ms: 0
 - [x] Does not transition items through `in_progress`.
 - [x] Executed tasks/bugs (and a story/epic only if it was the work target with no remaining open children) are `done` when the agent stops.
 - [x] Only the implemented leaf markdown files are modified.
+- [x] A story/epic target requires every open, non-cancelled descendant leaf and cannot report success while one remains open.
 
 ## Notes
 
@@ -57,6 +58,8 @@ Static sizing for this epic uses the new map (XS=1, S=3, M=5, L=8, XL=13, XXL=21
 |---|------------|------|--------|---------|
 | 1 | 2026-08-28T12:19:14Z | prompt | Marco Mendão | Arrumar a casa: four tsmk-* commands, drop INDEX/SIZING/VELOCITY/README, leaf-only writes, race-free IDs, delete unused plugin surface. |
 | 2 | 2026-08-28T15:43:42Z | feedback | Marco Mendão | Implemented and verified as part of E-022; no commits created. |
+| 3 | 2026-08-28T23:27:00Z | prompt | Marco Mendão | When `/tkmd-do` targets an epic, every task and story inside it must finish. |
+| 4 | 2026-08-28T23:29:01Z | feedback | Marco Mendão | Parent targets now require zero open non-cancelled descendants before success; plugin test added and local install synced. |
 
 ## Commits
 
@@ -68,3 +71,4 @@ Static sizing for this epic uses the new map (XS=1, S=3, M=5, L=8, XL=13, XXL=21
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
 | 1 | Marco Mendão | 2026-08-28T15:32:52Z | 2026-08-28T15:33:55Z | E-022 shared batch: implemented and verified T-282 (13 points); no commit. |
+| 2 | Marco Mendão | 2026-08-28T23:27:00Z | 2026-08-28T23:28:30Z | Tightened parent-target completion semantics, added regression coverage, and synced the local plugin. |

@@ -2,7 +2,7 @@
 id: T-MO-d2152cb0
 type: task
 title: Paginate Overall by root epics
-status: backlog
+status: done
 priority: high
 size: M
 points: 5
@@ -12,14 +12,17 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MO"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MO"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, overall]
 created: 2026-08-29
-updated: 2026-08-28T23:03:00Z
-started_at: null
-completed_at: null
+updated: 2026-08-28T23:17:07Z
+started_at: 2026-08-28T23:13:17Z
+completed_at: 2026-08-28T23:17:07Z
 ---
 
 # T-MO-d2152cb0: Paginate Overall by root epics
@@ -30,14 +33,15 @@ If Overall stays paginated, page epic roots. Children of an epic on the page are
 
 ## Acceptance criteria
 
-- [ ] Page size applies to root epics, not flattened rows.
-- [ ] Expanding an epic does not jump the user to another page for its children.
+- [x] Page size applies to root epics, not flattened rows.
+- [x] Expanding an epic does not jump the user to another page for its children.
 
 
 ## Prompt & feedback
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
+| 2026-08-28T23:07:00Z | prompt | Marco Mendão | /tkmd-do E-MO-a3da5abd: replace Overall stacked tables with one hierarchical tree (live+static); tests; no commit/push. |
 
 ## Commits
 
@@ -48,4 +52,5 @@ If Overall stays paginated, page epic roots. Children of an epic on the page are
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
+| Marco Mendão | 2026-08-28T23:13:17Z | 2026-08-28T23:13:46Z | Pagination applies to root epics only. |
 

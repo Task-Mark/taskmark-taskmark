@@ -2,7 +2,7 @@
 id: T-MO-f11b79bf
 type: task
 title: Sort stories and epic-direct items under an epic
-status: backlog
+status: done
 priority: high
 size: S
 points: 3
@@ -12,14 +12,17 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MO"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MO"
 blocked: false
 cancelled: false
 tags: [dashboard, frontend, overall]
 created: 2026-08-29
-updated: 2026-08-28T23:03:00Z
-started_at: null
-completed_at: null
+updated: 2026-08-28T23:17:07Z
+started_at: 2026-08-28T23:08:27Z
+completed_at: 2026-08-28T23:17:07Z
 ---
 
 # T-MO-f11b79bf: Sort stories and epic-direct items under an epic
@@ -30,14 +33,15 @@ Under an expanded epic, stories and epic-direct tasks/bugs share one sibling lis
 
 ## Acceptance criteria
 
-- [ ] Incomplete children precede complete children under the same epic.
-- [ ] Newest incomplete child is first among incompletes.
+- [x] Incomplete children precede complete children under the same epic.
+- [x] Newest incomplete child is first among incompletes.
 
 
 ## Prompt & feedback
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
+| 2026-08-28T23:07:00Z | prompt | Marco Mendão | /tkmd-do E-MO-a3da5abd: replace Overall stacked tables with one hierarchical tree (live+static); tests; no commit/push. |
 
 ## Commits
 
@@ -48,4 +52,5 @@ Under an expanded epic, stories and epic-direct tasks/bugs share one sibling lis
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
+| Marco Mendão | 2026-08-28T23:08:27Z | 2026-08-28T23:08:56Z | Sorted stories and epic-direct items as one sibling list. |
 
