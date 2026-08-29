@@ -2,7 +2,7 @@
 id: T-MO-799937e2
 type: task
 title: Document /tkmd-plan-do in website docs
-status: backlog
+status: done
 priority: medium
 size: S
 points: 3
@@ -12,14 +12,17 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MO"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [docs, commands, website]
 created: 2026-08-29
-updated: 2026-08-29T10:55:00Z
-started_at: null
-completed_at: null
+updated: 2026-08-29T11:14:10Z
+started_at: 2026-08-29T11:09:00Z
+completed_at: 2026-08-29T11:14:10Z
 ---
 
 # T-MO-799937e2: Document /tkmd-plan-do in website docs
@@ -33,16 +36,17 @@ overview, and landing that would otherwise omit the new slash.
 
 ## Acceptance criteria
 
-- [ ] `/docs/commands` lists `/tkmd-plan-do` with purpose: plan like `/tkmd-plan`, then implement the newly created items like `/tkmd-do`.
-- [ ] Docs nav and metadata no longer claim the plugin exposes only four commands.
-- [ ] Setup, workflows, and docs overview mention when to use `/tkmd-plan-do` versus plan-only then do later.
-- [ ] The page still states that `/tkmd-commit` is the only command that commits and that `/tkmd-plan-do` never commits.
+- [x] `/docs/commands` lists `/tkmd-plan-do` with purpose: plan like `/tkmd-plan`, then implement the newly created items like `/tkmd-do`.
+- [x] Docs nav and metadata no longer claim the plugin exposes only four commands.
+- [x] Setup, workflows, and docs overview mention when to use `/tkmd-plan-do` versus plan-only then do later.
+- [x] The page still states that `/tkmd-commit` is the only command that commits and that `/tkmd-plan-do` never commits.
 
 ## Prompt & feedback
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
 | 2026-08-29T10:55:00Z | prompt | Marco Mendão | Add `/tkmd-plan-do`: same as `/tkmd-plan`, then run `/tkmd-do` on the tasks just created. |
+| 2026-08-29T11:09:00Z | prompt | Marco Mendão | `/tkmd-do`: implement every backlog work item under epic E-022. |
 
 ## Commits
 
@@ -53,3 +57,4 @@ overview, and landing that would otherwise omit the new slash.
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
+| Marco Mendão | 2026-08-29T11:09:00Z | 2026-08-29T11:09:44Z | Documented `/tkmd-plan-do` on commands, setup, workflows, and overview. |

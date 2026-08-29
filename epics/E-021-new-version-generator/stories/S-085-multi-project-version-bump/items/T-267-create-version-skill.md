@@ -2,7 +2,7 @@
 id: T-267
 type: task
 title: Add create-version skill and command
-status: backlog
+status: shelved
 priority: high
 size: M
 size_source: suggested
@@ -26,9 +26,9 @@ blocked: false
 cancelled: false
 tags: [release, versioning, changelog, readme, plugin]
 created: 2026-07-29
-updated: 2026-08-28T12:37:43.783Z
+updated: 2026-08-29T11:09:34Z
 started_at: null
-completed_at: null
+completed_at: 2026-08-29T11:09:34Z
 actual_ms: 0
 ---
 # T-267: Add create-version skill and command
@@ -49,6 +49,7 @@ Add plugin skill/command that runs discover → suggest/accept → apply as one 
 | # | When (UTC) | Kind | Author | Summary |
 |---|------------|------|--------|---------|
 | 1 | 2026-07-29T07:21:00Z | prompt | Marco Mendão | Create epic for new version generator with stories and tasks |
+| 2 | 2026-08-29T11:09:34Z | prompt | Marco Mendão | Shelve incomplete work on E-001, E-014, and E-021 |
 
 ## Commits
 

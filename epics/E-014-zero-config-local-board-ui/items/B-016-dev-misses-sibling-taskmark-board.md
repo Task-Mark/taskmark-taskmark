@@ -2,7 +2,7 @@
 id: B-016
 type: bug
 title: "taskmark dev from product repo misses sibling *-taskmark board"
-status: backlog
+status: shelved
 priority: high
 size: S
 size_source: suggested
@@ -26,9 +26,9 @@ blocked: false
 cancelled: false
 tags: [cli, board-resolution, multi-repo]
 created: 2026-08-10
-updated: 2026-08-28T12:37:43.783Z
+updated: 2026-08-29T11:09:34Z
 started_at: 2026-08-10T16:02:29Z
-completed_at: null
+completed_at: 2026-08-29T11:09:34Z
 actual_ms: 28800000
 ---
 # B-016: taskmark dev from product repo misses sibling *-taskmark board
@@ -56,6 +56,7 @@ In a multi-git workspace, running `yarn dev` / `taskmark dev` from a product rep
 | # | When (UTC) | Kind | Author | Summary |
 |---|------------|------|--------|---------|
 | 1 | 2026-08-10T16:02:29Z | prompt | Marco Mendão | yarn dev from taskmark-frontend: no board found |
+| 2 | 2026-08-29T11:09:34Z | prompt | Marco Mendão | Shelve incomplete work on E-001, E-014, and E-021 |
 
 ## Commits
 

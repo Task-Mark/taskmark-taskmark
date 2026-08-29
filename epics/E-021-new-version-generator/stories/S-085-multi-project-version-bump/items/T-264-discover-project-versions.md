@@ -2,7 +2,7 @@
 id: T-264
 type: task
 title: Discover current versions across linked projects
-status: backlog
+status: shelved
 priority: high
 size: S
 size_source: suggested
@@ -26,9 +26,9 @@ blocked: false
 cancelled: false
 tags: [release, versioning, changelog, readme, plugin]
 created: 2026-07-29
-updated: 2026-08-28T12:37:43.783Z
+updated: 2026-08-29T11:09:34Z
 started_at: null
-completed_at: null
+completed_at: 2026-08-29T11:09:34Z
 actual_ms: 0
 ---
 
@@ -50,6 +50,7 @@ Scan REPOS.md-linked roots for package.json (and similar) and report current ver
 | # | When (UTC) | Kind | Author | Summary |
 |---|------------|------|--------|---------|
 | 1 | 2026-07-29T07:21:00Z | prompt | Marco Mendão | Create epic for new version generator with stories and tasks |
+| 2 | 2026-08-29T11:09:34Z | prompt | Marco Mendão | Shelve incomplete work on E-001, E-014, and E-021 |
 
 ## Commits
 
