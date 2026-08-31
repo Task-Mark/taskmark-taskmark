@@ -6,6 +6,13 @@ The format follows Keep a Changelog, and versions follow SemVer.
 
 ## Unreleased
 
+## 0.4.1 - 2026-08-31
+
+### Fixed
+
+- `taskmark dev` on a board with the UI installed as a package now compiles instead of failing on TypeScript syntax.
+- Starting the board when the listen port is already in use now names the port and how to pick another, instead of printing a raw error.
+
 ## 0.4.0 - 2026-08-31
 
 ### Added
