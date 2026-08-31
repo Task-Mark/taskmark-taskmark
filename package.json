@@ -1,6 +1,6 @@
 {
   "name": "taskmark-taskmark",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
   "description": "Taskmark board — npm start / npx taskmark serve (local), or Vercel static hosting via npm run build.",

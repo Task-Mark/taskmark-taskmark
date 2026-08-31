@@ -6,6 +6,25 @@ The format follows Keep a Changelog, and versions follow SemVer.
 
 ## Unreleased
 
+## 0.4.0 - 2026-08-31
+
+### Added
+
+- The `/tkmd-reportme` command was added, which writes a personal, gitignored report of work you finished since the last report, and is documented with the other slash commands.
+- A Reports tab was added on the board, with a dropdown of every local report and the newest one selected first.
+- A Velocity metric was added that shows current speed against the highest that same speed has been.
+
+### Changed
+
+- Total and Complete work-item cards were replaced by one Complete work items card that shows total over complete.
+- Large numbers on Complete work items, Current week, and Velocity now use compact magnitudes such as 1K and 1M.
+- Velocity speed is shown as a whole number.
+- On small screens the website header now opens from a hamburger menu instead of wrapping onto a second line.
+
+### Fixed
+
+- Complete work-item counts now treat shelved and cancelled work as complete, so the two numbers match when every countable item is finished.
+
 ## 0.3.0 - 2026-08-29
 
 ### Added
