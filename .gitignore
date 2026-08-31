@@ -3,3 +3,4 @@ out/
 .taskmark-ui-build/
 .vercel
 REPOS.md
+.reports/

@@ -2,7 +2,7 @@
 id: T-MM-db5fb1be
 type: task
 title: Add the /tkmd-reportme command and skill
-status: backlog
+status: done
 priority: high
 size: M
 points: 5
@@ -12,14 +12,17 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [plugin, command, reports]
 created: 2026-08-31
-updated: 2026-08-31T06:47:12Z
-started_at: null
-completed_at: null
+updated: 2026-08-31T07:09:31Z
+started_at: 2026-08-31T06:55:00Z
+completed_at: 2026-08-31T07:09:31Z
 ---
 
 # T-MM-db5fb1be: Add the /tkmd-reportme command and skill
@@ -32,19 +35,20 @@ Bullets follow the changelog wording rules: past tense, one user-visible outcome
 
 ## Acceptance criteria
 
-- [ ] `/tkmd-reportme` exists as a command and resolves to the matching skill
-- [ ] The report file is written at `.reports/report-YYYYMMDD.md`, creating `.reports/` when absent
-- [ ] Leaves are filtered to `status: done` with the current git identity in `resolvers`; shelved and cancelled are skipped
-- [ ] The cutoff ignores a report already dated today, so same-day re-runs regenerate rather than emptying the report
-- [ ] Bullets carry no work-item codes and are written in the board writing language
-- [ ] Nothing qualifying still produces a file with a short note
-- [ ] The skill states it never commits, pushes, edits item markdown, writes `CHANGELOG.md` or the README, or runs from `/tkmd-do`
+- [x] `/tkmd-reportme` exists as a command and resolves to the matching skill
+- [x] The report file is written at `.reports/report-YYYYMMDD.md`, creating `.reports/` when absent
+- [x] Leaves are filtered to `status: done` with the current git identity in `resolvers`; shelved and cancelled are skipped
+- [x] The cutoff ignores a report already dated today, so same-day re-runs regenerate rather than emptying the report
+- [x] Bullets carry no work-item codes and are written in the board writing language
+- [x] Nothing qualifying still produces a file with a short note
+- [x] The skill states it never commits, pushes, edits item markdown, writes `CHANGELOG.md` or the README, or runs from `/tkmd-do`
 
 ## Prompt & feedback
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
 | 2026-08-31T06:47:12Z | prompt | Marco Mendão | From a Cursor plan: add a `/tkmd-reportme` command that collects everything I did since the last report and writes it as human-readable bullets like the changelog. |
+| 2026-08-31T06:55:00Z | prompt | Marco Mendão | /tkmd-do E-MM-5a80f20a |
 
 ## Commits
 
@@ -55,3 +59,4 @@ Bullets follow the changelog wording rules: past tense, one user-visible outcome
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
+| Marco Mendão | 2026-08-31T06:55:00Z | 2026-08-31T06:59:00Z | Added the command dispatch file and the report skill with cutoff, identity filter, wording rules, and write boundaries. |

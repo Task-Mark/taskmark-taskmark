@@ -2,7 +2,7 @@
 id: T-MM-50318720
 type: task
 title: Document /tkmd-reportme in rules, READMEs, and plugin metadata
-status: backlog
+status: done
 priority: medium
 size: S
 points: 3
@@ -12,14 +12,17 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [docs, plugin, reports]
 created: 2026-08-31
-updated: 2026-08-31T06:47:12Z
-started_at: null
-completed_at: null
+updated: 2026-08-31T07:09:31Z
+started_at: 2026-08-31T07:06:00Z
+completed_at: 2026-08-31T07:09:31Z
 ---
 
 # T-MM-50318720: Document /tkmd-reportme in rules, READMEs, and plugin metadata
@@ -30,16 +33,17 @@ Add the command to every place the Taskmark command set is declared: the allowli
 
 ## Acceptance criteria
 
-- [ ] The project-memory rule lists `/tkmd-reportme` in the allowlist with its write boundary
-- [ ] The conventions skill records that the command never implements, commits, or pushes and writes only report files
-- [ ] The plugin README and repository README both list the command
-- [ ] Plugin and marketplace descriptions name the full current command set
+- [x] The project-memory rule lists `/tkmd-reportme` in the allowlist with its write boundary
+- [x] The conventions skill records that the command never implements, commits, or pushes and writes only report files
+- [x] The plugin README and repository README both list the command
+- [x] Plugin and marketplace descriptions name the full current command set
 
 ## Prompt & feedback
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
 | 2026-08-31T06:47:12Z | prompt | Marco Mendão | From a Cursor plan: a new `/tkmd-reportme` command needs to be part of the documented, allowed Taskmark command set. |
+| 2026-08-31T06:55:00Z | prompt | Marco Mendão | /tkmd-do E-MM-5a80f20a |
 
 ## Commits
 
@@ -50,3 +54,4 @@ Add the command to every place the Taskmark command set is declared: the allowli
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
+| Marco Mendão | 2026-08-31T07:06:00Z | 2026-08-31T07:08:00Z | Documented the command in the allowlist rule, the conventions boundaries, both READMEs, and refreshed the stale plugin and marketplace descriptions. |

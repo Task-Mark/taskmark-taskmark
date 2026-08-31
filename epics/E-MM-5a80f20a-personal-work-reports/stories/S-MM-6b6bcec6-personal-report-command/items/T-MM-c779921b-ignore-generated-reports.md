@@ -2,7 +2,7 @@
 id: T-MM-c779921b
 type: task
 title: Keep generated reports out of git and images
-status: backlog
+status: done
 priority: high
 size: S
 points: 3
@@ -12,14 +12,17 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [plugin, gitignore, reports]
 created: 2026-08-31
-updated: 2026-08-31T06:47:12Z
-started_at: null
-completed_at: null
+updated: 2026-08-31T07:09:31Z
+started_at: 2026-08-31T06:59:00Z
+completed_at: 2026-08-31T07:09:31Z
 ---
 
 # T-MM-c779921b: Keep generated reports out of git and images
@@ -30,17 +33,18 @@ Reports are personal and local, so `.reports/` must be ignored everywhere `REPOS
 
 ## Acceptance criteria
 
-- [ ] `ensure-board-ui.py` writes `.reports/` into a new or existing board `.gitignore`
-- [ ] The current board `.gitignore` lists `.reports/`
-- [ ] `git check-ignore` confirms a report path is ignored on a freshly initialised board
-- [ ] The stub and board `.dockerignore` exclude `.reports/`
-- [ ] The commit skill states that report files are gitignored and must not be staged
+- [x] `ensure-board-ui.py` writes `.reports/` into a new or existing board `.gitignore`
+- [x] The current board `.gitignore` lists `.reports/`
+- [x] `git check-ignore` confirms a report path is ignored on a freshly initialised board
+- [x] The stub and board `.dockerignore` exclude `.reports/`
+- [x] The commit skill states that report files are gitignored and must not be staged
 
 ## Prompt & feedback
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
 | 2026-08-31T06:47:12Z | prompt | Marco Mendão | From a Cursor plan: report files must be ignored by git and live in a `.reports` folder rather than at the board root. |
+| 2026-08-31T06:55:00Z | prompt | Marco Mendão | /tkmd-do E-MM-5a80f20a |
 
 ## Commits
 
@@ -51,3 +55,4 @@ Reports are personal and local, so `.reports/` must be ignored everywhere `REPOS
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
+| Marco Mendão | 2026-08-31T06:59:00Z | 2026-08-31T07:01:00Z | Added the reports directory to the board ignore list, the existing board gitignore, and both dockerignore files; verified with check-ignore. |
