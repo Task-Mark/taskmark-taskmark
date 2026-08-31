@@ -2,7 +2,7 @@
 id: T-MM-1e2e58f3
 type: task
 title: Verify strips legacy fields and parent-only sections
-status: backlog
+status: done
 priority: high
 size: M
 points: 5
@@ -12,14 +12,17 @@ reporters:
   - name: "Marco Mendão"
     email: "marco.mendao@betacode.tech"
     initials: "MM"
-resolvers: []
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
 blocked: false
 cancelled: false
 tags: [plugin, migration, markdown]
 created: 2026-08-31
-updated: 2026-08-31T12:22:27Z
-started_at: null
-completed_at: null
+updated: 2026-08-31T13:06:14Z
+started_at: 2026-08-31T13:01:00Z
+completed_at: 2026-08-31T13:06:14Z
 ---
 
 # T-MM-1e2e58f3: Verify strips legacy fields and parent-only sections
@@ -28,17 +31,18 @@ Scan `epics/**/*.md` and apply mechanical edits only. Strip retired frontmatter:
 
 ## Acceptance criteria
 
-- [ ] Listed retired frontmatter keys are removed from item files that still have them.
-- [ ] Current spec keys, leaf Prompt & feedback, Commits, and Work log tables remain.
-- [ ] Child lists and parent log sections are removed from `epic.md` and `story.md` only.
-- [ ] Legacy sequential IDs and `in_progress` values are not rewritten.
-- [ ] The command reports how many files were rewritten; it can skip writes when the user asks for a dry run.
+- [x] Listed retired frontmatter keys are removed from item files that still have them.
+- [x] Current spec keys, leaf Prompt & feedback, Commits, and Work log tables remain.
+- [x] Child lists and parent log sections are removed from `epic.md` and `story.md` only.
+- [x] Legacy sequential IDs and `in_progress` values are not rewritten.
+- [x] The command reports how many files were rewritten; it can skip writes when the user asks for a dry run.
 
 ## Prompt & feedback
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
 | 2026-08-31T12:22:27Z | prompt | Marco Mendão | Cursor plan: `/tkmd-verify` migrates old boards to the current Taskmark layout and item spec. |
+| 2026-08-31T13:01:00Z | prompt | Marco Mendão | `/tkmd-do S-MM-ac500104`: implement `/tkmd-verify` to migrate old boards. |
 
 ## Commits
 
@@ -49,3 +53,4 @@ Scan `epics/**/*.md` and apply mechanical edits only. Strip retired frontmatter:
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
+| Marco Mendão | 2026-08-31T13:01:00Z | 2026-08-31T13:02:08Z | Mechanical markdown migrate with `--dry-run` and parent-only section stripping. |
