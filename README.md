@@ -100,7 +100,7 @@ Use the Cursor plugin in a product workspace:
 | `/tkmd-do` | Implement a target without committing |
 | `/tkmd-shelf` | Discard never-implemented work as shelved |
 | `/tkmd-changelog` | Rebuild CHANGELOG Unreleased from recent done work |
-| `/tkmd-version` | Promote Unreleased and set the board package.json version |
+| `/tkmd-version` | Promote Unreleased and set that SemVer on every linked product |
 | `/tkmd-commit` | Commit dirty linked repositories |
 
 This board does not generate `INDEX.md`, `SIZING.md`, or `VELOCITY.md`.
