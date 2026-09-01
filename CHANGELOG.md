@@ -6,6 +6,14 @@ The format follows Keep a Changelog, and versions follow SemVer.
 
 ## Unreleased
 
+## 0.5.0 - 2026-09-01
+
+### Changed
+
+- On small screens, Overall tree rows now show the work-item title first and the remaining details on a second line, without sideways scrolling.
+- On small screens, the Work items list now uses stacked rows with the title first, a wrapping metadata line, and a compact sort control instead of a sideways-scrolling table.
+- On small screens, Prompt & feedback, Commits, Work log, and other tables in the work-item detail sheet now appear as labelled cards instead of tables.
+
 ## 0.4.1 - 2026-08-31
 
 ### Fixed
