@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [invites, resend]
 created: 2026-09-02
-updated: 2026-09-02T15:52:15Z
+updated: 2026-09-02T16:53:25Z
 started_at: 2026-09-02T15:28:10Z
 completed_at: 2026-09-02T15:52:15Z
 ---
@@ -42,6 +42,7 @@ Create hashed project invitations after the owner verifies email, send them with
 |------------|------|--------|---------|
 | 2026-09-02T15:28:10Z | prompt | Marco Mendão | From the Cloud Auth Registration plan: implement invitations for existing and new users and deliver them with Resend. |
 | 2026-09-02T15:28:10Z | prompt | Marco Mendão | `/tkmd-save-do`: implement this leaf without committing or pushing. |
+| 2026-09-02T16:53:25Z | prompt | Marco Mendão | Create the best possible invitation email UI and UX, aligned with the application branding, including its logo and improved copy. |
 
 ## Commits
 
@@ -53,3 +54,4 @@ Create hashed project invitations after the owner verifies email, send them with
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
 | Marco Mendão | 2026-09-02T15:28:10Z | 2026-09-02T15:52:15Z | Created hashed invitations after owner verify, Resend delivery, accept, and register-from-invite. |
+| Marco Mendão | 2026-09-02T16:52:00Z | 2026-09-02T16:53:25Z | Designed a branded, responsive invitation email with polished copy, plain-text fallback, and safe HTML escaping. |
