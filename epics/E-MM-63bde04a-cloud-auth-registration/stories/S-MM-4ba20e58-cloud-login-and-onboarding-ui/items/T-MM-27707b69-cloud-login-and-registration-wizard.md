@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [cloud, ui]
 created: 2026-09-02
-updated: 2026-09-02T16:20:10Z
+updated: 2026-09-02T16:23:30Z
 started_at: 2026-09-02T15:28:10Z
 completed_at: 2026-09-02T15:52:15Z
 ---
@@ -43,6 +43,7 @@ Add Taskmark-styled login, a four-step registration wizard, email verification, 
 | 2026-09-02T15:28:10Z | prompt | Marco Mendão | From the Cloud Auth Registration plan: create login, the registration wizard, verification, and invite acceptance in taskmark-cloud. |
 | 2026-09-02T15:28:10Z | prompt | Marco Mendão | `/tkmd-save-do`: implement this leaf without committing or pushing. |
 | 2026-09-02T16:20:10Z | prompt | Marco Mendão | Registration must include password and retype password, validated with React Hook Form. |
+| 2026-09-02T16:23:30Z | prompt | Marco Mendão | Passwords must be at least 8 characters, not 10. |
 
 ## Commits
 
@@ -55,3 +56,4 @@ Add Taskmark-styled login, a four-step registration wizard, email verification, 
 |-------|---------------|-------------|---------|
 | Marco Mendão | 2026-09-02T15:28:10Z | 2026-09-02T15:52:15Z | Built login, the four-step wizard, verify and invite pages, plus a cookie-preserving API proxy. |
 | Marco Mendão | 2026-09-02T16:17:00Z | 2026-09-02T16:20:10Z | Added password and retype password fields with React Hook Form on registration. |
+| Marco Mendão | 2026-09-02T16:23:00Z | 2026-09-02T16:23:30Z | Lowered the registration password minimum to 8 characters. |

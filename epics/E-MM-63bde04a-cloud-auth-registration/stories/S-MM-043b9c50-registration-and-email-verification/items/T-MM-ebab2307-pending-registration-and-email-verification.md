@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [auth]
 created: 2026-09-02
-updated: 2026-09-02T15:52:15Z
+updated: 2026-09-02T16:23:30Z
 started_at: 2026-09-02T15:28:10Z
 completed_at: 2026-09-02T15:52:15Z
 ---
@@ -42,6 +42,7 @@ Add register, verify-email, and resend-verification endpoints that keep the acco
 |------------|------|--------|---------|
 | 2026-09-02T15:28:10Z | prompt | Marco Mendão | From the Cloud Auth Registration plan: implement pending registration, owner project, and email verification. |
 | 2026-09-02T15:28:10Z | prompt | Marco Mendão | `/tkmd-save-do`: implement this leaf without committing or pushing. |
+| 2026-09-02T16:23:30Z | prompt | Marco Mendão | Passwords must be at least 8 characters, not 10. |
 
 ## Commits
 
@@ -53,3 +54,4 @@ Add register, verify-email, and resend-verification endpoints that keep the acco
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
 | Marco Mendão | 2026-09-02T15:28:10Z | 2026-09-02T15:52:15Z | Added pending register, hashed verification, and activation of the owner project. |
+| Marco Mendão | 2026-09-02T16:23:00Z | 2026-09-02T16:23:30Z | Lowered the minimum password length from 10 to 8. |
