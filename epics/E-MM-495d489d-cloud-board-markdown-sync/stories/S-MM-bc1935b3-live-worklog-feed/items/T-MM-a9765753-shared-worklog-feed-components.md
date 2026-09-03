@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [ui, components, shadcn, worklog]
 created: 2026-09-03
-updated: 2026-09-03T21:33:00Z
+updated: 2026-09-03T21:40:00Z
 started_at: 2026-09-03T18:41:51Z
 completed_at: 2026-09-03T18:54:00Z
 ---
@@ -41,6 +41,7 @@ Install the shadcn Message and Bubble primitives in `@taskmark/components`, then
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
+| 2026-09-03T21:40:00Z | feedback | Marco Mendão | Opening or refreshing the page replays the sound for every existing message; only genuinely new ones should ring. |
 | 2026-09-03T21:33:00Z | prompt | Marco Mendão | Hide the floating work-log messages on mobile. |
 | 2026-09-03T19:12:00Z | prompt | Marco Mendão | Show at most five feed messages. |
 | 2026-09-03T19:08:00Z | prompt | Marco Mendão | Do not expire feed cards; keep them until a newer message evicts them. |
@@ -58,6 +59,7 @@ Install the shadcn Message and Bubble primitives in `@taskmark/components`, then
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
+| Marco Mendão | 2026-09-03T21:40:00Z | 2026-09-03T21:40:00Z | Seeded the feed from the first fetched batch so a page load no longer replays the notification sound. |
 | Marco Mendão | 2026-09-03T21:33:00Z | 2026-09-03T21:33:00Z | Hid the floating work-log feed below the mobile breakpoint. |
 | Marco Mendão | 2026-09-03T19:12:00Z | 2026-09-03T19:12:00Z | Capped the floating feed at five visible messages. |
 | Marco Mendão | 2026-09-03T19:08:00Z | 2026-09-03T19:08:00Z | Removed the five-minute expiry so feed cards stay until the oldest is evicted. |
