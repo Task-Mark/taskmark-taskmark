@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [local-ui, cloud, worklog, navigation]
 created: 2026-09-03
-updated: 2026-09-03T18:54:00Z
+updated: 2026-09-03T19:02:10Z
 started_at: 2026-09-03T18:41:51Z
 completed_at: 2026-09-03T18:54:00Z
 ---
@@ -36,11 +36,15 @@ Add a Worklog tab to the shared board navigation and render all task and bug wor
 - [x] The view flattens task and bug work logs without duplicated parent rollups.
 - [x] Rows show actor, work item, start/end times, and summary newest first.
 - [x] Local markdown reload and Cloud snapshot refresh update the view automatically.
+- [x] The Worklog view uses the same responsive table style as work-item details.
+- [x] Work-log rows are paginated at a fixed maximum of ten per page.
+- [x] Each row shows a typed, clickable tag for its source work item.
 
 ## Prompt & feedback
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
+| 2026-09-03T19:02:10Z | prompt | Marco Mendão | Paginate the Worklog view at ten rows and match the work-item detail table with typed task tags. |
 | 2026-09-03T18:41:51Z | prompt | Marco Mendão | Save and implement a Worklog tab on local and Cloud boards with automatic updates. |
 
 ## Commits
@@ -53,3 +57,4 @@ Add a Worklog tab to the shared board navigation and render all task and bug wor
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
 | Marco Mendão | 2026-09-03T18:41:51Z | 2026-09-03T18:54:00Z | Added the Worklog board view to local and Cloud list navigation. |
+| Marco Mendão | 2026-09-03T19:00:00Z | 2026-09-03T19:02:10Z | Matched the detail Work log table, added typed source-item tags, and fixed pagination at ten rows. |
