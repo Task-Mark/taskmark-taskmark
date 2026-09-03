@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [cloud, ui, projects]
 created: 2026-09-03
-updated: 2026-09-03T14:55:25Z
+updated: 2026-09-03T18:20:00Z
 started_at: 2026-09-03T14:28:14Z
 completed_at: 2026-09-03T14:31:58Z
 ---
@@ -44,6 +44,7 @@ Replace the conditional native project select with an always-visible Taskmark pr
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
+| 2026-09-03T18:20:00Z | prompt | Marco Mendão | Remove the owner role label from the Taskmark Cloud app bar. |
 | 2026-09-03T14:55:25Z | feedback | Marco Mendão | Place the dropdown beside Log out and remove the scrollbar that appears when hovering a short project list. |
 | 2026-09-03T14:28:14Z | prompt | Marco Mendão | Add a cloud board project picker that lets users select any associated board and create a new project. |
 
@@ -56,5 +57,6 @@ Replace the conditional native project select with an always-visible Taskmark pr
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
+| Marco Mendão | 2026-09-03T18:20:00Z | 2026-09-03T18:20:00Z | Removed the membership role label from the Cloud app bar. |
 | Marco Mendão | 2026-09-03T14:28:14Z | 2026-09-03T14:31:58Z | Replaced the conditional select with an always-visible project picker and integrated first-project creation and switching. |
 | Marco Mendão | 2026-09-03T14:55:25Z | 2026-09-03T14:55:25Z | Moved the picker beside Log out and limited scrolling to project lists longer than six entries. |
