@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [cloud, ui, gauge, tabler]
 created: 2026-09-03
-updated: 2026-09-03T21:33:00Z
+updated: 2026-09-03T21:41:00Z
 started_at: 2026-09-03T19:55:00Z
 completed_at: 2026-09-03T20:10:00Z
 ---
@@ -42,6 +42,7 @@ Float a speedometer on the left of the Cloud board, opposite the worklog feed. F
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
+| 2026-09-03T21:41:00Z | feedback | Marco Mendão | On mobile the mood icon and caption sit on top of the gauge track. |
 | 2026-09-03T21:33:00Z | prompt | Marco Mendão | On mobile show the work-log gauge in the page body instead of floating. |
 | 2026-09-03T21:28:00Z | feedback | Marco Mendão | Past days looked sad because they were scored against a peak set later; check the maths. |
 | 2026-09-03T21:23:00Z | prompt | Marco Mendão | Shrink the center icon so it does not hit the gauge, and show smiles for the last 10 days. |
@@ -59,6 +60,7 @@ Float a speedometer on the left of the Cloud board, opposite the worklog feed. F
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
+| Marco Mendão | 2026-09-03T21:41:00Z | 2026-09-03T21:41:00Z | Capped the gauge width and dropped its fixed height so the glyph and caption stay clear of the arc. |
 | Marco Mendão | 2026-09-03T21:33:00Z | 2026-09-03T21:33:00Z | Added an inline gauge layout rendered in the page body on mobile. |
 | Marco Mendão | 2026-09-03T21:28:00Z | 2026-09-03T21:28:00Z | Scored each history day against its own trailing peak so later records no longer make past days look bad. |
 | Marco Mendão | 2026-09-03T21:23:00Z | 2026-09-03T21:23:00Z | Shrunk the center disc and added a 10-day mood row under the gauge. |
