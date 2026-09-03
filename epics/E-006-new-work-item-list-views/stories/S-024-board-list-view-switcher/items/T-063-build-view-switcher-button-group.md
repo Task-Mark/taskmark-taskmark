@@ -29,7 +29,7 @@ blocked: false
 cancelled: false
 tags: [ui, frontend, views]
 created: 2026-07-22
-updated: 2026-08-28T12:37:43.783Z
+updated: 2026-09-03T21:43:00Z
 started_at: 2026-07-23T06:38:57Z
 completed_at: 2026-07-23T06:39:10Z
 actual_ms: 13000
@@ -56,6 +56,7 @@ Prefer existing shadcn/ui ToggleGroup or Button group patterns if present.
 | # | When (UTC) | Kind | Author | Summary |
 |---|------------|------|--------|---------|
 | 1 | 2026-07-23T06:42:22Z | prompt | Marco Mendão | Implement E-006 |
+| 3 | 2026-09-03T21:43:00Z | prompt | Marco Mendão | On mobile, local and Cloud boards should switch list views with a dropdown instead of tabs. |
 | 2 | 2026-07-23T06:42:22Z | feedback | Marco Mendão | Shipped list view as part of E-006 |
 
 ## Commits
@@ -67,4 +68,5 @@ Prefer existing shadcn/ui ToggleGroup or Button group patterns if present.
 
 | Session | Actor | Started (UTC) | Ended (UTC) | Summary |
 |---------|-------|---------------|-------------|---------|
+| 2 | Marco Mendão | 2026-09-03T21:43:00Z | 2026-09-03T21:43:00Z | Replaced the list-view tabs with a dropdown below the mobile breakpoint. |
 | 1 | Marco Mendão | 2026-07-23T06:38:57Z | 2026-07-23T06:39:10Z | shared-batch: 13667 of 205000ms by points |
