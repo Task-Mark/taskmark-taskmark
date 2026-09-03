@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [local-ui, settings, sync, security]
 created: 2026-09-03
-updated: 2026-09-03T15:15:39Z
+updated: 2026-09-03T18:09:00Z
 started_at: 2026-09-03T15:04:18Z
 completed_at: 2026-09-03T15:15:39Z
 ---
@@ -43,6 +43,8 @@ Add a Settings page to each locally bound Taskmark project where a developer can
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
 | 2026-09-03T15:04:18Z | prompt | Marco Mendão | Replace manual sync-token environment variables with a per-project local Settings page where the cloud-generated token can be configured. |
+| 2026-09-03T18:09:00Z | prompt | Marco Mendão | Add verbose step-by-step instructions on local Settings to configure Taskmark Cloud, pointing at cloud.taskmark.dev. |
+| 2026-09-03T18:09:00Z | feedback | Marco Mendão | Official Cloud URL is cloud.taskmark.dev; copy should be more verbose so users know what to do. |
 
 ## Commits
 
@@ -54,3 +56,4 @@ Add a Settings page to each locally bound Taskmark project where a developer can
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
 | Marco Mendão | 2026-09-03T15:04:18Z | 2026-09-03T15:15:39Z | Added bound-board sync Settings, secure per-board user-local token storage, masked status, same-origin writes, and cloud setup guidance. |
+| Marco Mendão | 2026-09-03T18:09:00Z | 2026-09-03T18:09:00Z | Added numbered local Settings steps for connecting a board to Taskmark Cloud. |

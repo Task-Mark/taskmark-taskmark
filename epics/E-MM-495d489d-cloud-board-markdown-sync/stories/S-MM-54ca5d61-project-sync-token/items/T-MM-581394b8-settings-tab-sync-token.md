@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [cloud, ui, settings]
 created: 2026-09-02
-updated: 2026-09-02T18:07:57Z
+updated: 2026-09-03T18:09:00Z
 started_at: 2026-09-02T17:54:46Z
 completed_at: 2026-09-02T18:07:57Z
 ---
@@ -42,6 +42,8 @@ Add a project Settings tab in taskmark-cloud where members copy the sync token a
 |------------|------|--------|---------|
 | 2026-09-02T17:54:46Z | prompt | Marco Mendão | `/tkmd-save-do`: implement this leaf without committing or pushing. |
 | 2026-09-02T17:54:46Z | prompt | Marco Mendão | From the Cursor plan Sync board local cloud: Settings tab so members copy the project token and send it to other developers. |
+| 2026-09-03T18:09:00Z | prompt | Marco Mendão | Add verbose step-by-step Cloud instructions to configure local-board sync with Taskmark Cloud at cloud.taskmark.dev. |
+| 2026-09-03T18:09:00Z | feedback | Marco Mendão | Official Cloud URL is cloud.taskmark.dev; copy should be more verbose so users know what to do. |
 
 ## Commits
 
@@ -53,3 +55,4 @@ Add a project Settings tab in taskmark-cloud where members copy the sync token a
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
 | Marco Mendão | 2026-09-02T17:54:46Z | 2026-09-02T18:07:57Z | Added the cloud Settings tab to copy and rotate the sync token. |
+| Marco Mendão | 2026-09-03T18:09:00Z | 2026-09-03T18:09:00Z | Replaced env-var setup copy with numbered Cloud Settings and empty-board steps for local sync. |
