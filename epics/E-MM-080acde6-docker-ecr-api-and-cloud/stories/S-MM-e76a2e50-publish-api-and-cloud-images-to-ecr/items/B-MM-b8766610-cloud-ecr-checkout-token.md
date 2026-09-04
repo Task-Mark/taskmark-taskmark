@@ -47,6 +47,8 @@ The Cloud publish workflow checks out `Task-Mark/taskmark-ui` with `secrets.UI_R
 
 | SHA | Repo | Date (UTC) | Author | Message |
 |-----|------|------------|--------|---------|
+| 119d73e133484a18908d9623fc6660483fa2d6be | taskmark-cloud | 2026-09-04T15:29:59Z | Marco Mendão | add production compose and fix worklog import |
+| 5c455370fb83021e5a7e32b26892684c47b186ae | taskmark-taskmark | 2026-09-04T15:29:59Z | Marco Mendão | sync taskmark board |
 
 ## Work log
 
