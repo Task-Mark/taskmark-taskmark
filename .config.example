@@ -1,0 +1,6 @@
+# Shared cloud sync for this board. Commit this file (it is not `.env`).
+# Clone + `taskmark dev` / `taskmark serve` will start syncing automatically.
+# Local Settings still override this machine if a token is saved there.
+
+TASKMARK_SYNC_TOKEN=tmk_
+# TASKMARK_CLOUD_URL=https://cloud.taskmark.dev
