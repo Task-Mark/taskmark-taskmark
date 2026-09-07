@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [cloud, ui, gauge, tabler]
 created: 2026-09-03
-updated: 2026-09-04T08:23:36Z
+updated: 2026-09-07T18:07:08Z
 started_at: 2026-09-03T19:55:00Z
 completed_at: 2026-09-03T20:10:00Z
 ---
@@ -40,6 +40,9 @@ Float a speedometer on the left of the Cloud board, opposite the worklog feed. F
 
 ## Prompt & feedback
 
+| When (UTC) | Kind | Author | Summary |
+|------------|------|--------|---------|
+| 2026-09-07T18:07:08Z | prompt | Marco Mendão | On days with no work logs the face should be the ZZZ icon, but the annoyed mood shows instead. |
 | 2026-09-04T08:23:36Z | prompt | Marco Mendão | Use IconZzz instead of IconMoodSing when there are no work logs. |
 | 2026-09-03T21:41:00Z | feedback | Marco Mendão | On mobile the mood icon and caption sit on top of the gauge track. |
 | 2026-09-03T21:33:00Z | prompt | Marco Mendão | On mobile show the work-log gauge in the page body instead of floating. |
@@ -57,6 +60,9 @@ Float a speedometer on the left of the Cloud board, opposite the worklog feed. F
 
 ## Work log
 
+| Actor | Started (UTC) | Ended (UTC) | Summary |
+|-------|---------------|-------------|---------|
+| Marco Mendão | 2026-09-07T17:50:00Z | 2026-09-07T18:07:08Z | Made an idle day sleep instead of turning annoyed after the end-of-day hour, and covered the pace icons with tests. |
 | Marco Mendão | 2026-09-04T08:23:36Z | 2026-09-04T08:23:36Z | Swapped the zero-work-log glyph from IconMoodSing to IconZzz. |
 | Marco Mendão | 2026-09-03T21:41:00Z | 2026-09-03T21:41:00Z | Capped the gauge width and dropped its fixed height so the glyph and caption stay clear of the arc. |
 | Marco Mendão | 2026-09-03T21:33:00Z | 2026-09-03T21:33:00Z | Added an inline gauge layout rendered in the page body on mobile. |
