@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [cloud, ui, projects]
 created: 2026-09-03
-updated: 2026-09-03T21:36:00Z
+updated: 2026-09-07T19:21:17Z
 started_at: 2026-09-03T14:28:14Z
 completed_at: 2026-09-03T14:31:58Z
 ---
@@ -45,6 +45,7 @@ Replace the conditional native project select with an always-visible Taskmark pr
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
+| 2026-09-07T19:21:17Z | prompt | Marco Mendão | Opening Cloud at / should restore the last selected project from a cookie. |
 | 2026-09-03T21:36:00Z | prompt | Marco Mendão | On mobile the Cloud app bar should show only branding and a hamburger menu. |
 | 2026-09-03T18:20:00Z | prompt | Marco Mendão | Remove the owner role label from the Taskmark Cloud app bar. |
 | 2026-09-03T14:55:25Z | feedback | Marco Mendão | Place the dropdown beside Log out and remove the scrollbar that appears when hovering a short project list. |
@@ -59,6 +60,7 @@ Replace the conditional native project select with an always-visible Taskmark pr
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
+| Marco Mendão | 2026-09-07T19:19:00Z | 2026-09-07T19:21:17Z | Remembered the last Cloud project in a cookie and opened it from the product root. |
 | Marco Mendão | 2026-09-03T21:36:00Z | 2026-09-03T21:36:00Z | Collapsed the Cloud app bar controls into a hamburger sheet on mobile. |
 | Marco Mendão | 2026-09-03T18:20:00Z | 2026-09-03T18:20:00Z | Removed the membership role label from the Cloud app bar. |
 | Marco Mendão | 2026-09-03T14:28:14Z | 2026-09-03T14:31:58Z | Replaced the conditional select with an always-visible project picker and integrated first-project creation and switching. |

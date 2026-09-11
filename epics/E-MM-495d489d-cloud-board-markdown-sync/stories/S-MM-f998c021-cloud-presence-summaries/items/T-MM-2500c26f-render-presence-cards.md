@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [cloud, ui, presence]
 created: 2026-09-03
-updated: 2026-09-07T18:11:49Z
+updated: 2026-09-11T19:02:02Z
 started_at: 2026-09-03T21:56:00Z
 completed_at: 2026-09-03T22:02:00Z
 ---
@@ -42,6 +42,7 @@ Add a shared presence feed that Cloud fills from the activity endpoint. Render i
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
+| 2026-09-11T19:02:02Z | prompt | Marco Mendão | Show the avatar and the relative generation time inside the full summary modal. |
 | 2026-09-07T18:11:49Z | prompt | Marco Mendão | Show a simple summary of at most 180 characters on each card and open an unrestricted complete summary in a modal when clicked. |
 | 2026-09-03T22:06:26Z | feedback | Marco Mendão | The AI summary per person belongs on the left, not on the right. |
 | 2026-09-03T21:56:00Z | prompt | Marco Mendão | Cursor plan: render presence cards above the Cloud worklog feed. |
@@ -55,6 +56,7 @@ Add a shared presence feed that Cloud fills from the activity endpoint. Render i
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
+| Marco Mendão | 2026-09-11T18:59:30Z | 2026-09-11T19:02:02Z | Gave the full summary modal a header with the person's avatar, name, and the time the summary was generated. |
 | Marco Mendão | 2026-09-07T18:08:00Z | 2026-09-07T18:11:49Z | Stored compact and complete presence summaries, limited cards to 180 characters, and opened the full text in an accessible modal. |
 | Marco Mendão | 2026-09-03T22:03:00Z | 2026-09-03T22:06:26Z | Moved the presence summaries into their own left column above the pace gauge. |
 | Marco Mendão | 2026-09-03T21:56:00Z | 2026-09-03T22:02:00Z | Rendered quoted presence cards above the Cloud worklog feed. |
