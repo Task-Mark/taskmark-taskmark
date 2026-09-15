@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [cli, sync, workspace]
 created: 2026-09-15
-updated: 2026-09-15T21:10:00Z
+updated: 2026-09-15T21:25:00Z
 started_at: 2026-09-15T17:16:22Z
 completed_at: 2026-09-15T17:21:01Z
 ---
@@ -48,6 +48,7 @@ As a developer using the standalone multi-project UI, I want every configured lo
 |------------|------|--------|---------|
 | 2026-09-15T17:16:22Z | prompt | Marco Mendão | Make `npx @taskmark/ui` continuously push every configured project with Cloud settings in `.config`, in the background and independently of the project currently open. |
 | 2026-09-15T21:00:00Z | prompt | Marco Mendão | Workspace sync failed for every board with a bundler error about an unresolved board model import. Explain what happened and fix it. |
+| 2026-09-15T21:16:00Z | prompt | Marco Mendão | Workspace sync now reaches the snapshot step but every board reports that no Taskmark board was found. |
 
 ## Commits
 
@@ -60,3 +61,4 @@ As a developer using the standalone multi-project UI, I want every configured lo
 |-------|---------------|-------------|---------|
 | Marco Mendão | 2026-09-15T17:16:22Z | 2026-09-15T17:21:01Z | Added non-blocking multi-board workspace sync reconciliation, cleanup, and automated coverage while preserving bound-mode sync. |
 | Marco Mendão | 2026-09-15T21:00:00Z | 2026-09-15T21:10:00Z | Traced the sync failure to an installed CLI whose shared component package was missing, and replaced the raw bundler error with an instruction to reinstall the CLI. |
+| Marco Mendão | 2026-09-15T21:16:00Z | 2026-09-15T21:25:00Z | Bound the snapshot builder to the board being synced instead of letting it inherit workspace mode, so multi-project sync builds a snapshot for every configured board. |

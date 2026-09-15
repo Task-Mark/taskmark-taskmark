@@ -6,6 +6,13 @@ The format follows Keep a Changelog, and versions follow SemVer.
 
 ## Unreleased
 
+## 1.1.2 - 2026-09-15
+
+### Fixed
+
+- Background Cloud sync in standalone workspace mode now builds a snapshot for every configured board instead of stopping with a "no Taskmark board found" error.
+- A CLI install that is missing its shared component package now explains how to reinstall it instead of failing with a bundler error.
+
 ## 1.1.1 - 2026-09-15
 
 ### Added
