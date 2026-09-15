@@ -6,6 +6,16 @@ The format follows Keep a Changelog, and versions follow SemVer.
 
 ## Unreleased
 
+## 1.1.1 - 2026-09-15
+
+### Added
+
+- The public website footer now shows the latest Taskmark version.
+
+### Changed
+
+- Local and Cloud board version footers are a compact bar fixed to the bottom of the viewport, with space reserved so they do not cover content.
+
 ## 1.1.0 - 2026-09-15
 
 ### Added
