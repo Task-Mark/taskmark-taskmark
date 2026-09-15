@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [cloud, presence, ui]
 created: 2026-09-11
-updated: 2026-09-11T19:07:39Z
+updated: 2026-09-11T20:20:00Z
 started_at: 2026-09-11T18:51:00Z
 completed_at: 2026-09-11T19:05:43Z
 ---
@@ -41,6 +41,7 @@ Add a three-dot overflow control beside the Cloud theme toggle. It contains Sett
 
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
+| 2026-09-11T20:20:00Z | prompt | Marco Mendão | Remove dropdown icons, rename summarize to Report Work, show a left-side message skeleton while generating, and confirm before logout. |
 | 2026-09-11T19:07:39Z | prompt | Marco Mendão | Add an icon for each action in the three-dot dropdown. |
 | 2026-09-11T19:05:43Z | feedback | Marco Mendão | Open a contributor picker before summarizing, move Settings into the three-dot menu, and remove the Board label. |
 | 2026-09-11T18:52:31Z | prompt | Marco Mendão | Add a three-dot button beside the theme toggle to request a summary of each contributor's work, and show a summary card while it is generating. |
@@ -54,6 +55,7 @@ Add a three-dot overflow control beside the Cloud theme toggle. It contains Sett
 
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
+| Marco Mendão | 2026-09-11T20:18:00Z | 2026-09-11T20:20:00Z | Renamed Report Work, removed menu icons, added generating skeleton in the presence feed, and a logout confirmation dialog. |
 | Marco Mendão | 2026-09-11T19:06:30Z | 2026-09-11T19:07:39Z | Added Sparkles and Settings icons to the Cloud three-dot menu actions. |
 | Marco Mendão | 2026-09-11T19:03:00Z | 2026-09-11T19:05:43Z | Added a contributor-selection modal, limited manual generation to the selected person, and moved Settings into the unlabeled overflow menu. |
 | Marco Mendão | 2026-09-11T18:51:00Z | 2026-09-11T18:59:04Z | Added a Cloud overflow action that requests contributor summaries and streams generating cards until the finished text replaces them. |
