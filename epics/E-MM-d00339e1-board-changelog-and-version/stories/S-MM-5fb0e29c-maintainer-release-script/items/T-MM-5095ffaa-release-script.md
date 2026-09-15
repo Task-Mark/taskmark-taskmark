@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [release, npm, git]
 created: 2026-09-15
-updated: 2026-09-15T17:00:00Z
+updated: 2026-09-15T20:37:36Z
 started_at: 2026-09-15T16:54:00Z
 completed_at: 2026-09-15T16:58:00Z
 ---
@@ -50,6 +50,7 @@ As a maintainer, I run one script as the last release step so git remotes and np
 | 2026-09-15T16:54:00Z | prompt | Marco Mendão | Create a release script that publishes all npm packages and pushes every repo. Last step after a new version. npm login if needed, then ask for a 2FA code for publish. |
 | 2026-09-15T16:59:00Z | prompt | Marco Mendão | The release script must not live in the Cursor plugin. Put it outside every product repo as an internal deploy tool. |
 | 2026-09-15T17:00:00Z | feedback | Marco Mendão | Keep it next to the clones as `./release.sh`. Default workspace is the script directory. |
+| 2026-09-15T20:37:36Z | prompt | Marco Mendão | Make the release script refresh internal dependencies to the release version and verify that every product completes its checks before push or publish. |
 
 ## Commits
 
@@ -62,3 +63,4 @@ As a maintainer, I run one script as the last release step so git remotes and np
 |-------|---------------|-------------|---------|
 | Marco Mendão | 2026-09-15T16:54:00Z | 2026-09-15T16:58:00Z | Added plugin scripts/release.sh to push product repos, tag the board SemVer, npm login if needed, and publish both public packages with one OTP. |
 | Marco Mendão | 2026-09-15T16:59:00Z | 2026-09-15T17:00:00Z | Moved release.sh to the workspace parent of all clones; removed it from the plugin package and the local plugin install. |
+| Marco Mendão | 2026-09-15T20:32:00Z | 2026-09-15T20:37:36Z | Added local file-dependency refresh with lockfile preservation, release-version validation, pre-push product checks, and a network-free dry run. |
