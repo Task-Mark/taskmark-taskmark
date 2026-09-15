@@ -638,7 +638,7 @@
   integrity sha512-ldZXEhOBb8Is7xLs01fR3YEc3DERiz5silj8tnGkFZytt1abEvl/GhUmCE0PMLaMPTa3Jk4HbKmRlHmu+gCftg==
 
 "@taskmark/components@file:../taskmark-ui":
-  version "0.5.0"
+  version "1.1.0"
   dependencies:
     "@base-ui/react" "^1.6.0"
     "@number-flow/react" "^0.6.2"
@@ -661,13 +661,13 @@
     tailwind-merge "^3.6.0"
 
 "@taskmark/ui@file:../taskmark-frontend":
-  version "0.5.0"
+  version "1.1.0"
   dependencies:
     "@base-ui/react" "^1.6.0"
     "@number-flow/react" "^0.6.2"
     "@tailwindcss/postcss" "^4"
     "@tanstack/react-table" "^8.21.3"
-    "@taskmark/components" "file:../../../Library/Caches/Yarn/v6/npm-@taskmark-ui-0.5.0-e8ac5225-3caa-4b61-b481-1064f934cc06-1788535231645/node_modules/@taskmark/taskmark-ui"
+    "@taskmark/components" "file:../../../../../var/folders/f0/gbn64ypd5696rc41d0mqjkpm0000gn/T/cursor-sandbox-cache/cfd3d0e53e274c9afabeb1d48d356c10/yarn/v6/npm-@taskmark-ui-1.1.0-62fc90a6-04ed-47d3-80af-7f0596e1cd98-1789503925658/node_modules/@taskmark/taskmark-ui"
     "@types/node" "^20"
     "@types/react" "^19"
     "@types/react-dom" "^19"
