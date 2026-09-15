@@ -6,6 +6,20 @@ The format follows Keep a Changelog, and versions follow SemVer.
 
 ## Unreleased
 
+## 1.2.0 - 2026-09-15
+
+### Added
+
+- Overall and Work items now show a distinct caught-up empty state when the board has work but nothing remains open.
+- Floating worklog messages and presence summaries now show at most three cards.
+- The speedometer day list now shows how many work logs were recorded each day.
+- Worklog message bubbles now place the item tag at the top right.
+
+### Changed
+
+- Floating worklog chrome on local, npx, and Cloud boards can be minimized from the app bar with bookmark icons. Collapsed handles sit above the footer in the bottom corners; hovering a handle or the matching page edge slides the chrome in like a sheet. New worklogs appear as a 10-second toaster stack, a generating AI summary keeps that contributor’s skeleton visible, and Cloud starts minimized with the choice stored in a cookie. The bottom-left handle shows a compact pace icon above today’s count.
+- The speedometer now compares today with a 10-day peak, and falls back to the last day anyone worked on the project when those ten days are idle.
+
 ## 1.1.3 - 2026-09-15
 
 ### Fixed
