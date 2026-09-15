@@ -1,0 +1,64 @@
+---
+id: T-MM-5095ffaa
+type: task
+title: Add a local script to push repos and publish npm packages
+status: done
+priority: high
+size: M
+points: 5
+parent: S-MM-5fb0e29c
+epic: E-MM-d00339e1
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+blocked: false
+cancelled: false
+tags: [release, npm, git]
+created: 2026-09-15
+updated: 2026-09-15T17:00:00Z
+started_at: 2026-09-15T16:54:00Z
+completed_at: 2026-09-15T16:58:00Z
+---
+# T-MM-5095ffaa: Add a local script to push repos and publish npm packages
+
+## Description
+
+Add `release.sh` beside the product clones, outside every git repo and outside the Cursor plugin. After `/tkmd-version` and `/tkmd-commit`, the maintainer runs it locally. It reads the SemVer from the board `package.json`, refuses dirty trees, pushes each product repo (and a matching `v*` tag), ensures npm login, asks for one 2FA code, publishes `@taskmark/components` then `@taskmark/ui` (rewriting the local `file:` dependency to that SemVer for the publish pack only).
+
+## User story
+
+As a maintainer, I run one script as the last release step so git remotes and npm stay on the version already cut on disk.
+
+## Acceptance criteria
+
+- [x] Workspace-root `release.sh` exists, is executable, and prints usage with `--help`.
+- [x] The Cursor plugin does not ship or install a release script.
+- [x] `--dry-run` prints push and publish steps without contacting remotes or the registry.
+- [x] Dirty git roots abort before any push or publish.
+- [x] npm login runs only when `npm whoami` fails; otherwise a 2FA prompt is enough for publish.
+- [x] `@taskmark/ui` is packed with `@taskmark/components` at the released SemVer, not `file:../taskmark-ui`.
+
+## Prompt & feedback
+
+| When (UTC) | Kind | Author | Summary |
+|------------|------|--------|---------|
+| 2026-09-15T16:54:00Z | prompt | Marco Mendão | Create a release script that publishes all npm packages and pushes every repo. Last step after a new version. npm login if needed, then ask for a 2FA code for publish. |
+| 2026-09-15T16:59:00Z | prompt | Marco Mendão | The release script must not live in the Cursor plugin. Put it outside every product repo as an internal deploy tool. |
+| 2026-09-15T17:00:00Z | feedback | Marco Mendão | Keep it next to the clones as `./release.sh`. Default workspace is the script directory. |
+
+## Commits
+
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+
+## Work log
+
+| Actor | Started (UTC) | Ended (UTC) | Summary |
+|-------|---------------|-------------|---------|
+| Marco Mendão | 2026-09-15T16:54:00Z | 2026-09-15T16:58:00Z | Added plugin scripts/release.sh to push product repos, tag the board SemVer, npm login if needed, and publish both public packages with one OTP. |
+| Marco Mendão | 2026-09-15T16:59:00Z | 2026-09-15T17:00:00Z | Moved release.sh to the workspace parent of all clones; removed it from the plugin package and the local plugin install. |
