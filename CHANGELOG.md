@@ -6,6 +6,37 @@ The format follows Keep a Changelog, and versions follow SemVer.
 
 ## Unreleased
 
+## 1.0.0 - 2026-09-15
+
+### Added
+
+- Taskmark Cloud was added as a hosted, shared view of a local markdown board, with sign-in, registration, email verification, and project invitations.
+- Cloud members can create a project, copy and rotate a sync token, and open each project on its own path as a read-only board fed by the latest snapshot.
+- Local `taskmark dev` and `taskmark serve` push board markdown to Cloud from a committed board-root `.config` token, and keep watching files as they change.
+- A Worklog view was added on local and Cloud boards, and Cloud shows a live work-log feed with contributor presence summaries that can be requested from an overflow menu.
+- A Cloud speedometer was added that compares today's work logs with a recent peak, with a sleeping icon on idle days and a compact layout on small screens.
+- Production Docker images for the API and Cloud are published to ECR, with Compose to run them together and a host restart after each publish.
+- Shared board UI now lives in a reusable component package that local, Cloud, and the website consume, and that package can be published to npm.
+- The public website gained a Cloud page with features, FAQ, configuration guidance, login calls to action, and a form for team integration help, plus Cloud docs and a New badge in navigation.
+- `/tkmd-changelog` now includes post-release follow-up notes from Prompt & feedback and Work log rows on already-done work.
+
+### Changed
+
+- Cloud sessions stay signed in for a full day through rotating HttpOnly cookies.
+- On small screens, board list views now switch from a dropdown instead of a wrapping tab row.
+- Cloud live updates use one authenticated event stream instead of repeated polling.
+
+### Removed
+
+- The local board Settings tab for pasting a Cloud sync token was removed; clones share the token through `.config`.
+
+### Fixed
+
+- The local board no longer fails to load when work-log components were missing from the webpack build.
+- Cloud image builds no longer fail a private UI checkout, now that the shared UI repository is public.
+- Idle Cloud speedometer days stay asleep instead of showing an annoyed mood after the end of the day.
+- Each Cloud contributor now has one preview and one full presence summary instead of duplicates.
+
 ## 0.5.0 - 2026-09-01
 
 ### Changed
