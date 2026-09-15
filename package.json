@@ -1,9 +1,9 @@
 {
   "name": "taskmark-taskmark",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "private": true,
   "type": "module",
-  "description": "Taskmark board — npm start / npx taskmark serve (local), or Vercel static hosting via npm run build.",
+  "description": "Taskmark board \u2014 npm start / npx taskmark serve (local), or Vercel static hosting via npm run build.",
   "engines": {
     "node": ">=18"
   },

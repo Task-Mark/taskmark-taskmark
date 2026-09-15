@@ -6,7 +6,7 @@ The format follows Keep a Changelog, and versions follow SemVer.
 
 ## Unreleased
 
-## 1.1.2 - 2026-09-15
+## 1.1.3 - 2026-09-15
 
 ### Fixed
 
