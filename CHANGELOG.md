@@ -6,6 +6,13 @@ The format follows Keep a Changelog, and versions follow SemVer.
 
 ## Unreleased
 
+## 1.1.0 - 2026-09-15
+
+### Added
+
+- Standalone `npx @taskmark/ui` now pushes every configured local board to Cloud in the background, and keeps watching all of them even when another project is selected.
+- The board footer now shows the current product version and a link to the official Taskmark website.
+
 ## 1.0.0 - 2026-09-15
 
 ### Added
