@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Taskmark board \u2014 npm start / npx taskmark serve (local), or Vercel static hosting via npm run build.",
   "engines": {
-    "node": ">=18"
+    "node": "22.x"
   },
   "scripts": {
     "start": "taskmark serve --no-open",
@@ -15,7 +15,7 @@
     "preview": "taskmark preview"
   },
   "dependencies": {
-    "@taskmark/ui": "file:../taskmark-frontend"
+    "@taskmark/ui": "1.2.0"
   },
   "taskmark": {
     "writingLanguage": "English"
