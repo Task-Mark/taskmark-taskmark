@@ -20,7 +20,7 @@ blocked: false
 cancelled: false
 tags: [vercel, npm, board, packaging]
 created: 2026-09-15
-updated: 2026-09-15T23:35:56Z
+updated: 2026-09-16T11:14:00Z
 started_at: 2026-09-15T23:26:00Z
 completed_at: 2026-09-15T23:35:56Z
 ---
@@ -45,6 +45,7 @@ As a visitor, I want the public board site to build on Vercel so the live Taskma
 | When (UTC) | Kind | Author | Summary |
 |------------|------|--------|---------|
 | 2026-09-15T23:26:00Z | prompt | Marco Mendão | Vercel board build cannot find `taskmark`, and Vercel warns about `engines.node` `>=18`. |
+| 2026-09-16T11:14:00Z | prompt | Marco Mendão | Yarn Classic refuses `yarn build` on Node 24.13.0 because board `engines.node` is pinned to `22.x`. |
 
 ## Commits
 
@@ -56,3 +57,4 @@ As a visitor, I want the public board site to build on Vercel so the live Taskma
 | Actor | Started (UTC) | Ended (UTC) | Summary |
 |-------|---------------|-------------|---------|
 | Marco Mendão | 2026-09-15T23:26:00Z | 2026-09-15T23:35:56Z | Pointed the board at published `@taskmark/ui@1.2.0`, pinned `engines.node` to `22.x`, and removed the sibling `file:` lockfile. |
+| Marco Mendão | 2026-09-16T11:14:00Z | 2026-09-16T11:16:00Z | Widened board `engines.node` to `22.x || 24.x` so Yarn Classic can run on Node 24 without dropping the Vercel major pin. |
