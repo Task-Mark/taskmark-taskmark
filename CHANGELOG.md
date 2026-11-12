@@ -6,6 +6,12 @@ The format follows Keep a Changelog, and versions follow SemVer.
 
 ## Unreleased
 
+## 1.3.0 - 2026-11-12
+
+### Added
+
+- Images referenced with a relative path in board markdown (work items, changelog, and reports) now show in the board UI. `taskmark serve` and `taskmark dev` serve them straight from the board folder, and `taskmark build` copies the referenced images into the static export.
+
 ## 1.2.0 - 2026-09-15
 
 ### Added
