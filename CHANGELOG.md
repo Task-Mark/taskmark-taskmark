@@ -6,6 +6,21 @@ The format follows Keep a Changelog, and versions follow SemVer.
 
 ## Unreleased
 
+## 2.0.0 - 2026-11-23
+
+### Added
+
+- Boards can group work under requests: `requests/<slug>/` holds a brief (goal, why, done when, out of scope, open questions), the epics, stories and tasks that deliver it, and an append-only log. Meetings live in `meetings/` with their decisions and tasks. Legacy boards with `epics/` keep working.
+- `npx taskmark migrate [--dry-run]` turns each epic into a request, keeps the old epic id as an alias and marks done tasks as in production.
+- `npx taskmark stages` reads the code repositories from the board and works out each task's stage from the branch its commits reached: development (feature branches or `develop`), testing (`quality`) and production (`main`). It writes `stage`, `shipped_at`, missing commit rows and one log entry per merge, promotion or release. It only uses git, so it works the same for GitHub and Bitbucket.
+- `npx taskmark hooks install` adds two git hooks to the code repositories: one adds `Task: <id>` to commit messages from the branch name, the other refreshes the stages after a pull.
+- Boards with requests open on a new interface with a sidebar: Work (requests and meetings side by side), Requests and the request page (brief, tree with the stage of every task, log and forecast), Roadmap, Client status (what reached main, what is being built and when the rest will likely land), Activity (every work log session by day) and People (each person's share of shipped work). The previous views stay under Board files.
+- Forecasts only count work that reached `main`: the pace is the median of the last six full weeks, with the slower and faster weeks as the range.
+
+### Changed
+
+- Ready requests are shown as Backlog, and shipped work is shown in green.
+
 ## 1.3.0 - 2026-11-12
 
 ### Added
