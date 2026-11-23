@@ -6,6 +6,19 @@ The format follows Keep a Changelog, and versions follow SemVer.
 
 ## Unreleased
 
+## 2.1.0 - 2026-11-23
+
+### Added
+
+- `npx taskmark init` sets a project up in one run, with no Taskmark account: it creates or migrates the board, registers the project with a secret kept out of git, connects GitHub or Bitbucket, stores the project's OpenAI or Claude key, installs the commit hook and writes the agent instructions into `AGENTS.md` and `CLAUDE.md` of each code repository. Running it again changes any answer.
+- On an existing project, `init` reconciles the last 30 commits of every stage branch (development, quality and production) and shows the tasks by stage with the branches they were found on. Links and stage moves are applied; likely closes and new tasks are offered for review.
+- `npx taskmark reconcile` runs that review on its own, `npx taskmark requests regroup` lets the project's AI propose merging related requests, and `npx taskmark secret rotate` replaces the project secret.
+- `/tkmd-plan` and `/tkmd-save` add new work under a request, and `/tkmd-init` hands setup over to `npx taskmark init`.
+
+### Changed
+
+- The GitHub and Bitbucket App starts in write mode, reconciles direct pushes to develop, quality and main like merged pull requests, and reads the board from its repository.
+
 ## 2.0.1 - 2026-11-23
 
 ### Added
