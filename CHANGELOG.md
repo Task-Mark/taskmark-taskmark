@@ -6,6 +6,20 @@ The format follows Keep a Changelog, and versions follow SemVer.
 
 ## Unreleased
 
+## 2.0.1 - 2026-11-23
+
+### Added
+
+- The Taskmark App for GitHub and Bitbucket reconciles the board on every push and merged pull request: it links commits to tasks, writes the work log, moves tasks to their stage and closes a task on its own only with an explicit id, every acceptance criterion covered and green CI. Everything else waits in a review inbox. New connections start in shadow mode and only comment on the pull request.
+- `npx taskmark ai set --provider anthropic|openai` gives the App the project's own Claude or OpenAI key for reconciliation; `ai status` and `ai clear` show or remove it.
+- `npx taskmark app connect github|bitbucket` connects the board and its code repositories to the App; `app status`, `app mode shadow|write`, `app enable` and `app disable` manage the connection.
+
+### Changed
+
+- AI agents treat the board as a read-only reference: `/tkmd-do` uses the task as the spec, never edits the board and works on a branch named after the task. `/tkmd-plan` and `/tkmd-save` still create new items. `/tkmd-shelf` is removed.
+- `npx taskmark stages` only shows the stage each task has reached, and `npx taskmark hooks install` only adds the hook that puts the task id in commits (it removes the old post-merge hook).
+- The documentation explains how to use Taskmark with any AI agent, not only Cursor.
+
 ## 2.0.0 - 2026-11-23
 
 ### Added
