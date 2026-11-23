@@ -51,6 +51,25 @@
   resolved "https://registry.npmjs.org/@chevrotain/types/-/types-11.1.2.tgz"
   integrity sha512-U+HFai5+zmJCkK86QsaJtoITlboZHBqrVketcO2ROv865xfCMSFpELQoz1GkX5GzME8pTa+3kbKrZHQtI0gdbw==
 
+"@clack/core@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.npmjs.org/@clack/core/-/core-1.6.0.tgz"
+  integrity sha512-4GZynIB2IIe431odxesswvWTCP6orvqd6e2b07b3VFWBQRqUqIHc/EPIZwFoKS692QBp+ooPuXKaJV8g4kXuYA==
+  dependencies:
+    fast-string-width "^3.0.2"
+    fast-wrap-ansi "^0.2.0"
+    sisteransi "^2.0.0"
+
+"@clack/prompts@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.npmjs.org/@clack/prompts/-/prompts-1.9.0.tgz"
+  integrity sha512-tEj8X2No2A1c9NDnZECxiiJ8TP3vmFlN9tLlLeSaMqVW4tUmVG2R4qpv/eP4zymWxnymYLkLcIYVV0VcWj3RCQ==
+  dependencies:
+    "@clack/core" "1.6.0"
+    fast-string-width "^3.0.2"
+    fast-wrap-ansi "^0.2.0"
+    sisteransi "^2.0.0"
+
 "@date-fns/tz@^1.2.0", "@date-fns/tz@^1.4.1":
   version "1.5.0"
   resolved "https://registry.npmjs.org/@date-fns/tz/-/tz-1.5.0.tgz"
@@ -291,10 +310,10 @@
   resolved "https://registry.npmjs.org/@tanstack/table-core/-/table-core-8.21.3.tgz"
   integrity sha512-ldZXEhOBb8Is7xLs01fR3YEc3DERiz5silj8tnGkFZytt1abEvl/GhUmCE0PMLaMPTa3Jk4HbKmRlHmu+gCftg==
 
-"@taskmark/components@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/@taskmark/components/-/components-2.0.1.tgz"
-  integrity sha512-QGjgy65yhD2OWSlAQTXy6A3P7wAnbZ1IRdEq3OTV2tSX6Qu16/Y8jjOc3NaEc7vaz0B0GTdY5dSxHuvevP2OzQ==
+"@taskmark/components@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/@taskmark/components/-/components-2.1.0.tgz"
+  integrity sha512-Goves+bVpEgP3mi+gm1E7PNnH3TNCbWEYrYHQcKVU0NgSaxn3GTWebW2Wi8P2a2usWPsmo7ICxcf/u6Q/pZl9g==
   dependencies:
     "@base-ui/react" "^1.6.0"
     "@number-flow/react" "^0.6.2"
@@ -316,16 +335,17 @@
     sonner "^2.0.7"
     tailwind-merge "^3.6.0"
 
-"@taskmark/ui@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/@taskmark/ui/-/ui-2.0.1.tgz"
-  integrity sha512-c730O43AofY+vWAzHnJwcqNwBdeB62CabC5bndqH9q+A687vmrp5hjmMrEeQ663xbVBk4INAr2vmAN61QWmXvQ==
+"@taskmark/ui@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/@taskmark/ui/-/ui-2.1.0.tgz"
+  integrity sha512-gYh/7lAqFtFsJ+c9P27f00B9USLaQvUF6iNeuCO16saOCDUjlTH2C+KqBkkvjvzyZZU77125+Yj6OxCYl5cZUA==
   dependencies:
     "@base-ui/react" "^1.6.0"
+    "@clack/prompts" "^1.9.0"
     "@number-flow/react" "^0.6.2"
     "@tailwindcss/postcss" "^4"
     "@tanstack/react-table" "^8.21.3"
-    "@taskmark/components" "2.0.1"
+    "@taskmark/components" "2.1.0"
     "@types/node" "^20"
     "@types/react" "^19"
     "@types/react-dom" "^19"
@@ -1198,6 +1218,25 @@ extend@^3.0.0:
   version "3.0.2"
   resolved "https://registry.npmjs.org/extend/-/extend-3.0.2.tgz"
   integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
+
+fast-string-truncated-width@^3.0.2:
+  version "3.0.3"
+  resolved "https://registry.npmjs.org/fast-string-truncated-width/-/fast-string-truncated-width-3.0.3.tgz"
+  integrity sha512-0jjjIEL6+0jag3l2XWWizO64/aZVtpiGE3t0Zgqxv0DPuxiMjvB3M24fCyhZUO4KomJQPj3LTSUnDP3GpdwC0g==
+
+fast-string-width@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.npmjs.org/fast-string-width/-/fast-string-width-3.0.2.tgz"
+  integrity sha512-gX8LrtNEI5hq8DVUfRQMbr5lpaS4nMIWV+7XEbXk2b8kiQIizgnlr12B4dA3ZEx3308ze0O4Q1R+cHts8kyUJg==
+  dependencies:
+    fast-string-truncated-width "^3.0.2"
+
+fast-wrap-ansi@^0.2.0:
+  version "0.2.2"
+  resolved "https://registry.npmjs.org/fast-wrap-ansi/-/fast-wrap-ansi-0.2.2.tgz"
+  integrity sha512-7F2Fl+TjRSenLqlU3UjSH0iyqopqoZIu7eZVpEirP2g1GtWa2G/ecEmBdgz31+Mxr+ELclgg6sokpSFIQiZ02Q==
+  dependencies:
+    fast-string-width "^3.0.2"
 
 fastdom@1.0.12:
   version "1.0.12"
@@ -2185,6 +2224,11 @@ sharp@^0.34.5:
     "@img/sharp-win32-arm64" "0.34.5"
     "@img/sharp-win32-ia32" "0.34.5"
     "@img/sharp-win32-x64" "0.34.5"
+
+sisteransi@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/sisteransi/-/sisteransi-2.0.0.tgz"
+  integrity sha512-2WCqLdt12eN6ehLI50S2/ZxoowXU3DD1KVPRyVP0WEsFahrGZZmCdq1K59qjJljMRIDTwx1D9YaRK+hDneBUMg==
 
 sonner@^2.0.7:
   version "2.0.8"
