@@ -1,0 +1,69 @@
+---
+id: T-229
+type: task
+title: Single-repo and multi-repo board layout
+status: done
+priority: medium
+size: M
+size_source: suggested
+size_basis: []
+points: 3
+points_source: suggested
+estimate_minutes: 40
+actual_minutes: 0
+estimate_source: suggested
+estimate_basis: [speed:90d:14min/pt]
+session_cap_minutes: 480
+parent: S-075
+epic: E-019
+owner: ""
+reporters:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+resolvers:
+  - name: "Marco Mendão"
+    email: "marco.mendao@betacode.tech"
+    initials: "MM"
+blocked: false
+cancelled: false
+tags: [docs, website, documentation]
+created: 2026-07-28
+updated: 2026-08-28T12:37:43.783Z
+started_at: 2026-07-28T07:43:14Z
+completed_at: 2026-07-28T07:51:14Z
+actual_ms: 26182
+stage: production
+shipped_at: 2026-07-28T07:51:14Z
+---
+# T-229: Single-repo and multi-repo board layout
+
+## Description
+
+Document board location rules and that the board is never copied into every product repo.
+
+## Acceptance criteria
+
+- [x] Single vs multi diagrams or clear trees present
+- [x] REPOS.md role explained
+
+## Notes
+
+Slash command names on the site should prefer `/new-*` where that is the Cursor command; mention `create-*` skill names alongside when helpful.
+
+## Prompt & feedback log
+
+| # | When (UTC) | Kind | Author | Summary |
+|---|------------|------|--------|---------|
+| 1 | 2026-07-28T07:40:05Z | prompt | Marco Mendão | Create documentation epic covering setup, commands (/create-epic, /create-task, /create-story, /start-work, /commit-all and others), folder structure, sizing and story points, velocity, README dashboard, and related topics; create stories and tasks |
+
+## Commits
+
+| SHA | Repo | Date (UTC) | Author | Message |
+|-----|------|------------|--------|---------|
+
+## Work log
+
+| Session | Actor | Started (UTC) | Ended (UTC) | Summary |
+|---------|-------|---------------|-------------|---------|
+| 1 | Marco Mendão | 2026-07-28T07:43:14.000Z | 2026-07-28T07:43:40.182Z | Single and multi-repo layout docs; shared-batch: 26182 of 480000ms by points |
